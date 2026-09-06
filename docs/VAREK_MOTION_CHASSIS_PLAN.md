@@ -1,7 +1,7 @@
 ---
 plan_id: thulan-varek-motion-chassis-v1
-plan_valid_as_of: 2026-09-06T17:34:45-06:00
-git_commit: a689b1dcc04ef2e44d2b98eb08d169782424ce7e
+plan_valid_as_of: 2026-09-06T17:46:59-06:00
+git_commit: 29b9e4d911831a38ddc2bc7e5f87c84814bec085
 files_affected: 1 tracked plan checkpoint; future execution creates a builder, validator, candidate blend, and review evidence
 reversible: yes
 blast_radius: new Varek greybox candidate only; no existing blend or Shot 01 scene may be opened or changed
@@ -93,6 +93,13 @@ The future builder must:
 - Pilot height and joint locations are recorded as `PROVISIONAL_MEASURED`, not canon.
 - Pilot head, shoulders, elbows, pelvis, knees, and feet must remain inside their
   corresponding hull/frame envelopes in neutral and test poses.
+- Human shoulder, elbow, hip, knee, and ankle centers must remain within documented
+  provisional offsets from the corresponding chassis articulation centers in every
+  test pose. V1 measures and reports those offsets; it does not invent an acceptance
+  number. Any pose requiring anatomical dislocation, limb-length change, or impossible
+  human joint rotation fails human review.
+- The `2.4384 m` value is a production chassis normalization target, not a claim of
+  biological precision.
 
 ## Required poses at 24 fps
 
@@ -103,24 +110,50 @@ These are clearance tests, not final animation:
 | 1 | neutral service stance | human placement and complete silhouette |
 | 24 | mid-stride | leg clearance and visible weight shift |
 | 48 | planted stance | both ground contacts established |
-| 60 | Anchor State deployed | selected ground interface opened and pelvis lowered |
+| 60 | Anchor State deployed | debris outriggers opened and pelvis lowered |
 | 72 | overhead catch | hands/yoke aligned beneath a proxy load |
 | 96 | sustained brace | frame remains planted and visually continuous |
 
 ## Trailer Pose Gate
 
-PASS requires:
+Machine PASS requires:
 
-- no planted-foot translation greater than `0.002 m` from frames 48–96;
+- no primary foot-chassis reference-point translation greater than `0.002 m` from
+  frames 48–96; deployment parts may articulate relative to the stationary feet;
 - no ground-contact penetration or floating greater than `0.002 m`;
 - no rigid module non-uniform scaling or blended bending;
-- no gross intersection at helmet/yoke, shoulder/rail, pelvis/hip, knee, ankle, hand,
-  powerplant, or Gren-Skildus interfaces;
+- no bounding-volume or mesh penetration above a provisional, predeclared collision
+  threshold for enumerated interface pairs: helmet/yoke, shoulder/rail, pelvis/hip,
+  knee, ankle, hand/tool-proxy, powerplant/load-frame, and Gren-Skildus/torso;
 - hands can meet the overhead proxy without shoulder disassembly;
-- deployed anchor geometry visibly contacts the chosen substrate;
+- debris-outrigger geometry visibly contacts the substrate at frame 60;
+- rock-pin and structural-clamp modes pass isolated neutral deployment checks and are
+  excluded from the frame 48–96 planted-foot metric.
+
+The collision threshold and the collision representation used for each pair must be
+declared in the builder contract before execution. They remain provisional test values,
+not anatomical or engineering canon.
+
+Human review PASS requires:
+
+- no visually unacceptable collision, clipping, implausible clearance, or silhouette
+  collapse;
 - front, rear, side, and three-quarter clay views preserve the approved industrial
   silhouette and show a continuous yoke-to-ground load path;
-- the human envelope remains legible inside the machine.
+- the human envelope remains legible and plausible inside the machine;
+- the design reads as Thulan rescue infrastructure rather than conventional power
+  armor.
+
+Machine PASS does not equal chassis approval. Only Aaron may approve silhouette, human
+plausibility, industrial identity, Thulan continuity, and absence of conventional
+power-armor drift.
+
+## Diagnostic support check
+
+At frames 48, 60, 72, and 96, report the projected chassis reference center relative
+to the measured ground-contact support polygon. This is diagnostic only. It establishes
+neither physical stability nor structural/load capacity, and does not justify a physics
+simulation in V1.
 
 ## Evidence outputs
 
@@ -134,10 +167,18 @@ Generated, non-promoted outputs:
 - `evidence/varek-motion-chassis-v1/three-quarter-clay.png`
 - `evidence/varek-motion-chassis-v1/trailer-pose-clay.png`
 
-The measurement record must bind the source concept hash, candidate blend hash,
-Blender version, scene units, overall height, ground contacts, provisional pilot
-measurements, object-scale inventory, rigid-driver inventory, pose-frame contacts, and
-every PASS/FAIL result.
+The measurement record must bind:
+
+- source concept hash and candidate blend hash;
+- `plan_id`, plan Git commit, and plan-file SHA-256;
+- source Git commit and clean/dirty repository state;
+- builder-script and validator-script SHA-256;
+- OS/platform, resolved Blender executable, Blender version, embedded Python version,
+  and UTC build timestamp;
+- scene units, overall height, ground contacts, provisional pilot measurements and
+  pilot-to-chassis joint offsets;
+- object-scale inventory, rigid-driver inventory, enumerated collision-pair results,
+  pose-frame contacts, diagnostic support-center results, and every PASS/FAIL result.
 
 ## Gate sequence
 
@@ -153,6 +194,7 @@ plan audit
   -> Aaron human chassis decision
 ```
 
-Failure preserves the candidate and evidence for diagnosis but does not promote it.
-There is no automatic second build. A repeat requires a new measured cause and a
-revised plan.
+Pre-build failures create only a failure record. Post-build failures preserve the
+generated candidate and all evidence produced up to the failure point, but do not
+promote it. There is no automatic second build. A repeat requires a new measured cause
+and a revised plan.
