@@ -1,0 +1,15 @@
+# Blender working files and recovery copies
+*.blend
+*.blend1
+*.blend2
+
+# Render output and caches
+renders/
+cache/
+__pycache__/
+*.pyc
+
+# Editors and operating system
+.vscode/
+.DS_Store
+Thumbs.db

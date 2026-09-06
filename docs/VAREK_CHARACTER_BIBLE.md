@@ -23,7 +23,7 @@
 ## 3. The Tectonic Anchor Rig & The Permanent Cost
 * **The Living Coffin:** Surgically and biologically grafted into a deep-strata structural rescue exoskeleton. The rig is his lungs, dialyzer, and spinal brace. Opening the chassis is fatal.
 * **The Lost Touch:** He has not touched human skin since his childhood transformation. His mother's face was the last skin he ever touched.
-* **The Green Pauldron (*Gren-Skildus*):** Hand-hammered by his mortal family's smiths from native green ore before the suit was welded shut. It is his physical wedding band to his mortal family.
+* **The Gren-Skildus Ancestral Load Plate:** Hand-hammered by his mortal family's smiths from native green ore before the rig was welded shut. It is his physical wedding band to his mortal family.
 * **Sensory Contrast:** Deafening industrial machine outside (diesel exhaust, iron clomp, hydraulic sigh); quiet, restrained, gentle voice within.
 
 ---
@@ -42,5 +42,5 @@
 * **The Flaw Inside the Virtue:** Varek cannot stand idle while someone else dies.
 * **The Void's Leverage:** The hyper-spatial intelligence speaking through the breached Interstice does not offer power or deceit; it offers the somatic strength to hold up the collapsing mountain for fleeing mortals:
   > *“You would endure anything to save them. So endure me.”*
-* **The Climax at Measure 160 (`5:18`–`5:58`):** Varek locks into *Anchor State*, accepts the crushing burden, and roars:
+* **The Climax:** Varek locks into *Anchor State*, accepts the crushing burden, and roars. Exact soundtrack timing remains open until the 5:32.544 master receives a measured beat map:
   > ***“SO ENDURE ME!”***

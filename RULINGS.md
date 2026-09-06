@@ -26,8 +26,8 @@
 * **Status:** LOCKED
 * **Scope:** Character design / physiology / animation / sound / lore
 * **Decision:** Varek is permanently integrated into a Tectonic Heavy Rig. The rig originated as a deep-strata structural rescue frame designed for Thulan work in collapsing mines, geothermal environments, toxic shafts, and extreme load-bearing conditions.
-* **Permanent Encasing:** The suit is both life-support system and prison. Varek cannot safely remove it. He has been unable to touch another human with bare skin since his final integration.
-* **Gren-Skildus:** The green pauldron remains Varek's primary human and familial relic, worked by his Hearth and *Giba-Broþrans* before final closure.
+* **Permanent Encasing:** The rig is both life-support system and prison. Varek cannot safely leave it. He has been unable to touch another human with bare skin since his final integration.
+* **Gren-Skildus:** The green ancestral load plate remains Varek's primary human and familial relic, worked by his Hearth and *Giba-Broþrans* before final closure.
 * **Sound Identity:** Heavy iron footfall, pneumatic pressure releases, hydraulic load response, low mechanical engine pulse, chain movement, and respirator breathing contrasted with a restrained, gentle voice.
 * **Core Character Payoff:** Response to observers calling him a machine/god: **“I had a mother.”**
 * **Open Narrative Items:** Reveal timing of Varek's permanent encasing: OPEN.
@@ -51,7 +51,7 @@
 * **Dimensional Separation:**
   * **The Interstice:** The breached extradimensional realm/place opened by deep drilling through the *Frum-Skeirs* bedrock in *The Hollow*.
   * **The Void:** The cold, hyper-spatial intelligence speaking and acting through the Interstice.
-* **The Climax at Measure 160 (`5:18`–`5:58`):** When the mountain collapses, Varek locks into *Anchor State* to hold the ceiling. The Void offers the somatic strength through the Interstice to hold the weight in exchange for his sovereignty: *“You would endure anything to save them. So endure me.”* Varek roars: ***“SO ENDURE ME!”***
+* **The Climax:** When the mountain collapses, Varek locks into *Anchor State* to hold the ceiling. The Void offers the somatic strength through the Interstice to hold the weight in exchange for his sovereignty: *“You would endure anything to save them. So endure me.”* Varek roars: ***“SO ENDURE ME!”*** Exact music time remains **OPEN** pending a measured beat map of the 5:32.544 master.
 
 ---
 
@@ -106,3 +106,53 @@
 * **Varek's Lethal Question:**
   > *(Priesthood proclaims a newly opened vein after a blood rite)*  
   > **Varek:** **“When was it surveyed?”**
+
+---
+
+## RULING 010: V4 Visual Gate & Engineering-Evidence Boundary
+* **Status:** LOCKED PROCESS RULING / V4 REVISE
+* **Scope:** Character concept, dimensional authority, Blender authorization
+* **Locked:** Total assembled height is exactly **2.4384 m (8 ft)**. Varek has an
+  approximately **three-tonne presence**.
+* **Unmeasured:** Eye height, shoulder span, pilot envelope, mass breakdown, cylinder
+  dimensions, pressure, stroke, temperature, impact energy, anchor penetration, and
+  load rating remain provisional until derived from an approved chassis.
+* **Load Rule:** The dominant structural load bypasses the pilot through the external
+  frame. Residual vibration, acceleration, heat, pressure, and structural force still
+  reach his body.
+* **Visual Requirement:** A four-view sheet plus neutral human-envelope inset must prove
+  the load path, integrated powerplant, pilot placement, asymmetric Gren-Skildus,
+  industrial tool station, and three-substrate Anchor State architecture.
+* **Vocabulary:** Technical documents use `Gren-Skildus ancestral load plate`,
+  `integrated diesel-hydraulic powerplant`, `external structural frame`, `protective
+  hull`, `industrial tool station`, and `thoracic load cage`.
+* **Gate State:** Silhouette unapproved; engineering dimensions unmeasured; Blender
+  chassis blocked; Shot 01 rejected and must not run; Git provenance not established.
+* **Component Rule:** If a component can be removed without affecting load transfer,
+  rescue capability, human survival, or machine serviceability, it must justify its
+  existence before entering the silhouette.
+
+---
+
+## RULING 011: V4 Four-View Silhouette Approval
+* **Status:** APPROVED BY AARON / SILHOUETTE LOCKED
+* **Scope:** V4 generated four-view architecture and terminal concept refinement
+* **Passed:** 2.4384 m overall scale direction, human placement concept, dominant load-
+  path readability, integrated spinal powerplant, three-mode anchor architecture,
+  Fault Maul direction, guarded thermal shear direction, and non-military industrial
+  identity.
+* **Bounded Revision:** Only precision manipulator hands, protective operator-cell head
+  language, and handmade Gren-Skildus surface/history language may change.
+* **Gren-Skildus Script:** Existing white pseudo-glyphs are rejected placeholders and
+  are not Thulan writing or canon.
+* **Frozen:** Primary silhouette architecture, proportions, yoke-to-ground load path,
+  powerplant, pelvis, legs, anchors, tools, four-view structure, and overall palette.
+* **Deferred:** A dedicated medical/engineering anatomical plate may later define the
+  cost of Thulan integration; it does not expand the current silhouette gate.
+* **Human Approval:** Aaron approved the bounded-refinement sheet with the explicit
+  response **“1000%”** on 2026-09-06. Approval is bound to the PNG SHA-256 recorded in
+  `evidence/concepts/varek-v4-silhouette-approval.json`.
+* **Authorized Next:** Establish project provenance and write the measured Blender
+  motion-chassis execution plan.
+* **Still Blocked:** Blender execution, Shot 01, and exact engineering dimensions remain
+  blocked pending motion-chassis plan QA.

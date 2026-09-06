@@ -134,15 +134,15 @@ Because space is vertical, military conflict in the Mountain follows unique indu
 
 ---
 
-## 6. Varek’s Armor: The Tectonic Anchor Rig
+## 6. Varek’s Machine: The Tectonic Anchor Rig
 
 ```
                      [ THE BLAST-HELMET ]
          Narrow armored quartz slit • Heavy sulfur respirators
          Soot-stained cast iron • No glass domes
                                │
-       [ GREN-SKILDUS ]                  [ POWER UNIT ]
-   The Green Pauldron (Left)          Rear diesel-hydraulic block
+       [ GREN-SKILDUS ]                  [ POWERPLANT / SPINE ]
+   Ancestral Load Plate (Left)        Integrated diesel-hydraulic block
    Hand-hammered ancestral metal       Radiator fins & steam bleed vents
    Stitched clan runes                Soot exhaust pipes over shoulders
                                │
@@ -155,8 +155,8 @@ Because space is vertical, military conflict in the Mountain follows unique indu
          Heel-deployed bedrock anchor spikes (The Anchor State)
 ```
 
-* **Permanent Encasing:** Varek is surgically grafted into his deep-strata structural rescue rig. The suit is his artificial lungs, dialyzer, and spinal brace. He cannot safely remove it and will never touch human skin again.
-* **Gren-Skildus (The Green Pauldron):** The final plate hammered by his mortal family's smiths before the suit was sealed—his eternal wedding band to his mortal *Giba-Broþrans*.
+* **Permanent Encasing:** Varek is surgically grafted into his deep-strata structural rescue rig. The machine is his artificial lungs, dialyzer, and spinal brace. He cannot safely leave it and will never touch human skin again.
+* **Gren-Skildus (Ancestral Load Plate):** The final plate hammered by his mortal family's smiths before the rig was sealed—his eternal wedding band to his mortal *Giba-Broþrans*.
 * **The Living Payoff:**
   > *“It’s not a man. It’s an ancient machine.”*  
   > *(Hiss of the respirator)*  
@@ -169,11 +169,11 @@ Because space is vertical, military conflict in the Mountain follows unique indu
 When the hollow mountain finally suffers cascading structural collapse:
 1. **The Archons Launch:** Elite atmospheric arks blast off through the cloud barrier toward the outer continents.
 2. **The Mountain Fails:** Billions of tons of basalt buckle inward; the false god crumbles.
-3. **The Thulan Stands:** In the deep sectors, Varek steps between the falling ceiling and the fleeing families, locking his hydraulic armor into *Anchor State*.
+3. **The Thulan Stands:** In the deep sectors, Varek steps between the falling ceiling and the fleeing families, locking his external structural frame into *Anchor State*.
 4. **The Void's Precision Strike:**
    * The corrupted state told millions: *“Endure because you must.”*
    * The Void tells Varek: *“Endure because someone else will die if you don't.”*
    * The Void traps Varek by speaking his **pure, ancient truth**, not the state's corrupted lie:
      > *“You would endure anything to save them. So endure me.”*
-5. **Measure 160 (`5:18`–`5:58`):** Varek roars:
+5. **Climactic music placement OPEN pending measured 5:32.544 beat map:** Varek roars:
    > ***“SO ENDURE ME!”***

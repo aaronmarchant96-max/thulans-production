@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V4_SILHOUETTE",
+  "decision": "APPROVED",
+  "approved_by": "Aaron",
+  "approval_text": "1000%",
+  "approved_at": "2026-09-06T17:30:44-06:00",
+  "artifact": {
+    "path": "assets/concepts/varek-v4-four-view-approved.png",
+    "sha256": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+  },
+  "approved_scope": [
+    "primary silhouette",
+    "dominant load-path architecture",
+    "integrated spinal powerplant",
+    "precision manipulator direction",
+    "operator-cell direction",
+    "Gren-Skildus handmade surface direction",
+    "three-mode anchor architecture",
+    "Fault Maul and guarded thermal shear direction"
+  ],
+  "not_approved": [
+    "exact engineering dimensions beyond 2.4384 m overall height",
+    "Blender geometry",
+    "rig architecture",
+    "deformation",
+    "Shot 01"
+  ]
+}
