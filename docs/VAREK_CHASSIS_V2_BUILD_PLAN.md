@@ -1,7 +1,7 @@
 ---
 plan_id: varek-chassis-v2-concept-faithful-static
-plan_valid_as_of: 2026-09-06T22:12:05-06:00
-git_commit: 2de408c2ee4ce835946a98a82ab4fbebeb61f138
+plan_valid_as_of: 2026-09-06T22:18:48-06:00
+git_commit: 2a56a714bb25980ac9f56d7800de9e13c015a736
 files_affected: 4 tracked implementation files plus one ignored blend and six review renders
 reversible: yes
 blast_radius: new V2 static chassis candidate only; V1 diagnostic, approved concept, lore, and Shot 01 remain unchanged
@@ -112,6 +112,10 @@ tertiary: hose placeholders, fastener markers, service brackets
 ```
 
 Tertiary forms may not enter the silhouette or disguise unresolved primary structure.
+V2A permits at most 48 tertiary placeholder objects. The evidence reports their count
+and collection membership. The builder must also support hiding all tertiary forms for
+a primary-only diagnostic without changing or saving the frozen candidate; that render
+is requested only if the normal review cannot distinguish structure from clutter.
 
 ## Reuse and provenance
 
@@ -153,6 +157,12 @@ Required views:
 5. three-quarter perspective;
 6. human-envelope cutaway/overlay.
 
+The cutaway is review-only. It is generated from the frozen candidate using temporary
+visibility, collection isolation, clipping, or ephemeral duplicate display objects.
+No production geometry may be deleted, cut, reshaped, modifier-applied, or saved in a
+different state to create the cutaway. Candidate SHA-256 must remain identical before
+and after all six renders.
+
 Cycles is deliberately blocked during V2A. Materials, contact-shadow realism, and
 volumetrics cannot compensate for a wrong chassis.
 
@@ -171,6 +181,24 @@ Aaron alone decides whether:
   cockpit-mech drift.
 
 A machine PASS cannot approve those claims.
+
+## Provisional proportion readback
+
+The first V2A evidence record measures the following without applying PASS/FAIL targets:
+
+- total silhouette width at the widest yoke/shoulder point;
+- protected operator-cell width;
+- pelvis width;
+- stance width between ground-contact reference centers;
+- head-to-yoke clearance;
+- Gren-Skildus projected front-view area;
+- complete machine depth in character-side view;
+- pilot-envelope bounding dimensions.
+
+Every value is labeled `PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON`. These are
+diagnostic composition anchors, not biological or engineering canon. They exist so a
+human visual rejection can produce a measured correction instead of an unbounded
+subjective rebuild.
 
 ## Evidence and failure behavior
 
