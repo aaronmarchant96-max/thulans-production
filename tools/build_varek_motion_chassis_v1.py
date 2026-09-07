@@ -429,7 +429,7 @@ def build_scene(contract):
         look_at(lamp, (0.0, 0.0, 1.2))
         refs.objects.link(lamp)
 
-    scene.render.engine = "BLENDER_EEVEE_NEXT"
+    scene.render.engine = "BLENDER_EEVEE"
     scene.render.resolution_x = 720
     scene.render.resolution_y = 900
     scene.render.resolution_percentage = 100
