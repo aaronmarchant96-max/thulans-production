@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "varek-chassis-v2-concept-faithful-static",
+  "approved_concept": {
+    "path": "assets/concepts/varek-v4-four-view-approved.png",
+    "sha256": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+  },
+  "negative_fixture": {
+    "path": "blender/candidates/varek-motion-chassis-v1.blend",
+    "sha256": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e"
+  },
+  "dimensions_m": {
+    "overall_height_target": 2.4384,
+    "overall_height_tolerance": 0.0005,
+    "ground_z_target": 0.0,
+    "ground_z_tolerance": 0.00025
+  },
+  "render": {
+    "engine": "BLENDER_WORKBENCH",
+    "light": "MATCAP",
+    "resolution_x": 720,
+    "resolution_y": 900,
+    "views": [
+      ["front-clay.png", "Cam_Front"],
+      ["rear-clay.png", "Cam_Rear"],
+      ["character-left-clay.png", "Cam_CharacterLeft"],
+      ["character-right-clay.png", "Cam_CharacterRight"],
+      ["three-quarter-clay.png", "Cam_ThreeQuarter"],
+      ["human-cutaway-clay.png", "Cam_Cutaway"]
+    ]
+  },
+  "required_collections": [
+    "00_REFERENCE",
+    "01_PILOT_ENVELOPE",
+    "02_OPERATOR_HULL",
+    "03_LOAD_FRAME",
+    "04_POWERPLANT",
+    "05_GROUND_INTERFACE",
+    "06_MANIPULATORS",
+    "07_TERTIARY",
+    "08_QA_CAMERAS"
+  ],
+  "required_primary_objects": [
+    "Operator_Cell",
+    "Thoracic_Hull",
+    "Yoke_Arch_Front",
+    "Yoke_Arch_Rear",
+    "Thoracic_Rail_L",
+    "Thoracic_Rail_R",
+    "Dorsal_Rail_L",
+    "Dorsal_Rail_R",
+    "Powerplant_Core",
+    "Pelvic_Clevis",
+    "Gren_Skildus",
+    "Tool_Interface_R",
+    "Foot_Base_L",
+    "Foot_Base_R",
+    "Manipulator_Palm_L",
+    "Manipulator_Palm_R"
+  ],
+  "tertiary_object_max": 48,
+  "external_asset_count": 0,
+  "claim_boundary": {
+    "proportions_are_canon": false,
+    "machine_pass_equals_visual_approval": false,
+    "workbench_approves_materials": false,
+    "static_candidate_proves_articulation": false
+  }
+}
