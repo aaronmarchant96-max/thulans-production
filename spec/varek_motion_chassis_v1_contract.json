@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "thulan-varek-motion-chassis-v1",
+  "approved_concept": {
+    "path": "assets/concepts/varek-v4-four-view-approved.png",
+    "sha256": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+  },
+  "scene": {
+    "unit_system": "METRIC",
+    "unit_scale": 1.0,
+    "fps": 24,
+    "frame_start": 1,
+    "frame_end": 96
+  },
+  "dimensions_m": {
+    "overall_height_target": 2.4384,
+    "overall_height_tolerance": 0.0005,
+    "ground_z_target": 0.0,
+    "ground_z_tolerance": 0.00025
+  },
+  "motion": {
+    "primary_foot_translation_max_m": 0.002,
+    "ground_contact_error_max_m": 0.002,
+    "overhead_hand_contact_gap_max_m": 0.02,
+    "tracked_frames": [1, 24, 48, 60, 72, 96],
+    "planted_frames": [48, 60, 72, 96],
+    "trailer_anchor_mode": "DEBRIS_OUTRIGGER",
+    "isolated_static_modes": ["ROCK_PIN", "STRUCTURAL_CLAMP"]
+  },
+  "collision": {
+    "representation": "WORLD_AXIS_ALIGNED_BOUNDING_BOX",
+    "provisional_penetration_max_m": 0.005,
+    "pairs": [
+      ["Hull_Helmet", "Frame_Yoke_Top"],
+      ["Joint_Shoulder_L", "Frame_Thoracic_Rail_L"],
+      ["Hull_Pelvis", "Frame_Shin_L"],
+      ["Frame_Femur_L", "Frame_Shin_L"],
+      ["Frame_Shin_L", "Foot_Chassis_L"],
+      ["Manipulator_Hand_R", "Tool_Proxy_R"],
+      ["Powerplant_Core", "Frame_Dorsal_Left"],
+      ["Gren_Skildus", "Hull_Thoracic"]
+    ]
+  },
+  "required_collections": [
+    "00_REFERENCE",
+    "01_PILOT_ENVELOPE",
+    "02_HUMAN_HULL",
+    "03_LOAD_FRAME",
+    "04_POWERPLANT",
+    "05_GROUND_INTERFACE",
+    "06_CONTROLS",
+    "07_QA_CAMERAS"
+  ],
+  "required_pose_labels": {
+    "1": "NEUTRAL_SERVICE",
+    "24": "MID_STRIDE",
+    "48": "PLANTED",
+    "60": "DEBRIS_OUTRIGGER_DEPLOYED",
+    "72": "OVERHEAD_CATCH",
+    "96": "SUSTAINED_BRACE"
+  },
+  "claim_boundary": {
+    "production_height_is_biological_precision": false,
+    "support_center_proves_stability": false,
+    "collision_pass_equals_human_approval": false,
+    "machine_pass_equals_chassis_approval": false
+  }
+}
