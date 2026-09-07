@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_CHASSIS_V2A1_MACHINE",
+  "overall": "PASS",
+  "human_approval": "REQUIRED",
+  "plan_id": "varek-chassis-v2a1-primary-massing-salvage",
+  "plan_git_commit": "bafbcb96d9ca09ce09612356e3f5142bac67fae8",
+  "plan_file_sha256": "7afe4e523dfbe59440c5f0ae55fff162233950fcaccf356fedeb2b65a79ed9ad",
+  "contract_file_sha256": "3ea23b45c83359b72aa48941b6aadb11ae4e708b0314de536fcb60744ca60a3d",
+  "builder_script_sha256": "7d742b7ccbc88abb4084abc54789e1c3f4ecdff31393b35e2e3bf39cd7000d3e",
+  "validator_script_sha256": "af66bdf96b4704be53c076099cab63652fdf6df0472440e70a3ea91499e34726",
+  "procedural_helper_sha256": "21f6b1f9475f4b8460dea7506792982d76a867617c830353ebe5c98867c9ed49",
+  "source_git_commit": "48151bf8e34dc39b82f5f641f61c1737a7faa269",
+  "source_repository_state": "CLEAN",
+  "approved_concept_sha256": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561",
+  "negative_fixture_sha256": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+  "candidate": {
+    "path": "/home/aaron/animation/thulans-production/blender/candidates/varek-chassis-v2a1-dense-static.blend",
+    "sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3",
+    "post_render_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+  },
+  "environment": {
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.42",
+    "blender_executable": "/app/blender/blender",
+    "blender_version": "5.2.0 LTS",
+    "embedded_python": "3.13.13 (main, Apr 25 2025, 12:39:20) [GCC 14.2.1 20250110 (Red Hat 14.2.1-11)]",
+    "build_timestamp_utc": "2026-09-07T04:52:14.957250+00:00"
+  },
+  "gates": {
+    "overall_height": {
+      "pass": true,
+      "measured_m": 2.4384000301361084,
+      "target_m": 2.4384,
+      "tolerance_m": 0.0005
+    },
+    "ground_contact": {
+      "pass": true,
+      "measured_m": 0.0,
+      "target_m": 0.0,
+      "tolerance_m": 0.00025
+    },
+    "required_objects": {
+      "pass": true,
+      "missing": []
+    },
+    "required_collections": {
+      "pass": true,
+      "missing": []
+    },
+    "rigid_scales_applied": {
+      "pass": true,
+      "invalid": {}
+    },
+    "external_assets": {
+      "pass": true,
+      "objects": [],
+      "expected_count": 0
+    },
+    "tertiary_ceiling": {
+      "pass": true,
+      "count": 0,
+      "maximum": 14
+    },
+    "structural_junctions": {
+      "pass": true,
+      "measurements": [
+        {
+          "objects": [
+            "Yoke_Riser_L_Rear",
+            "Dorsal_Rail_L"
+          ],
+          "aabb_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "objects": [
+            "Yoke_Riser_R_Rear",
+            "Dorsal_Rail_R"
+          ],
+          "aabb_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "objects": [
+            "Dorsal_Rail_L",
+            "Pelvic_Strut_L"
+          ],
+          "aabb_gap_m": 0.0,
+          "pass": true
+        },
+        {
+          "objects": [
+            "Dorsal_Rail_R",
+            "Pelvic_Strut_R"
+          ],
+          "aabb_gap_m": 0.0,
+          "pass": true
+        }
+      ],
+      "maximum_gap_m": 0.01
+    },
+    "render_engine": {
+      "pass": true,
+      "observed": "BLENDER_WORKBENCH",
+      "expected": "BLENDER_WORKBENCH"
+    }
+  },
+  "provisional_proportion_readback": {
+    "measurement_class": "PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON",
+    "total_silhouette_width_m": 1.9183677434921265,
+    "operator_cell_width_m": 0.36050254106521606,
+    "pelvis_width_m": 0.6208656430244446,
+    "stance_reference_width_m": 0.699999988079071,
+    "head_to_yoke_local_overhead_clearance_m": 0.4306004047393799,
+    "gren_skildus_front_projected_bbox_area_m2": 0.22399961400665092,
+    "machine_depth_m": 0.8561937808990479,
+    "pilot_envelope_dimensions_m": [
+      0.563734233379364,
+      0.2991216480731964,
+      1.7799817323684692
+    ],
+    "form_object_counts": {
+      "PRIMARY": 96,
+      "SECONDARY": 45,
+      "TERTIARY": 0
+    },
+    "methods": {
+      "silhouette_width": "world-space production-geometry union AABB X span",
+      "head_clearance": "lowest yoke mesh vertex strictly above pilot envelope top within operator-cell world-X half-width plus declared margin",
+      "head_clearance_lateral_limit_m": 0.24025130033493042,
+      "head_clearance_sample_count": 120,
+      "head_clearance_lowest_object": "Yoke_Crown_Depth_+0.00",
+      "gren_area": "front-view world XZ bounding-box proxy; not pixel segmentation",
+      "machine_depth": "world-space production-geometry union AABB Y span"
+    }
+  },
+  "component_inventory": {
+    "Pilot_Head": "SECONDARY",
+    "Pilot_Torso": "SECONDARY",
+    "Pilot_Pelvis": "SECONDARY",
+    "Pilot_UpperArm_L": "SECONDARY",
+    "Pilot_Forearm_L": "SECONDARY",
+    "Pilot_Thigh_L": "SECONDARY",
+    "Pilot_Shin_L": "SECONDARY",
+    "Pilot_Foot_L": "SECONDARY",
+    "Pilot_UpperArm_R": "SECONDARY",
+    "Pilot_Forearm_R": "SECONDARY",
+    "Pilot_Thigh_R": "SECONDARY",
+    "Pilot_Shin_R": "SECONDARY",
+    "Pilot_Foot_R": "SECONDARY",
+    "Operator_Cell": "PRIMARY",
+    "Operator_Brow": "PRIMARY",
+    "Operator_Visor_Guard": "PRIMARY",
+    "Thoracic_Center": "PRIMARY",
+    "Thoracic_Wing_L": "PRIMARY",
+    "Thoracic_Wing_R": "PRIMARY",
+    "Abdominal_Cage": "PRIMARY",
+    "Yoke_Riser_L_Front": "PRIMARY",
+    "Yoke_L_Front_1": "PRIMARY",
+    "Yoke_L_Front_2": "PRIMARY",
+    "Yoke_Riser_L_Rear": "PRIMARY",
+    "Yoke_L_Rear_1": "PRIMARY",
+    "Yoke_L_Rear_2": "PRIMARY",
+    "Yoke_Depth_L_0": "PRIMARY",
+    "Yoke_Depth_L_1": "PRIMARY",
+    "Yoke_Depth_L_2": "PRIMARY",
+    "Yoke_Riser_R_Front": "PRIMARY",
+    "Yoke_R_Front_1": "PRIMARY",
+    "Yoke_R_Front_2": "PRIMARY",
+    "Yoke_Riser_R_Rear": "PRIMARY",
+    "Yoke_R_Rear_1": "PRIMARY",
+    "Yoke_R_Rear_2": "PRIMARY",
+    "Yoke_Depth_R_0": "PRIMARY",
+    "Yoke_Depth_R_1": "PRIMARY",
+    "Yoke_Depth_R_2": "PRIMARY",
+    "Yoke_Crown_Front": "PRIMARY",
+    "Yoke_Crown_Rear": "PRIMARY",
+    "Yoke_Crown_Depth_-0.27": "PRIMARY",
+    "Yoke_Crown_Depth_+0.00": "PRIMARY",
+    "Yoke_Crown_Depth_+0.27": "PRIMARY",
+    "Yoke_Gusset_L": "PRIMARY",
+    "Yoke_Gusset_R": "PRIMARY",
+    "Thoracic_Rail_L": "PRIMARY",
+    "Dorsal_Rail_L": "PRIMARY",
+    "Pelvic_Strut_L": "PRIMARY",
+    "Hull_CrossBrace_L": "PRIMARY",
+    "Thoracic_Rail_R": "PRIMARY",
+    "Dorsal_Rail_R": "PRIMARY",
+    "Pelvic_Strut_R": "PRIMARY",
+    "Hull_CrossBrace_R": "PRIMARY",
+    "Pelvic_Clevis": "PRIMARY",
+    "Pelvic_Fork_L": "PRIMARY",
+    "Pelvic_Fork_R": "PRIMARY",
+    "Hip_Pivot_L": "PRIMARY",
+    "Knee_Pivot_L": "PRIMARY",
+    "Ankle_Pivot_L": "PRIMARY",
+    "Femur_L_OUTER": "PRIMARY",
+    "Shin_L_OUTER": "PRIMARY",
+    "Femur_L_INNER": "PRIMARY",
+    "Shin_L_INNER": "PRIMARY",
+    "Femur_L_DORSAL": "PRIMARY",
+    "Shin_L_DORSAL": "PRIMARY",
+    "Femur_Ram_L_0": "SECONDARY",
+    "Shin_Ram_L_0": "SECONDARY",
+    "Femur_Ram_L_1": "SECONDARY",
+    "Shin_Ram_L_1": "SECONDARY",
+    "Knee_Guard_L": "PRIMARY",
+    "Hip_Pivot_R": "PRIMARY",
+    "Knee_Pivot_R": "PRIMARY",
+    "Ankle_Pivot_R": "PRIMARY",
+    "Femur_R_OUTER": "PRIMARY",
+    "Shin_R_OUTER": "PRIMARY",
+    "Femur_R_INNER": "PRIMARY",
+    "Shin_R_INNER": "PRIMARY",
+    "Femur_R_DORSAL": "PRIMARY",
+    "Shin_R_DORSAL": "PRIMARY",
+    "Femur_Ram_R_0": "SECONDARY",
+    "Shin_Ram_R_0": "SECONDARY",
+    "Femur_Ram_R_1": "SECONDARY",
+    "Shin_Ram_R_1": "SECONDARY",
+    "Knee_Guard_R": "PRIMARY",
+    "Shoulder_Pivot_L": "PRIMARY",
+    "Elbow_Pivot_L": "PRIMARY",
+    "UpperArm_L_OUTER": "PRIMARY",
+    "Forearm_L_OUTER": "PRIMARY",
+    "UpperArm_L_INNER": "PRIMARY",
+    "Forearm_L_INNER": "PRIMARY",
+    "Arm_Ram_L": "SECONDARY",
+    "Shoulder_Pivot_R": "PRIMARY",
+    "Elbow_Pivot_R": "PRIMARY",
+    "UpperArm_R_OUTER": "PRIMARY",
+    "Forearm_R_OUTER": "PRIMARY",
+    "UpperArm_R_INNER": "PRIMARY",
+    "Forearm_R_INNER": "PRIMARY",
+    "Arm_Ram_R": "SECONDARY",
+    "Gren_Skildus": "PRIMARY",
+    "Gren_Mount_Upper": "PRIMARY",
+    "Gren_Mount_Lower": "PRIMARY",
+    "Tool_Interface_R": "PRIMARY",
+    "Powerplant_Core": "PRIMARY",
+    "Power_Cylinder_L": "SECONDARY",
+    "Pressure_Accumulator_L": "SECONDARY",
+    "Exhaust_Stack_L": "SECONDARY",
+    "Power_Cylinder_R": "SECONDARY",
+    "Pressure_Accumulator_R": "SECONDARY",
+    "Exhaust_Stack_R": "SECONDARY",
+    "Foot_Base_L": "PRIMARY",
+    "Heel_Drive_L": "PRIMARY",
+    "Toe_Pad_L_0": "PRIMARY",
+    "Toe_Pad_L_1": "PRIMARY",
+    "Folded_Outrigger_Outer_L": "PRIMARY",
+    "Folded_Outrigger_Rear_L": "PRIMARY",
+    "Foot_Base_R": "PRIMARY",
+    "Heel_Drive_R": "PRIMARY",
+    "Toe_Pad_R_0": "PRIMARY",
+    "Toe_Pad_R_1": "PRIMARY",
+    "Folded_Outrigger_Outer_R": "PRIMARY",
+    "Folded_Outrigger_Rear_R": "PRIMARY",
+    "Wrist_Bearing_L": "PRIMARY",
+    "Manipulator_Palm_L": "PRIMARY",
+    "Manipulator_Digit_L_0": "SECONDARY",
+    "Manipulator_Tip_L_0": "SECONDARY",
+    "Manipulator_Digit_L_1": "SECONDARY",
+    "Manipulator_Tip_L_1": "SECONDARY",
+    "Manipulator_Digit_L_2": "SECONDARY",
+    "Manipulator_Tip_L_2": "SECONDARY",
+    "Manipulator_Digit_L_3": "SECONDARY",
+    "Manipulator_Tip_L_3": "SECONDARY",
+    "Wrist_Bearing_R": "PRIMARY",
+    "Manipulator_Palm_R": "PRIMARY",
+    "Manipulator_Digit_R_0": "SECONDARY",
+    "Manipulator_Tip_R_0": "SECONDARY",
+    "Manipulator_Digit_R_1": "SECONDARY",
+    "Manipulator_Tip_R_1": "SECONDARY",
+    "Manipulator_Digit_R_2": "SECONDARY",
+    "Manipulator_Tip_R_2": "SECONDARY",
+    "Manipulator_Digit_R_3": "SECONDARY",
+    "Manipulator_Tip_R_3": "SECONDARY"
+  },
+  "review_renders": {
+    "front-clay.png": {
+      "camera": "Cam_Front",
+      "cutaway_review_only": false,
+      "sha256": "d5cbbab690fa6ac4d9a6437cc976af2ca22216b13c4b3d6e590984308380eb75",
+      "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    },
+    "rear-clay.png": {
+      "camera": "Cam_Rear",
+      "cutaway_review_only": false,
+      "sha256": "fb514c083155e037a145b299e4be71eff11eb79b2bbedd6b174252e8af4eb179",
+      "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    },
+    "character-left-clay.png": {
+      "camera": "Cam_CharacterLeft",
+      "cutaway_review_only": false,
+      "sha256": "bf24564e93c4291b28d5d01c34ea2029ba560d4d1d9058976cca5de45e59a059",
+      "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    },
+    "character-right-clay.png": {
+      "camera": "Cam_CharacterRight",
+      "cutaway_review_only": false,
+      "sha256": "ac9c8e0ebe30f63291ea36d23f82848ed602df948e1f38ca7f7b5fefcfa2c8ff",
+      "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    },
+    "three-quarter-clay.png": {
+      "camera": "Cam_ThreeQuarter",
+      "cutaway_review_only": false,
+      "sha256": "f1f2529eaf557ea851fd0a600f6c7079abf321834e8a2ade03ae18a7609f8199",
+      "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    },
+    "human-cutaway-clay.png": {
+      "camera": "Cam_Cutaway",
+      "cutaway_review_only": true,
+      "sha256": "9f878204ec5aa2888ec544037b60d741135349aa16879a9458760cb714a03044",
+      "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    }
+  }
+}

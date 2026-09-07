@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "V2A1_STATIC_SILHOUETTE",
+  "candidate_sha256": "d6947f4328dc9aa9a5fb0f701270d34999c221006aadb40484a9213e302341ed",
+  "decision": "PASS",
+  "approver": "Aaron",
+  "approved_scope": "STATIC_PRIMARY_SILHOUETTE",
+  "observed_passes": [
+    "operator containment",
+    "torso containment",
+    "yoke identity",
+    "load-path readability",
+    "pelvic junction",
+    "leg mechanism",
+    "manipulator mechanism",
+    "foot ground-interface read",
+    "overall industrial identity"
+  ],
+  "non_blocking_notes": [
+    "hands may gain more precision-manipulator character during a later secondary-form pass",
+    "feet may gain explicit clamp, pin, and outrigger mechanics later",
+    "mechanical density may increase during secondary-form and detail passes",
+    "pilot cell may gain protective shell language without changing the primary silhouette"
+  ],
+  "ruling": "Stop changing the primary form and advance directly to V2B rig and articulation."
+}

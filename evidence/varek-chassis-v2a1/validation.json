@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_CHASSIS_V2A1_INDEPENDENT_VALIDATION",
+  "overall": "PASS",
+  "candidate_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3",
+  "validated_at_utc": "2026-09-07T04:52:25.543483+00:00",
+  "checks": [
+    {
+      "rule": "candidate.sha256",
+      "pass": true,
+      "observed": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3",
+      "expected": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    },
+    {
+      "rule": "scene.plan_id",
+      "pass": true,
+      "observed": "varek-chassis-v2a1-primary-massing-salvage",
+      "expected": "varek-chassis-v2a1-primary-massing-salvage"
+    },
+    {
+      "rule": "scene.human_approval",
+      "pass": true,
+      "observed": "REQUIRED",
+      "expected": "REQUIRED"
+    },
+    {
+      "rule": "concept.sha256",
+      "pass": true,
+      "observed": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561",
+      "expected": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+    },
+    {
+      "rule": "negative_fixture.sha256",
+      "pass": true,
+      "observed": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+      "expected": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071"
+    },
+    {
+      "rule": "negative_fixture.verdict_sha256",
+      "pass": true,
+      "observed": "25f83765c59b6ef2a8f300ddcb577f97551e66f0b30ec12ac59c489fc1f1050c",
+      "expected": "25f83765c59b6ef2a8f300ddcb577f97551e66f0b30ec12ac59c489fc1f1050c"
+    },
+    {
+      "rule": "procedural_helper.sha256",
+      "pass": true,
+      "observed": "21f6b1f9475f4b8460dea7506792982d76a867617c830353ebe5c98867c9ed49",
+      "expected": "21f6b1f9475f4b8460dea7506792982d76a867617c830353ebe5c98867c9ed49"
+    },
+    {
+      "rule": "plan.sha256",
+      "pass": true,
+      "observed": "7afe4e523dfbe59440c5f0ae55fff162233950fcaccf356fedeb2b65a79ed9ad",
+      "expected": "7afe4e523dfbe59440c5f0ae55fff162233950fcaccf356fedeb2b65a79ed9ad"
+    },
+    {
+      "rule": "contract.sha256",
+      "pass": true,
+      "observed": "3ea23b45c83359b72aa48941b6aadb11ae4e708b0314de536fcb60744ca60a3d",
+      "expected": "3ea23b45c83359b72aa48941b6aadb11ae4e708b0314de536fcb60744ca60a3d"
+    },
+    {
+      "rule": "builder.sha256",
+      "pass": true,
+      "observed": "7d742b7ccbc88abb4084abc54789e1c3f4ecdff31393b35e2e3bf39cd7000d3e",
+      "expected": "7d742b7ccbc88abb4084abc54789e1c3f4ecdff31393b35e2e3bf39cd7000d3e"
+    },
+    {
+      "rule": "validator.sha256",
+      "pass": true,
+      "observed": "af66bdf96b4704be53c076099cab63652fdf6df0472440e70a3ea91499e34726",
+      "expected": "af66bdf96b4704be53c076099cab63652fdf6df0472440e70a3ea91499e34726"
+    },
+    {
+      "rule": "collections.required",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "objects.required",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "render.engine",
+      "pass": true,
+      "observed": "BLENDER_WORKBENCH",
+      "expected": "BLENDER_WORKBENCH"
+    },
+    {
+      "rule": "render.workbench_light",
+      "pass": true,
+      "observed": "MATCAP",
+      "expected": "MATCAP"
+    },
+    {
+      "rule": "dimensions.height",
+      "pass": true,
+      "observed": 2.4384000301361084,
+      "expected": {
+        "target": 2.4384,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "rule": "dimensions.ground",
+      "pass": true,
+      "observed": 0.0,
+      "expected": {
+        "target": 0.0,
+        "tolerance": 0.00025
+      }
+    },
+    {
+      "rule": "rigid.applied_scales",
+      "pass": true,
+      "observed": {},
+      "expected": {}
+    },
+    {
+      "rule": "assets.external_count",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "forms.tertiary_not_increased",
+      "pass": true,
+      "observed": 0,
+      "expected": {
+        "v2_count_max": 14,
+        "contract_max": 14
+      }
+    },
+    {
+      "rule": "cutaway.not_saved",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "load_path.junction_proximity",
+      "pass": true,
+      "observed": [
+        {
+          "objects": [
+            "Yoke_Riser_L_Rear",
+            "Dorsal_Rail_L"
+          ],
+          "aabb_gap_m": 0.0
+        },
+        {
+          "objects": [
+            "Yoke_Riser_R_Rear",
+            "Dorsal_Rail_R"
+          ],
+          "aabb_gap_m": 0.0
+        },
+        {
+          "objects": [
+            "Dorsal_Rail_L",
+            "Pelvic_Strut_L"
+          ],
+          "aabb_gap_m": 0.0
+        },
+        {
+          "objects": [
+            "Dorsal_Rail_R",
+            "Pelvic_Strut_R"
+          ],
+          "aabb_gap_m": 0.0
+        }
+      ],
+      "expected": {
+        "maximum_gap_m": 0.01
+      }
+    },
+    {
+      "rule": "proportions.head_clearance_method",
+      "pass": true,
+      "observed": {
+        "value_m": 0.4306004047393799,
+        "method": "lowest yoke mesh vertex strictly above pilot envelope top within operator-cell world-X half-width plus declared margin"
+      },
+      "expected": "local overhead sample within operator-cell X band"
+    },
+    {
+      "rule": "proportions.measurement_class",
+      "pass": true,
+      "observed": "PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON",
+      "expected": "PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON"
+    },
+    {
+      "rule": "renders.bound",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "validator.read_only",
+      "pass": true,
+      "observed": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3",
+      "expected": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3"
+    }
+  ],
+  "failures": [],
+  "readback": {
+    "height_m": 2.4384000301361084,
+    "ground_min_z_m": 0.0,
+    "form_object_counts": {
+      "PRIMARY": 96,
+      "SECONDARY": 45,
+      "TERTIARY": 0
+    },
+    "external_asset_count": 0,
+    "structural_junctions": [
+      {
+        "objects": [
+          "Yoke_Riser_L_Rear",
+          "Dorsal_Rail_L"
+        ],
+        "aabb_gap_m": 0.0
+      },
+      {
+        "objects": [
+          "Yoke_Riser_R_Rear",
+          "Dorsal_Rail_R"
+        ],
+        "aabb_gap_m": 0.0
+      },
+      {
+        "objects": [
+          "Dorsal_Rail_L",
+          "Pelvic_Strut_L"
+        ],
+        "aabb_gap_m": 0.0
+      },
+      {
+        "objects": [
+          "Dorsal_Rail_R",
+          "Pelvic_Strut_R"
+        ],
+        "aabb_gap_m": 0.0
+      }
+    ],
+    "proportion_measurement_class": "PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON",
+    "claim_boundary": "MACHINE_PASS_DOES_NOT_EQUAL_VISUAL_APPROVAL"
+  },
+  "human_approval": "REQUIRED"
+}

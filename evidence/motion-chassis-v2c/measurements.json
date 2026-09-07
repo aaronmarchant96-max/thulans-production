@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "MOTION_CHASSIS_V2C_PRIMARY_FORM_FAST_LANE",
+  "overall": "PASS",
+  "human_approval": "REQUIRED",
+  "source_sha256": "93139166968b936d045ed740cd748a8c040f5864114a322dd4205b740883a6d3",
+  "candidate_sha256": "b74d2177b71316816ca95531bddfa5127444a950fb487bf2a5f378cf5b71ec92",
+  "height_m": 2.4384000301361084,
+  "ground_min_z_m": 0.0,
+  "authorized_changes": [
+    "aggressively tapered three-plane central hull",
+    "inward overlapping thoracic rails",
+    "third rear hydraulic leg member",
+    "wedge toes and folded heel anchor plates",
+    "wrist rotation cylinders and lower palm guards"
+  ],
+  "yoke_geometry_changed": false,
+  "yoke_geometry_signatures": {
+    "Yoke_Riser_L_Front": "865d014564771f571cac595ef377037a4224651c474e5c12a4b969858f2154f1",
+    "Yoke_L_Front_1": "2eb151c7296bd7719cd6461b5e1d29b68fdc7df240ed86fde2b741334b58d27b",
+    "Yoke_L_Front_2": "1693861f76553719f24984e33bd450b90fb37ccf3ab29c10ae051a61bde47cb2",
+    "Yoke_Riser_L_Rear": "112118439b6dc8fbd0d2f6990a67c6df9a0b6ae1e0e6d3c21e5fb563aa8d1dab",
+    "Yoke_L_Rear_1": "44143ebb6080053c9a794f1e91421d88955eeeac610dec95f8e53289e7b02321",
+    "Yoke_L_Rear_2": "7a38417676c9c6130b90778f06f48fb06d22a4ac3f7583a3eff9a3310dac1779",
+    "Yoke_Depth_L_0": "497be7af7f6487f9bef3031beba5a5f0371a17c07d89236a1c60304d61d49187",
+    "Yoke_Depth_L_1": "26633ba675e20164c6dc965befca2f2fbcf64e3711849c4b3792ce956d1b2a38",
+    "Yoke_Depth_L_2": "bf8760d6fcf6fb812465507071a64bc455267b9eeb52151832332182fec288c3",
+    "Yoke_Riser_R_Front": "7b43fc4df33eeb74b0fc12c31fc9c8a74d298c831ceb9553280ccfbca3b03ca8",
+    "Yoke_R_Front_1": "63475e5f749861bc9f30cf4ae7b599399976c03198b4f5a406eac1a7e07ccf36",
+    "Yoke_R_Front_2": "7d82807d51b5136cef813023b985656add8fd717fee7e167a771611c55aba358",
+    "Yoke_Riser_R_Rear": "a890e5776833467655fdf8fff6db4936779f0218d89c8be80225e9f316b8dc2b",
+    "Yoke_R_Rear_1": "1bc2d9bfae6afd41c0a7b69d2393262a51481c0101e978e64eb8be8ec1f29f69",
+    "Yoke_R_Rear_2": "c864aaf922b61b6f9e22d47bd26ba07abc608dc5a3d44ed71985816c726e619e",
+    "Yoke_Depth_R_0": "118e813cafdd528ac1d847158612ec3f1cbdd8828a8cd8cabbea8ebcef19b4f2",
+    "Yoke_Depth_R_1": "54fb0ae22f22d74a45f011ae3c8f6ac3d8483ea7f59e355531450768f4d2e15b",
+    "Yoke_Depth_R_2": "d2886105ae48324b4d0be57a208ca6687224a8b25d2c1ad6fe5e723b564a60cf",
+    "Yoke_Crown_Front": "cf818538eac640ffcd28f064bb68a741e8e01956c60e04e15f43e57683526468",
+    "Yoke_Crown_Rear": "07904f370b74d51ead332cff2a4fb414584a6668d6b2d75e2ae72f2504d9749c",
+    "Yoke_Crown_Depth_-0.27": "bf8760d6fcf6fb812465507071a64bc455267b9eeb52151832332182fec288c3",
+    "Yoke_Crown_Depth_+0.00": "00de47117e97b62812cac90cccbd71f22b9b902064db677da8da0e1e2d61cd49",
+    "Yoke_Crown_Depth_+0.27": "d2886105ae48324b4d0be57a208ca6687224a8b25d2c1ad6fe5e723b564a60cf",
+    "Yoke_Gusset_L": "2c4ff20c2ee8b48d5437f14b889f4a108e90b7a89ca22ce502be6a3ffcd97b9a",
+    "Yoke_Gusset_R": "994cef2b0e5af1e4848e74a5ce7d5f43d3e8990611e54e00d8fac1e87e7ee027"
+  },
+  "renders": {
+    "front-clay.png": {
+      "camera": "Cam_Front",
+      "sha256": "1840ca089571f7efe3f3d97a899797ed17f66cced490d5ce2773a482d473decc",
+      "candidate_sha256": "b74d2177b71316816ca95531bddfa5127444a950fb487bf2a5f378cf5b71ec92"
+    },
+    "side-clay.png": {
+      "camera": "Cam_CharacterRight",
+      "sha256": "bb850a555b3be09856fed1b07841f7dde7a38bf31d2e4b130301dd7284299996",
+      "candidate_sha256": "b74d2177b71316816ca95531bddfa5127444a950fb487bf2a5f378cf5b71ec92"
+    }
+  }
+}
