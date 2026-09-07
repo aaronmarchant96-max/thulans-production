@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_MOTION_CHASSIS_V1",
+  "overall": "FAIL",
+  "phase": "MACHINE_GATE",
+  "timestamp_utc": "2026-09-07T04:05:02.203941+00:00",
+  "candidate_created": false,
+  "failed_rules": {
+    "provisional_collisions": {
+      "pair": "Frame_Shin_L::Foot_Chassis_L",
+      "frame": 24,
+      "measured_penetration_m": 0.024411708116531372,
+      "threshold_m": 0.005
+    },
+    "overhead_hand_contact": {
+      "frame": 72,
+      "measured_gap_m": 0.8004519939422607,
+      "threshold_m": 0.02
+    }
+  },
+  "measured_cause": "Nested forearm/hand controls retained parent-inverse offsets and collapsed to shoulder pivots under animation; mid-stride leg lift was insufficient.",
+  "bounded_correction": "Use explicit local transforms for child controls and add 0.04 m to the frame-24 left-leg lift."
+}

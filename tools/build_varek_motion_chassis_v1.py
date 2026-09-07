@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import bpy
-from mathutils import Vector
+from mathutils import Matrix, Vector
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -145,10 +145,15 @@ def add_control(name, location, collection, parent=None):
     obj = bpy.data.objects.new(name, None)
     obj.empty_display_type = "PLAIN_AXES"
     obj.empty_display_size = 0.08
-    obj.location = location
     collection.objects.link(obj)
     if parent:
-        parent_keep_world(obj, parent)
+        world_location = Vector(location)
+        obj.parent = parent
+        obj.matrix_parent_inverse = Matrix.Identity(4)
+        obj.location = world_location - Vector(parent["rest_world_location"])
+    else:
+        obj.location = location
+    obj["rest_world_location"] = list(location)
     return obj
 
 
@@ -280,7 +285,7 @@ def build_scene(contract):
     add_cylinder("Joint_Shoulder_R", (0.64, 0.0, 1.92), 0.105, 0.13, frame, clay, rotation=(math.pi / 2, 0, 0), parent=ctrl_arm_r)
     add_box("Gren_Skildus", (-0.72, -0.02, 1.81), (0.24, 0.22, 0.50), frame, concept_green, 0.055, rotation=(0.0, -0.10, -0.04), parent=ctrl_arm_l)
     add_box("Tool_Station_R", (0.71, 0.015, 1.82), (0.24, 0.25, 0.42), frame, clay, 0.035, parent=ctrl_arm_r)
-    add_box("Tool_Proxy_R", (0.92, -0.03, 1.60), (0.12, 0.16, 0.34), refs, dark, 0.02, parent=ctrl_arm_r)
+    add_box("Tool_Proxy_R", (0.88, -0.03, 1.60), (0.12, 0.16, 0.34), refs, dark, 0.02, parent=ctrl_arm_r)
 
     # Long rescue arms and manipulators.
     arm_controls = {
@@ -373,7 +378,7 @@ def build_scene(contract):
     neutral_locations = {ctrl.name: tuple(ctrl.location) for ctrl in all_ctrls}
     for ctrl in all_ctrls:
         key(ctrl, 1, neutral_locations[ctrl.name], (0.0, 0.0, 0.0))
-    key(ctrl_leg_l, 24, (-0.245, -0.12, 1.13), (0.28, 0.0, 0.0))
+    key(ctrl_leg_l, 24, (-0.245, -0.12, 1.17), (0.28, 0.0, 0.0))
     key(ctrl_foot_l, 24, (-0.27, -0.16, 0.18), (0.18, 0.0, 0.0))
     key(ctrl_torso, 24, (0.0, 0.03, 1.58), (0.0, 0.0, -0.025))
     for ctrl in all_ctrls:
