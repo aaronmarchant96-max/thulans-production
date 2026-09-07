@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_MOTION_CHASSIS_V1",
+  "overall": "FAIL",
+  "phase": "UNEXPECTED_EXCEPTION",
+  "message": "AttributeError: 'Action' object has no attribute 'fcurves'",
+  "timestamp_utc": "2026-09-07T04:02:49.112264+00:00",
+  "candidate_created": false,
+  "disposition": "Blender 5.2 compatibility issue; obsolete interpolation traversal removed before retry."
+}

@@ -393,16 +393,6 @@ def build_scene(contract):
     for ctrl in all_ctrls:
         key(ctrl, 96, tuple(ctrl.location), tuple(ctrl.rotation_euler))
 
-    if scene.animation_data and scene.animation_data.action:
-        for curve in scene.animation_data.action.fcurves:
-            for point in curve.keyframe_points:
-                point.interpolation = "BEZIER"
-    for obj in controls.objects:
-        if obj.animation_data and obj.animation_data.action:
-            for curve in obj.animation_data.action.fcurves:
-                for point in curve.keyframe_points:
-                    point.interpolation = "BEZIER"
-
     # Cameras and neutral lighting are saved as QA infrastructure.
     camera_specs = {
         "Cam_Front": ((0.0, -6.2, 1.25), (0.0, 0.0, 1.25), 3.05),
