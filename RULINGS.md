@@ -156,3 +156,27 @@
   motion-chassis execution plan.
 * **Still Blocked:** Blender execution, Shot 01, and exact engineering dimensions remain
   blocked pending motion-chassis plan QA.
+
+---
+
+## RULING 012: Blender Shading and Render Authority
+* **Status:** LOCKED / PRODUCTION-WIDE
+* **Scope:** All future geometry reviews, lookdev benchmarks, lighting tests, staging
+  renders, and final sequences in `thulans-production`.
+* **Tier 1 — Workbench:** MatCap clay is the authority for topology, proportions,
+  articulation clearance, and pure silhouette. Materials may not hide a geometry
+  failure.
+* **Tier 2 — Cycles Diagnostic:** A 128-sample single-frame Cycles render is the
+  authority for contact shadows, mechanical mass, metallic/material separation,
+  roughness response, reflections, and volumetric-light behavior.
+* **Tier 3 — Cycles Final:** Approved sequences render through Cycles to lossless PNG
+  frames. FFmpeg creates H.264 review/delivery derivatives from those frames; an MP4 is
+  not the render master.
+* **EEVEE:** Prohibited for acceptance evidence and future visual benchmarks. It may
+  not establish final material, lighting, contact-shadow, reflection, or volumetric
+  claims.
+* **Failure Semantics:** Headless Blender commands use `--python-exit-code 1` so script
+  exceptions cannot be mistaken for successful renders.
+* **Historical Boundary:** Motion Chassis V1 candidate `6566fdba…` used EEVEE and was
+  rejected at the human visual gate. Its stills remain non-authoritative diagnostics
+  and are not retroactively described as Workbench or Cycles evidence.
