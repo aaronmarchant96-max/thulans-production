@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "plan_id": "varek-chassis-v2a1-primary-massing-salvage",
+  "approved_concept": {
+    "path": "assets/concepts/varek-v4-four-view-approved.png",
+    "sha256": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+  },
+  "negative_fixture": {
+    "path": "blender/candidates/varek-chassis-v2a-static.blend",
+    "sha256": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+    "visual_verdict_path": "evidence/varek-chassis-v2a/visual-verdict.json",
+    "visual_verdict_sha256": "25f83765c59b6ef2a8f300ddcb577f97551e66f0b30ec12ac59c489fc1f1050c"
+  },
+  "procedural_helper": {
+    "path": "tools/build_varek_chassis_v2a.py",
+    "sha256": "21f6b1f9475f4b8460dea7506792982d76a867617c830353ebe5c98867c9ed49"
+  },
+  "dimensions_m": {
+    "overall_height_target": 2.4384,
+    "overall_height_tolerance": 0.0005,
+    "ground_z_target": 0.0,
+    "ground_z_tolerance": 0.00025
+  },
+  "render": {
+    "engine": "BLENDER_WORKBENCH",
+    "light": "MATCAP",
+    "resolution_x": 720,
+    "resolution_y": 900,
+    "views": [
+      ["front-clay.png", "Cam_Front"],
+      ["rear-clay.png", "Cam_Rear"],
+      ["character-left-clay.png", "Cam_CharacterLeft"],
+      ["character-right-clay.png", "Cam_CharacterRight"],
+      ["three-quarter-clay.png", "Cam_ThreeQuarter"],
+      ["human-cutaway-clay.png", "Cam_Cutaway"]
+    ]
+  },
+  "required_collections": [
+    "00_REFERENCE",
+    "01_PILOT_ENVELOPE",
+    "02_OPERATOR_HULL",
+    "03_LOAD_FRAME",
+    "04_POWERPLANT",
+    "05_GROUND_INTERFACE",
+    "06_MANIPULATORS",
+    "07_TERTIARY",
+    "08_QA_CAMERAS"
+  ],
+  "required_primary_objects": [
+    "Operator_Cell",
+    "Operator_Brow",
+    "Thoracic_Center",
+    "Thoracic_Wing_L",
+    "Thoracic_Wing_R",
+    "Yoke_Crown_Front",
+    "Yoke_Crown_Rear",
+    "Dorsal_Rail_L",
+    "Dorsal_Rail_R",
+    "Pelvic_Clevis",
+    "Powerplant_Core",
+    "Gren_Skildus",
+    "Tool_Interface_R",
+    "Foot_Base_L",
+    "Foot_Base_R",
+    "Heel_Drive_L",
+    "Heel_Drive_R",
+    "Wrist_Bearing_L",
+    "Wrist_Bearing_R",
+    "Manipulator_Palm_L",
+    "Manipulator_Palm_R"
+  ],
+  "structural_junctions": [
+    ["Yoke_Riser_L_Rear", "Dorsal_Rail_L"],
+    ["Yoke_Riser_R_Rear", "Dorsal_Rail_R"],
+    ["Dorsal_Rail_L", "Pelvic_Strut_L"],
+    ["Dorsal_Rail_R", "Pelvic_Strut_R"]
+  ],
+  "structural_junction_max_gap_m": 0.01,
+  "tertiary_object_max": 14,
+  "external_asset_count": 0,
+  "head_clearance": {
+    "operator_lateral_margin_m": 0.06,
+    "measurement_class": "PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON"
+  },
+  "claim_boundary": {
+    "proportions_are_canon": false,
+    "machine_pass_equals_visual_approval": false,
+    "workbench_approves_materials": false,
+    "static_candidate_proves_articulation": false,
+    "structural_junction_proximity_proves_engineering_capacity": false
+  }
+}
