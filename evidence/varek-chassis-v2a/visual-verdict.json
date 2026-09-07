@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_CHASSIS_V2A_STATIC_SILHOUETTE",
+  "candidate_sha256": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+  "machine_gate": "PASS",
+  "independent_validation": "PASS",
+  "human_visual_gate": "FAIL_REVISE",
+  "disposition": "PRESERVE_AS_NEGATIVE_FIXTURE_AND_SALVAGE_BASE",
+  "positive_observations": [
+    "production scale reads",
+    "curved yoke direction improved",
+    "asymmetry exists",
+    "operator is visibly present",
+    "rear and character-right powerplant volume is promising",
+    "machine can become denser without total redesign"
+  ],
+  "blocking_observations": [
+    "torso remains box-dominant",
+    "yoke reads as a roll cage or hoop",
+    "legs are mechanically sparse",
+    "arms and manipulators are generic",
+    "feet read as robotic boots",
+    "pilot is insufficiently buried and protected",
+    "mechanical density is far below the approved concept",
+    "overall silhouette reads closer to a utilitarian robot than a Thulan load machine"
+  ],
+  "authorized_revision_scope": [
+    "torso taper and segmentation",
+    "yoke depth and structural attachment",
+    "dorsal rail continuity",
+    "leg-member density",
+    "manipulator structure",
+    "anchor-foot massing"
+  ],
+  "prohibited_camouflage": [
+    "tertiary detail",
+    "hoses",
+    "bolts",
+    "greebles",
+    "materials"
+  ]
+}

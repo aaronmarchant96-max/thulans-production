@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_CHASSIS_V2A_INDEPENDENT_VALIDATION",
+  "overall": "PASS",
+  "candidate_sha256": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+  "validated_at_utc": "2026-09-07T04:27:34.758654+00:00",
+  "checks": [
+    {
+      "rule": "candidate.sha256",
+      "pass": true,
+      "observed": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+      "expected": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071"
+    },
+    {
+      "rule": "scene.plan_id",
+      "pass": true,
+      "observed": "varek-chassis-v2-concept-faithful-static",
+      "expected": "varek-chassis-v2-concept-faithful-static"
+    },
+    {
+      "rule": "scene.human_approval",
+      "pass": true,
+      "observed": "REQUIRED",
+      "expected": "REQUIRED"
+    },
+    {
+      "rule": "concept.sha256",
+      "pass": true,
+      "observed": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561",
+      "expected": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+    },
+    {
+      "rule": "negative_fixture.sha256",
+      "pass": true,
+      "observed": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e",
+      "expected": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e"
+    },
+    {
+      "rule": "plan.sha256",
+      "pass": true,
+      "observed": "f6608a576b2ee863cf36e3e016162ec495fc6856a4f29264e6b31fc8f3aca02e",
+      "expected": "f6608a576b2ee863cf36e3e016162ec495fc6856a4f29264e6b31fc8f3aca02e"
+    },
+    {
+      "rule": "contract.sha256",
+      "pass": true,
+      "observed": "bd6e17467f9c5e8a7e121db9f8ea88223164aebf9a90fb9a0c708c0dc97eb8d6",
+      "expected": "bd6e17467f9c5e8a7e121db9f8ea88223164aebf9a90fb9a0c708c0dc97eb8d6"
+    },
+    {
+      "rule": "builder.sha256",
+      "pass": true,
+      "observed": "21f6b1f9475f4b8460dea7506792982d76a867617c830353ebe5c98867c9ed49",
+      "expected": "21f6b1f9475f4b8460dea7506792982d76a867617c830353ebe5c98867c9ed49"
+    },
+    {
+      "rule": "validator.sha256",
+      "pass": true,
+      "observed": "16aaefa93e7193a33d3984d00ae98e86994eb36886e51052ecb35c8cf7160f61",
+      "expected": "16aaefa93e7193a33d3984d00ae98e86994eb36886e51052ecb35c8cf7160f61"
+    },
+    {
+      "rule": "collections.required",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "objects.required",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "render.engine",
+      "pass": true,
+      "observed": "BLENDER_WORKBENCH",
+      "expected": "BLENDER_WORKBENCH"
+    },
+    {
+      "rule": "render.workbench_light",
+      "pass": true,
+      "observed": "MATCAP",
+      "expected": "MATCAP"
+    },
+    {
+      "rule": "dimensions.height",
+      "pass": true,
+      "observed": 2.4384000301361084,
+      "expected": {
+        "target": 2.4384,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "rule": "dimensions.ground",
+      "pass": true,
+      "observed": 0.0,
+      "expected": {
+        "target": 0.0,
+        "tolerance": 0.00025
+      }
+    },
+    {
+      "rule": "rigid.applied_scales",
+      "pass": true,
+      "observed": {},
+      "expected": {}
+    },
+    {
+      "rule": "assets.external_count",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "forms.tertiary_ceiling",
+      "pass": true,
+      "observed": 14,
+      "expected": 48
+    },
+    {
+      "rule": "cutaway.not_saved",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "renders.bound",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "validator.read_only",
+      "pass": true,
+      "observed": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071",
+      "expected": "0449a7d6386f9d495cc29e87e35b79a611c98b5bd280c07b850f76e8ae570071"
+    }
+  ],
+  "failures": [],
+  "readback": {
+    "height_m": 2.4384000301361084,
+    "ground_min_z_m": 0.0,
+    "tertiary_object_count": 14,
+    "external_asset_count": 0,
+    "proportion_measurement_class": "PROVISIONAL_MEASURED_FOR_VISUAL_COMPARISON",
+    "claim_boundary": "MACHINE_PASS_DOES_NOT_EQUAL_VISUAL_APPROVAL"
+  },
+  "human_approval": "REQUIRED"
+}
