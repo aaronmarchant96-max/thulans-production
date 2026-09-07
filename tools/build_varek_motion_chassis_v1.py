@@ -8,7 +8,6 @@ import hashlib
 import json
 import math
 import platform
-import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -34,12 +33,6 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def git(*args: str) -> str:
-    return subprocess.run(
-        ["git", "-C", str(ROOT), *args], check=True, capture_output=True, text=True
-    ).stdout.strip()
-
-
 def fail(phase: str, message: str, details=None) -> None:
     EVIDENCE_DIR.mkdir(parents=True, exist_ok=True)
     record = {
@@ -60,6 +53,9 @@ def parse_args() -> argparse.Namespace:
     argv = sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else []
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--source-git-commit", required=True)
+    parser.add_argument("--source-repo-state", choices=("CLEAN",), required=True)
+    parser.add_argument("--plan-git-commit", required=True)
     return parser.parse_args(argv)
 
 
@@ -592,9 +588,8 @@ def main():
     actual_concept_sha = sha256(concept)
     if actual_concept_sha != contract["approved_concept"]["sha256"]:
         fail("PRE_BUILD", "approved concept hash mismatch", {"actual": actual_concept_sha})
-    repo_state = git("status", "--porcelain")
-    if repo_state:
-        fail("PRE_BUILD", "repository must be clean before build", {"status": repo_state.splitlines()})
+    if args.source_repo_state != "CLEAN":
+        fail("PRE_BUILD", "host reported a dirty repository", {"status": args.source_repo_state})
     if bpy.data.filepath:
         fail("PRE_BUILD", "builder must start from factory startup, not an opened blend", {"filepath": bpy.data.filepath})
 
@@ -612,7 +607,6 @@ def main():
     bpy.ops.wm.save_as_mainfile(filepath=str(output), check_existing=False)
     candidate_sha = sha256(output)
 
-    plan_commit = git("log", "-1", "--format=%H", "--", str(PLAN.relative_to(ROOT)))
     record = {
         "schema_version": "1.0",
         "claim_class": "OBSERVED",
@@ -620,11 +614,12 @@ def main():
         "overall": "PASS",
         "claim_boundary": "MACHINE_PASS_DOES_NOT_EQUAL_CHASSIS_APPROVAL",
         "plan_id": contract["plan_id"],
-        "plan_git_commit": plan_commit,
+        "plan_git_commit": args.plan_git_commit,
         "plan_file_sha256": sha256(PLAN),
         "contract_file_sha256": sha256(CONTRACT_PATH),
-        "source_git_commit": git("rev-parse", "HEAD"),
-        "source_repository_state": "CLEAN",
+        "source_git_commit": args.source_git_commit,
+        "source_repository_state": args.source_repo_state,
+        "provenance_capture_mode": "HOST_PRECHECKED_ARGUMENTS",
         "builder_script_sha256": sha256(Path(__file__).resolve()),
         "validator_script_sha256": sha256(VALIDATOR),
         "approved_concept": {"path": str(concept.relative_to(ROOT)), "sha256": actual_concept_sha},
@@ -663,4 +658,25 @@ if __name__ == "__main__":
         main()
     except RuntimeError as exc:
         print(f"VAREK_MOTION_CHASSIS_V1_FAIL={exc}", file=sys.stderr)
+        raise SystemExit(1)
+    except Exception as exc:
+        if not FAILURE_PATH.exists():
+            EVIDENCE_DIR.mkdir(parents=True, exist_ok=True)
+            FAILURE_PATH.write_text(
+                json.dumps(
+                    {
+                        "schema_version": "1.0",
+                        "claim_class": "OBSERVED",
+                        "gate": "VAREK_MOTION_CHASSIS_V1",
+                        "overall": "FAIL",
+                        "phase": "UNEXPECTED_EXCEPTION",
+                        "message": f"{type(exc).__name__}: {exc}",
+                        "timestamp_utc": datetime.now(timezone.utc).isoformat(),
+                    },
+                    indent=2,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+        print(f"VAREK_MOTION_CHASSIS_V1_ERROR={type(exc).__name__}: {exc}", file=sys.stderr)
         raise SystemExit(1)

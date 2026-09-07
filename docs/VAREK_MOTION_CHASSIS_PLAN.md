@@ -1,7 +1,7 @@
 ---
 plan_id: thulan-varek-motion-chassis-v1
-plan_valid_as_of: 2026-09-06T17:46:59-06:00
-git_commit: 29b9e4d911831a38ddc2bc7e5f87c84814bec085
+plan_valid_as_of: 2026-09-06T22:02:17-06:00
+git_commit: bdfd58d81983ccc0c9394f314b850fd7e6baebd6
 files_affected: 1 tracked plan checkpoint; future execution creates a builder, validator, candidate blend, and review evidence
 reversible: yes
 blast_radius: new Varek greybox candidate only; no existing blend or Shot 01 scene may be opened or changed
@@ -82,6 +82,9 @@ The future builder must:
 5. Save before rendering, hash the candidate, render from those exact bytes without
    saving review-only camera or display changes back into it, then re-hash.
 6. Exit non-zero and write a failure record on every contracted gate failure.
+7. Because Flatpak Blender cannot resolve the host `git` executable, the host wrapper
+   must verify a clean worktree and pass the source commit, repository state, and plan
+   commit as explicit required arguments; the evidence records this capture mode.
 
 ## Dimensional gates
 
