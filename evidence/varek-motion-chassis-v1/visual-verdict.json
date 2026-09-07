@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_MOTION_CHASSIS_V1_HUMAN_VISUAL",
+  "candidate_sha256": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e",
+  "machine_gate": "PASS",
+  "human_approval": "NOT_GRANTED",
+  "disposition": "RETIRED_NEGATIVE_FIXTURE",
+  "observed_failures": [
+    "box torso",
+    "rectangular scaffold yoke",
+    "generic procedural robot silhouette",
+    "insufficient mechanical load-path density",
+    "pilot-envelope forms escape the machine in the brace view"
+  ],
+  "claim_boundary": "Machine consistency did not establish visual approval."
+}

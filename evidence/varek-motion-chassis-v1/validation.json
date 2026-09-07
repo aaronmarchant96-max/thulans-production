@@ -1,0 +1,386 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_MOTION_CHASSIS_V1_INDEPENDENT_VALIDATION",
+  "overall": "PASS",
+  "candidate_sha256": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e",
+  "validated_at_utc": "2026-09-07T04:08:17.873567+00:00",
+  "checks": [
+    {
+      "rule": "candidate.sha256",
+      "pass": true,
+      "observed": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e",
+      "expected": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e"
+    },
+    {
+      "rule": "scene.plan_id",
+      "pass": true,
+      "observed": "thulan-varek-motion-chassis-v1",
+      "expected": "thulan-varek-motion-chassis-v1"
+    },
+    {
+      "rule": "scene.claim_boundary",
+      "pass": true,
+      "observed": "MACHINE_PASS_DOES_NOT_EQUAL_CHASSIS_APPROVAL",
+      "expected": "MACHINE_PASS_DOES_NOT_EQUAL_CHASSIS_APPROVAL"
+    },
+    {
+      "rule": "concept.hash",
+      "pass": true,
+      "observed": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561",
+      "expected": "26161f565b3f64e3f9f13d6ed9f78b22fde4a004e0beadc1d9daa9264cf51561"
+    },
+    {
+      "rule": "plan.hash",
+      "pass": true,
+      "observed": "ad8b86d8d128d7d6ad910c926e016c81e70462cad519d282b5a362fba981e0d1",
+      "expected": "ad8b86d8d128d7d6ad910c926e016c81e70462cad519d282b5a362fba981e0d1"
+    },
+    {
+      "rule": "builder.hash",
+      "pass": true,
+      "observed": "3e13de9d02d62209379c4cb39ecb787877ac577351187790c30ace486a519cd2",
+      "expected": "3e13de9d02d62209379c4cb39ecb787877ac577351187790c30ace486a519cd2"
+    },
+    {
+      "rule": "validator.hash",
+      "pass": true,
+      "observed": "4075bed35dd121f826d97c1e28dca74c02d5ffb9a7294ba86644e2ed7e904d4a",
+      "expected": "4075bed35dd121f826d97c1e28dca74c02d5ffb9a7294ba86644e2ed7e904d4a"
+    },
+    {
+      "rule": "collections.required",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "scene.unit_system",
+      "pass": true,
+      "observed": "METRIC",
+      "expected": "METRIC"
+    },
+    {
+      "rule": "scene.unit_scale",
+      "pass": true,
+      "observed": 1.0,
+      "expected": 1.0
+    },
+    {
+      "rule": "scene.fps",
+      "pass": true,
+      "observed": 24,
+      "expected": 24
+    },
+    {
+      "rule": "scene.frame_range",
+      "pass": true,
+      "observed": [
+        1,
+        96
+      ],
+      "expected": [
+        1,
+        96
+      ]
+    },
+    {
+      "rule": "dimensions.overall_height",
+      "pass": true,
+      "observed": 2.4384000301361084,
+      "expected": {
+        "target": 2.4384,
+        "tolerance": 0.0005
+      }
+    },
+    {
+      "rule": "dimensions.ground",
+      "pass": true,
+      "observed": 0.0,
+      "expected": {
+        "target": 0.0,
+        "tolerance": 0.00025
+      }
+    },
+    {
+      "rule": "rigid.applied_scales",
+      "pass": true,
+      "observed": {},
+      "expected": {}
+    },
+    {
+      "rule": "rigid.module_tags",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "pilot.articulation_offsets_reported",
+      "pass": true,
+      "observed": [
+        "1",
+        "24",
+        "48",
+        "60",
+        "72",
+        "96"
+      ],
+      "expected": [
+        1,
+        24,
+        48,
+        60,
+        72,
+        96
+      ]
+    },
+    {
+      "rule": "motion.primary_foot_translation",
+      "pass": true,
+      "observed": 0.0,
+      "expected": 0.002
+    },
+    {
+      "rule": "collision.provisional_aabb",
+      "pass": true,
+      "observed": 0.0,
+      "expected": 0.005
+    },
+    {
+      "rule": "motion.overhead_hand_contact",
+      "pass": true,
+      "observed": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "expected": 0.02
+    },
+    {
+      "rule": "ground.modes",
+      "pass": true,
+      "observed": [
+        "DEBRIS_OUTRIGGER",
+        "ROCK_PIN",
+        "STRUCTURAL_CLAMP"
+      ],
+      "expected": [
+        "DEBRIS_OUTRIGGER",
+        "ROCK_PIN",
+        "STRUCTURAL_CLAMP"
+      ]
+    },
+    {
+      "rule": "review.cameras",
+      "pass": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "rule": "validator.read_only",
+      "pass": true,
+      "observed": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e",
+      "expected": "6566fdbac4dc50e9f7adc120795c95c1795ff4fefafd13548b71375c0669269e"
+    }
+  ],
+  "failures": [],
+  "readback": {
+    "height_m": 2.4384000301361084,
+    "ground_min_z_m": 0.0,
+    "max_pilot_to_chassis_joint_offset_m": 0.34659049236613926,
+    "pilot_to_chassis_offsets_m": {
+      "1": {
+        "SHOULDER_L": 0.34659049236613926,
+        "ELBOW_L": 0.33185085241501455,
+        "HIP_L": 0.13829316661863822,
+        "KNEE_L": 0.13047989469834348,
+        "ANKLE_L": 0.13095801989775466,
+        "SHOULDER_R": 0.34659049236613926,
+        "ELBOW_R": 0.33185085241501455,
+        "HIP_R": 0.13829316661863822,
+        "KNEE_R": 0.13047989469834348,
+        "ANKLE_R": 0.13095801989775466
+      },
+      "24": {
+        "SHOULDER_L": 0.34659049236613926,
+        "ELBOW_L": 0.33185085241501455,
+        "HIP_L": 0.13829318156060463,
+        "KNEE_L": 0.13047989516535907,
+        "ANKLE_L": 0.13095802100894396,
+        "SHOULDER_R": 0.34659049236613926,
+        "ELBOW_R": 0.33185085241501455,
+        "HIP_R": 0.13829316661863822,
+        "KNEE_R": 0.13047989469834348,
+        "ANKLE_R": 0.13095801989775466
+      },
+      "48": {
+        "SHOULDER_L": 0.34659049236613926,
+        "ELBOW_L": 0.33185085241501455,
+        "HIP_L": 0.13829316661863822,
+        "KNEE_L": 0.13047989469834348,
+        "ANKLE_L": 0.13095801989775466,
+        "SHOULDER_R": 0.34659049236613926,
+        "ELBOW_R": 0.33185085241501455,
+        "HIP_R": 0.13829316661863822,
+        "KNEE_R": 0.13047989469834348,
+        "ANKLE_R": 0.13095801989775466
+      },
+      "60": {
+        "SHOULDER_L": 0.34659046280806144,
+        "ELBOW_L": 0.33185081873762184,
+        "HIP_L": 0.13829316661863822,
+        "KNEE_L": 0.13047989469834348,
+        "ANKLE_L": 0.13095801989775466,
+        "SHOULDER_R": 0.34659046280806144,
+        "ELBOW_R": 0.33185081873762184,
+        "HIP_R": 0.13829316661863822,
+        "KNEE_R": 0.13047989469834348,
+        "ANKLE_R": 0.13095801989775466
+      },
+      "72": {
+        "SHOULDER_L": 0.3465904896790414,
+        "ELBOW_L": 0.3318508047053739,
+        "HIP_L": 0.13829316661863822,
+        "KNEE_L": 0.13047989469834348,
+        "ANKLE_L": 0.13095801989775466,
+        "SHOULDER_R": 0.3465904896790414,
+        "ELBOW_R": 0.3318508047053739,
+        "HIP_R": 0.13829316661863822,
+        "KNEE_R": 0.13047989469834348,
+        "ANKLE_R": 0.13095801989775466
+      },
+      "96": {
+        "SHOULDER_L": 0.3465904896790414,
+        "ELBOW_L": 0.3318508047053739,
+        "HIP_L": 0.13829316661863822,
+        "KNEE_L": 0.13047989469834348,
+        "ANKLE_L": 0.13095801989775466,
+        "SHOULDER_R": 0.3465904896790414,
+        "ELBOW_R": 0.3318508047053739,
+        "HIP_R": 0.13829316661863822,
+        "KNEE_R": 0.13047989469834348,
+        "ANKLE_R": 0.13095801989775466
+      }
+    },
+    "primary_foot_reference_positions": {
+      "48": {
+        "L": [
+          -0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ],
+        "R": [
+          0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ]
+      },
+      "60": {
+        "L": [
+          -0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ],
+        "R": [
+          0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ]
+      },
+      "72": {
+        "L": [
+          -0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ],
+        "R": [
+          0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ]
+      },
+      "96": {
+        "L": [
+          -0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ],
+        "R": [
+          0.27000001072883606,
+          -0.04500000178813934,
+          0.11999999731779099
+        ]
+      }
+    },
+    "max_primary_foot_translation_m": 0.0,
+    "collision_representation": "WORLD_AXIS_ALIGNED_BOUNDING_BOX",
+    "collision_by_frame_m": {
+      "1": {
+        "Hull_Helmet::Frame_Yoke_Top": 0.0,
+        "Joint_Shoulder_L::Frame_Thoracic_Rail_L": 0.0,
+        "Hull_Pelvis::Frame_Shin_L": 0.0,
+        "Frame_Femur_L::Frame_Shin_L": 0.0,
+        "Frame_Shin_L::Foot_Chassis_L": 0.0,
+        "Manipulator_Hand_R::Tool_Proxy_R": 0.0,
+        "Powerplant_Core::Frame_Dorsal_Left": 0.0,
+        "Gren_Skildus::Hull_Thoracic": 0.0
+      },
+      "24": {
+        "Hull_Helmet::Frame_Yoke_Top": 0.0,
+        "Joint_Shoulder_L::Frame_Thoracic_Rail_L": 0.0,
+        "Hull_Pelvis::Frame_Shin_L": 0.0,
+        "Frame_Femur_L::Frame_Shin_L": 0.0,
+        "Frame_Shin_L::Foot_Chassis_L": 0.0,
+        "Manipulator_Hand_R::Tool_Proxy_R": 0.0,
+        "Powerplant_Core::Frame_Dorsal_Left": 0.0,
+        "Gren_Skildus::Hull_Thoracic": 0.0
+      },
+      "48": {
+        "Hull_Helmet::Frame_Yoke_Top": 0.0,
+        "Joint_Shoulder_L::Frame_Thoracic_Rail_L": 0.0,
+        "Hull_Pelvis::Frame_Shin_L": 0.0,
+        "Frame_Femur_L::Frame_Shin_L": 0.0,
+        "Frame_Shin_L::Foot_Chassis_L": 0.0,
+        "Manipulator_Hand_R::Tool_Proxy_R": 0.0,
+        "Powerplant_Core::Frame_Dorsal_Left": 0.0,
+        "Gren_Skildus::Hull_Thoracic": 0.0
+      },
+      "60": {
+        "Hull_Helmet::Frame_Yoke_Top": 0.0,
+        "Joint_Shoulder_L::Frame_Thoracic_Rail_L": 0.0,
+        "Hull_Pelvis::Frame_Shin_L": 0.0,
+        "Frame_Femur_L::Frame_Shin_L": 0.0,
+        "Frame_Shin_L::Foot_Chassis_L": 0.0,
+        "Manipulator_Hand_R::Tool_Proxy_R": 0.0,
+        "Powerplant_Core::Frame_Dorsal_Left": 0.0,
+        "Gren_Skildus::Hull_Thoracic": 0.0
+      },
+      "72": {
+        "Hull_Helmet::Frame_Yoke_Top": 0.0,
+        "Joint_Shoulder_L::Frame_Thoracic_Rail_L": 0.0,
+        "Hull_Pelvis::Frame_Shin_L": 0.0,
+        "Frame_Femur_L::Frame_Shin_L": 0.0,
+        "Frame_Shin_L::Foot_Chassis_L": 0.0,
+        "Manipulator_Hand_R::Tool_Proxy_R": 0.0,
+        "Powerplant_Core::Frame_Dorsal_Left": 0.0,
+        "Gren_Skildus::Hull_Thoracic": 0.0
+      },
+      "96": {
+        "Hull_Helmet::Frame_Yoke_Top": 0.0,
+        "Joint_Shoulder_L::Frame_Thoracic_Rail_L": 0.0,
+        "Hull_Pelvis::Frame_Shin_L": 0.0,
+        "Frame_Femur_L::Frame_Shin_L": 0.0,
+        "Frame_Shin_L::Foot_Chassis_L": 0.0,
+        "Manipulator_Hand_R::Tool_Proxy_R": 0.0,
+        "Powerplant_Core::Frame_Dorsal_Left": 0.0,
+        "Gren_Skildus::Hull_Thoracic": 0.0
+      }
+    },
+    "max_provisional_collision_penetration_m": 0.0,
+    "overhead_hand_contact_gaps_m": {
+      "L": 0.0,
+      "R": 0.0
+    },
+    "claim_boundary": "MEASUREMENTS_DO_NOT_ESTABLISH_HUMAN_VISUAL_APPROVAL_OR_ENGINEERING_CAPACITY"
+  },
+  "human_approval": "REQUIRED"
+}
