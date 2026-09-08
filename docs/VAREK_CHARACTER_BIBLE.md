@@ -34,13 +34,28 @@
   > **“I had a mother.”**
 * **Mortal Compassion:** When modern rulers dismiss working people as *"only civilians"*, his answer is absolute:
   > **“So were my brothers.”**
-* **The Living Witness:** Awakened thousands of years after an ancient collapse, he is the living truth that shatters the modern regime's extraction cult.
+* **The Living Witness:** Awakened centuries after an ancient collapse, he is the living truth that shatters the modern regime's extraction cult.
 
 ---
 
 ## 5. The Fatal Vulnerability & The Climax
 * **The Flaw Inside the Virtue:** Varek cannot stand idle while someone else dies.
-* **The Void's Leverage:** The hyper-spatial intelligence speaking through the breached Interstice does not offer power or deceit; it offers the somatic strength to hold up the collapsing mountain for fleeing mortals:
-  > *“You would endure anything to save them. So endure me.”*
-* **The Climax:** Varek locks into *Anchor State*, accepts the crushing burden, and roars. Exact soundtrack timing remains open until the 5:32.544 master receives a measured beat map:
-  > ***“SO ENDURE ME!”***
+* **The Knowledge Curse:** His exposure of the Life Tithes — proof that consent was manufactured through a lie — is true, and it accelerates anarchy, vengeance, secession, and infrastructure failure until the collapse becomes immediate.
+* **The Climax (Empty Mountain arc):** He cannot save civilization, and he knows his truth helped bring the world down. He refuses to abandon the people who blame him and keeps saving whoever is still in front of him. The end-state exchange is scored to the 5:32.544 master (music time remains OPEN pending a measured beat map):
+  > **"No." / "Then who will?" / "We will."**
+* **Reference:** `docs/THE_THULANS_LORE_BIBLE_v3.md` (RULING 005, RULING 013).
+
+---
+
+## 6. Archaic Latin Inscriptions & Personal Rituals (RULING 015)
+* **Linguistic Depth:** While Gothic is the ancestral language of the Thulan civilization, Latin represents an older, foundational pre-cataclysm engineering lineage from Varek's own time. He carries words modern miners no longer understand.
+* **`FORTIS ET LIBER` ("Strong and Free"):**
+  * Stamped deep into the forged manganese-steel collar of **The Fault Maul (*Faírguni-Hamars*)** where the impact head meets the haft.
+  * *Philosophy:* True strength is the power to choose what you stand between. Sacrifice is only virtuous when a free person chooses it—a direct philosophical indictment of the Council's coerced *Life Tithe*.
+* **`ORA ET LABORA` ("Pray and Work"):**
+  * Stamped into an inner structural plate behind the curve of the **Gren-Skildus** near his chest. Hidden from public view; an intimate personal touchstone.
+  * *Philosophy:* *"Reverence does not replace labor."* Humility and remembrance before the Mountain, followed by physical labor to keep people alive.
+  * *The Ritual:* Before high-risk rescues or Anchor State deployments, Varek instinctively touches that inner plate with his gauntlet:
+    > *“Ora et labora.”*  
+    Then the diesel catches, hydraulics pressurize, and he goes to work.
+

@@ -42,16 +42,25 @@
   2. The Mountain has **30–50 years of ore left** before structural collapse.
   3. The elites know the truth and accelerate mining to build limited **atmospheric/sub-orbital exodus arks** (capacity ~620,000 out of 42M) designed to cross the toxic storm-cloud sea to fertile distant continents, leaving the working class behind.
   4. Central Paradox: *“The people destroying the Mountain fastest are doing so precisely because they know it is dying.”*
+  5. **Narrative Clock (v3.1):** The ark launch clock is the timescale the Council's Continuity seat (Theodemir) actually defends. The same continuity that keeps pumps and furnaces running also holds order until the exodus arks depart. The Council never states this clause aloud. See `docs/THE_THULANS_LORE_BIBLE_v3.md` §11 "The Hidden Clock".
 
 ---
 
-## RULING 005: The Climax & Dimensional Nomenclature (Interstice vs. Void)
-* **Status:** LOCKED
-* **Scope:** Climax Arc, Cosmology, and Nomenclature
-* **Dimensional Separation:**
-  * **The Interstice:** The breached extradimensional realm/place opened by deep drilling through the *Frum-Skeirs* bedrock in *The Hollow*.
-  * **The Void:** The cold, hyper-spatial intelligence speaking and acting through the Interstice.
-* **The Climax:** When the mountain collapses, Varek locks into *Anchor State* to hold the ceiling. The Void offers the somatic strength through the Interstice to hold the weight in exchange for his sovereignty: *“You would endure anything to save them. So endure me.”* Varek roars: ***“SO ENDURE ME!”*** Exact music time remains **OPEN** pending a measured beat map of the 5:32.544 master.
+## RULING 005: The Climax — Void & Interstice REMOVED
+* **Status:** REMOVED / NON-CANON (v3.1 narrative spine)
+* **Scope:** Climax Arc
+* **Removal:** The Void, the Interstice Breach, the *Frum-Skeirs* dimensional substrate,
+  Anchor-State plane-braking, and *"SO ENDURE ME!"* are removed from canon. They are not
+  deferred, not reserved, and may not be reintroduced into this story without a new
+  human-authority decision and a fresh Intimacy-Rule review. The primary reason for
+  removal is the Void climax's association with 40K-style cosmic gravitas; it did not
+  belong to this world.
+* **Governing climax:** `docs/THE_THULANS_LORE_BIBLE_v3.md` — the Empty Mountain /
+  orchestrated-sacrifice / immediate-collapse arc (RULING 013).
+* **Music target:** The 5:32.544 master beat map must be scored to the v3 end-state
+  exchange (a child asks "Will the Mountain protect us?" / Varek: "No." / "Then who
+  will?" / "We will.") or to a new apex cue. Exact music time remains **OPEN** pending a
+  measured beat map.
 
 ---
 
@@ -63,7 +72,7 @@
   > **“The oldest faith taught stewardship. The dying civilization converted stewardship into extraction.”**  
   > **“Ancient faith: the strong sacrifice FOR the vulnerable. Modern faith: the vulnerable are sacrificed FOR the system.”**
 * **The Mother Metaphor:** Ancient Thulans held a reciprocal covenant: *“The Mother Mountain shelters us because we shelter the Mountain. Take carefully, restore what you disturb.”*
-* **The Mutation into a Deified Cult:** Modern era dropped the second half (*“...if her children preserve her”*) and personified the mountain as a named goddess (*working name: Fairguna, exact name OPEN*).
+* **The Mutation into a Deified Cult:** Modern era dropped the second half (*“...if her children preserve her”*) and personified the mountain as a named goddess: **Fairguna** is LOCKED as the cult's personal name (v3.1). The formal cult title **Aipei** ("the Mother", from attested *aipei*) makes the state's crime linguistic: a person reduced to a function.
 * **Varek's Defining Confrontation:**
   > *Priest:* “The Mother demands a life so that thousands may endure! How could you know?”  
   > *Varek:* **“Because we were the ones who taught you her name.”**
@@ -74,15 +83,14 @@
 * **Status:** LOCKED
 * **Scope:** Macro-Sociology, Warfare, and Historical Lore
 * **The Outer World:** The planet's lowlands are a recovering ecosystem across a lethal toxic cloud sea; the arks are heavy atmospheric/sub-orbital colony dreadnoughts built to reach fertile distant continents across the planetary storm barrier.
-* **The Interstice Breach:** Frenzied ultra-deep drilling in *The Hollow* breached the dimensional bedrock substrate (*Frum-Skeirs*), opening physical tears into the cold, contractual Interstice.
-* **Varek's Displaced Awakening:** Varek was sealed in cryogenic metabolic stasis in a collapsed deep vault during an ancient tectonic catastrophe; modern mining drills blasted into his tomb, awakening him to a world that perverted his people's legacy.
+* **Varek's Displaced Awakening:** Varek was sealed in cryogenic metabolic stasis in a collapsed deep vault during an ancient tectonic catastrophe; modern mining drills blasted into his tomb, awakening him centuries later to a world that perverted his people's legacy. His memory reaches back to a world centuries gone, one rooted in an order engineered thousands of years ago.
 * **Vertical Warfare Mechanics:** *Ventilation Sieges, Aquifer Diversions, Foundation Undermining,* and *Elevator Bastions*.
 
 ---
 
 ## RULING 008: The Corruption of "Endure"
 * **Status:** LOCKED / CANONICAL FOUNDATION
-* **Scope:** Linguistic Drift / Moral Engine / The Void's Leverage
+* **Scope:** Linguistic Drift / Moral Engine
 * **The Formula:**
   > **Ancient:** *Endure FOR the Mountain.* (Accept hardship so the Mother Mountain, the Hearths, and future generations survive.)  
   > **Modern:** *Endure THE Mountain.* (Whatever the dying Mountain inflicts, you are expected to suffer silently. Suffering itself becomes proof of faith.)
@@ -126,8 +134,10 @@
 * **Vocabulary:** Technical documents use `Gren-Skildus ancestral load plate`,
   `integrated diesel-hydraulic powerplant`, `external structural frame`, `protective
   hull`, `industrial tool station`, and `thoracic load cage`.
-* **Gate State:** Silhouette unapproved; engineering dimensions unmeasured; Blender
-  chassis blocked; Shot 01 rejected and must not run; Git provenance not established.
+* **Gate State:** Silhouette approved and locked (see RULING 011); exact engineering
+  dimensions remain unmeasured; Blender execution authorized — V2A.1 static chassis
+  approved and V2B rig/articulation underway; Shot 01 rejected and must not run; Git
+  provenance established.
 * **Component Rule:** If a component can be removed without affecting load transfer,
   rescue capability, human survival, or machine serviceability, it must justify its
   existence before entering the silhouette.
@@ -154,8 +164,11 @@
   `evidence/concepts/varek-v4-silhouette-approval.json`.
 * **Authorized Next:** Establish project provenance and write the measured Blender
   motion-chassis execution plan.
-* **Still Blocked:** Blender execution, Shot 01, and exact engineering dimensions remain
-  blocked pending motion-chassis plan QA.
+* **Execution State:** Blender execution is no longer blocked. V2A.1 static chassis
+  passed machine and independent validation, and Aaron approved the primary silhouette
+  (gate `V2A1_STATIC_SILHOUETTE`, `evidence/motion-chassis-v2d/visual-verdict.json`),
+  ruling to advance directly to V2B rig and articulation. Shot 01 remains rejected and
+  blocked; exact engineering dimensions remain unmeasured.
 
 ---
 
@@ -180,3 +193,76 @@
 * **Historical Boundary:** Motion Chassis V1 candidate `6566fdba…` used EEVEE and was
   rejected at the human visual gate. Its stills remain non-authoritative diagnostics
   and are not retroactively described as Workbench or Cycles evidence.
+
+---
+
+## RULING 013: Primary Story Spine & The Consent Principle
+* **Status:** LOCKED (v3.1 narrative spine)
+* **Scope:** Story climax, antagonist architecture, moral engine
+* **Governing document:** `docs/THE_THULANS_LORE_BIBLE_v3.md`
+* **Primary Climax:** Varek exposes that the Mountain is physically exhausted and that
+  the Reveal Rites / Life Tithes were orchestrated from pre-surveyed reserves. The truth
+  destroys the legitimacy of the state and religion so quickly that a slow decline
+  becomes immediate civil collapse. Varek was right about the lie and wrong about what
+  the truth would do.
+* **The Council of Three (Garuni):** Seat One — Survey/Reserve (Fritigern); Seat Two —
+  Continuity/Infrastructure (Theodemir); Seat Three — Provision/Faith (Amalasuntha).
+  The Council approves criteria, quota, timing, and the selection machine, never
+  individual names. The hidden clause in its defense is the ark-launch clock.
+* **The Selection Machine:** The Wahlja ("the Choosing") maintains the eligibility pool —
+  sincere volunteers, condemned criminals, debtors, dissidents, and knowledge risks —
+  all laundered through the same sacred ritual.
+* **The Consent Principle:** Consent obtained through manufactured causality is
+  exploitation wearing consent as a mask. The state harvests genuine virtue as raw
+  material. Locked example: Wulfila of Azg-Haíms ("Wulfila volunteered to a lie").
+* **The Throughline:** Haila, Wulfila's sister, is the living human face of the second
+  betrayal — truth is not the same thing as healing.
+* **End State:** Grimdark. No restoration, no clean revolution. Varek does not save the
+  civilization; he keeps saving whoever is still in front of him. "We get each other
+  home" — and home may no longer exist.
+
+---
+
+## RULING 014: Naming & Linguistic Standard
+* **Status:** LOCKED / PRODUCTION-WIDE
+* **Scope:** All personal names, places, Hearths, districts, institutions, and titles
+  added to Thulan canon.
+* **Ruling:**
+  > Personal names should preferentially derive from attested Gothic names or securely
+  > grounded Gothic roots while remaining readable to an English-speaking audience.
+  > Fictional linguistic evolution is permitted, but invented forms must be labeled as
+  > such and must not be presented as historically attested Gothic.
+* **Tier ladder:**
+  * **T1 — Attested:** real Gothic name/word as-is (e.g., *Wulfila*, *Fritigern*).
+  * **T2 — Adapted:** attested root lightly smoothed (e.g., *Haila* ← *hails*,
+    *Watona* ← *wato*).
+  * **T3 — Invented:** new descendant form from real Gothic roots, explicitly labeled
+    (e.g., *Garuni* from *garuni* "counsel/plan"; *Saiwalataihunds* "Soul-Tenth").
+* **Prohibited:** generic fantasy surnames (Ashwake, Blackstone, Ironborn, Emberfall)
+  without a specific cultural reason.
+* **Conventions:** Ordinary address `[Name] of [Hearth]` (e.g., *Wulfila of Azg-Haíms*).
+  Formal/ceremonial register uses the genitive **-jis** pattern (*Fairgunjis*).
+  T2/T3 forms carry provenance labels. Full grammar deferred to
+  `docs/THULAN_LANGUAGE_NOTE.md`.
+* **Register:** See `docs/THE_THULANS_LORE_BIBLE_v3.md` §0 for the locked name register.
+
+---
+
+## RULING 015: Archaic Latin Mottos & Inscriptions
+* **Status:** LOCKED CANONICAL DETAIL
+* **Scope:** Linguistic layering, character psychology, weapon & chassis physical detailing.
+* **Linguistic Layering:**
+  * **Gothic:** The ancestral linguistic substrate of the Thulan civilization.
+  * **Archaic Latin:** An older, foundational inheritance from the pre-cataclysm disaster-engineering order of Varek's era. Modern miners and council members no longer speak or understand it; it survives only as battered, stamped fossil inscriptions on Varek's tools and inner chassis.
+* **Motto 1: `FORTIS ET LIBER` ("Strong and Free")**
+  * **Core Meaning:** True strength is having the sovereign power to *choose* what you stand between. Sacrifice possesses moral value only when a free person chooses to bear it.
+  * **Thematic Inversion:** Directly counters the modern *Life Tithe* and Council propaganda. The state steals freedom while demanding strength, calling compulsory death "virtue." Wulfila is unquestionably strong, but his freedom of choice was stolen by a manufactured lie.
+  * **Physical Placement:** Deeply stamped into the forged manganese-steel collar of **The Fault Maul (*Faírguni-Hamars*)** where the impact head meets the hexagonal haft. Battered, pitted, and soot-blackened by centuries of rock-breaking, but indelible.
+* **Motto 2: `ORA ET LABORA` ("Pray and Work")**
+  * **Core Meaning:** *"Reverence does not replace labor."* Humility, remembrance of the fallen, respect for the Mountain's geological limits—and then picking up the tool to do the actual physical work that keeps people alive.
+  * **Thematic Inversion:** The modern extraction cult claims suffering and ritual sacrifice magically produce water and ore without labor.
+  * **Physical Placement:** Concealed on an inner structural plate behind the curve of the **Gren-Skildus** near his chest life-support hull. Never displayed as a public slogan.
+  * **Behavioral Ritual:** Before dangerous structural drops or Anchor State engagements, Varek instinctively brushes that inner plate with his gauntlet:
+    > *“Ora et labora.”*  
+    Then the diesel catches, hydraulics pressurize, and he goes to work.
+
