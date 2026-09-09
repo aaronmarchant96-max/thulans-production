@@ -2,12 +2,12 @@
 *Traditional Soot-Worker’s Chant of the Lower Hearths*
 
 ```text
-STATUS: CANONICAL LYRIC
+STATUS: CANONICAL LYRIC & RECORDING
 RULING: 021
 METER: 6/8 compound meter
 PULSE: 68.000 BPM dotted-quarter
 TONAL LANGUAGE: D-centered modal; primarily D Dorian with Aeolian inflections
-RECORDING MASTER: OPEN
+RECORDING MASTER: assets/audio/The_Cold_Well_Master.wav (03:27.47 | -12.4 LUFS)
 ```
 
 ---
