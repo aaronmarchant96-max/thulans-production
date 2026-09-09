@@ -52,12 +52,13 @@ Standard, RULING 004 arks, RULING 005 deferred, RULING 006 goddess name lock)
 | *Fairguna* | the goddess (LOCKED final) | *fairguni* "mountain" + *-a*; formal cult title *Aipei* ("the Mother") | T2 |
 | *Azg-Haíms* | lower-city Hearth | *azgo* "ashes" + *haims* "home" | T2 |
 | *Gren-Skildus* | the ancestral load plate | *skildus* "shield" (attested) + *gren-* "green" (green element not clearly attested in the Gothic corpus); labeled invented compound | T3 |
-| *Faírguni-Hamars* | the Fault Maul | *fairguni* "mountain" (attested) + *hamars* "hammer" (assumed from common Germanic, not clearly attested in Gothic); labeled invented compound | T3 |
+| *Faírguni-Hamars* (`𐍆𐌰𐌹𐍂𐌲𐌿𐌽𐌹`) | the Fault Maul ("Mountain-Hammer") | *faírguni* "mountain" (attested Gothic `𐍆𐌰𐌹𐍂𐌲𐌿𐌽𐌹`) + *hamars* (descendant form from Proto-Germanic `*hamaraz`); labeled Thulan descendant compound | T3 |
 | *Haíti-Skreid* | the guarded thermal shear | invented compound; no verified attested elements in the Gothic corpus; labeled invented | T3 |
 | *Hleithra* | the woven fire-cloth sash | provenance root uncertain; previously provisional; remains provisional/unlocked until a root is attested or an explicit lock is made | T3 (provisional) |
 | *Giba-Broþrans* | the oath-and-gift brotherhood | *giba* "gift" (attested) + *broþar* "brother" (attested), genitive-plural frame; compound of attested roots; kinship frame locked | T3 |
 | *FORTIS ET LIBER* | ancestral motto on Fault Maul | Archaic Latin ("Strong and Free"); pre-cataclysm disaster order heritage | Archaic Latin (Canon) |
 | *ORA ET LABORA* | personal motto inside Gren-Skildus | Archaic Latin ("Pray and Work"); pre-cataclysm engineering heritage | Archaic Latin (Canon) |
+
 
 
 ---
