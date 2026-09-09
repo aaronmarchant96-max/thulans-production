@@ -1,97 +1,109 @@
-# THE THULANS: 90-SECOND REVERSE TRAILER AUDIO MAP
+# TEASER TRAILER SPEC: THE WEIGHT OF A LIE (CANONICAL V2.0)
 **Track:** `Familiar_Stone_Take3_Master.wav` (78.000 BPM | 4/4 Time | 24 FPS Sync)  
-**Governing Rule:** RULING 001 (The Intimacy Rule) — *"Never let the mountain become bigger than the people crushed beneath it."*
+**Governing Rule:** RULING 001 (The Intimacy Rule) — *"Never let the Mountain become bigger than the people crushed beneath it."*
 
 ---
 
-## ⏱️ Master Audio-Visual Grid (78.000 BPM | 1 Bar = 3.0769s)
+## ⏱️ Master Audio-Visual Grid (78.000 BPM | 1 Bar = 3.0769s | 24 FPS)
 
 ```
-BAR / BEAT    TIME (s)    FRAME (24fps)    VISUAL STATE (REVERSE)              AUDIO / VO / FOLEY CUE
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[M01.1]       00:00.00    F0000            Macro: Varek cracked visor & eye   Solitary Felt Piano opens (C minor)
-[M03.1]       00:06.15    F0148            Amber emergency beacon strobe      Respirator inhale, deep hydraulic groan
-[M05.1]       00:12.31    F0295            Crushed ceiling slab un-fractures  Reverse rubble whoosh, sub-bass rumble
-[M07.3]       00:20.00    F0480            Hydraulic struts snap to Anchor    Metallic lock `CLANG` in reverse reverb
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[M09.1]       00:24.62    F0591            Pullback: 2,000m Megalithic Abyss  VO 1: "They told us the Mountain was a god..."
-[M11.1]       00:30.77    F0738            Miners run backward into tunnels   Cello enters (mournful legato drone)
-[M13.1]       00:36.92    F0886            Light towers reignite in reverse   Electrical reverse-arc sizzle, gas hiss
-[M15.1]       00:43.08    F1034            Flames sucked back into conduits   VO 2: "She would drink our blood, and give tomorrow."
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[M17.1]       00:49.23    F1182            Camera rises to Spires of Garuni   Piano dynamic lift; low string ostinato
-[M19.1]       00:55.38    F1329            Gold valve wheels turn backward    Brass gear clicks; rushing water in reverse
-[M21.1]       01:01.54    F1477            Secret survey maps locked in vault VO 3: "The water was already there..."
-[M23.1]       01:07.69    F1625            Vault doors swing closed & seal    Heavy iron deadbolt thud `THOOM`
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[M25.1]       01:13.85    F1772            Soot Shaft drop to Azg-Haíms sq.   CHORUS SWELL: Cello + Piano crescendo
-[M26.3]       01:18.46    F1883            Wulfila steps backward off gallows Reverse chain rattle, upward falling tears
-[M27.3]       01:21.54    F1957            Sister unties hammer ring neck     VO 4: "Wulfila volunteered to a lie."
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-[M29.1]       01:26.15    F2068            INT. Ash-Hearth stove / warm cheek TOTAL SILENCE (Music cuts abruptly)
-[M29.3]       01:27.69    F2105            Mother's calloused hand touches    VO 5 (whispered): "...I had a mother, too."
-[M30.1]       01:30.00    F2160            SMASH TO BLACK                     Low sub-drop tail → Title Card
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+BAR / BEAT    TIME (s)    FRAME (24fps)    VISUAL STATE                                        AUDIO / VO / FOLEY CUE
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[M01.1]       00:00.00    F0000            Behind Varek: Mountain chasm in total collapse      Solitary Felt Piano opens (C minor)
+[M03.1]       00:06.15    F0148            Macro: cracked iron visor, single weary human eye   Respirator hiss, deep hydraulic groan
+[M05.1]       00:12.31    F0295            Reverse begins: falling slabs rise, flames retreat  Reverse rubble whoosh, low tectonic groan
+[M07.3]       00:20.00    F0480            Hydraulic struts snap back to rigid Anchor State    Metallic latch `CLANG` in reverse reverb
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[M09.1]       00:24.62    F0591            Wide Reverse: 2,000m chasm reconstructing backward  VO 1: "They told us the Mountain provided."
+[M11.1]       00:30.77    F0738            Panic rewinds; cut to individual terrified faces    Cello enters (mournful legato drone)
+[M13.1]       00:36.92    F0886            Lift cables reconnect, burned depots re-assemble    Electrical reverse-arc sizzle, gas hiss
+[M15.1]       00:43.08    F1034            Depot doors close; smoke sucked into pipes          VO 2: "They told us sacrifice made it answer."
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[M17.1]       00:49.23    F1182            The spectacle shrinks: Gold valve reverses shut     Piano dynamic lift; low string ostinato
+[M19.1]       00:55.38    F1329            Water rushes backward; district cistern empties     Brass gear clicks; rushing water in reverse
+[M21.1]       01:01.54    F1477            Two ledgers: Survey Date vs. Tithe Order Date       VAREK (diegetic): "When was it surveyed?"
+[M23.1]       01:07.69    F1625            Surveyor's finger separates dates; desks clear      Bureaucrat mumble; stamp thud in reverse
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[M25.1]       01:13.85    F1772            Soot shaft drop to Azg-Haíms square (Tithe Stage)   CHORUS SWELL: Cello + Piano crescendo
+[M26.3]       01:18.46    F1883            Wulfila steps backward off Tithe platform (NO CHAINS) Robe slides off in reverse; tear retreats
+[M27.3]       01:21.54    F1957            Sister Haila returns hammer-ring to his hand        VO 3: "Wulfila volunteered to a lie."
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+[M29.1]       01:26.15    F2068            INT. Ash-Hearth: TIME MOVES FORWARD (Normal motion) TOTAL SILENCE (Music cuts to domestic room tone)
+[M29.3]       01:27.69    F2105            Haila wipes soot off Wulfila's cheek; he smiles     Stove crackle; soft fabric; off-screen: "Wulfila."
+[M30.2]       01:30.00    F2160            SMASH TO BLACK                                      Single low stone strike: THUM (Faírguni-Hamars)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ```
 
 ---
 
-## 🎬 Granular Shot-by-Shot Sound Design Breakdown
+## 🎬 Granular Shot-by-Shot Director's Breakdown
 
-### Phase 1: The Dying Titan (`00:00.00` – `00:24.61` | M01.1 – M08.4)
-* **Musical Layer:** Isolated upright felt piano playing the iconic haunting 4-note motif in C minor. Generous cavern convolution reverb (decay time 4.2s).
-* **Foley & Sound Design:**
-  - `00:00.00` — Filtered, rhythmic respirator hiss inside the sealed iron helmet: *slow... mechanical... shallow.*
-  - `00:08.50` — Wet, echoing water drops landing on heated cast iron: *Tsss.*
-  - `00:15.20` — Low-frequency tectonic groan reversed (pitch bends upward from 35Hz to 80Hz).
-  - `00:21.54` — Massive hydraulic pistons expand back into Anchor State: a sharp mechanical latch sound dampening out.
+### Phase 1: The Consequence (`00:00.00` – `00:24.61` | M01.1 – M08.4)
+* **Camera:** Opens from behind Varek—a hulking, scarred silhouette framed against the vast burning expanse of a multi-level mining chasm collapsing in catastrophic ruin. Then cuts to a macro extreme close-up on his cracked iron visor. Through the aperture, a single human eye blinks. Blood streaks down pitted armor.
+* **Music & Audio:** Felt upright piano plays the mournful 4-note motif in C minor. Deep, mechanical respirator breathing.
+* **Reverse Action:** The reverse motion begins almost imperceptibly. Dust gets pulled back into hairline fractures. Floating fire embers retreat. The sheared hydraulic legs un-buckle, rising back into rigid Anchor State on `M07.3` (`00:20.00`).
+* **Dialogue:** **None.** We let the audience ask: *What happened to this world?*
 
 ---
 
-### Phase 2: The Abyss in Reverse (`00:24.62` – `00:49.22` | M09.1 – M16.4)
-* **Musical Layer:** Mournful solo cello enters with a low pedal tone (G2). Gentle upright bass joins on the downbeats.
-* **Varek Voiceover (Radio-filtered, bone-weary, gravelly):**
-  > `00:24.62` ➔ *"They told us the Mountain was a living god..."*  
-  > `00:41.50` ➔ *"...that she would drink our blood, and give us tomorrow."*
-* **Foley & Sound Design:**
-  - Fire crackle and escaping steam playing in reverse (sharp suck-in sounds `shhh-WHUMP`).
-  - Distant crowd panicked cries echoing backward, fading into an eerie rhythmic hum.
+### Phase 2: Civilization Rewinds (`00:24.62` – `00:49.22` | M09.1 – M16.4)
+* **Camera:** Wide cavern pull-back, but repeatedly cutting in to **individual human faces** in the crowd to maintain RULING 001.
+* **Reverse Action:** Panicking miners run backward out of elevator gates. Provision depots re-assemble from ash. Severed gantry cables whip upward and reconnect to iron pylons.
+* **Varek Voiceover (Weary, quiet, steady):**
+  > `00:24.62` ➔ *"They told us the Mountain provided."*  
+  > `00:43.08` ➔ *"They told us sacrifice made it answer."*
+* **Music & Audio:** Solo cello enters with a low, mournful G2 pedal tone. Rushing air and reverse fire whooshes.
 
 ---
 
-### Phase 3: The Spires of Garuni (`00:49.23` – `01:13.84` | M17.1 – M24.4)
-* **Musical Layer:** Piano chords shift to minor-major harmonic tension. Mid-range strings introduce an ascending staccato rhythm building underlying anxiety.
-* **Varek Voiceover:**
-  > `00:58.00` ➔ *"The water was already there."*  
-  > `01:05.50` ➔ *"The wells were already full."*
-* **Foley & Sound Design:**
-  - Gushing waterfall audio reversed into high-pressure iron pipes.
-  - The heavy mechanical `CLACK-CLACK-THUD` of the Council’s vault door locking the true geologic surveys away from the people.
+### Phase 3: The Bureaucratic Crime (`00:49.23` – `01:13.84` | M17.1 – M24.4)
+* **Camera:** The spectacle shrinks from planetary disaster down to cold interior infrastructure.
+* **Reverse Action:**
+  - A heavy gold-trimmed valve wheel spins backward, shutting off flow.
+  - Water in a communal cistern surges backward into ceiling conduits.
+  - The scene cuts to a mundane desk in the upper administrative quarter: **two physical paper ledgers** are being pulled apart in reverse.
+    - **Document A (Survey Ledger):** `NORTH AQUIFER — Surveyed & Verified: [Date X]`
+    - **Document B (Faith / Provision Order):** `Reveal Rite / Life Tithe — Authorized: [Date Y (Weeks Later)]`
+  - A surveyor's trembling hand briefly aligns the two dates before the reverse motion slides them into separate folders.
+* **Varek Voice (Diegetic, in-scene radio/interrogation tone):**
+  > `01:01.54` ➔ **“When was it surveyed?”**
+* **Audio:** An anonymous bureaucrat's muted, stammering voice trails off in reverse. The cold iron sound of an ink stamp hitting paper.
 
 ---
 
-### Phase 4: The Choosing at Azg-Haíms (`01:13.85` – `01:26.14` | M25.1 – M28.4)
-* **Musical Layer:** Full emotional swell (Piano + Cello + Chamber Strings). High, piercing violin note holding steady on G5, creating unbearable tragic tension.
-* **Varek Voiceover (Cracking slightly with old grief):**
-  > `01:20.00` ➔ *"Wulfila volunteered to a lie."*
-* **Foley & Sound Design:**
-  - Heavy iron shackle chain link reversing off Wulfila's wrists: *chink-chink-clatter*.
-  - Sobs of his sister Haila reversing into a silent gasp.
-  - The tiny click of the forged iron hammer-ring landing back in the teenager's soot-covered palm.
+### Phase 4: The Consent of Wulfila (`01:13.85` – `01:26.14` | M25.1 – M28.4)
+* **Camera:** Fast vertical camera plunge down a dark soot ventilation shaft into the crowded square of Azg-Haíms.
+* **Visual Action:**
+  - Wulfila (19 years old, soot-stained, terrified but resolute) **steps backward off the Life Tithe platform**.
+  - **NO SHACKLES. NO GUARDS. NO GALLOWS.** His hands are completely free. He is not a convict; he is a voluntary sacrifice who stepped forward to save his starving hearth.
+  - The ceremonial shroud slips backward off his shoulders into the priest's hands.
+  - A tear running down his younger sister Haila’s cheek flows upward back into her eye. She unties the crude iron hammer-ring from around his neck and places it back into his open palm.
+* **Varek Voiceover (Final narrative line):**
+  > `01:21.54` ➔ **“Wulfila volunteered to a lie.”**
+* **Music:** Full orchestral crescendo (Piano + Cello + Chamber Strings) reaches peak dynamic pressure.
 
 ---
 
-### Phase 5: The Hearth & The Stinger (`01:26.15` – `01:30.00` | M29.1 – M30.1)
-* **Musical Layer:** **DEAD SILENCE.** On M29.1 (1:26.15), all music, cello, and ambience cut sharply to dry room tone.
-* **Foley & Sound Design:**
-  - The gentle, warm crackle of an ordinary domestic coal stove.
-  - The soft rustle of woolen cloth as a mother's hand gently caresses the boy's cheek.
-* **Varek Voiceover (Completely dry, close-mic, intimately quiet):**
-  > `01:27.50` ➔ *"...I had a mother, too."*
-* **`01:30.00`:** **SMASH TO BLACK.**
-* **Final Sound:** Single, deep 28Hz sub-bass impact thud that decays into the title card:
+### Phase 5: The Forward Reversal (`01:26.15` – `01:30.00` | M29.1 – M30.2)
+* **The Masterstroke:** **THE SCORE DIES ON M29.1.** Complete cut to dry, domestic room tone.
+* **THE REVERSE MOTION STOPS:** For the first time in the entire trailer, **time moves FORWARD in normal 24 FPS motion.**
+* **Visual:**
+  - Inside a modest, soot-warmed stone hearth. A kettle murmurs on an ordinary coal stove.
+  - Wulfila sits at a wooden table in an ordinary coarse tunic.
+  - Haila playfully wipes a smudge of coal soot off his nose with her thumb; Wulfila rolls his eyes and smiles an ordinary, nineteen-year-old boy's smile.
+  - From off-screen, a woman's gentle voice calls:
+    > *“Wulfila.”*
+  - Wulfila looks up toward the doorway, alive and whole.
+
+---
+
+### Phase 6: The Black & The Tool (`01:30.00` | M30.2 / Frame 2160)
+* **`01:30.00` (F2160):** **SMASH TO BLACK.**
+* **Sound Effect:** No Hollywood synthesizer boom. Only the authentic, physical sound of the world:  
+  **One single, low strike of *Faírguni-Hamars* against solid stone:**  
+  *`THUM.`* (Long acoustic resonance decaying through deep bedrock).
+* **Title Card:**
 
 ```
                    T H E   T H U L A N S
-                     [ E N D U R E   M E ]
 ```
