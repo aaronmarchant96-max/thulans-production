@@ -46,21 +46,31 @@
 
 ---
 
-## RULING 005: The Climax — Void & Interstice REMOVED
-* **Status:** REMOVED / NON-CANON (v3.1 narrative spine)
-* **Scope:** Climax Arc
-* **Removal:** The Void, the Interstice Breach, the *Frum-Skeirs* dimensional substrate,
-  Anchor-State plane-braking, and *"SO ENDURE ME!"* are removed from canon. They are not
-  deferred, not reserved, and may not be reintroduced into this story without a new
-  human-authority decision and a fresh Intimacy-Rule review. The primary reason for
-  removal is the Void climax's association with 40K-style cosmic gravitas; it did not
-  belong to this world.
+## RULING 005: The Climax — Void REMOVED; "SO ENDURE ME!" REINSTATED AS VAREK'S HUMAN ROAR
+* **Status:** PARTIALLY REINSTATED (2026-09-09, Aaron — new human-authority decision)
+* **Scope:** Climax Arc, Cosmology, Trailer & Anthem Governance
+* **Still removed (fully non-canon):** The Void entity, the Interstice Breach, the
+  *Frum-Skeirs* dimensional substrate, Anchor-State plane-braking, supernatural causation,
+  and *"SO ENDURE ME!"* as a cosmic/Void line or as the story's central resolution. None
+  of these may return without a new human-authority decision. Primary reason for removal:
+  the 40K-style cosmic gravitas — it did not belong to this world.
+* **Reinstated (new human-authority decision):** *"SO ENDURE ME!"* survives **only** as
+  Varek's human battle-roar — physical, defiant endurance hurled at a collapsing ceiling
+  or at the Council's enforcers — performed in **The Song of the Wahlja** (the war
+  anthem). It carries **zero** Void/Interstice provenance. It is his personal semantic
+  reclamation of the regime's command *"ENDURE ME."* (RULING 008, terminal rung).
+* **Trailer ban:** Both *"SO ENDURE ME!"* and *"ENDURE ME"* are **banned** from the teaser
+  trailer's title card. The card carries only `THE THULANS`. A tagline yanks the audience
+  out of the domestic grief into action-promise and violates RULING 001.
 * **Governing climax:** `docs/THE_THULANS_LORE_BIBLE_v3.md` — the Empty Mountain /
   orchestrated-sacrifice / immediate-collapse arc (RULING 013).
-* **Music target:** The 5:32.544 master beat map must be scored to the v3 end-state
+* **Trailer music (resolved):** The teaser's full sync contract is
+  `shots/TRAILER_AUDIO_MAP_78BPM.md` — `Familiar_Stone_Take3_Master.wav`, 78 BPM,
+  M01.1–M30.2, SMASH at F2160.
+* **Film music target (OPEN):** The master beat map must be scored to the v3 end-state
   exchange (a child asks "Will the Mountain protect us?" / Varek: "No." / "Then who
   will?" / "We will.") or to a new apex cue. Exact music time remains **OPEN** pending a
-  measured beat map.
+  measured beat map of the film master.
 
 ---
 
@@ -93,10 +103,14 @@
 * **Scope:** Linguistic Drift / Moral Engine
 * **The Formula:**
   > **Ancient:** *Endure FOR the Mountain.* (Accept hardship so the Mother Mountain, the Hearths, and future generations survive.)  
-  > **Modern:** *Endure THE Mountain.* (Whatever the dying Mountain inflicts, you are expected to suffer silently. Suffering itself becomes proof of faith.)
+  > **Modern:** *Endure THE Mountain.* (Whatever the dying Mountain inflicts, you are expected to suffer silently. Suffering itself becomes proof of faith.)  
+  > **Terminal:** *Endure ME.* (The regime drops the Mountain's mask. Suffer us, dig for us, be consumed so *we* survive. Engraved above shaft gates and on the Life Tithe platform.)
 * **The Core Moral Distinction:**
   - **Ancient Endurance:** Transferred suffering *away* from the vulnerable onto the strong.
   - **Modern Endurance:** Legitimizes suffering *imposed upon* the vulnerable by the system.
+* **The Reclamation:** Varek's anthem roar — *"SO ENDURE ME!"* — seizes the terminal rung
+  and hurls it back at its authors, stripped of the Mountain's holy mask (RULING 005). The
+  trailer title card may never display the command (RULING 001).
 
 ---
 
@@ -105,6 +119,9 @@
 * **Scope:** State Mechanism / Manufactured Miracles / Intimacy Rule
 * **The Principle:**
   > **“The summit manufactures divine causality by withholding known resource discoveries until after acts of sacrifice, causing the population to interpret controlled distribution as proof that the Mountain is a living god.”**
+* **The Central Distinction:** **The scarcity is real. The causal story is fraudulent.**
+  The Mountain is genuinely exhausted; what is manufactured is the *source* of relief —
+  not the want itself.
 * **The Mechanism (The Reveal Rite):**
   1. Surveyors locate a rich mineral vein or water pocket; telemetry is classified by the Summit.
   2. Priesthood announces the Mother Mountain is "withholding" due to lack of devotion.
@@ -201,10 +218,11 @@
 * **Scope:** Story climax, antagonist architecture, moral engine
 * **Governing document:** `docs/THE_THULANS_LORE_BIBLE_v3.md`
 * **Primary Climax:** Varek exposes that the Mountain is physically exhausted and that
-  the Reveal Rites / Life Tithes were orchestrated from pre-surveyed reserves. The truth
-  destroys the legitimacy of the state and religion so quickly that a slow decline
-  becomes immediate civil collapse. Varek was right about the lie and wrong about what
-  the truth would do.
+  the Reveal Rites / Life Tithes were orchestrated from pre-surveyed reserves. The
+  truth destroys the legitimacy of the state and religion so quickly that a slow
+  decline becomes immediate civil collapse — **over weeks, not days, as evidence moves
+  through surveyors, shift boards, manifests, guild presses, and ordinary logistics.**
+  Varek was right about the lie and wrong about the cost of exposing it.
 * **The Council of Three (Garuni):** Seat One — Survey/Reserve (Fritigern); Seat Two —
   Continuity/Infrastructure (Theodemir); Seat Three — Provision/Faith (Amalasuntha).
   The Council approves criteria, quota, timing, and the selection machine, never
@@ -220,6 +238,12 @@
 * **End State:** Grimdark. No restoration, no clean revolution. Varek does not save the
   civilization; he keeps saving whoever is still in front of him. "We get each other
   home" — and home may no longer exist.
+* **The Micro Answer (explicit canon):** The Thulans does not end with restoration of
+  the Mountain, the Council, or the old order. Its final answer is smaller: truthful
+  obligation returns to the Hearth — people choosing what they will bear for one another
+  without manufactured necessity, sacred coercion, or promises that suffering will
+  purchase salvation. The state may fail. Human responsibility does not. Civilization
+  fails at scale; moral agency survives at human scale.
 
 ---
 
@@ -266,3 +290,218 @@
     > *“Ora et labora.”*  
     Then the diesel catches, hydraulics pressurize, and he goes to work.
 
+---
+
+## RULING 016: The Vertical Economy
+* **Status:** LOCKED CANONICAL SPINE (2026-09-09, Aaron)
+* **Scope:** Economics, Class Structure, Consent Principle, Setting Technology
+* **Spine:** **Labor → entitlement → body → life.** Each step is a deeper claim the
+  civilization makes upon the individual.
+* **Hearth Marks:** Ordinary exchange — wages, rent, tools, repairs, trade, transport,
+  clothing, services, goods. Marks are purchasing power; they do **not** guarantee access
+  to survival resources.
+* **Provision Entitlements:** Water, staple food, heat, medical access, and other
+  strategically scarce necessities require a valid **Provision entitlement** in addition
+  to payment. Contradiction: *having money does not mean having permission* — and
+  permission does not mean the resource remains available. Once legitimate (an enclosed
+  industrial civilization cannot allow unrestricted consumption of critical resources);
+  corrupted when allocation control becomes behavior control.
+* **Marrow Contracts:** A secondary desperation market in human biological material for
+  the Mountain's degraded regenerative medicine. **Setting technology, not present-day
+  medical fact:** inherited ancient bioscience, preserved imperfectly and rebuilt across
+  generations; exact biomedical capabilities remain fictional and bounded. Genuine demand
+  from the Mountain's hazards (radiation exposure, heavy-metal contamination, furnace
+  chemistry, industrial toxins, contaminated dust, severe trauma, catastrophic blood
+  loss, damage affecting blood-forming or immune systems). Not a universal cure; donation
+  is recoverable but non-trivial — repeat sellers recognizable in poorer districts
+  (fatigue, bruising, reduced work capacity). **The poverty loop:** enter because you
+  cannot afford survival, leave less able to afford survival.
+* **Linguistic Asymmetry:** Summit abstraction (*regenerative reserves*, *compatibility
+  banks*, *hematopoietic stock*, *recovery allotments*, *VOLUNTARY REGENERATIVE
+  CONTRIBUTION*) vs. the Hearths (*"His rent went up, so he sold marrow again"*).
+  Institutional language removes the body from the transaction; Lower-Mountain speech
+  puts it back.
+* **The Hearth Principle:** *"A body may be given. It should not have to be sold."* and
+  the sharper *"No Hearth prices blood."* A moral principle, not universal law — poor
+  Hearths break it because principles do not fill an empty cistern. Donating to save a
+  person is honored; selling because you cannot afford necessities is communal failure.
+* **The Life Tithe:** Sits **beyond economics** — not the final commodity but the
+  sanctified endpoint of the same descent, described as duty, sacrifice, provision,
+  honor, devotion, communal salvation. The state refuses to describe it as exchange.
+* **Wulfila's District:** The district walked the whole ladder before the Tithe —
+  overtime, selling tools, spending marks, trading ration entitlements, taking debt,
+  selling marrow — and still the cistern ran dry. Then: **"The Mountain requires more."**
+  Wulfila takes the logic seriously and offers the last thing: his life.
+* **Varek's Discovery:** Worse than one life. Officials already knew the water existed
+  while a district descended the self-consumption ladder to make the final sacrifice
+  believable. Formulation: *The Mountain is exhausted. The people are being taught to
+  exhaust themselves with it.* The Life Tithe is where that logic reaches the soul.
+* **Lyric grounding:** *"Trading marrow for another lie"* (`Familiar Stone`) is literal —
+  evidence of a society consuming its own people while it consumes the Mountain.
+
+---
+
+## RULING 017: Vertical Scale & Measurement Idiom
+* **Status:** LOCKED (2026-09-09, Aaron)
+* **Scope:** Geometry, VFX, Lyric & Dialect Canon
+* **Metric domain (engineering & camera):** **2,000 m** governs Blender scene scale,
+  camera frustums, set geometry, and all technical specs — the vertical drop of the
+  Great Central Rift / Industrial Chasm from the high bastions of Garuni down to the
+  soot-tier working levels of Azg-Haíms (see `shots/TRAILER_AUDIO_MAP_78BPM.md`).
+* **Folk domain (songs & hearth dialect):** **"Five leagues in the black"** governs the
+  ballads, poems, and oral legend for the deep crust — a generational folk measure, like
+  a sailor's "twenty thousand leagues." Working-class cultures do not sing in survey
+  meters. (See `assets/audio/FAMILIAR_STONE_LYRICS.md`: "five leagues below".)
+* **Binding:** Zero contradiction. Metric governs the camera and the structure; the folk
+  idiom governs what the miners say about it.
+
+---
+
+## RULING 018: Varek's Interiority — The Displaced Witness
+* **Status:** LOCKED (2026-09-09, Aaron) — existential priority
+* **Scope:** Character canon, Varek's emotional engine
+* **The Pre-Revelation Want:** Varek wakes believing something of his home survived. He
+  wants evidence that the civilization he sacrificed for preserved something
+  recognizable — a Hearth custom, a family line, his rescue oath, a surviving district,
+  a name carved into a wall, someone who understands what *"We get each other home"*
+  originally meant. Modern people fascinate him because they are proof his people
+  survived.
+* **The Horror:** They survived biologically. The moral world he remembered did not.
+* **Specific Cultural Vertigo (word inversion):** *Thulan* once meant the one who stayed
+  so someone else could leave; now endurance is a theology telling weaker people to stay
+  in suffering. *Sacrifice* once meant choosing to bear a burden; now the state assigns
+  burdens and calls the result sacred. His language survived; its moral grammar was
+  inverted.
+* **The Arc (personal before political):**
+  * **Beginning:** "I need to know something of us survived."
+  * **Middle:** "This is not what we meant."
+  * **Revelation:** "They have built authority out of the things we used to protect
+    people."
+  * **End:** He stops recovering his lost civilization and protects the people standing
+    in front of him.
+* **Family Through Behavior, Never Exposition:** The Gren-Skildus matters because someone
+  he loved touched, repaired, painted, and fitted it. He keeps tiny Hearth habits that
+  outlived the people who taught them (the fire-gate vent seal, the picker's position on
+  lifts, the threshold announcement) — performed alone, understood by nobody.
+* **Governing directive:** Varek's story must become personal before it becomes
+  political. Every scene serves the burden / consent / necessity test (RULING 019).
+
+---
+
+## RULING 019: The Thematic Backbone
+* **Status:** LOCKED (2026-09-09, Aaron)
+* **Scope:** Thematic doctrine, design criterion, all future canon
+* **The Backbone Sentence:** The Thulans is about **who gets to decide what another
+  human being must endure.**
+* **Trace:** The Council decides districts must endure scarcity. Provision decides who
+  receives water. Poverty decides who sells marrow. Religion decides what suffering
+  means. Wulfila chooses sacrifice under manufactured premises. Varek exposes the truth
+  without allowing society to choose the transition conditions. Even *"ENDURE ME."*
+  changes meaning depending on who speaks it and whether the other person has any choice
+  (RULING 008 lays the last rung of the same ladder).
+* **The Design Test:** Not every shot states the thesis — that makes the film
+  diagrammatic — but every major sequence, institution, and design choice should survive
+  the question: *What does this tell us about burden, consent, or who controls
+  necessity?*
+* **The Machine Mirror:** Varek's frame transfers load around the human body. The
+  Council transfers social load onto human bodies. Same world. Same problem. Different
+  ethics.
+* **The Breakthrough Sentence:** A civilization can survive the exhaustion of a
+  mountain. What it cannot survive indefinitely is turning every form of love and
+  sacrifice into a pricing mechanism.
+
+
+---
+
+## RULING 021: The Folk Song Canon — "The Cold Well"
+* **Status:** LOCKED (2026-09-09, Aaron)
+* **Scope:** Music, oral history, Lower-Hearth culture, Wulfila legacy, post-Reveal resistance
+
+### Canonical Work
+**THE COLD WELL**  
+*Traditional Soot-Worker’s Chant of the Lower Hearths*
+
+The Cold Well is the canonical folk/work-song through which the Wulfila revelation
+escapes administrative language and becomes common cultural memory.
+
+It begins as an intimate Lower-Hearth warning song and develops into a mass labor chant.
+Its social progression mirrors the spread of the evidence itself:
+
+**one voice → one worker → one shift → one district → a people**
+
+The song is not authored by the Council, priesthood, Varek, or any single recognized
+composer. Individual singers and districts alter delivery and minor wording over time.
+Haila may be associated with a surviving or produced performance, but authorship remains
+collective unless later canon explicitly establishes otherwise.
+
+### Musical Identity
+* **Meter:** 6/8 compound meter
+* **Pulse:** 68.000 BPM dotted-quarter
+* **Tonal language:** D-centered modal; primarily D Dorian with Aeolian inflections
+* **Primary physical pulse:** iron strike on 1; boot/load impact on 4
+* **Orchestration principle:** diegetic labor sound grows into mass resonance rather
+  than conventional cinematic percussion
+* **Progression:** dry solo voice → pick and boot → shift harmony → mass shaft chorus,
+  chains, ventilation resonance, bedrock and industrial structure
+
+The Mountain itself becomes the acoustic chamber for the people who have ceased treating
+it as moral authority.
+
+### Narrative Function
+The Cold Well carries the Wulfila crime in language ordinary workers can remember even
+without possession of the original documents.
+
+The core forensic transformation is:
+
+**Varek:** "When was it surveyed?"
+
+becoming the public accusation:
+
+**"WHO KNEW? WHO KNEW? / SAY WHEN YOU KNEW!"**
+
+The song must preserve the central distinction established elsewhere in canon:
+
+> **The scarcity is real. The causal story is fraudulent.**
+
+The Mountain is genuinely exhausted. The song does not claim limitless hidden abundance.
+Its accusation is that the North Aquifer had already been discovered, classified and
+deliberately withheld before Wulfila made his supposedly necessary sacrifice.
+
+### Canonical Final Accusation
+The whispered ending is:
+
+> **"...they knew before he offered."**
+
+This is the moral center of the song.
+
+Wulfila's courage remains genuine.  
+His decision remains voluntary in the immediate sense.  
+The information required for meaningful consent was deliberately falsified.
+
+### Philosophical Resolution
+The song's mass conclusion rejects divine transactional causality:
+
+> **The Mountain did not answer us—**  
+> **we answered for the lost.**
+
+The line does not mean the Mountain has been conquered or replenished.  
+It means responsibility has returned from sacred infrastructure to human beings.
+
+This directly anticipates the end-state philosophy:
+
+> "Then who will?"  
+> "We will."
+
+### Musical Pillar
+The Cold Well forms the third major musical perspective of THE THULANS:
+
+1. **Familiar Stone** — Varek / private grief / intimacy
+2. **The Song of the Wahlja** — mythic Thulan power / defiance
+3. **The Cold Well** — the Hearths / solidarity / exposure
+
+The three works must remain functionally distinct.
+
+### Master Lyric
+The V2 lyric supplied and approved on 2026-09-09 is the canonical master lyric.
+Future arrangement, performance, dialect variation and recording decisions may change
+without altering the canonical lyrical/narrative spine unless explicitly re-ruled.

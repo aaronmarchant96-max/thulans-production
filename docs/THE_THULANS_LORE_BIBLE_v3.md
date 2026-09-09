@@ -602,9 +602,63 @@ Then the question spreads:
 
 It becomes accusation, proof request, revolutionary slogan, and eventually a weapon.
 
+### The Cold Well
+
+After the Wulfila evidence begins moving through survey crews, shift boards, manifests
+and Hearth networks, the proof acquires an oral form.
+
+"The Cold Well" begins as a Lower-Hearth work chant and becomes the people's mnemonic
+for the crime.
+
+Varek's technical question—
+
+> "When was it surveyed?"
+
+—becomes:
+
+> "Who knew? Who knew?  
+> Say when you knew!"
+
+The song matters because it makes the evidence impossible to contain through document
+seizure alone. A ledger can be burned. Thousands of miners can remember a refrain.
+
+Its final moral claim is not that the Mountain was never dying. It is that the people
+were taught to mistake controlled access for divine response.
+
+> "The Mountain did not answer us—  
+> we answered for the lost."
+
+See **RULING 021** for canonical lyric and musical authority.
+
 ---
 
 ## 9. Varek's Fatal Miscalculation
+
+### The want he wakes with (RULING 018)
+
+Varek does not wake up political. He wakes up searching.
+
+He wakes believing something of his home survived — evidence that the civilization he
+sacrificed for preserved something recognizable: a Hearth custom, a family line, his
+rescue oath, a surviving district, a name carved into a wall.
+
+Modern people fascinate him because they are proof that his people survived.
+
+Then the horror resolves into something worse than future shock:
+
+> They survived biologically.
+> The moral world he remembered did not.
+
+His cultural vertigo becomes extremely specific. Words he knows still exist but mean
+different things. A Thulan was once the person who stayed so someone else could leave;
+now endurance is a theology telling weaker people to stay in suffering. Sacrifice once
+meant choosing to bear a burden; now the state assigns burdens and calls the result
+sacred. His language survived. Its moral grammar was inverted.
+
+That is why he lets himself look and listen and hope. He is not auditing a regime. He
+is looking for home.
+
+---
 
 Varek exposes the truth because he believes people who know the truth can finally choose
 for themselves.
@@ -672,7 +726,9 @@ The civilization was already dying slowly.
 
 Varek's revelation converts slow decline into rapid failure.
 
-Within days or weeks:
+It takes **weeks, not days**. Evidence moves through surveyors, shift boards,
+manifests, guild presses, and ordinary logistics before the collapse becomes general.
+Then:
 
 - mine shifts disappear;
 - furnace output crashes;
@@ -871,6 +927,58 @@ One believes killing an ancient Thulan would itself destroy legitimacy.
 
 That hesitation helps the truth escape.
 
+### The Vertical Economy (RULING 016)
+
+The Mountain's economy descends through four increasingly intimate forms of surrender:
+
+> **Labor → entitlement → body → life**
+
+Each step is a deeper claim the civilization makes upon the individual.
+
+- **Hearth Marks** — ordinary exchange. Wages, rent, tools, repairs, trade, transport,
+  clothing, services, goods. Marks are purchasing power; they do not guarantee access to
+  survival resources. A person may have enough marks to buy water and still be unable to
+  obtain it.
+- **Provision entitlements** — water, staple food, heat, medical access, and other
+  strategically scarce necessities require a valid entitlement in addition to payment.
+  The defining contradiction: *having money does not mean having permission* — and
+  permission does not mean the resource remains available. The system once had a
+  legitimate purpose (an enclosed industrial civilization cannot allow unrestricted
+  consumption of critical resources); its corruption begins when control over allocation
+  becomes control over behavior.
+- **Marrow contracts** — a secondary desperation market where clinics compensate people
+  for biological material used in degraded regenerative medicine. The rationale is
+  inherited ancient bioscience, preserved imperfectly and repeatedly rebuilt; its exact
+  capabilities remain fictional and bounded. The Mountain's hazards create genuine demand
+  (radiation, heavy metals, furnace chemistry, industrial toxins, contaminated dust,
+  severe trauma, catastrophic blood loss). Recovery is possible but non-trivial: repeat
+  sellers become recognizable — fatigue, bruising, reduced work capacity. The poverty
+  loop: a parent sells marrow to buy a child water, then leaves less able to earn the
+  next month's provisions. **Enter because you cannot afford survival. Leave less able
+  to afford survival.** The Summit abstracts it (*"regenerative reserves"*,
+  *"compatibility banks"*, *"VOLUNTARY REGENERATIVE CONTRIBUTION"*); the Hearths call it
+  what it is — *selling marrow.* Institutional language removes the body from the
+  transaction; Lower-Mountain speech puts it back.
+- **Life Tithe** — sits beyond economics. Not the final commodity but the sanctified
+  endpoint: duty, sacrifice, provision, honor, devotion, communal salvation. The state
+  refuses to describe it as exchange, claiming the individual has transcended selfish
+  economics. It is the same descent given holy language.
+
+The Hearth's moral resistance: **"A body may be given. It should not have to be sold."**
+Remembered sharply as **"No Hearth prices blood."** A principle, not a law — poorer
+Hearths break it because principles do not fill an empty cistern. Donation honored;
+coerced sale a communal failure.
+
+Wulfila's district walked the entire ladder before the Tithe — overtime, sold tools,
+spent marks, traded entitlements, took debt, sold marrow — and the cistern still ran dry.
+Then the authorities said **"The Mountain requires more."** The Tithe did not appear as
+cartoon evil; it appeared as the next entry in a ledger. Wulfila takes the logic seriously
+enough to offer the final thing: his life. Because the aquifer was pre-surveyed, none of
+it was necessary. The crime is not one dead volunteer but a district consumed down the
+self-consumption ladder to make the final sacrifice believable.
+
+> The Mountain is exhausted. The people are being taught to exhaust themselves with it.
+
 ---
 
 ## 12. Varek's Grimdark Arc After the Revelation
@@ -931,6 +1039,18 @@ Justice does not restore the dead.
 Varek may save a district, a refuge, a Hearth, or a few thousand people.
 
 He does not save the civilization.
+
+The ending is not "civilization destroyed, therefore nothing mattered." The governing
+end-state sentence (RULING 013):
+
+> The Thulans does not end with restoration of the Mountain, the Council, or the old
+> order. Its final answer is smaller. Truthful obligation returns to the Hearth: people
+> choosing what they will bear for one another without manufactured necessity, sacred
+> coercion, or promises that suffering will purchase salvation. The state may fail.
+> Human responsibility does not.
+
+Civilization fails at scale. Moral agency survives at human scale. The macro ending is
+catastrophic; the micro ending has to contain life.
 
 The ending should preserve one small human principle without pretending that principle
 fixes the world.
@@ -1001,14 +1121,26 @@ he cannot save civilization
 he keeps saving whoever is still in front of him
 ```
 
+**The thematic backbone of the spine (RULING 019):** The Thulans is about who gets to
+decide what another human being must endure. Varek's frame transfers load around the
+human body; the Council transfers social load onto human bodies — same world, same
+problem, different ethics. A civilization can survive the exhaustion of a mountain;
+what it cannot survive indefinitely is turning every form of love and sacrifice into a
+pricing mechanism.
+
 ---
 
 ## 15. Removed From Canon — The Void & The Interstice
 
 The Void, the Interstice Breach, the *Frum-Skeirs* dimensional substrate, Anchor-State
-plane-braking, and *"SO ENDURE ME!"* are **non-canon**. They were removed, not deferred.
-They are not reserved for a later story, and reintroducing any of them requires a new
-human-authority decision and a fresh Intimacy-Rule review.
+plane-braking, and *"SO ENDURE ME!"* as a cosmic or climactic line are **non-canon**.
+They were removed, not deferred. They are not reserved for a later story, and any
+reintroduction requires a new human-authority decision and a fresh Intimacy-Rule review.
+
+**Anthem exception (RULING 005):** The phrase *"SO ENDURE ME!"* survives only as Varek's
+human battle-roar inside **The Song of the Wahlja** — his reclamation of the regime's
+command *"ENDURE ME."* (RULING 008, terminal rung). It carries no Void or Interstice
+provenance, and it is banned from the teaser trailer title card.
 
 - Void possession of Varek;
 - "So endure me" as the story's central resolution;
@@ -1037,6 +1169,23 @@ to this world. The first great catastrophe of The Thulans remains human:
 - **The goddess:** *Fairguna* is locked as the cult's personal name for the Mountain;
   the formal cult title *Aipei* ("the Mother") makes the state's crime linguistic as
   well — a person reduced to a function.
-- **RULING 005:** Void/Interstice/"SO ENDURE ME!" removed from canon — not deferred, not
-  reserved. The reason is the 40K association; reintroduction requires a new human-
-  authority decision (see §15).
+- **RULING 005:** The Void and its cosmic mechanics remain removed from canon. The phrase
+  "SO ENDURE ME!" is partially reinstated as Varek's human battle-roar inside The Song of
+  the Wahlja (see §15) — banned from the trailer title card.
+- **RULING 016 (The Vertical Economy):** Labor → entitlement → body → life. Hearth Marks,
+  Provision entitlements, marrow contracts (setting technology — bounded, inherited
+  ancient bioscience), and the Life Tithe beyond economics. *"A body may be given. It
+  should not have to be sold."* (See §11, The Vertical Economy.)
+- **RULING 017 (Measurement Idiom):** Metric **2,000 m** governs the physical camera and
+  structural set (the Great Central Rift / Industrial Chasm); the folk measure **"five
+  leagues in the black"** governs songs, poems, and hearth dialect for the same depth.
+- **RULING 013 (The Micro Answer):** The ending is not "civilization destroyed,
+  therefore nothing mattered." The Thulans ends with truthful obligation returning to
+  the Hearth: the state may fail; human responsibility does not. Macro can be
+  catastrophic; the micro must contain life. (See §13.)
+- **RULING 018 (Varek's Interiority):** Varek wakes searching for evidence that
+  something of his people survived; the horror is that his civilization survived
+  biologically but its moral grammar was inverted. Personal before political. (See §9.)
+- **RULING 019 (The Thematic Backbone):** The Thulans is about who gets to decide what
+  another human being must endure. Every major sequence, institution, and design choice
+  must survive the burden / consent / necessity test. (See §14.)
