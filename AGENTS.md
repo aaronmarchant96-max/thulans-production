@@ -1,27 +1,26 @@
-# Thulans production: physical mechanism handoff rule
+# Thulans Production: Agent Operating Charter & Physical Mechanism Handoff Protocol
 
-For Varek's hand/tool interface, read `docs/HAND_PHYSICS_GATE.md` before
-building, validating, or presenting a candidate as ready for approval.
+## 1. Physical Mechanism Handoff & Evidence Governance
 
-No static render, reference-point alignment, or intersection-only PASS can
-authorize handoff as a functioning grip. The physical-plausibility gate must
-pass first, followed by Aaron's visual approval. Explicitly labeled failure
-diagnostics may still be shown.
+For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/VAREK_HAND_PHYSICS_TEST_ENVELOPE.md` before building, validating, or presenting a candidate as ready for approval.
 
-Run the read-only preflight in `tools/check_hand_physics_preflight.py` on the
-exact candidate. Its PASS, if obtained, is prerequisite-only, not a simulation
-certificate. Missing load assumptions or missing dynamic tests block handoff.
-Never claim Blender simulation proves real-world safety or manufacturability.
-
-Preserve accepted/source blends and other agents' work. Do not fix wrist
-orientation by rotating the hand to suit the camera. Do not add more armor,
-materials, scenery, or animation scope while this interface is unresolved.
+### Non-Negotiable Rules
+1. **No Superficial PASS Claims:** No static render, reference-point alignment, infinite-mass kinematic collider clamping, or intersection-only check can authorize handoff as a functioning grip.
+2. **Anti-Claim-Drift Rule:** **Documentation claims must be generated from implemented test capabilities, not written ahead of them.** Never claim a test harness enforces constraints or metrics that are not explicitly executed in code.
+3. **Decoupled 4-Layer Architecture:**
+   - `tools/build_hand_physics_harness.py`: Builder script **only** (scene, binding, colliders, constraints). Hard-fails on missing components.
+   - `tools/run_hand_physics_simulation.py`: Execution runner **only** (steps simulation scenarios, exports raw trajectory & local palm-frame logs).
+   - `tools/validate_hand_physics_results.py`: Independent Oracle **only** (consumes raw JSON logs; never manipulates Blender directly; evaluates local slip, drift, and drop metrics).
+   - `tools/mutate_hand_physics_candidate.py`: Adversarial mutant suite generator & evaluator (generates corrupted derivatives to test gate sensitivity).
+4. **Adversarial Mutation Score Gate:** A candidate cannot pass unless the gate engine reliably rejects deliberately broken or corrupted candidates (48/48 mutation score). If a fraudulent scene passes, the gate itself fails.
+5. **Prerequisite Claim Graph DAG:** No downstream PASS claim (e.g. Physics Hold) can override an upstream failure (e.g. Handedness, Connected Mechanism, or Acquisition Trajectory).
+6. **Canonical Denominator Integrity:** Maintain permanent test IDs across the 9 layers (1,000 assertions). Never silently rewrite or weaken failing tests; retire bad tests with explicit rationale and increment versioning.
 
 ---
 
-# Thulans production: narrative & lore authority rule
+## 2. Narrative & Lore Authority Protocol
 
-For all story, script, character motivation, dialogue, and cinematic beats, consult and contribute to:
-- `docs/THE_DISMANTLING_OF_VAREK.md`: **Canonical Literary Foundation & Master Living Story.** All agents are authorized to inspect, edit, expand, or branch this document following its embedded *Agent Collaboration Charter* and *Non-Negotiable Invariants*.
-- `docs/THULAN_LITERARY_INSPIRATIONS.md`: 30 dystopian short stories establishing the ideological tension (anti-capitalism vs anti-collectivism).
-- `RULINGS.md`: Canonical design rulings (RULING 001 through RULING 024).
+For all story, script, character motivation, dialogue, and cinematic beats, consult:
+- `docs/THE_DISMANTLING_OF_VAREK.md`: **Canonical Literary Foundation & Master Living Story.**
+- `docs/VAREK_ACTS_ONE_AND_TWO.md` & `docs/VAREK_ACT_THREE.md`: Screenplay & prose master chapters.
+- `RULINGS.md`: Authoritative design rulings (RULING 001 through RULING 031).
