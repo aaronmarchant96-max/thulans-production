@@ -1,5 +1,12 @@
 # THE THULANS: COMPLETE IP LORE BIBLE & WORLD ARCHITECTURE
 
+> **SUPERSEDED (v3.1):** This document retains older story architecture (Void-possession
+> climax). The governing narrative spine is now
+> [`THE_THULANS_LORE_BIBLE_v3.md`](THE_THULANS_LORE_BIBLE_v3.md). The Void, the
+> Interstice, and *"SO ENDURE ME!"* are removed from canon — non-canon, not deferred
+> (RULING 005). See also RULING 013 (story spine) and RULING 014 (naming standard).
+> Keep this file read-only as an archived foundations reference.
+
 ---
 
 ## 1. The Core Identity & World Pitch

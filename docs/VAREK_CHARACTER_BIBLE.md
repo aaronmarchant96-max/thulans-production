@@ -34,7 +34,7 @@
   > **“I had a mother.”**
 * **Mortal Compassion:** When modern rulers dismiss working people as *"only civilians"*, his answer is absolute:
   > **“So were my brothers.”**
-* **The Living Witness:** Awakened centuries after an ancient collapse, he is the living truth that shatters the modern regime's extraction cult.
+* **The Living Witness:** Awakened centuries after an ancient collapse, he is the living truth that shatters the modern regime's extraction cult. His awakening begins with a private hope, **not a calling** — that *something recognizable* of his people survived (RULING 018). He was never political until the story made him so.
 
 ---
 
@@ -58,4 +58,45 @@
   * *The Ritual:* Before high-risk rescues or Anchor State deployments, Varek instinctively touches that inner plate with his gauntlet:
     > *“Ora et labora.”*  
     Then the diesel catches, hydraulics pressurize, and he goes to work.
+
+---
+
+## 7. Displaced Witness — The Interiority Canon (RULING 018)
+* **The Pre-Revelation Want:** When Varek wakes, his want is painfully simple: **he
+  believes something of his home survived.** Not necessarily his literal family —
+  centuries have passed and he understands that mathematically. He wants evidence that
+  the civilization he sacrificed for preserved *something recognizable*: a Hearth
+  custom, a family line, his rescue oath, a surviving district, a name carved into a
+  wall, somebody who understands what *"We get each other home"* originally meant.
+* **Why the modern people fascinate him:** They are proof that his people survived.
+* **The Horror, precisely:** *They survived biologically. The moral world he remembered
+  did not.* That is more painful than generic future shock, and it makes his cultural
+  vertigo extremely specific:
+  * A **Thulan** was once the person who stayed so someone else could leave. Now
+    endurance is a theology telling weaker people to stay in suffering.
+  * **Sacrifice** once meant choosing to bear a burden. Now the state assigns burdens
+    and calls the result sacred.
+  * His language survived. Its moral grammar was inverted.
+* **The Arc (personal before political):**
+  * **Beginning:** *"I need to know something of us survived."*
+  * **Middle:** *"This is not what we meant."*
+  * **Revelation:** *"They have built authority out of the things we used to protect
+    people."*
+  * **End:** He stops trying to recover his lost civilization and begins protecting
+    the actual people standing in front of him.
+* **Family Through Behavior, Never Exposition:** The Gren-Skildus matters because
+  somebody he loved actually touched, repaired, painted, and fitted it. His domestic
+  habits survived centuries longer than the people who taught them to him. The *ORA ET
+  LABORA* touch-plate (see §6) is the canonical surviving ritual; others include:
+  * He still seals every vent he passes with the fire-gate latch of his boyhood home —
+    a Hearth evacuation discipline — and modern airmen read it as a technician's
+    fussiness.
+  * On cargo lifts he boards and rides facing the load rather than the doors, the
+    picker's position from Azg-Haíms — out of reflex, not threat assessment.
+  * He knocks twice and calls out before entering an occupied chamber, because
+    Heimsfolk announced themselves at thresholds so no one startled at a lit forge.
+  * The grief: nobody around him remembers why any of these are done. He performs them
+    alone.
+  * **Rule:** his lost family and world are shown through behavior, never through
+    flashback exposition.
 

@@ -40,7 +40,7 @@
 * **Ruling:** 
   1. Human civilization lives entirely inside a continent-sized mountain, measuring space vertically (Up-Mountain, Down-Mountain, Coreward, Rimward).
   2. The Mountain has **30–50 years of ore left** before structural collapse.
-  3. The elites know the truth and accelerate mining to build limited **atmospheric/sub-orbital exodus arks** (capacity ~620,000 out of 42M) designed to cross the toxic storm-cloud sea to fertile distant continents, leaving the working class behind.
+  3. The elites know the truth and accelerate mining to build limited **atmospheric/sub-orbital exodus arks** (capacity 600,000 out of 4.2M) designed to cross the toxic storm-cloud sea to fertile distant continents, leaving the working class behind.
   4. Central Paradox: *“The people destroying the Mountain fastest are doing so precisely because they know it is dying.”*
   5. **Narrative Clock (v3.1):** The ark launch clock is the timescale the Council's Continuity seat (Theodemir) actually defends. The same continuity that keeps pumps and furnaces running also holds order until the exodus arks depart. The Council never states this clause aloud. See `docs/THE_THULANS_LORE_BIBLE_v3.md` §11 "The Hidden Clock".
 
@@ -505,3 +505,256 @@ The three works must remain functionally distinct.
 The V2 lyric supplied and approved on 2026-09-09 is the canonical master lyric.
 Future arrangement, performance, dialect variation and recording decisions may change
 without altering the canonical lyrical/narrative spine unless explicitly re-ruled.
+
+---
+
+## RULING 022: Visual Craft Cleanup Override (v41/v48 Baseline)
+* **Status:** LOCKED (authorized by human authority, 2026-09-10)
+* **Scope:** `thulans-production` character asset — `v48-baseline-green` → `v49-visual-cleanup`
+* **Context:** A mathematical clearance PASS (0 prohibited intersections, 0 self-intersections) did not guarantee visual quality. The human authority identified four visible defects the gate cannot see: floating maul parts, unbound/mis-placed toe cleats, the "duckbill" brow guard, and a detached-looking hand.
+* **Ruling:** The operating contract's locked-architecture rule (rule 1) and scope freeze (rule 9) are explicitly overridden for this cleanup only. Authorized changes:
+  1. Re-seat the floating maul parts (`Maul_Pommel_Recovery_Ring`, `Maul_Inscribed_CheekPlate_*`) onto the maul and bind them to the `tool` bone.
+  2. Bind all previously unbound meshes (`Foot_Toe_Cleat_*`, `Foot_Side_Armor_L`, etc.) to their correct bones.
+  3. Replace the v48 brow-guard "duckbill" (`Varek_Helmet_BrowGuard`, `Helmet_Reinforced_Brow_Armor`) with the canonical curved `Operator_Pressure_Helmet` ported from `varek-v37-helmet-final.blend`.
+  4. Restore the original donor hand geometry (reversing the shrunk-box regression).
+* **Constraints preserved:** rig, animation, and the accepted v48 baseline remain untouched; v49 is a new candidate; the clearance auditor must still PASS (REST envelope canonical, 0 prohibited, 0 self-intersections).
+* **Result:** `varek-v49-visual-cleanup.blend` — auditor PASS, sha256 `d31f96e2…`.
+* **Core Maxim:** *A green gate is a floor, not a finish line — the model must also read correctly to the eye.*
+
+---
+
+## RULING 023: Freeze v51 Functional Baseline & Authorize the Thulan Graviton Manipulator
+* **Status:** LOCKED (authorized by human authority, 2026-09-11)
+* **Scope:** `thulans-production` character asset — `v51-functional` → graviton manipulator candidate
+* **Part 1 — Frozen functional baseline:**
+  - `blender/candidates/varek-v51-functional.blend` is the certified functional baseline.
+  - sha256 `dbb66690d4a902df38db4433e9a5bf1d79deff4f5ce7afb189a91ec7e5af44e9`.
+  - Auditor PASS: REST envelope `0.000000 / 2.438400`; 0 prohibited intersections; 0 self-intersections; 0 unbound meshes; 0 floating geometry.
+  - Supersedes `v50-golden-baseline` as the pinned functional baseline. Evidence: `evidence/varek-v51-functional/clearance-audit.json`.
+  - **Graviton-arm starting point:** `blender/candidates/varek-v52-graviton.blend` — sha256 `611516896fbc937af983c816f85a0420c9d4bc57de4d7f49d772bbbdbd43e2e2`. Maul re-seated in the left hand (grip verified to within millimetres in REST and POSE via evaluated depsgraph), orphaned `Thoracic_Foundry_Rivets.001` removed, right arm freed. Auditor PASS (REST `0.000000 / 2.438400`, 0 prohibited, 0 self-intersections). Evidence: `evidence/varek-v52-graviton/clearance-audit.json`. This is the frozen starting point for the right-arm Thulan Graviton Manipulator build.
+* **Part 2 — Thulan Graviton Manipulator authorization:**
+  - The scope freeze (contract rule 9) is lifted for this build only, by explicit human authority as required by contract rule 9.
+  - The graviton manipulator is built on the **right arm**, ratifying `VAREK_V4_CONCEPT_SHEET.md` ("Right Arm Manipulator / Hydraulic Tool Dock") and contract rule 9.
+  - The Faírguni-Hamars maul is canonical in the **left hand**; v51's right-hand maul placement is superseded and is corrected during this build. The hand/tool interface gate therefore applies to the **left-hand** maul grip.
+* **Constraints preserved:** No supernatural causation (RULING 005). CC0 donor attribution only; no imported fictional-mech geometry (rule 11). The clearance auditor must PASS with hash-bound evidence (rules 3, 5). Locked architecture (rule 1) is otherwise untouched.
+* **Claim boundary:** modeled kinematic/physical plausibility only (rule 10).
+* **Core Maxim:** *Freeze what passes; rule before you build.*
+
+---
+
+## RULING 024: Tectonic Load-Coupler (*Faírg-Tygil*) — Physics, Mechanical Architecture, Burden Law & Donor Governance
+* **Status:** LOCKED (Authorized by Human Authority, 2026-09-11)
+* **Scope:** Character Asset, Mechanical Architecture, Physics Laws, Narrative Canon, Donor Kitbash Governance
+* **Part 1 — Physics Governance & The Burden Law:**
+  - **The Golden Burden Rule (Design Authority):**  
+    > **“The manipulator can change how a load is coupled to Varek. It cannot exempt Varek from bearing the load.”**
+  - **No Gravity/Mass Negation:** The device does **not cancel gravity, negate mass, or let Varek ignore reaction forces**. It creates a localized gravimetric/magnetic field coupling that allows him to grip, stabilize, and redistribute heavy loads at a distance.
+  - **Closed Load Path:** The reaction load is physically transferred through the emitter arm, into the suit's structural load frame, down through the hips, and into the grounded boots and bedrock anchors.
+  - **Non-Negotiable Visual Rule:**  
+    > **“The field moves the object. The suit still bears the consequence.”**  
+    *(Hydraulic shudder, exhaust venting, chassis deflection, ground-plate bite, and internal physiological strain must visually communicate that the suit is actively carrying the load.)*
+  - **Mandatory Operating Costs:** Heavy power draw on the diesel generator, rapid thermal buildup in the copper coils, limited burst duration, violent stability loss if Varek is improperly anchored, and severe physiological/mechanical compression on Varek's body inside the cell.
+  - **Consent-Sensitive Rescue Law:** Coupling or lifting a living person is strictly a consent-sensitive rescue action requiring physical proximity and stabilization, never a casual or offensive kinetic power.
+  - **Specification Metrics:** Exact mass limits, effective range, and duty-cycle duration are explicitly marked **TBD** until empirically benchmarked and calibrated during scene staging.
+* **Part 2 — Native Thulan Nomenclature:**
+  - **Ancient Thulan / Hearth Tongue:** ***Faírg-Tygil*** (*Gothic:* "Mountain-Yoke" / "Tectonic Yoke", derived from *Faírguni* + *Tygil* / *Tiuhan*).
+  - **Guild & Council Administrative Record:** *Heavy Tectonic Coupler* / *Disaster-Relief Field Projector*.
+  - **Production / Shop Shorthand:** *Graviton Manipulator*.
+* **Part 3 — Dual-Arm Configuration & Tool Binding:**
+  - **Right Arm:** Dedicated to the *Faírg-Tygil* (Tectonic Load-Coupler).
+  - **Left Arm & Hand:** Carries the *Faírguni-Hamars* (Fault Maul) and the *Gren-Skildus* bronze mesh apron.
+  - **Binding Law:** The maul remains a **separate object driven by the existing `tool` bone** (preserving clean physics and animation separation). Visually, it is aligned to and gripped by the left hand (`hand.L`) with verified IK/contact. The maul is **never** fused to the hand or forearm mesh.
+* **Part 4 — Structural Cleanup Gate (`varek-v41a-cleanup.blend`):**
+  - Upstream baseline masters are never altered in place; all hygiene passes must be versioned, audited derivatives.
+  - `rigid_driver_bone = None` hydraulics: Every unassigned piston must be formally classified as **intentionally static**, **missing binding**, or **orphaned** before modification. No blind bulk deletions.
+  - Modifiers: Duplicate `WEIGHTED_NORMAL` or `BEVEL` modifiers are removed only after readback confirms redundancy, strictly preserving modifier stack shading order.
+  - Zero-vertex objects (`Thoracic_Foundry_Rivets`): Delete only after verified absence of references in object names, drivers, constraints, vertex groups, collection hierarchies, or audit scripts.
+  - Gate restriction: Structural hygiene only. No silhouette alteration; no graviton geometry added during this cleanup step.
+* **Part 5 — Procedural Surface Shading (No BlendKit Dependency):**
+  - All surface materials must be 100% internal procedural Blender shader node graphs saved inside the `.blend` file. Zero external add-on or subscription dependencies.
+  - Core palette: Hammered Cast Iron, Blackened Rolled Steel, Oxidized Bronze/Brass, Flaked Soot, Calcite/Basalt Mineral Flour, Wet Hydraulic Fluid Residue, and Amber Induction Emitter Glow.
+* **Part 6 — Manipulator Architectural Hierarchy:**
+  The mechanical layout of the right arm is frozen into eight continuous structural stages:
+  > **1. Shoulder Load Yoke** → **2. Upper-Arm Structural Housing** → **3. Heavy Elbow Bearing** → **4. Forearm Field Generator** → **5. Concentric Coupling Rings** → **6. Segmented Field Vanes** → **7. Compact Manipulator Palm** → **8. Backpack Power / Conduit Path**
+* **Part 7 — Direct 3D Design Authority for the Blender Model:**
+  1. **Pilot vs. Chassis Scale:** Varek is ~2.4 m tall, but the human inside is substantially smaller than the frame. The armor is visibly an industrial life-support/rescue caisson built around a human, padded with folded wool liners, not an anatomical giant.
+  2. **Gren Skildus:** Mounts on the **left shoulder** as a layered bronze wire mesh/apron (not a superhero cape), hanging low enough to clink against the knee and leg plating.
+  3. **Fault Maul:** Separate left-hand tool, carried head-down, canonical mass **30 kg**, featuring a square striking face and a heavy beaked counter-pick capable of shattering bronze locking keyways.
+  4. **Right Arm (No Human Hand):** The right arm has **no conventional hand**. It terminates directly in three articulated hydraulic talons around the open copper induction ring. No donor human hand is preserved inside the emitter.
+  5. **Spinal Diesel Unit:** The backpack is a **twin-cylinder diesel/hydraulic unit** on the upper spine, visibly connected to the manipulator via braided high-pressure lines, capable of coughing black smoke and mechanically driving the arm rams.
+  6. **Field States:** Copper induction ring is normally dark and cold when idle; activation produces a violent blue-white electrical discharge with drifting amber needles; overloaded failure produces dying violet arcs and melting copper slag.
+  7. **Pressure-Vessel Torso:** Torso plating features **structural hoop-iron**, rivets, and bands like a mine caisson or boiler, completely avoiding decorative sci-fi panel lines.
+  8. **Serviceable Mechanical Failure Points:** The arm must visibly display serviceable couplings, exposed hose crimps, weld seams, coil insulation, and sacrificial mechanical hardware.
+* **Core Maxim:** *The field holds the stone; the man bears the weight.*
+
+---
+
+## RULING 025: Thulan Culinary Philosophy & The Dignity of the Slate
+* **Status:** LOCKED (Authorized by Human Authority, 2026-09-11)
+* **Scope:** Cultural World-Building, Sensory Detailing, Class Mechanics, Table Rituals & Narrative Design.
+* **Core Maxim:**
+  > **“Impoverished pantry, aristocratic technique.”**
+* **Part 1 — The Moral Law of the Table:**
+  - **Rejection of Survival Slop:** In a totalitarian mining caisson that reduces human beings to consumable labor units, carefully preparing, seasoning, and plating food is an act of quiet, radical moral resistance—a daily declaration of humanity.
+  - **The Wiped Rim:** Regardless of tier, desperation, or poverty, even a bowl of scrap broth or root mash has its rim wiped spotlessly clean with a cloth before service.
+  - **Plating Surface:** Meals are served on chipped dark slate, hand-thrown low-fire ceramic, hammered tin, or salvaged bronze—never consumed directly from communal slop tubs.
+* **Part 2 — The Humble Pantry:**
+  - **Baseline Ingredients:** Cave mushrooms/bracket fungi, wild rock chives/leeks, insects (crickets, larvae), clean rodents (rats/rock mice), blind cave fish and white eels from aquifer sumps, freshwater snails, cave crayfish.
+  - **Subterranean Gardens:** Small potatoes, turnips, and black radishes grown under metered electric lamps; hardy black lentils and field beans.
+  - **Commodity Markers:** Grain and bread are rare and carry profound social prestige due to the cost of daylight lamps. Goat/sheep meat from summit grazing terraces is strictly ceremonial. White sugar is nonexistent (malt syrup, beet syrup, and fungus honey serve as rare accents).
+* **Part 3 — The Transformative Arts:**
+  - **Techniques:** Centuries of refinement in cold-smoking over spent timber/peat, lacto-fermentation (mushroom garums, insect pastes, sour leek relishes), vinegar pickling, intense 48-hour clarified broths (*Svart-Wato*), pressed terrines, and steamed starch dumplings (*Klumpôs*).
+  - **Crisps & Garnishes:** Plated compositions deliberately incorporate textural crowns: fried cricket wings, gossamer leek threads, crackled mushroom lace.
+* **Part 4 — The Flavor Profile:**
+  - **Signature Matrix:** $\text{Smoke} + \text{Sourness} + \text{Deep Umami} + \text{Mineral Salt} + \text{Charred Allium} + \text{Rendered Fat}$. Sweetness is startling and rare.
+* **Part 5 — Iconic Cultural Dish:**
+  - ***Hearth Black (Haírth-Svart):*** A dense, seared mushroom-and-lentil cake topped with shredded smoked cave eel, pickled radish curls, crisp cricket lace, and finished tableside with boiling clarified black broth poured over dark slate.
+* **Part 6 — The Fossil Gothic Heritage (*Sunna-Mats* / Foods of the Sun):**
+  - **Memory as Liturgy:** Ancient Gothic recipes from the surface world (spit-roasted boar, blood puddings, honey mead, bread trenchers) are preserved as sacred culinary memories, adapted to the dark basalt ecology.
+  - **Ghost Swine (*Swin-Flesk*):** Brined rodent or goat haunch diamond-scored and roasted like ancestral pork. Calling it *“Swin-Flesk”* is an intentional liturgical act asserting human dignity.
+  - **Blood-Puck (*Blôþ-Mats*):** Quail/game blood bound with lentil meal and seared in bone marrow; eaten after rockbursts or completing a first shift (*“Blôþ spent in the drift, blôþ returned to the bone”*).
+  - **Stone Mead (*Mido-Stáin*):** Resinous caramelized beet-and-pine mead served warm in horn cups to toast the dead.
+  - **The Sun-Trencher (*Sunna-Baurd*):** Ultra-thin barley crackers replacing ancient spelt trenchers; leaving a crumb uneaten is a cultural taboo.
+  - **The Hearth Kettle (*Kald-Katil*):** The perpetual simmer-kettle in tenement clusters—an unquenched communal vessel that miners defend against Council ration-wafer standardization.
+* **Part 7 — The Social Spectrum & Grounding Rule (No Universal Haute Cuisine):**
+  - **The Grounding Rule:** Avoid making every lower-tier cook a haute-cuisine technician. Thulan food operates on a grounded spectrum:
+    - *Shift Food:* Tough, salty pocket bricks (*Stáin-Kake*) eaten squatting against ore skips.
+    - *Family Food:* Daily turnip-and-lentil mash (*Haíms-Grout*) topped with fried chives in wiped ceramic bowls.
+    - *Feast & Wedding Food:* Hand pastries (*Pást-Brûþ-Faste*) stuffed with smoked eel and quail eggs; shared horn of stone mead.
+    - *Funeral Food:* Cold-smoked fish, austere blood-pucks, and the deceased's slate placed face-down in silence.
+    - *The Archon Table (Superior Ingredients, Inferior Soul):* Summit lamb, white flour, and honey, but over-boiled, sterile, and soulless; crusts discarded into furnace boilers while preaching conservation.
+* **Part 8 — Regional Variations Across 2,000 Miles:**
+  - *Sump Drifts:* Vinegar brines, heavy cold-smoking, white sump eels, and pungent garlic garums.
+  - *Smelter Tiers:* Blistered clinker-breads slapped on red-hot furnaces; chilled sour-vinegar tonics (*Syre-Wato*) to fight heat.
+  - *Aquifer Caverns:* Steamed flume greens, freshwater crayfish, clear consommés, and salted cave-trout roe.
+  - *Summit Terraces:* Wind-dried mutton jerky (*Luft-Flesk*), hard goat cheeses, and high-altitude lichen teas.
+  - *Old Hearths:* Heirloom sourdough starters, ancestral fermentation crocks, strict Gothic food taboos.
+  - *Haulage Depots:* Greasy skip-food: dried rodent pepperoni sticks (*Flesk-Stikks*) and roasted beetle cones.
+* **Part 9 — Varek's Lost Pantry:**
+  - For 300 years inside the caisson, Varek has tasted only copper and aerosolized nutrient sludge. His memory is the lost surface world: crisp sun-warmed apples, spring snow-water, dark rye bread with sweet butter, and spit-roasted pork eaten with bare hands under the sky.
+* **Part 10 — Core Political Symbol:**
+  > **“A government can feed you and still starve your culture.”**
+* **Reference Document:** Full culinary grammar codified in `docs/THULAN_CULINARY_TRADITIONS.md`.
+
+---
+
+## RULING 026: The Dual Grindstones — Totalitarian Planning & Extractive Monopoly
+* **Status:** LOCKED (Authorized by Human Authority, 2026-09-11)
+* **Scope:** World-Building Architecture, Socio-Economic Mechanics, Narrative Conflict, Class Dynamics, Character Motivation.
+* **Core Maxim:**
+  > **“Everything belongs to everyone. Everything has a price. And somehow, you own nothing.”**
+* **Part 1 — The Synthesis of Two Dystopias:**
+  - The socio-economic apparatus of Mount Faírguni is not a pure ideologue's model; it is the compounding of the worst incentives of **centralized totalitarian planning** and **extractive monopolistic capitalism**, driven by acute physical scarcity and the complete abstraction of human beings.
+* **Part 2 — The State Grindstone (Authoritarian Planning):**
+  - Rigid, unassailable central production quotas (copper tonnage, timber feet, life-tithes).
+  - Geologic surveys and deficit data suppressed because admitting impending failure threatens bureaucratic careers.
+  - Workers assigned as fungible units; entire lower districts sacrificed or sealed to preserve upper-tier continuity.
+  - State dogma: *“The copper belongs to all Hearths.”*
+* **Part 3 — The Market Grindstone (Extractive Monopoly):**
+  - While the stone is public, the tools to extract it are privately leased: respirator refurbishment fees, drill-bit debt, lamp fuel rental.
+  - Contracted distribution: State allocates 600 tonnes of grain, but licensed merchant houses levy transit tolls, spoilage insurance, and handling fees—families arrive at the ration counter already owing half their allotment.
+  - Worker reality: *“The copper belongs to everyone? Then why do I owe someone money to dig it?”*
+  - Commodity speculation: Merchant houses trade scrip on copper permit futures; brokers three tiers above get rich when Shaft 44 collapses because production shortfalls drive permit scarcity through the roof.
+* **Part 4 — Class Geography & Mundane Obscenity:**
+  - **The Upper Spire:** Wealth is comfortable and carelessly wasteful (trimming bread crusts after one service, throwing them into incinerators) while posting propaganda posters in the lower drifts: *“A Crumb Wasted is a Hearth Betrayed.”*
+  - **The Sinks & Lower Tiers:** Families boiling old leather tool straps for marrow gelatin, yet maintaining an aristocracy of technique on the slate.
+* **Part 5 — The Tragic Justification (Why It Endures):**
+  - The system is not a cartoon straw man; it survived because both sides solved real crises: central planning dug 30-mile ventilation trunks and the Great Aqueduct; competing guild mechanics invented pumps that didn't choke on basalt grit; emergency state rationing halted famine during ancient collapses. Institutions born to solve problems calcified into engines of self-preservation.
+* **Part 6 — Varek’s Alien Principle:**
+  - Varek embodies the pre-cataclysm disaster order: *“Resources exist to sustain people. People do not exist to sustain systems.”*
+  - He threatens the Council by rejecting sacrifice quotas, threatens the merchant cartels by rejecting property rights in survival tools, and terrifies ordinary miners because his absolute moral clarity carries a price only the poor are forced to pay.
+* **Reference Document:** Full economic architecture codified in `docs/THULAN_POLITICAL_ECONOMY.md`.
+
+---
+
+## RULING 027: Chronological Baseline & Civilizational Scope (3,000 Years vs. 300 Years)
+* **Status:** LOCKED (2026-09-11)
+* **Scope:** Universal Timeline, World Age, Varek Lifespan
+* **Ruling:**
+  1. **Civilization Age (3,000 Years):** The Mountain has been inhabited for three millennia. This is the deep time of the setting: the initial descent from the surface, the hand-blasting of the great intake flues, the construction of the Great North Aqueduct, and the linguistic evolution of ancestral Gothic into the modern dialects.
+  2. **Varek’s Lifespan (300 Years):** Varek was sealed inside his walking caisson 300 years ago during the onset of the Great Silt Inundation and the early tectonic acceleration. He is not a mythological figure from the dawn of time; he belongs to living family memory. Kaelen's grandfather cast his hip-pins; parish ledgers still record his family hearth.
+  3. **Why This Distinction Matters:** 3,000 years gives the world weight, geological decay, and cultural fossilization. 300 years keeps Varek’s tragedy personal, mechanical, and intimately human (RULING 001).
+
+---
+
+## RULING 028: Council Structure & Executive Authority
+* **Status:** LOCKED (2026-09-11)
+* **Scope:** Governance, Antagonist Hierarchy, Political Institutions
+* **Ruling:**
+  1. **The Council of Three:** The constitutional governing body consists of three ministerial chairs:
+     - **The Ministry of Continuity (Logistics & Production):** Managed by Archon Theodemir. Controls mining quotas, water allocation, and the secret evacuation arks.
+     - **The Ministry of Faith (Cultural Inversion & The Mother Cult):** Manages the deified Fairguna religion, the school catechisms, and the ceremonial Life Tithes.
+     - **The Ministry of Order (Security & Enforcement):** Commands the pneumatic-augment squads and enforces production quotas across the drifts.
+  2. **Theodemir's Dominance:** While the Council has three chairs, Archon Theodemir is the functional executive. The Faith and Order ministries serve the production quotas calculated on his slates. In the narrative, Theodemir is the direct ideological antagonist because he controls the arithmetic of life and death.
+
+---
+
+## RULING 029: The Unified Spine — Wulfila, Haila, Bram, and Varek
+* **Status:** LOCKED (2026-09-11)
+* **Scope:** Main Narrative Spine, Character Integration, Dramatic Motivation
+* **Ruling:**
+  1. **The Single Family Core:** The story of Varek and the story of Wulfila are not separate historical events; they are the tragedy of a single family across forty days:
+     - **Wulfila (19):** Older brother of Sanna (18) and Bram (14). Forty days prior, Wulfila volunteered for the Life Tithe at Azg-Haíms because the state declared the district’s water exhausted. He sacrificed his life to earn a family ration voucher and keep young Bram out of the deep copper shifts.
+     - **Haila:** Wulfila’s betrothed, who braided the cord and gave him the iron hammer-ring on the tithe platform.
+     - **Bram (14):** Despite Wulfila's sacrifice, the Ministry drafted Bram into Shaft 44 anyway when the emergency copper quota was raised for Dreadnought Four.
+     - **Sanna (18):** Left to run the Lower Four nursery, caring for infants while trying to keep Bram alive after his leg is crushed in the collapse.
+  2. **Varek’s Complicity and Awakening:**
+     - Varek was the ceremonial iron guard stationed on the platform at Azg-Haíms when Wulfila jumped. The state used Varek's ancient armor as a holy relic to sanctify the death. Varek stood silent, believing the sacrifice was mathematically necessary for his people.
+     - When Shaft 44 shears, Varek breaks the bulkhead to rescue Bram—the younger brother of the boy he watched die.
+     - On Tier Nine, Theodemir reveals the Azg-Haíms slate: the aquifer had eleven million gallons forty days before Wulfila jumped. Wulfila was murdered to prevent a timber strike.
+     - Varek’s realization (*“Wulfila volunteered to a lie”*) connects his past silence to his present rebellion. His descent to Lower Hearth Four is not generic charity; it is a direct act of personal restitution to Wulfila's family. He returns the machine to the hands that built it, dying while holding Sanna's hand.
+
+
+
+---
+
+## RULING 030: Demographic Scale, Historical Decay (10:1 Ratio), Ark Triage & Iron-True Geology
+* **Status:** LOCKED (2026-09-11, Aaron)
+* **Scope:** Macro-Sociology, Architecture, Demographics, Physics Grounding, Geological Setting.
+* **Part 1 — The 10:1 Historical Demographic Collapse (Model C):**
+  1. **Peak Population:** ~42 million. The Mountain was engineered at its high-tech civilizational zenith (~3,000 years ago) as a self-sustaining continental arcology ringing the volcanic massif.
+  2. **Present Population:** ~4.2 million. After centuries of aquifer depletion, ventilation shaft collapses, famine, abandoned Hearths, and systemic industrial contraction, only one-tenth of the population survives.
+  3. **The Living Corpse Aesthetic:** Ten people inhabit infrastructure engineered for a hundred. Fairguni is not merely an overcrowded hive; it is an enormous dying machine where dense surviving corridors are isolated islands in vast darkness. Miles of lift trunks are welded shut; transit platforms are sized for vanished millions; municipal aqueducts built for eight million carry a trickle; vaulted communal dining halls built for two thousand serve eighty.
+  4. **Varek’s Non-Golden Memory:** Varek (~300 years old) does *not* remember the 42-million golden peak. The civilizational collapse predated him; his mother already lived in a failing, rationing world. He remembers an earlier stage of mechanical deterioration, avoiding the cliché of a protagonist who remembers "paradise."
+* **Part 2 — Ark Triage & The Moral Battlefield:**
+  1. **Evacuation Metrics:**
+     - **Total Surviving Inhabitants:** ~4.2 million.
+     - **Total Atmospheric Arks:** Six dreadnoughts.
+     - **Ark Capacity:** 100,000 per vessel = 600,000 total seats.
+     - **Excluded Population:** ~3.6 million people cannot leave.
+     - **Survival Ratio:** ~14.3% (approximately 1 in 7).
+  2. **Theodemir's Arithmetic Scene (MANDATORY UPDATE):** The scene on the Tier Nine command balcony uses 4.2 million, not 42 million. Theodemir lays out the exact figures on his slate: 4.2 million living Thulans, 600,000 berths, 3.6 million who must burn or drown when the lower mountain is blown. The political horror is not a simple 98% extermination; it is the *moral selection* of the 14% who constitute the future of humanity.
+  3. **The Timbermen Guild:** ~40,000 timbermen. At 4.2 million total population, 40,000 represents ~1% of the entire polity and 10–15% of the active deep underground labor force. Timber debt, shoring shortages, and the timbermen strike threat are dominant, inescapable realities across the lower mountain.
+* **Part 3 — Grounded Physics & Iron-True Geology:**
+  1. **Single Physics Frame:**
+     - The *Faírg-Tygil* operates strictly via **high-flux pulsed electromagnetism and mechanical hydraulic load transfer**. It never negates mass or cancels gravity; reaction forces are physically transferred through Varek's arm into his structural chassis and anchor boots.
+     - *"Graviton"* or *"grav-arm"* survives strictly as **lower-drift miner vernacular** (vernacular slang for an invisible force, like 19th-century miners calling early locomotives "puffing devils").
+  2. **Shaft 44 Geology (Iron-True):**
+     - Basalt is non-magnetic silicate. The rock shored and coupled in Shaft 44 is explicitly **banded magnetite-ironstone** (*blôþ-stáin* / hematite skarn) and heavy structural forged-iron anchor pins.
+     - The induction ring grips the dense ferromagnetic bands and iron sills, making the mechanical coupling physically grounded.
+
+---
+
+## RULING 031: The Varek-Machine, Institutional Inheritance & The Residual Pattern
+* **Status:** LOCKED (2026-09-11, Aaron)
+* **Scope:** Narrative Canon, Epilogue, Character Fate, Machine Psychology, Thematic Core.
+* **Part 1 — The Hard Boundary: Absolute Human Death:**
+  1. **Varek dies as an ordinary human being.** His death during the dismantling in Lower Hearth Four remains absolute and final. When his flesh hand closes around Sanna's hand, it never opens again.
+  2. **No Digital Soul Transfer:** There is no uploaded consciousness, digital brain preservation, supernatural haunting, neural phantom, or miraculous later resurrection. The Varek-machine is **not Varek resurrected by AI**.
+* **Part 2 — Institutional Reconstruction & The Residual Lattice:**
+  1. **The Scavenged Machine:** After the dismantling, miners retain certain salvaged components (the Fault Maul, ancestral tools, personal pins). The Council later confiscates the remaining chassis, reassembling an operational unit from original structural steel, modern replacement machinery, and surviving control sub-assemblies.
+  2. **The Dual System:**
+     - **Council Varek:** What the regime intentionally engineered: approved speech synthesizers, patrol directives, work quotas, rescue priority allocations, and ceremonial protocol.
+     - **Residual Varek:** The kinesthetic and behavioral residue of an adaptive control lattice that interpreted, compensated for, and learned a single human operator over three centuries of mechanical violence. The machine accumulated Varek's somatic reflexes: how he approached unstable stone, how he prioritized survivors, how he braced before a shear, his habit of checking the second survivor first, leaving his own escape path until last, touching doorframes, and knocking twice before entering a damaged chamber.
+  3. **The Mundane Engineering Defense:** Every strange behavior has a plausible, mundane technical explanation. The Council attributes irregularities to incomplete reconstruction, missing memory sectors, corrupted actuator calibration maps, or obsolete rescue heuristics overriding modern priority queues. The ambiguity remains permanently unresolved: neither the believers who say "it's Varek" nor the skeptics who say "Varek died" are ever proven right.
+* **Part 3 — Subtle Cruelty & The Weaponized Pattern:**
+  1. **Authentic Utility as Propaganda:** The reconstructed machine is not openly evil or a cartoonish weapon. It actually saves miners. Children grow up watching it brace falling roofs; Council newsreels broadcast it carrying the wounded; survival rates improve.
+  2. **The Horror of Service:** Every successful rescue reinforces the regime's triumphant lie: *"Varek still serves."* The institution takes something authentically righteous about the man and puts it back to work for the system he died opposing. The propaganda succeeds precisely because the machine genuinely behaves like him.
+* **Part 4 — The Epilogue (Decades Pass & The Final Image):**
+  1. **The Disappearance of the Men:** Over decades, Council modifications fail, replacement parts stop fitting, approved voice files corrupt, ceremonial paint burns away. Everyone who actually knew the living man dies. Engineers call his motions "legacy behaviors"; miners call them "Varek."
+  2. **The Final Drift:** A dying, unmonitored machine enters an abandoned drift. No survivors, no audience, no Council cameras, no possible propaganda value. It reaches a pressure door: *Knock. Knock.* Waits. Opens it. Crosses the empty vault. Detects a failing vent and seals it despite there being no one left to breathe. Assumes the ancient three-tonne load-bearing stance.
+  3. **The Last Action:** The machinery shuts down without a word—no "I remember," no revelation, no speech. Its final functioning hydraulic actuator makes a minuscule, silent correction, shifting structural load away from an empty gallery. Pointless—unless you are Varek.
+* **Part 5 — Canonical Thematic Maxim:**
+  > **“A society can preserve the pattern of a good man while destroying the man who made it.”**  
+  > *“The Council knows exactly what it can do but no longer understands the man. The Hearths understand the man but increasingly don't know what the machine is.”*  
+  *(This remains strictly an epilogue; Varek's story ends with the human hand in Sanna's.)*

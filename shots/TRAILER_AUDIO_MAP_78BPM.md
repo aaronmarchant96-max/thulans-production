@@ -1,6 +1,7 @@
-# TEASER TRAILER SPEC: THE WEIGHT OF A LIE (CANONICAL V2.1 LOCKED)
+# TEASER TRAILER SPEC: THE WEIGHT OF A LIE (CANONICAL V2.2 LOCKED)
 **Track:** `Familiar_Stone_Take3_Master.wav` (78.000 BPM | 4/4 Time | 24 FPS Sync | 90.00s / F2160)  
 **Governing Rule:** RULING 001 (The Intimacy Rule) — *"Never let the Mountain become bigger than the people crushed beneath it."*
+_V2.2 adds the Dual-Domain Hand-off & Production Contract (Blender/REAPER/NLE sync). V2.1 struck the title-card tagline under RULING 005._
 
 ---
 
@@ -31,8 +32,37 @@ BAR / BEAT    TIME (s)    FRAME (24fps)    VISUAL STATE                         
 [M29.1]       01:26.15    F2068            INT. Ash-Hearth: TIME MOVES FORWARD (Normal motion) TOTAL SILENCE (Music cuts to domestic room tone)
 [M29.3]       01:27.69    F2105            Haila playfully wipes soot off Wulfila; he smiles   Stove crackle; soft fabric; off-screen: "Wulfila."
 [M30.2]       01:30.00    F2160            SMASH TO BLACK                                      Single low stone strike: THUM (Faírguni-Hamars)
-─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ```
+
+---
+
+## ⏱️ Dual-Domain Hand-off & Production Contract
+
+**Domain 1 — Tempo-Slaved (`M01.1`–`M29.1`, 0:00.00–1:26.15):** while the score is
+active, cuts, reverse foley swells, and Varek's voiceover lock to the 78 BPM grid
+(1 bar = 3.076923s; 1 beat = 0.769231s). When the music dies on `M29.1`, the timeline
+stops obeying bar downbeats.
+
+**Domain 2 — Frame-Governed (F2068–F2160, exactly 92 frames of forward-time domestic):**
+the score and reverse motion are dead; natural forward 24 FPS motion only. Wulfila at the
+stove; Haila wipes the coal soot; off-screen voice *"Wulfila."*; he looks up alive and
+whole.
+
+| Event | Time | Frame | Source |
+| --- | ---: | ---: | --- |
+| Score dies to room tone (`M29.1`) | 01:26.154 | F2068 | 28 bars × 3.076923s |
+| `M30.1` (room tone continues) | 01:29.231 | F2142 | 29 bars × 3.076923s |
+| SMASH TO BLACK + `THUM` (`M30.2`) | 01:30.000 | F2160 | 29 bars + 1 beat |
+| `THUM` acoustic decay tail (`M31.1`) | 01:32.308 | F2215 | 30 bars × 3.076923s |
+
+**Contract:**
+1. **Blender:** render range **Frame 1 → Frame 2160** (90.00s).
+2. **Cut to black:** **Frame 2160**.
+3. **REAPER:** marker `[08_SMASH_BLACK]` at **M30.2** (01:30.000 / F2160); place the
+   *Faírguni-Hamars* `THUM` sample there. Its ~2.3s resonance decays F2160–F2215 under
+   the title card. **M30.1 is not the cut** — exactly one beat separates it from the smash.
+4. **Title card:** `THE THULANS` only, no tagline (RULING 005 trailer ban).
 
 ---
 
