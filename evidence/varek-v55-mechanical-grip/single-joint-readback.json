@@ -1,0 +1,21 @@
+{
+  "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-single-joint-test.blend",
+  "hardpoint_pivot_location": [
+    0.628000020980835,
+    -0.029671669006347656,
+    1.0045182704925537
+  ],
+  "hinge_type": "HINGE",
+  "hinge_use_limit_ang_z": true,
+  "motor_type": "MOTOR",
+  "motor_target_velocity": 1.5,
+  "motor_max_impulse": 2.0,
+  "maul_origin_location": [
+    0.5970942378044128,
+    -0.055572375655174255,
+    1.3122917413711548
+  ],
+  "maul_mass": 30.0,
+  "maul_collision_shape": "COMPOUND",
+  "maul_compound_children_count": 26
+}

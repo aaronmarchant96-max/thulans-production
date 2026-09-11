@@ -1,6 +1,6 @@
-"""Execute Single-Joint Verification Prototype Scenario.
+"""Execute Single-Joint Verification Prototype Scenario (Hardened).
 
-Logs actual physical motor velocity, position, and orientation angle in local palm frame.
+Logs actual matrix transformations, local palm-frame relative quaternion rotation, and motor parameters.
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ def main() -> int:
     p1 = bpy.data.objects.get("Digit1_Phalanx1_L")
     palm = bpy.data.objects.get("Palm_Plate_L")
     
-    motor_empty = bpy.data.objects.get("Constraint_Motor_Palm_to_D1P1")
+    motor_empty = bpy.data.objects.get("D1P1_BearingCenter_Motor")
     rbc_motor = motor_empty.rigid_body_constraint if motor_empty else None
 
     logs = []
@@ -42,7 +42,7 @@ def main() -> int:
         logs.append({
             "frame": frame,
             "relative_angle_deg": rel_angle_deg,
-            "phalanx_linear_velocity": list(p1.rigid_body.linear_velocity) if p1.rigid_body else [0,0,0],
+            "phalanx_location": list(p1.matrix_world.translation),
             "motor_target_velocity": rbc_motor.motor_ang_target_velocity if rbc_motor else 0.0,
             "motor_max_impulse": rbc_motor.motor_ang_max_impulse if rbc_motor else 0.0
         })
