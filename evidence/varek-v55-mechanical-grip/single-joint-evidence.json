@@ -1,0 +1,638 @@
+{
+  "part1_unloaded_arc": [
+    {
+      "frame": 1,
+      "relative_angle_deg": 0.0,
+      "motor_enabled": true
+    },
+    {
+      "frame": 2,
+      "relative_angle_deg": 3.559645506949352,
+      "motor_enabled": true
+    },
+    {
+      "frame": 3,
+      "relative_angle_deg": 10.252886609338997,
+      "motor_enabled": true
+    },
+    {
+      "frame": 4,
+      "relative_angle_deg": 16.503907327359578,
+      "motor_enabled": true
+    },
+    {
+      "frame": 5,
+      "relative_angle_deg": 22.27858638379524,
+      "motor_enabled": true
+    },
+    {
+      "frame": 6,
+      "relative_angle_deg": 27.486511710828875,
+      "motor_enabled": true
+    },
+    {
+      "frame": 7,
+      "relative_angle_deg": 32.049846472679015,
+      "motor_enabled": true
+    },
+    {
+      "frame": 8,
+      "relative_angle_deg": 35.90824082538673,
+      "motor_enabled": true
+    },
+    {
+      "frame": 9,
+      "relative_angle_deg": 39.20010855248232,
+      "motor_enabled": true
+    },
+    {
+      "frame": 10,
+      "relative_angle_deg": 42.015881358576756,
+      "motor_enabled": true
+    },
+    {
+      "frame": 11,
+      "relative_angle_deg": 44.321367316684956,
+      "motor_enabled": true
+    },
+    {
+      "frame": 12,
+      "relative_angle_deg": 46.089710122990425,
+      "motor_enabled": true
+    },
+    {
+      "frame": 13,
+      "relative_angle_deg": 47.301348115710255,
+      "motor_enabled": true
+    },
+    {
+      "frame": 14,
+      "relative_angle_deg": 47.94357031279905,
+      "motor_enabled": true
+    },
+    {
+      "frame": 15,
+      "relative_angle_deg": 48.010318336462994,
+      "motor_enabled": true
+    },
+    {
+      "frame": 16,
+      "relative_angle_deg": 47.50173562067467,
+      "motor_enabled": true
+    },
+    {
+      "frame": 17,
+      "relative_angle_deg": 46.42446110930734,
+      "motor_enabled": true
+    },
+    {
+      "frame": 18,
+      "relative_angle_deg": 44.791530218391955,
+      "motor_enabled": true
+    },
+    {
+      "frame": 19,
+      "relative_angle_deg": 42.6226514587786,
+      "motor_enabled": true
+    },
+    {
+      "frame": 20,
+      "relative_angle_deg": 39.944547945594934,
+      "motor_enabled": true
+    },
+    {
+      "frame": 21,
+      "relative_angle_deg": 36.79125109638056,
+      "motor_enabled": true
+    },
+    {
+      "frame": 22,
+      "relative_angle_deg": 33.204489951869675,
+      "motor_enabled": true
+    },
+    {
+      "frame": 23,
+      "relative_angle_deg": 29.23360238353185,
+      "motor_enabled": true
+    },
+    {
+      "frame": 24,
+      "relative_angle_deg": 24.935605103011067,
+      "motor_enabled": true
+    },
+    {
+      "frame": 25,
+      "relative_angle_deg": 20.37488630361304,
+      "motor_enabled": true
+    },
+    {
+      "frame": 26,
+      "relative_angle_deg": 15.621853282849546,
+      "motor_enabled": true
+    },
+    {
+      "frame": 27,
+      "relative_angle_deg": 10.752730098084285,
+      "motor_enabled": true
+    },
+    {
+      "frame": 28,
+      "relative_angle_deg": 5.846977035687068,
+      "motor_enabled": true
+    },
+    {
+      "frame": 29,
+      "relative_angle_deg": 0.9851556433096683,
+      "motor_enabled": true
+    },
+    {
+      "frame": 30,
+      "relative_angle_deg": 3.747550200875338,
+      "motor_enabled": true
+    },
+    {
+      "frame": 31,
+      "relative_angle_deg": 8.274979938919195,
+      "motor_enabled": true
+    },
+    {
+      "frame": 32,
+      "relative_angle_deg": 9.93376651093766,
+      "motor_enabled": true
+    },
+    {
+      "frame": 33,
+      "relative_angle_deg": 9.552863936398975,
+      "motor_enabled": true
+    },
+    {
+      "frame": 34,
+      "relative_angle_deg": 8.876269666085744,
+      "motor_enabled": true
+    },
+    {
+      "frame": 35,
+      "relative_angle_deg": 7.916092771622752,
+      "motor_enabled": true
+    },
+    {
+      "frame": 36,
+      "relative_angle_deg": 6.6887854711732695,
+      "motor_enabled": true
+    },
+    {
+      "frame": 37,
+      "relative_angle_deg": 5.215489334652601,
+      "motor_enabled": true
+    },
+    {
+      "frame": 38,
+      "relative_angle_deg": 3.521395166936811,
+      "motor_enabled": true
+    },
+    {
+      "frame": 39,
+      "relative_angle_deg": 1.6356199577359587,
+      "motor_enabled": true
+    },
+    {
+      "frame": 40,
+      "relative_angle_deg": 0.4092604794359477,
+      "motor_enabled": true
+    },
+    {
+      "frame": 41,
+      "relative_angle_deg": 2.5796595697894427,
+      "motor_enabled": true
+    },
+    {
+      "frame": 42,
+      "relative_angle_deg": 4.837293222572533,
+      "motor_enabled": true
+    },
+    {
+      "frame": 43,
+      "relative_angle_deg": 7.145294397842589,
+      "motor_enabled": true
+    },
+    {
+      "frame": 44,
+      "relative_angle_deg": 9.464027080959204,
+      "motor_enabled": true
+    },
+    {
+      "frame": 45,
+      "relative_angle_deg": 11.755264410685111,
+      "motor_enabled": true
+    }
+  ],
+  "part3_loaded_response": [
+    {
+      "frame": 1,
+      "relative_angle_deg": 0.0
+    },
+    {
+      "frame": 2,
+      "relative_angle_deg": 0.2741122200199929
+    },
+    {
+      "frame": 3,
+      "relative_angle_deg": 1.1803331013195428
+    },
+    {
+      "frame": 4,
+      "relative_angle_deg": 2.0755721856920495
+    },
+    {
+      "frame": 5,
+      "relative_angle_deg": 2.9257264720137712
+    },
+    {
+      "frame": 6,
+      "relative_angle_deg": 3.7156634627351335
+    },
+    {
+      "frame": 7,
+      "relative_angle_deg": 4.4324038774424075
+    },
+    {
+      "frame": 8,
+      "relative_angle_deg": 5.064846097413385
+    },
+    {
+      "frame": 9,
+      "relative_angle_deg": 5.601580718526381
+    },
+    {
+      "frame": 10,
+      "relative_angle_deg": 6.034148978381159
+    },
+    {
+      "frame": 11,
+      "relative_angle_deg": 6.35547394722394
+    },
+    {
+      "frame": 12,
+      "relative_angle_deg": 6.560166605799583
+    },
+    {
+      "frame": 13,
+      "relative_angle_deg": 6.64508890907129
+    },
+    {
+      "frame": 14,
+      "relative_angle_deg": 6.609402451318442
+    },
+    {
+      "frame": 15,
+      "relative_angle_deg": 6.453535826911459
+    },
+    {
+      "frame": 16,
+      "relative_angle_deg": 6.180063163393788
+    },
+    {
+      "frame": 17,
+      "relative_angle_deg": 5.794243279539516
+    },
+    {
+      "frame": 18,
+      "relative_angle_deg": 5.302583211193549
+    },
+    {
+      "frame": 19,
+      "relative_angle_deg": 4.713680032086819
+    },
+    {
+      "frame": 20,
+      "relative_angle_deg": 4.037163882062218
+    },
+    {
+      "frame": 21,
+      "relative_angle_deg": 3.284696028467077
+    },
+    {
+      "frame": 22,
+      "relative_angle_deg": 2.4692770960562784
+    },
+    {
+      "frame": 23,
+      "relative_angle_deg": 1.6047011854671918
+    },
+    {
+      "frame": 24,
+      "relative_angle_deg": 0.7055404519331873
+    },
+    {
+      "frame": 25,
+      "relative_angle_deg": 0.2130623617124058
+    },
+    {
+      "frame": 26,
+      "relative_angle_deg": 1.1343455443595527
+    },
+    {
+      "frame": 27,
+      "relative_angle_deg": 2.045945813280296
+    },
+    {
+      "frame": 28,
+      "relative_angle_deg": 2.9294698425657613
+    },
+    {
+      "frame": 29,
+      "relative_angle_deg": 3.7706656954607767
+    },
+    {
+      "frame": 30,
+      "relative_angle_deg": 4.55591162688281
+    },
+    {
+      "frame": 31,
+      "relative_angle_deg": 5.271632635856459
+    },
+    {
+      "frame": 32,
+      "relative_angle_deg": 5.906137999843604
+    },
+    {
+      "frame": 33,
+      "relative_angle_deg": 6.448680416185226
+    },
+    {
+      "frame": 34,
+      "relative_angle_deg": 6.890293127161571
+    },
+    {
+      "frame": 35,
+      "relative_angle_deg": 7.223890665282394
+    },
+    {
+      "frame": 36,
+      "relative_angle_deg": 7.443781775421785
+    },
+    {
+      "frame": 37,
+      "relative_angle_deg": 7.546712726213878
+    },
+    {
+      "frame": 38,
+      "relative_angle_deg": 7.5310246354640045
+    },
+    {
+      "frame": 39,
+      "relative_angle_deg": 7.397023154137524
+    },
+    {
+      "frame": 40,
+      "relative_angle_deg": 7.147596171592883
+    },
+    {
+      "frame": 41,
+      "relative_angle_deg": 6.7867675230248645
+    },
+    {
+      "frame": 42,
+      "relative_angle_deg": 6.320879892851472
+    },
+    {
+      "frame": 43,
+      "relative_angle_deg": 5.757912649570572
+    },
+    {
+      "frame": 44,
+      "relative_angle_deg": 5.107792619367133
+    },
+    {
+      "frame": 45,
+      "relative_angle_deg": 4.381061772338245
+    }
+  ],
+  "part4_disabled_motor_control": [
+    {
+      "frame": 1,
+      "relative_angle_deg": 0.0,
+      "motor_enabled": false
+    },
+    {
+      "frame": 2,
+      "relative_angle_deg": 3.5453223868164234,
+      "motor_enabled": false
+    },
+    {
+      "frame": 3,
+      "relative_angle_deg": 10.34095079962891,
+      "motor_enabled": false
+    },
+    {
+      "frame": 4,
+      "relative_angle_deg": 16.857253503691847,
+      "motor_enabled": false
+    },
+    {
+      "frame": 5,
+      "relative_angle_deg": 23.0546973640892,
+      "motor_enabled": false
+    },
+    {
+      "frame": 6,
+      "relative_angle_deg": 28.836529336133157,
+      "motor_enabled": false
+    },
+    {
+      "frame": 7,
+      "relative_angle_deg": 34.11692467780792,
+      "motor_enabled": false
+    },
+    {
+      "frame": 8,
+      "relative_angle_deg": 38.82194146870623,
+      "motor_enabled": false
+    },
+    {
+      "frame": 9,
+      "relative_angle_deg": 42.889978232703726,
+      "motor_enabled": false
+    },
+    {
+      "frame": 10,
+      "relative_angle_deg": 46.27129070207522,
+      "motor_enabled": false
+    },
+    {
+      "frame": 11,
+      "relative_angle_deg": 48.927441987266455,
+      "motor_enabled": false
+    },
+    {
+      "frame": 12,
+      "relative_angle_deg": 50.83025072776197,
+      "motor_enabled": false
+    },
+    {
+      "frame": 13,
+      "relative_angle_deg": 51.96095439391173,
+      "motor_enabled": false
+    },
+    {
+      "frame": 14,
+      "relative_angle_deg": 52.309294041582376,
+      "motor_enabled": false
+    },
+    {
+      "frame": 15,
+      "relative_angle_deg": 51.873104500807024,
+      "motor_enabled": false
+    },
+    {
+      "frame": 16,
+      "relative_angle_deg": 50.658116300299305,
+      "motor_enabled": false
+    },
+    {
+      "frame": 17,
+      "relative_angle_deg": 48.67806153538554,
+      "motor_enabled": false
+    },
+    {
+      "frame": 18,
+      "relative_angle_deg": 45.9552407737058,
+      "motor_enabled": false
+    },
+    {
+      "frame": 19,
+      "relative_angle_deg": 42.521277791117264,
+      "motor_enabled": false
+    },
+    {
+      "frame": 20,
+      "relative_angle_deg": 38.41776160947614,
+      "motor_enabled": false
+    },
+    {
+      "frame": 21,
+      "relative_angle_deg": 33.69750666653953,
+      "motor_enabled": false
+    },
+    {
+      "frame": 22,
+      "relative_angle_deg": 28.424660391444927,
+      "motor_enabled": false
+    },
+    {
+      "frame": 23,
+      "relative_angle_deg": 22.675131799080546,
+      "motor_enabled": false
+    },
+    {
+      "frame": 24,
+      "relative_angle_deg": 16.53618850892435,
+      "motor_enabled": false
+    },
+    {
+      "frame": 25,
+      "relative_angle_deg": 10.104982277956955,
+      "motor_enabled": false
+    },
+    {
+      "frame": 26,
+      "relative_angle_deg": 3.486768669165785,
+      "motor_enabled": false
+    },
+    {
+      "frame": 27,
+      "relative_angle_deg": 3.206797080652847,
+      "motor_enabled": false
+    },
+    {
+      "frame": 28,
+      "relative_angle_deg": 9.864100288950823,
+      "motor_enabled": false
+    },
+    {
+      "frame": 29,
+      "relative_angle_deg": 9.353765629640396,
+      "motor_enabled": false
+    },
+    {
+      "frame": 30,
+      "relative_angle_deg": 8.455252536777927,
+      "motor_enabled": false
+    },
+    {
+      "frame": 31,
+      "relative_angle_deg": 7.444202685829387,
+      "motor_enabled": false
+    },
+    {
+      "frame": 32,
+      "relative_angle_deg": 6.337582693579915,
+      "motor_enabled": false
+    },
+    {
+      "frame": 33,
+      "relative_angle_deg": 5.154788162838228,
+      "motor_enabled": false
+    },
+    {
+      "frame": 34,
+      "relative_angle_deg": 3.915095168102574,
+      "motor_enabled": false
+    },
+    {
+      "frame": 35,
+      "relative_angle_deg": 2.639944953838091,
+      "motor_enabled": false
+    },
+    {
+      "frame": 36,
+      "relative_angle_deg": 1.3515919839079733,
+      "motor_enabled": false
+    },
+    {
+      "frame": 37,
+      "relative_angle_deg": 0.06852804166478502,
+      "motor_enabled": false
+    },
+    {
+      "frame": 38,
+      "relative_angle_deg": 1.1803331013195428,
+      "motor_enabled": false
+    },
+    {
+      "frame": 39,
+      "relative_angle_deg": 2.3808374588054257,
+      "motor_enabled": false
+    },
+    {
+      "frame": 40,
+      "relative_angle_deg": 3.5107086956500915,
+      "motor_enabled": false
+    },
+    {
+      "frame": 41,
+      "relative_angle_deg": 4.550409482619541,
+      "motor_enabled": false
+    },
+    {
+      "frame": 42,
+      "relative_angle_deg": 5.48347991758769,
+      "motor_enabled": false
+    },
+    {
+      "frame": 43,
+      "relative_angle_deg": 6.294063289509532,
+      "motor_enabled": false
+    },
+    {
+      "frame": 44,
+      "relative_angle_deg": 6.968390363905143,
+      "motor_enabled": false
+    },
+    {
+      "frame": 45,
+      "relative_angle_deg": 7.496102732011376,
+      "motor_enabled": false
+    }
+  ]
+}
