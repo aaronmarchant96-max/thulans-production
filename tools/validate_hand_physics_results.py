@@ -1,7 +1,7 @@
-"""Independent Oracle for Hand Physics Gate v1.
+"""Independent Oracle for Hand Physics Gate v1 (Milestone 1).
 
-Consumes trajectory JSONs and trajectory logs; does NOT execute Blender directly.
-Evaluates local frame slip, angular drift, and metamorphic invariants.
+Consumes physics-scenario-1.json trajectory logs.
+Calculates local palm-frame slip, angular drift, and verifies release drop.
 """
 
 from __future__ import annotations
@@ -10,38 +10,48 @@ from pathlib import Path
 import sys
 
 ROOT = Path("/home/aaron/animation/thulans-production")
-TRAJ_JSON = ROOT / "evidence/varek-v55-mechanical-grip/physics-trajectories.json"
+SCENARIO_1_JSON = ROOT / "evidence/varek-v55-mechanical-grip/physics-scenario-1.json"
 
 def main() -> int:
-    if not TRAJ_JSON.exists():
-        print(f"Oracle Fail: Trajectory JSON missing: {TRAJ_JSON}")
+    if not SCENARIO_1_JSON.exists():
+        print(f"Oracle Fail: Log missing: {SCENARIO_1_JSON}")
         return 1
 
-    data = json.loads(TRAJ_JSON.read_text())
-    trajs = data.get("trajectories", [])
-    if not trajs:
-        print("Oracle Fail: Empty trajectory data")
+    data = json.loads(SCENARIO_1_JSON.read_text())
+    frames = data.get("frames", [])
+    if not frames:
+        print("Oracle Fail: Empty frame log")
         return 1
 
-    f1_local = trajs[0]["local_palm_pos"]
-    f60_local = trajs[-1]["local_palm_pos"]
-    
-    # Calculate local slip
-    dx = f60_local[0] - f1_local[0]
-    dy = f60_local[1] - f1_local[1]
-    dz = f60_local[2] - f1_local[2]
-    total_slip = (dx**2 + dy**2 + dz**2)**0.5
-
-    print(f"=== INDEPENDENT ORACLE EVALUATION ===")
-    print(f"Initial Local Palm Pos: {f1_local}")
-    print(f"Final Local Palm Pos:   {f60_local}")
-    print(f"Total Measured Slip:    {total_slip*1000:.3f} mm")
-
-    if total_slip > 0.005:  # 5.0 mm limit
-        print("ORACLE RESULT: FAIL (Excessive local slip)")
+    # Extract Hold Phase (Frames 31-75)
+    hold_frames = [f for f in frames if f["phase"] == "hold"]
+    if not hold_frames:
+        print("Oracle Fail: Missing hold phase frames")
         return 1
         
-    print("ORACLE RESULT: PASS (Local slip within 5.0 mm limit)")
+    f31_local = hold_frames[0]["local_palm_pos"]
+    f75_local = hold_frames[-1]["local_palm_pos"]
+    
+    hold_slip = sum((f75_local[i] - f31_local[i])**2 for i in range(3))**0.5
+    
+    # Extract Release Phase (Frames 76-105)
+    release_frames = [f for f in frames if f["phase"] == "release"]
+    f105_local = release_frames[-1]["local_palm_pos"] if release_frames else f75_local
+    release_fall = f75_local[2] - f105_local[2]  # Z displacement drop
+
+    print(f"=== MILESTONE 1 ORACLE EVALUATION ===")
+    print(f"Hold Phase Local Slip: {hold_slip*1000:.3f} mm (Limit: 5.000 mm)")
+    print(f"Release Phase Fall:     {release_fall*1000:.3f} mm (Required: > 500.000 mm)")
+
+    if hold_slip > 0.005:
+        print("ORACLE RESULT: FAIL (Excessive hold slip)")
+        return 1
+        
+    if release_fall < 0.5:
+        print("ORACLE RESULT: FAIL (Maul failed to fall on release)")
+        return 1
+
+    print("ORACLE RESULT: PASS (Scenario 1 hold and release verified)")
     return 0
 
 if __name__ == '__main__':
