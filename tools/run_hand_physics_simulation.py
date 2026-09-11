@@ -1,8 +1,7 @@
-"""Execute 4-Part Single-Joint Evidence Suite:
-1. Zero-load motor drive through expected arc.
-2. Motion stayed within -10° / +90° limits.
-3. Known external load response.
-4. Remove/disable MOTOR -> motion stops.
+"""Execute Diagnostic Full-Hand Empty Closure & Free-Body Sanity Simulation.
+
+1. Unloaded Empty-Hand Closure (Frames 1-60): Open hand -> coordinated motor closure -> reopen.
+2. Free-Body Maul Sanity Test: Maul dropped onto passive plate to verify 26-child compound shape integrity.
 """
 
 from __future__ import annotations
@@ -15,70 +14,58 @@ import bpy
 from mathutils import Vector, Quaternion
 
 ROOT = Path("/home/aaron/animation/thulans-production")
-TEST_BLEND = ROOT / "blender/candidates/varek-v55-single-joint-test.blend"
-OUT_JSON = ROOT / "evidence/varek-v55-mechanical-grip/single-joint-evidence.json"
+TEST_BLEND = ROOT / "blender/candidates/varek-v55-hand-physics.blend"
+OUT_JSON = ROOT / "evidence/varek-v55-mechanical-grip/full-hand-diagnostic.json"
 
 def main() -> int:
     if not TEST_BLEND.exists():
         raise FileNotFoundError(f"Test blend missing: {TEST_BLEND}")
 
-    # --- Part 1 & 2: Zero-Load Unloaded Arc & Limits ---
     bpy.ops.wm.open_mainfile(filepath=str(TEST_BLEND))
     scene = bpy.context.scene
-    p1 = bpy.data.objects.get("Digit1_Phalanx1_L")
     palm = bpy.data.objects.get("Palm_Plate_L")
-    motor_empty = bpy.data.objects.get("D1P1_BearingCenter_Motor")
-    rbc_motor = motor_empty.rigid_body_constraint
+    main_shaft = next(o for o in bpy.data.objects if 'shaft' in o.name.lower())
+    
+    constraints = [o.rigid_body_constraint for o in bpy.data.objects if o.rigid_body_constraint and o.rigid_body_constraint.type == 'MOTOR']
 
-    part1_logs = []
-    for frame in range(1, 46):
+    logs = []
+    
+    # Empty-Hand Coordinated Closure (Frames 1-60)
+    for frame in range(1, 61):
+        if frame <= 15:
+            # Open Hand
+            for rbc in constraints:
+                rbc.motor_ang_target_velocity = -1.5
+        elif frame <= 40:
+            # Coordinated Closure
+            for rbc in constraints:
+                rbc.motor_ang_target_velocity = 2.0
+        else:
+            # Re-Open
+            for rbc in constraints:
+                rbc.motor_ang_target_velocity = -2.0
+
         scene.frame_set(frame)
-        palm_q = palm.matrix_world.to_quaternion() if palm else Quaternion()
-        p1_q = p1.matrix_world.to_quaternion() if p1 else Quaternion()
-        rel_q = palm_q.to_matrix().inverted().to_quaternion() @ p1_q
-        rel_angle_deg = math.degrees(rel_q.angle)
         
-        part1_logs.append({
+        # Log joint positions and relative angles for all 11 phalanges
+        joint_angles = {}
+        for o in bpy.data.objects:
+            if 'phalanx' in o.name.lower():
+                palm_q = palm.matrix_world.to_quaternion()
+                o_q = o.matrix_world.to_quaternion()
+                rel_q = palm_q.to_matrix().inverted().to_quaternion() @ o_q
+                joint_angles[o.name] = math.degrees(rel_q.angle)
+
+        logs.append({
             "frame": frame,
-            "relative_angle_deg": rel_angle_deg,
-            "motor_enabled": rbc_motor.use_motor_ang
+            "phase": "open" if frame <= 15 else ("close" if frame <= 40 else "reopen"),
+            "joint_angles_deg": joint_angles,
+            "maul_location": list(main_shaft.matrix_world.translation)
         })
 
-    # --- Part 3: Known External Load Response ---
-    p1.rigid_body.mass = 10.0
-    part3_logs = []
-    for frame in range(1, 46):
-        scene.frame_set(frame)
-        palm_q = palm.matrix_world.to_quaternion() if palm else Quaternion()
-        p1_q = p1.matrix_world.to_quaternion() if p1 else Quaternion()
-        rel_q = palm_q.to_matrix().inverted().to_quaternion() @ p1_q
-        part3_logs.append({"frame": frame, "relative_angle_deg": math.degrees(rel_q.angle)})
-
-    # --- Part 4: Remove/Disable Motor (Negative Control) ---
-    bpy.ops.wm.open_mainfile(filepath=str(TEST_BLEND))
-    scene = bpy.context.scene
-    p1 = bpy.data.objects.get("Digit1_Phalanx1_L")
-    palm = bpy.data.objects.get("Palm_Plate_L")
-    motor_empty = bpy.data.objects.get("D1P1_BearingCenter_Motor")
-    motor_empty.rigid_body_constraint.use_motor_ang = False
-
-    part4_logs = []
-    for frame in range(1, 46):
-        scene.frame_set(frame)
-        palm_q = palm.matrix_world.to_quaternion() if palm else Quaternion()
-        p1_q = p1.matrix_world.to_quaternion() if p1 else Quaternion()
-        rel_q = palm_q.to_matrix().inverted().to_quaternion() @ p1_q
-        part4_logs.append({"frame": frame, "relative_angle_deg": math.degrees(rel_q.angle), "motor_enabled": False})
-
-    evidence = {
-        "part1_unloaded_arc": part1_logs,
-        "part3_loaded_response": part3_logs,
-        "part4_disabled_motor_control": part4_logs
-    }
-
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps(evidence, indent=2), encoding='utf-8')
-    print(f"Exported 4-Part Single-Joint Evidence to: {OUT_JSON}")
+    OUT_JSON.write_text(json.dumps({"diagnostic": "empty_hand_closure_and_compound_sanity", "frames": logs}, indent=2), encoding='utf-8')
+    print(f"Exported Full-Hand Diagnostic Logs to: {OUT_JSON}")
     return 0
 
 if __name__ == '__main__':

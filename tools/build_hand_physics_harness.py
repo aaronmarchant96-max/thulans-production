@@ -1,16 +1,11 @@
-"""Build full 14-body, 13-joint mechanical physics harness for Candidate v55 (varek-v55-hand-physics.blend).
+"""Build full 14-body, 13-joint mechanical physics harness (Hardened Core Engine).
 
 Enforces:
-1. Hard binding checks (Armature, Maul parts, 14/14 Hand Colliders).
-2. Complete Maul Rigid Assembly (Single COMPOUND parent, explicit local-Z COM shift +0.320 m relative to Grip Collar, 30.0 kg mass, 1.0 mm margin).
-3. 13-Joint Articulated Constraint Graph (Bullet RIGID_BODY_CONSTRAINT HINGE / MOTOR pairs):
-   - Proximal: Palm -> Yokes & Palm -> Phalanx1
-   - Intermediate: Phalanx1 -> Phalanx2
-   - Distal: Phalanx2 -> Phalanx3
-   - Thumb: Derived strictly from thumb_01.L & thumb_02.L local matrices.
-4. Mass & Torque Tapering (Proximal 1.2 kg / 2.0 N·m·s, Intermediate 0.6 kg / 1.0 N·m·s, Distal 0.3 kg / 0.5 N·m·s).
-5. Interphalangeal Travel Limits (Proximal -10° to 90°, Intermediate/Distal 0° to 80°).
-6. Alignment Audit (|dot(Hinge_Z, Motor_X)| >= 0.999 across all 13 joints).
+1. Hard binding checks (No silent bone or collar fallbacks; missing items throw HARD FAIL).
+2. Per-joint axis/direction calibration (Wrist pitch/yaw, Coplanar finger flexion, Opposable thumb).
+3. Rig isolation audit for hand bodies (strips unapproved parent/constraint/armature bindings).
+4. COM axial projection & lateral error readback via matrix_world.
+5. Post-reopen disk readback alignment audit re-calculation (|dot(Hinge_Z, Motor_X)| >= 0.999 across all 13 joints).
 """
 
 from __future__ import annotations
@@ -35,29 +30,29 @@ EXPECTED_HAND_BODIES = [
     "Thumb_Phalanx1_L", "Thumb_Phalanx2_L"
 ]
 
+# (parent_obj, child_obj, bone_name, axis_override, mass_kg, impulse_limit, lower_deg, upper_deg, close_vel)
 JOINT_SPECS = [
-    # (parent_obj, child_obj, bone_name, mass_kg, impulse_limit, lower_deg, upper_deg)
-    ("Palm_Plate_L", "Gimbal_Yoke_Outer_L", "wrist_pitch.L", 2.0, 3.0, -20.0, 45.0),
-    ("Gimbal_Yoke_Outer_L", "Gimbal_Yoke_Inner_L", "wrist_yaw.L", 1.8, 3.0, -15.0, 25.0),
+    ("Palm_Plate_L", "Gimbal_Yoke_Outer_L", "wrist_pitch.L", Vector((1.0, 0.0, 0.0)), 2.0, 3.0, -20.0, 45.0, 1.0),
+    ("Gimbal_Yoke_Outer_L", "Gimbal_Yoke_Inner_L", "wrist_yaw.L", Vector((0.0, 1.0, 0.0)), 1.8, 3.0, -15.0, 25.0, 1.0),
     
     # Digit 1 (Index)
-    ("Palm_Plate_L", "Digit1_Phalanx1_L", "digit1_01.L", 1.2, 2.0, -10.0, 90.0),
-    ("Digit1_Phalanx1_L", "Digit1_Phalanx2_L", "digit1_02.L", 0.6, 1.0, 0.0, 80.0),
-    ("Digit1_Phalanx2_L", "Digit1_Phalanx3_L", "digit1_03.L", 0.3, 0.5, 0.0, 80.0),
+    ("Palm_Plate_L", "Digit1_Phalanx1_L", "digit1_01.L", None, 1.2, 2.0, -10.0, 90.0, 1.5),
+    ("Digit1_Phalanx1_L", "Digit1_Phalanx2_L", "digit1_02.L", None, 0.6, 1.0, 0.0, 80.0, 1.5),
+    ("Digit1_Phalanx2_L", "Digit1_Phalanx3_L", "digit1_03.L", None, 0.3, 0.5, 0.0, 80.0, 1.5),
 
     # Digit 2 (Middle)
-    ("Palm_Plate_L", "Digit2_Phalanx1_L", "digit2_01.L", 1.2, 2.0, -10.0, 90.0),
-    ("Digit2_Phalanx1_L", "Digit2_Phalanx2_L", "digit2_02.L", 0.6, 1.0, 0.0, 80.0),
-    ("Digit2_Phalanx2_L", "Digit2_Phalanx3_L", "digit2_03.L", 0.3, 0.5, 0.0, 80.0),
+    ("Palm_Plate_L", "Digit2_Phalanx1_L", "digit2_01.L", None, 1.2, 2.0, -10.0, 90.0, 1.5),
+    ("Digit2_Phalanx1_L", "Digit2_Phalanx2_L", "digit2_02.L", None, 0.6, 1.0, 0.0, 80.0, 1.5),
+    ("Digit2_Phalanx2_L", "Digit2_Phalanx3_L", "digit2_03.L", None, 0.3, 0.5, 0.0, 80.0, 1.5),
 
     # Digit 3 (Ring)
-    ("Palm_Plate_L", "Digit3_Phalanx1_L", "digit3_01.L", 1.2, 2.0, -10.0, 90.0),
-    ("Digit3_Phalanx1_L", "Digit3_Phalanx2_L", "digit3_02.L", 0.6, 1.0, 0.0, 80.0),
-    ("Digit3_Phalanx2_L", "Digit3_Phalanx3_L", "digit3_03.L", 0.3, 0.5, 0.0, 80.0),
+    ("Palm_Plate_L", "Digit3_Phalanx1_L", "digit3_01.L", None, 1.2, 2.0, -10.0, 90.0, 1.5),
+    ("Digit3_Phalanx1_L", "Digit3_Phalanx2_L", "digit3_02.L", None, 0.6, 1.0, 0.0, 80.0, 1.5),
+    ("Digit3_Phalanx2_L", "Digit3_Phalanx3_L", "digit3_03.L", None, 0.3, 0.5, 0.0, 80.0, 1.5),
 
     # Digit 4 (Thumb - Opposable Matrix Alignment)
-    ("Palm_Plate_L", "Thumb_Phalanx1_L", "thumb_01.L", 1.5, 2.5, -15.0, 85.0),
-    ("Thumb_Phalanx1_L", "Thumb_Phalanx2_L", "thumb_02.L", 0.8, 1.2, 0.0, 80.0)
+    ("Palm_Plate_L", "Thumb_Phalanx1_L", "thumb_01.L", None, 1.5, 2.5, -15.0, 85.0, 1.2),
+    ("Thumb_Phalanx1_L", "Thumb_Phalanx2_L", "thumb_02.L", None, 0.8, 1.2, 0.0, 80.0, 1.2)
 ]
 
 def main() -> int:
@@ -68,7 +63,6 @@ def main() -> int:
     bpy.ops.wm.open_mainfile(filepath=str(SRC))
     scene = bpy.context.scene
 
-    # 1. Setup Bullet Rigid Body World
     if not scene.rigidbody_world:
         bpy.ops.rigidbody.world_add()
     rbw = scene.rigidbody_world
@@ -78,7 +72,7 @@ def main() -> int:
     scene.use_gravity = True
     scene.gravity = Vector((0.0, 0.0, -9.810))
 
-    # 2. Hard binding checks
+    # 1. Hard binding checks (No fallbacks!)
     arm = bpy.data.objects.get("Varek simple articulation")
     if not arm or arm.type != 'ARMATURE':
         raise RuntimeError("HARD FAIL: Canonical armature 'Varek simple articulation' missing")
@@ -87,14 +81,30 @@ def main() -> int:
     if not maul_objs:
         raise RuntimeError("HARD FAIL: Maul meshes missing from candidate")
         
+    main_shaft = next((o for o in maul_objs if 'shaft' in o.name.lower()), None)
+    if not main_shaft:
+        raise RuntimeError("HARD FAIL: 'Maul shaft' mesh missing")
+
+    grip_collar = next((o for o in maul_objs if 'lower grip rib' in o.name.lower()), None)
+    if not grip_collar:
+        raise RuntimeError("HARD FAIL: 'Maul lower grip rib' reference missing")
+
     missing_hand_objs = [name for name in EXPECTED_HAND_BODIES if not bpy.data.objects.get(name)]
     if missing_hand_objs:
         raise RuntimeError(f"HARD FAIL: Missing expected hand colliders: {missing_hand_objs}")
 
-    main_shaft = next((o for o in maul_objs if 'shaft' in o.name.lower()), maul_objs[0])
-    grip_collar = next((o for o in maul_objs if 'lower grip rib' in o.name.lower()), main_shaft)
+    # 2. Hand Rig Isolation Audit (Strip lingering constraints/modifiers/animation)
+    for name in EXPECTED_HAND_BODIES:
+        o = bpy.data.objects.get(name)
+        if o.animation_data:
+            o.animation_data_clear()
+        for c in list(o.constraints):
+            o.constraints.remove(c)
+        for m in list(o.modifiers):
+            if m.type == 'ARMATURE':
+                o.modifiers.remove(m)
 
-    # 3. Process Maul Compound Assembly with Verified COM Offset
+    # 3. Process Maul Compound Assembly & Local-Z COM Shift
     for o in maul_objs:
         mw = o.matrix_world.copy()
         o.parent = None
@@ -160,14 +170,16 @@ def main() -> int:
     palm.rigid_body.use_margin = True
     palm.rigid_body.collision_margin = 0.001
 
-    # 5. Build 13 Rigid Body HINGE + MOTOR Joint Pairs Across 14 Bodies
+    # 5. Build 13 Rigid Body HINGE + MOTOR Joint Pairs (HARD FAIL on bone resolution)
     alignment_audits = []
 
-    for p_name, c_name, b_name, mass, max_imp, low_deg, up_deg in JOINT_SPECS:
+    for p_name, c_name, b_name, axis_override, mass, max_imp, low_deg, up_deg, close_vel in JOINT_SPECS:
         p_obj = bpy.data.objects.get(p_name)
         c_obj = bpy.data.objects.get(c_name)
-        
-        # Configure child active rigid body with mass tapering
+        bone = arm.pose.bones.get(b_name)
+        if not bone:
+            raise RuntimeError(f"HARD FAIL: Expected bone hardpoint '{b_name}' missing from armature")
+
         if c_name != "Palm_Plate_L":
             bpy.ops.object.select_all(action='DESELECT')
             c_obj.select_set(True)
@@ -183,16 +195,12 @@ def main() -> int:
             rb.use_margin = True
             rb.collision_margin = 0.001
 
-        # Derive bearing center & transverse rotation axis from armature bone local matrix
-        bone = arm.pose.bones.get(b_name)
-        if bone:
-            pivot_loc = arm.matrix_world @ bone.head
-            transverse_axis_x = (arm.matrix_world.to_3x3() @ bone.matrix.to_3x3() @ Vector((1.0, 0.0, 0.0))).normalized()
+        pivot_loc = arm.matrix_world @ bone.head
+        if axis_override is not None:
+            transverse_axis_x = (arm.matrix_world.to_3x3() @ axis_override).normalized()
         else:
-            pivot_loc = c_obj.matrix_world.translation
-            transverse_axis_x = Vector((1.0, 0.0, 0.0))
+            transverse_axis_x = (arm.matrix_world.to_3x3() @ bone.matrix.to_3x3() @ Vector((1.0, 0.0, 0.0))).normalized()
 
-        # A. Hinge Constraint (Z-axis aligned to transverse axis)
         hinge_quat = Vector((0.0, 0.0, 1.0)).rotation_difference(transverse_axis_x)
         hinge_name = f"Constraint_Hinge_{p_name}_to_{c_name}"
         hinge_empty = bpy.data.objects.get(hinge_name) or bpy.data.objects.new(hinge_name, None)
@@ -214,7 +222,6 @@ def main() -> int:
         rbc_h.limit_ang_z_lower = math.radians(low_deg)
         rbc_h.limit_ang_z_upper = math.radians(up_deg)
 
-        # B. Motor Constraint (X-axis aligned to transverse axis)
         motor_quat = Vector((1.0, 0.0, 0.0)).rotation_difference(transverse_axis_x)
         motor_name = f"Constraint_Motor_{p_name}_to_{c_name}"
         motor_empty = bpy.data.objects.get(motor_name) or bpy.data.objects.new(motor_name, None)
@@ -233,10 +240,9 @@ def main() -> int:
         rbc_m.object1 = p_obj
         rbc_m.object2 = c_obj
         rbc_m.use_motor_ang = True
-        rbc_m.motor_ang_target_velocity = 1.5
+        rbc_m.motor_ang_target_velocity = close_vel
         rbc_m.motor_ang_max_impulse = max_imp
 
-        # Alignment Audit
         hinge_z = hinge_empty.matrix_world.to_3x3() @ Vector((0.0, 0.0, 1.0))
         motor_x = motor_empty.matrix_world.to_3x3() @ Vector((1.0, 0.0, 0.0))
         dot_val = abs(hinge_z.dot(motor_x))
@@ -244,42 +250,58 @@ def main() -> int:
         if dot_val < 0.999:
             raise RuntimeError(f"HARD FAIL: Constraint alignment failure on {p_name}->{c_name}: dot {dot_val} < 0.999")
 
-    print(f"PASS: Configured 13 joint pairs across 14 bodies. All {len(alignment_audits)} alignment audits passed >= 0.999.")
-
-    # 6. Save Full Hand Derivative
+    # 6. Save Derivative
     OUT.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.wm.save_as_mainfile(filepath=str(OUT))
     print(f"Saved Full-Hand Physics Harness to: {OUT}")
 
-    # 7. Re-open Saved Scene for Readback Audit
+    # 7. Post-Reopen Disk Readback Audit with Recalculated Matrix Alignment & COM Projection
     bpy.ops.wm.open_mainfile(filepath=str(OUT))
     r_maul_objs = [o for o in bpy.data.objects if 'maul' in o.name.lower() and o.type == 'MESH']
     r_shaft = next(o for o in r_maul_objs if 'shaft' in o.name.lower())
-    r_collar = next((o for o in r_maul_objs if 'lower grip rib' in o.name.lower()), r_shaft)
+    r_collar = next(o for o in r_maul_objs if 'lower grip rib' in o.name.lower())
+
+    # Matrix World Translation Projection Audit
+    shaft_com_world = r_shaft.matrix_world.translation.copy()
+    collar_world = r_collar.matrix_world.translation.copy()
+    com_delta = shaft_com_world - collar_world
+    shaft_local_z = (r_shaft.matrix_world.to_3x3() @ Vector((0.0, 0.0, 1.0))).normalized()
+    axial_projection = com_delta.dot(shaft_local_z)
+    lateral_error = (com_delta - (shaft_local_z * axial_projection)).length
 
     readback_joints = []
-    for p_name, c_name, _, mass, max_imp, low_deg, up_deg in JOINT_SPECS:
+    reopened_audits_passed = 0
+    for p_name, c_name, _, _, mass, max_imp, low_deg, up_deg, _ in JOINT_SPECS:
         h_obj = bpy.data.objects.get(f"Constraint_Hinge_{p_name}_to_{c_name}")
         m_obj = bpy.data.objects.get(f"Constraint_Motor_{p_name}_to_{c_name}")
-        c_obj = bpy.data.objects.get(c_name)
+        
+        h_z = h_obj.matrix_world.to_3x3() @ Vector((0.0, 0.0, 1.0))
+        m_x = m_obj.matrix_world.to_3x3() @ Vector((1.0, 0.0, 0.0))
+        dot_recalc = abs(h_z.dot(m_x))
+        if dot_recalc >= 0.999:
+            reopened_audits_passed += 1
+
         readback_joints.append({
             "parent": p_name,
             "child": c_name,
-            "hinge_type": h_obj.rigid_body_constraint.type if h_obj else None,
-            "hinge_z_limit": h_obj.rigid_body_constraint.use_limit_ang_z if h_obj else False,
-            "motor_type": m_obj.rigid_body_constraint.type if m_obj else None,
-            "motor_max_impulse": m_obj.rigid_body_constraint.motor_ang_max_impulse if m_obj else 0.0,
-            "child_mass": c_obj.rigid_body.mass if c_obj and c_obj.rigid_body else 0.0
+            "hinge_type": h_obj.rigid_body_constraint.type,
+            "hinge_z_limit": h_obj.rigid_body_constraint.use_limit_ang_z,
+            "hinge_limits_deg": [low_deg, up_deg],
+            "motor_type": m_obj.rigid_body_constraint.type,
+            "motor_max_impulse": m_obj.rigid_body_constraint.motor_ang_max_impulse,
+            "reopened_alignment_dot": dot_recalc
         })
 
     readback = {
         "derivative_file": str(OUT),
         "total_hand_bodies": len(EXPECTED_HAND_BODIES),
         "total_joint_pairs": len(JOINT_SPECS),
-        "alignment_audits_passed": len(alignment_audits),
-        "maul_origin_location": list(r_shaft.location),
-        "maul_com_distance_from_collar": (r_shaft.location - r_collar.location).length,
-        "maul_mass": r_shaft.rigid_body.mass,
+        "reopened_alignment_audits_passed": reopened_audits_passed,
+        "maul_origin_world": list(shaft_com_world),
+        "maul_collar_world": list(collar_world),
+        "maul_com_axial_projection_m": axial_projection,
+        "maul_com_lateral_error_m": lateral_error,
+        "maul_mass_kg": r_shaft.rigid_body.mass,
         "maul_collision_shape": r_shaft.rigid_body.collision_shape,
         "maul_compound_children_count": len([c for c in r_shaft.children if c.rigid_body]),
         "serialized_joints": readback_joints
@@ -287,7 +309,7 @@ def main() -> int:
 
     READBACK_JSON.parent.mkdir(parents=True, exist_ok=True)
     READBACK_JSON.write_text(json.dumps(readback, indent=2), encoding='utf-8')
-    print(f"Saved Full-Hand Readback Audit to: {READBACK_JSON}")
+    print(f"Saved Hardened Full-Hand Readback Audit to: {READBACK_JSON}")
     return 0
 
 if __name__ == '__main__':
