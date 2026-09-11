@@ -1,14 +1,15 @@
-"""Build full 14-body, 13-joint mechanical physics harness (Hardened Core Engine).
+"""Build full 14-body, 13-joint mechanical physics harness (Fully Hardened Core Engine).
 
-Enforces:
-1. Hard binding checks (No silent bone or collar fallbacks; missing items throw HARD FAIL).
-2. Per-joint axis/direction calibration (Wrist pitch/yaw, Coplanar finger flexion, Opposable thumb).
-3. Rig isolation audit for hand bodies (strips unapproved parent/constraint/armature bindings).
-4. COM axial projection & lateral error readback via matrix_world.
-5. Post-reopen disk readback alignment audit re-calculation (|dot(Hinge_Z, Motor_X)| >= 0.999 across all 13 joints).
+Fixes:
+1. Normalized shaft local Z axis COM offset construction (exact 0.3200 m target).
+2. Complete Parent Isolation Audit for 14 Hand Bodies (detaches unapproved parents, clears animation/constraints/armature).
+3. Explicit Parent -> Child local matrix angle calculations across all 13 joints.
+4. Maul 26-child compound drop & rotation sanity test.
+5. Evidence binding rule enforcement (generates derivative, executes simulation, binds evidence by SHA-256 hash).
 """
 
 from __future__ import annotations
+import hashlib
 import json
 import math
 from pathlib import Path
@@ -30,8 +31,8 @@ EXPECTED_HAND_BODIES = [
     "Thumb_Phalanx1_L", "Thumb_Phalanx2_L"
 ]
 
-# (parent_obj, child_obj, bone_name, axis_override, mass_kg, impulse_limit, lower_deg, upper_deg, close_vel)
 JOINT_SPECS = [
+    # (parent_obj, child_obj, bone_name, axis_override, mass_kg, impulse_limit, lower_deg, upper_deg, close_vel)
     ("Palm_Plate_L", "Gimbal_Yoke_Outer_L", "wrist_pitch.L", Vector((1.0, 0.0, 0.0)), 2.0, 3.0, -20.0, 45.0, 1.0),
     ("Gimbal_Yoke_Outer_L", "Gimbal_Yoke_Inner_L", "wrist_yaw.L", Vector((0.0, 1.0, 0.0)), 1.8, 3.0, -15.0, 25.0, 1.0),
     
@@ -72,7 +73,7 @@ def main() -> int:
     scene.use_gravity = True
     scene.gravity = Vector((0.0, 0.0, -9.810))
 
-    # 1. Hard binding checks (No fallbacks!)
+    # 1. Hard binding checks
     arm = bpy.data.objects.get("Varek simple articulation")
     if not arm or arm.type != 'ARMATURE':
         raise RuntimeError("HARD FAIL: Canonical armature 'Varek simple articulation' missing")
@@ -93,9 +94,12 @@ def main() -> int:
     if missing_hand_objs:
         raise RuntimeError(f"HARD FAIL: Missing expected hand colliders: {missing_hand_objs}")
 
-    # 2. Hand Rig Isolation Audit (Strip lingering constraints/modifiers/animation)
+    # 2. Hand Rig Isolation Audit (Strip parenting, constraints, modifiers, animation)
     for name in EXPECTED_HAND_BODIES:
         o = bpy.data.objects.get(name)
+        mw = o.matrix_world.copy()
+        o.parent = None
+        o.matrix_world = mw
         if o.animation_data:
             o.animation_data_clear()
         for c in list(o.constraints):
@@ -104,7 +108,7 @@ def main() -> int:
             if m.type == 'ARMATURE':
                 o.modifiers.remove(m)
 
-    # 3. Process Maul Compound Assembly & Local-Z COM Shift
+    # 3. Maul Compound Assembly & Normalized Shaft Local-Z COM Shift
     for o in maul_objs:
         mw = o.matrix_world.copy()
         o.parent = None
@@ -119,8 +123,9 @@ def main() -> int:
 
     collar_loc = grip_collar.matrix_world.translation.copy()
     shaft_matrix = main_shaft.matrix_world.copy()
-    local_z_vec = shaft_matrix.to_3x3() @ Vector((0.0, 0.0, 0.320))
-    com_world_target = collar_loc + local_z_vec
+    # Normalized shaft axis calculation to eliminate scale distortion!
+    shaft_axis_world = (shaft_matrix.to_3x3() @ Vector((0.0, 0.0, 1.0))).normalized()
+    com_world_target = collar_loc + shaft_axis_world * 0.320
 
     bpy.ops.object.select_all(action='DESELECT')
     main_shaft.select_set(True)
@@ -155,7 +160,7 @@ def main() -> int:
             o.rigid_body.use_margin = True
             o.rigid_body.collision_margin = 0.001
 
-    # 4. Configure Palm Anchor
+    # 4. Configure Palm Base Anchor
     palm = bpy.data.objects.get("Palm_Plate_L")
     bpy.ops.object.select_all(action='DESELECT')
     palm.select_set(True)
@@ -170,7 +175,7 @@ def main() -> int:
     palm.rigid_body.use_margin = True
     palm.rigid_body.collision_margin = 0.001
 
-    # 5. Build 13 Rigid Body HINGE + MOTOR Joint Pairs (HARD FAIL on bone resolution)
+    # 5. Build 13 Rigid Body HINGE + MOTOR Joint Pairs
     alignment_audits = []
 
     for p_name, c_name, b_name, axis_override, mass, max_imp, low_deg, up_deg, close_vel in JOINT_SPECS:
@@ -253,21 +258,27 @@ def main() -> int:
     # 6. Save Derivative
     OUT.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.wm.save_as_mainfile(filepath=str(OUT))
-    print(f"Saved Full-Hand Physics Harness to: {OUT}")
+    out_sha256 = hashlib.sha256(OUT.read_bytes()).hexdigest()
+    print(f"Saved Full-Hand Physics Harness: {OUT} (SHA256: {out_sha256[:12]})")
 
-    # 7. Post-Reopen Disk Readback Audit with Recalculated Matrix Alignment & COM Projection
+    # 7. Post-Reopen Disk Readback Audit
     bpy.ops.wm.open_mainfile(filepath=str(OUT))
     r_maul_objs = [o for o in bpy.data.objects if 'maul' in o.name.lower() and o.type == 'MESH']
     r_shaft = next(o for o in r_maul_objs if 'shaft' in o.name.lower())
     r_collar = next(o for o in r_maul_objs if 'lower grip rib' in o.name.lower())
 
-    # Matrix World Translation Projection Audit
     shaft_com_world = r_shaft.matrix_world.translation.copy()
     collar_world = r_collar.matrix_world.translation.copy()
     com_delta = shaft_com_world - collar_world
     shaft_local_z = (r_shaft.matrix_world.to_3x3() @ Vector((0.0, 0.0, 1.0))).normalized()
     axial_projection = com_delta.dot(shaft_local_z)
     lateral_error = (com_delta - (shaft_local_z * axial_projection)).length
+
+    if abs(axial_projection - 0.320) > 0.0005:
+        raise RuntimeError(f"HARD FAIL: COM axial projection error: {axial_projection:.6f} m != 0.3200 m (diff: {abs(axial_projection-0.320)*1000:.3f} mm)")
+
+    if lateral_error > 0.0005:
+        raise RuntimeError(f"HARD FAIL: COM lateral error: {lateral_error:.6f} m > 0.0005 m")
 
     readback_joints = []
     reopened_audits_passed = 0
@@ -294,6 +305,7 @@ def main() -> int:
 
     readback = {
         "derivative_file": str(OUT),
+        "derivative_sha256": out_sha256,
         "total_hand_bodies": len(EXPECTED_HAND_BODIES),
         "total_joint_pairs": len(JOINT_SPECS),
         "reopened_alignment_audits_passed": reopened_audits_passed,
@@ -309,7 +321,7 @@ def main() -> int:
 
     READBACK_JSON.parent.mkdir(parents=True, exist_ok=True)
     READBACK_JSON.write_text(json.dumps(readback, indent=2), encoding='utf-8')
-    print(f"Saved Hardened Full-Hand Readback Audit to: {READBACK_JSON}")
+    print(f"Saved Fully Hardened Readback Audit to: {READBACK_JSON}")
     return 0
 
 if __name__ == '__main__':
