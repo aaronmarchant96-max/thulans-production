@@ -2,14 +2,20 @@
   "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-hand-physics.blend",
   "total_hand_bodies": 14,
   "total_joint_pairs": 13,
-  "alignment_audits_passed": 13,
-  "maul_origin_location": [
+  "reopened_alignment_audits_passed": 13,
+  "maul_origin_world": [
     0.5970942378044128,
     -0.05557239055633545,
     1.0540498495101929
   ],
-  "maul_com_distance_from_collar": 1.4992075539105518,
-  "maul_mass": 30.0,
+  "maul_collar_world": [
+    0.5970942378044128,
+    -0.05557239055633545,
+    0.7362134456634521
+  ],
+  "maul_com_axial_projection_m": 0.3178364038467407,
+  "maul_com_lateral_error_m": 0.0,
+  "maul_mass_kg": 30.0,
   "maul_collision_shape": "COMPOUND",
   "maul_compound_children_count": 26,
   "serialized_joints": [
@@ -18,117 +24,169 @@
       "child": "Gimbal_Yoke_Outer_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        -20.0,
+        45.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 3.0,
-      "child_mass": 2.0
+      "reopened_alignment_dot": 1.0
     },
     {
       "parent": "Gimbal_Yoke_Outer_L",
       "child": "Gimbal_Yoke_Inner_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        -15.0,
+        25.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 3.0,
-      "child_mass": 1.7999999523162842
+      "reopened_alignment_dot": 1.0
     },
     {
       "parent": "Palm_Plate_L",
       "child": "Digit1_Phalanx1_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        -10.0,
+        90.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.0,
-      "child_mass": 1.2000000476837158
+      "reopened_alignment_dot": 1.0000000000037665
     },
     {
       "parent": "Digit1_Phalanx1_L",
       "child": "Digit1_Phalanx2_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.0,
-      "child_mass": 0.6000000238418579
+      "reopened_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Digit1_Phalanx2_L",
       "child": "Digit1_Phalanx3_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 0.5,
-      "child_mass": 0.30000001192092896
+      "reopened_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Palm_Plate_L",
       "child": "Digit2_Phalanx1_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        -10.0,
+        90.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.0,
-      "child_mass": 1.2000000476837158
+      "reopened_alignment_dot": 1.0000000000039584
     },
     {
       "parent": "Digit2_Phalanx1_L",
       "child": "Digit2_Phalanx2_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.0,
-      "child_mass": 0.6000000238418579
+      "reopened_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Digit2_Phalanx2_L",
       "child": "Digit2_Phalanx3_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 0.5,
-      "child_mass": 0.30000001192092896
+      "reopened_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Palm_Plate_L",
       "child": "Digit3_Phalanx1_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        -10.0,
+        90.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.0,
-      "child_mass": 1.2000000476837158
+      "reopened_alignment_dot": 1.0000000000037665
     },
     {
       "parent": "Digit3_Phalanx1_L",
       "child": "Digit3_Phalanx2_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.0,
-      "child_mass": 0.6000000238418579
+      "reopened_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Digit3_Phalanx2_L",
       "child": "Digit3_Phalanx3_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 0.5,
-      "child_mass": 0.30000001192092896
+      "reopened_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Palm_Plate_L",
       "child": "Thumb_Phalanx1_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        -15.0,
+        85.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.5,
-      "child_mass": 1.5
+      "reopened_alignment_dot": 1.0000000000000488
     },
     {
       "parent": "Thumb_Phalanx1_L",
       "child": "Thumb_Phalanx2_L",
       "hinge_type": "HINGE",
       "hinge_z_limit": true,
+      "hinge_limits_deg": [
+        0.0,
+        80.0
+      ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.2000000476837158,
-      "child_mass": 0.800000011920929
+      "reopened_alignment_dot": 0.9999999534338713
     }
   ]
 }
