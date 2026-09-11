@@ -1,0 +1,6265 @@
+{
+  "audit_version": "V40.1_BVH_EVALUATED",
+  "target_blend": "/home/aaron/animation/thulans-production/blender/candidates/varek-v40c-rigged-final.blend",
+  "blend_sha256": "c156c516d0c88813e6aa5fe2cb4377a82ed19a5f81084aca06cfa5243984a22e",
+  "rig_name": "Varek_Original_Rig",
+  "action_name": "Varek_Original_RigAction",
+  "audited_frame_range": [
+    1,
+    80
+  ],
+  "total_audited_frames": 80,
+  "evaluated_envelope": {
+    "ground_contact_z_min": 0.0,
+    "max_elevation_z_max": 2.4384,
+    "total_height": 2.4384,
+    "canonical_target_height": 2.4384,
+    "height_delta_m": 0.0
+  },
+  "prohibited_pairs_audited": 15,
+  "total_prohibited_intersections": 480,
+  "collision_log": [
+    {
+      "frame": 1,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 2,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 8,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 9,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 10,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 11,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 13,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 16,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 19,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 20,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 21,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 22,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 23,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 26,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 28,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 28,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 28,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 28,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 28,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 28,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 31,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 31,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 31,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 31,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 31,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 31,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 32,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 32,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 32,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 32,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 32,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 32,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 33,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 33,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 33,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 33,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 33,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 33,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 34,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 34,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 34,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 34,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 34,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 34,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 35,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 36,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 36,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 36,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 36,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 36,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 36,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 37,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 37,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 37,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 37,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 37,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 37,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 38,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 38,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 38,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 38,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 38,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 38,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 39,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 39,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 39,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 39,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 39,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 39,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 40,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 41,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 41,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 41,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 41,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 41,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 41,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 42,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 42,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 42,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 42,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 42,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 42,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 43,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 43,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 43,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 43,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 43,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 43,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 44,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 44,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 44,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 44,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 44,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 44,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 45,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 46,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 46,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 46,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 46,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 46,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 46,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 47,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 47,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 47,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 47,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 47,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 47,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 50,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 51,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 51,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 51,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 51,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 51,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 51,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 52,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 52,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 52,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 52,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 52,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 52,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 53,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 53,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 53,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 53,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 53,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 53,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 54,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 54,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 54,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 54,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 54,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 54,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 55,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 56,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 56,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 56,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 56,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 56,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 56,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 57,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 57,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 57,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 57,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 57,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 57,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 58,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 58,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 58,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 58,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 58,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 58,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 59,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 59,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 59,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 59,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 59,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 59,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 60,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 61,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 61,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 61,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 61,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 61,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 61,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 62,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 62,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 62,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 62,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 62,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 62,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 63,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 63,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 63,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 63,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 63,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 63,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 64,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 64,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 64,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 64,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 64,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 64,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 65,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 66,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 66,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 66,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 66,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 66,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 66,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 67,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 67,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 67,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 67,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 67,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 67,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 68,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 68,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 68,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 68,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 68,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 68,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 69,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 69,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 69,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 69,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 69,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 69,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 71,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 71,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 71,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 71,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 71,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 71,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 72,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 73,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 73,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 73,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 73,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 73,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 73,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 74,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 74,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 74,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 74,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 74,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 74,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 75,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 76,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 76,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 76,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 76,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 76,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 76,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 77,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 77,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 77,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 77,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 77,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 77,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 78,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 78,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 78,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 78,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 78,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 78,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 79,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 79,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 79,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 79,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 79,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 79,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          152,
+          14313
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "object_a": "Sculpt_Pelvic_Codplate",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 90,
+      "sample_intersection_pair": [
+        [
+          163,
+          6840
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "object_a": "Sculpt_Knee_Cop_L",
+      "object_b": "Sculpt_Cuisse_L",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          573,
+          11695
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "object_a": "Sculpt_Knee_Cop_R",
+      "object_b": "Sculpt_Cuisse_R",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 197,
+      "sample_intersection_pair": [
+        [
+          624,
+          3631
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "object_a": "Sculpt_Puldron_Tier_1_L",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          351,
+          51942
+        ]
+      ]
+    },
+    {
+      "frame": 80,
+      "object_a": "Sculpt_Puldron_Tier_1_R",
+      "object_b": "Sculpt_Torso_Cuirass",
+      "disposition": "PROHIBITED",
+      "overlap_triangle_pairs": 192,
+      "sample_intersection_pair": [
+        [
+          649,
+          29659
+        ]
+      ]
+    }
+  ],
+  "verdict": "FAIL",
+  "claim": "480 prohibited intersection events detected"
+}
