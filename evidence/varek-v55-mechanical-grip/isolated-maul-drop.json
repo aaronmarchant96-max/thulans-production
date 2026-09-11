@@ -1,0 +1,285 @@
+{
+  "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-hand-physics.blend",
+  "derivative_sha256": "f7d2ee3b6896afdcd53d52cc5a1858c4670529ddd927967394d57233be77e2ef",
+  "scenario_id": "SCENARIO_B_ISOLATED_MAUL_COMPOUND_DROP",
+  "blender_version": "5.2.0 LTS",
+  "floor_plate_location": [
+    0.5970942378044128,
+    -0.05557239055633545,
+    0.4562133550643921
+  ],
+  "compound_children_evaluated": 26,
+  "max_compound_rigidity_error_m": 3.585319416481174e-07,
+  "isolated_maul_drop_frames": [
+    {
+      "frame": 1,
+      "maul_shaft_location": [
+        0.5970942378044128,
+        -0.05557239055633545,
+        1.05621337890625
+      ],
+      "max_child_rigidity_error_m": 0.0
+    },
+    {
+      "frame": 2,
+      "maul_shaft_location": [
+        0.6852387189865112,
+        -0.10597348213195801,
+        0.9797995090484619
+      ],
+      "max_child_rigidity_error_m": 1.414589150334837e-07
+    },
+    {
+      "frame": 3,
+      "maul_shaft_location": [
+        0.5626024007797241,
+        -0.1829761415719986,
+        0.9971390962600708
+      ],
+      "max_child_rigidity_error_m": 2.467987250544412e-07
+    },
+    {
+      "frame": 4,
+      "maul_shaft_location": [
+        0.45197123289108276,
+        -0.16832444071769714,
+        1.003678798675537
+      ],
+      "max_child_rigidity_error_m": 2.3936207271496224e-07
+    },
+    {
+      "frame": 5,
+      "maul_shaft_location": [
+        0.4444016218185425,
+        -0.16509325802326202,
+        1.0020573139190674
+      ],
+      "max_child_rigidity_error_m": 1.2751278041220028e-07
+    },
+    {
+      "frame": 6,
+      "maul_shaft_location": [
+        0.5194400548934937,
+        -0.181997612118721,
+        0.9900755286216736
+      ],
+      "max_child_rigidity_error_m": 1.3561068093773613e-07
+    },
+    {
+      "frame": 7,
+      "maul_shaft_location": [
+        0.4653031826019287,
+        -0.14142799377441406,
+        0.9965808987617493
+      ],
+      "max_child_rigidity_error_m": 3.585319416481174e-07
+    },
+    {
+      "frame": 8,
+      "maul_shaft_location": [
+        0.43238580226898193,
+        -0.2165389060974121,
+        1.0001718997955322
+      ],
+      "max_child_rigidity_error_m": 1.332060787637995e-07
+    },
+    {
+      "frame": 9,
+      "maul_shaft_location": [
+        0.4435489773750305,
+        -0.22460149228572845,
+        0.9904075860977173
+      ],
+      "max_child_rigidity_error_m": 1.7513791942388452e-07
+    },
+    {
+      "frame": 10,
+      "maul_shaft_location": [
+        0.593789279460907,
+        -0.1535072773694992,
+        0.9888520240783691
+      ],
+      "max_child_rigidity_error_m": 1.5061759336171037e-07
+    },
+    {
+      "frame": 11,
+      "maul_shaft_location": [
+        0.5639399290084839,
+        -0.10811220854520798,
+        0.9943221211433411
+      ],
+      "max_child_rigidity_error_m": 2.1006461347703405e-07
+    },
+    {
+      "frame": 12,
+      "maul_shaft_location": [
+        0.5338867902755737,
+        -0.10936478525400162,
+        0.9906325340270996
+      ],
+      "max_child_rigidity_error_m": 2.1213212682814431e-07
+    },
+    {
+      "frame": 13,
+      "maul_shaft_location": [
+        0.4901285767555237,
+        -0.042031317949295044,
+        1.0002819299697876
+      ],
+      "max_child_rigidity_error_m": 1.8354054773292828e-07
+    },
+    {
+      "frame": 14,
+      "maul_shaft_location": [
+        0.3923018276691437,
+        -0.09016977250576019,
+        1.0105254650115967
+      ],
+      "max_child_rigidity_error_m": 2.8373077183132626e-07
+    },
+    {
+      "frame": 15,
+      "maul_shaft_location": [
+        0.4339665174484253,
+        -0.07085773348808289,
+        0.9888756275177002
+      ],
+      "max_child_rigidity_error_m": 1.2878434371467163e-07
+    },
+    {
+      "frame": 16,
+      "maul_shaft_location": [
+        0.3517635762691498,
+        -0.04570546746253967,
+        1.0105129480361938
+      ],
+      "max_child_rigidity_error_m": 3.0357988254305047e-07
+    },
+    {
+      "frame": 17,
+      "maul_shaft_location": [
+        0.4123082160949707,
+        0.04147017002105713,
+        1.0004346370697021
+      ],
+      "max_child_rigidity_error_m": 2.0007186974261548e-07
+    },
+    {
+      "frame": 18,
+      "maul_shaft_location": [
+        0.4856639504432678,
+        -0.016750605776906013,
+        0.9972985982894897
+      ],
+      "max_child_rigidity_error_m": 2.1474763481675542e-07
+    },
+    {
+      "frame": 19,
+      "maul_shaft_location": [
+        0.43567734956741333,
+        0.01973872445523739,
+        1.0048928260803223
+      ],
+      "max_child_rigidity_error_m": 1.6567098893766662e-07
+    },
+    {
+      "frame": 20,
+      "maul_shaft_location": [
+        0.37238067388534546,
+        0.04959834739565849,
+        1.0077359676361084
+      ],
+      "max_child_rigidity_error_m": 2.906224389495217e-07
+    },
+    {
+      "frame": 21,
+      "maul_shaft_location": [
+        0.3967392146587372,
+        0.09401357173919678,
+        0.9935652613639832
+      ],
+      "max_child_rigidity_error_m": 1.8894464420919782e-07
+    },
+    {
+      "frame": 22,
+      "maul_shaft_location": [
+        0.442763090133667,
+        0.0651739239692688,
+        1.0003907680511475
+      ],
+      "max_child_rigidity_error_m": 2.4551071456917054e-07
+    },
+    {
+      "frame": 23,
+      "maul_shaft_location": [
+        0.4570647180080414,
+        0.016672449186444283,
+        0.9977063536643982
+      ],
+      "max_child_rigidity_error_m": 2.0417577695486633e-07
+    },
+    {
+      "frame": 24,
+      "maul_shaft_location": [
+        0.4232512414455414,
+        0.10617613047361374,
+        0.9881833791732788
+      ],
+      "max_child_rigidity_error_m": 3.4556170917426965e-07
+    },
+    {
+      "frame": 25,
+      "maul_shaft_location": [
+        0.4639362692832947,
+        0.04626549035310745,
+        1.000040888786316
+      ],
+      "max_child_rigidity_error_m": 3.1592873095619537e-07
+    },
+    {
+      "frame": 26,
+      "maul_shaft_location": [
+        0.5014775395393372,
+        0.01522717997431755,
+        0.9958930015563965
+      ],
+      "max_child_rigidity_error_m": 2.0770943806999353e-07
+    },
+    {
+      "frame": 27,
+      "maul_shaft_location": [
+        0.4113509953022003,
+        0.04459257051348686,
+        1.000171422958374
+      ],
+      "max_child_rigidity_error_m": 1.8665363113527406e-07
+    },
+    {
+      "frame": 28,
+      "maul_shaft_location": [
+        0.34606605768203735,
+        -0.07599766552448273,
+        1.003722906112671
+      ],
+      "max_child_rigidity_error_m": 2.7685416229250547e-07
+    },
+    {
+      "frame": 29,
+      "maul_shaft_location": [
+        0.36889395117759705,
+        0.024430450052022934,
+        1.023699402809143
+      ],
+      "max_child_rigidity_error_m": 2.2390505303468883e-07
+    },
+    {
+      "frame": 30,
+      "maul_shaft_location": [
+        0.24763040244579315,
+        -0.05023099482059479,
+        1.0101943016052246
+      ],
+      "max_child_rigidity_error_m": 1.9371786226117376e-07
+    }
+  ]
+}
