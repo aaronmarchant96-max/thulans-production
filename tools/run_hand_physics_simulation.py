@@ -1,19 +1,20 @@
-"""Execute Scenario 1: Approach -> Finite Torque Close -> Gravity Hold -> Release.
+"""Execute Single-Joint Verification Prototype Scenario.
 
-Executes physical actuator motor states, evaluates contact appearance, and exports raw local palm-frame logs.
+Logs actual physical motor velocity, position, and orientation angle in local palm frame.
 """
 
 from __future__ import annotations
 import json
+import math
 from pathlib import Path
 import sys
 
 import bpy
-from mathutils import Vector, Euler
+from mathutils import Vector, Quaternion
 
 ROOT = Path("/home/aaron/animation/thulans-production")
-TEST_BLEND = ROOT / "blender/candidates/varek-v55-hand-physics.blend"
-OUT_JSON = ROOT / "evidence/varek-v55-mechanical-grip/physics-scenario-1.json"
+TEST_BLEND = ROOT / "blender/candidates/varek-v55-single-joint-test.blend"
+OUT_JSON = ROOT / "evidence/varek-v55-mechanical-grip/single-joint-scenario.json"
 
 def main() -> int:
     if not TEST_BLEND.exists():
@@ -21,64 +22,34 @@ def main() -> int:
 
     bpy.ops.wm.open_mainfile(filepath=str(TEST_BLEND))
     scene = bpy.context.scene
-    main_shaft = next(o for o in bpy.data.objects if 'shaft' in o.name.lower())
+    p1 = bpy.data.objects.get("Digit1_Phalanx1_L")
     palm = bpy.data.objects.get("Palm_Plate_L")
     
-    constraints = [o.rigid_body_constraint for o in bpy.data.objects if o.rigid_body_constraint]
-    
+    motor_empty = bpy.data.objects.get("Constraint_Motor_Palm_to_D1P1")
+    rbc_motor = motor_empty.rigid_body_constraint if motor_empty else None
+
     logs = []
     
-    for frame in range(1, 106):
-        # 1. Physical Actuator Phase Programming
-        if frame <= 15:
-            phase = "approach"
-            # Open hand: motor velocity negative or zero
-            for rbc in constraints:
-                rbc.target_velocity_ang = -1.0
-                rbc.max_impulse_ang = 50.0
-        elif frame <= 30:
-            phase = "close"
-            # Finite torque closing: positive motor velocity with 120 N·m max impulse limit
-            for rbc in constraints:
-                rbc.target_velocity_ang = 2.0
-                rbc.max_impulse_ang = 120.0
-        elif frame <= 75:
-            phase = "hold"
-            # Active hold: zero velocity with 120 N·m clamping impulse
-            for rbc in constraints:
-                rbc.target_velocity_ang = 0.0
-                rbc.max_impulse_ang = 120.0
-        else:
-            phase = "release"
-            # Actuated opening: reverse velocity to open digits and release maul
-            for rbc in constraints:
-                rbc.target_velocity_ang = -3.0
-                rbc.max_impulse_ang = 80.0
-
+    for frame in range(1, 61):
         scene.frame_set(frame)
         
-        # Local palm-frame calculation
-        palm_inv = palm.matrix_world.inverted()
-        local_matrix = palm_inv @ main_shaft.matrix_world
-        local_pos = local_matrix.translation
-        local_euler = local_matrix.to_euler()
-        
-        # Measure motor torque demand across constraints
-        max_applied_torque = max([rbc.max_impulse_ang for rbc in constraints]) if constraints else 0.0
+        # Calculate local quaternion relative rotation angle
+        palm_q = palm.matrix_world.to_quaternion()
+        p1_q = p1.matrix_world.to_quaternion()
+        rel_q = palm_q.conjugate() * p1_q
+        rel_angle_deg = math.degrees(rel_q.angle)
         
         logs.append({
             "frame": frame,
-            "phase": phase,
-            "local_palm_pos": list(local_pos),
-            "local_palm_rot_deg": [math.degrees(a) for a in local_euler],
-            "linear_velocity": list(main_shaft.rigid_body.linear_velocity) if main_shaft.rigid_body else [0,0,0],
-            "angular_velocity": list(main_shaft.rigid_body.angular_velocity) if main_shaft.rigid_body else [0,0,0],
-            "max_actuator_torque_demand": max_applied_torque
+            "relative_angle_deg": rel_angle_deg,
+            "phalanx_linear_velocity": list(p1.rigid_body.linear_velocity) if p1.rigid_body else [0,0,0],
+            "motor_target_velocity": rbc_motor.motor_ang_target_velocity if rbc_motor else 0.0,
+            "motor_max_impulse": rbc_motor.motor_ang_max_impulse if rbc_motor else 0.0
         })
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps({"scenario": "acquisition_hold_release", "frames": logs}, indent=2))
-    print(f"Scenario 1 physical logs exported to: {OUT_JSON}")
+    OUT_JSON.write_text(json.dumps({"scenario": "single_joint_verification", "frames": logs}, indent=2))
+    print(f"Single-joint scenario logs exported to: {OUT_JSON}")
     return 0
 
 if __name__ == '__main__':
