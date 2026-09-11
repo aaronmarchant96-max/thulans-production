@@ -1,6 +1,6 @@
 {
   "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-hand-physics.blend",
-  "derivative_sha256": "56731aa76fbb06af4bd3a66bf9df7fd6934a4e3d0abb264dc0a602c72c784e42",
+  "derivative_sha256": "f7d2ee3b6896afdcd53d52cc5a1858c4670529ddd927967394d57233be77e2ef",
   "total_hand_bodies": 14,
   "total_joint_pairs": 13,
   "reopened_alignment_audits_passed": 13,

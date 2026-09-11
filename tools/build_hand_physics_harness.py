@@ -1,11 +1,10 @@
-"""Build full 14-body, 13-joint mechanical physics harness (Fully Hardened Core Engine).
+"""Build full 14-body, 13-joint mechanical physics harness (Hardened Core Engine v2).
 
 Fixes:
-1. Normalized shaft local Z axis COM offset construction (exact 0.3200 m target).
-2. Complete Parent Isolation Audit for 14 Hand Bodies (detaches unapproved parents, clears animation/constraints/armature).
-3. Explicit Parent -> Child local matrix angle calculations across all 13 joints.
-4. Maul 26-child compound drop & rotation sanity test.
-5. Evidence binding rule enforcement (generates derivative, executes simulation, binds evidence by SHA-256 hash).
+1. Exact COM origin shift without secondary matrix mutation discrepancy.
+2. Complete Parent Isolation Audit for 14 Hand Bodies.
+3. Cryptographic SHA-256 hash calculation and manifest binding.
+4. Hard assertions on exact 0.3200 m ± 0.0005 m axial COM projection and <= 0.0005 m lateral error.
 """
 
 from __future__ import annotations
@@ -32,26 +31,17 @@ EXPECTED_HAND_BODIES = [
 ]
 
 JOINT_SPECS = [
-    # (parent_obj, child_obj, bone_name, axis_override, mass_kg, impulse_limit, lower_deg, upper_deg, close_vel)
     ("Palm_Plate_L", "Gimbal_Yoke_Outer_L", "wrist_pitch.L", Vector((1.0, 0.0, 0.0)), 2.0, 3.0, -20.0, 45.0, 1.0),
     ("Gimbal_Yoke_Outer_L", "Gimbal_Yoke_Inner_L", "wrist_yaw.L", Vector((0.0, 1.0, 0.0)), 1.8, 3.0, -15.0, 25.0, 1.0),
-    
-    # Digit 1 (Index)
     ("Palm_Plate_L", "Digit1_Phalanx1_L", "digit1_01.L", None, 1.2, 2.0, -10.0, 90.0, 1.5),
     ("Digit1_Phalanx1_L", "Digit1_Phalanx2_L", "digit1_02.L", None, 0.6, 1.0, 0.0, 80.0, 1.5),
     ("Digit1_Phalanx2_L", "Digit1_Phalanx3_L", "digit1_03.L", None, 0.3, 0.5, 0.0, 80.0, 1.5),
-
-    # Digit 2 (Middle)
     ("Palm_Plate_L", "Digit2_Phalanx1_L", "digit2_01.L", None, 1.2, 2.0, -10.0, 90.0, 1.5),
     ("Digit2_Phalanx1_L", "Digit2_Phalanx2_L", "digit2_02.L", None, 0.6, 1.0, 0.0, 80.0, 1.5),
     ("Digit2_Phalanx2_L", "Digit2_Phalanx3_L", "digit2_03.L", None, 0.3, 0.5, 0.0, 80.0, 1.5),
-
-    # Digit 3 (Ring)
     ("Palm_Plate_L", "Digit3_Phalanx1_L", "digit3_01.L", None, 1.2, 2.0, -10.0, 90.0, 1.5),
     ("Digit3_Phalanx1_L", "Digit3_Phalanx2_L", "digit3_02.L", None, 0.6, 1.0, 0.0, 80.0, 1.5),
     ("Digit3_Phalanx2_L", "Digit3_Phalanx3_L", "digit3_03.L", None, 0.3, 0.5, 0.0, 80.0, 1.5),
-
-    # Digit 4 (Thumb - Opposable Matrix Alignment)
     ("Palm_Plate_L", "Thumb_Phalanx1_L", "thumb_01.L", None, 1.5, 2.5, -15.0, 85.0, 1.2),
     ("Thumb_Phalanx1_L", "Thumb_Phalanx2_L", "thumb_02.L", None, 0.8, 1.2, 0.0, 80.0, 1.2)
 ]
@@ -73,7 +63,7 @@ def main() -> int:
     scene.use_gravity = True
     scene.gravity = Vector((0.0, 0.0, -9.810))
 
-    # 1. Hard binding checks
+    # 1. Hard binding checks (No fallbacks!)
     arm = bpy.data.objects.get("Varek simple articulation")
     if not arm or arm.type != 'ARMATURE':
         raise RuntimeError("HARD FAIL: Canonical armature 'Varek simple articulation' missing")
@@ -123,7 +113,6 @@ def main() -> int:
 
     collar_loc = grip_collar.matrix_world.translation.copy()
     shaft_matrix = main_shaft.matrix_world.copy()
-    # Normalized shaft axis calculation to eliminate scale distortion!
     shaft_axis_world = (shaft_matrix.to_3x3() @ Vector((0.0, 0.0, 1.0))).normalized()
     com_world_target = collar_loc + shaft_axis_world * 0.320
 
@@ -160,7 +149,7 @@ def main() -> int:
             o.rigid_body.use_margin = True
             o.rigid_body.collision_margin = 0.001
 
-    # 4. Configure Palm Base Anchor
+    # 4. Configure Palm Anchor
     palm = bpy.data.objects.get("Palm_Plate_L")
     bpy.ops.object.select_all(action='DESELECT')
     palm.select_set(True)
@@ -255,13 +244,13 @@ def main() -> int:
         if dot_val < 0.999:
             raise RuntimeError(f"HARD FAIL: Constraint alignment failure on {p_name}->{c_name}: dot {dot_val} < 0.999")
 
-    # 6. Save Derivative
+    # 6. Save Derivative & Compute Hash
     OUT.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.wm.save_as_mainfile(filepath=str(OUT))
     out_sha256 = hashlib.sha256(OUT.read_bytes()).hexdigest()
     print(f"Saved Full-Hand Physics Harness: {OUT} (SHA256: {out_sha256[:12]})")
 
-    # 7. Post-Reopen Disk Readback Audit
+    # 7. Post-Reopen Disk Readback Audit with Hard COM Tolerance Assertion
     bpy.ops.wm.open_mainfile(filepath=str(OUT))
     r_maul_objs = [o for o in bpy.data.objects if 'maul' in o.name.lower() and o.type == 'MESH']
     r_shaft = next(o for o in r_maul_objs if 'shaft' in o.name.lower())
@@ -274,11 +263,14 @@ def main() -> int:
     axial_projection = com_delta.dot(shaft_local_z)
     lateral_error = (com_delta - (shaft_local_z * axial_projection)).length
 
+    print(f"Readback COM Axial Projection: {axial_projection:.6f} m (Target: 0.320000 m)")
+    print(f"Readback COM Lateral Error:     {lateral_error:.6f} m (Limit: 0.000500 m)")
+
     if abs(axial_projection - 0.320) > 0.0005:
-        raise RuntimeError(f"HARD FAIL: COM axial projection error: {axial_projection:.6f} m != 0.3200 m (diff: {abs(axial_projection-0.320)*1000:.3f} mm)")
+        raise RuntimeError(f"PROV FAIL: COM axial projection error: {axial_projection:.6f} m != 0.3200 m (diff: {abs(axial_projection-0.320)*1000:.3f} mm > 0.5 mm)")
 
     if lateral_error > 0.0005:
-        raise RuntimeError(f"HARD FAIL: COM lateral error: {lateral_error:.6f} m > 0.0005 m")
+        raise RuntimeError(f"PROV FAIL: COM lateral error: {lateral_error:.6f} m > 0.0005 m")
 
     readback_joints = []
     reopened_audits_passed = 0
@@ -321,7 +313,7 @@ def main() -> int:
 
     READBACK_JSON.parent.mkdir(parents=True, exist_ok=True)
     READBACK_JSON.write_text(json.dumps(readback, indent=2), encoding='utf-8')
-    print(f"Saved Fully Hardened Readback Audit to: {READBACK_JSON}")
+    print(f"Saved Hardened Readback Audit to: {READBACK_JSON}")
     return 0
 
 if __name__ == '__main__':
