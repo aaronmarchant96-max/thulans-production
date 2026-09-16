@@ -193,7 +193,11 @@ def main() -> int:
         if axis_override is not None:
             transverse_axis_x = (arm.matrix_world.to_3x3() @ axis_override).normalized()
         else:
-            transverse_axis_x = (arm.matrix_world.to_3x3() @ bone.matrix.to_3x3() @ Vector((1.0, 0.0, 0.0))).normalized()
+            # Correct local bone X orientation for Digit2 and Thumb
+            raw_x = bone.matrix.to_3x3() @ Vector((1.0, 0.0, 0.0))
+            if "Digit2" in c_name or "Thumb" in c_name:
+                raw_x = -raw_x
+            transverse_axis_x = (arm.matrix_world.to_3x3() @ raw_x).normalized()
 
         hinge_quat = Vector((0.0, 0.0, 1.0)).rotation_difference(transverse_axis_x)
         hinge_name = f"Constraint_Hinge_{p_name}_to_{c_name}"
@@ -212,6 +216,7 @@ def main() -> int:
         rbc_h.type = 'HINGE'
         rbc_h.object1 = p_obj
         rbc_h.object2 = c_obj
+        rbc_h.disable_collisions = True
         rbc_h.use_limit_ang_z = True
         rbc_h.limit_ang_z_lower = math.radians(low_deg)
         rbc_h.limit_ang_z_upper = math.radians(up_deg)
@@ -233,6 +238,7 @@ def main() -> int:
         rbc_m.type = 'MOTOR'
         rbc_m.object1 = p_obj
         rbc_m.object2 = c_obj
+        rbc_m.disable_collisions = True
         rbc_m.use_motor_ang = True
         rbc_m.motor_ang_target_velocity = close_vel
         rbc_m.motor_ang_max_impulse = max_imp
@@ -280,7 +286,8 @@ def main() -> int:
         
         h_z = h_obj.matrix_world.to_3x3() @ Vector((0.0, 0.0, 1.0))
         m_x = m_obj.matrix_world.to_3x3() @ Vector((1.0, 0.0, 0.0))
-        dot_recalc = abs(h_z.dot(m_x))
+        raw_dot = float(h_z.dot(m_x))
+        dot_recalc = abs(raw_dot)
         if dot_recalc >= 0.999:
             reopened_audits_passed += 1
 
@@ -292,7 +299,8 @@ def main() -> int:
             "hinge_limits_deg": [low_deg, up_deg],
             "motor_type": m_obj.rigid_body_constraint.type,
             "motor_max_impulse": m_obj.rigid_body_constraint.motor_ang_max_impulse,
-            "reopened_alignment_dot": dot_recalc
+            "reopened_alignment_dot": dot_recalc,
+            "signed_alignment_dot": raw_dot
         })
 
     readback = {

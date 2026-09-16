@@ -1,6 +1,6 @@
 {
   "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-hand-physics.blend",
-  "derivative_sha256": "f7d2ee3b6896afdcd53d52cc5a1858c4670529ddd927967394d57233be77e2ef",
+  "derivative_sha256": "995e8e472526cd9eb97a5f2a362d73007ecd27000a589c5c22e82d1c8f936c7a",
   "total_hand_bodies": 14,
   "total_joint_pairs": 13,
   "reopened_alignment_audits_passed": 13,
@@ -31,7 +31,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 3.0,
-      "reopened_alignment_dot": 1.0
+      "reopened_alignment_dot": 1.0,
+      "signed_alignment_dot": 1.0
     },
     {
       "parent": "Gimbal_Yoke_Outer_L",
@@ -44,7 +45,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 3.0,
-      "reopened_alignment_dot": 1.0
+      "reopened_alignment_dot": 1.0,
+      "signed_alignment_dot": 1.0
     },
     {
       "parent": "Palm_Plate_L",
@@ -57,7 +59,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.0,
-      "reopened_alignment_dot": 1.0000000000037665
+      "reopened_alignment_dot": 1.0000000000037665,
+      "signed_alignment_dot": 1.0000000000037665
     },
     {
       "parent": "Digit1_Phalanx1_L",
@@ -70,7 +73,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.0,
-      "reopened_alignment_dot": 1.000000000003733
+      "reopened_alignment_dot": 1.000000000003733,
+      "signed_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Digit1_Phalanx2_L",
@@ -83,7 +87,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 0.5,
-      "reopened_alignment_dot": 1.000000000003733
+      "reopened_alignment_dot": 1.000000000003733,
+      "signed_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Palm_Plate_L",
@@ -96,7 +101,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.0,
-      "reopened_alignment_dot": 1.0000000000039584
+      "reopened_alignment_dot": 0.9999999999980823,
+      "signed_alignment_dot": 0.9999999999980823
     },
     {
       "parent": "Digit2_Phalanx1_L",
@@ -109,7 +115,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.0,
-      "reopened_alignment_dot": 1.000000000003733
+      "reopened_alignment_dot": 0.9999999999978302,
+      "signed_alignment_dot": 0.9999999999978302
     },
     {
       "parent": "Digit2_Phalanx2_L",
@@ -122,7 +129,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 0.5,
-      "reopened_alignment_dot": 1.000000000003733
+      "reopened_alignment_dot": 0.9999999999978302,
+      "signed_alignment_dot": 0.9999999999978302
     },
     {
       "parent": "Palm_Plate_L",
@@ -135,7 +143,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.0,
-      "reopened_alignment_dot": 1.0000000000037665
+      "reopened_alignment_dot": 1.0000000000037665,
+      "signed_alignment_dot": 1.0000000000037665
     },
     {
       "parent": "Digit3_Phalanx1_L",
@@ -148,7 +157,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.0,
-      "reopened_alignment_dot": 1.000000000003733
+      "reopened_alignment_dot": 1.000000000003733,
+      "signed_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Digit3_Phalanx2_L",
@@ -161,7 +171,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 0.5,
-      "reopened_alignment_dot": 1.000000000003733
+      "reopened_alignment_dot": 1.000000000003733,
+      "signed_alignment_dot": 1.000000000003733
     },
     {
       "parent": "Palm_Plate_L",
@@ -174,7 +185,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 2.5,
-      "reopened_alignment_dot": 1.0000000000000488
+      "reopened_alignment_dot": 1.000000000000007,
+      "signed_alignment_dot": 1.000000000000007
     },
     {
       "parent": "Thumb_Phalanx1_L",
@@ -187,7 +199,8 @@
       ],
       "motor_type": "MOTOR",
       "motor_max_impulse": 1.2000000476837158,
-      "reopened_alignment_dot": 0.9999999534338713
+      "reopened_alignment_dot": 1.0000000018626451,
+      "signed_alignment_dot": 1.0000000018626451
     }
   ]
 }

@@ -5,6 +5,12 @@
     -0.029671669006347656,
     1.0045182704925537
   ],
+  "transverse_bearing_axis": [
+    -1.0,
+    -1.1590672102101962e-06,
+    1.5493036471525556e-06
+  ],
+  "constraint_alignment_dot": 1.0000000000037665,
   "hinge_type": "HINGE",
   "hinge_use_limit_ang_z": true,
   "motor_type": "MOTOR",
@@ -12,9 +18,15 @@
   "motor_max_impulse": 2.0,
   "maul_origin_location": [
     0.5970942378044128,
-    -0.055572375655174255,
-    1.3122917413711548
+    -0.05557239055633545,
+    1.0540498495101929
   ],
+  "maul_grip_collar_location": [
+    0.0,
+    0.0,
+    -0.32000017166137695
+  ],
+  "maul_com_distance_from_collar": 1.4992075539105518,
   "maul_mass": 30.0,
   "maul_collision_shape": "COMPOUND",
   "maul_compound_children_count": 26
