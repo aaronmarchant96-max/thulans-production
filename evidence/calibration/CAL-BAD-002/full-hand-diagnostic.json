@@ -1,0 +1,4032 @@
+{
+  "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-hand-physics.blend",
+  "derivative_sha256": "55f10f05b6d2a5bae6dfba993a62306653fdda2972b29eafbe19ad9911b9bc48",
+  "scenario_id": "SCENARIO_A_EMPTY_HAND_DIAGNOSTIC",
+  "blender_version": "5.2.0 LTS",
+  "scenario_a1_digit_closure_frames": [
+    {
+      "frame": 1,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.0,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.0,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.0,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.0,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.0,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Thumb_Phalanx1_L": 0.0,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.0
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.0,
+        "Digit2_Phalanx3_L": 0.0,
+        "Digit3_Phalanx3_L": 0.0,
+        "Thumb_Phalanx2_L": 0.0
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5996747515183953,
+        "Digit2_Phalanx3_L": 0.5996747515183953,
+        "Digit3_Phalanx3_L": 0.5996747515183953,
+        "Thumb_Phalanx2_L": 0.5996747515183953
+      }
+    },
+    {
+      "frame": 2,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.4936586868926066,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.8648333518910605,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.14502896951402092,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.439694372822245,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -2.05241189877919,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.15750152198374046,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.20456901564071,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.5114725324694653,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.04805923075357049,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -0.29061070672157874,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.04953289862148099
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.3449258819400392,
+        "Digit2_Phalanx3_L": 0.054871936183078736,
+        "Digit3_Phalanx3_L": 0.05410625002013743,
+        "Thumb_Phalanx2_L": 0.0015216797926427886
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2587030938245477,
+        "Digit2_Phalanx3_L": 0.5565100767741209,
+        "Digit3_Phalanx3_L": 0.6534653441715063,
+        "Thumb_Phalanx2_L": 0.5989627358760259
+      }
+    },
+    {
+      "frame": 3,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.9908807594351299,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.7591694599324179,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0076780809712011944,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 9.9357849338743,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -11.156388237680233,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.037643892297445664,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.8296014476326777,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.4888050105690915,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.3028347742664437,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -0.7399134136514585,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.03064515046353398
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.32266014746838856,
+        "Digit2_Phalanx3_L": 0.26897808295330294,
+        "Digit3_Phalanx3_L": 0.05368967941135619,
+        "Thumb_Phalanx2_L": 0.015200339247270678
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.921624229988356,
+        "Digit2_Phalanx3_L": 0.8668539995683793,
+        "Digit3_Phalanx3_L": 0.5487534889705509,
+        "Thumb_Phalanx2_L": 0.5881648424137308
+      }
+    },
+    {
+      "frame": 4,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -3.770245721565516,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 1.3337477771765873,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.5243750999533106,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.602540320042316,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -3.732387382545763,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.5086564688154123,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -0.22377623994095935,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.06792575267904527,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.833457982354993,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -1.7438562837642715,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.20221335588547537
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.07941408662469596,
+        "Digit2_Phalanx3_L": 0.09859809228978181,
+        "Digit3_Phalanx3_L": 0.03492877469078451,
+        "Thumb_Phalanx2_L": 0.02934765252388041
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5775121617429967,
+        "Digit2_Phalanx3_L": 0.5270550140485135,
+        "Digit3_Phalanx3_L": 0.6272969588018534,
+        "Thumb_Phalanx2_L": 0.575299590734298
+      }
+    },
+    {
+      "frame": 5,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -5.243555856054081,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.7256557595713975,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.8191184225619006,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -3.243435261359615,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 2.0181039966801286,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.6650376949306533,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -1.218494239258065,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.47578105419800054,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.1383407708762552,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -3.0088328641163415,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.2969825484786611
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2023275825204937,
+        "Digit2_Phalanx3_L": 0.2464500106190993,
+        "Digit3_Phalanx3_L": 0.12505987009309932,
+        "Thumb_Phalanx2_L": 0.05259533218943001
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5019458183914555,
+        "Digit2_Phalanx3_L": 0.3855917335393842,
+        "Digit3_Phalanx3_L": 0.7229534646300795,
+        "Thumb_Phalanx2_L": 0.5560147140913747
+      }
+    },
+    {
+      "frame": 6,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -7.733028634535206,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.8012024887775917,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -3.4515390876135554,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -4.868017657857571,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 1.2313772179813793,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.3623169610955634,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -3.5984072747029643,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.2651225986581306,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.13381136665072352,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -4.624089481587725,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.3631819627000207
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.29222476907686384,
+        "Digit2_Phalanx3_L": 0.2568225078447578,
+        "Digit3_Phalanx3_L": 0.12738952666790232,
+        "Thumb_Phalanx2_L": 0.08088610320806473
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8315949572149838,
+        "Digit2_Phalanx3_L": 0.8460048826558801,
+        "Digit3_Phalanx3_L": 0.49640378031508037,
+        "Thumb_Phalanx2_L": 0.5322947006836449
+      }
+    },
+    {
+      "frame": 7,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -10.02987167094571,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.6677250370733456,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -4.722397159016866,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -4.3220064060259045,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -4.204017694562821,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.055814242954553325,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -6.8204183696190235,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 1.1503562257144329,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.02878323686584008,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -6.549861289706711,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.37295695724572836
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.30963991863384377,
+        "Digit2_Phalanx3_L": 0.14108451098095065,
+        "Digit3_Phalanx3_L": 0.09212642570741249,
+        "Thumb_Phalanx2_L": 0.11458933806173689
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.69398572327924,
+        "Digit2_Phalanx3_L": 0.576553929272969,
+        "Digit3_Phalanx3_L": 0.6198372742290817,
+        "Thumb_Phalanx2_L": 0.5039656103618448
+      }
+    },
+    {
+      "frame": 8,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -13.373618903838809,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.238268242488528,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -4.406666942131936,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -2.2690598137954203,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -9.202360500990727,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.21479801650864966,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -9.297952059063379,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.08357764205019463,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0022104842651689068,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -8.7615662730346,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.3075334890515732
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.35822325069854616,
+        "Digit2_Phalanx3_L": 0.22701748352563747,
+        "Digit3_Phalanx3_L": 0.17284684356616595,
+        "Thumb_Phalanx2_L": 0.15351363768031373
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.707144311959145,
+        "Digit2_Phalanx3_L": 0.528548887521374,
+        "Digit3_Phalanx3_L": 0.7079588169376853,
+        "Thumb_Phalanx2_L": 0.47121773174067927
+      }
+    },
+    {
+      "frame": 9,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -16.89376467243147,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.1547263942392507,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -4.096089673538718,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -0.7946404261576243,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -13.748747416008676,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.8885068298497596,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -10.547715893294619,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -2.6718351991344766,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.11180119185153527,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -11.227425293830999,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.14644685497023996
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4183968505739353,
+        "Digit2_Phalanx3_L": 0.29448450337924975,
+        "Digit3_Phalanx3_L": 0.24797423091935014,
+        "Thumb_Phalanx2_L": 0.19747714821317044
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8003608809790729,
+        "Digit2_Phalanx3_L": 0.8029211620563934,
+        "Digit3_Phalanx3_L": 0.5846692028067675,
+        "Thumb_Phalanx2_L": 0.4343455066352295
+      }
+    },
+    {
+      "frame": 10,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.123221490815254,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.2023332321895763,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -3.822384151249613,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.4623682996389706,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -19.15976321479098,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.56204461238169,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -12.27947997100919,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -4.486070252744822,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.6245301581714285,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -13.92608399271779,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.003923278461432097
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.46459102685330833,
+        "Digit2_Phalanx3_L": 0.3186429602223109,
+        "Digit3_Phalanx3_L": 0.30009255389386136,
+        "Thumb_Phalanx2_L": 0.24570216518329857
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7568793696585283,
+        "Digit2_Phalanx3_L": 0.6565792869771286,
+        "Digit3_Phalanx3_L": 0.7122712096329777,
+        "Thumb_Phalanx2_L": 0.3939082553266133
+      }
+    },
+    {
+      "frame": 11,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -23.073824743875313,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.9898171049464546,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -3.1557775875342577,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 7.067537706717526,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -24.16088261271356,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.153792233064346,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -14.09049758208938,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -5.942421552303137,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.2603917816314247,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -16.85683824615525,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.04726412178016532
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.49996066700165315,
+        "Digit2_Phalanx3_L": 0.3687194283186015,
+        "Digit3_Phalanx3_L": 0.36670589345706345,
+        "Thumb_Phalanx2_L": 0.29621995007943625
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7969632754330606,
+        "Digit2_Phalanx3_L": 0.6798855284801262,
+        "Digit3_Phalanx3_L": 0.7537894875034531,
+        "Thumb_Phalanx2_L": 0.3485698923665497
+      }
+    },
+    {
+      "frame": 12,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -25.563885836316036,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.67463947082457,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.3165198829391254,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 10.041321232087922,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -29.0636345826152,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -6.698268084286673,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -16.120268450930954,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -6.675642795445431,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.0025973118704026,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -19.96193442919027,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.08974043536959903
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5245053452846024,
+        "Digit2_Phalanx3_L": 0.4161922489572871,
+        "Digit3_Phalanx3_L": 0.4265176099258058,
+        "Thumb_Phalanx2_L": 0.3497326423131887
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8382427836015657,
+        "Digit2_Phalanx3_L": 0.8231894769231396,
+        "Digit3_Phalanx3_L": 0.7089330060860654,
+        "Thumb_Phalanx2_L": 0.3007845344302206
+      }
+    },
+    {
+      "frame": 13,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -27.557505768713778,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.437167707894539,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.2341943603368166,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.633457537852128,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -25.637838629511393,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.958925876481335,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.18192035110328,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -6.758703062094777,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.3516678608579142,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -23.18748450813753,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.0023377290883655924
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5374129407967968,
+        "Digit2_Phalanx3_L": 0.4422866337004613,
+        "Digit3_Phalanx3_L": 0.46609028354481724,
+        "Thumb_Phalanx2_L": 0.4062696919803788
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8095937433291757,
+        "Digit2_Phalanx3_L": 0.7331344596727296,
+        "Digit3_Phalanx3_L": 0.8003750957362058,
+        "Thumb_Phalanx2_L": 0.2520137739744436
+      }
+    },
+    {
+      "frame": 14,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -29.044374195173578,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.080578037172304,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.018127321954433038,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.9870861211340185,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -22.341598643088854,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -8.920360705006807,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -20.153851283012855,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -6.3844407389278555,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.762419494626076,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -26.526399328575646,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.0010790528611386537
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5372936571187897,
+        "Digit2_Phalanx3_L": 0.46377523339011884,
+        "Digit3_Phalanx3_L": 0.49941897033737087,
+        "Thumb_Phalanx2_L": 0.4633704869075243
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8262716282713222,
+        "Digit2_Phalanx3_L": 0.7626263029208994,
+        "Digit3_Phalanx3_L": 0.8097064889604715,
+        "Thumb_Phalanx2_L": 0.2026564439112339
+      }
+    },
+    {
+      "frame": 15,
+      "phase": "open",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -30.06395308658799,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.1272741555235677,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.002066455952026453,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -0.5579951572784844,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -19.25125075236865,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -9.773270372814434,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -21.929606981918607,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -5.60390519518547,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.047109619171675,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -29.919258566242362,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.0018189626007802367
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5396691077684287,
+        "Digit2_Phalanx3_L": 0.47636869786317504,
+        "Digit3_Phalanx3_L": 0.5222767352544821,
+        "Thumb_Phalanx2_L": 0.5213670902304981
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.840250298328341,
+        "Digit2_Phalanx3_L": 0.8180518471555162,
+        "Digit3_Phalanx3_L": 0.7926548491559019,
+        "Thumb_Phalanx2_L": 0.15607958083047116
+      }
+    },
+    {
+      "frame": 16,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -30.655888406767616,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.022443406816562407,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.9250880477011,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -3.147598317449419,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -15.9816134951569,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.081304917197,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -23.53606479519977,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -4.621409694012258,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.1840457091579513,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -33.336134567879775,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.01957442486053671
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5421179575424501,
+        "Digit2_Phalanx3_L": 0.4802470496509788,
+        "Digit3_Phalanx3_L": 0.5347072042587618,
+        "Thumb_Phalanx2_L": 0.5788711665278221
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8188972071450603,
+        "Digit2_Phalanx3_L": 0.7601318849459746,
+        "Digit3_Phalanx3_L": 0.8385202847394572,
+        "Thumb_Phalanx2_L": 0.11834741192025769
+      }
+    },
+    {
+      "frame": 17,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -30.411320775963095,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.22948347698382274,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.46741172300566597,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -5.903843150769646,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -12.661714382147318,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.559149237668533,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -24.733953208354478,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -3.5604705074466416,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.4182123629598986,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -36.735477883782806,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.14070676317994607
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5385797612374329,
+        "Digit2_Phalanx3_L": 0.47696071008289465,
+        "Digit3_Phalanx3_L": 0.5410794039895641,
+        "Thumb_Phalanx2_L": 0.6349499669530964
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8356673615245672,
+        "Digit2_Phalanx3_L": 0.7799995142067105,
+        "Digit3_Phalanx3_L": 0.8260873160590605,
+        "Thumb_Phalanx2_L": 0.09924335121577611
+      }
+    },
+    {
+      "frame": 18,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -29.88463427924813,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.7946164087003538,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.0014938966677399883,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -8.226765678373035,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -9.480245612913787,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.906047302908535,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -25.588578981014418,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -2.435818539493052,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.692600602553942,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -40.080172033352675,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.32781661873332146
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.529412095076912,
+        "Digit2_Phalanx3_L": 0.4700318386826744,
+        "Digit3_Phalanx3_L": 0.5418375698450132,
+        "Thumb_Phalanx2_L": 0.6887822669639468
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8306932032981107,
+        "Digit2_Phalanx3_L": 0.7952455053984941,
+        "Digit3_Phalanx3_L": 0.816900350181709,
+        "Thumb_Phalanx2_L": 0.10861342821281052
+      }
+    },
+    {
+      "frame": 19,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -29.4327737918099,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.6412290506261228,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.14635748983851427,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -10.0295624958158,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -6.665064900190214,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.279350608345906,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -26.10966432478207,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.2764692428048403,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.9604751786760515,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -43.32816029346701,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5732712398268454
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5233341474685901,
+        "Digit2_Phalanx3_L": 0.4576840779089675,
+        "Digit3_Phalanx3_L": 0.5361612962629597,
+        "Thumb_Phalanx2_L": 0.7397256451792583
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8175865110941427,
+        "Digit2_Phalanx3_L": 0.7538861978660971,
+        "Digit3_Phalanx3_L": 0.8336638967214318,
+        "Thumb_Phalanx2_L": 0.1387951967422849
+      }
+    },
+    {
+      "frame": 20,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -29.069594135380257,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.10382612000430663,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.773906327478149,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -11.173382370546001,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -4.14103606784559,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.475960493706879,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -26.24562038916148,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.08343589636379575,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.291560782769477,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -46.44084514480028,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.8723946683099177
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.5134214273648727,
+        "Digit2_Phalanx3_L": 0.43857392305699444,
+        "Digit3_Phalanx3_L": 0.5241658890566241,
+        "Thumb_Phalanx2_L": 0.7871051355157842
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8157732394032828,
+        "Digit2_Phalanx3_L": 0.7634073760389634,
+        "Digit3_Phalanx3_L": 0.8135625237409734,
+        "Thumb_Phalanx2_L": 0.17703060707462057
+      }
+    },
+    {
+      "frame": 21,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -28.364998659494415,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.09447482163320382,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.38847816898698856,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -11.629589958086033,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.9663531175909599,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.428134411945603,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -25.680281061126326,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0014275145157615298,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.863995242646561,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -49.393778144988396,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.2258671582749303
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4975716780697174,
+        "Digit2_Phalanx3_L": 0.415845039231489,
+        "Digit3_Phalanx3_L": 0.5063356452794678,
+        "Thumb_Phalanx2_L": 0.8303706719483677
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8112222821947773,
+        "Digit2_Phalanx3_L": 0.7563699382851546,
+        "Digit3_Phalanx3_L": 0.8021896073091154,
+        "Thumb_Phalanx2_L": 0.2165390524256729
+      }
+    },
+    {
+      "frame": 22,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -27.594611528791003,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.04128897522286437,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.04099938941906397,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -11.528519856555544,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.45145545910925716,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.427558951365125,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -24.506626560676743,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.6897199919127659,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.8777757337924177,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -52.229937559045275,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.6295691619051729
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4775641250469438,
+        "Digit2_Phalanx3_L": 0.3887954057639103,
+        "Digit3_Phalanx3_L": 0.4827413728738482,
+        "Thumb_Phalanx2_L": 0.8701909651555438
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.8039924063822144,
+        "Digit2_Phalanx3_L": 0.7189640990945106,
+        "Digit3_Phalanx3_L": 0.7977213572384325,
+        "Thumb_Phalanx2_L": 0.25542347436460644
+      }
+    },
+    {
+      "frame": 23,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -27.024478714187197,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.4487223127449976,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.025104331057563975,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -10.635922048780769,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.5603158022961555,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.39902781688338,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -22.978410552054097,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.3862842516554132,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.9575042687809994,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -54.99515755136754,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.0932291491911377
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.46317432643192835,
+        "Digit2_Phalanx3_L": 0.35587249688283434,
+        "Digit3_Phalanx3_L": 0.45359389454530846,
+        "Thumb_Phalanx2_L": 0.907290077655173
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7914234193406217,
+        "Digit2_Phalanx3_L": 0.7200942737067723,
+        "Digit3_Phalanx3_L": 0.7718986557798941,
+        "Thumb_Phalanx2_L": 0.2934116139549341
+      }
+    },
+    {
+      "frame": 24,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -26.227026029242303,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.09949797582392902,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.01763375053988055,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -8.952498959460712,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.8210529315987541,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.163618179214769,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -21.268602610780622,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.9043369632018126,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.0951909620027989,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -57.700976927524515,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.614273656260872
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.44845636597907557,
+        "Digit2_Phalanx3_L": 0.3201096533471916,
+        "Digit3_Phalanx3_L": 0.419432277324017,
+        "Thumb_Phalanx2_L": 0.9417919184120404
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7761161350303664,
+        "Digit2_Phalanx3_L": 0.7070665824871414,
+        "Digit3_Phalanx3_L": 0.7523772888788891,
+        "Thumb_Phalanx2_L": 0.33022907796438633
+      }
+    },
+    {
+      "frame": 25,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -25.04715339463824,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.35759333698288964,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.20591964682184194,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -6.4489787709406405,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.19029674166883023,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.93865635635643,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -19.665157026650824,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.9927346685664205,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.2935038031508336,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -60.32191103399508,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.1627213512801293
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4451194327779635,
+        "Digit2_Phalanx3_L": 0.28146293415774026,
+        "Digit3_Phalanx3_L": 0.3806506620997612,
+        "Thumb_Phalanx2_L": 0.9733029860754265
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7758716369249958,
+        "Digit2_Phalanx3_L": 0.671198254576276,
+        "Digit3_Phalanx3_L": 0.7343803466439915,
+        "Thumb_Phalanx2_L": 0.3653006636529418
+      }
+    },
+    {
+      "frame": 26,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -24.009770474659238,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.30259312808247607,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.0752536440589369,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -3.3506355555283074,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.8909092254232184,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.411008554259318,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -17.828101324680595,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.917154311768697,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0009323165704159879,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -62.8272420912481,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.7335732898321377
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.44036956685897183,
+        "Digit2_Phalanx3_L": 0.23913771742372036,
+        "Digit3_Phalanx3_L": 0.3404417309059056,
+        "Thumb_Phalanx2_L": 1.0015365929500244
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7772940806713737,
+        "Digit2_Phalanx3_L": 0.6558497945643571,
+        "Digit3_Phalanx3_L": 0.7138063480528604,
+        "Thumb_Phalanx2_L": 0.3981820291419287
+      }
+    },
+    {
+      "frame": 27,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -23.17061891102152,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.1896556991753685e-05,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.8557693664705954,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.22460849295982324,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -2.5111554231468842,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -9.995186965575776,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -15.756282359530882,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.5245671465727395,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.3304347477505609,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -65.18904611922491,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.318670499744647
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4311996045716957,
+        "Digit2_Phalanx3_L": 0.19483841616715236,
+        "Digit3_Phalanx3_L": 0.3059467995590212,
+        "Thumb_Phalanx2_L": 1.0261514424014928
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7750148775610809,
+        "Digit2_Phalanx3_L": 0.6444514774315785,
+        "Digit3_Phalanx3_L": 0.6942042079607048,
+        "Thumb_Phalanx2_L": 0.42845219426933734
+      }
+    },
+    {
+      "frame": 28,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -22.05846234790235,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.10875821534019293,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.9417120798164385,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.1746940023395585,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -4.409626848427178,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -9.31348524573234,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -13.484396007513206,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.0889798601355007,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.9330976832214383,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -67.37849566241142,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.913533220454109
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.41678678600115937,
+        "Digit2_Phalanx3_L": 0.14983905331182734,
+        "Digit3_Phalanx3_L": 0.2688877277766435,
+        "Thumb_Phalanx2_L": 1.046980119523286
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.753791207346415,
+        "Digit2_Phalanx3_L": 0.6211861265810004,
+        "Digit3_Phalanx3_L": 0.6781937529170441,
+        "Thumb_Phalanx2_L": 0.45590635578965655
+      }
+    },
+    {
+      "frame": 29,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.908677823754925,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.06317557749392158,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.0545061394538617,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 8.212704331120987,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -6.539038381679324,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -8.603818154938494,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -11.049031733146148,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.6262545893618527,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.609581000208209,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -69.36972689266474,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.517487447849721
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.3983760783767988,
+        "Digit2_Phalanx3_L": 0.10382849047679608,
+        "Digit3_Phalanx3_L": 0.22959590313641934,
+        "Thumb_Phalanx2_L": 1.0638625729108682
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.751968661061096,
+        "Digit2_Phalanx3_L": 0.6103961256925046,
+        "Digit3_Phalanx3_L": 0.6610424368771998,
+        "Thumb_Phalanx2_L": 0.4803870565852952
+      }
+    },
+    {
+      "frame": 30,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -19.684689236816077,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.01953838471886606,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.040988936117614,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 8.866632241071095,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -5.214250817471466,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.856703804123755,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -8.490264759867404,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.14446450524499221,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.3464618290443,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -71.1374273280476,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -6.133950123825192
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.37573397035323053,
+        "Digit2_Phalanx3_L": 0.05831165508965631,
+        "Digit3_Phalanx3_L": 0.18869517278203932,
+        "Thumb_Phalanx2_L": 1.0767675181898875
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7416144115991556,
+        "Digit2_Phalanx3_L": 0.601737473016278,
+        "Digit3_Phalanx3_L": 0.6438947598182643,
+        "Thumb_Phalanx2_L": 0.5018954225318406
+      }
+    },
+    {
+      "frame": 31,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -18.350169271107532,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.019577757042887684,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.8220536035649453,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.754911044520355,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.1539712858417497,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.086346471428117,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -5.7565269906483305,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0005020190174310077,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.91879953639109,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -72.65858609031531,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -6.77014061779827
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.34897465697713875,
+        "Digit2_Phalanx3_L": 0.016641126013352357,
+        "Digit3_Phalanx3_L": 0.14683937798457433,
+        "Thumb_Phalanx2_L": 1.0857250444040483
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7199260067834129,
+        "Digit2_Phalanx3_L": 0.5919145932846896,
+        "Digit3_Phalanx3_L": 0.6305457685005009,
+        "Thumb_Phalanx2_L": 0.5205155205647936
+      }
+    },
+    {
+      "frame": 32,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -17.00399309982582,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.014449083827880628,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.3519364886978655,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 5.283364181883957,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.750899310392203,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.205254697615734,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -2.8207355232454736,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.27056666775696553,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.162368259670668,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -73.91173517491588,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -7.4371109325329
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.3191685557344934,
+        "Digit2_Phalanx3_L": 0.03023284295673211,
+        "Digit3_Phalanx3_L": 0.10473662072199451,
+        "Thumb_Phalanx2_L": 1.0908718566532882
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7136941222516592,
+        "Digit2_Phalanx3_L": 0.5891862823358077,
+        "Digit3_Phalanx3_L": 0.6182290656216375,
+        "Thumb_Phalanx2_L": 0.53644972781961
+      }
+    },
+    {
+      "frame": 33,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -15.791775834299001,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.004526240001778472,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.6230118582559377,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 5.204846213042734,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.44477259352027426,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.0038747869826505,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.09903964166483073,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.5765332149878208,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.4356693598228407,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -74.87764238952937,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -8.149094519485626
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2864864492989022,
+        "Digit2_Phalanx3_L": 0.06884362893198347,
+        "Digit3_Phalanx3_L": 0.06309704584658285,
+        "Thumb_Phalanx2_L": 1.0924290237016894
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7013336090743755,
+        "Digit2_Phalanx3_L": 0.5908695423584945,
+        "Digit3_Phalanx3_L": 0.6084177219279788,
+        "Thumb_Phalanx2_L": 0.5499827704656974
+      }
+    },
+    {
+      "frame": 34,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -14.770098480401522,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.002228895675478113,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.0011935107959535666,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 5.530619789371493,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.862542642092365,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0009002943372372129,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 2.962165891028777,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8629443093394141,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.7379308067425225,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -75.5395840622607,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -8.923055293223472
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2524890570767085,
+        "Digit2_Phalanx3_L": 0.07897711706582354,
+        "Digit3_Phalanx3_L": 0.02264905098820749,
+        "Thumb_Phalanx2_L": 1.090710442106031
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6730236558678365,
+        "Digit2_Phalanx3_L": 0.5918858896620506,
+        "Digit3_Phalanx3_L": 0.6022326364153383,
+        "Thumb_Phalanx2_L": 0.5614741229088296
+      }
+    },
+    {
+      "frame": 35,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -13.714848880363792,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.01383383767705961,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.006509941622518435,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.279034368973512,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -2.284383017828609,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.1668800743726098,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.642604287024544,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.0443387685545256,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.062208904235693,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -75.88368050708335,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -9.777505370597035
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2389835049220253,
+        "Digit2_Phalanx3_L": 0.03798732273646267,
+        "Digit3_Phalanx3_L": 0.016193799581571303,
+        "Thumb_Phalanx2_L": 1.0861086980601615
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6719413935215245,
+        "Digit2_Phalanx3_L": 0.5922448455050804,
+        "Digit3_Phalanx3_L": 0.5962048203172253,
+        "Thumb_Phalanx2_L": 0.5713241435960329
+      }
+    },
+    {
+      "frame": 36,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -12.66489602007054,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.16407622573770828,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.31738470803577506,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 7.61369100668636,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -3.57319013611976,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.135116343602729,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.843436935402942,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8572407080261085,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.390448728811494,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -75.89951515899698,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -10.731085678936969
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.23032029814650115,
+        "Digit2_Phalanx3_L": 0.008547725680490769,
+        "Digit3_Phalanx3_L": 0.05253523466640882,
+        "Thumb_Phalanx2_L": 1.0790802580253676
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6737668880334831,
+        "Digit2_Phalanx3_L": 0.6014790268055877,
+        "Digit3_Phalanx3_L": 0.5900258471739646,
+        "Thumb_Phalanx2_L": 0.5799376449280558
+      }
+    },
+    {
+      "frame": 37,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -11.718164758290268,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.14794425362196376,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.7458055287433242,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 9.692711622018523,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -5.971392479133476,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -8.210956786220565,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.757078576947487,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.03676177460816385,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.518827353799667,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -75.58078561769835,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -11.800688634135515
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2195466780114729,
+        "Digit2_Phalanx3_L": 0.0561831588001654,
+        "Digit3_Phalanx3_L": 0.08596041475889211,
+        "Thumb_Phalanx2_L": 1.0701183042635298
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6501102874340179,
+        "Digit2_Phalanx3_L": 0.6195466721227906,
+        "Digit3_Phalanx3_L": 0.5848167035933911,
+        "Thumb_Phalanx2_L": 0.5876765827859498
+      }
+    },
+    {
+      "frame": 38,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -10.604850244943323,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.11773965240381486,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.2530693196806064,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.9849340695854396,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.6742994385879946,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -11.393835016605932,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.030583815403393,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.02561753365111323,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.817877932017691,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -74.92594729263504,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -12.999117333912473
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.2076316990404663,
+        "Digit2_Phalanx3_L": 0.10154965338360541,
+        "Digit3_Phalanx3_L": 0.11411880572336199,
+        "Thumb_Phalanx2_L": 1.0597160189729933
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6482567247931251,
+        "Digit2_Phalanx3_L": 0.6242301610445543,
+        "Digit3_Phalanx3_L": 0.5929443854844264,
+        "Thumb_Phalanx2_L": 0.594809477840601
+      }
+    },
+    {
+      "frame": 39,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -9.393800998500923,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.06007424620298488,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.808181556992118,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 1.0092759254585468,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 2.241023949737061,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -12.78823243986651,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.417119575780312,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.032315084647465936,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0730320492761928,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -73.9388435209204,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -14.332417540278612
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.19476073130761598,
+        "Digit2_Phalanx3_L": 0.149551830635559,
+        "Digit3_Phalanx3_L": 0.1404814647538395,
+        "Thumb_Phalanx2_L": 1.0483210560421496
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6543144451458242,
+        "Digit2_Phalanx3_L": 0.6494606374230163,
+        "Digit3_Phalanx3_L": 0.5824756537841115,
+        "Thumb_Phalanx2_L": 0.6014654155517278
+      }
+    },
+    {
+      "frame": 40,
+      "phase": "close",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -8.085540629965882,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.01216653605936214,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.4516929289258824,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 1.4233031303378423,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.9802000258373493,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -12.479814557043994,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 4.548906000717168,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.04971001300065194,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.16465399364345915,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -72.62920965829358,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -15.797217410028166
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.18075038561846743,
+        "Digit2_Phalanx3_L": 0.19512825911259885,
+        "Digit3_Phalanx3_L": 0.10098739696043874,
+        "Thumb_Phalanx2_L": 1.0362865240052366
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6351242636852955,
+        "Digit2_Phalanx3_L": 0.6613426861452745,
+        "Digit3_Phalanx3_L": 0.5779343910830009,
+        "Thumb_Phalanx2_L": 0.6076019486294665
+      }
+    },
+    {
+      "frame": 41,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -6.647501997583405,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.0020702103554664877,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.9138427293815963,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.773525196814298,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -6.535689055024317,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -12.085023585512698,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.8207153242836644,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.021935132385082212,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.3690457785477717,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -70.86685393200317,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -17.37479420877559
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.16272247065097975,
+        "Digit2_Phalanx3_L": 0.23583782100896028,
+        "Digit3_Phalanx3_L": 0.007336706646956071,
+        "Thumb_Phalanx2_L": 1.0229081836996112
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6351902055285802,
+        "Digit2_Phalanx3_L": 0.6675237712752792,
+        "Digit3_Phalanx3_L": 0.5966323228523556,
+        "Thumb_Phalanx2_L": 0.6110037592106535
+      }
+    },
+    {
+      "frame": 42,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -4.966711832484694,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.11791756085189851,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -3.0187118068043,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 7.782530634800543,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -13.595423152333003,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.698777116222345,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -3.9115189196849447,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.009656895440294367,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.516802018491348,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -68.56182114955038,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -18.975826888456485
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.13823785038275704,
+        "Digit2_Phalanx3_L": 0.2687529503963944,
+        "Digit3_Phalanx3_L": 0.1094562733916984,
+        "Thumb_Phalanx2_L": 1.0050786545105677
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6321806490598102,
+        "Digit2_Phalanx3_L": 0.6895004991027486,
+        "Digit3_Phalanx3_L": 0.6001179135335623,
+        "Thumb_Phalanx2_L": 0.6075555893401291
+      }
+    },
+    {
+      "frame": 43,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -3.3879843049745073,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.08018854596725633,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.8813426413980907,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 7.9981537978505735,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -17.14090667571107,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -9.192839525632072,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -9.096111273726518,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.26041863069917137,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.3402612149451083,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -65.75967506099596,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -20.523152279635976
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.1072391726378584,
+        "Digit2_Phalanx3_L": 0.29350201896224604,
+        "Digit3_Phalanx3_L": 0.20144255916577528,
+        "Thumb_Phalanx2_L": 0.9834306910745881
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6214403244150227,
+        "Digit2_Phalanx3_L": 0.6885048285559475,
+        "Digit3_Phalanx3_L": 0.6422036479859556,
+        "Thumb_Phalanx2_L": 0.5975709555105191
+      }
+    },
+    {
+      "frame": 44,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.0911104416373805,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.011288189567567797,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.175430758685149,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.598298033820297,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -16.48824466832853,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.447428528922178,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -14.337010066635612,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8118971862037166,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.5060780160686742,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -62.71036046496954,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -21.824997489961774
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.07062548265664592,
+        "Digit2_Phalanx3_L": 0.3099150537299817,
+        "Digit3_Phalanx3_L": 0.28859499992763,
+        "Thumb_Phalanx2_L": 0.9577550518164318
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6159999111254043,
+        "Digit2_Phalanx3_L": 0.684821416102079,
+        "Digit3_Phalanx3_L": 0.6973553233860504,
+        "Thumb_Phalanx2_L": 0.580438421722671
+      }
+    },
+    {
+      "frame": 45,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.2776241725450408,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.002478086359670432,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.3734035698614401,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.118345459515005,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -16.087193361464895,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.602169121623002,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -19.219898134442808,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.329570464878955,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.5459595902415288,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -59.52324366598819,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -22.74908794162537
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.03367953938045906,
+        "Digit2_Phalanx3_L": 0.3156793922363949,
+        "Digit3_Phalanx3_L": 0.3660135445901155,
+        "Thumb_Phalanx2_L": 0.9286498811579516
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6194652013459108,
+        "Digit2_Phalanx3_L": 0.6857097356207492,
+        "Digit3_Phalanx3_L": 0.7222970946384627,
+        "Thumb_Phalanx2_L": 0.5562905833891393
+      }
+    },
+    {
+      "frame": 46,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.0958169759299183,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.0048527972329461145,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.057438015238524605,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.46900967051209014,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -15.799816561602503,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.765898228594946,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -23.68707140464907,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.715939119655899,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0003466446353515019,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -56.268094261023684,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -23.17719454859897
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.00455847462264733,
+        "Digit2_Phalanx3_L": 0.31048010471552134,
+        "Digit3_Phalanx3_L": 0.43568772377783793,
+        "Thumb_Phalanx2_L": 0.894298490128517
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6022171570265562,
+        "Digit2_Phalanx3_L": 0.6941648827877532,
+        "Digit3_Phalanx3_L": 0.762579417001423,
+        "Thumb_Phalanx2_L": 0.5236453597298913
+      }
+    },
+    {
+      "frame": 47,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.0424294369303728,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.04629549881490342,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.16211717173158063,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -0.0768854994972825,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -16.173017617348876,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.853947408708508,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -27.665241538266397,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.535304942233459,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.31803452709191815,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -52.9883522269143,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -23.046832394852018
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.027120217698284328,
+        "Digit2_Phalanx3_L": 0.2980269152359282,
+        "Digit3_Phalanx3_L": 0.5104841810493067,
+        "Thumb_Phalanx2_L": 0.8551611543288586
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6166661692361716,
+        "Digit2_Phalanx3_L": 0.6798438955564174,
+        "Digit3_Phalanx3_L": 0.8130030175325481,
+        "Thumb_Phalanx2_L": 0.4826179754481566
+      }
+    },
+    {
+      "frame": 48,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.029786076020875,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.013529364775334968,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.45448765015212766,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.3809065147912683,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -17.223199079037894,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.019074295014060924,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -31.0912721896319,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.274358547620923,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.9667256859168074,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -49.74457327496578,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -22.2881720477878
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.046220378435585456,
+        "Digit2_Phalanx3_L": 0.2766580731029532,
+        "Digit3_Phalanx3_L": 0.5739327123977033,
+        "Thumb_Phalanx2_L": 0.8108250565750059
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6242467110689096,
+        "Digit2_Phalanx3_L": 0.664376947340888,
+        "Digit3_Phalanx3_L": 0.8438940808231571,
+        "Thumb_Phalanx2_L": 0.4328082482958851
+      }
+    },
+    {
+      "frame": 49,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -3.6638409731671207,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.005412890551086591,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.01804393423178184,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 1.8435059862625598,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -18.140211634573003,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.06939636621359772,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -33.92230432238804,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.9706293675102059,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.46803570847401,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -46.57617404823363,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -20.896547130611378
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.05794512461158072,
+        "Digit2_Phalanx3_L": 0.2678434522142651,
+        "Digit3_Phalanx3_L": 0.6241400871141871,
+        "Thumb_Phalanx2_L": 0.7626464964890267
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6157789537374412,
+        "Digit2_Phalanx3_L": 0.6696147659631293,
+        "Digit3_Phalanx3_L": 0.8771728206448607,
+        "Thumb_Phalanx2_L": 0.37492977294385155
+      }
+    },
+    {
+      "frame": 50,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -5.704796699980502,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.0013165258540379996,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.007761079127829699,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.251087355565845,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -18.977297409500054,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.552187564495736,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -36.11784218667426,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.6339131161414401,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.826531392965186,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -43.52978863241685,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -18.992948866974547
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.09773667847526053,
+        "Digit2_Phalanx3_L": 0.26455645591298665,
+        "Digit3_Phalanx3_L": 0.660763776116123,
+        "Thumb_Phalanx2_L": 0.7126583047417759
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6227310809372667,
+        "Digit2_Phalanx3_L": 0.6693257384779638,
+        "Digit3_Phalanx3_L": 0.9012954534584205,
+        "Thumb_Phalanx2_L": 0.312715116608784
+      }
+    },
+    {
+      "frame": 51,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -7.901337939764538,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.09152577329642317,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.22577771612995176,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.89886140990864,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -19.543140627228354,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.1694458272564847,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -37.64320703295883,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.2747685527418699,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.0481174053835995,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -40.6067918904378,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -16.73574087403879
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.14502922425685025,
+        "Digit2_Phalanx3_L": 0.25279830444498474,
+        "Digit3_Phalanx3_L": 0.683585745149123,
+        "Thumb_Phalanx2_L": 0.6632994025883773
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6395841493404621,
+        "Digit2_Phalanx3_L": 0.660243316416511,
+        "Digit3_Phalanx3_L": 0.9115489079112992,
+        "Thumb_Phalanx2_L": 0.25008726674911513
+      }
+    },
+    {
+      "frame": 52,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -10.32572871117106,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.09130344683749865,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.17856797963964682,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 9.72119500439132,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -19.503929342818232,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -4.871660945306654,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -38.47199516772537,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0017553584089302304,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.09794137895748,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -37.763302774822456,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -14.172593642480624
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.1856784584756147,
+        "Digit2_Phalanx3_L": 0.23234687365807877,
+        "Digit3_Phalanx3_L": 0.6925127269509056,
+        "Thumb_Phalanx2_L": 0.61499052967702
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6495878001545405,
+        "Digit2_Phalanx3_L": 0.6551019128564647,
+        "Digit3_Phalanx3_L": 0.9190068644909604,
+        "Thumb_Phalanx2_L": 0.19044042191756122
+      }
+    },
+    {
+      "frame": 53,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -12.837126721405419,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.0020774764231638876,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.017438944863365155,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 7.296303399669749,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -13.885015454509666,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -6.345198667762577,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -38.43059216964076,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.10007935803405507,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.6299667049759694,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -34.9685416240428,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -11.3607338801843
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.22000925034980917,
+        "Digit2_Phalanx3_L": 0.20434237442861083,
+        "Digit3_Phalanx3_L": 0.6875951919342337,
+        "Thumb_Phalanx2_L": 0.5689489638692313
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6630955500179859,
+        "Digit2_Phalanx3_L": 0.6452623266984743,
+        "Digit3_Phalanx3_L": 0.9164260400324699,
+        "Thumb_Phalanx2_L": 0.14179413132075472
+      }
+    },
+    {
+      "frame": 54,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -15.10653887226103,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.0005783774855167131,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.0007363793612802526,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.814752950929908,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -8.381553882260963,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.267922022872744,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -37.6688694184328,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.3329277809332033,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.976452224210574,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -32.21549876638354,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -8.356758748055956
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.26384642232732486,
+        "Digit2_Phalanx3_L": 0.168974728642705,
+        "Digit3_Phalanx3_L": 0.6688261927762988,
+        "Thumb_Phalanx2_L": 0.5263903810749153
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.6853172863324767,
+        "Digit2_Phalanx3_L": 0.6272504018546239,
+        "Digit3_Phalanx3_L": 0.903438185141009,
+        "Thumb_Phalanx2_L": 0.12104567219392771
+      }
+    },
+    {
+      "frame": 55,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -17.305136650617055,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.008784619072725139,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.17762968301271928,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.1061222857945205,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -3.686281349260169,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.46446046234328,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -36.22209823844222,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.5459971801621285,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.1891621691194651,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -29.50575627131706,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.210424479149381
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.30584360147055156,
+        "Digit2_Phalanx3_L": 0.12596316570151142,
+        "Digit3_Phalanx3_L": 0.6363371064897558,
+        "Thumb_Phalanx2_L": 0.4887395195983688
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7082354686019237,
+        "Digit2_Phalanx3_L": 0.6177108754678773,
+        "Digit3_Phalanx3_L": 0.8852290609232389,
+        "Thumb_Phalanx2_L": 0.14091161361048452
+      }
+    },
+    {
+      "frame": 56,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -19.52193012726248,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.008252541076144983,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.0232925463406389,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.052298154928975,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.05426263915420152,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.1641297335073,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -34.110376675436775,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.559145371333239,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.00047469716359735707,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -26.86664918606115,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.0030718214030774
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.3387725267726465,
+        "Digit2_Phalanx3_L": 0.07672316840449006,
+        "Digit3_Phalanx3_L": 0.5959937526313038,
+        "Thumb_Phalanx2_L": 0.4575512070006039
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7183959752477719,
+        "Digit2_Phalanx3_L": 0.6082883600548972,
+        "Digit3_Phalanx3_L": 0.8604858155131558,
+        "Thumb_Phalanx2_L": 0.1869337122154239
+      }
+    },
+    {
+      "frame": 57,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -21.519537175270106,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.005282325362913193,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.0027582769820378304,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.3743099666842253,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.5628941657384603,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -4.647247373021903,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -31.364096515673836,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.22351125159777838,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.3931908327021354,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -24.371294067363596,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.026637025327325547
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.3728227873929412,
+        "Digit2_Phalanx3_L": 0.0239492384242805,
+        "Digit3_Phalanx3_L": 0.5529027465422043,
+        "Thumb_Phalanx2_L": 0.4314157905856938
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7333029876647341,
+        "Digit2_Phalanx3_L": 0.5931488863862905,
+        "Digit3_Phalanx3_L": 0.8335213012101583,
+        "Thumb_Phalanx2_L": 0.23909009582527682
+      }
+    },
+    {
+      "frame": 58,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -23.18458617151162,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.00031752366661749596,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.05234905748886663,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.507440267645421,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.7326305166600511,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.0255657584221956,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -28.010501235427547,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0015214240985347263,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.7849212083339417,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -22.329921590019552,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.847117443423622
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.40503084635926795,
+        "Digit2_Phalanx3_L": 0.03410840964618591,
+        "Digit3_Phalanx3_L": 0.4972332444723174,
+        "Thumb_Phalanx2_L": 0.3863463438962598
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.759101744336564,
+        "Digit2_Phalanx3_L": 0.5880652033113881,
+        "Digit3_Phalanx3_L": 0.8010635250632927,
+        "Thumb_Phalanx2_L": 0.26159186187451683
+      }
+    },
+    {
+      "frame": 59,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -24.5895895453061,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.0002993178155883669,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0005003387271986286,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.771812645935082,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.5353213269139043,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0011156685164137455,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -24.103132248884247,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.01486932017097868,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.6126042571469671,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -20.411432836735404,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.9611816202092505
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4270484975899984,
+        "Digit2_Phalanx3_L": 0.07016462231965902,
+        "Digit3_Phalanx3_L": 0.4294813900158514,
+        "Thumb_Phalanx2_L": 0.3447396745970765
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7651874596009123,
+        "Digit2_Phalanx3_L": 0.5907232879864726,
+        "Digit3_Phalanx3_L": 0.7612556908462106,
+        "Thumb_Phalanx2_L": 0.28712971687328154
+      }
+    },
+    {
+      "frame": 60,
+      "phase": "reopen",
+      "relative_signed_twist_deg": {
+        "Palm_Plate_L->Digit1_Phalanx1_L": -25.644017522762464,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.025124788097306623,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 1.0261183141376571e-05,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.1743767736312885,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.0720807593821846,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.5804491584839127,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -19.976861026769665,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 6.317970613752124e-05,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.1669486535312827,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -18.578682413474507,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.961344716927598
+      },
+      "fingertip_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.4445439540864409,
+        "Digit2_Phalanx3_L": 0.06572160295419853,
+        "Digit3_Phalanx3_L": 0.35045417727680184,
+        "Thumb_Phalanx2_L": 0.31164080141475636
+      },
+      "fingertip_radial_aperture_distances_m": {
+        "Digit1_Phalanx3_L": 0.7757123380635055,
+        "Digit2_Phalanx3_L": 0.5877801410106471,
+        "Digit3_Phalanx3_L": 0.717670127025199,
+        "Thumb_Phalanx2_L": 0.31570139109656453
+      }
+    }
+  ],
+  "scenario_a2_pitch_wrist_frames": [
+    {
+      "frame": 1,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 0.0,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": 0.0,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.0,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.0,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.0,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.0,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.0,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Thumb_Phalanx1_L": 0.0,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.0
+      }
+    },
+    {
+      "frame": 2,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 2.5467439276294974,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.3680906647799282,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 2.6709478468581263,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.1244489436534955,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.3137001294126371,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.6617552805150322,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.503194342550698,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.02072265189735154,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.36989673645391835,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.4981883246209607,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.17985328337666345,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -0.19774939936130834,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.1053630755277114
+      }
+    },
+    {
+      "frame": 3,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 6.716230527060951,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.4729737125924944,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 8.247492480669745,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -10.624543438149974,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.1864172158906965,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -1.328195423298153,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.09894333907019753,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.196378016582344,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 1.2912135970952714,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.5288263284496697,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.2944593708582282,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -1.166952173088364,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.6790159718706296
+      }
+    },
+    {
+      "frame": 4,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 11.980238860683505,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.1965560443764174,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.521673628257434,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -7.768174971658289,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.4492420762055872,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -3.93066142518292,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.7104340423907194,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.037165796860373676,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 4.695104178784163,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -5.591646944165128,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.45810771065261846,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -2.3081846984823304,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.1419498933836758
+      }
+    },
+    {
+      "frame": 5,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 18.092337995245323,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.5057832306125435,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.002535943440020696,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.5856626819861828,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.676092761939208,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -6.840907812016039,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.8676989560885032,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.1800532506719508,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.762856856759178,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -10.582221970254034,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.09401205307298018,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -4.116906418429467,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.033358842748247
+      }
+    },
+    {
+      "frame": 6,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 23.09447754639772,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": 0.3116269167480653,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -4.662922566611281,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.6644273799013869,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.405085292000511,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -10.32790309854209,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.8045728625951195,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.7348891409799365,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.234840816837595,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -12.27834421731247,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.9905890776838469,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -6.2152360275182525,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.589318584972381
+      }
+    },
+    {
+      "frame": 7,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.417822008214518,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": 0.5532921341934576,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -8.881890684557273,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.015584406337324485,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.05095060970683337,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -13.211343432680792,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.038740535783171506,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.779258821315458,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.007692597689259,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -13.877050694565353,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.04336242447665993,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -8.929022983084234,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.3999200910800518
+      }
+    },
+    {
+      "frame": 8,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.74569636202944,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": 0.4077776555285697,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -11.789203741307883,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.40440250381856035,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.042076650693246,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -16.175401308076324,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.20444612063019338,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -4.6832895978449995,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 3.1944621623791414,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -10.708632984769869,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.7676973600847018,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -11.651621768944171,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.111846086807779
+      }
+    },
+    {
+      "frame": 9,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.753836746829894,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.027170145364707195,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -13.389398260678023,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.5636789381453546,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -4.261404409769508,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -19.563683228416927,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.8714596316184653,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.421206957935621,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -1.635012700738406,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -7.96466944536038,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.2845072811856477,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -14.74486027361256,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.713999829399805
+      }
+    },
+    {
+      "frame": 10,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.787969839245076,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.6574455896947042,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -14.898568041728929,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.9058058237378335,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -6.204471535791545,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -23.091183767736542,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.236145553719951,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.1857931795779217,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -6.135178617124043,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -5.539166719916605,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.155831009632897,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -18.05007474499005,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.2229270449926135
+      }
+    },
+    {
+      "frame": 11,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.79070023764856,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.075600209342141,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -14.65678625874891,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -8.169624663069166,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -8.33139887560194,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -27.300178049541877,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.6612222899519488,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.9414760523580538,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -10.15556708239234,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -3.7875818295139227,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.813402485298525,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -21.460427236994192,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.5785980679675395
+      }
+    },
+    {
+      "frame": 12,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.776777708003863,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.2684501453782426,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -14.878367416677023,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -11.308153211132703,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -10.963074889532688,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -31.173341416408288,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.027051716635588304,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.059260545434647725,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -13.112785602408158,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -2.633202665904198,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.533931361598787,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -25.06527221397705,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.674742500008762
+      }
+    },
+    {
+      "frame": 13,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.799375997712122,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.5457031970716761,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -15.381021940612573,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -14.942361724215434,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -14.800373179791054,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -34.497205502173905,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.11522824613133685,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.11315532284207333,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -15.41160352942488,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -2.1656366681320525,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.974851754298873,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -28.7049107963074,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.532031021226451
+      }
+    },
+    {
+      "frame": 14,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.780159358015926,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.7727929199167702,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -13.71622393307951,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -19.18143338207046,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -19.43309012399286,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -37.2213978684013,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.21717994771748297,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.36029068700840483,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -16.983761063028442,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.1240206318477706,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.488006909610589,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -32.39304205331815,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.315300863537064
+      }
+    },
+    {
+      "frame": 15,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.807307336927607,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.9552324936382393,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -12.59667504969182,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -23.265220854368657,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -23.3590261112248,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -39.24837648758742,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.741483988176074,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.9245327398042009,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.097506538235802,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.7573239221075105,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.637691636399304,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -36.058133026495334,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.077764798856077
+      }
+    },
+    {
+      "frame": 16,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.787129799252124,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.168107208169147,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -11.653893261906473,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -27.43983260165055,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -27.253526061692686,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -40.99294151696723,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.9414943878810026,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.2656419632844553,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.651621193749115,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.6966865986275598,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.401794882177556,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -39.66555771686761,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.825174280976973
+      }
+    },
+    {
+      "frame": 17,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.804102130331422,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.2770675837519754,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -9.206715882185998,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -30.708487949442265,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -31.11103424774374,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -42.28041857655905,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.085560401142581,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.3105846517188462,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.7721730316633,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.3920938361959234,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.196583482648039,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -43.165046975680376,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.568457259483585
+      }
+    },
+    {
+      "frame": 18,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.803074144836867,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.494688137799885,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -7.402280374410386,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -33.472946681444796,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -34.54642618661255,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -42.85110499896343,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.1798917385825458,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.3312508772871179,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.641343119108445,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.003456085346265134,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.166580334437683,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -46.513028474916034,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.319708020851436
+      }
+    },
+    {
+      "frame": 19,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.792412867089244,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.606809584651148,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -6.569351868912238,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -36.313504757238015,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -37.17011943919322,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -42.77810700302153,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.2359554997491446,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.2718316101438985,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.10593303637317,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.031900394588910634,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.686671070265971,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -49.66950035210243,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.095389304981998
+      }
+    },
+    {
+      "frame": 20,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.816233033367162,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.765859406768219,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -3.917718507242205,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -36.90350268268673,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -40.50719401485278,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -42.04353156142687,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.310554892943178,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.0617100426910993,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -17.364013346925248,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.06432329716476527,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.299588440348118,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -52.594921983760976,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.909513194715754
+      }
+    },
+    {
+      "frame": 21,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.790555631558366,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.877429587833596,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.100404844922185,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -37.38085993623198,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -43.00593881391846,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -40.81719661080326,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.1177719071849976,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.0323013706142812,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -16.395663477086504,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.0028686873350003616,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.991404118347578,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -55.25528859091713,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.7520469910618375
+      }
+    },
+    {
+      "frame": 22,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.821252972967972,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.961007795735721,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -0.7183609070083101,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -37.62332900022012,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -44.81466413391753,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -39.16043642025485,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.6256699413973252,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.0198506624975556,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -15.200645894135342,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.00046615899381382555,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.644468872059007,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -57.613887368236625,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.6074706506032017
+      }
+    },
+    {
+      "frame": 23,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.795562935396536,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.1170101558885057,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 1.3890849814047725,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -36.38611734374877,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -46.33128043516253,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -37.17719319357137,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.1356059630232014,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.7945929815669347,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -13.79995429135465,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.02269842734587585,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.3057437904078895,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -59.643648090774256,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.4806290473628803
+      }
+    },
+    {
+      "frame": 24,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.821327588732697,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.1220611476790285,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.1136998461607885,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -35.07488778431754,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -47.10224501717437,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -34.60215266355104,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.0052643551855899055,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.2458562559906293,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -12.227695602328902,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.03409203421264387,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -3.0080884135522243,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -61.31947748620016,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.3736623958733847
+      }
+    },
+    {
+      "frame": 25,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.80270607089293,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.2706009930562616,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.169712309565346,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -33.56425107821801,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -46.692197434179896,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -31.554488269581388,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.001522839383986055,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.011559163467999142,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -10.515200442010556,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.03134629797991078,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.7415083996049097,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -62.62203160028007,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.2896928875897817
+      }
+    },
+    {
+      "frame": 26,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.807208812134864,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.309443619483919,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.196997346900544,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -30.24149300894953,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -46.94740624072453,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -28.062027101601778,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.013610515258390707,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0726510205862185,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -8.687398224132258,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.015227054590861782,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.5242780740983184,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -63.53627091050118,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.2303293307033956
+      }
+    },
+    {
+      "frame": 27,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.820569493495196,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.457540793682581,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 7.703486752840879,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -27.158061401498426,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -46.26750290675053,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -24.303717338984804,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.00460755735834235,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.03459427971494876,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -6.77271893708786,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.002752993353737055,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.3520614378077807,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -64.05197231450478,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.1979500724331453
+      }
+    },
+    {
+      "frame": 28,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.80296983635123,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.473331474321353,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.071588331482,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -23.991235064303382,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -44.78194602383249,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -20.400267537454546,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.008053959846834624,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.2591538888268806,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -4.793978337379963,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.00450408365755714,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.176208114180684,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -64.17457633895401,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.1992902560027394
+      }
+    },
+    {
+      "frame": 29,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82644462029729,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.5644590893702097,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.102042771079839,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -18.40930933625174,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -42.88914078045299,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -16.479848528895786,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.026851426256612982,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.09801486772653985,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -2.795108956528128,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.00618900509678359,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.0527968766300377,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -64.0291665298087,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.2073971772475396
+      }
+    },
+    {
+      "frame": 30,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.800317815986496,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.647348197547392,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.726481181103092,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -11.110068048220088,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -40.37957536367116,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -12.36673634190624,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.008671035668391669,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.04145465028298637,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -0.8122511780943334,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0003951908655886883,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.9741912961987333,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -63.69236769423573,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.2207766085501106
+      }
+    },
+    {
+      "frame": 31,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82714649460882,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.689164202677581,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.869034863424875,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.026856923527139,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -37.158696056203624,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -8.55582914744235,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.008695388392559665,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.15140491468150669,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 1.1201221248413462,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.04021521371276394,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.923029323248012,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -63.18291097322441,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.248299050137649
+      }
+    },
+    {
+      "frame": 32,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.81295120026898,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.8452802926455107,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.871144822780305,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 1.059372828500218,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -32.94880025796877,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -4.935363219112705,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.012559717866290418,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.13730602657849467,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 2.959550109554684,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.05478782174058385,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.8684118215415608,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -62.50171526402893,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.2865118267748854
+      }
+    },
+    {
+      "frame": 33,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.813504952504147,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.8758308395894483,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 5.830296592062201,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.9324189311576256,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -23.04044986783751,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -1.5236840419030107,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.0014296568704083876,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.07071808693864688,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 4.745601017905127,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0423759339552284,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.6397530736300778,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -61.65864165342785,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.335418361771018
+      }
+    },
+    {
+      "frame": 34,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.8310032937955,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.96964986376625,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 8.474358357274843,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.472378192857546,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -12.5996274837641,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 1.3196309717527,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.016436647896094034,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.011841252765532996,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.427667412397991,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.20378175959555472,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.6603209417370632,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -60.66430681661844,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.3932360446306635
+      }
+    },
+    {
+      "frame": 35,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.806586602897422,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.055286917103026,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 8.342760101389615,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.8817470744613845,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.5209292404951644,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.65978589152512,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.021627343613487934,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.08011299576291177,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.186339048555029,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.2938379100306501,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.6547414030585168,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -59.53006503027747,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.4592334406997605
+      }
+    },
+    {
+      "frame": 36,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.83074934810558,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.064261910261924,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 5.227795523002343,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.6268766067043664,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.10364660811833228,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 5.408791766057818,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.07726072466871484,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.00882831655411246,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.291676651144671,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.3587346428911723,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.651045527615526,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -58.27079586514422,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.531893355264515
+      }
+    },
+    {
+      "frame": 37,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.823259469064652,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.186995721269061,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.6496597532757304,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.758893985236882,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.3296217684460305,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.175329571582108,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.011138556609411493,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.003406855046852375,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.031339030096317,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.6923712944396614,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.07221721956140914,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -56.90135210517625,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.610046831925339
+      }
+    },
+    {
+      "frame": 38,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.810715960870027,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.231917923426512,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 7.0201330994251645,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.2795380519280166,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.3880321128244373,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 5.78521789710402,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.00500652827522737,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.09879153439762343,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.198258041624286,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.33137894073646934,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.5248546383236214,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -55.43921380210888,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.6921859646353106
+      }
+    },
+    {
+      "frame": 39,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.836830431260104,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.26746662267564,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.751491070728184,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -8.136722746879755,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.23186885324295,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.577408201281999,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.01067341749000808,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.02366040321014047,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.550548159263355,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.18252614909001086,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.777025848622823,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -53.9023490825788,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.776951990485874
+      }
+    },
+    {
+      "frame": 40,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.81488798359597,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.35649085642936,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 7.426350907900193,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -7.5057897606001225,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.9444251567121486,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 2.692175593583009,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.01865301254869667,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.12663602538573912,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.083277914580482,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.04919509033067909,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -10.174778054423037,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -52.310172711252704,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.8628711650124
+      }
+    },
+    {
+      "frame": 41,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.81766456314907,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.353563683308407,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.733771776511463,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -6.544076004959614,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.539328912617866,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.18409757776149316,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.011067075478646497,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.10111310442768245,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.929914943818237,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.11983829236089219,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -14.382914854389854,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -50.682655725588134,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.9485825177787373
+      }
+    },
+    {
+      "frame": 42,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.8397808984497,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.313747617425809,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 2.342431671017147,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -5.604743476759869,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.09857032679255462,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -2.8454192321235046,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.005118122561485117,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.05852286531428199,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.906293781360119,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.36961792727929116,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -18.295083868076976,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -49.04040445506227,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.032751962742258
+      }
+    },
+    {
+      "frame": 43,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.805010080088998,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.35617151261806,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.2945207401790162,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.7675515523135,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.35858529006243905,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -6.369510608605057,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.016489570749284154,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.016149412138119466,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.934855250962556,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.5673632535571199,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -21.757618555938443,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -47.40419043233443,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.114165012823489
+      }
+    },
+    {
+      "frame": 44,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.840258420702433,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.206540873361943,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.2301058701096355,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.125979734452728,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.6307261637472142,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -10.1115415659581,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.008414867840131367,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.01496741225682452,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.811645940066903,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.6906703352178375,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -24.683436894767294,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -45.79485413045868,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.191727156261794
+      }
+    },
+    {
+      "frame": 45,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.814062630588463,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.263958065642065,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.2231651134899804,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.595606022323185,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.5531167066748918,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -14.080091687479449,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.008217583662164643,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.0012640507823426011,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.689586523392808,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.7471767272578348,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -27.033837579019668,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -44.23283582328874,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.264463767695144
+      }
+    },
+    {
+      "frame": 46,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82560679791141,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.251984552310188,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.7491512856578844,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.228386474604137,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.28414524174987277,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -18.106752516652996,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.015179841229040503,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.006275148992141499,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.548787136771768,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8228773808721298,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -28.763555352093793,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -42.738031253840234,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.331565779978153
+      }
+    },
+    {
+      "frame": 47,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.832276620964205,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.324610058263706,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.868903949908043,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -3.0241501401995423,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.09785892073993417,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -22.03499154938517,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.014481247165160038,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.012489681912494192,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.412735698387868,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8639797355998,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -29.851224971314778,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -41.3294644930857,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.39238914372256
+      }
+    },
+    {
+      "frame": 48,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.813790816028035,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.366858749658295,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.6535413194548476,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.960609361041005,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.03357033883857223,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -25.80436778148666,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.016154709751752382,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.06203699483142004,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.289804977338675,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8552103760592802,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -30.258552828531137,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -40.02502420712645,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.446429016518289
+      }
+    },
+    {
+      "frame": 49,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.826424825830763,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.352988534151248,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.224247195246319,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.86878448245345,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.05066295966112563,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -29.27464893101093,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.008540188603670878,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.09487135628044134,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.1624700254672575,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.8047317258256851,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -30.18495470658648,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -38.84125607250334,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.493299300772292
+      }
+    },
+    {
+      "frame": 50,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82574437138199,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.347080772847757,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.7236352833013204,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.6175118353384157,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.05066250545332831,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -32.304304436004585,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.010076823767624721,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.14168206176687242,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.050913787255584,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.5900314871946233,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -29.911458782277446,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -37.79308167083423,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.532728915700166
+      }
+    },
+    {
+      "frame": 51,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82371029493602,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.349384809997216,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.1712395707693606,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.1996832143378424,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.05066419286395772,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -34.84961067480143,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.0042353347451894365,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.18787128755235533,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.065069735600075,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.4548738270087576,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -29.351286671487816,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -36.893707793819175,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.5645299770924215
+      }
+    },
+    {
+      "frame": 52,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.823248306643993,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.351473885468565,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -0.6343571226700628,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.546459180178262,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.050663586163059625,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -36.829035095887775,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.017903646250962826,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.19121464945107403,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.1180229165562325,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.3198675337832194,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -28.584383737723943,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -36.154347110349626,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.588526189575478
+      }
+    },
+    {
+      "frame": 53,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82388759194471,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.351323296419745,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -0.17427254438170206,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.6217947726060937,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.050663573226396204,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -38.20345697799826,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.0590521335381847,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.1615852415403452,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.146298223221876,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.17685754859419356,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -27.53070722349136,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -35.58416574386074,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.604423935508314
+      }
+    },
+    {
+      "frame": 54,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82502342360805,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.350480071019422,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.2134517091750833,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.3496885159325175,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.05066373663591081,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -38.94462527748887,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.07458391300121464,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.15039741031302192,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.187054821583382,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.06484283879486318,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -26.121399008281188,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -35.19005615309263,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.6112928424821
+      }
+    },
+    {
+      "frame": 55,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82540625166569,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.349876474202462,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 1.0757801147122432,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.4142590078265,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0506635760992216,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -39.03548671950059,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.1006123053965774,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.1323417668984578,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.229317929122855,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.04310788875199462,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -24.584445330446673,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -34.976319578080165,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.597633961010578
+      }
+    },
+    {
+      "frame": 56,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.825647271058028,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.350362309770059,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 2.0350657338348674,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.39066926982193606,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.519289140985354,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -38.47972146366597,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.117284942151735,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.12228431543128838,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.305238520764305,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.06481892544685403,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -22.746810142685128,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -34.91978107166883,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.568948905516999
+      }
+    },
+    {
+      "frame": 57,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.826207075111682,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.349996519608694,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 2.903129328716553,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.4000529824189254,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.067668052994597,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -37.30198857867618,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.095716826661903,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.13723560781780478,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.393047204312339,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.06690939527254582,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -20.714874567490362,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -34.95055968329562,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.579326692284748
+      }
+    },
+    {
+      "frame": 58,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82705151446167,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.3493648038668065,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.687277152205031,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.40951154647065535,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.293453028683916,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -35.68609248493836,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.02445121810221741,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.16471689525570046,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.467791998481836,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0644116731805444,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -18.598177526850808,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -35.01206165110129,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.6021423850370615
+      }
+    },
+    {
+      "frame": 59,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.826461831401577,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.349825575542354,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.379319080131677,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.4213361678487687,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.3048787863651663,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -33.58994070636186,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.003390006221452513,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.008124510102337666,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.526033405876855,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.06429812533001122,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -16.31035307329493,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -35.087396367539924,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.63115373269712
+      }
+    },
+    {
+      "frame": 60,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.827851225847773,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.349801640527149,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.996187028140321,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.4473750917373082,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.304879447655489,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -31.126148833156325,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.015375401904329187,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0012089426691787443,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.569801072049754,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.06400143495011919,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -14.004494268091298,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -35.1662473871078,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.66124891164159
+      }
+    }
+  ],
+  "scenario_a2_yaw_wrist_frames": [
+    {
+      "frame": 1,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 0.0,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": 0.0,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.0,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.0,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.0,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.0,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.0,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.0,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.0,
+        "Palm_Plate_L->Thumb_Phalanx1_L": 0.0,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": 0.0
+      }
+    },
+    {
+      "frame": 2,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 2.479085965324821,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.4205089792909178,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 0.6670733675185461,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.6635459679809848,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.640540584367504,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.3805808399869153,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -4.426249468638071,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.004779972805246758,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -0.0325066066698073,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.09446998392933682,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.014559883537471298,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -0.2641074586621768,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.2654123272873192
+      }
+    },
+    {
+      "frame": 3,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 6.49044523725517,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.7125542739290962,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.3261565181630335,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.206358333722224,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.03199294504389017,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.373615134781975,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -6.2168105580811615,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.9378811327144552,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.6367112130125347,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.005500803638800521,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.6864441188574208,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -0.854759212349149,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5598569655034342
+      }
+    },
+    {
+      "frame": 4,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 11.577630821822968,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.7453489097963135,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 7.467903671228673,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -6.448270784309306,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.5124267223981488,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 4.841255866385004,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -3.424582164977288,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.6798902125801436,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.013887458121729,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -4.931299543978191,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.5053467971691659,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -2.0258591954855896,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.2489223177465705
+      }
+    },
+    {
+      "frame": 5,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 17.477356340369813,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.2912380257497513,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.94209641713916,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -9.698592702503445,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.016059095106722484,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.03443270667179274,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.03782922204525983,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.454635719471209,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 10.557515257428891,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -11.667435645454416,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -1.9191011389650585,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -3.343392802496826,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.9912434372319756
+      }
+    },
+    {
+      "frame": 6,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 23.077386497252476,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.48499229950500017,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 7.784213535589882,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -7.463230872089852,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.13729930390170034,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -1.576154496981794,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.6062880062118732,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.009730935236306297,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 17.305369713166456,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -18.76875003933691,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.481294225011976,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -5.179836454281667,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.8282900757734817
+      }
+    },
+    {
+      "frame": 7,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.83831657290006,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.20938926921562268,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 5.961716548718944,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -5.876281179077825,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.2506700939296925,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.8983726046193176,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -7.12255480634216,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.18436422686959797,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 16.88605707556048,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -19.70512674249009,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.015070670301301,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -7.490295485821399,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.7829588310415923
+      }
+    },
+    {
+      "frame": 8,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.7540588180921,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.052744824703582695,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 8.373417481424578,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -8.15754347518237,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.020752488107972027,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 1.0998814147849238,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -7.356913961829751,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.5176280217797484,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -14.704196913368952,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 0.36613263691400266,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.1054883666960444,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -10.676753443765834,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.69641059935989
+      }
+    },
+    {
+      "frame": 9,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.77095324829356,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.29250818516821103,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.864858198598667,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -7.074999704417651,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.11085807178505146,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -2.7932546686617727,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -2.1632399804961797,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.885201016691074,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -37.45834463861205,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -2.3490624792986368,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 1.2144817029435975,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -14.729679190242635,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.54928425035355
+      }
+    },
+    {
+      "frame": 10,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.788861165236554,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -0.9291538932759957,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 1.4396193632006127,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.9495581186772721,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.2560726145848724,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -5.491779524766671,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.5444009980984019,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -8.191953752125166,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -56.406941757949625,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -7.528357460158557,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -21.384131117034947,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -18.796322208457482,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -6.219477851211981
+      }
+    },
+    {
+      "frame": 11,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.797479070548412,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.5310364432634578,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.6365107158437984,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.9484934213571027,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.7494394571616276,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -8.369860776062607,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 1.2645543356782107,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.831653784984635,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -75.07426335193844,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -13.141891616187689,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -49.728711581496405,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -23.184628644688654,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -6.5794261456128655
+      }
+    },
+    {
+      "frame": 12,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.80213378440507,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -1.8979919961772636,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -4.679297163301292,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.3847634290622292,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.5611650367728129,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -10.829976510016282,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.1259598326910787,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -5.7159811928873685,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -88.94651675321036,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -20.757535922009954,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 284.01424934081496,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -27.592513026770092,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -6.531425539812033
+      }
+    },
+    {
+      "frame": 13,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.85556358036183,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.081183225673745,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -5.504366323736647,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -2.4340152262127086,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.988704694888362,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -13.732557672360564,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -2.5476978900986467,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.5225937886686367,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -82.31296952802607,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -59.82488128437008,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 276.1823740183486,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -32.06813229234247,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -6.229310990724442
+      }
+    },
+    {
+      "frame": 14,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.77596223002516,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.4548316842609332,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -5.712015361087911,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -4.4444270307598135,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.0383320493214897,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -17.518156636313407,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -3.7346428292854412,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.027383956804760787,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -80.77995523263664,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -87.36073730639747,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 279.93654738290405,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -36.509759198603625,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.802285366146793
+      }
+    },
+    {
+      "frame": 15,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.798475536085878,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.8792588569296984,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -4.602114395652766,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -7.712172243530821,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.5763872845579594,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -21.310807210457703,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.6595745371127997,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.30892905541878646,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -92.57384340543042,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -70.9794555230394,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 273.5823564525469,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -40.80297610867511,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -5.373478594474269
+      }
+    },
+    {
+      "frame": 16,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 23.002814322375503,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -2.945223599304256,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -3.2168435060736686,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -11.078000212121852,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.143030934941282,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -25.51094400765075,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.1619435793374393,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.8097395591780583,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -81.07624799070578,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -78.45147673507869,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 284.12879049722966,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -45.179861649523126,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -4.595107522788812
+      }
+    },
+    {
+      "frame": 17,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.780038765193257,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.600111872950278,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -0.8731676598522212,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -14.6081473993078,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.7313376963237275,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -28.68444620480239,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.5236652178712721,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.4725230409395553,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -73.74949089629315,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -86.67886350851019,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 310.4538212093992,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -49.50849550200748,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.860668818278319
+      }
+    },
+    {
+      "frame": 18,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.701369274481188,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.1848309581230785,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 1.3561703921158446,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -18.027319631613082,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.9671833415030662,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -31.520685028681495,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.5008014734282242,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.43626310740288976,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -61.65151840801096,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -72.89952229590762,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 298.5283497002374,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -53.54933190098582,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -3.367461003494592
+      }
+    },
+    {
+      "frame": 19,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.83005844452062,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.4411059798042825,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.4562273462694972,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -20.7584384534088,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.1706954760208683,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -34.11119400958488,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.7567774091423347,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.213057635865858,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -48.87085662471205,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -54.88928648642956,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 281.08705669277657,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -57.38614437162353,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -2.4287794802403946
+      }
+    },
+    {
+      "frame": 20,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.836172464100265,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.151294390108817,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 5.394808056112908,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -22.84920922787145,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.2331901654418935,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -36.45965110361962,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.8251269306068638,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.1167772128363687,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -32.027406115763306,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -76.27009444811482,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 283.006851469966,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -60.96929370888014,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.8123096195464592
+      }
+    },
+    {
+      "frame": 21,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.846793835416122,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.301421335855673,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.101003862589493,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -23.924514231583476,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.132578473515811,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -35.41306584955526,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -4.3610395664047905,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -1.8954854318587095,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -18.061617514149248,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -54.65860538160374,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -80.79172564630609,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -64.15154779173297,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3057423870288063
+      }
+    },
+    {
+      "frame": 22,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82586578991062,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.296737782308609,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 8.434586311440983,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -25.302477944721534,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.1773797004318705,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -24.91863651417304,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -16.12730881331268,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.572160217547512,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -12.183255729692384,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -58.266683081118956,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -60.06857599788063,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -66.94066210834701,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.9243344398586979
+      }
+    },
+    {
+      "frame": 23,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.81249882064454,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.305600015613548,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.91669585730442,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -25.643413494055007,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.273308998174169,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -15.21434812022954,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -26.95777997282034,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.071904793978918,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -9.22095732637169,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -62.85334674075251,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -34.72899291208576,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -69.27825968469485,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.6665830292246098
+      }
+    },
+    {
+      "frame": 24,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.840610533597008,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.345398454106215,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.666889292281816,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -24.66495409728662,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -2.1359688772875565,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.42693950498877975,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -45.044615254211706,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.0172621673985827,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 0.37411790631823844,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -53.43947493530087,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -33.11742782858707,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -71.17568710666488,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5385755963782739
+      }
+    },
+    {
+      "frame": 25,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.828979764752127,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.260818669030329,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 5.305988976909821,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -18.33087895491796,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.7850365514777662,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 9.747621278883186,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -53.175713681069524,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.9831589015259734,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -2.1431040840932254,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -44.47871232669902,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -33.77051241316356,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -72.59785952625037,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5140476096113309
+      }
+    },
+    {
+      "frame": 26,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.822601132462204,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.325751459157061,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 1.1023864584288006,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -12.507119749645595,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.442107536076021,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 15.127118631732328,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -58.93891289948877,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -3.1650899336967977,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -1.611434042108691,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -38.26402052655286,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -40.673410999913315,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -73.53109760162687,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5158847976294827
+      }
+    },
+    {
+      "frame": 27,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.840285597716328,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.165684541041233,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -2.0011973386874815,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -7.533371153082999,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.0518107755689818,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -4.114640803667713,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -40.18917154726426,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -4.578256878250751,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 4.418671190103486,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -25.607703632536435,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -54.75286017134618,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -73.95488978182742,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.510932103566687
+      }
+    },
+    {
+      "frame": 28,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.842835432204975,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.304070512446743,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -5.990314746345401,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.4737809669633835,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -0.11705751240303099,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -22.914601305443345,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -22.95317128222103,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.098177622546058,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 3.8072963530866004,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -16.796529493288965,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -78.31947842453306,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -73.92290281237979,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5209060285102992
+      }
+    },
+    {
+      "frame": 29,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.801235727285167,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.387181374983885,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -10.350174896679151,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 3.0021629529578315,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.03340320180691193,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -37.65992739314253,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -7.765862991179684,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -7.950664460443949,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 3.360178970956821,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -8.873919795324074,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -80.34553249061813,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -73.57120586776232,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5472546336051484
+      }
+    },
+    {
+      "frame": 30,
+      "phase": "forward",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.84236218714276,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.1726513891038985,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -15.44456358718409,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.9999475174145565,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.1910066927441135,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -48.96275705278359,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 2.5860830067968177,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.42381016783836,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.184746726908302,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -8.520817758861797,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -67.12506477009057,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -72.93562012320079,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.5845980424944431
+      }
+    },
+    {
+      "frame": 31,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.801722773536362,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.0629924154520385,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -17.32301237377797,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -5.004675619054028,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.0643301785877397,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -53.15185330554965,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 1.454297180301827,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -8.991827189445234,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 1.5051428072505435,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -11.221615655766527,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -33.24917879454039,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -72.01448380190821,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.6294654572873455
+      }
+    },
+    {
+      "frame": 32,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.83334141197945,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.997945588340818,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -18.628168164140543,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -12.340016453106589,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -5.1820858611593055,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -54.41085768745287,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -5.78587554185537,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.7551440760304295,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -1.0697634349839942,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -9.685006358364062,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.3925252745693695,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -70.8237250674167,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.6787686072216205
+      }
+    },
+    {
+      "frame": 33,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.80210703119944,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.991564561678158,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -19.392802000037392,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -19.31240232838301,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -9.158882341533957,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -54.892090375072534,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -13.635757522998384,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 0.07417562129716562,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -4.298842875125413,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -1.244714928232708,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.09937173409130225,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -69.37149493023286,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.7250568647634641
+      }
+    },
+    {
+      "frame": 34,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.826796764440648,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.918179302609137,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.458417300459523,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -26.01811381441087,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -12.683126537532972,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -53.97221647330232,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -18.782849986814053,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -2.4410624079733996,
+        "Palm_Plate_L->Digit3_Phalanx1_L": -2.1417822884877507,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.7484436712268611,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -7.669593071657897,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -67.6760796599053,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.7606025545146488
+      }
+    },
+    {
+      "frame": 35,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.814153430065076,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.9967747558316877,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.89167092344971,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -32.07729686126743,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -16.125063232509557,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -53.07062343383214,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -23.327905709703376,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -6.537158657769713,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 3.4208093578663474,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -10.352353586491935,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -10.19682326637014,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -65.75647099509068,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.7928825204220593
+      }
+    },
+    {
+      "frame": 36,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.814602604917365,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.9069956325567277,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.78153362844051,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -37.34982381954041,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -19.3623991886046,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -51.47554653759268,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -27.581606285268613,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -10.704571814568878,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.552844060098762,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -19.636618846365952,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -12.331433167551038,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -63.637345175709676,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.8286616638165852
+      }
+    },
+    {
+      "frame": 37,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.825226087756327,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.9623112810350314,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.911757863355646,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -42.44720606182236,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -22.09541753516379,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -48.76669650515989,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -31.20243000151441,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -14.526253209610518,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 10.102678424253941,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -25.097755782519137,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -14.184459557894584,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -61.342777260171424,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.8662625244649588
+      }
+    },
+    {
+      "frame": 38,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.8023215310581,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.9384900266606544,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -20.36240519029461,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -46.74386830241501,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -24.890011191325762,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -46.46733038644236,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -34.1146821425433,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -18.57924317367836,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 10.13579870989033,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -27.926148091883345,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -15.806859370581194,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -58.90003996155647,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.905606332065332
+      }
+    },
+    {
+      "frame": 39,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.831446574249927,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.9363890087397255,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -19.09589994149735,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -50.04431019526915,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -27.65241149430365,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -43.60088510338406,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -36.36529799549715,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -22.55765903461179,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 10.140965252116933,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -30.87720917514378,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -16.966694399412734,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -56.3386777200386,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.9456405314875252
+      }
+    },
+    {
+      "frame": 40,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.806641449977157,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -4.013274186659203,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -18.28391827940276,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -53.59662103827112,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -29.647693984837193,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -39.66759020034823,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -37.798680419689354,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -26.063216635366327,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.946578471021514,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -33.09181308169382,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -17.784057831365097,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -53.68959547498917,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -0.9858485186574306
+      }
+    },
+    {
+      "frame": 41,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.825045334225543,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.890255438888412,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -16.284935784097332,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -55.40406447589995,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -32.21536406547741,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -36.71351635106267,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -38.51255396760739,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -29.67384260188096,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.586494680965096,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -34.222354038096775,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -18.269851689481193,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -50.98558551509706,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.0254297625926903
+      }
+    },
+    {
+      "frame": 42,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.8116109639797,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.931238671729025,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -13.889169757989952,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -56.685721098576174,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -34.73326564012096,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -33.2281348174121,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -38.57094511605851,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -33.01627099415049,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.899810528206476,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -34.90862859719779,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -18.32542921077969,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -48.260003189848184,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.063805462339434
+      }
+    },
+    {
+      "frame": 43,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.810203409341895,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.8767218589685704,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -11.8709778295817,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -57.64512092639851,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -36.35559273889327,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -29.204789372644683,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -37.80861919805967,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -35.753563220164345,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.201545950818458,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -34.88925017799461,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -18.325398514384055,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -45.54702895715559,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.1003568884440786
+      }
+    },
+    {
+      "frame": 44,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.830893529483372,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.9331499841026125,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -8.40820649288611,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -57.45542463027294,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -39.17886106744908,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -25.98305622677513,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -36.729711441913025,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -38.026447391245775,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.735044951421727,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -34.384019273812704,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -18.20567386828447,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -42.88061776818152,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.134624239605598
+      }
+    },
+    {
+      "frame": 45,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.798366389915866,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.8322678241506782,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -5.479893064791708,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -56.8538575305481,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -40.806123961301424,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -21.74337021094582,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -34.91244991132627,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -39.633074594469385,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.240869292569811,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -33.71942568869114,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -17.863315113443765,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -40.2943719490371,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.1661911259956954
+      }
+    },
+    {
+      "frame": 46,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82962359556837,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.805410623376641,
+        "Palm_Plate_L->Digit1_Phalanx1_L": -1.7175745576943833,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -55.631209069760175,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -42.882852834831986,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -18.327731122651564,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -32.73400349729343,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -40.535166658106384,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.92635524555187,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -32.76664525385848,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -17.376959408687885,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -37.820820765782514,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.1947942288578834
+      }
+    },
+    {
+      "frame": 47,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.801594880711637,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.83589392871215,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 2.211558449088724,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -53.65910614513204,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -44.45109338870357,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -14.776979339865896,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -30.01475340549274,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -40.53225096723572,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.816491345917596,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -31.538887489022635,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -16.74098090009414,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -35.49100056216391,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.2202371187557275
+      }
+    },
+    {
+      "frame": 48,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.826985374755655,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.793706596027854,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.356810334384973,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -50.99276542793463,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -45.49580126821121,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -11.105818591770241,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -26.544463733062877,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -39.979233084735974,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.765317572940131,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -30.145621993903244,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -15.920800038023776,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -33.3340740275457,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.242466581857749
+      }
+    },
+    {
+      "frame": 49,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.812369928032037,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.867104579991861,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 9.666071410441358,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -46.71905790513538,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -46.40621162714884,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -8.169023702318848,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -22.731113000320896,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -38.48815235962644,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.800556050040703,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -28.45698932296095,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -14.968896814370465,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -31.37683079109738,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.261466740832189
+      }
+    },
+    {
+      "frame": 50,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.807267890760773,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.747742187378627,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 7.470174700889442,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -36.80208251397252,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -46.205442069905956,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -4.8594518536118025,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -18.29605265344649,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -36.46571294736929,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 6.961893370847311,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -26.392436341422187,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -13.967347695647069,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -29.643444791766456,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.2773416373318847
+      }
+    },
+    {
+      "frame": 51,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.822577867785053,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.7830128238912675,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 5.97607772747151,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -26.53582263602523,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -45.89695717935535,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -2.2767137053490822,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -13.71364416696563,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -33.54573208103074,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.053446826249139,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -24.151231303279516,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -12.803935541933907,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -28.1551201057438,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.2902032585145513
+      }
+    },
+    {
+      "frame": 52,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.80157206922247,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.816304338956969,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.5021030038714525,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -16.58033162572643,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -44.53134772248157,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 0.05754854143017783,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -8.519915058839352,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -29.846391004558107,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.221064954850332,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -21.64878687624626,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -11.53062751459868,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -26.929869541136192,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3002123159857775
+      }
+    },
+    {
+      "frame": 53,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82980719251428,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.800337687352191,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.781153221132329,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -6.570982093252031,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -42.81849655038047,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 1.6921585901470786,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -3.0560782593540696,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -25.172876007871665,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.379694120444717,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -19.02537092434601,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -10.142605002720066,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -25.982355257236794,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.307522634027091
+      }
+    },
+    {
+      "frame": 54,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.807881324673318,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.8714309750693783,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.8439277913900636,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 1.169156645766883,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -39.975806739265266,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.035051810734486,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.7282756684860103,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -18.712260597377973,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.528590990606518,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -15.968074690787564,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -8.768987749312267,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -25.32372596907829,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3122745242826117
+      }
+    },
+    {
+      "frame": 55,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.81656993072766,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.7446695515509205,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 8.314729818285986,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.1310402106222808,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -29.289652609737313,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 5.386970578588714,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.1454954406301792,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -6.175858962965792,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 7.777901362787294,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -12.979636754077402,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -7.405541387264482,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -24.961758894726294,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3145610919322552
+      }
+    },
+    {
+      "frame": 56,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.815665592332742,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.7850204260675087,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.958448627595393,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.19354540944394705,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -17.298630806357174,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.24669955530475,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.646532779169044,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": 2.77952282609455,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 8.338915668675433,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -10.402359513816782,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -5.538195541075442,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -24.884112749438,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3049939874597902
+      }
+    },
+    {
+      "frame": 57,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.803752064699598,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.7751094260708262,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.592037885766796,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -0.3153209022087193,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -1.4781644739983197,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 6.41160699013524,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.12439400569924113,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -0.011991485706109587,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 9.654168906847499,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -9.152756744453749,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -4.125150481067853,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -24.984348227088553,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.336733093100588
+      }
+    },
+    {
+      "frame": 58,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.83282751986449,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.809889832877118,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 3.200871526090602,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": 0.10769213607944782,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": 0.2583493521204636,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 7.295120555847023,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -1.0225206428844824,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -4.256513874618672,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.192402931926915,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": -0.9660740389869437,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -2.113542066629623,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -25.180565463312334,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3689290084391426
+      }
+    },
+    {
+      "frame": 59,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.79959822347311,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.820639290386945,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 4.391626298046826,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -1.2031495353560253,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -3.9646563132801096,
+        "Palm_Plate_L->Digit2_Phalanx1_L": 3.833075599692519,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": -0.06177073125644691,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -6.557272827853958,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 3.2926493995404256,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 2.9008921382916606,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": 0.8813411754110427,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -25.455301556058604,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3654662898289378
+      }
+    },
+    {
+      "frame": 60,
+      "phase": "reverse",
+      "signed_twist_deg": {
+        "Palm_Plate_L->Gimbal_Yoke_Outer_L": 22.82736635142007,
+        "Gimbal_Yoke_Outer_L->Gimbal_Yoke_Inner_L": -3.763705509445801,
+        "Palm_Plate_L->Digit1_Phalanx1_L": 6.227345068531614,
+        "Digit1_Phalanx1_L->Digit1_Phalanx2_L": -5.517189493109204,
+        "Digit1_Phalanx2_L->Digit1_Phalanx3_L": -7.926693534687732,
+        "Palm_Plate_L->Digit2_Phalanx1_L": -2.8877723885528432,
+        "Digit2_Phalanx1_L->Digit2_Phalanx2_L": 0.02705409239591329,
+        "Digit2_Phalanx2_L->Digit2_Phalanx3_L": -4.588284528227475,
+        "Palm_Plate_L->Digit3_Phalanx1_L": 5.862790974716416,
+        "Digit3_Phalanx1_L->Digit3_Phalanx2_L": 1.8132223004949797,
+        "Digit3_Phalanx2_L->Digit3_Phalanx3_L": -0.21324674411598893,
+        "Palm_Plate_L->Thumb_Phalanx1_L": -25.809176716146602,
+        "Thumb_Phalanx1_L->Thumb_Phalanx2_L": -1.3618429826441554
+      }
+    }
+  ]
+}

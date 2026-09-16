@@ -1,0 +1,143 @@
+{
+  "gate": "VAREK_CANDIDATE_CLEARANCE_CHECK",
+  "candidate": "/home/aaron/animation/thulans-production/blender/candidates/varek-v37-helmet-final.blend",
+  "candidate_sha256": "e2a8b39df7862caad2bf90f017ca3c014789db8ed97382d93ead9f76dabda176",
+  "poses": {
+    "neutral": {
+      "frame": 1,
+      "foot_grounding": {
+        "foot_l": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        },
+        "foot_r": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        }
+      },
+      "views": {
+        "Cam_ThreeQuarter": {
+          "file": "f001-neutral-threequarter.png",
+          "sha256": "8698c17634eecb89bfdea2cef456f539a937eee1bb09bb11e305c61f86f9a868"
+        }
+      }
+    },
+    "a-pose": {
+      "frame": 20,
+      "foot_grounding": {
+        "foot_l": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        },
+        "foot_r": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        }
+      },
+      "views": {
+        "Cam_Front": {
+          "file": "f020-a-pose-front.png",
+          "sha256": "73f86e5bd522d67c0d923a8f251705a9b8b17e8650a71c313280677d4fea1856"
+        },
+        "Cam_ThreeQuarter": {
+          "file": "f020-a-pose-threequarter.png",
+          "sha256": "08b1d29f1fd4ebbe3065280cf277227d621d02e05d87a517fc21b730f4c85b45"
+        }
+      }
+    },
+    "asymmetric-stride": {
+      "frame": 40,
+      "foot_grounding": {
+        "foot_l": {
+          "assembly_min_z_m": 0.007322,
+          "floor_top_z_m": 0.0,
+          "clearance_m": 0.007322,
+          "state": "CLEAR"
+        },
+        "foot_r": {
+          "assembly_min_z_m": 0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": 0.0,
+          "state": "GROUNDED"
+        }
+      },
+      "views": {
+        "Cam_ThreeQuarter": {
+          "file": "f040-asymmetric-stride-threequarter.png",
+          "sha256": "e62f052d3dbff61cb315141739b31d65d81b7d038b1f26f43bd599e38c1060b5"
+        },
+        "Cam_CharacterRight": {
+          "file": "f040-asymmetric-stride-characterright.png",
+          "sha256": "3fdb62d774fd8b78f1c44a54d51469d8284b86cc9767d57f9119ea8ea929954d"
+        }
+      }
+    },
+    "overhead-brace": {
+      "frame": 60,
+      "foot_grounding": {
+        "foot_l": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        },
+        "foot_r": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        }
+      },
+      "views": {
+        "Cam_Front": {
+          "file": "f060-overhead-brace-front.png",
+          "sha256": "3f361e32786e43b96d96b4d03b0bc66a9562305106c629d95d221745bf70ab73"
+        },
+        "Cam_ThreeQuarter": {
+          "file": "f060-overhead-brace-threequarter.png",
+          "sha256": "7fbacaba212d7287fe7bd7f71ba057f305d6b046a466c7336fb8d07ca589fb2b"
+        },
+        "Cam_CharacterRight": {
+          "file": "f060-overhead-brace-characterright.png",
+          "sha256": "47f269d60aa038f07aabc8f02da2a3998810fdc17e0d5650a037e3e0b08a28a3"
+        }
+      }
+    },
+    "anchor-state": {
+      "frame": 80,
+      "foot_grounding": {
+        "foot_l": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        },
+        "foot_r": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "GROUNDED"
+        }
+      },
+      "views": {
+        "Cam_ThreeQuarter": {
+          "file": "f080-anchor-state-threequarter.png",
+          "sha256": "2d1225c3cdc70c2b9e50f5ffc040e580fc48f6b1af07a6cfa76b1623ce648393"
+        },
+        "Cam_Front": {
+          "file": "f080-anchor-state-front.png",
+          "sha256": "2c62b31b40a9ff7e97366df22bf5d91fbca32f3aa9c8a79698745103714d6d2c"
+        }
+      }
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V2B_CLEARANCE_AND_LOAD_POSES",
+  "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40",
+  "candidate_unchanged_after_render": true,
+  "contact_rule": "Touching or seating at a designed interface is permitted; impossible interpenetration, detached continuity, or lost required support fails.",
+  "ground_contact_tolerance_m": 0.001,
+  "human_motion_gate": "PENDING",
+  "poses": {
+    "neutral": {
+      "frame": 1,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f001-neutral-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "155b0f74e349e7f1f52061cfb8499abbc3c2a9aac1d32cb50b1088f8aee65ae3",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        }
+      }
+    },
+    "a-pose": {
+      "frame": 20,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f020-a-pose-front.png": {
+          "camera": "Cam_Front",
+          "sha256": "aaa53f29c2feef007d3607964ff829834f3f152b9a4f364cc37e0b5a43beded2",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        },
+        "f020-a-pose-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "78605ebc2a1fafc30f89135feac20809506eabffa9b6c9638f73bddfaf15b080",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        }
+      }
+    },
+    "asymmetric-stride": {
+      "frame": 40,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": 0.007322,
+          "floor_top_z_m": 0.0,
+          "clearance_m": 0.007322,
+          "state": "FLOATING"
+        },
+        "R": {
+          "assembly_min_z_m": 0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": 0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f040-asymmetric-stride-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "460a87fc502ed28103f3a831960959efa687d9cc2434fd3cdca73fb974b43209",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        },
+        "f040-asymmetric-stride-characterright.png": {
+          "camera": "Cam_CharacterRight",
+          "sha256": "c1ce48d264f0c0f3b643066c63ef2181c16b41d79eff68c8fda8ed0bc1c614cd",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        }
+      }
+    },
+    "overhead-brace": {
+      "frame": 60,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f060-overhead-brace-front.png": {
+          "camera": "Cam_Front",
+          "sha256": "9b1495c401d1fe0e5f6f784f9697e4838e72689e5b67897859b939ee34336096",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        },
+        "f060-overhead-brace-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "884985a5be23c896ab35caaf47819e56569d884c34f9efa99fa84d30feda3f06",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        },
+        "f060-overhead-brace-characterright.png": {
+          "camera": "Cam_CharacterRight",
+          "sha256": "c81ff42bdf03c6b0d23fc237e6b04f12982b004dc05cc52da08a97c74d865e57",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        }
+      }
+    },
+    "anchor-state": {
+      "frame": 80,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f080-anchor-state-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "cf1bbdd5a0c703359f8749898a6472ac42defaf911e33c7a309d0e7e3a3449d5",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        },
+        "f080-anchor-state-front.png": {
+          "camera": "Cam_Front",
+          "sha256": "4c9c3fde1a525a4c4926881519e5cd875cb9debaf55729770d1e3012895376fc",
+          "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40"
+        }
+      }
+    }
+  }
+}

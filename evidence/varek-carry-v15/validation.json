@@ -1,0 +1,10 @@
+{
+  "candidate": "/home/aaron/animation/thulans-production/blender/candidates/varek-carry-v15.blend",
+  "candidate_sha256": "538940d83aefd01dc527ea908a99d16efc55a920dd18f9fec1b9c8be4b18942b",
+  "validated_utc": "2026-09-10T04:59:47.227269+00:00",
+  "sweep_frames": 240,
+  "crossing_frames": 109,
+  "boundary_edges": 0,
+  "non_manifold_edges": 0,
+  "status": "FAIL"
+}

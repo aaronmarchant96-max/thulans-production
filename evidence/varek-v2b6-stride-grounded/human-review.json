@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V2B_ASYMMETRIC_STRIDE",
+  "decision": "APPROVED",
+  "approver": "Aaron",
+  "candidate_sha256": "cd7426ede743371d0fd9e14e264177858eb1f6a8bf42ef7189560162fb9e2cc0",
+  "resolved_finding": "asymmetric-stride.foot-floor-penetration",
+  "checks": {
+    "arm_yoke_continuity": "PASS",
+    "pelvis_thigh_coherence": "PASS",
+    "knee_shin_coherence": "PASS",
+    "foot_floor_grounding": "PASS",
+    "unacceptable_collision_visible": false,
+    "v2a1_geometry_changed": false,
+    "pose_result": "PASS"
+  }
+}

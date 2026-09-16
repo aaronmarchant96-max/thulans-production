@@ -1,0 +1,12 @@
+{
+  "candidate_sha256": "78737cc9e08c4372b9a2b84ad1c9b0d9a895a9d35d988d8f6426c43b783b5876",
+  "frame": 36,
+  "surface_triangle_crossings": {
+    "Maul shaft": 232,
+    "Maul grip": 231,
+    "Maul upper grip rib.002": 48,
+    "Maul upper grip rib.003": 64,
+    "Maul upper grip rib.004": 72
+  },
+  "scope": "donor hand versus tool meshes; contact tolerance not classified"
+}

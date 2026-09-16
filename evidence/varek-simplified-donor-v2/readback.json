@@ -1,0 +1,30 @@
+{
+  "claim_class": "OBSERVED",
+  "scope": "STATIC_SCENE_STRUCTURE_ONLY",
+  "candidate_sha256": "751985a4a5b9fc21fc2a5edb386b9b8001901af0f16f15b445b8ed085bc49c88",
+  "height_m": 2.4384000301361084,
+  "floor_z": 0.0,
+  "donor_objects": [
+    "Donor upper arm L",
+    "Donor forearm L",
+    "Donor rescue hand L",
+    "Donor thigh L",
+    "Donor shin L",
+    "Donor upper arm R",
+    "Donor forearm R",
+    "Donor rescue hand R",
+    "Donor thigh R",
+    "Donor shin R"
+  ],
+  "checks": {
+    "height": true,
+    "ground_contact": true,
+    "donor_components": true,
+    "materials_present": true,
+    "cycles": true,
+    "candidate_unchanged": true
+  },
+  "result": "PASS",
+  "visual_approval": false,
+  "animation_validated": false
+}

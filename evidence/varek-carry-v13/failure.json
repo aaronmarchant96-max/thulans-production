@@ -1,0 +1,921 @@
+{
+  "result": "FAIL",
+  "frame": 31,
+  "error": "(31, 'L', 'calf stroke', 0.35285159614197414)",
+  "frames_completed": [
+    {
+      "frame": 1,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": -1.0430813546236095e-07,
+      "wrist_deflection_deg": 31.64301308495638,
+      "calf_socket_distance_m": {
+        "L": 0.2895647224583842,
+        "R": 0.2895647224583842
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 2,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.0003817230463027954,
+      "wrist_deflection_deg": 31.513229245442382,
+      "calf_socket_distance_m": {
+        "L": 0.29092350690879876,
+        "R": 0.29092350690879876
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 3,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.0014972835779190063,
+      "wrist_deflection_deg": 31.136216463636018,
+      "calf_socket_distance_m": {
+        "L": 0.29364906951773406,
+        "R": 0.29364906951773406
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 4,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.003302469849586487,
+      "wrist_deflection_deg": 30.5327214391412,
+      "calf_socket_distance_m": {
+        "L": 0.29669900036574626,
+        "R": 0.29669900036574626
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 5,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.005752459168434143,
+      "wrist_deflection_deg": 29.72634589063491,
+      "calf_socket_distance_m": {
+        "L": 0.29980735680119613,
+        "R": 0.29980735680119613
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 6,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.008802913129329681,
+      "wrist_deflection_deg": 28.741613612332078,
+      "calf_socket_distance_m": {
+        "L": 0.3028958700372346,
+        "R": 0.3028958700372346
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 7,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.012409470975399017,
+      "wrist_deflection_deg": 27.603514558858485,
+      "calf_socket_distance_m": {
+        "L": 0.30593442867037857,
+        "R": 0.30593442733854537
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 6,
+        "Pelvic cradle / Thigh guard R": 6
+      }
+    },
+    {
+      "frame": 8,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.016527436673641205,
+      "wrist_deflection_deg": 26.336792798029798,
+      "calf_socket_distance_m": {
+        "L": 0.30890869738775734,
+        "R": 0.30890869738775734
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 12,
+        "Pelvic cradle / Thigh guard R": 12
+      }
+    },
+    {
+      "frame": 9,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.021112345159053802,
+      "wrist_deflection_deg": 24.96563915233891,
+      "calf_socket_distance_m": {
+        "L": 0.3118112197956445,
+        "R": 0.3118112197956445
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 14,
+        "Pelvic cradle / Thigh guard R": 14
+      }
+    },
+    {
+      "frame": 10,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.02611996978521347,
+      "wrist_deflection_deg": 23.513587038571092,
+      "calf_socket_distance_m": {
+        "L": 0.314637190401246,
+        "R": 0.314637190401246
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 14,
+        "Pelvic cradle / Thigh guard R": 14
+      }
+    },
+    {
+      "frame": 11,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.031505487859249115,
+      "wrist_deflection_deg": 22.004082788599717,
+      "calf_socket_distance_m": {
+        "L": 0.317383068596411,
+        "R": 0.317383068596411
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 22,
+        "Pelvic cradle / Thigh guard R": 22
+      }
+    },
+    {
+      "frame": 12,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.03722479194402695,
+      "wrist_deflection_deg": 20.460787885256998,
+      "calf_socket_distance_m": {
+        "L": 0.3200468275426725,
+        "R": 0.3200468275426725
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 24,
+        "Pelvic cradle / Thigh guard R": 24
+      }
+    },
+    {
+      "frame": 13,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.04323305934667587,
+      "wrist_deflection_deg": 18.908637641655353,
+      "calf_socket_distance_m": {
+        "L": 0.32262647871555866,
+        "R": 0.32262647871555866
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 24,
+        "Pelvic cradle / Thigh guard R": 24
+      }
+    },
+    {
+      "frame": 14,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.049485944211483,
+      "wrist_deflection_deg": 17.374630088036557,
+      "calf_socket_distance_m": {
+        "L": 0.3251203396507561,
+        "R": 0.3251203396507561
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 15,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.05593910068273544,
+      "wrist_deflection_deg": 15.88940886811187,
+      "calf_socket_distance_m": {
+        "L": 0.327526756637343,
+        "R": 0.327526756637343
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 16,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.06254782527685165,
+      "wrist_deflection_deg": 14.488675380672948,
+      "calf_socket_distance_m": {
+        "L": 0.3298446353098469,
+        "R": 0.3298446353098469
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 17,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.06926777213811874,
+      "wrist_deflection_deg": 13.214671784415382,
+      "calf_socket_distance_m": {
+        "L": 0.3320723873088143,
+        "R": 0.3320723199989598
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 18,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.07605447620153427,
+      "wrist_deflection_deg": 12.116518238528963,
+      "calf_socket_distance_m": {
+        "L": 0.3342087203427954,
+        "R": 0.3342087203427954
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 19,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.0828634724020958,
+      "wrist_deflection_deg": 11.247907713852808,
+      "calf_socket_distance_m": {
+        "L": 0.33625213140071547,
+        "R": 0.33625213140071547
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 20,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.08965005725622177,
+      "wrist_deflection_deg": 10.659460449873176,
+      "calf_socket_distance_m": {
+        "L": 0.33820125988422234,
+        "R": 0.338201263326413
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 21,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.09637012332677841,
+      "wrist_deflection_deg": 10.385499000943026,
+      "calf_socket_distance_m": {
+        "L": 0.3400544389737806,
+        "R": 0.3400544389737806
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 22,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.10297884792089462,
+      "wrist_deflection_deg": 10.43062179192107,
+      "calf_socket_distance_m": {
+        "L": 0.3418099935868715,
+        "R": 0.3418099935868715
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 23,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.10943188518285751,
+      "wrist_deflection_deg": 10.764793065932174,
+      "calf_socket_distance_m": {
+        "L": 0.3434660681395587,
+        "R": 0.3434660661059024
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 24,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.1156848892569542,
+      "wrist_deflection_deg": 11.33250985200717,
+      "calf_socket_distance_m": {
+        "L": 0.34502072775934406,
+        "R": 0.3450207264096823
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 25,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.12169315665960312,
+      "wrist_deflection_deg": 12.068068291651477,
+      "calf_socket_distance_m": {
+        "L": 0.3464719098006942,
+        "R": 0.34647190845668546
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 26,
+        "Pelvic cradle / Thigh guard R": 26
+      }
+    },
+    {
+      "frame": 26,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.12741245329380035,
+      "wrist_deflection_deg": 12.908427446373166,
+      "calf_socket_distance_m": {
+        "L": 0.34781711000381743,
+        "R": 0.34781711000381743
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 28,
+        "Pelvic cradle / Thigh guard R": 28
+      }
+    },
+    {
+      "frame": 27,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.1327979564666748,
+      "wrist_deflection_deg": 13.799478557567397,
+      "calf_socket_distance_m": {
+        "L": 0.3490536894487035,
+        "R": 0.34905369211683906
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 28,
+        "Pelvic cradle / Thigh guard R": 28
+      }
+    },
+    {
+      "frame": 28,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.13780558109283447,
+      "wrist_deflection_deg": 14.69703883904065,
+      "calf_socket_distance_m": {
+        "L": 0.3501788472836458,
+        "R": 0.3501788472836458
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 28,
+        "Pelvic cradle / Thigh guard R": 28
+      }
+    },
+    {
+      "frame": 29,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.14239048957824707,
+      "wrist_deflection_deg": 15.56574327881789,
+      "calf_socket_distance_m": {
+        "L": 0.35118937112963294,
+        "R": 0.35118937112963294
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 28,
+        "Pelvic cradle / Thigh guard R": 28
+      }
+    },
+    {
+      "frame": 30,
+      "single_support": null,
+      "sole_min_z_m": {
+        "L": 1.6870464136786723e-08,
+        "R": 1.6870464136786723e-08
+      },
+      "ankles_world": {
+        "L": [
+          0.2582419514656067,
+          0.024830959737300873,
+          0.23341113328933716
+        ],
+        "R": [
+          -0.2582419514656067,
+          0.024830957874655724,
+          0.23341113328933716
+        ]
+      },
+      "tool_min_z_m": 0.14650845527648926,
+      "wrist_deflection_deg": 16.377072422019733,
+      "calf_socket_distance_m": {
+        "L": 0.3520816743076093,
+        "R": 0.3520816743076093
+      },
+      "pelvis_proxy_inside_support": null,
+      "new_surface_crossings": {
+        "Pelvic cradle / Thigh guard L": 28,
+        "Pelvic cradle / Thigh guard R": 28
+      }
+    }
+  ],
+  "source_sha256": "c420feaa0d01d0604ce466cc8fca8f7d032fe01f3c761083471484702fdc81ad",
+  "candidate_saved": false
+}

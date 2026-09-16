@@ -1,0 +1,1299 @@
+{
+  "source_sha256": "397d6ec0d9d69dce423119693f25c5a8227767826d76effa31f74eb86a329b91",
+  "source_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-carry-v14.blend",
+  "candidate_sha256": "8853e4ee96f9f770346a57e748e49c7a7d70b384fa3a32361fe1b2a6dbe951ec",
+  "claim_class": "OBSERVED",
+  "result": "HIP_SURFACE_SWEEP_FAIL",
+  "correction_type": "residual hip-clearance only",
+  "changed_meshes": [
+    "Pelvic cradle"
+  ],
+  "other_geometry_materials_unchanged": true,
+  "animation_unchanged": true,
+  "animation_signature": "4c72429b97977c6005a523abfe0b5eb8ae1844dd235ce2b1c523aee63d5c228d",
+  "rest_bones_unchanged": true,
+  "primary_pockets_source": "397d6ec0d9d69dce423119693f25c5a8227767826d76effa31f74eb86a329b91",
+  "pockets": [
+    {
+      "side": "L",
+      "type": "primary",
+      "margin_m": 0.002,
+      "sweep_bounds": {
+        "min": [
+          0.08845996856689453,
+          -0.183833047747612,
+          0.9187461733818054
+        ],
+        "max": [
+          0.4065210521221161,
+          0.16023680567741394,
+          1.0695407390594482
+        ]
+      }
+    },
+    {
+      "side": "R",
+      "type": "primary",
+      "margin_m": 0.002,
+      "sweep_bounds": {
+        "min": [
+          -0.4065210521221161,
+          -0.18372976779937744,
+          0.9187473058700562
+        ],
+        "max": [
+          -0.08846001327037811,
+          0.16023676097393036,
+          1.0649727582931519
+        ]
+      }
+    },
+    {
+      "side": "L",
+      "type": "secondary_residual",
+      "margin_m": 0.003,
+      "cutter_bounds": {
+        "min": [
+          0.07667150211334228,
+          -0.14991339433193207,
+          0.9006715030670166
+        ],
+        "max": [
+          0.09145996856689453,
+          -0.06129730355739593,
+          0.9282231121063232
+        ]
+      },
+      "contact_cloud_samples": 548
+    },
+    {
+      "side": "R",
+      "type": "secondary_residual",
+      "margin_m": 0.003,
+      "cutter_bounds": {
+        "min": [
+          -0.09146001327037812,
+          -0.1499133049249649,
+          0.9018445820808411
+        ],
+        "max": [
+          -0.07667150211334228,
+          -0.061297199249267575,
+          0.9282229928970337
+        ]
+      },
+      "contact_cloud_samples": 492
+    }
+  ],
+  "secondary_bounds": {
+    "L": {
+      "min": [
+        0.07667150211334228,
+        -0.14991339433193207,
+        0.9006715030670166
+      ],
+      "max": [
+        0.09145996856689453,
+        -0.06129730355739593,
+        0.9282231121063232
+      ]
+    },
+    "R": {
+      "min": [
+        -0.09146001327037812,
+        -0.1499133049249649,
+        0.9018445820808411
+      ],
+      "max": [
+        -0.07667150211334228,
+        -0.061297199249267575,
+        0.9282229928970337
+      ]
+    }
+  },
+  "frames": [
+    {
+      "frame": 1,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 2,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 3,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 4,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 5,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 6,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 7,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 8,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 9,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 10,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 11,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 12,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 13,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 14,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 15,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 16,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 17,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 18,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 19,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 20,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 21,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 22,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 23,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 24,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 25,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 26,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 27,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 28,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 29,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 30,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 31,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 32,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 33,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 34,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 35,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 36,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 37,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 38,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 39,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 40,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 41,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 42,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 43,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 44,
+      "hip_surface_crossings": {
+        "Thigh guard R": 6
+      }
+    },
+    {
+      "frame": 45,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 46,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 47,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 48,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 49,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 50,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 51,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 52,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 53,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 54,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 55,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 56,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 57,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 58,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 59,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 60,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 61,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 62,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 63,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 64,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 65,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 66,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 67,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 68,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 69,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 70,
+      "hip_surface_crossings": {
+        "Thigh guard R": 7
+      }
+    },
+    {
+      "frame": 71,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 72,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 73,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 74,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 75,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 76,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 77,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 78,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 79,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 80,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 81,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 82,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 83,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 84,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 85,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 86,
+      "hip_surface_crossings": {
+        "Thigh guard L": 7
+      }
+    },
+    {
+      "frame": 87,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 88,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 89,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 90,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 91,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 92,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 93,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 94,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 95,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 96,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 97,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 98,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 99,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 100,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 101,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 102,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 103,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 104,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 105,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 106,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 107,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 108,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 109,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 110,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 111,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 112,
+      "hip_surface_crossings": {
+        "Thigh guard L": 8
+      }
+    },
+    {
+      "frame": 113,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 114,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 115,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 116,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 117,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 118,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 119,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 120,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 121,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 122,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 123,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 124,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 125,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 126,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 127,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 128,
+      "hip_surface_crossings": {
+        "Thigh guard R": 6
+      }
+    },
+    {
+      "frame": 129,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 130,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 131,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 132,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 133,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 134,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 135,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 136,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 137,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 138,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 139,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 140,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 141,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 142,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 143,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 144,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 145,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 146,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 147,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 148,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 149,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 150,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 151,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 152,
+      "hip_surface_crossings": {
+        "Thigh guard R": 10
+      }
+    },
+    {
+      "frame": 153,
+      "hip_surface_crossings": {
+        "Thigh guard R": 9
+      }
+    },
+    {
+      "frame": 154,
+      "hip_surface_crossings": {
+        "Thigh guard R": 7
+      }
+    },
+    {
+      "frame": 155,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 156,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 157,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 158,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 159,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 160,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 161,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 162,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 163,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 164,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 165,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 166,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 167,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 168,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 169,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 170,
+      "hip_surface_crossings": {
+        "Thigh guard L": 7
+      }
+    },
+    {
+      "frame": 171,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 172,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 173,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 174,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 175,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 176,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 177,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 178,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 179,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 180,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 181,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 182,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 183,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 184,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 185,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 186,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 187,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 188,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 189,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 190,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 191,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 192,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 193,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 194,
+      "hip_surface_crossings": {
+        "Thigh guard L": 11
+      }
+    },
+    {
+      "frame": 195,
+      "hip_surface_crossings": {
+        "Thigh guard L": 10
+      }
+    },
+    {
+      "frame": 196,
+      "hip_surface_crossings": {
+        "Thigh guard L": 8
+      }
+    },
+    {
+      "frame": 197,
+      "hip_surface_crossings": {
+        "Thigh guard L": 4
+      }
+    },
+    {
+      "frame": 198,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 199,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 200,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 201,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 202,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 203,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 204,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 205,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 206,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 207,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 208,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 209,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 210,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 211,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 212,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 213,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 214,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 215,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 216,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 217,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 218,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 219,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 220,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 221,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 222,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 223,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 224,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 225,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 226,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 227,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 228,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 229,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 230,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 231,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 232,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 233,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 234,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 235,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 236,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 237,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 238,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 239,
+      "hip_surface_crossings": {}
+    },
+    {
+      "frame": 240,
+      "hip_surface_crossings": {}
+    }
+  ],
+  "physical_handoff_authorized": false,
+  "limits": [
+    "measured motion envelope only",
+    "no structural strength or force certification"
+  ]
+}

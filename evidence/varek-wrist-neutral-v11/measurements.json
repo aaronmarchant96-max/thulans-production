@@ -1,0 +1,20 @@
+{
+  "candidate_sha256": "841a2a8a05efe9f7615c2837f5733cd86fa68b1aa76948fb08c9a1cfe5b596b6",
+  "source_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "claim_class": "OBSERVED",
+  "geometry_unchanged": true,
+  "wrist_local_rotation": "rest / identity",
+  "forearm_hand_axis_angle_degrees": 2.300271749007129,
+  "sole_min_z_m": {
+    "L": 7.450580596923828e-09,
+    "R": 7.450580596923828e-09
+  },
+  "hammer_min_z_m": 0.0,
+  "result": "POSE_DIAGNOSTIC_ONLY",
+  "physics_gate": "STILL_BLOCKED",
+  "notes": [
+    "Hammer is parked separately; no gripping claim",
+    "Existing closed finger geometry unchanged; not an open-hand pose",
+    "No human approval or real-world-function claim"
+  ]
+}

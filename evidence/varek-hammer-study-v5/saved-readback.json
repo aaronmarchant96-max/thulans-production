@@ -1,0 +1,11 @@
+{
+  "candidate_sha256": "639de3e01a4f8fe2475fa8c591ecd6191b2290edbe513ec409e2e77a1694cd07",
+  "frames_checked": 72,
+  "maximum_grip_reference_gap_m": 5.503352079576071e-07,
+  "result": "SAVED_GRIP_TRANSFORMS_PASS",
+  "exclusions": [
+    "finger surface contact",
+    "continuous subframes",
+    "full collision detection"
+  ]
+}

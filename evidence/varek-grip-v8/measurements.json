@@ -1,0 +1,9 @@
+{
+  "candidate_sha256": "0c162d02e1ed46a7a312543ea75c61e203465ecd9d97f9149ef8277fda24d054",
+  "source_sha256": "77f96f511642aebc099b05116c46ff034b3573a10c2e59fff9d57e51448a17cf",
+  "changed_thumb_inner_vertices": 44,
+  "thumb_inner_radius_m_pre_normalization": 0.042,
+  "surface_crossings": {},
+  "surface_crossing_result": "PASS",
+  "human_review": "PENDING"
+}

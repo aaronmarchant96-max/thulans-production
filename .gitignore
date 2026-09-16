@@ -21,6 +21,10 @@ assets/audio/peaks/
 # Donor source archives (keep provenance/license, not the zips)
 assets/donors/*/source.zip
 
+# Local AI/agent launchers (may contain API keys — never commit)
+run_aider_deepseek.sh
+start_varek_ai.sh
+
 # Raw probe dumps (hash-bound JSON is the evidence of record)
 evidence/**/probe.json
 

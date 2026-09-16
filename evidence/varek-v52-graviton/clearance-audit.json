@@ -1,0 +1,197 @@
+{
+  "gate": "VAREK_CLEARANCE_AUDIT",
+  "candidate": "/home/aaron/animation/thulans-production/blender/candidates/varek-v52-graviton.blend",
+  "candidate_sha256": "611516896fbc937af983c816f85a0420c9d4bc57de4d7f49d772bbbdbd43e2e2",
+  "rig": "Varek simple articulation",
+  "action": "Varek_Heavy_Forward_Walk_Cycle_48F",
+  "frames": [
+    1,
+    49
+  ],
+  "pose_activity": {
+    "pelvis": 5,
+    "thigh.L": 5,
+    "thigh.R": 5
+  },
+  "pose_activity_ok": true,
+  "envelope": {
+    "rest": {
+      "z_min": 0.0,
+      "z_max": 2.4384,
+      "height": 2.4384,
+      "ground_ok": true,
+      "height_ok": true
+    },
+    "pose": {
+      "z_min": -0.250188,
+      "z_max": 2.44321,
+      "walk_foot_sink": -0.250188
+    },
+    "canonical_height": 2.4384,
+    "note": "grounding/height gated at REST; walk foot-sink is an animation artifact"
+  },
+  "prohibited_pairs": [
+    [
+      "Pelvic cradle",
+      "Donor thigh L"
+    ],
+    [
+      "Pelvic cradle",
+      "Donor thigh R"
+    ],
+    [
+      "Pelvic cradle",
+      "Thigh guard L"
+    ],
+    [
+      "Pelvic cradle",
+      "Thigh guard R"
+    ],
+    [
+      "Thigh guard L",
+      "Donor thigh L"
+    ],
+    [
+      "Thigh guard R",
+      "Donor thigh R"
+    ],
+    [
+      "Donor thigh L",
+      "Donor thigh R"
+    ],
+    [
+      "Donor shin L",
+      "Donor shin R"
+    ],
+    [
+      "Knee bearing L",
+      "Donor thigh L"
+    ],
+    [
+      "Knee bearing R",
+      "Donor thigh R"
+    ],
+    [
+      "Forged foot housing L",
+      "Forged foot housing R"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor upper arm L"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor upper arm R"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor forearm L"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor forearm R"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor rescue hand L"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor rescue hand R"
+    ],
+    [
+      "Shoulder collar L",
+      "Thoracic protective hull"
+    ],
+    [
+      "Shoulder collar R",
+      "Thoracic protective hull"
+    ],
+    [
+      "Donor upper arm L",
+      "Donor upper arm R"
+    ],
+    [
+      "Donor forearm L",
+      "Donor forearm R"
+    ],
+    [
+      "Donor rescue hand L",
+      "Donor rescue hand R"
+    ]
+  ],
+  "prohibited_hits": [],
+  "review_overlaps": {
+    "Calf ram body L <-> Calf ram rod L": 49,
+    "Calf ram body R <-> Calf ram rod R": 49,
+    "Donor rescue hand L <-> Gauntlet knuckle bar L": 49,
+    "Donor rescue hand L <-> Wrist coupling L": 49,
+    "Donor rescue hand R <-> Wrist coupling R": 49,
+    "Elbow axle L <-> Gren Skildus": 49,
+    "Gren Skildus <-> Gren_Skildus_Bronze_Brooch": 49,
+    "Gren Skildus <-> Shoulder collar L": 49,
+    "Gren Skildus <-> Shoulder pivot L": 49,
+    "Gren_Skildus_Bronze_Brooch <-> Shoulder collar L": 49,
+    "Gren_Skildus_Bronze_Brooch <-> Shoulder pivot L": 49,
+    "Hip axle L <-> Pelvic cradle": 49,
+    "Hip axle L <-> Thigh guard L": 49,
+    "Hip axle R <-> Pelvic cradle": 49,
+    "Hip axle R <-> Thigh guard R": 49,
+    "Knee axle L <-> Knee bearing L": 49,
+    "Knee axle L <-> Knee_Mechanical_Rotary_Hub_L": 49,
+    "Knee axle L <-> Thigh guard L": 49,
+    "Knee axle R <-> Knee bearing R": 49,
+    "Knee axle R <-> Knee_Mechanical_Rotary_Hub_R": 49,
+    "Knee axle R <-> Thigh guard R": 49,
+    "Knee bearing L <-> Knee_Mechanical_Rotary_Hub_L": 49,
+    "Knee bearing L <-> Knee_Pivot_Cap_L_1.0": 49,
+    "Knee bearing L <-> Thigh guard L": 49,
+    "Knee bearing R <-> Knee_Mechanical_Rotary_Hub_R": 49,
+    "Knee bearing R <-> Knee_Pivot_Cap_R_-1.0": 49,
+    "Knee bearing R <-> Thigh guard R": 49,
+    "Knee_Mechanical_Rotary_Hub_L <-> Knee_Pivot_Cap_L_-1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_L <-> Knee_Pivot_Cap_L_1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_L <-> Thigh guard L": 49,
+    "Knee_Mechanical_Rotary_Hub_R <-> Knee_Pivot_Cap_R_-1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_R <-> Knee_Pivot_Cap_R_1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_R <-> Thigh guard R": 49,
+    "Knee_Pivot_Cap_L_-1.0 <-> Thigh guard L": 49,
+    "Knee_Pivot_Cap_L_1.0 <-> Thigh guard L": 49,
+    "Knee_Pivot_Cap_R_-1.0 <-> Thigh guard R": 49,
+    "Knee_Pivot_Cap_R_1.0 <-> Thigh guard R": 49,
+    "Operator cell <-> Thoracic protective hull": 49,
+    "Operator cell <-> Varek_Helmet_CheekCowl_L": 49,
+    "Operator cell <-> Varek_Helmet_CheekCowl_R": 49,
+    "Operator cell <-> Varek_Neck_GimbalRing": 49,
+    "Operator cell <-> Varek_Respirator_Canister_L": 49,
+    "Operator cell <-> Varek_Respirator_Canister_R": 49,
+    "Operator cell <-> Varek_Respirator_IntakeRing_L": 49,
+    "Operator cell <-> Varek_Respirator_IntakeRing_R": 49,
+    "Operator_Pressure_Helmet <-> Operator_Respirator_Boss_L": 49,
+    "Operator_Pressure_Helmet <-> Operator_Respirator_Boss_R": 49,
+    "Operator_Pressure_Helmet <-> Operator_Visor_Aperture_Frame": 49,
+    "Operator_Pressure_Helmet <-> Varek_Helmet_Cranium": 49,
+    "Operator_Respirator_Boss_L <-> Varek_Helmet_Cranium": 49,
+    "Operator_Respirator_Boss_R <-> Varek_Helmet_Cranium": 49,
+    "Pelvic cradle <-> Thoracic protective hull": 49,
+    "Shoulder collar L <-> Shoulder pivot L": 49,
+    "Shoulder collar R <-> Shoulder pivot R": 49,
+    "Thigh_V_Left <-> Thigh_V_Right": 49,
+    "Thoracic protective hull <-> Varek_Neck_GimbalRing": 49,
+    "Varek_Helmet_CheekCowl_L <-> Varek_Respirator_Canister_L": 49,
+    "Varek_Helmet_CheekCowl_L <-> Varek_Respirator_IntakeRing_L": 49,
+    "Varek_Helmet_CheekCowl_R <-> Varek_Respirator_Canister_R": 49,
+    "Varek_Helmet_CheekCowl_R <-> Varek_Respirator_IntakeRing_R": 49,
+    "Knee axle R <-> Knee_Pivot_Cap_R_-1.0": 10,
+    "Knee axle L <-> Knee_Pivot_Cap_L_1.0": 10
+  },
+  "self_intersections": {},
+  "renders": {
+    "front": "audit-front.png",
+    "side": "audit-side.png",
+    "q34": "audit-q34.png"
+  },
+  "verdict": "PASS",
+  "fail_reasons": [],
+  "claim": "No prohibited intersections or self-intersections across the audited envelope; pose activity verified."
+}

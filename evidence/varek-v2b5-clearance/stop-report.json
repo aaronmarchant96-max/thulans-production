@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V2B_CLEARANCE_AND_LOAD_POSES",
+  "result": "FAIL",
+  "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b",
+  "first_failed_interface": "asymmetric-stride.foot-ground-penetration",
+  "finding": {
+    "frame": 40,
+    "left_foot_penetration_m": 0.0194,
+    "right_foot_penetration_m": 0.0267,
+    "classification": "unacceptable_interpenetration",
+    "visual_confirmation": true
+  },
+  "passed_before_stop": {
+    "neutral_grounding": true,
+    "a_pose_grounding": true,
+    "overhead_brace_grounding": true,
+    "rigid_module_continuity": true
+  },
+  "scope_ruling": "Pose failure does not reopen V2A.1 static chassis geometry.",
+  "next_scope": "foot-ground contact preservation for locomotion poses only",
+  "human_motion_gate": "BLOCKED"
+}

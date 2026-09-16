@@ -1,0 +1,742 @@
+{
+  "candidate_sha256": "c420feaa0d01d0604ce466cc8fca8f7d032fe01f3c761083471484702fdc81ad",
+  "claim_class": "OBSERVED",
+  "frames": [
+    {
+      "frame": 1,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 2,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 3,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 4,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 5,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 6,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 7,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 8,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 9,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 10,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 11,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 12,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 13,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 14,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 15,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 16,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 17,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 18,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 19,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 20,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 21,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 22,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 23,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 24,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 25,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 26,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 27,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 28,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 29,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 30,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 31,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 32,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 33,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 34,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 35,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 36,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 37,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 38,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 39,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 40,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 41,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 42,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 43,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 44,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 45,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 46,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 47,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 48,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 49,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 50,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 51,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 52,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 53,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 54,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 55,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 56,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 57,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 58,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 59,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 60,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 61,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 62,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 63,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 64,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 65,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 66,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 67,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 68,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 69,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 70,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 71,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 72,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 73,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 74,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 75,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 76,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 77,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 78,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 79,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 80,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 81,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 82,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 83,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 84,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 85,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 86,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 87,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 88,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 89,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 90,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 91,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 92,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 93,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 94,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 95,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 96,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 97,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 98,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 99,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 100,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 101,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 102,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 103,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 104,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 105,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 106,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 107,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 108,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 109,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 110,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 111,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 112,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 113,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 114,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 115,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 116,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 117,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 118,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 119,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 120,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 121,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 122,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 123,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 124,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 125,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 126,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 127,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 128,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 129,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 130,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 131,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 132,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 133,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 134,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 135,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 136,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 137,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 138,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 139,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 140,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 141,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 142,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 143,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 144,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 145,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 146,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 147,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 148,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 149,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 150,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 151,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 152,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 153,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 154,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 155,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 156,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 157,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 158,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 159,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 160,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 161,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 162,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 163,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 164,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 165,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 166,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 167,
+      "nonadjacent_crossings": {}
+    },
+    {
+      "frame": 168,
+      "nonadjacent_crossings": {}
+    }
+  ],
+  "excluded_adjacent_pairs": [
+    [
+      "hand.R",
+      "finger.R.0.0",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "hand.R",
+      "finger.R.1.0",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "hand.R",
+      "finger.R.2.0",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "hand.R",
+      "thumb.R.0",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "finger.R.0.0",
+      "finger.R.0.1",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "finger.R.0.1",
+      "finger.R.0.2",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "finger.R.1.0",
+      "finger.R.1.1",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "finger.R.1.1",
+      "finger.R.1.2",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "finger.R.2.0",
+      "finger.R.2.1",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "finger.R.2.1",
+      "finger.R.2.2",
+      "adjacent hinge / palm root seating"
+    ],
+    [
+      "thumb.R.0",
+      "thumb.R.1",
+      "adjacent hinge / palm root seating"
+    ]
+  ],
+  "checked_group_pairs": 55,
+  "geometry": "base mesh before bevel; conservative box/pin surfaces",
+  "limits": [
+    "surface sweep, not full volumetric containment or force test",
+    "intentional adjacent hinge seating excluded"
+  ],
+  "physical_handoff_authorized": false
+}

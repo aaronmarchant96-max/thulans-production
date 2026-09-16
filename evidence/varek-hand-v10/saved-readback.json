@@ -1,0 +1,22 @@
+{
+  "claim_class": "OBSERVED",
+  "candidate_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "unchanged_out_of_scope_geometry_and_rest_bones": true,
+  "single_bone_weights_valid": true,
+  "samples": [
+    {
+      "frame": 1,
+      "tool_surface_crossings": {}
+    },
+    {
+      "frame": 36,
+      "tool_surface_crossings": {}
+    },
+    {
+      "frame": 64,
+      "tool_surface_crossings": {}
+    }
+  ],
+  "result": "SAVED_CHECKS_PASS",
+  "human_review": "PENDING"
+}

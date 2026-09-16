@@ -1,0 +1,196 @@
+{
+  "candidate_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "claim_class": "OBSERVED",
+  "status": "REJECTED_CANDIDATE_DIAGNOSTIC_ONLY",
+  "frame": 36,
+  "angles_degrees": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    140,
+    160,
+    180,
+    200,
+    220,
+    240,
+    260,
+    280,
+    300,
+    320,
+    340,
+    360,
+    380
+  ],
+  "review_only_hidden_objects": [
+    "Thoracic protective hull",
+    "Pelvic cradle",
+    "Abdominal protection",
+    "Neck seat",
+    "Operator cell",
+    "Visor recessed seat",
+    "Amber protected slit",
+    "Helmet brow",
+    "Thoracic rail L",
+    "Dorsal rail L",
+    "Yoke bearing L",
+    "Shoulder pivot L",
+    "Shoulder collar L",
+    "Donor upper arm L",
+    "Elbow axle L",
+    "Donor forearm L",
+    "Donor rescue hand L",
+    "Wrist coupling L",
+    "Hip axle L",
+    "Donor thigh L",
+    "Thigh guard L",
+    "Knee axle L",
+    "Knee bearing L",
+    "Donor shin L",
+    "Forged foot housing L",
+    "Anchor sole L",
+    "Folded heel anchor L",
+    "Calf ram body L",
+    "Calf ram rod L",
+    "Thoracic rail R",
+    "Dorsal rail R",
+    "Yoke bearing R",
+    "Hip axle R",
+    "Donor thigh R",
+    "Thigh guard R",
+    "Knee axle R",
+    "Knee bearing R",
+    "Donor shin R",
+    "Forged foot housing R",
+    "Anchor sole R",
+    "Folded heel anchor R",
+    "Calf ram body R",
+    "Calf ram rod R",
+    "Continuous forged yoke",
+    "Gren Skildus",
+    "Integrated engine",
+    "Cooling louvre",
+    "Cooling louvre.001",
+    "Cooling louvre.002",
+    "Exhaust",
+    "Winch cable drum",
+    "Winch flange",
+    "Winch flange.001",
+    "Inner oath",
+    "Gauntlet dorsal guard L",
+    "Gauntlet knuckle bar L"
+  ],
+  "review_only_lighting": "one camera-relative area fill; original lights retained",
+  "camera_target_m": [
+    -0.7349963188171387,
+    -0.16388432681560516,
+    1.450398325920105
+  ],
+  "samples": 8,
+  "renders": [
+    {
+      "angle_degrees": 0,
+      "file": "000.png",
+      "sha256": "8668d2748a1702734a287fa31cd1cf9f84774c9900235a61b906bb8272e52530"
+    },
+    {
+      "angle_degrees": 20,
+      "file": "001.png",
+      "sha256": "18b55b81e3dc6e98cc62df0207bb370602c5af2b534c108b152e6b3c22551fd4"
+    },
+    {
+      "angle_degrees": 40,
+      "file": "002.png",
+      "sha256": "1a81b0446699d33a67496f3d8897e6557ed5c94f0d6b9c75ad2bd88fb0c86383"
+    },
+    {
+      "angle_degrees": 60,
+      "file": "003.png",
+      "sha256": "dff6e9f63e750315ec2d3e88594ff1a879a89fb4262daa2efae715ec71482893"
+    },
+    {
+      "angle_degrees": 80,
+      "file": "004.png",
+      "sha256": "1fa1f4804b6a92466801914a223ea5e1a1228789c5958acb9cbc01552ee945e2"
+    },
+    {
+      "angle_degrees": 100,
+      "file": "005.png",
+      "sha256": "e6d916bdaa41533ab140cce04d2f4398f2b0525670d192c37646c1062ad12355"
+    },
+    {
+      "angle_degrees": 120,
+      "file": "006.png",
+      "sha256": "13c3bfbf986332ac728f2c6373d4cd06d31d969a74b38d211b03d7174fb44279"
+    },
+    {
+      "angle_degrees": 140,
+      "file": "007.png",
+      "sha256": "7dcf847456fafb49c4b6e1cf38332f15976fcb6c4fa0c7232f7fbbcbdd5580fb"
+    },
+    {
+      "angle_degrees": 160,
+      "file": "008.png",
+      "sha256": "fff3bed64e2e759897cc8b9b4b60bf6a4bfb9ba42ef2d3f5264b375d6ef7e271"
+    },
+    {
+      "angle_degrees": 180,
+      "file": "009.png",
+      "sha256": "27ff44227943d6f1588ecea1583b223621e609cfe9342f901a0134232a6bdc76"
+    },
+    {
+      "angle_degrees": 200,
+      "file": "010.png",
+      "sha256": "eae20a71c95836f9dfd9926456b3f0f05c98b62c47597f1077fc20351d138c01"
+    },
+    {
+      "angle_degrees": 220,
+      "file": "011.png",
+      "sha256": "b0b78bf5ada660fb3b0602421cef2b5fa57d10598472911db4f93307890d3e95"
+    },
+    {
+      "angle_degrees": 240,
+      "file": "012.png",
+      "sha256": "730eea5903116c5b65b47022784ff04f077148317d5040c262fe17b343f43bf1"
+    },
+    {
+      "angle_degrees": 260,
+      "file": "013.png",
+      "sha256": "d2b72c5b91e5d6b2c3c28468647953324b480e4dff557a859e1278bc69cc2715"
+    },
+    {
+      "angle_degrees": 280,
+      "file": "014.png",
+      "sha256": "81e21035db143f8c6b106ff472cd1ed187e54949cc54089bb02cc8cbf581d7a8"
+    },
+    {
+      "angle_degrees": 300,
+      "file": "015.png",
+      "sha256": "ee6da6976d1b7413c2da377ec69e0013d568ee5ecd633711f382fe5fe20d942f"
+    },
+    {
+      "angle_degrees": 320,
+      "file": "016.png",
+      "sha256": "1a2c85b08bf1d60ff4ff36d47ade25e44a7c98b63f7d94a3f7314a5c37837f33"
+    },
+    {
+      "angle_degrees": 340,
+      "file": "017.png",
+      "sha256": "43ba6f4c02f32cd35e53511d2bff71bb77d227481deae360b745f26d3c8a7e30"
+    },
+    {
+      "angle_degrees": 360,
+      "file": "018.png",
+      "sha256": "a97d5f42ef22bef230cf3533b5ce4557cf5040fe2676a44ebb8f3ef7b769dd14"
+    },
+    {
+      "angle_degrees": 380,
+      "file": "019.png",
+      "sha256": "b3e0df9e364bd7ff20b6d5405ed91b1da4de8ac0c3bfffcca36d2ec9590dfcfb"
+    }
+  ],
+  "candidate_unchanged": true
+}

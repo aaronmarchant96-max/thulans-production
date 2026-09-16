@@ -1,0 +1,28 @@
+{
+  "claim_class": "OBSERVED",
+  "source_sha256": "d3aaa436ecd90ed1118ea1eb1beacf77d88a3cfb7fea6bce8f223b147fffa3ff",
+  "candidate_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "changed_meshes": [
+    "Donor forearm R",
+    "Donor rescue hand R",
+    "Gauntlet dorsal guard R",
+    "Gauntlet knuckle bar R",
+    "Wrist coupling R"
+  ],
+  "other_geometry_and_material_slots_unchanged": true,
+  "grip_reference_frames_checked": 72,
+  "max_grip_reference_gap_m": 2.893282151065409e-07,
+  "contact_frames_checked": [
+    1,
+    36,
+    64
+  ],
+  "tool_surface_crossings": {},
+  "result": "SAMPLED_MACHINE_CHECKS_PASS_VISUAL_REVIEW_PENDING",
+  "human_review": "PENDING",
+  "limits": [
+    "fixed closed-hand configuration; finger opening not rigged",
+    "no full suit collision certification",
+    "no load simulation"
+  ]
+}

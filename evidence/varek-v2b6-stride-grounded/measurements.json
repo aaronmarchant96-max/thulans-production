@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V2B_STRIDE_GROUNDING",
+  "machine_result": "PASS",
+  "human_motion_gate": "PENDING",
+  "source_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b",
+  "candidate_sha256": "cd7426ede743371d0fd9e14e264177858eb1f6a8bf42ef7189560162fb9e2cc0",
+  "frame": 40,
+  "floor_world_z_m": 0.0,
+  "support_foot": "R",
+  "transition_foot": "L",
+  "root_world_vertical_correction_m": 0.026726,
+  "root_translation_channel": "pose_bone.location.y (root local Y == world Z)",
+  "foot_clearance_before_m": {
+    "L": -0.019404,
+    "R": -0.026726
+  },
+  "foot_clearance_after_m": {
+    "L": 0.007322,
+    "R": 0.0
+  },
+  "support_contact_pass": true,
+  "transition_clearance_pass": true,
+  "mesh_geometry_unchanged": true,
+  "renders": {
+    "f040-asymmetric-stride-threequarter.png": {
+      "camera": "Cam_ThreeQuarter",
+      "sha256": "55fe135a83160bfe8870be067d40c80768c90e91c29a8024d6aeb535ee539f1a",
+      "candidate_sha256": "cd7426ede743371d0fd9e14e264177858eb1f6a8bf42ef7189560162fb9e2cc0"
+    },
+    "f040-asymmetric-stride-characterright.png": {
+      "camera": "Cam_CharacterRight",
+      "sha256": "18afd371298002ed1e472d7ab7a9d1419a7e8f753aa44a21f499678ce957e1bd",
+      "candidate_sha256": "cd7426ede743371d0fd9e14e264177858eb1f6a8bf42ef7189560162fb9e2cc0"
+    }
+  }
+}

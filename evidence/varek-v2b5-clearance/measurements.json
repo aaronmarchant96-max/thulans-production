@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V2B_CLEARANCE_AND_LOAD_POSES",
+  "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b",
+  "candidate_unchanged_after_render": true,
+  "contact_rule": "Touching or seating at a designed interface is permitted; impossible interpenetration, detached continuity, or lost required support fails.",
+  "ground_contact_tolerance_m": 0.001,
+  "human_motion_gate": "PENDING",
+  "poses": {
+    "neutral": {
+      "frame": 1,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f001-neutral-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "17f15672dba7330c61b99f21964a9d9e4c9f229fa47557856401ec61b94045e3",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        }
+      }
+    },
+    "a-pose": {
+      "frame": 20,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f020-a-pose-front.png": {
+          "camera": "Cam_Front",
+          "sha256": "9e6934c3b1fd4eab6e7204d53a45cc7d8eabe8ed4ad70be1cc32017aadca8675",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        },
+        "f020-a-pose-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "1e6c7a4e0a91ce9ac3715c7804ec7de83a3f1af6ad83adba74105343bd170905",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        }
+      }
+    },
+    "asymmetric-stride": {
+      "frame": 40,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.019404,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.019404,
+          "state": "PENETRATING"
+        },
+        "R": {
+          "assembly_min_z_m": -0.026726,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.026726,
+          "state": "PENETRATING"
+        }
+      },
+      "renders": {
+        "f040-asymmetric-stride-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "5c645f0111f9c7cf039501842cea5904761b161aea7da125b937b1e0ca4df1dd",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        },
+        "f040-asymmetric-stride-characterright.png": {
+          "camera": "Cam_CharacterRight",
+          "sha256": "b0e34e206a8aa08c93de0787c3e9a28db89e801a3f6a90c21f4886835f92ce8b",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        }
+      }
+    },
+    "overhead-brace": {
+      "frame": 60,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        },
+        "R": {
+          "assembly_min_z_m": -0.0,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.0,
+          "state": "CONTACT"
+        }
+      },
+      "renders": {
+        "f060-overhead-brace-front.png": {
+          "camera": "Cam_Front",
+          "sha256": "05f75f7f2e3f2c013e64449ddc304b2535cefb529b91cc406eec68978136a64f",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        },
+        "f060-overhead-brace-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "14ea37ddccd072130afbd8fc3e267495e2a496c2feef536c55ff4beb59076c76",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        },
+        "f060-overhead-brace-characterright.png": {
+          "camera": "Cam_CharacterRight",
+          "sha256": "40c43939f3c84a81e4ff8892b82945660ce1e08df7ffd194d9afcb15908fba6e",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        }
+      }
+    },
+    "anchor-state": {
+      "frame": 80,
+      "arm_yoke": "PENDING_VISUAL_REVIEW",
+      "pelvis_thigh": "PENDING_VISUAL_REVIEW",
+      "knee_shin": "PENDING_VISUAL_REVIEW",
+      "grounding": {
+        "L": {
+          "assembly_min_z_m": -0.074716,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.074716,
+          "state": "PENETRATING"
+        },
+        "R": {
+          "assembly_min_z_m": -0.074716,
+          "floor_top_z_m": 0.0,
+          "clearance_m": -0.074716,
+          "state": "PENETRATING"
+        }
+      },
+      "renders": {
+        "f080-anchor-state-threequarter.png": {
+          "camera": "Cam_ThreeQuarter",
+          "sha256": "c2e30684c1e594104805ae6122ffd03a806a5f1c8fa4fbeced54c7dde84a32b7",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        },
+        "f080-anchor-state-front.png": {
+          "camera": "Cam_Front",
+          "sha256": "f32b384b5990941c576811718864c775840cc293d99892034f6b3660d676a4ce",
+          "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b"
+        }
+      }
+    }
+  }
+}

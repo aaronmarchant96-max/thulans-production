@@ -1,0 +1,13 @@
+{
+  "source_sha256": "639de3e01a4f8fe2475fa8c591ecd6191b2290edbe513ec409e2e77a1694cd07",
+  "candidate_sha256": "78737cc9e08c4372b9a2b84ad1c9b0d9a895a9d35d988d8f6426c43b783b5876",
+  "scope": "right arm/wrist orientation and tool position; source geometry unchanged",
+  "tool_shift_pre_normalization_m": [
+    -0.08,
+    0.1,
+    0
+  ],
+  "frames_checked": 72,
+  "maximum_grip_reference_gap_m": 3.674277068954096e-07,
+  "physical_grip_review": "PENDING"
+}

@@ -1,0 +1,1722 @@
+{
+  "candidate_sha256": "c420feaa0d01d0604ce466cc8fca8f7d032fe01f3c761083471484702fdc81ad",
+  "source_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "claim_class": "OBSERVED",
+  "result": "KINEMATIC_DIAGNOSTIC_ONLY",
+  "changed_meshes": [
+    "Donor rescue hand R",
+    "Gauntlet dorsal guard R",
+    "Gauntlet knuckle bar R",
+    "Wrist coupling R"
+  ],
+  "unrelated_geometry_and_materials_unchanged": true,
+  "existing_bone_rest_matrices_unchanged": true,
+  "new_digit_bones": [
+    "finger.R.0.0",
+    "finger.R.0.1",
+    "finger.R.0.2",
+    "finger.R.1.0",
+    "finger.R.1.1",
+    "finger.R.1.2",
+    "finger.R.2.0",
+    "finger.R.2.1",
+    "finger.R.2.2",
+    "thumb.R.0",
+    "thumb.R.1"
+  ],
+  "hand_frame": {
+    "X": "wrist toward palm/fingers",
+    "Y": "radial/thumb side, up during grip",
+    "Z": "palm contact normal"
+  },
+  "tool_control": "ANIMATED, NOT FREE DYNAMICS",
+  "physical_handoff_authorized": false,
+  "remaining": [
+    "human anatomy review",
+    "independent saved readback",
+    "self-collision sweep",
+    "finite-force load simulation, negative controls, solver robustness"
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "wrist_deflection_deg": 36.170646448014864,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 2,
+      "wrist_deflection_deg": 36.12522910512887,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 3,
+      "wrist_deflection_deg": 35.99538720900692,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 4,
+      "wrist_deflection_deg": 35.79173145852465,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 5,
+      "wrist_deflection_deg": 35.52614296774329,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 6,
+      "wrist_deflection_deg": 35.2112268507761,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 7,
+      "wrist_deflection_deg": 34.86011414630242,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 8,
+      "wrist_deflection_deg": 34.486106647730864,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 9,
+      "wrist_deflection_deg": 34.10230465788951,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 10,
+      "wrist_deflection_deg": 33.721217668243234,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 11,
+      "wrist_deflection_deg": 33.354412604151456,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 12,
+      "wrist_deflection_deg": 33.01204595690998,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 13,
+      "wrist_deflection_deg": 32.702529104481684,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 14,
+      "wrist_deflection_deg": 32.4320262925925,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 15,
+      "wrist_deflection_deg": 32.2043931630289,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 16,
+      "wrist_deflection_deg": 32.02083524417939,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 17,
+      "wrist_deflection_deg": 31.880235800114676,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 18,
+      "wrist_deflection_deg": 31.779012396615087,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 19,
+      "wrist_deflection_deg": 31.71184431631718,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 20,
+      "wrist_deflection_deg": 31.671904785145532,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 21,
+      "wrist_deflection_deg": 31.65184793464779,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 22,
+      "wrist_deflection_deg": 31.64431082089868,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 23,
+      "wrist_deflection_deg": 31.642862820794637,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 24,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 25,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 26,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 27,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 28,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 29,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 30,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 31,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 32,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 33,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 34,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 35,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 36,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 37,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 38,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 39,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 40,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 41,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 42,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 43,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 44,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 45,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 46,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 47,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 48,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 49,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 50,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 51,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 52,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 53,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 54,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 55,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 56,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 57,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 58,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 59,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 60,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 61,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 62,
+      "wrist_deflection_deg": 31.481670356382338,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0006563737988471985,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 63,
+      "wrist_deflection_deg": 31.020099832651216,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.002547025680541992,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 64,
+      "wrist_deflection_deg": 30.294703006944594,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.005554318428039551,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 65,
+      "wrist_deflection_deg": 29.343971410330084,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.009560950100421906,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 66,
+      "wrist_deflection_deg": 28.20622411159875,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.014449246227741241,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 67,
+      "wrist_deflection_deg": 26.91805555677622,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.020101554691791534,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 68,
+      "wrist_deflection_deg": 25.513452767172488,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.026400335133075714,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 69,
+      "wrist_deflection_deg": 24.02329332047788,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.03322828561067581,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 70,
+      "wrist_deflection_deg": 22.475799558342896,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0404675155878067,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 71,
+      "wrist_deflection_deg": 20.896507850526913,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.048000700771808624,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 72,
+      "wrist_deflection_deg": 19.30893966098417,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.05571020394563675,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 73,
+      "wrist_deflection_deg": 17.734949887511412,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.06347847729921341,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 74,
+      "wrist_deflection_deg": 16.195170824043952,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.07118798047304153,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 75,
+      "wrist_deflection_deg": 14.709457830499025,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0787210538983345,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 76,
+      "wrist_deflection_deg": 13.297136927133176,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.08596039563417435,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 77,
+      "wrist_deflection_deg": 11.977304469092116,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.09278823435306549,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 78,
+      "wrist_deflection_deg": 10.769034613406752,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.09908712655305862,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 79,
+      "wrist_deflection_deg": 9.691625205803307,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.10473943501710892,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 80,
+      "wrist_deflection_deg": 8.764547408058199,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.1096276119351387,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 81,
+      "wrist_deflection_deg": 8.007635235747495,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11363423615694046,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 82,
+      "wrist_deflection_deg": 7.441072751642229,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11664164811372757,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 83,
+      "wrist_deflection_deg": 7.085569943079528,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11853230744600296,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 84,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 85,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 86,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 87,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 88,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 89,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 90,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 91,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 92,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 93,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 94,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 95,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 96,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 97,
+      "wrist_deflection_deg": 6.962269233748342,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11918855458498001,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 98,
+      "wrist_deflection_deg": 7.085569943079528,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11853230744600296,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 99,
+      "wrist_deflection_deg": 7.441072751642229,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11664164811372757,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 100,
+      "wrist_deflection_deg": 8.007635235747495,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.11363423615694046,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 101,
+      "wrist_deflection_deg": 8.764547408058199,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.1096276119351387,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 102,
+      "wrist_deflection_deg": 9.691625205803307,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.10473943501710892,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 103,
+      "wrist_deflection_deg": 10.769034613406752,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.09908712655305862,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 104,
+      "wrist_deflection_deg": 11.977304469092116,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.09278823435306549,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 105,
+      "wrist_deflection_deg": 13.297136927133176,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.08596039563417435,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 106,
+      "wrist_deflection_deg": 14.709457830499025,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0787210538983345,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 107,
+      "wrist_deflection_deg": 16.195170824043952,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.07118798047304153,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 108,
+      "wrist_deflection_deg": 17.734949887511412,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.06347847729921341,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 109,
+      "wrist_deflection_deg": 19.30893966098417,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.05571020394563675,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 110,
+      "wrist_deflection_deg": 20.896507850526913,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.048000700771808624,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 111,
+      "wrist_deflection_deg": 22.475799558342896,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0404675155878067,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 112,
+      "wrist_deflection_deg": 24.02329332047788,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.03322828561067581,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 113,
+      "wrist_deflection_deg": 25.513452767172488,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.026400335133075714,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 114,
+      "wrist_deflection_deg": 26.91805555677622,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.020101554691791534,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 115,
+      "wrist_deflection_deg": 28.20622411159875,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.014449246227741241,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 116,
+      "wrist_deflection_deg": 29.343971410330084,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.009560950100421906,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 117,
+      "wrist_deflection_deg": 30.294703006944594,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.005554318428039551,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 118,
+      "wrist_deflection_deg": 31.020099832651216,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.002547025680541992,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 119,
+      "wrist_deflection_deg": 31.481670356382338,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0006563737988471985,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 120,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 121,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 122,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 123,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 124,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 125,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 126,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 127,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 128,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 129,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 130,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 131,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 132,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 133,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 134,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 135,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 136,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 137,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 138,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 139,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 140,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 141,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 142,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 143,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 144,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 145,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 146,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 147,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 148,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 149,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 150,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 151,
+      "wrist_deflection_deg": 31.642961858537603,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 152,
+      "wrist_deflection_deg": 31.643006254767208,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 153,
+      "wrist_deflection_deg": 31.648651406116223,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 154,
+      "wrist_deflection_deg": 31.67362940791096,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 155,
+      "wrist_deflection_deg": 31.735790959547245,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 156,
+      "wrist_deflection_deg": 31.85304140193427,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 157,
+      "wrist_deflection_deg": 32.04017833990886,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 158,
+      "wrist_deflection_deg": 32.306040038257024,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 159,
+      "wrist_deflection_deg": 32.65179445932683,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 160,
+      "wrist_deflection_deg": 33.07028356486809,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 161,
+      "wrist_deflection_deg": 33.54617016509956,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 162,
+      "wrist_deflection_deg": 34.05708539048944,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 163,
+      "wrist_deflection_deg": 34.575459182452974,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 164,
+      "wrist_deflection_deg": 35.07026540668538,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 165,
+      "wrist_deflection_deg": 35.50885575895399,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 166,
+      "wrist_deflection_deg": 35.858619501066585,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 167,
+      "wrist_deflection_deg": 36.08852025343463,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    },
+    {
+      "frame": 168,
+      "wrist_deflection_deg": 36.170646448014864,
+      "sole_z": {
+        "L": 1.5273690223693848e-07,
+        "R": 1.5273690223693848e-07
+      },
+      "tool_min_z": 0.0,
+      "surface_crossings": {}
+    }
+  ]
+}

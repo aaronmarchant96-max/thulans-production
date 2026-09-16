@@ -1,0 +1,18 @@
+{
+  "candidate": "/home/aaron/animation/thulans-production/blender/candidates/varek-carry-v15.blend",
+  "candidate_sha256": "538940d83aefd01dc527ea908a99d16efc55a920dd18f9fec1b9c8be4b18942b",
+  "parent_candidate_sha256": "397d6ec0d9d69dce423119693f25c5a8227767826d76effa31f74eb86a329b91",
+  "source_cloud": "/home/aaron/animation/thulans-production/evidence/varek-carry-v14/contact-cloud-v14.json",
+  "build_time_utc": "2026-09-09T21:00:09.516384+00:00",
+  "depth": 0.03,
+  "inset_thickness": 0.005,
+  "selected_faces": {
+    "L": 12,
+    "R": 7
+  },
+  "sweep_frames": 240,
+  "crossing_frames": 0,
+  "boundary_edges": 0,
+  "non_manifold_edges": 0,
+  "status": "PASS"
+}

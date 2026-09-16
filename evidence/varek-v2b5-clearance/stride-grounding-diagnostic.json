@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "candidate_sha256": "c40f2a3123655c0d266948e1f35ae1bccfc26231f4afdf0afbba25052bbe292b",
+  "floor_world_z_m": 0.0,
+  "frames": {
+    "1": {
+      "root_pose_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pelvis_head_world": [
+        0.0,
+        0.03,
+        0.98
+      ],
+      "ankle_heads_world": {
+        "L": [
+          -0.35,
+          -0.01,
+          0.24
+        ],
+        "R": [
+          0.35,
+          -0.01,
+          0.24
+        ]
+      },
+      "foot_clearance_m": {
+        "L": -0.0,
+        "R": -0.0
+      }
+    },
+    "40": {
+      "root_pose_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pelvis_head_world": [
+        0.0,
+        0.03,
+        0.98
+      ],
+      "ankle_heads_world": {
+        "L": [
+          -0.368605,
+          0.109511,
+          0.249044
+        ],
+        "R": [
+          0.329746,
+          -0.135147,
+          0.255276
+        ]
+      },
+      "foot_clearance_m": {
+        "L": -0.019404,
+        "R": -0.026726
+      }
+    }
+  },
+  "finding": {
+    "whole_body_root_translation_changed": false,
+    "pelvis_world_position_changed": false,
+    "ankle_chain_position_changed": true,
+    "classification": "stride_solver_missing_floor_contact_constraint",
+    "reason": "The root and pelvis remain fixed while FK thigh/shin rotations move both ankle chains below the floor; no planted-foot correction is authored.",
+    "authorized_correction": "Raise frame-40 root only until right support-foot contact is coincident with the floor; left foot remains a transition foot and must stay above the floor."
+  },
+  "candidate_unchanged": true
+}

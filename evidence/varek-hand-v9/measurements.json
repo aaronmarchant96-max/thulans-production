@@ -1,0 +1,36 @@
+{
+  "claim_class": "OBSERVED",
+  "source_sha256": "0c162d02e1ed46a7a312543ea75c61e203465ecd9d97f9149ef8277fda24d054",
+  "candidate_sha256": "d3aaa436ecd90ed1118ea1eb1beacf77d88a3cfb7fea6bce8f223b147fffa3ff",
+  "changed_meshes": [
+    "Donor forearm R",
+    "Donor rescue hand R",
+    "Gauntlet dorsal guard R",
+    "Gauntlet knuckle bar R",
+    "Wrist coupling R"
+  ],
+  "other_meshes_and_material_slots_unchanged": true,
+  "distal_forearm_vertices_changed": 94,
+  "finger_wrap_degrees": 245,
+  "nominal_finger_inner_radius_m_pre_normalization": 0.0377,
+  "wrist_bearing_radius_m_pre_normalization": 0.056,
+  "frames_checked": 72,
+  "max_relative_hand_tool_matrix_drift": 7.826916998965316e-07,
+  "tool_surface_crossings": {
+    "Donor forearm R / Maul shaft": 264,
+    "Donor forearm R / Maul grip": 256,
+    "Donor forearm R / Maul shaft ferrule.003": 61,
+    "Donor forearm R / Maul upper grip rib.002": 101,
+    "Donor forearm R / Maul upper grip rib.003": 86,
+    "Donor forearm R / Maul upper grip rib.004": 95,
+    "Donor rescue hand R / Maul shaft ferrule.003": 6
+  },
+  "result": "CONTACT_CROSSING_FAIL",
+  "human_review": "PENDING",
+  "exclusions": [
+    "full suit collision certification",
+    "finger opening animation",
+    "load simulation",
+    "left hand changes"
+  ]
+}

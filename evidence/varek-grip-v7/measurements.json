@@ -1,0 +1,18 @@
+{
+  "source_sha256": "78737cc9e08c4372b9a2b84ad1c9b0d9a895a9d35d988d8f6426c43b783b5876",
+  "changed_meshes": [
+    "Donor rescue hand R",
+    "Gauntlet dorsal guard R",
+    "Gauntlet knuckle bar R"
+  ],
+  "other_meshes_unchanged": true,
+  "claim_class": "OBSERVED",
+  "frame": 36,
+  "surface_crossings": {
+    "Donor rescue hand R / Maul shaft ferrule.003": 84
+  },
+  "contact_design": "38 mm inner finger radius around max 37 mm grip ribs, pre-normalization; three fingers plus opposed thumb",
+  "human_review": "PENDING",
+  "result": "CONTACT_CROSSING_FAIL",
+  "candidate_sha256": "77f96f511642aebc099b05116c46ff034b3573a10c2e59fff9d57e51448a17cf"
+}

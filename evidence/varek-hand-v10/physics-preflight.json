@@ -1,0 +1,70 @@
+{
+  "gate": "HAND_PHYSICS_PREFLIGHT",
+  "claim_class": "OBSERVED",
+  "candidate_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "result": "FAIL",
+  "failures": [
+    "independent_digit_motion_missing",
+    "wrist_travel_limits_missing",
+    "physics_world_missing",
+    "free_dynamic_tool_missing",
+    "human_rejected_wrong_side_of_wrist"
+  ],
+  "observations": {
+    "candidate_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+    "blender_version": "5.2.0 LTS",
+    "hand_weight_drivers": [
+      "hand.R"
+    ],
+    "digit_bones": [],
+    "digit_constraint_objects": [],
+    "wrist_limit_constraints": [],
+    "tool_part_names": [
+      "Fault Maul head",
+      "Forged oath collar",
+      "Maul accumulator band",
+      "Maul accumulator band.001",
+      "Maul cylinder saddle",
+      "Maul grip",
+      "Maul head collar",
+      "Maul impact piston",
+      "Maul lower grip rib",
+      "Maul lower grip rib.001",
+      "Maul lower grip rib.002",
+      "Maul lower grip rib.003",
+      "Maul lower grip rib.004",
+      "Maul lower grip rib.005",
+      "Maul pressure chamber",
+      "Maul replaceable striking shoe",
+      "Maul replaceable striking shoe.001",
+      "Maul shaft",
+      "Maul shaft ferrule",
+      "Maul shaft ferrule.001",
+      "Maul shaft ferrule.002",
+      "Maul shaft ferrule.003",
+      "Maul upper grip rib",
+      "Maul upper grip rib.001",
+      "Maul upper grip rib.002",
+      "Maul upper grip rib.003",
+      "Maul upper grip rib.004"
+    ],
+    "free_dynamic_tool_parts": [],
+    "independent_digit_motion": false,
+    "wrist_travel_limits": false,
+    "physics_world": false,
+    "free_dynamic_tool": false,
+    "gravity_enabled": true
+  },
+  "physics_simulation_executed": false,
+  "handoff_authorized": false,
+  "remaining_gates": [
+    "anatomy_and_mechanism_review",
+    "acquisition_and_release_path",
+    "finite_force_load_test",
+    "negative_controls",
+    "numerical_robustness",
+    "frozen_evidence_readback",
+    "human_approval"
+  ],
+  "candidate_unchanged": true
+}

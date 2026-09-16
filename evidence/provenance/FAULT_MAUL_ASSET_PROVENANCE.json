@@ -1,0 +1,44 @@
+{
+  "asset_name": "Thulan Fault Maul (Kitbash Assembly)",
+  "version": "1.0.0",
+  "license_policy": "CC0-1.0 Universal",
+  "donors": [
+    {
+      "donor_id": "sledgehammer_01",
+      "name": "Sledgehammer 01",
+      "source_url": "https://polyhaven.com/a/sledgehammer_01",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/sledgehammer_01/sledgehammer_01_1k.blend",
+      "license": "CC0",
+      "usage": "Primary head silhouette, striking face proportions, and main handle junction"
+    },
+    {
+      "donor_id": "cross_pein_hammer",
+      "name": "Cross Pein Hammer",
+      "source_url": "https://polyhaven.com/a/cross_pein_hammer",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/cross_pein_hammer/cross_pein_hammer_1k.blend",
+      "license": "CC0",
+      "usage": "Asymmetric breaker cross-pein wedge geometry"
+    },
+    {
+      "donor_id": "bench_vice_01",
+      "name": "Bench Vice 01",
+      "source_url": "https://polyhaven.com/a/bench_vice_01",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/bench_vice_01/bench_vice_01_1k.blend",
+      "license": "CC0",
+      "usage": "Cast neck housing, locking collar screw mechanism, and industrial service plates"
+    },
+    {
+      "donor_id": "modular_industrial_pipes_01",
+      "name": "Modular Industrial Pipes 01",
+      "source_url": "https://polyhaven.com/a/modular_industrial_pipes_01",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/modular_industrial_pipes_01/modular_industrial_pipes_01_1k.blend",
+      "license": "CC0",
+      "usage": "Nested telescoping shaft tubing, flanges, and coupling rings"
+    }
+  ],
+  "custom_components": [
+    "Thulan Inscribed Cheek-Plates",
+    "Breaker Face & Impact Shoe",
+    "Canonical Cylindrical Grip (32.0 mm outer diameter, 0.320 m axial COM target)"
+  ]
+}

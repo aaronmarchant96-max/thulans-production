@@ -1,0 +1,30 @@
+{
+  "candidate_sha256": "c420feaa0d01d0604ce466cc8fca8f7d032fe01f3c761083471484702fdc81ad",
+  "source_sha256": "9bf78724a82a0573e0c816597ed278e7214975e3aebdb027de63aa7084df810d",
+  "verified_render_counts": {
+    "motion": 56,
+    "motion-full": 56
+  },
+  "artifacts": {
+    "grip-motion.mp4": "cd8f4b696b526ea3bf2c3c9082f11248a9249bd6918f6aa8efba9682e3e05fb9",
+    "grip-and-lift.mp4": "65831950025c03b2112ffe41a38ae83336c6a43fb4debece7a8bd7495ff29715",
+    "measurements.json": "59d6c839da3510558755aba6dd8a46f5e1e2abd61dfee78bc39014a825bcb24b",
+    "saved-readback.json": "9967b32cea14d8721945041e5a4704b2503252d7ef7a9a698fd1abf4ddd75594",
+    "digit-clearance.json": "228dfa52435529fd3f95f5058fca656a5283dc61c870ec096cbb5911df24120b",
+    "physics-preflight.json": "68e2620ac77f6bb287c1a3b4195f0daed95b8a7b8d79c68179516e4277b77b39",
+    "full.png": "c604282ac312fbff72ea4d955ab17f056521b74fe96330a814dd10e6be4ead40",
+    "closed-front.png": "b36cf8662b59e0c32a32d82cc269dfb929a232082fbef0b2bce3ddb403baf890",
+    "wrist-outboard.png": "03f69a9ddcdd45d4448bb594140e2d923e506ab821f86b19ecebebb4ecc4beff",
+    "open-outboard.png": "2ea5d2c4bfc9e70bb502f8108ad25749d1705445a0140eb3201c1b1ad3996c4c",
+    "REVIEW.md": "755f4461e30d4bc98120c71cc596d8c3aa8c8d45a2dbd8867a1c1fb31f8a9d52"
+  },
+  "scripts": {
+    "build_varek_articulated_grip_v12.py": "58a7e5843acdaa941fb8f76f6a14cd76da69642bf12813c0076b891c0a9bfb5e",
+    "review_varek_articulated_grip.py": "6994d58eaf873664fb1c6fb3e64a36c3b57efa1ac0c5cdae9931fa6143434d26",
+    "check_varek_v12_digit_clearance.py": "fd34a9e47792b1f42d018aac0c2b53cc5ff4e61ae52273a0fd32a44249e4b126",
+    "render_varek_v12_full_motion.py": "af2f25958c7b6664b34941269d20f07bcc9f0fd862ca1fae62c55d9178c666a8"
+  },
+  "human_feedback": "yes great — closed still only",
+  "physical_handoff_authorized": false,
+  "worktree_note": "Unrelated trailer commits advanced HEAD to fcd78fa; no overlapping files. Existing README/audio/lore edits preserved."
+}

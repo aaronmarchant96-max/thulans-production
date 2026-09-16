@@ -1,0 +1,165 @@
+{
+  "source_sha256": "22801e4e4195948b916be146d445c61ab3f55e14b0a3c7a88eda2fec56b4398a",
+  "candidate_sha256": "775960dd420ca8832964ef1f3d624ef1516e596375e77740f95da5232c6073a7",
+  "neutral_binding_vertex_delta_before_piston_reseat_m": 4.924151790695877e-07,
+  "source_mesh_coordinates_unchanged": true,
+  "mechanical_adjustment": "Upper calf socket lowered 0.07 * normalization_factor m; cylinder lengths unchanged; neutral overlap added; maximum socket distance .355 * factor for .36 * factor total lengths",
+  "assignments": {
+    "Thoracic protective hull": "spine",
+    "Pelvic cradle": "pelvis",
+    "Abdominal protection": "pelvis",
+    "Neck seat": "spine",
+    "Operator cell": "head",
+    "Visor recessed seat": "head",
+    "Amber protected slit": "head",
+    "Helmet brow": "head",
+    "Thoracic rail L": "spine",
+    "Dorsal rail L": "spine",
+    "Yoke bearing L": "spine",
+    "Shoulder pivot L": "upper_arm.L",
+    "Shoulder collar L": "upper_arm.L",
+    "Donor upper arm L": "upper_arm.L",
+    "Elbow axle L": "forearm.L",
+    "Donor forearm L": "forearm.L",
+    "Donor rescue hand L": "hand.L",
+    "Wrist coupling L": "hand.L",
+    "Hip axle L": "thigh.L",
+    "Donor thigh L": "thigh.L",
+    "Thigh guard L": "thigh.L",
+    "Knee axle L": "shin.L",
+    "Knee bearing L": "shin.L",
+    "Donor shin L": "shin.L",
+    "Forged foot housing L": "foot.L",
+    "Anchor sole L": "foot.L",
+    "Folded heel anchor L": "foot.L",
+    "Calf ram body L": "TELESCOPIC",
+    "Calf ram rod L": "TELESCOPIC",
+    "Thoracic rail R": "spine",
+    "Dorsal rail R": "spine",
+    "Yoke bearing R": "spine",
+    "Shoulder pivot R": "upper_arm.R",
+    "Shoulder collar R": "upper_arm.R",
+    "Donor upper arm R": "upper_arm.R",
+    "Elbow axle R": "forearm.R",
+    "Donor forearm R": "forearm.R",
+    "Donor rescue hand R": "hand.R",
+    "Wrist coupling R": "hand.R",
+    "Hip axle R": "thigh.R",
+    "Donor thigh R": "thigh.R",
+    "Thigh guard R": "thigh.R",
+    "Knee axle R": "shin.R",
+    "Knee bearing R": "shin.R",
+    "Donor shin R": "shin.R",
+    "Forged foot housing R": "foot.R",
+    "Anchor sole R": "foot.R",
+    "Folded heel anchor R": "foot.R",
+    "Calf ram body R": "TELESCOPIC",
+    "Calf ram rod R": "TELESCOPIC",
+    "Continuous forged yoke": "spine",
+    "Gren Skildus": "upper_arm.L",
+    "Integrated engine": "spine",
+    "Cooling louvre": "spine",
+    "Cooling louvre.001": "spine",
+    "Cooling louvre.002": "spine",
+    "Exhaust": "spine",
+    "Winch cable drum": "spine",
+    "Winch flange": "spine",
+    "Winch flange.001": "spine",
+    "Fault Maul head": "tool",
+    "Maul impact piston": "tool",
+    "Maul head collar": "tool",
+    "Maul shaft": "tool",
+    "Maul grip": "tool",
+    "Inner oath": "spine",
+    "Gauntlet dorsal guard L": "hand.L",
+    "Gauntlet knuckle bar L": "hand.L",
+    "Gauntlet dorsal guard R": "hand.R",
+    "Gauntlet knuckle bar R": "hand.R",
+    "Maul replaceable striking shoe": "tool",
+    "Maul replaceable striking shoe.001": "tool",
+    "Maul pressure chamber": "tool",
+    "Maul accumulator band": "tool",
+    "Maul accumulator band.001": "tool",
+    "Maul cylinder saddle": "tool",
+    "Forged oath collar": "tool",
+    "Maul shaft ferrule": "tool",
+    "Maul shaft ferrule.001": "tool",
+    "Maul shaft ferrule.002": "tool",
+    "Maul shaft ferrule.003": "tool",
+    "Maul lower grip rib": "tool",
+    "Maul lower grip rib.001": "tool",
+    "Maul lower grip rib.002": "tool",
+    "Maul lower grip rib.003": "tool",
+    "Maul lower grip rib.004": "tool",
+    "Maul lower grip rib.005": "tool",
+    "Maul upper grip rib": "tool",
+    "Maul upper grip rib.001": "tool",
+    "Maul upper grip rib.002": "tool",
+    "Maul upper grip rib.003": "tool",
+    "Maul upper grip rib.004": "tool"
+  },
+  "poses": [
+    {
+      "frame": 1,
+      "pose": "neutral",
+      "sole_min_z_m": {
+        "L": 7.450580596923828e-09,
+        "R": 7.450580596923828e-09
+      },
+      "elbow_chain_gap_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "calf_socket_distance_m": {
+        "L": 0.2880391487014484,
+        "R": 0.2880391487014484
+      },
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 30,
+      "pose": "raised-arms",
+      "sole_min_z_m": {
+        "L": 7.450580596923828e-09,
+        "R": 7.450580596923828e-09
+      },
+      "elbow_chain_gap_m": {
+        "L": 3.29514509253144e-07,
+        "R": 3.29514509253144e-07
+      },
+      "calf_socket_distance_m": {
+        "L": 0.2880391487014484,
+        "R": 0.2880391487014484
+      },
+      "new_surface_crossings": {}
+    },
+    {
+      "frame": 60,
+      "pose": "planted-work",
+      "sole_min_z_m": {
+        "L": -9.313225746154785e-08,
+        "R": -1.043081283569336e-07
+      },
+      "elbow_chain_gap_m": {
+        "L": 5.462855929083633e-07,
+        "R": 7.275674114068569e-07
+      },
+      "calf_socket_distance_m": {
+        "L": 0.3492148594085351,
+        "R": 0.3492148310918843
+      },
+      "new_surface_crossings": {}
+    }
+  ],
+  "collision_scope": "New surface intersections at declared arm/yoke/torso and shin/thigh pairs only; baseline intersections reported separately; not full collision certification",
+  "baseline_surface_crossings": {},
+  "human_review": "PENDING",
+  "continuous_motion_validated": false,
+  "findings": [],
+  "result": "SAMPLED_CHECKS_PASS_VISUAL_REVIEW_PENDING",
+  "renders": {
+    "raised-arms.png": "cbcb9164fc19947581593e3e86db4e9256c08e10a9a849abfecd35f2d4384896",
+    "planted-work.png": "4014160ce382783917baf2b532666286d767a6a68d06937583ad40c7f7ef2b83",
+    "neutral.png": "69b5493e7db5fdb31a3c0f36458a1e2e743d977f1761bbf83ecfb2b16628433f"
+  }
+}

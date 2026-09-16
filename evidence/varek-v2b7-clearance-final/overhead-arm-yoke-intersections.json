@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40",
+  "frame": 60,
+  "arm_objects_checked": 39,
+  "yoke_objects_checked": 25,
+  "intersections": [
+    {
+      "arm_object": "Arm_Ram_L",
+      "arm_bone": "forearm.L",
+      "yoke_object": "Yoke_Gusset_L",
+      "triangle_pair_count": 8
+    },
+    {
+      "arm_object": "Arm_Ram_R",
+      "arm_bone": "forearm.R",
+      "yoke_object": "Yoke_Gusset_R",
+      "triangle_pair_count": 8
+    },
+    {
+      "arm_object": "Gren_Skildus",
+      "arm_bone": "upper_arm.L",
+      "yoke_object": "Yoke_Gusset_L",
+      "triangle_pair_count": 18
+    },
+    {
+      "arm_object": "Manipulator_Digit_L_1",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Depth_R_1",
+      "triangle_pair_count": 19
+    },
+    {
+      "arm_object": "Manipulator_Digit_L_2",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Depth_R_1",
+      "triangle_pair_count": 16
+    },
+    {
+      "arm_object": "Manipulator_Digit_L_3",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Depth_R_1",
+      "triangle_pair_count": 16
+    },
+    {
+      "arm_object": "Manipulator_Digit_R_0",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Depth_L_1",
+      "triangle_pair_count": 16
+    },
+    {
+      "arm_object": "Manipulator_Digit_R_1",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Depth_L_1",
+      "triangle_pair_count": 16
+    },
+    {
+      "arm_object": "Manipulator_Digit_R_2",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Depth_L_1",
+      "triangle_pair_count": 19
+    },
+    {
+      "arm_object": "Manipulator_Palm_L",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Gusset_R",
+      "triangle_pair_count": 10
+    },
+    {
+      "arm_object": "Manipulator_Palm_R",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Gusset_L",
+      "triangle_pair_count": 10
+    },
+    {
+      "arm_object": "Manipulator_Tip_L_1",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Depth_R_1",
+      "triangle_pair_count": 29
+    },
+    {
+      "arm_object": "Manipulator_Tip_L_2",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Depth_R_1",
+      "triangle_pair_count": 10
+    },
+    {
+      "arm_object": "Manipulator_Tip_L_3",
+      "arm_bone": "hand.L",
+      "yoke_object": "Yoke_Depth_R_1",
+      "triangle_pair_count": 22
+    },
+    {
+      "arm_object": "Manipulator_Tip_R_0",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Depth_L_1",
+      "triangle_pair_count": 22
+    },
+    {
+      "arm_object": "Manipulator_Tip_R_1",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Depth_L_1",
+      "triangle_pair_count": 10
+    },
+    {
+      "arm_object": "Manipulator_Tip_R_2",
+      "arm_bone": "hand.R",
+      "yoke_object": "Yoke_Depth_L_1",
+      "triangle_pair_count": 29
+    },
+    {
+      "arm_object": "Shoulder_Pivot_L",
+      "arm_bone": "upper_arm.L",
+      "yoke_object": "Yoke_Gusset_L",
+      "triangle_pair_count": 23
+    },
+    {
+      "arm_object": "Shoulder_Pivot_L",
+      "arm_bone": "upper_arm.L",
+      "yoke_object": "Yoke_Riser_L_Front",
+      "triangle_pair_count": 19
+    },
+    {
+      "arm_object": "Shoulder_Pivot_L",
+      "arm_bone": "upper_arm.L",
+      "yoke_object": "Yoke_Riser_L_Rear",
+      "triangle_pair_count": 4
+    },
+    {
+      "arm_object": "Shoulder_Pivot_R",
+      "arm_bone": "upper_arm.R",
+      "yoke_object": "Yoke_Gusset_R",
+      "triangle_pair_count": 23
+    },
+    {
+      "arm_object": "Shoulder_Pivot_R",
+      "arm_bone": "upper_arm.R",
+      "yoke_object": "Yoke_Riser_R_Front",
+      "triangle_pair_count": 19
+    },
+    {
+      "arm_object": "Shoulder_Pivot_R",
+      "arm_bone": "upper_arm.R",
+      "yoke_object": "Yoke_Riser_R_Rear",
+      "triangle_pair_count": 4
+    },
+    {
+      "arm_object": "UpperArm_L_INNER",
+      "arm_bone": "upper_arm.L",
+      "yoke_object": "Yoke_Gusset_L",
+      "triangle_pair_count": 19
+    },
+    {
+      "arm_object": "UpperArm_L_OUTER",
+      "arm_bone": "upper_arm.L",
+      "yoke_object": "Yoke_Gusset_L",
+      "triangle_pair_count": 9
+    },
+    {
+      "arm_object": "UpperArm_R_INNER",
+      "arm_bone": "upper_arm.R",
+      "yoke_object": "Yoke_Gusset_R",
+      "triangle_pair_count": 19
+    },
+    {
+      "arm_object": "UpperArm_R_OUTER",
+      "arm_bone": "upper_arm.R",
+      "yoke_object": "Yoke_Gusset_R",
+      "triangle_pair_count": 9
+    }
+  ],
+  "intersection_pair_count": 27,
+  "candidate_unchanged": true
+}

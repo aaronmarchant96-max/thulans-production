@@ -1,0 +1,12 @@
+{
+  "result": "FAIL",
+  "interface": "calf-piston.stroke",
+  "frame": 60,
+  "side": "L",
+  "socket_distance_m": 0.41861347967508045,
+  "declared_range_m": [
+    0.19864766401450673,
+    0.39729532802901346
+  ],
+  "source_sha256": "22801e4e4195948b916be146d445c61ab3f55e14b0a3c7a88eda2fec56b4398a"
+}

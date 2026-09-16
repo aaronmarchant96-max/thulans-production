@@ -1,0 +1,33 @@
+{
+  "source_sha256": "751985a4a5b9fc21fc2a5edb386b9b8001901af0f16f15b445b8ed085bc49c88",
+  "candidate_sha256": "22801e4e4195948b916be146d445c61ab3f55e14b0a3c7a88eda2fec56b4398a",
+  "height_m": 2.4384000301361084,
+  "floor_z": 0.0,
+  "donor_objects": [
+    "Donor upper arm L",
+    "Donor forearm L",
+    "Donor rescue hand L",
+    "Donor thigh L",
+    "Donor shin L",
+    "Donor upper arm R",
+    "Donor forearm R",
+    "Donor rescue hand R",
+    "Donor thigh R",
+    "Donor shin R"
+  ],
+  "changes": [
+    "curved tapered chest",
+    "fuller donor shins",
+    "donor hand curl and protective guards",
+    "powered maul hardware",
+    "recessed collar oath",
+    "subdued iron/brass"
+  ],
+  "rig_validated": false,
+  "human_review": "PENDING",
+  "source_unchanged": true,
+  "renders": {
+    "front.png": "7e9bbbe26a62e96a5ce988aa122fd6a8bcef9013272a8936969da0aeaea19c8d",
+    "maul.png": "f29bb62f64637fe0ef9a518242f8ed2da29a0bd96629e42897978537d3cb92b4"
+  }
+}

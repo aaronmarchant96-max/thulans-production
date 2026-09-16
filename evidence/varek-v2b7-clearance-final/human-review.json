@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "claim_class": "OBSERVED",
+  "gate": "VAREK_V2B_MOTION_VISUAL",
+  "decision": "APPROVED",
+  "approver": "Aaron",
+  "candidate_sha256": "ccc8cd8fb3083f5c1298f3e2d046fb054752208597e7641c3051fe12d3cf6c40",
+  "poses": {
+    "neutral": "PASS",
+    "a_pose": "PASS",
+    "asymmetric_stride": "PASS",
+    "overhead_brace": "PASS",
+    "anchor_state": "PASS"
+  },
+  "observations": {
+    "rigid_module_continuity_preserved": true,
+    "required_feet_visually_grounded": true,
+    "unacceptable_penetration_visible_in_supplied_views": false,
+    "v2a1_primary_geometry_visually_preserved": true
+  },
+  "scope": "HUMAN_VISUAL_REVIEW_ONLY",
+  "machine_clearance_gate": "FAIL",
+  "machine_clearance_finding": "overhead-brace.manipulator-yoke-depth-clearance"
+}

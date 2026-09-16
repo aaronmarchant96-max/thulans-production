@@ -1,0 +1,1369 @@
+{
+  "gate": "VAREK_CLEARANCE_AUDIT",
+  "candidate": "/home/aaron/animation/thulans-production/blender/candidates/varek-v41-clean-functional.blend",
+  "candidate_sha256": "ec0d66e5033afda4e7d9b2c824ae33462018bdc2afd67dec5011202affcfef71",
+  "rig": "Varek simple articulation",
+  "action": "Varek_Heavy_Forward_Walk_Cycle_48F",
+  "frames": [
+    1,
+    49
+  ],
+  "pose_activity": {
+    "pelvis": 5,
+    "thigh.L": 5,
+    "thigh.R": 5
+  },
+  "pose_activity_ok": true,
+  "envelope": {
+    "z_min": -0.084945,
+    "z_max": 2.441446,
+    "height": 2.526391,
+    "canonical_height": 2.4384,
+    "ground_ok": false,
+    "height_ok": false
+  },
+  "prohibited_pairs": [
+    [
+      "Pelvic cradle",
+      "Donor thigh L"
+    ],
+    [
+      "Pelvic cradle",
+      "Donor thigh R"
+    ],
+    [
+      "Pelvic cradle",
+      "Thigh guard L"
+    ],
+    [
+      "Pelvic cradle",
+      "Thigh guard R"
+    ],
+    [
+      "Thigh guard L",
+      "Donor thigh L"
+    ],
+    [
+      "Thigh guard R",
+      "Donor thigh R"
+    ],
+    [
+      "Donor thigh L",
+      "Donor thigh R"
+    ],
+    [
+      "Donor shin L",
+      "Donor shin R"
+    ],
+    [
+      "Knee bearing L",
+      "Donor thigh L"
+    ],
+    [
+      "Knee bearing R",
+      "Donor thigh R"
+    ],
+    [
+      "Forged foot housing L",
+      "Forged foot housing R"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor upper arm L"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor upper arm R"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor forearm L"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor forearm R"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor rescue hand L"
+    ],
+    [
+      "Thoracic protective hull",
+      "Donor rescue hand R"
+    ],
+    [
+      "Shoulder collar L",
+      "Thoracic protective hull"
+    ],
+    [
+      "Shoulder collar R",
+      "Thoracic protective hull"
+    ],
+    [
+      "Donor upper arm L",
+      "Donor upper arm R"
+    ],
+    [
+      "Donor forearm L",
+      "Donor forearm R"
+    ],
+    [
+      "Donor rescue hand L",
+      "Donor rescue hand R"
+    ]
+  ],
+  "prohibited_hits": [
+    {
+      "frame": 1,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 1,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 1,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 1,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 1,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 2,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 2,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 2,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 2,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 2,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 3,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 3,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 3,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 3,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 3,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 4,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 4,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 4,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 4,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 4,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 5,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 5,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 5,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 5,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 5,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 6,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 6,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 6,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 6,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 6,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 7,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 7,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 7,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 7,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 7,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 8,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 8,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 8,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 8,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 8,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 9,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 9,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 9,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 9,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 10,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 10,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 10,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 10,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 11,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 11,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 11,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 11,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 12,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 12,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 12,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 12,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 13,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 13,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 13,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 13,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 14,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 14,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 14,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 14,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 15,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 15,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 15,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 15,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 16,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 16,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 16,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 16,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 17,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 17,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 17,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 17,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 17,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 18,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 18,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 18,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 18,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 18,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 19,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 19,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 19,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 19,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 19,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 20,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 20,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 20,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 20,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 20,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 21,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 21,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 21,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 21,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 21,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 22,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 22,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 22,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 22,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 22,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 23,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 23,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 23,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 23,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 23,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 24,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 24,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 24,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 24,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 24,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 25,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 25,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 25,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 25,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 25,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 26,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 26,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 26,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 26,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 26,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 27,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 27,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 27,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 27,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 27,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 28,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 28,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 28,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 28,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 28,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 29,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 29,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 29,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 29,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 29,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 30,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 30,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 30,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 30,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 30,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 31,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 31,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 31,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 31,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 31,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 32,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard L"
+    },
+    {
+      "frame": 32,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 32,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 32,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 32,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 33,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 33,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 33,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 33,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 34,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 34,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 34,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 34,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 35,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 35,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 35,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 35,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 36,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 36,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 36,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 36,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 37,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 37,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 37,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 37,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 38,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 38,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 38,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 38,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 39,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 39,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 39,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 39,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 40,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 40,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 40,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 40,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 41,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 41,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 41,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 41,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 41,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 42,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 42,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 42,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 42,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 42,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 43,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 43,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 43,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 43,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 43,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 44,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 44,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 44,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 44,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 44,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 45,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 45,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 45,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 45,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 45,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 46,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 46,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 46,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 46,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 46,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 47,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 47,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 47,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 47,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 47,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 48,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 48,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 48,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 48,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 48,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 49,
+      "a": "Pelvic cradle",
+      "b": "Thigh guard R"
+    },
+    {
+      "frame": 49,
+      "a": "Thigh guard L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 49,
+      "a": "Thigh guard R",
+      "b": "Donor thigh R"
+    },
+    {
+      "frame": 49,
+      "a": "Knee bearing L",
+      "b": "Donor thigh L"
+    },
+    {
+      "frame": 49,
+      "a": "Knee bearing R",
+      "b": "Donor thigh R"
+    }
+  ],
+  "review_overlaps": {
+    "Calf ram body L <-> Calf ram rod L": 49,
+    "Calf ram body R <-> Calf ram rod R": 49,
+    "Donor forearm L <-> Donor rescue hand L": 49,
+    "Donor forearm L <-> Elbow axle L": 49,
+    "Donor forearm L <-> Gren Skildus": 49,
+    "Donor forearm L <-> Wrist coupling L": 49,
+    "Donor forearm R <-> Donor rescue hand R": 49,
+    "Donor forearm R <-> Elbow axle R": 49,
+    "Donor forearm R <-> Wrist coupling R": 49,
+    "Donor rescue hand L <-> Gauntlet knuckle bar L": 49,
+    "Donor rescue hand L <-> Wrist coupling L": 49,
+    "Donor rescue hand R <-> Wrist coupling R": 49,
+    "Donor thigh L <-> Hip axle L": 49,
+    "Donor thigh L <-> Knee axle L": 49,
+    "Donor thigh L <-> Knee_Mechanical_Rotary_Hub_L": 49,
+    "Donor thigh L <-> Knee_Pivot_Cap_L_1.0": 49,
+    "Donor thigh R <-> Hip axle R": 49,
+    "Donor thigh R <-> Knee axle R": 49,
+    "Donor thigh R <-> Knee_Mechanical_Rotary_Hub_R": 49,
+    "Donor thigh R <-> Knee_Pivot_Cap_R_-1.0": 49,
+    "Donor upper arm L <-> Elbow axle L": 49,
+    "Donor upper arm L <-> Gren Skildus": 49,
+    "Donor upper arm L <-> Shoulder collar L": 49,
+    "Donor upper arm L <-> Shoulder pivot L": 49,
+    "Donor upper arm R <-> Elbow axle R": 49,
+    "Donor upper arm R <-> Shoulder collar R": 49,
+    "Donor upper arm R <-> Shoulder pivot R": 49,
+    "Elbow axle L <-> Gren Skildus": 49,
+    "Gren Skildus <-> Gren_Skildus_Bronze_Brooch": 49,
+    "Gren Skildus <-> Shoulder collar L": 49,
+    "Gren Skildus <-> Shoulder pivot L": 49,
+    "Gren_Skildus_Bronze_Brooch <-> Shoulder collar L": 49,
+    "Gren_Skildus_Bronze_Brooch <-> Shoulder pivot L": 49,
+    "Hip axle L <-> Pelvic cradle": 49,
+    "Hip axle L <-> Thigh guard L": 49,
+    "Hip axle R <-> Pelvic cradle": 49,
+    "Hip axle R <-> Thigh guard R": 49,
+    "Knee axle L <-> Knee bearing L": 49,
+    "Knee axle L <-> Knee_Mechanical_Rotary_Hub_L": 49,
+    "Knee axle L <-> Thigh guard L": 49,
+    "Knee axle R <-> Knee bearing R": 49,
+    "Knee axle R <-> Knee_Mechanical_Rotary_Hub_R": 49,
+    "Knee axle R <-> Thigh guard R": 49,
+    "Knee bearing L <-> Knee_Mechanical_Rotary_Hub_L": 49,
+    "Knee bearing L <-> Knee_Pivot_Cap_L_1.0": 49,
+    "Knee bearing L <-> Thigh guard L": 49,
+    "Knee bearing R <-> Knee_Mechanical_Rotary_Hub_R": 49,
+    "Knee bearing R <-> Knee_Pivot_Cap_R_-1.0": 49,
+    "Knee bearing R <-> Thigh guard R": 49,
+    "Knee_Mechanical_Rotary_Hub_L <-> Knee_Pivot_Cap_L_-1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_L <-> Knee_Pivot_Cap_L_1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_L <-> Thigh guard L": 49,
+    "Knee_Mechanical_Rotary_Hub_R <-> Knee_Pivot_Cap_R_-1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_R <-> Knee_Pivot_Cap_R_1.0": 49,
+    "Knee_Mechanical_Rotary_Hub_R <-> Thigh guard R": 49,
+    "Knee_Pivot_Cap_L_-1.0 <-> Thigh guard L": 49,
+    "Knee_Pivot_Cap_L_1.0 <-> Thigh guard L": 49,
+    "Knee_Pivot_Cap_R_-1.0 <-> Thigh guard R": 49,
+    "Knee_Pivot_Cap_R_1.0 <-> Thigh guard R": 49,
+    "Operator cell <-> Thoracic protective hull": 49,
+    "Operator cell <-> Varek_Helmet_CheekCowl_L": 49,
+    "Operator cell <-> Varek_Helmet_CheekCowl_R": 49,
+    "Operator cell <-> Varek_Neck_GimbalRing": 49,
+    "Operator cell <-> Varek_Respirator_Canister_L": 49,
+    "Operator cell <-> Varek_Respirator_Canister_R": 49,
+    "Operator cell <-> Varek_Respirator_IntakeRing_L": 49,
+    "Operator cell <-> Varek_Respirator_IntakeRing_R": 49,
+    "Pelvic cradle <-> Thoracic protective hull": 49,
+    "Shoulder collar L <-> Shoulder pivot L": 49,
+    "Shoulder collar R <-> Shoulder pivot R": 49,
+    "Thigh_V_Left <-> Thigh_V_Right": 49,
+    "Thoracic protective hull <-> Varek_Neck_GimbalRing": 49,
+    "Thoracic protective hull <-> Varek_Respirator_Canister_L": 49,
+    "Thoracic protective hull <-> Varek_Respirator_Canister_R": 49,
+    "Varek_Helmet_CheekCowl_L <-> Varek_Respirator_Canister_L": 49,
+    "Varek_Helmet_CheekCowl_L <-> Varek_Respirator_IntakeRing_L": 49,
+    "Varek_Helmet_CheekCowl_R <-> Varek_Respirator_Canister_R": 49,
+    "Varek_Helmet_CheekCowl_R <-> Varek_Respirator_IntakeRing_R": 49,
+    "Varek_Respirator_Canister_L <-> Varek_Respirator_IntakeRing_L": 49,
+    "Varek_Respirator_Canister_R <-> Varek_Respirator_IntakeRing_R": 49,
+    "Knee axle R <-> Knee_Pivot_Cap_R_-1.0": 7,
+    "Knee axle L <-> Knee_Pivot_Cap_L_1.0": 7
+  },
+  "self_intersections": {
+    "Donor forearm L": 1107,
+    "Donor forearm R": 63,
+    "Donor rescue hand L": 2,
+    "Donor rescue hand R": 2749,
+    "Donor thigh L": 433,
+    "Donor thigh R": 432,
+    "Donor upper arm L": 304,
+    "Donor upper arm R": 220,
+    "Forged oath collar": 426,
+    "Pelvic cradle": 829,
+    "Thoracic_Foundry_Rivets.001": 350
+  },
+  "renders": {
+    "front": "audit-front.png",
+    "side": "audit-side.png"
+  },
+  "verdict": "FAIL",
+  "fail_reasons": [
+    "229 prohibited intersections",
+    "11 self-intersecting meshes"
+  ],
+  "claim": "229 prohibited intersections; 11 self-intersecting meshes"
+}
