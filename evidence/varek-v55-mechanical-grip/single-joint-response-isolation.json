@@ -1,0 +1,176 @@
+{
+  "derivative_file": "/home/aaron/animation/thulans-production/blender/candidates/varek-v55-hand-physics.blend",
+  "derivative_sha256": "55f10f05b6d2a5bae6dfba993a62306653fdda2972b29eafbe19ad9911b9bc48",
+  "single_joint_isolation_results": [
+    {
+      "joint_label": "Digit2 MCP",
+      "parent": "Palm_Plate_L",
+      "child": "Digit2_Phalanx1_L",
+      "command_sign": 1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -15.628939656269264,
+      "signed_delta_deg": -15.628939656269264,
+      "limit_contract_deg": [
+        -10.0,
+        90.0
+      ],
+      "dist_to_lower_stop_deg": -5.628939656269264,
+      "dist_to_upper_stop_deg": 105.62893965626927,
+      "motor_impulse_cap": 2.0,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Digit2 MCP",
+      "parent": "Palm_Plate_L",
+      "child": "Digit2_Phalanx1_L",
+      "command_sign": -1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -4.859107659770476,
+      "signed_delta_deg": -4.859107659770476,
+      "limit_contract_deg": [
+        -10.0,
+        90.0
+      ],
+      "dist_to_lower_stop_deg": 5.140892340229524,
+      "dist_to_upper_stop_deg": 94.85910765977047,
+      "motor_impulse_cap": 2.0,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Digit2 PIP",
+      "parent": "Digit2_Phalanx1_L",
+      "child": "Digit2_Phalanx2_L",
+      "command_sign": 1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -13.682624431582882,
+      "signed_delta_deg": -13.682624431582882,
+      "limit_contract_deg": [
+        0.0,
+        80.0
+      ],
+      "dist_to_lower_stop_deg": -13.682624431582882,
+      "dist_to_upper_stop_deg": 93.68262443158288,
+      "motor_impulse_cap": 1.0,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Digit2 PIP",
+      "parent": "Digit2_Phalanx1_L",
+      "child": "Digit2_Phalanx2_L",
+      "command_sign": -1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -0.004192165402987795,
+      "signed_delta_deg": -0.004192165402987795,
+      "limit_contract_deg": [
+        0.0,
+        80.0
+      ],
+      "dist_to_lower_stop_deg": -0.004192165402987795,
+      "dist_to_upper_stop_deg": 80.00419216540298,
+      "motor_impulse_cap": 1.0,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Digit2 DIP",
+      "parent": "Digit2_Phalanx2_L",
+      "child": "Digit2_Phalanx3_L",
+      "command_sign": 1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": 0.004349555737348849,
+      "signed_delta_deg": 0.004349555737348849,
+      "limit_contract_deg": [
+        0.0,
+        80.0
+      ],
+      "dist_to_lower_stop_deg": 0.004349555737348849,
+      "dist_to_upper_stop_deg": 79.99565044426265,
+      "motor_impulse_cap": 0.5,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Digit2 DIP",
+      "parent": "Digit2_Phalanx2_L",
+      "child": "Digit2_Phalanx3_L",
+      "command_sign": -1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": 0.000556665890253837,
+      "signed_delta_deg": 0.000556665890253837,
+      "limit_contract_deg": [
+        0.0,
+        80.0
+      ],
+      "dist_to_lower_stop_deg": 0.000556665890253837,
+      "dist_to_upper_stop_deg": 79.99944333410974,
+      "motor_impulse_cap": 0.5,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Thumb Proximal",
+      "parent": "Palm_Plate_L",
+      "child": "Thumb_Phalanx1_L",
+      "command_sign": 1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -80.94071267824381,
+      "signed_delta_deg": -80.94071267824381,
+      "limit_contract_deg": [
+        -15.0,
+        85.0
+      ],
+      "dist_to_lower_stop_deg": -65.94071267824381,
+      "dist_to_upper_stop_deg": 165.9407126782438,
+      "motor_impulse_cap": 2.5,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Thumb Proximal",
+      "parent": "Palm_Plate_L",
+      "child": "Thumb_Phalanx1_L",
+      "command_sign": -1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -62.529999241820406,
+      "signed_delta_deg": -62.529999241820406,
+      "limit_contract_deg": [
+        -15.0,
+        85.0
+      ],
+      "dist_to_lower_stop_deg": -47.529999241820406,
+      "dist_to_upper_stop_deg": 147.5299992418204,
+      "motor_impulse_cap": 2.5,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Thumb Distal",
+      "parent": "Thumb_Phalanx1_L",
+      "child": "Thumb_Phalanx2_L",
+      "command_sign": 1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -11.764272860690175,
+      "signed_delta_deg": -11.764272860690175,
+      "limit_contract_deg": [
+        0.0,
+        80.0
+      ],
+      "dist_to_lower_stop_deg": -11.764272860690175,
+      "dist_to_upper_stop_deg": 91.76427286069017,
+      "motor_impulse_cap": 1.2000000476837158,
+      "pivot_translation_error_m": 0.0
+    },
+    {
+      "joint_label": "Thumb Distal",
+      "parent": "Thumb_Phalanx1_L",
+      "child": "Thumb_Phalanx2_L",
+      "command_sign": -1.0,
+      "start_angle_deg": 0.0,
+      "end_angle_deg": -0.00032859745775140956,
+      "signed_delta_deg": -0.00032859745775140956,
+      "limit_contract_deg": [
+        0.0,
+        80.0
+      ],
+      "dist_to_lower_stop_deg": -0.00032859745775140956,
+      "dist_to_upper_stop_deg": 80.00032859745775,
+      "motor_impulse_cap": 1.2000000476837158,
+      "pivot_translation_error_m": 0.0
+    }
+  ]
+}

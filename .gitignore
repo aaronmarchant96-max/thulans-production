@@ -23,3 +23,9 @@ assets/donors/*/source.zip
 
 # Raw probe dumps (hash-bound JSON is the evidence of record)
 evidence/**/probe.json
+
+# Generated render iteration output (keep curated concept sheets + hash-bound JSON;
+# route large masters through Git LFS when available)
+evidence/**/*.png
+assets/art/*.png
+assets/audio/The_Song_of_the_Wahlja_Master.wav
