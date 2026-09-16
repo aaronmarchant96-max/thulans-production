@@ -1,6 +1,6 @@
 # State of the Production
 *The Thulans — Ground Truth, Asset Status & Critical Path*  
-*Path: `docs/STATE_OF_PRODUCTION.md` | Date: 2026-09-11 (Updated under RULINGS 023-031)*
+*Path: `docs/STATE_OF_PRODUCTION.md` | Date: 2026-09-15 (Bible reconciled to RULINGS 022–031 — see `THE_THULANS_LORE_BIBLE_v3.md` v3.2)*
 
 ---
 
@@ -14,6 +14,7 @@ On the 3D technical production side, the mechanical Left Hand rig (`varek-v55-me
 ### 1. What Is Built & Working
 
 * **Narrative, Canon & World Architecture (100% Locked & De-Slopped):**
+  * **Governing Spine Reconciliation (2026-09-15):** `THE_THULANS_LORE_BIBLE_v3.md` v3.2 now folds RULINGS 027–031 back into the governing spine (absolute death, residual machine, 3,000/300 timeline, Sanna/Haila kin, grounded physics). `RULINGS.md` remains controlling on conflict.
   * **Master Novella & Prose:** [`THE_DISMANTLING_OF_VAREK.md`](file:///home/aaron/animation/thulans-production/docs/THE_DISMANTLING_OF_VAREK.md) and [`VAREK_ACTS_ONE_AND_TWO.md`](file:///home/aaron/animation/thulans-production/docs/VAREK_ACTS_ONE_AND_TWO.md). Granular, tactile human prose; zero AI boilerplate or melodrama.
   * **Unified Spine (RULING 029):** Wulfila (19), Haila, Bram (14), and Sanna (18) are a single family core across a 40-day tragedy. Varek's complicity in Wulfila's sacrifice drives his rescue of Bram and his voluntary dismantling in Lower Four.
   * **Demographic Scale & Historical Decay (RULING 030):**

@@ -1,6 +1,25 @@
 # FAMILIAR STONE (THE WEIGHT OF A LIE)
 *Official Teaser Trailer Theme & Ballad for The Thulans*
 
+Canon notes (RULINGS 005, 016, 017):
+- **Narrator:** Sung by **Varek**, bearing witness to Wulfila of Azg-Haíms — third-person
+  "a boy... his sister"; first-person for the rig and his own memories.
+- **Depth idiom:** *"five leagues below"* is folk/hearth measure per RULING 017. The
+  metric scale — 2,000 m Great Central Rift / Industrial Chasm — is governed by
+  `shots/TRAILER_AUDIO_MAP_78BPM.md`.
+- **"Trading marrow":** literal, grounded by RULING 016 (The Vertical Economy) — not
+  decorative gore.
+- **Release split:** The trailer uses the instrumental edit of the Take3 project
+  (M01.1–M30.2, 90.00s); this lyric is the full vocal single
+  (`Familiar_Stone_Take3_Master.wav`, 78 BPM, 05:03.92).
+- **Hook lineage (revised 2026-09-09):** The chorus no longer uses the *"I find it
+  kind of..."* cadence (Mad World lineage). Revised hook: *"The stone was always heavy.
+  Knowing made it cold."* The **cold → told** rhyme with the mothers'-story line is
+  intentional and must not be broken. Alternate melody-test candidates
+  (*"It settles heavy in the marrow / colder now I know"* and *"Familiar stone gets
+  heavier / once you know what it concealed"*) are tracked in production records as
+  non-canon until the melody decides.
+
 ---
 
 ## Master Lyrics
@@ -17,8 +36,8 @@ Children praying to an empty sky
 Trading marrow for another lie.
 
 [Chorus]
-And I find it kind of heavy
-I find it kind of cold
+The stone was always heavy.
+Knowing made it cold.
 The greatest story ever written
 Was the one our mothers told.
 When the Mountain was a shelter
@@ -37,8 +56,8 @@ Three tons of iron... five leagues below...
 With nowhere left for us to go.
 
 [Chorus]
-And I find it kind of heavy
-I find it kind of cold
+The stone was always heavy.
+Knowing made it cold.
 The greatest story ever written
 Was the one our mothers told.
 When the Mountain was a shelter
@@ -54,8 +73,8 @@ No one told him that the well was full.
 He went down there alone.
 
 [Chorus - Emotional Peak]
-And I find it kind of heavy
-I find it kind of cold
+The stone was always heavy.
+Knowing made it cold.
 The only god they ever gave us
 Was a lie that they had sold.
 Now the ceiling starts to fracture

@@ -11,7 +11,7 @@ In Mount Faírguni, food is governed by an unbending cultural axiom:
 
 > **“The pantry is poor; the hand that plates it is not.”**
 
-Thulan cuisine was born inside a three-thousand-fathom pressure vessel where soil is non-existent, sunlight is an expensive civic commodity, and protein is scavenged from damp stone. Yet across three hundred years of isolation, Thulans never developed a culture of "survival slop." 
+Thulan cuisine was born inside a three-thousand-fathom pressure vessel where soil is non-existent, sunlight is an expensive civic commodity, and protein is scavenged from damp stone. Yet across three thousand years of isolation, Thulans never developed a culture of "survival slop." 
 
 A Thulan cook takes profound, personal offense at the idea that poverty should look or taste careless. 
 
@@ -121,9 +121,9 @@ It is the Mountain's quiet testament to its own survival:
 
 ## VI. THE FOSSIL RECIPES OF THE SUN (*SUNNA-MATS*): ANCIENT GOTHIC SURVIVALS
 
-In Mount Faírguni, ancient Gothic recipes are not treated as historical curiosities; they are **The Foods of the Sun (*Sunna-Mats*)**—sacred, half-remembered culinary archetypes carried down from a world of open forests, rivers, and sunlit pastures that has been lost for centuries.
+In Mount Faírguni, ancient Gothic recipes are not treated as historical curiosities; they are **The Foods of the Sun (*Sunna-Mats*)**—sacred, half-remembered culinary archetypes carried down from a world of open forests, rivers, and sunlit pastures that has been lost for thousands of years.
 
-Because the original surface ingredients (pigs, wild boar, spelt, cow milk, bee honeycomb, orchard fruits) are extinct inside the mountain, the Thulans have spent three centuries **meticulously, stubbornly retrofitting ancient Gothic feasts using the dark ecology of the stone.**
+Because the original surface ingredients (pigs, wild boar, spelt, cow milk, bee honeycomb, orchard fruits) are extinct inside the mountain, the Thulans have spent three thousand years **meticulously, stubbornly retrofitting ancient Gothic feasts using the dark ecology of the stone.**
 
 When a Thulan cooks an ancestral Gothic dish, they are cooking *memory*. To call a dish by its ancient Gothic name is an act of defiance against the Mountain's erasure: *Our ancestors walked free under the sun, and we remember who we were.*
 

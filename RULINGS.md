@@ -18,7 +18,7 @@
   * **Brothar** (*Gothic: Broþar*): Not an ecclesiastical or monastic title, but an honorific of the *Giba-Broþrans* and shared mortal kinship (*"We get each other home"*).
   * **Fairgunjis** (*Gothic Genitive*): “Of the Mountain” / “From the Mountain.”
   * **Thulan of the Old Hearths:** Designates his origin in the ancient, uncorrupted era when protection and rescue were sacred duties, predating the modern regime's industrial exploitation.
-* **Thematic Irony:** He carries the Mountain in his name, his culture, and his identity—only to discover centuries later that the Mountain was never the whole world, and that its masters planned to abandon him and his people within it.
+* **Thematic Irony:** He carries the Mountain in his name, his culture, and his identity—only to discover three centuries later that the Mountain was never the whole world, and that its masters planned to abandon him and his people within it. (RULING 027.)
 
 ---
 
@@ -39,7 +39,7 @@
 * **Scope:** Macro-Geography & Narrative Clock
 * **Ruling:** 
   1. Human civilization lives entirely inside a continent-sized mountain, measuring space vertically (Up-Mountain, Down-Mountain, Coreward, Rimward).
-  2. The Mountain has **30–50 years of ore left** before structural collapse.
+  2. The Mountain's recoverable ore has **30–50 years** left, but the rising magma chamber will breach the lower vaults far sooner — **11–28 years** (see `docs/THE_DISMANTLING_OF_VAREK.md`).
   3. The elites know the truth and accelerate mining to build limited **atmospheric/sub-orbital exodus arks** (capacity 600,000 out of 4.2M) designed to cross the toxic storm-cloud sea to fertile distant continents, leaving the working class behind.
   4. Central Paradox: *“The people destroying the Mountain fastest are doing so precisely because they know it is dying.”*
   5. **Narrative Clock (v3.1):** The ark launch clock is the timescale the Council's Continuity seat (Theodemir) actually defends. The same continuity that keeps pumps and furnaces running also holds order until the exodus arks depart. The Council never states this clause aloud. See `docs/THE_THULANS_LORE_BIBLE_v3.md` §11 "The Hidden Clock".
@@ -67,10 +67,12 @@
 * **Trailer music (resolved):** The teaser's full sync contract is
   `shots/TRAILER_AUDIO_MAP_78BPM.md` — `Familiar_Stone_Take3_Master.wav`, 78 BPM,
   M01.1–M30.2, SMASH at F2160.
-* **Film music target (OPEN):** The master beat map must be scored to the v3 end-state
-  exchange (a child asks "Will the Mountain protect us?" / Varek: "No." / "Then who
-  will?" / "We will.") or to a new apex cue. Exact music time remains **OPEN** pending a
-  measured beat map of the film master.
+* **Film music target (OPEN):** The master beat map must be scored to the canonical
+  end-state — the dismantling in Lower Hearth Four and Varek's death holding Sanna's hand
+  (RULING 031), closing on Sanna's line to her son ("No. It was our iron anyway."). The
+  superseded "Will the Mountain protect us? / We will." exchange, spoken by a living Varek,
+  no longer governs. Exact music time remains **OPEN** pending a measured beat map of the
+  film master.
 
 ---
 
@@ -93,7 +95,7 @@
 * **Status:** LOCKED
 * **Scope:** Macro-Sociology, Warfare, and Historical Lore
 * **The Outer World:** The planet's lowlands are a recovering ecosystem across a lethal toxic cloud sea; the arks are heavy atmospheric/sub-orbital colony dreadnoughts built to reach fertile distant continents across the planetary storm barrier.
-* **Varek's Displaced Awakening:** Varek was sealed in cryogenic metabolic stasis in a collapsed deep vault during an ancient tectonic catastrophe; modern mining drills blasted into his tomb, awakening him centuries later to a world that perverted his people's legacy. His memory reaches back to a world centuries gone, one rooted in an order engineered thousands of years ago.
+* **Varek's Displaced Awakening:** Varek was sealed in cryogenic metabolic stasis in a collapsed deep vault during an ancient tectonic catastrophe; modern mining drills blasted into his tomb, awakening him three centuries later to a world that perverted his people's legacy. His memory reaches back to a world three centuries gone, one rooted in an order engineered thousands of years ago. (Aligned to RULING 027: 3,000-year civilization / 300-year Varek.)
 * **Vertical Warfare Mechanics:** *Ventilation Sieges, Aquifer Diversions, Foundation Undermining,* and *Elevator Bastions*.
 
 ---
@@ -233,11 +235,15 @@
 * **The Consent Principle:** Consent obtained through manufactured causality is
   exploitation wearing consent as a mask. The state harvests genuine virtue as raw
   material. Locked example: Wulfila of Azg-Haíms ("Wulfila volunteered to a lie").
-* **The Throughline:** Haila, Wulfila's sister, is the living human face of the second
-  betrayal — truth is not the same thing as healing.
+* **The Throughline:** Sanna, Wulfila's sister, is the living human face of the second
+  betrayal — truth is not the same thing as healing. *(Amended by RULING 029: Haila is
+  Wulfila's betrothed; Sanna (18) is his sister and the surviving throughline. RULING 031
+  ends Varek's story with his death holding Sanna's hand.)*
 * **End State:** Grimdark. No restoration, no clean revolution. Varek does not save the
-  civilization; he keeps saving whoever is still in front of him. "We get each other
-  home" — and home may no longer exist.
+  civilization. *(Amended by RULING 031: he does not survive to "keep saving" — he returns
+  the machine to Wulfila's family in Lower Hearth Four and dies holding Sanna's hand. The
+  surviving principle is carried by the people he leaves behind.)* "We get each other home"
+  — and home may no longer exist.
 * **The Micro Answer (explicit canon):** The Thulans does not end with restoration of
   the Mountain, the Council, or the old order. Its final answer is smaller: truthful
   obligation returns to the Hearth — people choosing what they will bear for one another
@@ -487,10 +493,9 @@ The song's mass conclusion rejects divine transactional causality:
 The line does not mean the Mountain has been conquered or replenished.  
 It means responsibility has returned from sacred infrastructure to human beings.
 
-This directly anticipates the end-state philosophy:
-
-> "Then who will?"  
-> "We will."
+This directly anticipates the end-state philosophy. (The earlier *"Then who will?" / "We
+will."* dialogue, spoken by a living Varek, is superseded by RULING 031; the philosophy now
+closes on Sanna's line to her son — *"No. It was our iron anyway."*)
 
 ### Musical Pillar
 The Cold Well forms the third major musical perspective of THE THULANS:
@@ -678,14 +683,18 @@ without altering the canonical lyrical/narrative spine unless explicitly re-rule
 ---
 
 ## RULING 028: Council Structure & Executive Authority
-* **Status:** LOCKED (2026-09-11)
+* **Status:** LOCKED (2026-09-11; reconciled to RULING 013 on 2026-09-16)
 * **Scope:** Governance, Antagonist Hierarchy, Political Institutions
 * **Ruling:**
-  1. **The Council of Three:** The constitutional governing body consists of three ministerial chairs:
-     - **The Ministry of Continuity (Logistics & Production):** Managed by Archon Theodemir. Controls mining quotas, water allocation, and the secret evacuation arks.
-     - **The Ministry of Faith (Cultural Inversion & The Mother Cult):** Manages the deified Fairguna religion, the school catechisms, and the ceremonial Life Tithes.
-     - **The Ministry of Order (Security & Enforcement):** Commands the pneumatic-augment squads and enforces production quotas across the drifts.
-  2. **Theodemir's Dominance:** While the Council has three chairs, Archon Theodemir is the functional executive. The Faith and Order ministries serve the production quotas calculated on his slates. In the narrative, Theodemir is the direct ideological antagonist because he controls the arithmetic of life and death.
+  1. **The Council of Three (*Garuni*):** The constitutional governing body consists of three seats, defined in RULING 013:
+     - **Seat One — Survey/Reserve (*Fritigern*):** Controls geological truth: what resources remain, where they are, when they were discovered, depletion curves, hidden stockpiles, and which reserves remain classified. Its sin is controlled knowledge.
+     - **Seat Two — Continuity/Infrastructure (Archon Theodemir):** The functional executive. Controls ventilation, water, lifts, furnace heat, structural stabilization, mining quotas, and the secret evacuation arks. Theodemir is the direct ideological antagonist because he controls the arithmetic of life and death.
+     - **Seat Three — Provision/Faith (*Amalasuntha*):** Controls how scarcity is translated into public meaning: ration policy, district priority, the Mother cult (*Fairguna* / *Aipei*), Reveal Rite timing, public penance, and Life Tithe quotas through the devotional bureaucracy of the Wahlja.
+  2. **The Ministries:** The three seats are administered as ministries. Two names recur in prose and dialogue:
+     - **Ministry of Continuity (Logistics & Production):** The public name of Seat Two's apparatus. It also houses the **Ministry of Order**, a non-voting enforcement directorate—**not** a fourth chair—that commands the pneumatic-augment squads and black-pneumatic-brace enforcers and enforces production quotas across the drifts.
+     - **Ministry of Faith (Cultural Inversion & The Mother Cult):** The public name of Seat Three's apparatus. It manages the deified Fairguna religion, the school catechisms, and the ceremonial Life Tithes. "Ministry of Faith" and the "Provision/Faith seat" are the same institution.
+  3. **Theodemir's Dominance:** While the Council has three chairs, Archon Theodemir is the functional executive. The Ministry of Faith and the Order directorate serve the production quotas calculated on his slates.
+  4. **Closed-Loop Abstraction:** The Council approves the criteria, quota, timing, and the selection machine; it does not select individual names. That work belongs to the Wahlja beneath Seat Three. The hidden clause in the Council's defense is the ark-launch clock.
 
 ---
 

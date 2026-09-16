@@ -67,7 +67,7 @@ Not *for* the mountain did he die...
 Wulfila volunteered into a lie!
 
 [Pre-Chorus - Female Harmony & Lead Vocal]
-His sister holds the hammer-ring
+His bride holds the hammer-ring
 She knows what all their idols bring
 No water falls until we bleed
 To feed the architects of greed!

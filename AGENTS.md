@@ -24,3 +24,7 @@ For all story, script, character motivation, dialogue, and cinematic beats, cons
 - `docs/THE_DISMANTLING_OF_VAREK.md`: **Canonical Literary Foundation & Master Living Story.**
 - `docs/VAREK_ACTS_ONE_AND_TWO.md` & `docs/VAREK_ACT_THREE.md`: Screenplay & prose master chapters.
 - `RULINGS.md`: Authoritative design rulings (RULING 001 through RULING 031).
+- `docs/AUDIENCE_PRIMER.md` & `docs/AUDIENCE_NAMES.md`: **Audience gate** — the first-contact
+  primer and the naming gate (which names/terms may surface in marketing, trailers, and
+  first-act screenplay, and the six-name ceiling). Consult before writing or approving any
+  audience-facing material.

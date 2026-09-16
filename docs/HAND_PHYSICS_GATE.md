@@ -1,8 +1,7 @@
 # Varek hand/tool physical-plausibility gate
 
-Authority: Aaron requested a functioning real-world-style mechanism before
-handoff, then rejected v10's hand attachment on the wrong side of the wrist.
-Scope: right hand, wrist interface, Faírguni-Hamars grasp. No new suit redesign.
+Authority: Aaron requested a functioning real-world-style mechanism before handoff (retaining v10's right-hand wrist-reversal as historical rejection evidence; RULING 023/024 canonicalized the maul grip to the left hand and the Faírg-Tygil to the right arm).
+Scope: Left hand, wrist gimbal interface, Faírguni-Hamars grasp. No new suit redesign.
 
 ## Claim boundary
 
@@ -23,7 +22,7 @@ kinematic/intersection passes remain historical measurements, not grip proof.
 
 ## Required sequence (stop at the first failed prerequisite)
 
-1. **Anatomy and mechanism.** Declare the right-hand coordinate frame: proximal
+1. **Anatomy and mechanism.** Declare the left-hand coordinate frame: proximal
    forearm, wrist centre, distal palm, palm normal, radial/thumb side. Show these
    on a neutral/open hand, not inferred from a flattering camera. Confirm correct
    handedness and palm attachment with Aaron. State wrist/finger/thumb axes,

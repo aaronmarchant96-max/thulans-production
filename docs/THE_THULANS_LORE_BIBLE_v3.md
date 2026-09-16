@@ -1,10 +1,18 @@
 # THE THULANS: COMPLETE IP LORE BIBLE & WORLD ARCHITECTURE
 
-**Revision:** v3.1 — Empty Mountain / Council of Three / Naming Standard Applied
-**Prior revision:** v3 (Empty Mountain / Council of Three / Naming Foundations Laid)
-**Canon status:** GOVERNING NARRATIVE SPINE — supersedes `THULAN_LORE_FOUNDATIONS.md`
-**Also canon:** `RULINGS.md` (RULING 013 Story Spine, RULING 014 Naming & Linguistic
-Standard, RULING 004 arks, RULING 005 deferred, RULING 006 goddess name lock)
+**Revision:** v3.2 — Reconciliation to RULINGS 022–031 (Varek's absolute death; the
+residual-machine epilogue; the 3,000-year civilization / 300-year Varek baseline; the
+Wulfila–Haila–Bram–Sanna family core; grounded `Faírg-Tygil` physics)
+**Prior revision:** v3.1 (Empty Mountain / Council of Three / Naming Standard Applied)
+**Canon status:** GOVERNING NARRATIVE SPINE — reconciles and supersedes
+`THULAN_LORE_FOUNDATIONS.md` (moved to `archive/superseded/`)
+**Also canon:** `RULINGS.md` — RULING 013 (Story Spine), 014 (Naming & Linguistic
+Standard), 015 (Archaic Latin Mottos), 016 (Vertical Economy), 018 (Varek's Interiority),
+019 (Thematic Backbone), 021 (The Cold Well), 027 (Chronological Baseline), 028 (Council
+Structure), 029 (The Unified Spine), 030 (Demographic Scale & Iron-True Geology), 031
+(The Varek-Machine & Residual Pattern)
+**Reconciliation note (2026-09-15):** This revision folds the later rulings back into the
+governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` controls.
 
 ---
 
@@ -22,6 +30,7 @@ Standard, RULING 004 arks, RULING 005 deferred, RULING 006 goddess name lock)
 | **T1 — Attested** | A real, attested Gothic name or word used as-is. | *Wulfila*, *Fritigern* |
 | **T2 — Adapted** | An attested Gothic root or name lightly smoothed for modern eyes. | *Haila* ← *hails*; *Watona* ← *wato* |
 | **T3 — Invented** | A new descendant form built from real Gothic roots, explicitly labeled as a fictional evolution. | *Garuni* (formal cast of *garuni* "counsel / plan") |
+| **T4 — Modern Drift** | A name in the modern lower-drift vernacular, drifted from attested Gothic or absorbed from contact dialects over 3,000 years. Permitted for modern characters only; it is *not* presented as attested Gothic and carries no classical root claim. | *Sanna*, *Bram*, *Kaelen*, *Malakor*, *Jarek*, *Tomas*, *Halza* |
 
 ### Conventions
 
@@ -31,8 +40,12 @@ Standard, RULING 004 arks, RULING 005 deferred, RULING 006 goddess name lock)
 - **Formal/ceremonial register:** the genitive **-jis** pattern already used by the IP
   (`Fairgunjis` = "of the Mountain", from attested *fairguni*) extends to dynastic
   titles. Example: *Wulfila Azghaimis*.
-- **Patronymic / kinship grammar:** deferred to a companion `docs/THULAN_LANGUAGE_NOTE.md`
-  until more names exist; the *Giba-Broþrans* kinship frame (`broþar`, `swistar`) is locked.
+- **Patronymic / kinship grammar:** recorded in the companion `docs/THULAN_LANGUAGE_NOTE.md`
+  (the *Giba-Broþrans* kinship frame — `broþar`, `swistar` — is locked).
+- **Modern-drift names (T4):** modern characters carry lower-drift vernacular names
+  drifted from attested Gothic or absorbed from contact dialects (e.g. *Sanna*, *Bram*,
+  *Kaelen*, *Malakor*, *Jarek*, *Tomas*, *Halza*). They are permitted without classical
+  root claims and are not to be presented as attested Gothic. See `THULAN_LANGUAGE_NOTE.md`.
 - **Provenance labels:** every T2/T3 form carries a one-line root note so the repo's
   hash-binding rigor extends to language.
 
@@ -40,8 +53,10 @@ Standard, RULING 004 arks, RULING 005 deferred, RULING 006 goddess name lock)
 
 | Form | Class | Root / meaning | Tier |
 | --- | --- | --- | --- |
+| *Thulan* | the people; the honored title ("one who endures") | attested Gothic verb *þulan* "to endure, bear, suffer"; the nominalized agent form is a labeled Thulan descendant | T3 |
+| *Fairguni* | the Mountain (the setting itself) | attested Gothic *fairguni* "mountain" | T1 |
 | *Wulfila* (of Azg-Haíms) | volunteer | *wulf* + diminutive *-ila* → "little wolf" | T1 |
-| *Haila* (of Azg-Haíms) | Wulfila's sister | *hails* "whole, hale" | T2 |
+| *Haila* (of Azg-Haíms) | Wulfila's betrothed | *hails* "whole, hale" | T2 |
 | *Garuni* | the Council of Three | *garuni* "counsel / plan / plot" | T3 |
 | *Fritigern* | Seat One — Survey/Reserve | *friþus* + *gairns* "craving peace" | T1 |
 | *Theodemir* | Seat Two — Continuity/Infrastructure | *þiuda* + *mērs* "famous among the people" | T1 |
@@ -76,7 +91,7 @@ Standard, RULING 004 arks, RULING 005 deferred, RULING 006 goddess name lock)
     protection and rescue were sacred duties, long before the modern regime's
     industrial exploitation.
 - **The Thematic Irony:** He carries the Mountain in his name, his culture, and his
-  ancestral duty—only to awaken centuries later and discover that the civilization
+  ancestral duty—only to awaken three hundred years later and discover that the civilization
   built around it has consumed it almost completely from the inside.
 - **The Setting:** A civilization surviving across and beneath a continent-sized
   Megalithic Mountain (*Fairguni*).
@@ -361,55 +376,51 @@ It reverse-engineered the kind of person who would willingly give it.
 
 > "Wulfila volunteered to a lie."
 
-### F. Wulfila's Sister — Haila. The Living Throughline
+### F. Wulfila's Kin — Sanna (sister) and Haila (betrothed). The Living Throughlines
 
-Haila survives her brother.
+RULING 029 fixes the family core: **Wulfila (19)** is the older brother of **Sanna (18)**
+and **Bram (14)**. **Haila** is Wulfila's betrothed — she braided the cord and tied the
+iron hammer-ring to his neck on the tithe platform.
 
-Her narrative function is not to become a general, chosen figure, or replacement
-protagonist.
+- **Haila** carries the rite itself: the betrothal the state converted into a sacrifice.
+  She works beside Sanna in the Lower Four nursery, refusing to let the family starve.
+- **Sanna** is the surviving sister and the load-bearer of the aftermath. She runs the
+  nursery, keeps Bram alive after his leg is crushed, and is the last person to hold
+  Varek's hand as he dies (RULING 031). She is the human face of the fact that *truth is
+  not the same thing as healing.*
 
-She remains an ordinary person forced to live through both betrayals.
+Neither woman becomes a general, a chosen figure, or a replacement protagonist. They
+remain ordinary people forced to live through both betrayals.
 
-Before the truth, she is devastated but proud of her brother.
+When Varek brings evidence that the aquifer was already known, he may begin, *"He was
+brave,"* and one of them answers:
 
-When Varek later brings evidence that the Watona was already known, she does not thank
-him.
-
-She may answer:
-
-> "You told me he was brave."
->
-> Varek: "He was."
->
 > "Then don't take this from him."
 >
 > Varek: "I'm not taking it from him. They did."
 
-She becomes the human face of the fact that truth is not the same thing as healing.
-
-After Varek's revelation helps trigger civil collapse, the Watona itself becomes
-contested. Pumps fail. Distribution breaks. People die anyway.
-
-She can then confront him with the consequence:
-
-> "You proved he died for nothing. Then you made sure the water stopped too."
-
-The accusation is not completely fair.
-
-It is completely understandable.
-
-She is therefore uniquely positioned to condemn both systems:
+They are uniquely positioned to condemn both systems:
 
 - To the Council: "You murdered him."
-- To Varek: "And what did your truth save?"
+- To Varek, who stood silent on the platform as the state's ceremonial iron: "You were
+  there."
 
-She should eventually continue helping other people survive—not because she forgives the
+Varek's answer is not a speech. It is his body: he tears his own rig apart to keep
+Sanna's nursery pump running and dies holding her hand. The debt to Wulfila's family is
+paid in iron, not in explanation.
+
+After the collapse, the contest is no longer over what the truth was but over who
+survives it. Sanna continues helping other people live — not because she forgives the
 religion or Varek, but because the underlying virtue belonged to ordinary people before
 the state stole it.
 
 The Council corrupted sacrifice.
 
 It did not invent human selflessness.
+
+> *(Superseded by RULING 029 + RULING 031: earlier drafts made Haila the sister and gave
+> her a post-collapse confrontation over the failing Watona. That role now belongs to
+> Sanna and to the epilogue — see §13 and `THE_DISMANTLING_OF_VAREK.md`.)*
 
 ### G. Varek's Lethal Question
 
@@ -484,6 +495,13 @@ These mechanisms become even more dangerous after the central order begins to fa
     dangerous structural drops, Varek instinctively brushes the inner plate with his gauntlet:
     > *“Ora et labora.”*  
     Then the diesel catches, hydraulics pressurize, and he goes to work.
+
+- **The Load-Coupler (*Faírg-Tygil*) & Grounded Physics (RULING 024, RULING 030):** The
+  right-arm manipulator grips ferromagnetic ore bands and iron sills through high-flux
+  pulsed electromagnetism, transferring reaction load down the arm into the chassis and
+  anchored boots. It never negates mass or cancels gravity; *"graviton"* survives only as
+  lower-drift slang. Shaft 44's rock is **banded magnetite-ironstone** (*blôþ-stáin*),
+  not non-magnetic basalt.
 
 **Living Payoff:**
 
@@ -829,6 +847,23 @@ Amalasuntha is a woman; the irony is deliberate. The faith she administers worsh
 Mother, and the seat that feeds the Mother with names is held by a ruthless mother of
 the state.
 
+### The Ministries and the Order Directorate
+
+The three seats are administered as ministries, and the prose uses their public names
+interchangeably with the seat names:
+
+- **Ministry of Continuity** — the public name of Seat Two's apparatus. It also houses
+  the **Ministry of Order**: a non-voting enforcement directorate, **not** a fourth
+  chair. Order commands the pneumatic-augment squads and black-pneumatic-brace enforcers
+  and enforces production quotas across the drifts. It answers to Theodemir's slates.
+- **Ministry of Faith** — the public name of Seat Three's apparatus, covering the
+  deified Fairguna religion, the school catechisms, and the ceremonial Life Tithes.
+  "Ministry of Faith" and "Provision/Faith seat" refer to the same institution.
+
+The Council therefore has three voting seats and one subordinate enforcement arm. The
+Faith apparatus supplies meaning; the Order directorate supplies teeth; both serve the
+production arithmetic of Continuity.
+
 ### The Closed Loop
 
 A typical decision can look like this:
@@ -1055,17 +1090,16 @@ catastrophic; the micro ending has to contain life.
 The ending should preserve one small human principle without pretending that principle
 fixes the world.
 
-A child in a failing refuge may ask:
+Varek does not live to see the macro outcome. His story ends in Lower Hearth Four, when
+he returns his iron to the hands that built it and dies holding Sanna's hand (RULING 031).
+The older *"Will the Mountain protect us? / We will."* exchange — in which Varek was still
+alive to speak it — is **superseded**; the survival of the principle is carried instead by
+the people he leaves behind and by the residual-machine epilogue (§16).
 
-> "Will the Mountain protect us?"
->
-> Varek answers: "No."
->
-> "Then who will?"
->
-> Varek looks at the exhausted survivors around them.
->
-> "We will."
+The canonical final image is smaller and colder. Six years after the dismantling, a child
+in Lower Four asks his mother whether the man on the bronze statue died for the Spire:
+
+> "No," Sanna says. "It was our iron anyway."
 
 Outside, the civilization is still collapsing.
 
@@ -1076,6 +1110,8 @@ It is the oldest ethic surviving after the civilization built around it has fail
 > We get each other home.
 
 And the final wound is that home may no longer exist.
+
+The state may fail. Human responsibility does not.
 
 ---
 
@@ -1114,11 +1150,15 @@ Varek realizes his truth accelerated catastrophe
     ↓
 he questions his pride, judgment, and right to expose it
     ↓
-he refuses to abandon the people who blame him
+    he refuses to abandon the people who blame him
     ↓
-he cannot save civilization
+    he cannot save civilization
     ↓
-he keeps saving whoever is still in front of him
+    he descends to Lower Hearth Four and returns the machine to Wulfila's family
+    ↓
+    he gives the nursery his auxiliary pump, is stripped by the miners, and dies holding Sanna's hand (RULING 031)
+    ↓
+    the regime rebuilds the chassis; only the residual pattern of the man survives as "legacy behaviors" (RULING 031)
 ```
 
 **The thematic backbone of the spine (RULING 019):** The Thulans is about who gets to
@@ -1160,10 +1200,14 @@ to this world. The first great catastrophe of The Thulans remains human:
 
 ## 16. Canon Reconciliation Notes
 
-- **Timescale:** The Thulan order was engineered thousands of years ago. Varek was
-  sealed during the late ancient catastrophe and awakened **centuries** later, when
-  modern drilling broke into his tomb. His memory reaches back to a world centuries
-  gone, one rooted in an order thousands of years old. (RULING 007 aligned.)
+- **Timescale (RULING 027):** The Mountain has been inhabited for **3,000 years** — the
+  deep time of the descent from the surface, the hand-blasted intake flues, the Great
+  North Aqueduct, and the drift of ancestral Gothic into modern dialects. Varek was
+  sealed in his caisson **300 years ago**, at the onset of the Great Silt Inundation and
+  early tectonic acceleration. He is not a figure from the dawn of time: Kaelen's
+  grandfather cast his hip-pins and parish ledgers still record his family hearth. Varek
+  does **not** remember the 42-million golden peak; the demographic collapse predated him
+  (RULING 030).
 - **The arks:** The exodus-ark program (RULING 004) survives. Its launch clock is the
   hidden clause in the Council's defense (see §11, The Hidden Clock).
 - **The goddess:** *Fairguna* is locked as the cult's personal name for the Mountain;
@@ -1189,3 +1233,24 @@ to this world. The first great catastrophe of The Thulans remains human:
 - **RULING 019 (The Thematic Backbone):** The Thulans is about who gets to decide what
   another human being must endure. Every major sequence, institution, and design choice
   must survive the burden / consent / necessity test. (See §14.)
+- **RULING 027 (Chronological Baseline):** 3,000-year civilization / 300-year Varek.
+  (See §16 Timescale, above.)
+- **RULING 028 (Council Structure):** The Council of Three (*Garuni*) — Survey/Reserve
+  (*Fritigern*), Continuity/Infrastructure (Archon Theodemir, the functional executive
+  antagonist), and Provision/Faith (*Amalasuntha*). The Ministry of Faith is the public
+  name of the Provision/Faith apparatus; the Ministry of Order is a non-voting
+  enforcement directorate under Continuity, not a fourth chair. (See §11.)
+- **RULING 029 (The Unified Spine):** Wulfila (19), Sanna (18), Bram (14), and Haila
+  (betrothed) are one family across forty days. Varek watched Wulfila's rite as the
+  state's ceremonial iron, and his descent to Lower Four is personal restitution. (See
+  §4.E–F.)
+- **RULING 030 (Demographic Scale & Iron-True Geology):** ~42 million peak / ~4.2 million
+  present (10:1 collapse); six arks × 100,000 = 600,000 berths (~14.3%, 1 in 7), leaving
+  ~3.6 million; the *Faírg-Tygil* is pulsed electromagnetism plus hydraulic load transfer,
+  never gravity negation; Shaft 44 is banded magnetite-ironstone. (See §6.)
+- **RULING 031 (The Varek-Machine):** Varek dies absolutely as an ordinary man; there is
+  no digital soul or resurrection. The regime later rebuilds the chassis, and the residual
+  behavioral pattern of the man survives as "legacy behaviors" — ambiguous, unproven, and
+  put back to work for the order he died opposing. Thematic maxim: *"A society can preserve
+  the pattern of a good man while destroying the man who made it."* (See §13 and
+  `THE_DISMANTLING_OF_VAREK.md`.)

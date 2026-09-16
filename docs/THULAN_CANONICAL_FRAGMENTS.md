@@ -18,7 +18,7 @@
 > 
 > This is what the Archons call **Continuity**. Continuity is the holy understanding that while the hewer is merely a pine needle that falls into the drainage trench and rots, the Mountain is the great stone trunk that endures across thousands of years. A righteous child does not weep when a larch strut splinters under the overburden; a righteous child runs to the yard to fetch another timber. 
 > 
-> To love the Mother Mountain is to rejoice that your small fingers, your small sweat, and your small, warm breath can be shoveled into the great furnace that keeps forty-two million souls from freezing in the dark. When your instructor stamps your shift-number onto your slate, do not look upon it as a burden. Look upon it as your sacred permission to be consumed.”
+> To love the Mother Mountain is to rejoice that your small fingers, your small sweat, and your small, warm breath can be shoveled into the great furnace that keeps four million souls from freezing in the dark. When your instructor stamps your shift-number onto your slate, do not look upon it as a burden. Look upon it as your sacred permission to be consumed.”
 
 ---
 
@@ -85,7 +85,7 @@ A lantern flickered at the turn of the main haulage incline.
 
 The sound of iron-shod augment boots on the wooden planking.
 
-Two enforcers from the Ministry of Continuity turned the corner. They were tall men, their legs encased in black pneumatic braces that hissed softly with every long, hydraulic stride. In their right gauntlets, they carried three-foot steam-batons, their brass pressure valves weeping tiny, hot droplets of water that sizzled on the damp gravel. 
+Two enforcers from the Ministry of Order turned the corner. They were tall men, their legs encased in black pneumatic braces that hissed softly with every long, hydraulic stride. In their right gauntlets, they carried three-foot steam-batons, their brass pressure valves weeping tiny, hot droplets of water that sizzled on the damp gravel. 
 
 Across the cross-cut, forty men and women went utterly rigid.
 

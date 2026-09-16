@@ -27,7 +27,7 @@ BAR / BEAT    TIME (s)    FRAME (24fps)    VISUAL STATE                         
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 [M25.1]       01:13.85    F1772            Continuous downward tracking shot through levels    CHORUS SWELL: Cello + Piano crescendo
 [M26.3]       01:18.46    F1883            Wulfila steps backward off Tithe platform (NO CHAINS) Cord untwists in reverse; tear retreats
-[M27.3]       01:21.54    F1957            Sister Haila's hand presses hammer-ring into palm   VO 3 (exhausted certainty): "Wulfila volunteered to a lie."
+[M27.3]       01:21.54    F1957            Betrothed Haila's hand presses hammer-ring into palm  VO 3 (exhausted certainty): "Wulfila volunteered to a lie."
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 [M29.1]       01:26.15    F2068            INT. Ash-Hearth: TIME MOVES FORWARD (Normal motion) TOTAL SILENCE (Music cuts to domestic room tone)
 [M29.3]       01:27.69    F2105            Haila playfully wipes soot off Wulfila; he smiles   Stove crackle; soft fabric; off-screen: "Wulfila."

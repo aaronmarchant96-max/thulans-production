@@ -34,16 +34,17 @@
   > **“I had a mother.”**
 * **Mortal Compassion:** When modern rulers dismiss working people as *"only civilians"*, his answer is absolute:
   > **“So were my brothers.”**
-* **The Living Witness:** Awakened centuries after an ancient collapse, he is the living truth that shatters the modern regime's extraction cult. His awakening begins with a private hope, **not a calling** — that *something recognizable* of his people survived (RULING 018). He was never political until the story made him so.
+* **The Living Witness:** Awakened three hundred years after the ancient collapse that sealed him (RULING 027), he is the living truth that shatters the modern regime's extraction cult. His awakening begins with a private hope, **not a calling** — that *something recognizable* of his people survived (RULING 018). He was never political until the story made him so.
 
 ---
 
 ## 5. The Fatal Vulnerability & The Climax
 * **The Flaw Inside the Virtue:** Varek cannot stand idle while someone else dies.
 * **The Knowledge Curse:** His exposure of the Life Tithes — proof that consent was manufactured through a lie — is true, and it accelerates anarchy, vengeance, secession, and infrastructure failure until the collapse becomes immediate.
-* **The Climax (Empty Mountain arc):** He cannot save civilization, and he knows his truth helped bring the world down. He refuses to abandon the people who blame him and keeps saving whoever is still in front of him. The end-state exchange is scored to the 5:32.544 master (music time remains OPEN pending a measured beat map):
-  > **"No." / "Then who will?" / "We will."**
-* **Reference:** `docs/THE_THULANS_LORE_BIBLE_v3.md` (RULING 005, RULING 013).
+* **The Climax (Empty Mountain arc, RULING 031):** He cannot save civilization, and he knows his truth helped bring the world down. He refuses to abandon the people who blame him. His story ends in Lower Hearth Four: he tears his own rig apart to keep Wulfila's family alive, returns the iron to the hands that built it, and dies as an ordinary man holding Sanna's hand. There is no digital soul and no resurrection; the regime later rebuilds the chassis and only the residual *pattern* of him survives.
+  > **"No," Sanna says. "It was our iron anyway."**
+  > *(Superseded: the earlier "No / Then who will? / We will." exchange, spoken by a living Varek, is non-canon. The 5:32.544 cue now scores the dismantling and the hand in Sanna's.)*
+* **Reference:** `docs/THE_THULANS_LORE_BIBLE_v3.md` (RULING 005, RULING 013, RULING 027, RULING 031).
 
 ---
 
