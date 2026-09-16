@@ -13,3 +13,13 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Audio intermediates (keep masters; not editing backups/peak caches)
+assets/audio/Backups/
+assets/audio/peaks/
+
+# Donor source archives (keep provenance/license, not the zips)
+assets/donors/*/source.zip
+
+# Raw probe dumps (hash-bound JSON is the evidence of record)
+evidence/**/probe.json
