@@ -1,6 +1,6 @@
-# Deephearth Event Forge — Offline Narrative Prototype Plan
+# Deephearth Event Forge — Offline Narrative Engine
 
-Status: PROPOSED / NOT IMPLEMENTED. Updated 2026-09-18. This is the game-specific adaptation of the user's Story Forge concept, not a claim that Story Forge already exposes an API or that the game engine exists.
+Status: **MILESTONE 1 LOCALLY REPORTED AS VERIFIED; REPOSITORY EVIDENCE NOT YET INSPECTED. MILESTONE 2 SPECIFIED / NOT VERIFIED.** Updated 2026-09-18. This is the game-specific adaptation of the user's Story Forge concept; it does not establish that Story Forge exposes an API or that Godot is already connected.
 
 ## Purpose
 
@@ -17,21 +17,30 @@ Generate grounded colony dilemmas from live simulation facts and curated narrati
 
 Lifecycle: TRIGGERED -> PROPOSED -> VALIDATED -> OFFERED -> RESOLVED -> COMMITTED. Rejection and expiration are explicit alternative states. A proposal is not an event that already happened. Seeded randomness is reproducible only with the same seed, initial state and rules version.
 
-## Initial authored pattern candidates (not locked quests)
+## Ten authored pattern identifiers (locally reported implemented)
 
 P01 Survival Through Concealment; P02 The Diverted Shipment; P03 Names Beneath the Stone; P04 The Unsealed Flue; P05 The Cold Tithe; P06 The Broken Gauge; P07 The Surface Rumor; P08 The Stolen Filter-Salt; P09 The Silent Sump; P10 The Returning Bell.
 
-Thresholds, resource names, numeric values, role names and PSI figures from the draft are illustrative and require simulation/lore approval. A low resource value does not prove theft; debt does not prove falsified records; a missing resident is not necessarily dead. Resident names from the concept short story are not hardcoded requirements.
+Thresholds, resource names, numeric values, role names and PSI figures from the draft are illustrative until checked against the implementation and approved lore. A low resource value does not prove theft; debt does not prove falsified records; a missing resident is not necessarily dead. Resident names from the concept short story are not hardcoded requirements.
 
-## Proposal contract (design target)
+## Proposal contract
 
 Store event ID, pattern ID and version, seed, source-pattern provenance, trigger facts, referenced colony-state version, actor IDs, location IDs, eligibility and knowledge predicates, player options, preconditions, proposed effects, expiry, and cooldown/deduplication key. Separate immutable observed facts, character beliefs, suspicions and newly introduced fiction. Dialogue may only reference validated facts or explicitly attributed beliefs.
 
-## First prototype and tests
+## Milestone 1: user-supplied local evidence, 2026-09-18
 
-A Python-only test harness is a proposed rapid experiment; production Godot integration and Python-to-GDScript parity are not verified. Prefer portable data schemas, not assumptions of 1:1 class portability. Suggested modules: colony_state, story_patterns, role_matcher, event_validator, event_forge, event_executor, event_ledger, plus fixtures and tests.
+The author reports running `python3 -m unittest discover tests` against a **local** `prototype/` directory. The supplied output states:
 
-Acceptance target: ten authored patterns, 100 seeded colony snapshots, rejection of deliberately corrupted proposals, acceptance of valid proposals, atomic and persistent consequence updates, replay with matching initial state and seed, and a later event demonstrably responding to a prior committed fact. Report rejection reasons, false rejections, repetition/collision frequency and measured execution timings. Do not claim zero bugs, infinite variety, 100% lore accuracy, or benchmark speeds before evidence exists.
+- 11/11 tests passing, 100 seeded colony snapshots evaluated, 90 valid proposals and 10 incompatible proposals rejected, with no snapshots lacking a trigger.
+- All ten patterns P01–P10 exercised; reported average generation latency 0.026 ms and maximum 0.050 ms for this benchmark.
+- Tests reportedly reject deliberately corrupted proposals, reject stale proposals after an actor dies, roll back failed execution, and chain committed consequences into later dweller knowledge and events.
+- `fixtures/generate_mockup_state.py` reportedly produces a Day 43 example with water 124/200 L (62%), pressure 58 PSI, marks 27, Bram's 45-mark debt, a +62 Sanna bond, and the P01 concealment proposal.
+
+**Evidence boundary:** These are reported results, not an independently reproduced test run. The linked GitHub repository did not expose an accessible `prototype/` implementation or fixture at the time of this documentation update. 90% valid proposals is the benchmark's *proposal yield*, not a 90% validator correctness measurement. An 11-test PASS does not alone prove every possible corrupted state is rejected, zero bugs, Godot framerate, or universal offline performance. Record the exact code revision, Python version, test command, fixture contents, baseline snapshots and benchmark method once the code is available.
+
+## Milestone 2: Godot live UI integration
+
+The authoritative UI data bindings, Day 43 example, command contract, visual acceptance and end-to-end save/load tests are specified in [`DEEPHEARTH_MILESTONE_2_UI_CONTRACT.md`](DEEPHEARTH_MILESTONE_2_UI_CONTRACT.md). Milestone 2 requires a **launched Godot scene** reading actual engine state, selectable resident, real P01 choices and a persisted result; it is not complete when a fixture or mockup alone matches the concept art.
 
 ## Optional future capabilities
 
