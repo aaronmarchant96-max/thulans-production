@@ -20,7 +20,15 @@ For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/V
 
 ## 2. Narrative & Lore Authority Protocol
 
-For all story, script, character motivation, dialogue, and cinematic beats, consult:
-- `docs/THE_DISMANTLING_OF_VAREK.md`: **Canonical Literary Foundation & Master Living Story.**
-- `docs/VAREK_ACTS_ONE_AND_TWO.md` & `docs/VAREK_ACT_THREE.md`: Screenplay & prose master chapters.
-- `RULINGS.md`: Authoritative design rulings (RULING 001 through RULING 031).
+### Original Varek literary/cinematic continuity
+
+For story, script, character motivation, dialogue, and cinematic beats in the Varek production, consult:
+- `docs/THE_DISMANTLING_OF_VAREK.md`: canonical literary foundation and living story **for that continuity**.
+- `docs/VAREK_ACTS_ONE_AND_TWO.md` & `docs/VAREK_ACT_THREE.md`: screenplay and prose master chapters.
+- `RULINGS.md`: historical authoritative design rulings (RULING 001 through RULING 031 as previously documented). Do not silently revise existing rulings.
+
+### Thulans: Deephearth game
+
+Consult `docs/DEEPHEARTH_GAME_DIRECTION.md` for approved gameplay, art direction, and boundaries, and `docs/DEEPHEARTH_EVENT_FORGE_PLAN.md` for the **proposed, unimplemented** offline narrative prototype. The Varek story is a tonal/literary reference, not a required protagonist, plot or ending for the colony sim. Shared world facts still require checking the lore bible and rulings; distinguish world canon from cinematic-specific plot and proposed game mechanics. The user-approved concept art is a visual target, not a playable screenshot or a set of production-ready assets.
+
+Across both projects, label decisions as established world canon, approved project direction, proposed design or verified implementation. Never promote a design plan or test target into an implemented or passed claim.
