@@ -498,6 +498,111 @@ usage:
 Judge efficiency by cost per accepted, validated artifact. A cheap request that
 creates unusable work is not a saving.
 
+### CARDO REI controls transferred into this pipeline
+
+The following controls are adapted from implemented mechanisms in `rei-ai` at
+revision `3c64089e6faaeeb7d25bf2caa5720ef0036c8f37`. The mechanism transfers. Its
+headline savings percentage does not.
+
+#### Layer 0 — no-model resolution
+
+Resolve the task without model inference when deterministic inspection can
+produce the complete answer. Eligible operations include:
+
+- exact canon-key lookup;
+- path, revision, and hash resolution;
+- schema validation;
+- unchanged-input detection;
+- test and audit status extraction;
+- template expansion with no creative choice;
+- threshold and arithmetic evaluation.
+
+Record `pathway: deterministic` and `model_calls: 0`. Do not call a model merely
+to paraphrase a machine result back into the pipeline.
+
+#### Exact-context replay only
+
+A reusable result must be keyed from a canonical fingerprint containing:
+
+- task class and normalized task specification;
+- ordered governing-source paths and content hashes;
+- agent-workhorse revision;
+- tool, schema, and runtime versions that affect the result;
+- production parameters;
+- validation contract revision.
+
+Use SHA-256 over the canonical serialized record. A changed source, parameter,
+schema, tool contract, or validation rule creates a new key. Scope caches to the
+project and task authority. Never reuse a response across unrelated canon
+contexts because the prose appears semantically similar.
+
+A cache hit reuses computation. It does not upgrade a model response into
+evidence. Revalidate referenced files, artifact hashes, and current authority
+before accepting the result.
+
+#### Escalation as a cost governor
+
+Start with the cheapest pathway that is allowed by the task's risk. Escalate
+only when one of these predicates is recorded:
+
+- deterministic resolution is impossible;
+- routing confidence is below the task-class threshold;
+- canon sources conflict;
+- physical or spatial reasoning remains ambiguous;
+- an adversarial, security, licensing, or provenance risk is detected;
+- the lower tier failed the frozen acceptance contract.
+
+Do not copy REI's current numeric confidence thresholds into this pipeline.
+They are not calibrated for story continuity, Blender mechanics, or visual art
+review. Until Thulans-specific evaluation data exists, record the escalation
+reason and treat thresholds as `UNIMPLEMENTED`.
+
+#### Measured, modeled, and counterfactual separation
+
+Every efficiency claim must be one of:
+
+- `OBSERVED`: provider or runtime telemetry from the executed request;
+- `MODELED`: a calculation using declared rates or cache assumptions;
+- `COUNTERFACTUAL`: an estimate of what a different route might have cost;
+- `UNAVAILABLE`: required telemetry is absent or invalid.
+
+Missing usage is `UNAVAILABLE`, never zero. Exclude ineligible records from the
+measured denominator and report the excluded count with reason codes. Never
+present modeled cache savings or replay estimates as observed spend.
+
+#### Experimental isolation
+
+Before testing a cost-saving change, freeze:
+
+- the task corpus;
+- source revisions;
+- acceptance tests;
+- output-quality rubric;
+- provider rate table;
+- all routing and exclusion behavior not under test.
+
+Declare the control, the single changed mechanism, and the expected effect.
+If multiple mechanisms change, the result cannot prove which one produced the
+saving.
+
+#### Verification cadence
+
+During implementation, run the narrowest affected test or audit. Run the full
+suite and claim audit once at the commit or push gate. Capture the failing case
+and summary counts instead of replaying complete logs into model context.
+
+Use this failure format:
+
+```yaml
+command: ""
+failure: ""
+working_tree_recoverable: true
+next_action: ""
+```
+
+Token budget thresholds for task classes remain `UNIMPLEMENTED` until this
+pipeline records enough observed usage to set them without guesswork.
+
 ## 11. Anti-hallucination law
 
 Never invent:
@@ -559,6 +664,13 @@ known_exclusions: []
 task: ""
 status: PASS_SCOPED | FAIL | BLOCKED | UNIMPLEMENTED
 source_revision: ""
+efficiency:
+  pathway: deterministic | exact_cache | model
+  context_fingerprint: ""
+  cache_status: hit | miss | bypassed | unavailable
+  model_calls: 0
+  usage_provenance: OBSERVED | MODELED | COUNTERFACTUAL | UNAVAILABLE
+  exclusion_code: null
 inputs:
   - path: ""
     sha256: ""
@@ -631,3 +743,14 @@ Verified against official OpenAI documentation on 2026-09-24:
 
 These sources support the optimization mechanisms. Repository tests and runtime
 telemetry must establish whether they produce savings in this pipeline.
+
+CARDO REI transfer sources, inspected at revision
+`3c64089e6faaeeb7d25bf2caa5720ef0036c8f37`:
+
+- [`TOKEN_SAVERS.md`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/TOKEN_SAVERS.md)
+- [`deterministicEngine.js`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/src/lib/deterministicEngine.js)
+- [`cardoGuard.js`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/src/lib/cardoGuard.js)
+- [`dkr.js`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/shared/lib/dkr.js)
+- [`openaiAdapter.ts`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/src/lib/pilotIngest/openaiAdapter.ts)
+- [`pilotReport.ts`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/src/lib/pilotReport.ts)
+- [`measurementIntegrity.test.js`](https://github.com/aaronmarchant96-max/rei-ai/blob/3c64089e6faaeeb7d25bf2caa5720ef0036c8f37/tests/api/measurementIntegrity.test.js)
