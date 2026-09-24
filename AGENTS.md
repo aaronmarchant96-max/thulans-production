@@ -121,7 +121,13 @@ Enforcement status:
 
 - **Implemented:** contract parsing, write boundaries, frozen-path overrides,
   added-line pattern scanning, error-gap tags, task-envelope validation,
-  per-diff Placation Index calculation, authority recommendation, and CI failure.
+  per-diff Placation Index calculation, authority recommendation, and GitHub
+  Actions workflow wiring.
+- **BLOCKED:** remote CI enforcement is not currently operational. GitHub run
+  `36074308234` accepted the workflow but assigned no runner (`runner_id: 0`)
+  and executed zero steps, as did the preceding runs. The repository cannot
+  claim a mandatory remote gate until GitHub Actions runner access is restored
+  and a run completes successfully.
 - **Injection-ready:** `python tools/audit_agent_compliance.py --compile-only`
   emits the compact invariant block an orchestrator must inject before execution.
 - **UNIMPLEMENTED:** this repository contains no local agent orchestrator, so it

@@ -18,7 +18,8 @@
   "known_exclusions": [
     "No local agent orchestrator exists in this repository; live system-prompt injection remains UNIMPLEMENTED.",
     "No persistent cross-run Placation Index store exists; the current score is calculated per audited diff.",
-    "Filesystem write revocation remains UNIMPLEMENTED; CI rejection is the active enforcement boundary.",
+    "Filesystem write revocation remains UNIMPLEMENTED; auditor rejection is the implemented enforcement boundary.",
+    "GitHub Actions run 36074308234 received runner_id 0 and executed zero steps, matching preceding runs; remote CI enforcement remains BLOCKED until hosted runner access is restored.",
     "Banned-pattern and error-gap detection is heuristic and limited to added diff lines."
   ],
   "unexecuted_checks": [],
