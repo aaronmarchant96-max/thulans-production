@@ -16,6 +16,7 @@ For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/V
 5. **Prerequisite Claim Graph DAG:** No downstream PASS claim (e.g. Physics Hold) can override an upstream failure (e.g. Handedness, Connected Mechanism, or Acquisition Trajectory).
 6. **Canonical Denominator Integrity:** Maintain permanent test IDs across the 9 layers (1,000 assertions). Never silently rewrite or weaken failing tests; retire bad tests with explicit rationale and increment versioning.
 7. **CARDO Claim Kernel:** New machine-verifiable claims must use `tools/cardo_claims.py`. Producers may request `PASS_SCOPED`, but only the kernel may set `claim_authorized=true`. Every proof obligation requires an implemented capability, execution evidence, counterevidence, candidate hash, source revision, and reproduction command.
+8. **No Fabricated Runtime State:** Never invent Blender object names, collections, cameras, materials, node sockets, engine capabilities, file paths, outputs, measurements, hashes, approvals, or PASS states. Discover identifiers from the frozen saved scene or a checked-in manifest. A missing or ambiguous dependency is `BLOCKED`; an absent implementation is `UNIMPLEMENTED`. Neither may be replaced with a plausible value.
 
 ---
 
