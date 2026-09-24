@@ -374,7 +374,131 @@ Run three separate reviews:
 Aaron approves or rejects the exact page artifact by hash. Machine PASS does
 not equal artistic approval.
 
-## 10. Anti-hallucination law
+## 10. Context and token economy
+
+Token saving is subordinate to truth. Never remove governing evidence merely to
+make a request cheaper. Reduce duplication, irrelevant context, speculative
+calls, and oversized output first.
+
+### Repository context discipline
+
+For each task:
+
+1. Search filenames and symbols before opening files.
+2. Load the smallest authoritative set that can decide the task.
+3. Read targeted sections when the whole document is not required by an active
+   skill or repository instruction.
+4. Refer to unchanged material by path, heading, line reference, revision, or
+   hash instead of pasting it into every handoff.
+5. Do not reread an unchanged file during the same task unless the required
+   section was not captured or another process may have modified it.
+6. Keep tool output scoped. Prefer matched lines, summaries, counts, diffs, and
+   failing cases over full logs.
+7. Preserve a short task ledger containing decisions, unresolved questions,
+   inspected revisions, and the next smallest action.
+
+Required reading order does not mean injecting every source into every model
+call. Read the governing source, extract the binding facts, and carry those facts
+forward with their provenance.
+
+### Deterministic work before model work
+
+Use deterministic code for:
+
+- manifest and schema validation;
+- file discovery and hashing;
+- canon-key lookup;
+- duplicate detection;
+- image dimensions and channel inspection;
+- Blender object and property discovery;
+- arithmetic, threshold checks, and claim evaluation;
+- unchanged-artifact detection.
+
+Do not spend a model call rediscovering a fact that a parser, hash comparison,
+test, or repository search can establish exactly. Event Forge Gate 0–5 filtering
+must run before optional generative expansion when that path exists.
+
+### Request economy
+
+- Combine independent read-only lookups when the tooling safely supports it.
+- Keep dependent steps ordered; do not ask several agents to rediscover the
+  same state.
+- Use one agent for short tasks, ordered chains, and edits to the same mutable
+  files. Additional agents require a stated independent deliverable.
+- Do not generate multiple prose variants unless selection between variants is
+  part of the task.
+- Bound requested output to the artifact actually needed. Do not ask for a full
+  report when a status record or patch is sufficient.
+- Reuse a verified result while its input hashes and governing revision remain
+  unchanged. Invalidate it when either changes.
+
+### Prompt-cache discipline for API orchestration
+
+When CARDO or Event Forge makes repeated API requests:
+
+- place stable instructions, schemas, examples, and reference material before
+  task-specific content;
+- keep tool definitions, tool ordering, model, reasoning configuration, and
+  output schema stable across comparable requests;
+- append changing task data after the reusable prefix;
+- do not rewrite earlier conversation content merely for cosmetic consistency;
+- use explicit cache breakpoints only when the selected model supports them and
+  the stable prefix will be reused enough to justify cache-write cost;
+- record cache reads and cache writes instead of assuming a session produced a
+  cache hit.
+
+Prompt caching lowers processing cost for a matching prefix. It does not reduce
+the logical context presented to the model, guarantee identical output, or
+replace validation.
+
+### Long-run context control
+
+For long agent runs, compact only after recording:
+
+- governing source revisions;
+- accepted decisions;
+- rejected alternatives that must not return;
+- artifact paths and hashes;
+- checks executed and checks still outstanding;
+- current blockers and next action.
+
+After a valid compaction item or equivalent task ledger exists, discard obsolete
+transcript detail rather than continually replaying it. Never compact away an
+unresolved canon conflict or a failed check.
+
+### Model and execution routing
+
+- Use the smallest model and lowest reasoning effort that passes representative
+  quality tests for the task class.
+- Escalate only after a recorded failure, ambiguity, or risk threshold.
+- Use asynchronous batch or lower-priority processing for non-interactive work
+  only when turnaround requirements permit it.
+- Reserve high-effort reasoning for canon conflicts, mechanical diagnosis,
+  architecture, and final cross-domain review.
+
+Model choice is an evaluated routing decision, not a permanent status symbol.
+
+### Minimum usage record
+
+Where the runtime exposes usage, record:
+
+```yaml
+usage:
+  requests: 0
+  input_tokens: 0
+  cached_input_tokens: 0
+  cache_write_tokens: 0
+  output_tokens: 0
+  reasoning_tokens: 0
+  tool_calls: 0
+  estimated_cost: null
+  accepted_artifact: false
+```
+
+Judge efficiency by cost per accepted, validated artifact. A cheap request that
+creates unusable work is not a saving.
+
+## 11. Anti-hallucination law
 
 Never invent:
 
@@ -401,7 +525,7 @@ If required information is missing:
 Plausibility is not evidence. Detail is not authority. Confidence is not a
 measurement.
 
-## 11. Workhorse output templates
+## 12. Workhorse output templates
 
 ### Panel specification
 
@@ -450,7 +574,7 @@ human_review_required: true
 next_smallest_action: ""
 ```
 
-## 12. Self-review questions
+## 13. Self-review questions
 
 Before handing off any page, answer:
 
@@ -465,11 +589,12 @@ Before handing off any page, answer:
 9. Did the page earn every grid rupture and accent color?
 10. Is any claim stronger than its evidence?
 11. Did the agent invent a runtime fact or canon detail?
-12. What is the smallest honest next step?
+12. Was any context, request, or model escalation unnecessary?
+13. What is the smallest honest next step?
 
 Any unresolved answer blocks final handoff.
 
-## 13. First proof-page work order
+## 14. First proof-page work order
 
 The initial page remains a three-panel institutional scene:
 
@@ -493,3 +618,16 @@ The page must prove:
 
 If the page only proves that the renderer can make attractive machinery, it
 fails the story gate.
+
+## Verified optimization basis
+
+Verified against official OpenAI documentation on 2026-09-24:
+
+- [Cost optimization](https://developers.openai.com/api/docs/guides/cost-optimization)
+- [Prompt caching](https://developers.openai.com/api/docs/guides/prompt-caching)
+- [Compaction](https://developers.openai.com/api/docs/guides/compaction)
+- [API deployment checklist](https://developers.openai.com/api/docs/guides/deployment-checklist)
+- [Shell, skills, and compaction for long-running agents](https://developers.openai.com/blog/skills-shell-tips)
+
+These sources support the optimization mechanisms. Repository tests and runtime
+telemetry must establish whether they produce savings in this pipeline.
