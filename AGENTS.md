@@ -34,3 +34,9 @@ For story, script, character motivation, dialogue, and cinematic beats in the Va
 Consult `docs/DEEPHEARTH_GAME_DIRECTION.md` for approved gameplay, art direction, and boundaries, and `docs/DEEPHEARTH_EVENT_FORGE_PLAN.md` for the **proposed, unimplemented** offline narrative prototype. The Varek story is a tonal/literary reference, not a required protagonist, plot or ending for the colony sim. Shared world facts still require checking the lore bible and rulings; distinguish world canon from cinematic-specific plot and proposed game mechanics. The user-approved concept art is a visual target, not a playable screenshot or a set of production-ready assets.
 
 Across both projects, label decisions as established world canon, approved project direction, proposed design or verified implementation. Never promote a design plan or test target into an implemented or passed claim.
+
+---
+
+## 3. Graphic-Novel Production Protocol
+
+Before planning, rendering, lettering, validating, or assembling a Varek graphic-novel panel, read `docs/GRAPHIC_NOVEL_AGENT_WORKHORSE.md` and `docs/DETERMINISTIC_GRAPHIC_NOVEL_PIPELINE_PLAN.md`. The workhorse governs page grammar, visual hierarchy, canon boundaries, evidence handling, and agent stop conditions. The pipeline plan governs implementation phases and artifacts.
