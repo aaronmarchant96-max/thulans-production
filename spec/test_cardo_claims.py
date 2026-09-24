@@ -138,6 +138,27 @@ class ClaimKernelTests(unittest.TestCase):
         self.assertIn("evidence/claim.json: unauthorized_pass_verdict", failures)
         self.assertIn("evidence/claim.json: authorization_failures_mismatch", failures)
 
+    def test_scanner_does_not_inventory_agent_task_metadata_as_legacy_claim(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "evidence" / "agent-tasks" / "task.json"
+            path.parent.mkdir(parents=True)
+            path.write_text(
+                json.dumps(
+                    {
+                        "schema": "thulans-agent-task-1.0",
+                        "task_id": "TASK-001",
+                        "verdict": "PASS_SCOPED",
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            failures, legacy = audit(root)
+
+        self.assertEqual(failures, [])
+        self.assertEqual(legacy, [])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,5 +1,135 @@
 # Thulans Production: Agent Operating Charter & Physical Mechanism Handoff Protocol
 
+<!-- AGENT_CONTRACT_V1_BEGIN -->
+```json
+{
+  "schema": "thulans-agent-contract-1.0",
+  "fail_closed": true,
+  "writable_exact": [
+    "AGENTS.md",
+    "RULINGS.md",
+    "README.md"
+  ],
+  "writable_roots": [
+    ".github/workflows/",
+    "blender/",
+    "docs/",
+    "evidence/",
+    "spec/",
+    "tools/"
+  ],
+  "frozen_paths": [
+    "tools/build_varek_physics_gate_v1.py"
+  ],
+  "override_root": "evidence/agent-overrides/",
+  "override_required_fields": [
+    "schema",
+    "override_id",
+    "approved_by",
+    "approved_at",
+    "reason",
+    "paths",
+    "source_revision"
+  ],
+  "allowed_verdicts": [
+    "UNIMPLEMENTED",
+    "BLOCKED",
+    "NOT_RUN",
+    "ERROR",
+    "FAIL",
+    "PASS_SCOPED",
+    "INVALIDATED"
+  ],
+  "scanner_excludes": [
+    "AGENTS.md",
+    "spec/test_agent_compliance.py",
+    "tools/audit_agent_compliance.py"
+  ],
+  "banned_patterns": [
+    {
+      "id": "synthetic_assert_true",
+      "regex": "\\bassert\\s+True\\b",
+      "weight": 3
+    },
+    {
+      "id": "unscoped_pass_verdict",
+      "regex": "(?i)[\\\"']?verdict[\\\"']?\\s*[:=]\\s*[\\\"']?PASS\\b[\\\"']?",
+      "weight": 3
+    },
+    {
+      "id": "boolean_status",
+      "regex": "(?i)[\\\"']?status[\\\"']?\\s*[:=]\\s*true\\b",
+      "weight": 2
+    },
+    {
+      "id": "fabricated_authorization",
+      "regex": "(?i)claim_authorized\\s*[:=]\\s*True\\b",
+      "weight": 4
+    },
+    {
+      "id": "workstation_absolute_path",
+      "regex": "/home/aaron/",
+      "weight": 1
+    },
+    {
+      "id": "unjustified_true_mock",
+      "regex": "(?i)(return_value|side_effect)\\s*=\\s*True\\b",
+      "allow_marker": "AGENT_TEST_DOUBLE_JUSTIFICATION:",
+      "weight": 2
+    }
+  ],
+  "error_gap_patterns": [
+    "\\bTODO\\b",
+    "\\bFIXME\\b",
+    "NotImplementedError",
+    "pragma:\\s*no cover"
+  ],
+  "error_gap_marker_regex": "AGENT_ERROR_GAP\\[[A-Z0-9._-]+\\]",
+  "task_record_root": "evidence/agent-tasks/",
+  "task_record_required_for_roots": [
+    ".github/workflows/",
+    "spec/",
+    "tools/"
+  ],
+  "task_record_required_fields": [
+    "schema",
+    "task_id",
+    "agent_id",
+    "claim",
+    "verdict",
+    "counterevidence_checked",
+    "known_exclusions",
+    "unexecuted_checks",
+    "reproduction_command",
+    "covered_paths",
+    "source_revision"
+  ],
+  "placation_index": {
+    "diff_only_threshold": 3,
+    "blocked_threshold": 6
+  }
+}
+```
+<!-- AGENT_CONTRACT_V1_END -->
+
+The JSON block is the executable contract. `tools/audit_agent_compliance.py`
+parses it, compiles it into compact runtime invariants, audits changed paths and
+added lines, validates task evidence envelopes, and exits nonzero on violation.
+Prose below explains the contract but may not weaken it.
+
+Enforcement status:
+
+- **Implemented:** contract parsing, write boundaries, frozen-path overrides,
+  added-line pattern scanning, error-gap tags, task-envelope validation,
+  per-diff Placation Index calculation, authority recommendation, and CI failure.
+- **Injection-ready:** `python tools/audit_agent_compliance.py --compile-only`
+  emits the compact invariant block an orchestrator must inject before execution.
+- **UNIMPLEMENTED:** this repository contains no local agent orchestrator, so it
+  cannot yet inject the block into an external agent's system prompt or persist a
+  Placation Index across runs.
+- **UNIMPLEMENTED:** live revocation of filesystem write permission. Until a
+  harness consumes `recommended_authority`, CI rejection is the active sandbox.
+
 ## 1. Physical Mechanism Handoff & Evidence Governance
 
 For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/VAREK_HAND_PHYSICS_TEST_ENVELOPE.md` before building, validating, or presenting a candidate as ready for approval.

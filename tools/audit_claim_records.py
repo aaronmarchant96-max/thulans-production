@@ -15,6 +15,11 @@ except ModuleNotFoundError:  # Direct execution from tools/
 
 PASS_TOKENS = {"PASS", "PASSED", "PASS_SCOPED", "MACHINE_PASS"}
 VERDICT_KEYS = {"result", "overall", "verdict", "status", "machine_result"}
+NON_CLAIM_SCHEMAS = {
+    "thulans-agent-task-1.0",
+    "thulans-agent-override-1.0",
+    "thulans-agent-compliance-report-1.0",
+}
 
 
 def audit(root: Path) -> tuple[list[str], list[str]]:
@@ -27,6 +32,8 @@ def audit(root: Path) -> tuple[list[str], list[str]]:
             failures.append(f"{path.relative_to(root)}: unreadable JSON: {exc}")
             continue
         if not isinstance(record, dict):
+            continue
+        if record.get("schema") in NON_CLAIM_SCHEMAS:
             continue
         if record.get("schema_version") == SCHEMA_VERSION:
             failures.extend(

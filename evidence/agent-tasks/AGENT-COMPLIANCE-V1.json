@@ -1,0 +1,34 @@
+{
+  "schema": "thulans-agent-task-1.0",
+  "task_id": "AGENT-COMPLIANCE-V1",
+  "agent_id": "codex-root",
+  "claim": "The scoped repository agent contract parser, diff auditor, evidence-envelope gate, and per-diff Placation Index execute and reject the declared adversarial fixtures.",
+  "verdict": "PASS_SCOPED",
+  "counterevidence_checked": [
+    "synthetic constant-true assertion fixture",
+    "unscoped PASS verdict fixture",
+    "workstation absolute-path fixture",
+    "unjustified true-mock fixture",
+    "untagged NotImplementedError fixture",
+    "out-of-boundary path fixture",
+    "frozen-path modification without override fixture",
+    "PASS_SCOPED envelope missing counterevidence fixture",
+    "PASS_SCOPED envelope containing unexecuted checks fixture"
+  ],
+  "known_exclusions": [
+    "No local agent orchestrator exists in this repository; live system-prompt injection remains UNIMPLEMENTED.",
+    "No persistent cross-run Placation Index store exists; the current score is calculated per audited diff.",
+    "Filesystem write revocation remains UNIMPLEMENTED; CI rejection is the active enforcement boundary.",
+    "Banned-pattern and error-gap detection is heuristic and limited to added diff lines."
+  ],
+  "unexecuted_checks": [],
+  "reproduction_command": "python -m unittest spec.test_agent_compliance -v && python -m unittest discover -s spec -v && python tools/audit_agent_compliance.py --base HEAD^ --head HEAD && python tools/audit_claim_records.py",
+  "covered_paths": [
+    ".github/workflows/cardo-claims.yml",
+    "spec/test_cardo_claims.py",
+    "spec/test_agent_compliance.py",
+    "tools/audit_claim_records.py",
+    "tools/audit_agent_compliance.py"
+  ],
+  "source_revision": "8dd4ef86c341a80201fa44e30145d9e39c625a66"
+}

@@ -12,9 +12,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Compile executable agent contract
+        run: python tools/audit_agent_compliance.py --compile-only
+      - name: Audit agent compliance on pull request
+        if: github.event_name == 'pull_request'
+        run: >-
+          python tools/audit_agent_compliance.py
+          --base "${{ github.event.pull_request.base.sha }}"
+          --head "${{ github.sha }}"
+      - name: Audit agent compliance on push
+        if: github.event_name == 'push'
+        run: >-
+          python tools/audit_agent_compliance.py
+          --base "${{ github.event.before }}"
+          --head "${{ github.sha }}"
       - name: Run repository tests
         run: python -m unittest discover -s spec -v
       - name: Audit canonical claim records
