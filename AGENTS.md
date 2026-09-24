@@ -15,6 +15,7 @@ For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/V
 4. **Adversarial Mutation Score Gate:** A candidate cannot pass unless the gate engine reliably rejects deliberately broken or corrupted candidates (48/48 mutation score). If a fraudulent scene passes, the gate itself fails.
 5. **Prerequisite Claim Graph DAG:** No downstream PASS claim (e.g. Physics Hold) can override an upstream failure (e.g. Handedness, Connected Mechanism, or Acquisition Trajectory).
 6. **Canonical Denominator Integrity:** Maintain permanent test IDs across the 9 layers (1,000 assertions). Never silently rewrite or weaken failing tests; retire bad tests with explicit rationale and increment versioning.
+7. **CARDO Claim Kernel:** New machine-verifiable claims must use `tools/cardo_claims.py`. Producers may request `PASS_SCOPED`, but only the kernel may set `claim_authorized=true`. Every proof obligation requires an implemented capability, execution evidence, counterevidence, candidate hash, source revision, and reproduction command.
 
 ---
 

@@ -19,7 +19,13 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+import subprocess
 import sys
+
+try:
+    from tools.cardo_claims import Capability, ClaimEnvelope, ProofObligation, Provenance, Verdict
+except ModuleNotFoundError:  # Direct execution from tools/
+    from cardo_claims import Capability, ClaimEnvelope, ProofObligation, Provenance, Verdict
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -42,25 +48,61 @@ def run_gate(candidate_path: Path, output_path: Path) -> int:
     for name, total in layers.items():
         print(f"Layer {name} ({total}) ... [UNIMPLEMENTED]")
 
-    report = {
-        "gate_version": "Varek Physics Gate v1",
-        "canonical_denominator": 1000,
-        "candidate": str(candidate_path),
-        "candidate_sha256": hashlib.sha256(candidate_path.read_bytes()).hexdigest(),
-        "claim_graph": {
+    claim_graph = {
             "CANON": False, "HANDEDNESS": False, "CONNECTED_MECHANISM": False,
             "LEGAL_JOINT_TRAVEL": False, "ACQUISITION_PATH": False, "CONTACT_ESTABLISHED": False,
             "FINITE_FORCE_RETENTION": False, "LOADED_MOTION": False, "RELEASE": False,
             "NEGATIVE_CONTROLS": False, "ROBUSTNESS": False, "REPRODUCIBILITY": False,
-            "HUMAN_VISUAL_APPROVAL": False, "PHYSICAL_HANDOFF_AUTHORIZED": False
-        },
-        "assertions": {
+            "HUMAN_VISUAL_APPROVAL": False, "PHYSICAL_HANDOFF_AUTHORIZED": False,
+    }
+    assertions = {
             name: {"total": total, "executed": 0, "passed": 0, "status": "UNIMPLEMENTED"}
             for name, total in layers.items()
-        },
+    }
+    try:
+        revision = subprocess.run(
+            ["git", "rev-parse", "HEAD"], cwd=ROOT, check=True, capture_output=True, text=True
+        ).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        revision = "UNKNOWN"
+    capabilities = tuple(
+        Capability(name, None, False) for name in layers
+    )
+    obligations = tuple(
+        ProofObligation(
+            obligation_id=f"VAREK.PHYSICS.{name.upper()}",
+            capability_id=name,
+            predicate=f"all {total} declared checks execute and pass",
+        )
+        for name, total in layers.items()
+    )
+    envelope = ClaimEnvelope(
+        claim_id="VAREK.PHYSICS.HANDOFF.V1",
+        scope="Declared 1,000-assertion Varek physics verification battery",
+        requested_verdict=Verdict.UNIMPLEMENTED,
+        capabilities=capabilities,
+        obligations=obligations,
+        provenance=Provenance(
+            candidate_path=str(candidate_path),
+            candidate_sha256=hashlib.sha256(candidate_path.read_bytes()).hexdigest(),
+            source_revision=revision,
+            reproduction_command=(
+                f"python tools/build_varek_physics_gate_v1.py --candidate {candidate_path} "
+                f"--output {output_path}"
+            ),
+        ),
+        known_exclusions=("No declared verification layer has an executable implementation.",),
+        unexecuted_checks=tuple(layers),
+    )
+    report = envelope.evaluate()
+    report.update({
+        "gate_version": "Varek Physics Gate v1",
+        "canonical_denominator": 1000,
+        "claim_graph": claim_graph,
+        "assertions": assertions,
         "result": "FAIL_UNIMPLEMENTED",
         "failure_reason": "The 1,000-assertion gate is a declared test plan; its checks are not implemented.",
-    }
+    })
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(report, indent=2), encoding='utf-8')
