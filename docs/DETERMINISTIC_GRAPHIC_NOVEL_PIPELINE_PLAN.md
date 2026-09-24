@@ -23,6 +23,9 @@ full issue, a complete chapter, or a new Varek asset build.
 
 - The repository contains a CARDO Claim Kernel, canonical evidence validation,
   hash-bound candidate patterns, and headless Blender command guidance.
+- `docs/GRAPHIC_NOVEL_STYLE_CONTRACT.md` defines the approved visual direction,
+  rejection gate, proof-page brief, and the render thresholds that remain
+  provisional pending calibration.
 - Existing Varek render scripts are largely Workbench or Cycles diagnostics.
 - The Varek hand/tool physics gate remains blocked. Its visual material may be
   used as an explicitly non-physical scene subject, never as a functioning-grip
@@ -252,9 +255,9 @@ cannot authorize its own output.
 - Audit `docs/STATE_OF_PRODUCTION.md` against current evidence and current
   physics-gate status; preserve historical information but correct unsupported
   “working/certified” language.
-- Create `docs/GRAPHIC_NOVEL_STYLE_CONTRACT.md` with the mineral palette,
-  line-weight hierarchy, tonal bands, halftone ranges, and prohibited visual
-  language: neon crystal, glossy sci-fi, clean manga softness, generic fantasy.
+- Maintain `docs/GRAPHIC_NOVEL_STYLE_CONTRACT.md` as the production visual
+  authority. Its exact line widths, tone thresholds, halftone settings, and
+  camera values remain provisional until the proof-page calibration run.
 - Create a frozen object/material naming registry for the proof-page scene.
 
 **Exit gate:** one candidate scene and one visual scene scope are named and

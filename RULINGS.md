@@ -202,9 +202,16 @@
 * **Tier 3 — Cycles Final:** Approved sequences render through Cycles to lossless PNG
   frames. FFmpeg creates H.264 review/delivery derivatives from those frames; an MP4 is
   not the render master.
-* **EEVEE:** Prohibited for acceptance evidence and future visual benchmarks. It may
-  not establish final material, lighting, contact-shadow, reflection, or volumetric
-  claims.
+* **EEVEE — Cinematic and Engineering Boundary:** Prohibited as acceptance evidence
+  for geometry, materials, lighting, contact shadows, reflections, volumetrics,
+  collisions, or physics. It cannot replace Workbench or Cycles for those claims.
+* **EEVEE — Scoped Graphic-Novel Addendum (approved 2026-09-24):** Authorized as the
+  final image master for deterministic graphic-novel still panels when a manifest
+  binds the frozen scene, camera, frame, render profile, line-art configuration,
+  tone thresholds, compositor graph, and seeds. This authority covers the generated
+  panel artifact only. It does not authorize mechanical or material correctness,
+  and it does not replace Aaron's hash-bound human art approval. Cycles remains the
+  diagnostic reference for material and lighting comparison.
 * **Failure Semantics:** Headless Blender commands use `--python-exit-code 1` so script
   exceptions cannot be mistaken for successful renders.
 * **Historical Boundary:** Motion Chassis V1 candidate `6566fdba…` used EEVEE and was

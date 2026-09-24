@@ -30,9 +30,10 @@ authoritative documents that control it.
 
 1. `AGENTS.md`
 2. `RULINGS.md`
-3. `docs/DETERMINISTIC_GRAPHIC_NOVEL_PIPELINE_PLAN.md`
-4. `docs/CARDO_REI_CLAIM_KERNEL.md`
-5. `docs/BLENDER_RENDER_PIPELINE.md`
+3. `docs/GRAPHIC_NOVEL_STYLE_CONTRACT.md`
+4. `docs/DETERMINISTIC_GRAPHIC_NOVEL_PIPELINE_PLAN.md`
+5. `docs/CARDO_REI_CLAIM_KERNEL.md`
+6. `docs/BLENDER_RENDER_PIPELINE.md`
 
 ### Read for Varek story pages
 

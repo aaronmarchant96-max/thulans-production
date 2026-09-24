@@ -39,4 +39,4 @@ Across both projects, label decisions as established world canon, approved proje
 
 ## 3. Graphic-Novel Production Protocol
 
-Before planning, rendering, lettering, validating, or assembling a Varek graphic-novel panel, read `docs/GRAPHIC_NOVEL_AGENT_WORKHORSE.md` and `docs/DETERMINISTIC_GRAPHIC_NOVEL_PIPELINE_PLAN.md`. The workhorse governs page grammar, visual hierarchy, canon boundaries, evidence handling, and agent stop conditions. The pipeline plan governs implementation phases and artifacts.
+Before planning, rendering, lettering, validating, or assembling a Varek graphic-novel panel, read `docs/GRAPHIC_NOVEL_AGENT_WORKHORSE.md`, `docs/GRAPHIC_NOVEL_STYLE_CONTRACT.md`, and `docs/DETERMINISTIC_GRAPHIC_NOVEL_PIPELINE_PLAN.md`. The workhorse governs agent behavior, canon boundaries, evidence handling, and stop conditions. The style contract governs visual identity, page grammar, composition, palette, character read, and art rejection gates. The pipeline plan governs implementation phases and artifacts.
