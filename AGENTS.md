@@ -134,7 +134,8 @@ Enforcement status:
   cannot yet inject the block into an external agent's system prompt or persist a
   Placation Index across runs.
 - **UNIMPLEMENTED:** live revocation of filesystem write permission. Until a
-  harness consumes `recommended_authority`, CI rejection is the active sandbox.
+  harness consumes `recommended_authority`, auditor rejection is the implemented
+  enforcement boundary; the remote CI boundary remains blocked as noted above.
 
 ## 1. Physical Mechanism Handoff & Evidence Governance
 
