@@ -8,7 +8,8 @@
   "writable_exact": [
     "AGENTS.md",
     "RULINGS.md",
-    "README.md"
+    "README.md",
+    "bitbucket-pipelines.yml"
   ],
   "writable_roots": [
     ".github/workflows/",
