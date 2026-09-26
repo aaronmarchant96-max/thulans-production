@@ -1,6 +1,6 @@
 # Deephearth Event Forge — Offline Narrative Engine
 
-Status: **MILESTONE 1 LOCALLY REPORTED AS VERIFIED; REPOSITORY EVIDENCE NOT YET INSPECTED. MILESTONE 2 SPECIFIED / NOT VERIFIED.** Updated 2026-09-18. This is the game-specific adaptation of the user's Story Forge concept; it does not establish that Story Forge exposes an API or that Godot is already connected.
+Status: **MILESTONE 1 LOCALLY REPORTED; REPRODUCTION BLOCKED BY MISSING ACCESSIBLE IMPLEMENTATION. MILESTONE 2 SPECIFIED / NOT VERIFIED.** Updated 2026-09-26. This is the game-specific adaptation of the user's Story Forge concept; it does not establish that Story Forge exposes an API or that Godot is already connected.
 
 ## Purpose
 
@@ -37,6 +37,10 @@ The author reports running `python3 -m unittest discover tests` against a **loca
 - `fixtures/generate_mockup_state.py` reportedly produces a Day 43 example with water 124/200 L (62%), pressure 58 PSI, marks 27, Bram's 45-mark debt, a +62 Sanna bond, and the P01 concealment proposal.
 
 **Evidence boundary:** These are reported results, not an independently reproduced test run. The linked GitHub repository did not expose an accessible `prototype/` implementation or fixture at the time of this documentation update. 90% valid proposals is the benchmark's *proposal yield*, not a 90% validator correctness measurement. An 11-test PASS does not alone prove every possible corrupted state is rejected, zero bugs, Godot framerate, or universal offline performance. Record the exact code revision, Python version, test command, fixture contents, baseline snapshots and benchmark method once the code is available.
+
+### Reproduction attempt — 2026-09-26
+
+The repository working tree and connected GitHub/Bitbucket mirrors were searched for `P01`, `EventProposal`, `prototype/`, `fixtures/generate_mockup_state.py`, and the reported Event Forge terms. No implementation or fixture files were found. The reported 11/11 result therefore remains **BLOCKED / NOT independently reproduced**, with the evidence record at `evidence/agent-tasks/EVENT-FORGE-M1-REPRO-V1.json`.
 
 ## Milestone 2: Godot live UI integration
 
