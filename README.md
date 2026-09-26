@@ -21,3 +21,16 @@ Original cinematic-production workspace for **The Thulans** and Brothar Varek Fa
 - Soundtrack: source tracks preserved; mashup requires two lyric remediations before original-IP-clean release.
 
 The production rule is claim -> measurement -> acceptance gate -> implementation -> verification -> human approval. Do not present historical gate statements as a fresh verification of the current working tree.
+
+## Local integrity checks
+
+Run the executable repository gates locally when GitHub Actions is unavailable:
+
+```bash
+python tools/run_local_ci.py
+```
+
+The command compiles the agent contract, audits the `HEAD^..HEAD` compliance
+diff, runs the Python unit suite, and audits canonical claim records. Its
+`PASS_SCOPED` result does not cover GitHub runner allocation, Blender execution,
+physics simulation, renders, visual approval, or unimplemented assertions.
