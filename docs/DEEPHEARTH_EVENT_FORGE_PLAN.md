@@ -1,6 +1,6 @@
 # Deephearth Event Forge — Offline Narrative Engine
 
-Status: **MILESTONE 1 LOCALLY REPORTED; REPRODUCTION BLOCKED BY MISSING ACCESSIBLE IMPLEMENTATION. MILESTONE 2 SPECIFIED / NOT VERIFIED.** Updated 2026-09-26. This is the game-specific adaptation of the user's Story Forge concept; it does not establish that Story Forge exposes an API or that Godot is already connected.
+Status: **CLEAN-ROOM MILESTONE 1 REBUILD IMPLEMENTED; HISTORICAL REPRODUCTION REMAINS BLOCKED. MILESTONE 2 SPECIFIED / NOT VERIFIED.** Updated 2026-09-26. This is the game-specific adaptation of the user's Story Forge concept; it does not establish that Story Forge exposes an API or that Godot is already connected.
 
 ## Purpose
 
@@ -41,6 +41,10 @@ The author reports running `python3 -m unittest discover tests` against a **loca
 ### Reproduction attempt — 2026-09-26
 
 The repository working tree and connected GitHub/Bitbucket mirrors were searched for `P01`, `EventProposal`, `prototype/`, `fixtures/generate_mockup_state.py`, and the reported Event Forge terms. No implementation or fixture files were found. The reported 11/11 result therefore remains **BLOCKED / NOT independently reproduced**, with the evidence record at `evidence/agent-tasks/EVENT-FORGE-M1-REPRO-V1.json`.
+
+### Clean-room rebuild — 2026-09-26
+
+The documented contract is now implemented independently under `tools/event_forge/` with an `EventProposal` dataclass, ten authored pattern identifiers, seeded deterministic generation, state-fingerprint and version revalidation, duplicate/stale/corruption rejection, atomic consequence commits, a Day 43 mockup state, a 100-snapshot benchmark, and a structural comparison harness for a later recovered implementation. The rebuild passes 11 focused tests and the repository's 46-test local CI battery. This is new executable evidence, not evidence that the historical prototype has been recovered.
 
 ## Milestone 2: Godot live UI integration
 
