@@ -1,0 +1,30 @@
+{
+  "schema": "thulans-agent-task-1.0",
+  "task_id": "EVENT-FORGE-M1-REPRO-V1",
+  "agent_id": "codex-root",
+  "claim": "Attempted to independently reproduce the reported Deephearth Event Forge Milestone 1 results from repository-accessible implementation and fixtures.",
+  "verdict": "BLOCKED",
+  "counterevidence_checked": [
+    "rg --files search for event, forge, prototype, fixture, snapshot, and story paths",
+    "repository text search for P01, EventProposal, 11/11, 100 snapshots, and generate_mockup_state",
+    "GitHub code searches for P01 Survival Through Concealment, EventProposal, and generate_mockup_state",
+    "Bitbucket Main mirror inspection"
+  ],
+  "known_exclusions": [
+    "No external local directory outside the connected repositories was inspected.",
+    "The reported local prototype and benchmark output were not available to execute."
+  ],
+  "unexecuted_checks": [
+    "python3 -m unittest discover tests against the reported prototype",
+    "100 seeded colony snapshot benchmark",
+    "P01-P10 proposal generation latency benchmark",
+    "corruption, stale actor, rollback, and consequence-chain cases"
+  ],
+  "reproduction_command": "rg --files | rg -i 'event|forge|prototype|fixture|snapshot|story'; rg -n -i 'Event Forge|prototype/|11/11|100 snapshots|P01|Milestone 1' .",
+  "covered_paths": [
+    "docs/DEEPHEARTH_EVENT_FORGE_PLAN.md",
+    "docs/DEEPHEARTH_MILESTONE_2_UI_CONTRACT.md",
+    "evidence/agent-tasks/EVENT-FORGE-M1-REPRO-V1.json"
+  ],
+  "source_revision": "0932667f8c8f93bdc422d8c10747a8cd4f141621"
+}
