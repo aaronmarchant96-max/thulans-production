@@ -1,0 +1,9 @@
+image: python:3.12
+
+pipelines:
+  default:
+    - step:
+        name: CARDO local integrity gates
+        script:
+          - python --version
+          - python tools/run_local_ci.py
