@@ -1,0 +1,31 @@
+{
+  "schema": "thulans-agent-task-1.0",
+  "task_id": "EVENT-FORGE-M1-REBUILD-V1",
+  "agent_id": "codex-root",
+  "claim": "The clean-room Event Forge v1 implementation satisfies the documented deterministic proposal, validation, benchmark, and consequence-commit contract.",
+  "verdict": "PASS_SCOPED",
+  "counterevidence_checked": [
+    "11 focused Event Forge unit tests",
+    "46 repository unit tests through tools/run_local_ci.py",
+    "100 seeded mock colony snapshots",
+    "deliberately corrupted proposal",
+    "stale actor and stale state-version proposals",
+    "duplicate active-event rejection",
+    "atomic consequence commit"
+  ],
+  "known_exclusions": [
+    "This is a clean-room rebuild, not the missing historical prototype.",
+    "The original reported 0.026 ms latency and its exact rule implementation remain unverified.",
+    "Godot scene rendering and save/load integration are outside Milestone 1.",
+    "No LLM or cloud provider is used by the deterministic engine."
+  ],
+  "unexecuted_checks": [],
+  "reproduction_command": "python -m unittest spec.test_event_forge -v; python -m tools.event_forge.benchmark",
+  "covered_paths": [
+    "tools/event_forge/engine.py",
+    "tools/event_forge/benchmark.py",
+    "tools/event_forge/compare.py",
+    "spec/test_event_forge.py"
+  ],
+  "source_revision": "clean-room-v1"
+}
