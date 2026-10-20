@@ -41,6 +41,22 @@ Final sample count, bounce limits, denoising, and render device remain shot-spec
 until measured quality/time tests establish them. Diagnostic `128 samples` must not be
 silently promoted into a universal final-pass setting.
 
+## Tier 4 — EEVEE Graphic-Novel Master
+
+Scope: final still panels and page assets produced by the deterministic
+3D-to-graphic-novel pipeline. This tier does not change the authority of
+Workbench or Cycles evidence for mechanical, material, or cinematic work.
+
+Use EEVEE as the production panel renderer when a panel manifest binds the
+scene, camera, frame, render settings, Grease Pencil Line Art configuration,
+Shader-to-RGB tone thresholds, compositor graph, and deterministic seeds. The
+render must output the declared panel master plus line, tone, and mask passes.
+
+Cycles remains the diagnostic reference for material/lighting comparison and
+for any claim that requires its render characteristics. EEVEE's speed and NPR
+node support make it the preferred master for comic panel iteration, not a
+substitute for physics or material verification.
+
 ## Headless command shape
 
 ```bash
@@ -55,7 +71,8 @@ artifact hash must both pass before a render is reported successful.
 
 ## Prohibited evidence shortcuts
 
-- EEVEE renders presented as final visual evidence;
+- EEVEE renders presented as final evidence outside the declared
+  graphic-novel panel tier;
 - MP4-only masters;
 - material approval from Workbench clay;
 - geometry approval hidden beneath final materials;

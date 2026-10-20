@@ -1,0 +1,46 @@
+{
+  "schema": "thulans-agent-task-1.0",
+  "task_id": "EVENT-FORGE-M1-REPRO-V1",
+  "agent_id": "codex-root",
+  "claim": "Attempted to independently reproduce the reported Deephearth Event Forge Milestone 1 results from repository-accessible implementation and fixtures.",
+  "verdict": "BLOCKED",
+  "counterevidence_checked": [
+    "rg --files search for event, forge, prototype, fixture, snapshot, and story paths",
+    "repository text search for P01, EventProposal, 11/11, 100 snapshots, and generate_mockup_state",
+    "GitHub code searches for P01 Survival Through Concealment, EventProposal, and generate_mockup_state",
+    "Bitbucket Main mirror inspection",
+    "GitHub repository inventory and inspection of a related aaronmarchant96-max/rei-echoforge source tree"
+  ],
+  "related_source_checked": {
+    "repository": "aaronmarchant96-max/rei-echoforge",
+    "revision": "ba4644a33aeaaabab657fb54984714eb3b0ead6d",
+    "found": [
+      "runtime source under src/",
+      "replay fixture fixtures/replay/nels-family.json",
+      "JavaScript and native tests under test/"
+    ],
+    "not_found": [
+      "Deephearth Event Forge P01-P10 pattern identifiers",
+      "EventProposal contract",
+      "colony snapshot fixture or generate_mockup_state.py"
+    ],
+    "interpretation": "Related executable evidence exists, but it is a different Oblivion/EchoForge product surface and cannot satisfy the Deephearth Event Forge reproduction claim."
+  },
+  "known_exclusions": [
+    "No external local directory outside the connected repositories was inspected.",
+    "The reported local prototype and benchmark output were not available to execute."
+  ],
+  "unexecuted_checks": [
+    "python3 -m unittest discover tests against the reported prototype",
+    "100 seeded colony snapshot benchmark",
+    "P01-P10 proposal generation latency benchmark",
+    "corruption, stale actor, rollback, and consequence-chain cases"
+  ],
+  "reproduction_command": "rg --files | rg -i 'event|forge|prototype|fixture|snapshot|story'; rg -n -i 'Event Forge|prototype/|11/11|100 snapshots|P01|Milestone 1' .",
+  "covered_paths": [
+    "docs/DEEPHEARTH_EVENT_FORGE_PLAN.md",
+    "docs/DEEPHEARTH_MILESTONE_2_UI_CONTRACT.md",
+    "evidence/agent-tasks/EVENT-FORGE-M1-REPRO-V1.json"
+  ],
+  "source_revision": "ed4a8b5"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "thulans-agent-task-1.0",
+  "task_id": "LOCAL-CI-V1",
+  "agent_id": "codex-root",
+  "claim": "The scoped local runner executes the same four executable gates declared by the CARDO claim-integrity workflow, aggregates their exit codes, and fails closed when any gate fails.",
+  "verdict": "PASS_SCOPED",
+  "counterevidence_checked": [
+    "simulated compliance-gate nonzero exit while later checks still execute",
+    "simulated unit-test nonzero exit produces an overall failing report",
+    "report explicitly preserves Blender and physical-gate exclusions"
+  ],
+  "known_exclusions": [
+    "Local execution cannot verify GitHub-hosted runner allocation or workflow-platform integration.",
+    "The runner does not execute Blender renders, physics simulations, visual approval, or assertions that remain unimplemented.",
+    "The default revision range validates the latest committed change; callers must pass an explicit range when validating a different commit boundary."
+  ],
+  "unexecuted_checks": [],
+  "reproduction_command": "python -m unittest spec.test_run_local_ci -v && python tools/run_local_ci.py --base HEAD^ --head HEAD",
+  "covered_paths": [
+    "spec/test_run_local_ci.py",
+    "tools/run_local_ci.py"
+  ],
+  "source_revision": "8a9340ddd431c57004034755225650f815b16b4c"
+}
