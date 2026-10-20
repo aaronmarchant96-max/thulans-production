@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(25)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#3d3932" stroke-width="1"/>
+    </pattern>
+    <style>
+      .ink { stroke:#2e2b26; fill:none; stroke-width:3; stroke-linejoin:round; stroke-linecap:round; }
+      .fine { stroke:#514b41; fill:none; stroke-width:1.5; }
+      .label { font-family:Georgia,serif; fill:#2e2b26; font-size:18px; letter-spacing:2px; }
+      .small { font-family:Georgia,serif; fill:#2e2b26; font-size:14px; letter-spacing:1px; }
+      .fig { font-family:Georgia,serif; fill:#2e2b26; font-size:17px; letter-spacing:1px; }
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="#f4efdf"/>
+  <text x="70" y="58" class="small">NOT TO SCALE</text>
+  <line x1="70" y1="67" x2="190" y2="67" class="fine"/>
+  <rect x="945" y="34" width="180" height="72" class="ink"/>
+  <text x="1035" y="64" text-anchor="middle" class="small">CAISSON SEVEN</text>
+  <text x="1035" y="88" text-anchor="middle" class="small">SERVICE RECORD</text>
+
+  <!-- acoustic cage assembly -->
+  <g transform="translate(210,145)">
+    <ellipse cx="365" cy="230" rx="265" ry="188" fill="url(#hatch)" opacity=".28"/>
+    <path d="M145 225 C145 112 246 43 365 43 C484 43 585 112 585 225 C585 340 484 415 365 415 C246 415 145 340 145 225Z" class="ink"/>
+    <path d="M184 225 C184 141 262 85 365 85 C468 85 546 141 546 225 C546 310 468 370 365 370 C262 370 184 310 184 225Z" class="ink"/>
+    <path d="M365 43 L365 415 M145 225 L585 225" class="fine"/>
+    <path d="M210 118 L520 332 M520 118 L210 332" class="fine"/>
+    <path d="M205 156 L525 294 M525 156 L205 294" class="fine"/>
+    <circle cx="365" cy="225" r="57" class="ink"/>
+    <circle cx="365" cy="225" r="20" fill="url(#hatch)" class="ink"/>
+    <path d="M365 205 L365 245 M345 225 L385 225" class="fine"/>
+    <path d="M365 43 L365 10 L405 10" class="ink"/>
+    <path d="M145 225 L105 225 L105 260" class="ink"/>
+    <path d="M585 225 L625 225 L625 190" class="ink"/>
+    <path d="M365 415 L365 450 L330 450" class="ink"/>
+    <circle cx="145" cy="225" r="8" fill="#2e2b26"/>
+    <circle cx="585" cy="225" r="8" fill="#2e2b26"/>
+    <circle cx="365" cy="43" r="8" fill="#2e2b26"/>
+    <circle cx="365" cy="415" r="8" fill="#2e2b26"/>
+  </g>
+
+  <!-- callouts -->
+  <path d="M575 155 L730 120 L792 120" class="ink"/>
+  <text x="805" y="126" class="label">BRONZE COLLAR</text>
+  <text x="805" y="149" class="small">THREE-TALON ACOUSTIC FRAME</text>
+
+  <path d="M575 370 L735 390 L792 390" class="ink"/>
+  <text x="805" y="396" class="label">RESONANCE RIBS</text>
+  <text x="805" y="419" class="small">CONTACT POINTS ON FOOTWALL</text>
+
+  <path d="M575 520 L730 575 L792 575" class="ink"/>
+  <text x="805" y="581" class="label">PIVOT BLOCK</text>
+  <text x="805" y="604" class="small">CAST IRON / OIL-BEARING JOINT</text>
+
+  <path d="M575 370 L480 570 L420 570" class="ink"/>
+  <text x="420" y="595" text-anchor="end" class="label">SHEAR-LOCK PIN</text>
+  <text x="420" y="618" text-anchor="end" class="small">DO NOT REMOVE UNDER LOAD</text>
+
+  <text x="470" y="700" text-anchor="middle" class="fig">FIG. 4a</text>
+  <text x="470" y="730" text-anchor="middle" class="label">ACOUSTIC CAGE ASSEMBLY</text>
+  <text x="470" y="754" text-anchor="middle" class="small">FAIRGUNJIS CAISSON SEVEN / INTACT SERVICE STATE</text>
+  <line x1="80" y1="730" x2="250" y2="730" class="ink"/>
+  <line x1="80" y1="720" x2="80" y2="740" class="ink"/>
+  <line x1="250" y1="720" x2="250" y2="740" class="ink"/>
+  <text x="165" y="716" text-anchor="middle" class="small">200 mm REFERENCE</text>
+</svg>

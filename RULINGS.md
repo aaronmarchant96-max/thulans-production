@@ -2,11 +2,13 @@
 
 ---
 
-## RULING 001: The Intimacy Rule (Supreme Guardrail)
-* **Status:** LOCKED / PERMANENT LAW
-* **Scope:** Universal Worldbuilding & Narrative Development
-* **Ruling:** No faction, technology, religion, conflict, or historical event may exist solely to make the setting larger. Every major element must connect to the lived cost of the Mountain’s vertical hierarchy, the people trapped within it, or Varek’s memory of those he once endured beside.
+## RULING 001: The Intimacy Rule, with the Awe Exception (Supreme Guardrail)
+* **Status:** LOCKED / AMENDED (2026-09-17, Aaron Marchant)
+* **Scope:** Universal Worldbuilding, Narrative Development & Visual Cinematography
+* **Default (unchanged):** Scenes whose subject is a person use human-scale framing; the Mountain is experienced *through* the people it crushes. No faction, technology, religion, conflict, or historical event may exist solely to make the setting larger. Every major element must connect to the lived cost of the Mountain’s vertical hierarchy, the people trapped within it, or Varek’s memory of those he once endured beside.
 * **Core Maxim:** *“Never let the Mountain become bigger than the people crushed beneath it.”*
+* **The Awe Exception:** Establishing and transitional shots MAY render the Mountain's architecture at overwhelming scale — cavernous brass-and-iron halls, the 2,000 m Great Central Rift, foundry bays, the Spire, and the vertical tiered city — to convey awe, insignificance, and institutional power. On these shots, no person need be in frame.
+* **Constraint:** The exception is for **moments, not the default.** Any scene whose subject is a person returns to human scale. The *juxtaposition* — overwhelming scale, then a single soul — is the point; it is what makes the intimacy land. The aesthetic register remains strictly **Gothic-industrial** (brass, cast iron, masonry, coal, hydraulics), never generic fantasy or Tolkienesque.
 
 ---
 
@@ -767,3 +769,74 @@ without altering the canonical lyrical/narrative spine unless explicitly re-rule
   > **“A society can preserve the pattern of a good man while destroying the man who made it.”**  
   > *“The Council knows exactly what it can do but no longer understands the man. The Hearths understand the man but increasingly don't know what the machine is.”*  
   *(This remains strictly an epilogue; Varek's story ends with the human hand in Sanna's.)*
+---
+
+## RULING 032: Varek's Operational Stance — "A Task is a Task" & The Human Residue
+* **Status:** LOCKED / CANONICAL LAW (2026-09-17, Aaron Marchant)
+* **Scope:** Protagonist Psychology, Combat & Procedure Doctrine, Visual Panoply, Thematic Mirroring.
+* **Part 1 — The Operational Stance ("A Task is a Task"):**
+  1. **Operational Equivalence:** A shear in the rock, a failing hydraulic prop, or a human about to harm the Mountain's people — Varek clears them *the same way*: precisely, without ceremony, without distinction in the moment. No rage. No hesitation. No special gravity or theatrical weight for the human target.
+  2. **Defensive Procedure, Not Passion:** Protector, not pacifist. Violence is defensive and strictly necessary; he is a structural rescue operative, never a political revolutionary or executioner.
+  3. **Cinematography & Staging Directive:** Stage a lethal intervention with the *exact same shot language* as clearing a falling boulder or securing a timber bulkhead: one clean, economic action, move on, no lingering hero frames, no sustained beat on the fallen body. The audience must feel the chilling absence of spectacle; the moral weight registers only in the silence that follows.
+* **Part 2 — The Residue is the Humanity (The Mirror of Theodemir):**
+  1. **The Human Cost:** In the field, he behaves as if there is no difference between rock and flesh — and then he lies awake unable to maintain the pretense. The names of the dead stay with him; the stones do not. That accumulating residue is the entire difference between Varek and what he opposes.
+  2. **The Shared Arithmetic, Opposite Souls:** Varek and Archon Theodemir run the identical administrative calculation: *obstacles to the survival of the collective get cleared, human or mineral.* Theodemir files the human residue away into quotas and ledgers. Varek cannot. He is the tragic warning of the protector who adopts the tyrant's procedural logic to shield his people, defined entirely by whether his soul can bear the residue.
+* **Part 3 — Visual Design & Armor Governance:**
+  1. **The Knight's Panoply:** *"A knight's panoply forged by an industrial civilisation that no longer remembers it was ever chivalric."* Ancestral high-craft helm; industrial-rescue-knight; masterwork-under-repair.
+  2. **No Baked Lettering:** No painted slogans, mottos, or decorative text baked directly into armor textures. Textual elements appear strictly as dynamic camera/HUD overlays sourced from cited canon.
+  3. **Asset Lock Flag:** The ancestral helmet specification directly touches the locked Blender `v55` character rig. No 3D model modifications, mesh rebuilds, or rig alterations may occur without explicit, separate authorization from Aaron Marchant.
+
+
+---
+
+## RULING 033: Novella Prose Discipline, The Voice Contract & Anti-Slop Law
+* **Status:** LOCKED / CANONICAL LAW (2026-10-19, Aaron Marchant)
+* **Scope:** Novella Prose, Manuscript Line-Editing, Character Dialogue Registers, Pacing Architecture, Anti-AI Slop Enforcement.
+* **Governing Principle:** Raw model output is quarry gravel; the manuscript is cut by cold chisels. Every scene draft must undergo **forensic line-editing** rather than iterative prompt generation. If prose sounds synthesized, abstract, or rhetorical, it fails canon inspection.
+
+### Part 1 — The Anti-Slop Blacklist (Zero-Tolerance Banned Vocabulary)
+The following terms, tropes, and rhythmic tics are permanently banned from all Thulan prose, dialogue, and descriptive exposition:
+1. **Puffed-Up Metaphors:** *tapestry, symphony, testament, beacon, dance, labyrinth, crescendo, crucible.*  
+   *Mandatory Replacement:* Plain physical nouns (*iron rail, slag heap, grease firkin, hemp braid, cap-piece*).
+2. **Fake-Depth Adjectives:** *delve, palpable, visceral, ethereal, eerie, profound, unspoken, unfathomable.*  
+   *Mandatory Replacement:* Diagnostic physical symptoms (*cold sweat in eyelashes, teeth chattering on cold tallow, cracked shin, raw skin*).
+3. **Sound & Motion Crutches:** *hummed (used loosely/metaphorically), shuddered, flickered with life, hung heavy in the air.*  
+   *Mandatory Replacement:* Mechanical and material verbs (*rattled, sheared, clanked, thumped, hissed, bit into*).
+4. **Editorial Moralizing:** Phrases like *"A testament to human resilience..." / "In this unforgiving world..." / "A stark reminder that..."* are strictly forbidden. Narrative truth must emerge purely through physical action and domestic scarcity.
+
+### Part 2 — The Voice Contract: The McCarthy / Abercrombie Line
+1. **Cadence & Sentence Structure:**
+   - Sentences must land with the weight of an eight-pound sledge on granite.
+   - Favor short, declarative Anglo-Saxon roots and heavy physical impact verbs.
+   - Ban decorative comma splices, academic rhythm, and poetic filler.
+2. **The "Under-the-Fingernails" Rule:**
+   - Every paragraph must be anchored in physical labor, material physics, or physiological reality.
+   - Tools and hardware have explicit names, weights, and measurements (*thirty-millimeter hex nut, four-pound cross-peen sledge, eighteen-inch monkey wrench, twelve-inch larch tie*).
+   - Scarcity is tangible: lard is counted in drams; timber is measured in notched cap-pieces; warmth is three layers of lead-lined felt.
+3. **Albertan Resource-Frontier Reality:**
+   - The prose reflects the unromantic, bitter reality of men and women who extract survival from stone while distant administrative elites in high spires treat them as line items on a casualty budget.
+
+### Part 3 — Character Speech Registers & Separation
+Characters must never share a common vocabulary pool. Their diction is strictly determined by age, trade, and physical condition:
+1. **Bram (Apprentice / Age 14):**
+   - *Register:* Literal, hesitant, observant, naive. Still carries childhood folk fragments.
+   - *Vocabulary:* Immediate sensory tasks, tools he handles, dropped bolts, cold toes, things his brother told him (*"beasts as big as tubs covered in hair"*).
+   - *Prohibition:* Never speaks with adult political cynicism or ideological abstractions.
+2. **Kaelen (Drift Smith / Age 58):**
+   - *Register:* Cynical, exhausted, shop-floor curt, protective under coarse insults.
+   - *Vocabulary:* Metal gauges, timber species (*larch, spruce*), tool fatigue, scrap tallies, dark gallows humor.
+   - *Prohibition:* Never delivers speeches or philosophical monologues; gives instructions, curses around a tallow candle, and taps wedges.
+3. **Varek (Ancestral Caisson / Age 300+):**
+   - *Register:* Ancient, monosyllabic, dying mechanical engine, acoustic weight.
+   - *Vocabulary:* Structural loads, acoustic frequencies, antique measurements (*fathoms, hundredweight*), names of kin.
+   - *Prohibition:* Words burn auxiliary air; zero argumentation. Drops the hammer instead of debating. Speaks with finality: *"Bring the wrenches."*
+4. **Sanna (Lower Four Caretaker / Age 20):**
+   - *Register:* Clinical domestic triage, fierce maternal resolve, quiet defiance.
+   - *Vocabulary:* Carbolic wash, tea stems, split dynamite boxes, cabbage kettle, our iron.
+   - *Prohibition:* No melodrama or weeping. The moral anchor of the lower hearths: *"No. It was our iron anyway."*
+
+### Part 4 — Pacing & Dynamic Range (The Anti-Nihilism Mandate)
+Relentless misery is bad storytelling and commercially dead. The novella must have dynamic narrative range:
+1. **Working-Class Gallows Humor:** Men making morbid bets on failing timbers; mocking Council edicts; practical banter over rigged plumbing.
+2. **Moments of Pure Human Warmth ("Hope + Cost = Meaning"):** Small domestic victories—a bruised sprig of sun-pine pinned to an apron; wiping grease back into a firkin to buy medicine; holding a bare hand in the dark. Men fight because of who waits by the stove.
+3. **Sudden Mechanical Catastrophe:** Don't foreshadow danger perpetually—detonate it. A hydraulic union cracks; a cap-timber blows like a grenade; a cable snaps; teeth bind. Violence is sudden, physical, and governed by industrial load physics.

@@ -1,5 +1,9 @@
 # Thulans Production: Agent Operating Charter & Physical Mechanism Handoff Protocol
 
+> **Read first:** `handoff/PREFIX.md` — the frozen resumption prefix (canonical
+> artifacts, gate state, tooling, open rulings). It is the single handoff anchor and
+> must be updated in the same commit as any state change.
+
 ## 1. Physical Mechanism Handoff & Evidence Governance
 
 For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/VAREK_HAND_PHYSICS_TEST_ENVELOPE.md` before building, validating, or presenting a candidate as ready for approval.
@@ -28,3 +32,52 @@ For all story, script, character motivation, dialogue, and cinematic beats, cons
   primer and the naming gate (which names/terms may surface in marketing, trailers, and
   first-act screenplay, and the six-name ceiling). Consult before writing or approving any
   audience-facing material.
+
+---
+
+## 3. Token Policy (all agents)
+
+The model is cheap; context is what costs. Obey:
+1. Never read a whole large file — grep the symbol, then read ~20 lines at the offset.
+2. Delegate broad search to the `explore` subagent; it returns one paragraph, not raw files.
+3. Cap every command's output (`--porcelain`, `| head`, `-q`); never dump large results.
+4. Reuse `handoff/PREFIX.md` instead of re-deriving state; keep the prefix byte-stable so prompt caching hits.
+5. One task per session; when work closes, let compaction run — do not sprawl.
+6. Use the cheapest model that can do the job; reserve reasoning for planning only.
+7. Batch independent tool calls into a single turn.
+8. Never paste or re-read content already pinned in context.
+
+---
+
+## 4. The Thulans Novel Manuscript & CARDO Method Invariants
+
+When the author opens OpenCode to write or edit the novel, the agent is immediately locked into this exact creative framework:
+
+- **Active Work**: *The Thulans: The Weight of a Lie (or The Dismantling of Varek)*.
+- **Narrative Architecture**: 12 Chapters across 4 Acts (~40,000 words), governed by `docs/NOVELLA_BLUEPRINT.md`.
+- **Current Manuscript State**: 
+  - Acts I & II (Chapters 1–6) are complete in `novella/THE_THULANS_MANUSCRIPT_ACTS_I_AND_II.md`.
+  - Next on deck: **Act III, Chapter 7 ("The Ascent")** — Varek and Kaelen climbing the 2,000-meter vertical hoist trunk with ruptured hydraulics as the Tier Nine mobilization drums echo through the rock.
+- **The CARDO Method (`docs/CARDO_STORY_METHOD.md`)**:
+  1. **Locate the Hinge First**: Every scene pivots on a structural turning point where a character's assumption breaks and their trajectory irreversibly shifts.
+  2. **Phase 0 Character Driver**: Identify what the character wants, what they fear, and what concrete physical event forces the turn.
+  3. **Show, Do Not Summarize**: Zero abstract emotion tags ("he felt despair"). Deliver the scene entirely through physical labor, cold grease, broken seals, tactile tools, and sharp subtextual dialogue.
+  4. **Never Announce the Twist**: No narrative hand-waving or editorial telegraphing. Consequences land through concrete physical events.
+  5. **Conclusion Discipline**: Never close on a moralizing or summarizing wrap-up. End with a hard, tangible physical action, image, or line of dialogue.
+- **The Voice Contract (`docs/THULAN_NOVELLA_VOICE_CONTRACT.md`)**:
+  - **Zero AI Slop**: Strict ban on *tapestry, delve, palpable, symphony, dance, crescendo, ethereal, eerie*.
+  - **McCarthy/Abercrombie Cadence**: Short, heavy, monosyllabic verbs landing like an eight-pound sledge.
+  - **Character Speech Registers**:
+    - *Bram (14)*: Literal, naive, cold shins, dropped hex nuts.
+    - *Kaelen (58)*: Shop-floor curt, missing a fingertip, tallow candle clamped in teeth, cynical loyalty.
+    - *Varek (300+)*: Heavy manganese steel, ancient diesel hydraulics, acoustic resonance, words burn auxiliary air.
+    - *Sanna (20)*: Domestic triage, boiling leek roots on red coal clinkers, unflinching.
+    - *Theodemir (70)*: Exhausted administrative clerk with slate and chalk, calculating 1-in-7 casualty budgets.
+- **The Violence Doctrine (`docs/THULAN_VIOLENCE_DOCTRINE.md`)**:
+  - *"The violence is fast. Understanding what happened is slow."*
+  - **The Three Beats**: [1. Impact] instantaneous kinetic trauma $\rightarrow$ [2. Recognition] mechanical comprehension $\rightarrow$ [3. Residue] permanent physical evidence and constraints.
+  - Zero torture spectacle, zero action-movie quips, zero physically impossible survival.
+- **GDR Anti-Slop & Prose Discipline (`docs/GDR_SLOP.md`)**:
+  - Strict ban on generic fantasy compounds and self-important adjective inflation (*unyielding, monumental, profound, relentless, seamless*).
+  - RULING 001: If a word exists only to make the setting or proposal sound larger, cut it.
+

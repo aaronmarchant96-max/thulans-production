@@ -73,6 +73,7 @@ governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` contro
 | *Giba-Broþrans* | the oath-and-gift brotherhood | *giba* "gift" (attested) + *broþar* "brother" (attested), genitive-plural frame; compound of attested roots; kinship frame locked | T3 |
 | *FORTIS ET LIBER* | ancestral motto on Fault Maul | Archaic Latin ("Strong and Free"); pre-cataclysm disaster order heritage | Archaic Latin (Canon) |
 | *ORA ET LABORA* | personal motto inside Gren-Skildus | Archaic Latin ("Pray and Work"); pre-cataclysm engineering heritage | Archaic Latin (Canon) |
+| *Gathaur-Bano* | "The Welded" (penal hydraulic servitors) | *ga-* (collective/resultative prefix) + *þaúrbans* / *bindan* ("welded / bound to the frame"); labeled Thulan descendant compound | T3 |
 
 
 
@@ -448,7 +449,19 @@ rules:
 4. **Elevator Bastions:** Fortified transit choke-points control movement between levels
    through counterweights, drop-gates, and lift monopolies.
 
-These mechanisms become even more dangerous after the central order begins to fail.
+### 5.1. The Welded (*Gathaur-Bano*) — Penal Actuator Frames
+
+The tragic antagonist force of the lower drifts and industrial suppressions.
+
+* **Origin & Purpose:** Where Varek's Tectonic Rig is an ancient, revered heavy rescue frame built to bear collapsing rock and preserve life, **The Welded** are the Archon regime's grotesque industrial perversion of the technology. Condemned quota-breakers, labor mutineers, and debtor miners are welded directly into stripped-down hydraulic breaker rigs to enforce quotas, breach strike barricades, and clear toxic cave-ins.
+* **Mechanical Anatomy:**
+  * **Frame:** Raw iron mine-scaffolding channel and high-pressure steam pistons bolted and pinned directly through heavy leather work aprons and joint sleeves.
+  * **Spit-Mask:** A crude sheet-iron helmet riveted shut around the collar, leaving only narrow sight-slits. An external chemical drip tube meters coal-naphtha and adrenaline stimulants directly into the mouth to keep the wearer upright past cardiovascular failure.
+  * **The Dead-Man Cam:** Back-mounted steam pump and mechanical cam-drive that keeps the arms cycling heavy 70-pound pneumatic breaker bars even if the operator loses consciousness or suffers fatal trauma.
+* **Acoustic & Psychological Profile:**
+  * No monster roars or theatrical battle cries. Attackers advance with wet, wheezing respirator rattle, violent steam relief venting (*clack-hiss*), and unpadded iron bootfalls.
+  * Beneath the machine clatter, the human inside is audible: choked sobbing, ragged hyperventilation, or muffled prayers begging for the cams to seize.
+* **Thematic Function:** They are not alien monsters; they are the physical manifestation of what the Mountain's extractive machine does to mortal human beings. Every confrontation is an act of tragic, horrifying mercy.
 
 ---
 
