@@ -69,6 +69,10 @@ She studied the dark lenses. His breath rattled through the mesh under his chin,
 A pause.
 “Yes.”
 Sanna let go of Bram's sleeve.
+“I'm staying,” he said.
+“I haven't told you to go.”
+“You were going to.”
+She glanced toward the pail line, then back at him.
 “Bring the small box as well.”
 ⁂
 They needed six men and only two could be spared.
@@ -116,7 +120,7 @@ From inside the frame came a little breath that might have been a laugh. The bro
 Bram looked up at the visor.
 Then he turned the nut again.
 They put each fastening into a shallow tin dish. Sanna counted them as they came off. The last one was shorter than the rest; she laid it sideways so they would know its place.
-The carriers came for the crates while they worked. Marta checked each blanket before letting it go. Elin waited at the doorway with a lamp. The runner led them into the wash passage; she followed the last carrier.
+The carriers came for the crates while they worked. Haila held each crate steady while Marta checked the blankets. Elin waited at the doorway with a lamp. The runner led them into the wash passage. Haila went with the first carrier; Elin followed the last.
 Sanna kept a hand on the trolley until the light was gone.
 Kaelen lifted the cover clear.
 Underneath lay the pump barrel, dull bronze beneath a skin of old grease. Its body had survived inside the frame while the exposed joints failed around it.

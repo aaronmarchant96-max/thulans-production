@@ -24,7 +24,7 @@ Sanna freed her hand from the cloth.
 Bram waited beside her while the men filled the opening.
 He still had the signed sheet beneath his apron. The corner of a board pressed against his ribs.
 ⁂
-Tomas was at the upper wash-passage gate, winding hose onto a two-wheeled reel.
+Tomas was at the upper wash-passage gate, winding hose onto a two-wheeled reel. The line crew had brought him down from the stores to check their hose couplings.
 Bram knew the patched elbow before the man turned.
 “The caisson?”
 Bram shook his head.
@@ -142,7 +142,7 @@ When the cord came down, he went back for the loose pin he had dropped beside th
 ⁂
 The workshop door stood open on his way to the stores.
 Inside, a mechanic was turning a test shaft with a long handle.
-Varek's empty frame stood in a floor jig. New pipes ran over the old chest rails. A cam turned behind the shoulder and drew the right arm toward a timber post.
+Varek's empty frame stood in a floor jig. New pipes ran over the old chest rails. The left hip cover had not been changed. One of its bolts didn't match the others; Bram had picked it from the basket himself. A cam turned behind the shoulder and drew the right arm toward a timber post.
 The claws closed.
 The mechanic checked the dial, marked the cam position with chalk and wound the shaft back.
 The arm withdrew.

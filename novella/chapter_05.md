@@ -222,7 +222,7 @@ Pit-mastiffs.
 "They'll bring a demolition crew," Kaelen said. "If they can't retake the valve, they'll bring the roof down over it."
 
 
-Varek Fairgunjis reached down into the slurry with his left gauntlet and lifted the thirty-kilogram Fault Maul.
+Varek reached down into the slurry with his left gauntlet and lifted the Fault Maul.
 
 
 The maul's broad head rose from the water, dripping grease. Oil hissed through the working joint in his left arm.

@@ -225,7 +225,7 @@ Kaelen touched Haila's wrist.
 She stopped.
 They waited.
 The little valve settled.
-Kaelen shook his head.
+Kaelen took off his cap.
 Varek was dead.
 Marta stood beside the bench with the child against her shoulder. Bram was still holding the edge of the blanket beneath the bare feet.
 Sanna kept one hand around his.

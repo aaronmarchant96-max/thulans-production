@@ -109,7 +109,7 @@ Varek followed his finger to the total. It had not increased.
 “You took it from other hearths.”
 “The exemption has to be supplied.”
 “You could have assigned that water while he was alive.”
-Theodemir flattened the page. “Under another schedule.”
+Theodemir flattened the page. “Yes. It did not require a surrender.”
 A space beside Twelve-Nine had been left blank.
 “Wulfila,” Varek said.
 Theodemir reached for the smaller book beside his lamp.
@@ -188,7 +188,7 @@ Theodemir took his hand off the book.
 “Some.”
 “The rest.”
 “There is not room.”
-Varek already knew the number. He had carried it through the stone while men above him drove the rivets.
+Varek already knew the number. He had carried it through the stone while men above him drove the rivets. He had never asked whose names would fill the berths.
 “Their water builds the hulls,” Varek said. “Their hands. And they are not told.”
 Theodemir looked tired. Until now his hands had kept moving—turning pages, checking dates, clearing a space beneath the lamp. At last he sat still.
 “If the foundries empty, fewer ships leave.”

@@ -85,7 +85,7 @@ Bram knelt at the hearth, then looked at the crossed calipers. He wrapped the sl
 Beyond the bricked-up chamber at the end of Drift 14, the floor of the old rescue bay shifted.
 
 
-Varek had served the deep mine for three hundred years. Forty days earlier, Varek had stood on the Tier Six Gantry behind Wulfila. Afterward the Board returned him to Caisson Seven, the rescue bay adjoining Shaft 44. A short service passage connected his cradle to the water main. He was to listen for movement in the condemned rock. They left his boiler idling in the dark.
+Varek had served the deep mine for three hundred years. Forty days earlier, he had stood on the Tier Six Gantry behind Wulfila. Afterward the Board returned him to Caisson Seven, the rescue bay adjoining Shaft 44. A short service passage connected his cradle to the water main. He was to listen for movement in the condemned rock. They left his boiler idling in the dark.
 Inside the dark shell, there was no light and no speech. There was only the slow creep of the mountain against the plates, the banked pilot burner, and the smell of ancient mineral grease.
 Through the rock came three taps, a pause, then three more. A smith testing a cap. Farther off, a haulage crew were singing to keep their pull together. Varek had heard the same work-song before their grandfathers were born. One voice kept coming in late.
 He waited for it on the next verse.
@@ -95,7 +95,8 @@ A tilt-switch tripped. Its striker showered sparks into the burner.
 Whump.
 The main burner caught with a dull roar. Steam from the walking boiler drove a pump that forced oil into Varek's joints. A smaller engine, fed by its own pilot burner, kept air moving through his breathing tube. That engine had never stopped.
 The chains tightened as his frame took pressure. He felt their pull through the harness.
-Varek had not forgotten Wulfila. He still saw the boy's eyes on the Gantry. But first came the bite of the pressure gauge beneath his collarbone, its curved brass tube pressing against old scar tissue as the oil warmed. Deep in his chest, a needle scraped away from its stop.
+Varek had not forgotten Wulfila. Afterward he had asked whether the hearth would drink. The clerk had shown him the entry: eight pints. Varek had let the man close the book.
+He still saw the boy's eyes on the Gantry. But first came the bite of the pressure gauge beneath his collarbone, its curved brass tube pressing against old scar tissue as the oil warmed. Deep in his chest, a needle scraped away from its stop.
 A check valve opened inside his chest. Warm oil entered the stiff joints. He felt the pressure reach each one.
 Inside the cramped leather sack at the core of the chassis, an old man’s shriveled lungs drew breath.
 Varek gasped.
@@ -132,7 +133,8 @@ On his right forearm, the folded Faírg-Tygil stirred. Its three bronze-collared
 He lifted the maul from its rack. The head dipped, then steadied as pressure reached his elbow.
 
 
-Continuity had ordered him to hold this post until the lower workings were empty. They were not empty. Ahead, through the service passage, a woman told a boy to keep his hands clear.
+Continuity had ordered him to hold this post until the lower workings were empty. They were not empty. The men who sent him here had the clearance lists. He had waited for their word.
+Ahead, through the service passage, a woman told a boy to keep his hands clear.
 A pipe joint tore open in the chamber. Water struck the brickwork separating it from the drift.
 
 

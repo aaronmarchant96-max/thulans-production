@@ -5,7 +5,7 @@
 
 ### CHAPTER THREE: The Memory of the Leap
 
-The outer gate of the Tier Six locker house stood open for the rail-clearance crew. Since the surveyor's loss, it had admitted only the bailiff's clerks. Now their crowbar lay beside the broken hasp. Kaelen led Bram through while the watchman was at the tally desk.
+The outer gate of the Tier Six locker house stood open for the rail-clearance crew. Since the survey slate went missing, it had admitted only the bailiff's clerks. Now their crowbar lay beside the broken hasp. Kaelen led Bram through while the watchman was at the tally desk.
 
 
 Bram stood in the doorway with a candle cupped in one hand. Sawdust and dead moth wings covered the floor. The room smelled of old leather, vinegar, and the sour wool of miners who no longer came back. Forty numbered wooden cubbies lined the limestone wall. Half hung open on broken leather hinges.
@@ -99,7 +99,13 @@ Then the clerk pulled the iron pin on the drop-lever.
 There was no scream. The iron doors clacked open, sulfur steam rose through the gap, and the clerk made one mark on his slate.
 
 
-That evening, Sanna had set Wulfila's eating slate face-down at the head of the board. Bram sat beside it through supper. When Marta came to take the bowls, he lifted his brother's slate himself.
+That evening, Sanna had set Wulfila's eating slate face-down at the head of the board. Bram sat beside it through supper.
+Haila had brought the scarf Wulfila had left with her. She spread it across her knees, with one finger through a burn hole.
+“I told him not to dry it on the stove.”
+“He said a coal spat,” Bram said.
+“There was always a coal.”
+Bram laughed before he could stop himself. He looked at Sanna, but she was watching Haila.
+When Marta came to take the bowls, he lifted his brother's slate himself.
 
 
 Two days later, Tap Twelve ran clear. On the fourth day the roof over their bunkhouse collapsed and buried it. On the sixth, Odo drafted thirteen-year-old Bram onto the salvage crew to pay what remained of Wulfila's funeral charge.
@@ -132,7 +138,7 @@ Kaelen pointed at three marks in the wax: a double 4 inside a square, a triangle
 "That square is Shaft 44—right behind the warm rock where we pulled the rail coupling today," Kaelen whispered. "The triangle marks the North Cistern sounding line. The surveyor entered the reading on the tenth of September."
 
 
-"Wulfila held that line," Bram said. "He told me it came up wet. He jumped on the twelfth—forty days ago. The Sub-Deacon had already read out that the North Cistern was dry to the mud."
+"Wulfila lowered a line there," Bram said. "He told me it came up wet. He jumped on the twelfth—forty days ago. The Sub-Deacon had already read out that the North Cistern was dry to the mud."
 
 
 "It wasn’t dry." Kaelen gripped the slate. "Look here, boy. The water stood eighteen feet above the spillway two days before Wulfila died. They didn’t close Lower Four because the cistern had failed. Someone shut the bronze gate at Shaft 44 and locked the water behind the wall."

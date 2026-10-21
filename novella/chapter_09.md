@@ -38,7 +38,8 @@ He could break the door. He could break the desk and the hand holding the pen. G
 Below, the ram crews already had their instructions. He pictured the old man looking up at the hammer. He wanted Theodemir to have time to understand.
 The clerk backed against the wall. The forms shook between her hands.
 Varek turned the maul's broad face away from her. His elbow still held enough pressure to lift it.
-The guard's gun had given him no time. Here he had time.
+
+
 He lowered the head until it hung just above the stone.
 Then he opened his fingers.
 The head struck flat.

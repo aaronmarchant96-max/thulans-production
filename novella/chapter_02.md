@@ -124,7 +124,14 @@ The wire bit into the stave. A little water still seeped beneath it.
 Kaelen closed the drain and restarted the pump. Its rocker rose and fell. Slowly, the water around Sanna's shins began to sink.
 
 
-Marta held out the chipped cup to Bram. He took one mouthful of broth, then carried it to Sanna. She drank with both hands still cupped around his, warming her fingers against the tin. For a moment neither of them moved.
+Marta held out the chipped cup to Bram. He took one mouthful of broth, then carried it to Sanna. She drank with both hands still cupped around his, warming her fingers against the tin.
+When she lowered the cup, she reached for the knot around his thumb.
+“Don't. It'll come loose.”
+“I'll tie it again.”
+“I can tie it.”
+Her fingers stayed beneath his hand.
+“After shift,” he said.
+She let him take it away.
 
 
 Their mother had wiped the rim too, even when supper was one cup passed between them. Keeping a Thulan table, she called it. Bram turned the handle toward Marta before he gave the cup back.

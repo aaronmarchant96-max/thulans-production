@@ -24,12 +24,12 @@ Kaelen wiped his hands on his apron. Behind him, two men slid a plank beneath th
 Varek waited until they had him settled.
 “The rams will bury the feeder,” he said. “I cannot hold the throat.”
 “And you think he'll call them off?”
-Varek's breathing valve opened. Closed.
+Varek's breathing valve opened. Closed. He looked toward the slate inside Bram's tunic. The man who signed the order would have to set it beside that sounding.
 “He has to be asked.”
 The smith looked toward the dead guard, then back at the maul hanging from Varek's left hand.
 “Asked.”
 “Yes.”
-Kaelen bent for his tool basket. In the loading station, the hour bell struck. Nearly an hour had gone since the mobilization alarm. Beyond the side cutting, he saw the freight doors standing open.
+Kaelen bent for his tool basket. The hour bell rang from the loading station. Nearly an hour had gone since the mobilization alarm. Beyond the side cutting, the freight doors stood open.
 “The ore balance,” he said.
 ⁂
 A narrow crosscut led from the breach to the loading station. Its doors stood open. Beyond them, an empty freight cage rested at the bottom of the shaft, its deck white with limestone dust.
