@@ -2,7 +2,7 @@
 
 ![Novella Status](https://img.shields.io/badge/novella-Acts%20I--IV%20Complete-brightgreen)
 ![Word Count](https://img.shields.io/badge/word_count-22%2C577%20words-blue)
-![Quality Gates](https://img.shields.io/badge/quality_gates-0%20banned%20words%20%7C%20100%25%20clean-success)
+![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
 ![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--031%20Locked-orange)
 ![Audio Master](https://img.shields.io/badge/audio-Take%207%20Cinematic%20Master%20(03%3A33)-blueviolet)
 ![License](https://img.shields.io/badge/license-Proprietary%20%2F%20Aaron%20Marchant-lightgrey)
@@ -14,16 +14,17 @@
 
 ## 📖 The Novella: *The Weight of a Lie*
 
-The complete 12-chapter novella manuscript is finalized, proof-reconciled, and committed directly to this repository:
+The complete twelve-chapter novella is available as a revised reading draft. The live illustrated Google Doc is authoritative; the repository files mirror its text:
 
+* 📖 **[Read the Authoritative Illustrated Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)**  
 * 📚 **[Read the Full Omnibus Manuscript (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
 * 📄 **[Raw Markdown Clean Reading View](https://raw.githubusercontent.com/aaronmarchant96-max/thulans-production/main/novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
-* 🎨 **[Chapter Illustration Brief & Plate Schedule](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md#appendix)**  
+* 🎨 **[Historical Illustration Brief & Production Notes](docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md)**  
 
 ### Narrative Synopsis
-In the subterranean fortress-colony of Deephearth, water is rationed by blood. Forty days after nineteen-year-old timberman Wulfila surrenders his life on the Tier Six Tithe Gantry to earn an eight-pint water exemption for his family, his younger brother Bram and drift-smith Kaelen discover a greased brass chit and an untampered survey slate hidden behind a haulage flange: **the North Cistern was already full two days before Wulfila jumped.**
+In the mountain city of Fairguni, water is rationed by blood. Forty days after nineteen-year-old Wulfila surrenders his life for his family's water allowance, his younger brother Bram finds Wulfila's brass chit hidden in a rail coupling. Guided by Wulfila's instructions, Bram and the drift smith Kaelen retrieve a survey slate from his locker: **the North Cistern was full two days before Wulfila died.**
 
-Awakened in the condemned sumps of Caisson Seven, **Brothar Varek Fairgunjis**—an ancient three-tonne, eight-foot acoustic surveyor and caisson engine—breaks his state post. Confronting the Ministry of Continuity on Tier Nine, Varek discovers the cold triage arithmetic of the mountain: 4.2 million souls, six Spire Arks, 600,000 berths, and 3.6 million workers marked for abandonment. Choosing his creators over the state, Varek descends to Lower Hearth Four to be dismantled for pump parts, cribbing, and valve bronze by the very miners who built him.
+Varek, an old man inside a three-tonne rescue machine, leaves his state post to protect the workers opening the water feeder. He goes to the official who can recall the approaching ram crews, expecting the evidence to compel a correction. The official already knows. Varek returns to Lower Four, where the workers remove his rescue pump for hand operation and care for the injured man inside the frame.
 
 ---
 
@@ -31,36 +32,36 @@ Awakened in the condemned sumps of Caisson Seven, **Brothar Varek Fairgunjis**�
 
 | Chapter | Title | Scope & Hinge | Words |
 | :--- | :--- | :--- | :---: |
-| **Ch. 01** | [**The Flange & The Pine Sprig**](novella/chapter_01.md) | Bram & Kaelen split the 30mm fishplate nut; Wulfila's brass chit found | 1,182 |
-| **Ch. 02** | [**The Nursery in Lower Four**](novella/chapter_02.md) | Sanna repairs the cracked bilge pump; Odo cuts family ration to 6 pints | 1,288 |
-| **Ch. 03** | [**The Memory of the Leap**](novella/chapter_03.md) | Infiltrating Tier Six lockers; recovery of the dated `+18 FT` survey slate | 1,693 |
-| **Ch. 04** | [**The Acoustic Trace**](novella/chapter_04.md) | Varek awakens in Caisson Seven; breaks masonry wall into Drift 14 | 1,950 |
-| **Ch. 05** | [**The Shoring of Drift 14**](novella/chapter_05.md) | Varek shoulders the failing roof timber; Ark triage revealed; feeder opened | 1,567 |
-| **Ch. 06** | [**The Welded Advance**](novella/chapter_06.md) | Bram stops the nitro fuse; Varek disables Welded suits; lethal line drawn | 1,841 |
-| **Ch. 07** | [**The Ascent**](novella/chapter_07.md) | Emergency steam hookup; 40-tonne counterweight haul to Tier Nine | 2,514 |
-| **Ch. 08** | [**The Office on Tier Nine**](novella/chapter_08.md) | Theodemir confrontation; Master Triage Ledger; signed restoration order | 2,476 |
-| **Ch. 09** | [**The Hammer Falls**](novella/chapter_09.md) | Varek drops the 30 kg Fault Maul; gravity descent on machinery trolley | 1,727 |
-| **Ch. 10** | [**Bring the Wrenches**](novella/chapter_10.md) | Varek parked at Lower Four sump; miners disassemble the manganese chassis | 2,374 |
-| **Ch. 11** | [**Skin Against Skin**](novella/chapter_11.md) | Biological remnant revealed (70 lbs scarred tissue); Varek dies touching skin | 1,966 |
-| **Ch. 12** | [**Our Iron Anyway**](novella/chapter_12.md) | Epilogue: Tier Six bronze monument vs Lower Four salvaged pump barrel | 1,987 |
-| **TOTAL** | **Acts I–IV Complete** | **Full Canonical Master Manuscript** | **22,577** |
+| **Ch. 01** | [**The Flange & The Pine Sprig**](novella/chapter_01.md) | Bram and Kaelen salvage coupling bolts; Wulfila's hidden brass chit is recovered | 1,181 |
+| **Ch. 02** | [**The Nursery in Lower Four**](novella/chapter_02.md) | Sanna takes responsibility for the pump repair; Odo reduces the household allowance | 1,287 |
+| **Ch. 03** | [**The Memory of the Leap**](novella/chapter_03.md) | Bram retrieves the survey slate from Wulfila's locker; the surrender is remembered | 1,692 |
+| **Ch. 04** | [**The Acoustic Trace**](novella/chapter_04.md) | Varek breaks his post after the seismic rupture; his breach sends water toward Lower Four | 1,949 |
+| **Ch. 05** | [**The Shoring of Drift 14**](novella/chapter_05.md) | The crew shores the roof, learns the berth totals, and opens the clean feeder | 1,566 |
+| **Ch. 06** | [**The Welded Advance**](novella/chapter_06.md) | Bram stops the fuse; Varek disables the Welded and kills the guard aiming at Bram | 1,840 |
+| **Ch. 07** | [**The Ascent**](novella/chapter_07.md) | The nursery trades steam for Varek's loading pressure; a stone cage lifts him | 2,513 |
+| **Ch. 08** | [**The Office on Tier Nine**](novella/chapter_08.md) | Theodemir verifies the sounding, adds Wulfila's name, and signs the feeder-closure order | 2,475 |
+| **Ch. 09** | [**The Hammer Falls**](novella/chapter_09.md) | Varek drops the maul, descends by gravity cage, and returns by machinery trolley | 1,726 |
+| **Ch. 10** | [**Bring the Wrenches**](novella/chapter_10.md) | The crew removes the rescue pump and opens the frame with Varek's consent | 2,373 |
+| **Ch. 11** | [**Skin Against Skin**](novella/chapter_11.md) | Varek is lifted free, carried through the wash passage, and dies holding Sanna's hand | 1,965 |
+| **Ch. 12** | [**Our Iron Anyway**](novella/chapter_12.md) | Bram preserves the evidence; the state claims Varek's memory; the pump remains in use | 1,986 |
+| **TOTAL** | **Acts I–IV Complete** | **Chapter and act text** | **22,577** |
+
+Chapter counts include chapter headings. The total also includes the four act headings; cover and repository front matter are excluded. Counts use whitespace-separated words.
 
 ---
 
-## 🛡️ Anti-Slop Quality Gates & Continuity Contract
+## 🛡️ Writing Guidance & Continuity References
 
 The manuscript is governed by the forensic directives in [`docs/THULAN_NOVELLA_VOICE_CONTRACT.md`](docs/THULAN_NOVELLA_VOICE_CONTRACT.md) and [`RULINGS.md`](RULINGS.md):
 
-* **Zero AI Crutch Words**: Automated CI scanning enforces 0 occurrences across **37 prohibited LLM terms** (*tapestry, testament, delve, palpable, visceral, beacon, hummed, shuddered, myriad, intricate, symphony, dancing, crucible, kaleidoscope*).
+* **Prose guidance**: The voice contract favors concrete language, distinct character registers, and physically grounded action. Editorial review also considers rhythm, clarity, and emotional effect.
 * **Strict Demographics**: 4,200,000 total souls; 600,000 Ark berths across 6 hulls; 3,600,000 condemned to the sub-tiers.
 * **Character Continuity Invariants**:
   * **Bram**: 13 winters, turning 14 on 30 October.
   * **Sanna**: Exactly 18 winters.
   * **Wulfila**: Died at 19 on the Tithe Gantry 40 days prior; surrendered 41 winters to the ledger.
   * **Varek Fairgunjis**: 8.0 feet (2.44 m), 300 years of service; 30 kg drop-forged Fault Maul (*FORTIS ET LIBER*).
-* **The Dual-Mythos Reconciliation**:
-  * *Telling A (The Reality)*: Novella narrative — water breach, Drift 14, and the Lower Four flue rescue.
-  * *Telling B (State Propaganda)*: Ministry broadsheet myth — *The Shaft-Shear Rescue of Malakor* (reconciled in Chapter 12 when Junior Surveyor Malakor logs `RECOVERABLE ASSETS: NONE`).
+* **Project scopes**: The current novella, broader cinematic materials, and Deephearth game have separate scopes. See the [current novella blueprint](docs/NOVELLA_BLUEPRINT.md) and [overview](docs/ONEPAGER.md) for the events depicted in this reading draft.
 
 ---
 

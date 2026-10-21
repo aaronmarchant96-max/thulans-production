@@ -35,3 +35,7 @@ Existing engineering acceptance rules, model approvals, music remediation, cinem
 ## Synchronization verification
 
 The complete repository manuscript and all twelve chapter mirrors were compared paragraph by paragraph with the live Doc (1,797 narrative and scene-break paragraphs). Headings and typographic punctuation were checked separately. Agent instructions contain one current manuscript-status block.
+
+## README reconciliation — 21 October 2026
+
+Restored the authoritative illustrated Doc link, redirected the removed appendix link to the archived production notes, corrected the chit/slate locations and Chapter Eight closure order, and recomputed chapter counts from the text mirror. Described the book as a revised reading draft rather than a finalized or universally clean manuscript. Manuscript prose and artwork were not changed.
