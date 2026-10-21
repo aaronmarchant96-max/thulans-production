@@ -1,6 +1,10 @@
 # The Thulans Production
 
-This repository contains the original Thulans literary/cinematic production and documentation for the proposed colony-simulation game **Thulans: Deephearth**. These are related projects, not interchangeable narrative continuities.
+> 📖 **The Thulans: The Weight of a Lie (Complete 12-Chapter Novella)**  
+> **Read the Master Manuscript**: [**`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`**](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)  
+> *Author: Aaron Marchant · Acts I–IV Complete · 23,233 Words · 100% Canon-Locked & Quality Audited*
+
+This repository contains the complete novella manuscript, canonical assets, and production pipeline for **The Thulans** and the proposed colony-simulation game **Thulans: Deephearth**. These are related projects, not interchangeable narrative continuities.
 
 ## Deephearth game direction (September 18, 2026)
 
