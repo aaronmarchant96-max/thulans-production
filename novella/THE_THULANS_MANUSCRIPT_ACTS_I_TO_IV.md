@@ -1,7 +1,13 @@
 # THE THULANS
 ## The Weight of a Lie
 
-Aaron Marchant
+**Aaron Marchant**
+
+<p align="center">
+  <img src="cover.jpg" alt="The Thulans: The Weight of a Lie — Front Cover by Aaron Marchant" width="400" />
+</p>
+
+---
 
 ## ACT I: THE SUMP & THE SUNDAY LIE
 

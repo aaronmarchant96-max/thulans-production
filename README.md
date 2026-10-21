@@ -10,6 +10,10 @@
 > **"The state manufactures miracles to make honest people volunteer to die."**  
 > *A hard industrial grimdark fantasy novella, production pipeline, and cinematic asset suite by Aaron Marchant.*
 
+<p align="center">
+  <img src="assets/art/thulans_cover_master.jpg" alt="The Thulans: The Weight of a Lie — Canonical Front Cover by Aaron Marchant" width="360" />
+</p>
+
 ---
 
 ## 📖 The Novella: *The Weight of a Lie*
