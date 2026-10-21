@@ -39,3 +39,9 @@ The complete repository manuscript and all twelve chapter mirrors were compared 
 ## README reconciliation — 21 October 2026
 
 Restored the authoritative illustrated Doc link, redirected the removed appendix link to the archived production notes, corrected the chit/slate locations and Chapter Eight closure order, and recomputed chapter counts from the text mirror. Described the book as a revised reading draft rather than a finalized or universally clean manuscript. Manuscript prose and artwork were not changed.
+
+## Root script organization — 21 October 2026
+
+Moved 33 root Python scripts into `tools/legacy/blender/`, `tools/legacy/llm/`, and `tools/blender_setup/`. The V35 preflight JSON moved with the historical Blender scripts. Updated the four generation helpers so their outputs target the relocated builder directory. No tracked external references to the old root script paths were found; documentation and directory navigation now show the new locations. Manuscript files and assets are unchanged.
+
+Relocation checks: all 33 Python scripts compile; the four generator output paths resolve to the moved builders; the other 30 relocated files are byte-identical to their originals. Repository CI was run before and after the move and retained the same missing agent-contract markers plus three physics-test failures and one related contract-test setup error (35 tests). Blender execution was not part of this directory cleanup.

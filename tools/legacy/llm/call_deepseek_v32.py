@@ -4,6 +4,7 @@ Call DeepSeek API to generate bpy code for Varek V32 fixes, then write the resul
 Addresses: side profile disconnections + Gren-Skildus cloth too small/blobby.
 """
 import json
+from pathlib import Path
 import urllib.request
 import urllib.error
 import sys
@@ -98,7 +99,7 @@ elif "```" in code:
     code = code.split("```")[1].split("```")[0].strip()
 
 # Write the generated script
-out_path = "/home/aaron/animation/thulans-production/build_varek_v32_deepseek.py"
+out_path = Path(__file__).resolve().parents[1] / "blender" / "build_varek_v32_deepseek.py"
 with open(out_path, "w") as f:
     f.write(code)
 

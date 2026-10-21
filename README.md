@@ -88,6 +88,7 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 ### 4. 3D Character Engineering & Kinematics (`tools/`, `blender/`)
 * **Brothar Varek Fairgunjis**: 3D Blender asset pipeline from initial static silhouettes (`V2A.1`) through motion chassis rigging (`V2B`), salvage state (`V4.0`), and articulated multi-axis kinematics (`V50+`).
 * Programmatic inspection tools: kinematic clearances, ground contact probes, and drop-forged Fault Maul socket analysis.
+* Historical root-level builders, renderers, and DeepSeek helpers are organized under [`tools/legacy/`](tools/legacy/README.md). Blender MCP setup scripts are under [`tools/blender_setup/`](tools/blender_setup/README.md).
 
 ---
 
@@ -101,6 +102,8 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 ├── episodes/                    # Motion comic & cinematic episodes
 │   └── 001_eleven_bells/        # Episode 1 audio, script, shot ledger, storyboard
 ├── tools/                       # Pipeline tooling & validation harnesses
+│   ├── legacy/                 # Historical Varek scripts and generation helpers
+│   ├── blender_setup/          # Blender MCP installation and enablement
 │   ├── panel-studio/            # Lore-guarded storyboard studio (Node.js)
 │   ├── export_animatic.py       # Shot-to-video animatic assembler
 │   └── run_local_ci.py          # Local repository compliance gate

@@ -9,6 +9,7 @@ Replaces the blocky stepped primitives with a cast-iron industrial blast helmet:
 - Cast iron texture with micro-beveled chamfers catching rim lighting
 """
 import json
+from pathlib import Path
 import urllib.request
 
 API_KEY = "***ROTATED-KEY-REMOVED***"
@@ -89,7 +90,7 @@ if "```python" in code:
 elif "```" in code:
     code = code.split("```")[1].split("```")[0].strip()
 
-out_path = "/home/aaron/animation/thulans-production/build_varek_v35_helmet_master.py"
+out_path = Path(__file__).resolve().parents[1] / "blender" / "build_varek_v35_helmet_master.py"
 with open(out_path, "w") as f:
     f.write(code)
 

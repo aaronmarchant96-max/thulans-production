@@ -9,6 +9,7 @@ Transforms Varek from boxy primitive look to heavy, authentic cinematic cast iro
 5. Softens harsh silhouette joints with mechanical fillets and cast welding beads.
 """
 import json
+from pathlib import Path
 import urllib.request
 
 API_KEY = "***ROTATED-KEY-REMOVED***"
@@ -92,7 +93,7 @@ if "```python" in code:
 elif "```" in code:
     code = code.split("```")[1].split("```")[0].strip()
 
-out_path = "/home/aaron/animation/thulans-production/build_varek_v34_master.py"
+out_path = Path(__file__).resolve().parents[1] / "blender" / "build_varek_v34_master.py"
 with open(out_path, "w") as f:
     f.write(code)
 

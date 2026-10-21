@@ -7,6 +7,7 @@ Calls DeepSeek API to construct V33 addressing:
 3. Armature bone binding & clean render diagnostics.
 """
 import json
+from pathlib import Path
 import urllib.request
 import sys
 
@@ -83,7 +84,7 @@ if "```python" in code:
 elif "```" in code:
     code = code.split("```")[1].split("```")[0].strip()
 
-out_path = "/home/aaron/animation/thulans-production/build_varek_v33_master.py"
+out_path = Path(__file__).resolve().parents[1] / "blender" / "build_varek_v33_master.py"
 with open(out_path, "w") as f:
     f.write(code)
 
