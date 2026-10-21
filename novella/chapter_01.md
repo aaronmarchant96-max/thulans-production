@@ -5,84 +5,130 @@
 
 ### CHAPTER ONE: The Flange & The Pine Sprig
 
-Bram had two inches of tarred hemp wrapped around his right thumb to keep the coal cracks from weeping into the lard tub.
-
-He knelt in the sump mud on his good knee, holding the wooden firkin by its wire bail with both hands. His knuckles were gray where the lye had taken the skin off during the wash-shift, red and swollen where the damp had gotten into the marrow. Every time the four-pound sledge came down on the timber behind him, the water in the ditch shivered, throwing tiny yellow rings across the skim of cylinder oil floating on the surface.
-
+Bram had wrapped tarred hemp around his right thumb to keep the cracks in his skin from bleeding into the grease tub.
+He knelt in mud beneath the haulage rails, holding a firkin—a small wooden tub—in both hands. Washing lye had stripped his knuckles gray; cold had swollen them red. Each blow of Kaelen's four-pound sledge shivered through the timber under Bram's knee and sent rings across the oil on the ditch water.
 “Keep the tub under the lip,” Kaelen said.
+The smith kept his eyes on the rail. He had set his chisel against a rusted nut that held the fishplate—the iron bar joining two lengths of haulage track. His cheek was almost against the rail as he watched the cut deepen. Dried sweat crusted the edge of his gray wool cap. A stub of tallow candle hung between his front teeth, dripping wax onto his heavy jacket.
 
-The smith didn't look down. He had the cold chisel set against the rusted crown of a thirty-millimeter nut clamping the cast-iron fishplate between two haulage rails, his cheek pressed flat to the iron web so he could watch the cut deepen across the flats. His gray wool cap was pulled down over the tops of his ears, crusted white at the edge with dried salt from old sweat. A tallow candle stub was clamped between his front teeth, dropping yellow wax onto the sleeve of his heavy drill-cloth jacket.
 
-"If that washer drops in the ditch, you’re diving for it before shift bell," Kaelen muttered around the wick. "I’m not shorting the tally six ounces of clean scrap for your blue fingers."
+"If that washer drops in the ditch, you’re diving for it before shift bell," Kaelen muttered around the candle. "I’m not shorting the tally for your blue fingers."
+
 
 "I have it," the boy said.
 
-His breath smelled of cold chicory tea and roasted barley hulls. Through the thin wool of his trousers, the larch tie was like an iron bar soaked in ice water, numbing his shin until he couldn't tell whether his boot was in the mud or on the wood.
 
-Across his knees lay his sister’s apron—a strip of coarse gray sacking with three brass safety pins stuck through the bib. Sanna had pinned a dried sprig of mountain pine behind the third pin before he walked out of Lower Four that morning. The needles were bruised black from the press of his work tunic, but when he leaned his head down toward the firkin to blink the stinging sweat out of his lashes, he caught the faint, dry scent of wood that had grown in the sun. It was the only thing in the drift that didn't smell of old sulfur and wet rock.
+Bram's breath smelled of chicory tea and roasted barley. The rail sleeper had numbed his knee through his trousers. He shifted, trying to find a dry place for his boot.
+
+
+“Air still drawing?” Kaelen asked.
+
+
+Bram looked at the strip of sacking tied to the roof nail. Its loose end lifted toward the haulage shaft.
+
+
+“Yes.”
+
+
+Across Bram's knees lay his sister's apron, a strip of gray sacking pierced by three brass safety pins. Before he left Lower Four, Sanna had tucked a dried sprig of mountain pine behind the third. His tunic had bruised the needles nearly black. Still, when he bent over the firkin, he caught their faint, dry scent—the smell of wood that had grown in sunlight. Nothing else in the drift smelled like that.
+
 
 Kaelen hit the chisel.
 
+
 The split side of the nut flared open, breaking its grip on the seized threads. The report struck the low basalt roof and came back hard against their eardrums.
 
-Kaelen pried the splayed nut off the bolt-end with the chisel point and let it drop into the firkin. He swapped the chisel for a tapered drift punch, set the nose against the threaded tip of the two-pound coupling bolt, and struck it three sharp blows with the sledge. Whoever had greased that pin before driving it home had packed the bore thick with tallow so the iron wouldn't rust-weld to the web; on the third blow, the heavy bolt broke free of the stiffened fat and dropped into the center of the tub with a dead thunk. A dollop of amber machine fat splashed up from the grease-pocket behind the bolt head, catching Bram right on the cheekbone.
 
-He didn't wipe it off. Clean fat was half a copper token at the hoist house. He reached up with his bandaged thumb, scraped the grease off his skin with his thumbnail, and wiped it carefully back over the rim of the firkin.
+Kaelen pried the split nut loose and dropped it into the firkin. He changed to a tapered punch and drove it against the end of the two-pound coupling bolt. Someone had packed the joint with tallow to keep the iron from seizing. On the third blow the bolt broke free and landed in the tub with a dead thunk. Amber machine fat splashed from the recess behind its head onto Bram's cheek.
 
-As Bram turned the heavy coupling bolt in the tub, the edge of his scraper clicked against something flat wedged inside the square grease-recess beneath the bolt head. Wulfila had packed the cavity with stiff yellow tallow before driving the bolt home through the fishplate, sealing a stamped brass chit tight against the iron shoulder where the track-walkers would never see it: HOIST-CREW 12 — WULFILA.
 
-Every worker’s brass chit was Council property—two ounces of yellow metal issued on bond and surrendered to the bailiff at death to close the man's tool-account. Holding an unreturned chit past the funeral bell was rated as conversion of Council brass: an automatic four-pint water deduction against the holder’s hearth, whether the metal was pulled from a drift rail or found in a mattress.
+He didn't wipe it away. Clean grease cost half a copper token at the hoist house. He scraped it off his skin with a thumbnail and wiped it back into the firkin. 
 
-Bram looked at the brass chit in his mud-stained palm. He looked at Kaelen’s broad back. Then he slipped his fingers beneath his sister’s apron bib and slid the yellow metal down behind the safety pins, pressing it flat against his chest. The cold brass stung through his thin undershirt, but he didn't move. In the wet fishplate, Kaelen caught the yellow reflection. He shifted his knee between Bram and the haulage way and went on working.
 
-"Put the scraper to the shank," Kaelen said, his knee joint giving a dry, gristly crack as he leaned forward. "Clear the burrs. The weigh-master docks us two drams if there’s rock grit on the scale."
+Bram had watched that bolt all morning. It was the joint Wulfila had named. Now his scraper caught beneath its head, and he picked the stiff yellow grease out of the square recess. Brass showed through. He cleared enough to read: HOIST-CREW 12 — WULFILA.
 
-Bram pulled the short iron scraper from his boot top and went to work on the sheared bolt. His hands were shaking from the cold, but he kept his strokes short and even, peeling the black slime and scale off the iron until the gray metal showed through. Back in Lower Four, six babies were coughing in spent dynamite boxes by the drain ditch. Sanna had been up since third bell boiling wild leek roots on two red coal clinkers, trying to keep steam in the bunkhouse air so the infants’ chests wouldn't rattle themselves to death. Four good draw-bolts meant forty pounds of seasoned larch kindling from the timber yard. Kindling meant dry smoke instead of coal sulfur.
+
+Every worker's brass chit belonged to the Council. It was supposed to be surrendered at death to close the worker's tool-account. Keeping one after the funeral bell meant a four-pint deduction from the household's water ration. It didn't matter whether the chit had been stolen or found.
+
+
+Wulfila had told him to show Kaelen. Bram looked toward the open haulage way, then slid the chit behind the pins of Sanna's apron. The cold metal stung through his undershirt.
+Kaelen shifted his knee between Bram and the track-walkers. Bram kept his hand against the brass until the footsteps passed.
+When they faded, he showed Kaelen the name. The smith pressed his hand back against the apron.
+"Keep it there."
+
+
+"Scrape the shank clean," Kaelen said, his knee cracking as he leaned forward. "They dock us if there's grit on the scale."
+
+
+Bram pulled the scraper from his boot and worked the black scale off the bolt until gray metal showed. Cold shook his hands, but he kept the strokes even. Back in Lower Four, six babies coughed in empty dynamite crates beside the drain. Sanna had spent the night boiling wild leek roots over coal clinkers, trying to put enough steam into the air to ease their breathing. Four sound bolts would buy forty pounds of dry larch kindling. Dry wood meant less sulfur smoke around the cradles.
+
 
 "Kaelen?" Bram asked, his scraper clicking rhythmically against the metal.
 
+
 "Work the iron, boy."
+
 
 "My brother Wulfila—"
 
+
 "Wulfila’s gone," the smith said, setting his punch on the second bolt. "Don't talk about dead men while I’m holding cold steel."
+
 
 "He told me the grease in the old flanges came from animals. He said they had beasts on the surface as big as haulage tubs, covered in brown hair, that ate grass under the open sky."
 
+
 Kaelen stopped. The four-pound hammer rested on his thigh, its hickory handle stained black by forty years of palm oil. He reached up, took the tallow stub from his teeth, and stuck it into a split in the timber prop above his ear. In the yellow light, the scar across the bridge of his nose looked like purple cord.
 
-"Wulfila was nineteen and his head was full of women and old songs," Kaelen muttered, wiping wax off his lip with his thumb. "There aren't any beasts. There's only what we haul out of the seam, what the hoist sends down, and what the Council weighs on the brass bridge. Now hold the firkin. This bolt’s carrying the cap-piece."
 
-He didn't swing the hammer right away. He laid his bare knuckles against the cap-timber, feeling the grain under the bark.
+"Wulfila was nineteen and his head was full of women and old songs," Kaelen muttered, wiping wax off his lip. "I've never seen a beast like that. There's what the hoist sends down, and what the Council weighs. Now hold the firkin. This one's loose."
 
-The larch was weeping. A thick bead of yellow resin had squeezed out of a knot three inches above the iron collar, shivering under the load. Four miles of black basalt sat on that twelve-inch timber. It wasn't cracking yet, but it was groaning—a low, thin drone that vibrated through the iron punch and made Kaelen’s bad tooth ache.
+
+Before he struck again, Kaelen laid his knuckles against the roof timber.
+
+
+Resin had squeezed from a knot beside the iron collar. The yellow bead trembled. A thin groan passed through the timber into the rail. Kaelen held the hammer still until it faded.
+
 
 "She’s talking," Bram muttered, pulling his knees tighter to his chest.
 
-"She’s just settling," Kaelen lied. "She’ll hold through the shift if we don't shake the collar. When I tap the wedge, don't jerk. Just let the iron drop into the grease."
 
-The smith choked up on the hammer handle, tapping the punch with short, four-inch strokes. Tink. Tink. Tink.
+"She’s settling," Kaelen said. "Keep still. I'll tap it through."
 
-Each tap sheared away a flake of orange scale. The smell of hot metal and burned lard rose between them. Beneath the rhythm of the hammer, through the soles of their boots and the water in the ditch, came a different sound—a deep, rhythmic thrum-thrum-thrum that didn't belong to the picks or the haulage winches. It was smooth, continuous. Like water moving through high-pressure pipes behind a wall that had been dry since the first shift was notched on the entry post.
+
+He shortened his grip on the hammer. Tink. Tink. Tink.
+
+
+Each tap knocked loose a flake of orange scale. Hot iron and burned lard stung the air. Beneath the hammer's rhythm came another sound. Bram felt it through his boots and saw it tremble in the ditch water: thrum-thrum-thrum. Not a pick. Not a haulage winch. Something was moving steadily behind a wall that should have held nothing but dry stone.
+
 
 Kaelen froze. The hammer hovered an inch above the punch.
 
-He turned his head toward the wet rock wall, his gray brows drawing together until his eyes were just dark slits in the soot on his face.
+
+Kaelen turned toward the wet rock wall. Beneath his gray brows, his eyes narrowed to slits.
+
 
 "Kaelen?"
 
+
 "Quiet."
 
-The old smith reached out with his left hand—the one missing the tip of the ring finger from an old hoist accident—and pressed his bare palm flat against the wet basalt face. His calluses were hard as horn, but he could feel the temperature of the stone.
 
-It wasn't cold.
+Kaelen pressed his bare palm against the wall. The tip of his ring finger was missing; Bram could see the old white scar as the hand spread over the stone.
 
-The basalt two inches from his thumb was warm. Not the sharp, sour heat of a coal fire, but the wet, steady warmth of a copper steam main running full bore through the dark.
 
-From three levels below, muffled by forty fathoms of rock and timber, the First Bell struck.
+Bram reached past his sleeve.
 
-The heavy iron clang rolled up the haulage bore like a wave of cold air, blowing the flame of the tallow stub flat against the wood. In the ditch, the water stopped rippling and went dead still.
 
-Kaelen pulled his hand back from the stone as if the rock had bitten him. He picked up his hammer, his knuckles white around the wood, and looked down at the boy in the mud.
+The stone was warm. He kept his palm against it, feeling the steady thrum through his fingers.
 
-"Wipe the grease off your face, Bram," the smith said, his voice hard as a slate tablet. "We're going to finish this flange, and then we're going to see what your brother left in the locker."
+
+Far below, the First Bell struck.
+
+
+The clang rolled up the haulage shaft. Kaelen's hammer remained still. Bram listened until the last stroke faded.
+
+
+Kaelen took his hand from the wall. His grip whitened around the hammer handle.
+
+
+"Wipe your face, Bram," the smith said. "We'll finish this joint, then see what your brother left in the locker."

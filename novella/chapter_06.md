@@ -5,226 +5,312 @@
 
 ### CHAPTER SIX: The Welded Advance
 
-The water from Shaft 44 surged across the ballast ties, ten inches deep where shattered timber and ballast backed up against the entry arch, a knee-deep weir of ice-cold snow-melt.
+The flood still lay deep behind the broken timber at the entrance to Drift 14. Along the wall, above it, clean water ran through Bram's gutters toward the nursery feeder.
 
-Sanna hauled Bram by the collar of his canvas coat toward the flume ditch. In her right hand she carried the twenty-four-inch box spanner, its iron jaw wrapped in greasy burlap.
 
-"Get to Lower Four," she told the boy. Her voice was hard, breath coming in white clouds against the drift chill. "Open the bypass gates on troughs three and four. If the nursery floor drowns, move the Cockos boxes up to the timber crib."
+Sanna hauled Bram toward the lower passage, her spanner still wrapped in sacking.
+
+
+"Get to Lower Four," Sanna told him. "Check the feeder into the tank. Help Marta move the crates onto the stone bench. The waste gate stays open."
+
 
 Bram stumbled in the foaming slurry, his boots slipping on round ballast stones. He looked back over his shoulder.
 
-Thirty yards up Drift 14, where the tunnel narrowed into the haulage throat, two lanterns swung in the dark. The yellow beams cut through the steam rising off the water. Behind the light came the iron scrape of claw-chains, and then the sound that made Bram's ribs ache—a wet, mechanical rasp like a bellows full of brine, accompanied by the rapid clack-hiss of high-pressure relief valves.
+
+Thirty yards up the drift, lanterns moved at the haulage throat. A narrow tool passage branched there and rejoined the track farther down, beside a derailed ore-skip. Chains scraped on stone. Behind them came a wet mechanical rasp and a quick clack-hiss.
+
 
 "Kaelen," Bram said.
 
-"The smith has an iron giant between him and the patrol," Sanna said, shoving him toward the lower timberline. "Run, Bram. Before the water fills the ditch."
 
-Bram ran ten paces into the darkness. Then he slipped into the ditch behind a derailed two-ton ore-skip, dropped onto his knees in the cold gravel, and reached into the tool-bin for a twelve-inch forged-iron track dog.
+"Varek's between them and Kaelen." She pushed him toward the lower passage. "Go. Marta needs you."
+
+
+Bram ran ten paces toward Lower Four, then slipped behind the derailed skip. He could still see Kaelen. Beside him stood a track-switch and the mouth of the tool passage. He knelt in the gravel and took an iron track dog from the skip's tool-bin.
+
 
 ⁂
 
-Kaelen stood with his boots planted six inches apart on the rail ties, water swirling around his gaiters. He held his four-pound cross-peen sledge by the hickory throat, the cold iron face slick with spray.
+
+Kaelen braced his boots between the sleepers and shortened his grip on the hammer.
+
 
 Beside him, Varek Fairgunjis did not shift his feet.
 
-Three point one tons of manganese boiler plate and cast-iron frame stood centered on the haulage track. From the open casing at his collarbone, the brass Bourdon tube wept a black smear of machine oil into the foam. The auxiliary steam pump under his throat-plate beat with a dry, hollow click.
+
+Oil from Varek's shoulder streaked his breastplate. The breathing engine kept its dry, hollow beat.
+
 
 The lanterns reached the timber arch at the throat.
 
-Bailiff Odo stopped at the threshold, water splashing against his knee-high gumboots. He held a brass bullseye lantern in his left hand and an oilskin ledger bag tucked tight into his armpit. His wire-rim spectacles were fogged gray with steam.
 
-Behind him stood four bailiff guards in stiff leather coats, short-barreled lever carbines resting in the crooks of their elbows. Behind the guards crouched two line-salvage hewers in rubber aprons, carrying a split-ash wicker hamper packed with yellow-painted nitro sticks and coils of sulfur fuse.
+Odo stopped beneath the arch with his lantern raised. Water splashed against his gaiters. He held the ledger bag tight under one arm; steam had fogged his spectacles.
 
-"Drift Fourteen!" Odo yelled through the roar of water. His voice had the shrill, cracked edge of a clerk whose accounts had caught fire. "Seal Act Section Forty-Two! Malicious fracture of a Tier Nine municipal feeder main! Step back from the rail head or the line crew fires the arch!"
+
+Four guards stood behind Odo with carbines. Two salvage men carried a basket of charges; their foreman followed with a yellow canister. While Odo called his warning, the three workers turned into the tool passage.
+
+
+"Drift Fourteen!" Odo yelled above the clack of the approaching rigs. His voice had the shrill edge of a clerk whose accounts had caught fire. "Seal Act Section Forty-Two! Step away from the valve or the line crew fires the arch!"
+
 
 Then Odo raised the lantern.
 
-The yellow beam washed over the head of the Fault Maul. It climbed the riveted knee-clevises, the thick manganese chest ribs stamped with forgotten foundry marks, and fixed on the narrow cast-steel visor. Behind the quartz lenses, twin phosphor lines burned dull green.
+
+The lantern beam climbed the maul, the scarred chest, and the old foundry crest. It stopped on Varek's visor.
+
 
 The two pit-mastiffs on their chains began to scream.
 
-It was not a hunting bay. It was the shrill, hysterical yelp of dogs whose blood knew the difference between stone and iron that walked. They threw themselves backward against their collars, clawing at the wet stone flags.
+
+They threw themselves backward against their collars. One guard stumbled under the pull.
+
 
 "What is that?" one of the carbine guards stammered, his fingers slipping on the brass lever of his gun. "That's... that's the monument from the Gantry."
 
-"It's an uncertified steam crane," Odo snapped, his voice jumping an octave as he backed into the timber leg. "A rogue winch rig! Line crew, set the charges in the cap! Guard, drop the hounds!"
+
+"An uncertified steam crane," Odo said, backing against the post. His voice cracked. "Line crew, set the charges. Guard, drop the hounds!"
+
 
 ⁂
+
 
 The handler tripped the lead-snaps.
 
-The two mastiffs didn't attack Varek; they bolted for the smell of living blood. The larger dog—an eighty-pound brute with scarred flanks and an iron wire basket lashed across its snout—lunged straight for Kaelen's throat.
+
+The larger hound lunged for Kaelen. He saw its teeth as it cleared the water.
+
 
 Kaelen didn't yell. A smith doesn't argue with metal that is already falling.
 
-He stepped his right foot back into the ballast, brought the four-pound sledge up in a short, brutal arc, and met the dog's chest in mid-air. The flat face of the hammer took the hound under the sternum with the dry crack of dry spruce kindling snapping under a boot. The beast dropped into the water, kicked twice, and rolled downstream in the foam.
+
+Kaelen stepped back and swung. The hammer caught the hound beneath the breastbone with a crack. It fell into the pooled water, kicked twice, and lay still.
+
 
 The second mastiff veered, snapped at Varek's lower ram guard, shattered its incisors against cast iron, and scrambled howling into the dark ribs.
 
+
 "They're coming!" Kaelen yelled, wiping muddy spray from his eyes. "Look past the dogs!"
+
 
 Down the stone throat came the penal frames.
 
+
 There were two of them.
 
-They were not soldiers. They were the Welded—debtor hewers from the Tier Two penal shafts, bolted directly into raw channel-iron scaffolding. Thick iron brackets were pinned through their grease-soaked leather sleeves, clamping their forearms to six-foot pneumatic breaker bars. Over each man's skull sat a sheet-iron spit-mask riveted shut at the neck ring, with two three-quarter-inch holes punched for eyes. A thin copper tube ran from a grease firkin on the back casing into the mask's mouth-grate, metering coal-naphtha and bitter stimulants to keep their hearts thrashing past exhaustion.
 
-On their backs, high-pressure steam boilers fed eccentric dead-man cams.
+They were the Welded, debtors fastened into mining rigs. Iron braces held their arms against driven breaker bars. Riveted masks hid their faces. A tube fed stimulants into each mouth, keeping the men awake while the machines worked.
+
+
+Boilers drove the bars through their repeating stroke.
+
 
 Clack-hiss. Clack-hiss.
 
-The cams cycled the seventy-pound breaker bars in a continuous, reciprocating sweep—down, smash, lift, down. They didn't aim. They didn't think. They advanced down the haulage track like steam stamps in an ore mill, the chisel-beaks of the breaker bars tearing chunks out of the basalt walls and hammering the iron rails into splinters.
+
+Down, smash, lift, down. The men could not stop or steer them. The bars tore at the walls and struck sparks from the rails.
+
 
 Through the narrow slits in the lead rig's mask, Kaelen caught a glimpse of bloodshot human eyes, wide with sheer terror.
 
+
 Beneath the roar of the venting steam, a muffled human voice was weeping inside the iron:
+
 
 "Can't stop it... please... my wrist is broke... shear the pin..."
 
+
 ⁂
 
-Varek did not roar. He took two steps forward into the narrowest choke of the throat, his iron heel-spurs grinding the shale ties flat.
 
-The lead Welded rig surged into range, its pneumatic arm driving the heavy breaker bar down in a vertical crushing stroke meant to crack granite footings.
+Varek advanced to meet the first rig. Kaelen followed at his left shoulder, leaving Bram's skip and the track-switch behind them.
+
+
+The rig drove toward him, its heavy breaker rising for another stroke.
+
 
 Varek's left arm came up.
 
-The Fault Maul moved with the clean, horrifying momentum of a shipyard drop-hammer. He did not aim for the man's chest. He did not aim for the skull.
 
-He aimed for the forged clevis pin holding the breaker bar to the main hydraulic ram.
+The maul rose past the man's chest and mask.
+Varek aimed for the pin joining the breaker bar to its drive.
 
-The chisel-beak of the maul struck the thirty-millimeter pin at the top of its stroke.
+
+He struck as the bar reached the top of its stroke.
+
 
 CLANG.
 
-The shear pin blew out like an artillery shell, ricocheting off the basalt roof in a spray of orange fire. The seventy-pound breaker bar tore free from its housing, spinning into the ballast water. High-pressure steam erupted from the fractured supply union in a deafening, white jet that scalded the tunnel roof.
 
-Varek stepped inside the flailing frame. His three-talon right hand—the ancient hydraulic clamp—snapped shut around the channel-iron chest cage.
+The pin broke and rang off the roof. The breaker fell clear, burying its point in the track bed.
 
-With a single, measured twist of his wrist, Varek sheared the brass boiler line feeding the dead-man cam.
 
-The steam died with a long, whistling sigh. The reciprocating cams ground to a halt.
+Varek caught the rig before it fell, his right talons closing around its chest frame.
 
-The miner inside the harness went limp, his boots dragging in the ten-inch current, supported only by the iron cage clamped in Varek's fist.
 
-"Task complete," Varek rasped through his bronze throat-plate. "Boiler vented."
+He rested the maul against his leg. With his left hand he closed the rig's steam valve and opened its vent toward the roof.
 
-He lowered the frame gently into the ditch against the dry wall.
+
+Steam hissed overhead. The drive slowed and stopped.
+
+
+The miner sagged inside the harness. His boots dragged through the pooled water; Varek's grip kept the frame upright.
+
+
+"It's stopped," Varek told the man. "I have you."
+
+
+He lowered the frame gently against the wall and took up his maul.
+
 
 ⁂
 
-The second Welded rig was four paces behind, its breaker bar chewing into the green larch post Kaelen had driven an hour ago. The wood groaned under the pounding iron.
+
+The second rig struck past him. Its bar caught a side post and tore it loose. Varek and Kaelen gave ground toward the track-switch; the guards followed behind the rig.
+
 
 "Fire!" Odo shrieked from the ladderway. "Shoot the boiler! Aim for the neck-ring!"
 
+
 The four guards leveled their repeating carbines and opened fire.
 
-The tunnel exploded with yellow flashes and the sharp, deafening bark of forty-caliber black-powder cartridges. Lead slugs cracked against stone.
 
-Two rounds struck Varek's chest plate. The soft lead flattened into grey buttons against the manganese steel, leaving bright, silvery pits and spattering hot lead shavings into the water. A third slug ricocheted off his visor rim, leaving a white gouge across the quartz lens.
+Carbines cracked in the narrow drift. Lead struck stone.
 
-Varek did not flinch. He turned his torso six degrees, placing his bulk directly between the carbines and Kaelen.
 
-A fourth round clipped the collarbone fitting. The brass Bourdon tube ruptured with a sharp pfft, and hot mineral oil sprayed across Varek's breastplate, smoking against the warm exhaust ports.
+Two rounds flattened against Varek's chest. Another struck the visor rim and left a white scar across the lens.
+
+
+Varek turned between the guns and Kaelen.
+
+
+A fourth round tore through the collar fitting. The brass pressure tube split, spraying oil across Varek's chest. Behind it, the steam pipe from his walking boiler opened with a shriek. His right knee dipped.
+
 
 "Varek!" Kaelen shouted, ducking behind the iron knee-guard. "Your pressure line!"
 
-"Holding," Varek said. His voice was cold, harder than the melt-water.
 
-He took two long strides. The Fault Maul swung sideways—not with the pointed beak, but with the broad, flat face.
+"Holding," Varek said. The word scraped through his reed.
 
-It struck the second Welded rig's eccentric flywheel.
 
-The cast-iron gear shattered into three jagged pieces. The drive chain snapped, lashing into the ballast. The second rig seized instantly, the dead-man cams locking tight.
+Varek stepped beside the machine, keeping Kaelen behind his frame. The Fault Maul swung sideways, its broad face leading.
 
-At the rear of the drift, the line-salvage timbermen dropped their basket and bolted up the haulage ladder. But the lead salvage foreman didn't run.
 
-He was on his knees behind an iron track-switch, his face wild with panic. In his hands was an eight-pound yellow canister of split-grain nitro, its copper crimp holding three inches of black-powder fuse. He held a brass flint striker in his shaking right hand.
+It struck the wheel driving the bars.
+
+
+The wheel broke. Its chain fell into the water and the bars stopped. Varek stood beside the track-switch with his maul low.
+
+
+The salvage men emerged from the tool passage. At the sight of the stalled rigs, the two carrying the charges turned and fled. Their foreman dropped behind the track-switch, only a few feet from Bram's skip.
+
+
+The foreman knelt with the yellow canister between his knees, a short fuse projecting from its cap. He drew a match from inside his coat.
+
 
 "I'll bring the whole shaft down!" the foreman screamed, his voice breaking. "I'll bury every ditch in Lower Four!"
 
-The striker threw a shower of yellow sparks. The sulfur head of the match caught, sputtering red.
 
-From beneath the rusted chassis of the derailed ore-skip three feet away, Bram lunged out of the weir foam. His knees drove into the muck, both hands locked around the twelve-inch forged track dog. Before the foreman could touch the sputtering match to the fuse, Bram swung the iron dog point-blank across the man's forearm.
+He struck it on the dry lining. A small red flame caught.
+
+
+Bram lunged from behind the derailed ore-skip, both hands gripping the iron track dog. He was only three feet from the salvage foreman. Before the man could touch his burning match to the fuse, Bram struck his forearm.
+
 
 CRACK.
 
-The match tumbled into the foaming water and died with a tiny hiss. The yellow nitro canister slipped from the foreman's grip, rolling harmlessly into the slurry.
+
+The match fell into the water and died. The canister slipped from his knees and lodged against a rail. Its fuse remained dark.
+
 
 The foreman shrieked, clutching his broken forearm against his rubber apron.
 
+
 Kaelen turned his head.
+
 
 Bram was kneeling in the slurry by the track-switch, his chest heaving, his small face streaked with coal dust and grease, his knuckles bloodied against the iron dog.
 
-"Bram!" Kaelen roared. "I told you to get to the flumes!"
 
-"The fuse was dry," the boy choked out, his knees shivering in the ten-inch surge. "He had the match dry under his coat."
+"Bram!" Kaelen caught sight of him beside the switch. "You were meant to go to your sister!"
+
+
+"The fuse was dry," Bram said. His knees shook in the cold water. "He had the match dry under his coat."
+
 
 ⁂
 
-One guard had stayed behind the second penal frame. He stepped clear of it, worked the lever of his carbine, and brought the muzzle down toward Bram.
 
-Varek saw the boy still on his knees. The guard was within reach; the gun was already at his shoulder.
-
+One guard came around the stalled rig at Varek's left side. He worked his carbine's lever and raised the muzzle toward Bram.
+Bram was still on his knees. Varek could reach the guard, but not the boy. The gun came level.
 The Fault Maul struck once.
-
 The guard fell beside the track-switch. His carbine went into the water. He did not move again.
-
 Varek held the maul low. His lenses stayed on the man’s face until Kaelen reached Bram and pulled him behind the iron frame.
-
 "Is the boy hit?" Varek asked.
-
 "No."
-
 The remaining three guards fled. Their boots pounded up the wooden rungs of the haulage ladder, their lanterns bouncing away toward Tier Eight.
+
 
 Only Bailiff Odo remained.
 
-With the cold torrent lapping ten inches deep against his polished leather gaiters, the bailiff took a clean piece of slate from his satchel, made a single precise stroke across the timber inventory, and looked directly into the dark quartz slits of the iron titan.
 
-"You have broken the Seal Act, engine," Odo said. His voice no longer trembled. "The Continuity Board commands six regiments and four pneumatic siege-rams on Tier Three. Enjoy the sweet water while the drift holds it. It is the last thing your hearth will ever drink."
+Odo stood in the water by the ladder. He took a clean slate from his satchel, made one precise mark, and looked up at Varek.
 
-The bailiff turned on his heel and stepped into the flooded haulage trunk, his hobnails clicking with measured cadence against the submerged iron rails until the leather brattice swallowed him.
+
+"The Board has siege-rams on Tier Three," Odo said. "They'll seal this whole level if they have to."
+
+
+He backed up one rung before turning. His boots scraped on the ladder until the dark hid him.
+
 
 Kaelen knelt in the slurry beside the first Welded miner.
 
-With his pocket clasp-knife, the smith sawed through the stiff rawhide straps binding the man's jaw. He wedged his cold chisel under the riveted collar ring of the spit-mask, struck the pommel with the heel of his palm, and popped the brass rivets.
+
+Kaelen cut the leather straps beneath the injured miner's jaw. Then he set his chisel under the riveted collar of the iron mask and knocked the fastenings free, one by one. At last the man could breathe without the metal pressed against his face.
+
 
 The sheet-iron faceplate fell away into the water.
 
-Underneath was a boy. He could not have been older than nineteen. His cheeks were hollow, his lips blackened and blistered from the coal-naphtha drip tube, his eyes red-rimmed and leaking clear tears into the grime.
 
-"You're free of the cam, lad," Kaelen said gently, his rough thumb wiping a streak of black stimulant grease from the boy's jaw. "The boiler's cold."
+Under the mask was a boy no older than Wulfila. His lips were blistered around the feeding tube. Tears cut pale lines through the grime.
 
-The boy looked at Kaelen's worn leather apron, then looked up at the three-ton iron figure standing above them in the dark.
+
+"It can't drive you now, lad," Kaelen said, wiping the boy's jaw with his thumb. "You're free of it."
+
+
+The boy looked at Kaelen's worn leather apron, then looked up at the three-tonne iron figure standing above them in the dark.
+
 
 "Is it... is it the First Hearth?" the boy croaked, his voice raw.
 
+
 "No," Kaelen said, his voice tightening as he stood up. "It's an old miner who doesn't like thieves."
 
+
 Varek turned back to the second Welded miner. The man was still caught in his stalled frame. Varek held the iron steady while Kaelen worked the straps loose.
+Beyond them, the dead guard's coat moved in the ditch. Bram bent for the track dog, missed it, and had to try again.
+Kaelen set down his hammer and pressed a palm against Varek's chest.
 
-Beyond them, the dead guard’s coat moved in the current. Bram bent for the track dog, missed it, and had to try again.
 
-The water did not sound like a victory.
+His calluses came away black with oil.
+The pressure tube beneath Varek's left collarbone had split along its seam. The gauge rested at zero. Fluid leaked from the bent fitting in his right shin into the floor ditch. Above it, the clean supply still ran in its separate gutter.
 
-Kaelen dropped his four-pound sledge into the mud. He didn't look at the rushing flume. He stepped up to the flank of the machine, his scarred palm coming down flat against the cold manganese skin of Varek’s thoracic cage.
 
-His calluses came away black.
+Kaelen shut the supply from the damaged walking boiler. The steam shriek died, leaving the small breathing engine audible.
+"That pipe's split. You can't replace the pressure you're losing."
+He looked toward the ladder.
+"We need another way up."
 
-Not with soot. With mineral oil—thick, amber, and smelling of overheated copper.
 
-Beneath the pilot’s left collarbone, the brass Bourdon tube had split cleanly along its brazed seam. The needle on the pressure dial sat dead against the zero-stop. A rhythmic, sickly rattle vibrated through the dorsal frame, and from the base of the left shin column, a bent anchor pin wept pressurized fluid straight into the drinking water rushing past their boots.
+The mobilization bells began above them.
 
-"Your accumulator's bled out," Kaelen said, his throat dry. "Your seals are cooked. You've got half a head of low-pressure steam in the reserve cylinder and three tonnes of dead iron that can't climb a ladderway."
 
-Above them, muffled by four miles of black basalt and eighty fathoms of ventilation trunks, the alarm bells of Tier Nine began to strike.
+Their quick strokes travelled through the rails into Kaelen's boots.
 
-It was not the slow, liturgical toll of the Sunday First Bell. It was the rapid, frantic iron-on-iron clatter of the mobilization drums—telegraphing through the rock, through the iron rails, and straight into the soles of Bram's soaked boots.
 
-Varek’s visor flickered, the green phosphor dimming to a sullen, dying coal.
+The light behind Varek's damaged lens dimmed.
 
-"The bailiff is correct, smith," the machine rasped, its bronze vocal tracks grinding dry. "The water will bring the rams. Cut the timber wedges and bar the flume gates. We have six hours before the air turns to iron."
 
+"The water will bring the rams," Varek said. "About six hours. They have to bring the machines and their air line down from Tier Three."
+Kaelen looked toward Lower Four.
+"Bar the haulage doors," Varek told him. "Leave the water channels clear."
 ________________
