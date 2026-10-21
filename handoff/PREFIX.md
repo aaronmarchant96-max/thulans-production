@@ -31,3 +31,7 @@ These questions do not authorize inventing new lore or rewriting the ending.
 ## Other project scopes
 
 Existing engineering acceptance rules, model approvals, music remediation, cinematic history, and game continuity retain their own governing documents. This manuscript synchronization makes no new claim that those gates pass. Consult `AGENTS.md` and the relevant domain gate before working on them.
+
+## Synchronization verification
+
+The complete repository manuscript and all twelve chapter mirrors were compared paragraph by paragraph with the live Doc (1,797 narrative and scene-break paragraphs). Headings and typographic punctuation were checked separately. Agent instructions contain one current manuscript-status block.
