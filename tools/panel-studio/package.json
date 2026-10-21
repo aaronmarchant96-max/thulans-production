@@ -1,0 +1,11 @@
+{
+  "name": "thulan-panel-studio",
+  "version": "1.0.0",
+  "description": "Deterministic lore-guarded storyboard and panel studio for The Thulans",
+  "type": "module",
+  "scripts": {
+    "test": "node --test __tests__/*.test.mjs"
+  },
+  "author": "Aaron Marchant",
+  "license": "MIT"
+}

@@ -1,0 +1,109 @@
+{
+  "episode_id": "001_eleven_bells",
+  "title": "Thulans: Eleven Bells",
+  "canon_plates": [
+    {
+      "id": 1,
+      "title": "THE THROAT & SHIELD WALL",
+      "sector": "THE THROAT / LIFT-SECTOR-01",
+      "filename": "panel_01_the_throat.jpg",
+      "description": "Sloped bronze mantlets, floor hydraulic rams, respirator helmets"
+    },
+    {
+      "id": 2,
+      "title": "THE WELDED (PROFILE)",
+      "sector": "GATHAUR-BANO / SECTOR-6A112",
+      "filename": "plate_02_the_welded_profile_canon.jpg",
+      "description": "Bolted iron skull cage, brass filter respirator, exhausted human eye"
+    },
+    {
+      "id": 3,
+      "title": "THE BREAKER CADENCE",
+      "sector": "HAUL-DRIFT-04 / SECTOR-6A112",
+      "filename": "plate_03_the_breaker_cadence_canon.jpg",
+      "description": "Steam-driven arm cams, hydraulic breaker torso frame, timber drift"
+    }
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "title": "The Throat & Shield Wall",
+      "sector": "THE THROAT / LIFT-SECTOR-01",
+      "script": "Twelve shield warriors held the throat of the lift, three hundred civilians jammed knee to knee in the cage, a dockhand with one crushed hand still wrapped around a dented enamel tin, backs pressed to the grating, boots in sump water, breath sour with coal dust and grease.",
+      "suggestedPrompt": "Interlocking sloped bronze and hammered copper ballistic blast-mantlets anchored into the wet stone floor by thick hydraulic shock pistons. Behind the barricade, rugged Thulan miners in bolted copper boiler cuirasses, rubberized blast aprons, and full-face brass respirator hoods with dark welding glass visors in a fierce protective line. Background elevator cage jammed with miners behind iron grating bathed in warm honey-amber grease lantern light. Boiling steam hissing from overhead pipes, dense coal dust, grease lanterns, zero swords, zero spears, zero chainmail, zero handheld shields",
+      "filename": "panel_01_the_throat.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Welded (Advance)",
+      "sector": "HAUL-DRIFT-04 / SECTOR-6A112",
+      "script": "The men coming down the gallery weren't soldiers. They were the Welded—condemned miners bolted into hydraulic frames, jawbones pinned with rivets, eyelids stitched open on iron wire, ribs capped in plate, arms driven by steam cams that never rested.",
+      "suggestedPrompt": "Condemned miners known as The Welded advancing down dark timber-shored coal mine drift, bolted into heavy rusted iron and bronze hydraulic breaker frames, ribbed breastplate over chest, mechanical steam piston arms, dual-valve respirator venting exhaust steam, zero swords, zero spears",
+      "filename": "panel_02_the_welded_advance.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Welded (Profile)",
+      "sector": "GATHAUR-BANO / SECTOR-6A112",
+      "script": "Jawbones pinned with rivets, eyelids stitched open on iron wire, ribs capped in plate, arms driven by steam cams that never rested.",
+      "suggestedPrompt": "Extreme profile close-up of a condemned Thulan miner encased in a bolted iron skull cage, heavy brass filter canister respirator venting exhaust steam, exhausted human eye visible behind the steel plate, massive bolted shoulder pauldron, zero text, zero speech bubbles",
+      "filename": "panel_03_the_welded_profile.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Iron Bell",
+      "sector": "SIGNAL-GANTRY / LEVEL-09",
+      "script": "Every time the lift came back for more, an iron bell struck. Each bell meant another line had failed above.",
+      "suggestedPrompt": "Massive heavy wrought iron mechanical lift bell suspended in a heavy riveted steel gantry frame deep within a dark subterranean mine shaft, thick grease, heavy chains, iron clapper, dark crosshatched stone walls, warm lantern light, zero characters, zero text, zero speech bubbles, zero comic lettering",
+      "filename": "panel_04_the_iron_bell.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Third Bell (Pressure Rupture)",
+      "sector": "PRESSURE-MAIN / SHAFT-03",
+      "script": "At the third bell, a pressure main burst in the ceiling, spitting boiling mist through the beams, slicking the walls white.",
+      "suggestedPrompt": "Industrial steam pressure main rupturing violently from timber ceiling beams in subterranean tunnel, blinding white boiling steam blast, armored Thulan miners in brass respirator hoods crouching behind floor-anchored copper ballistic blast mantlets, zero swords",
+      "filename": "panel_05_pressure_rupture.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Fifth Bell (Cable Snap)",
+      "sector": "WINCH-DRUM / SHAFT-THROAT",
+      "script": "At the fifth... the haul cable tore free. It lashed across the shaft throat, took six warriors at once, armor split, shields knocked loose, bodies folded into the winch frame.",
+      "suggestedPrompt": "Thick woven steel hoist cable snapping under immense tension, whipping violently across industrial elevator shaft throat, severed bronze armor plates, sheared hydraulic pistons, sparks and kinetic chaos frozen in stark pitch-black brush ink, zero swords, zero spears",
+      "filename": "panel_06_cable_snap.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Seventh Bell (Locked Harnesses)",
+      "sector": "DEFENSE-LINE / COLLAR-07",
+      "script": "By the seventh bell, dead men were still upright in their harnesses—industrial shield hooks locked under the bodies' weight. And the Welded kept hammering at the corpses, steel fists ringing off dented helms.",
+      "suggestedPrompt": "Fallen Thulan miners held rigidly upright by industrial bronze mantlet harnesses anchored under dead weight, unstoppable mechanical Welded miners striking relentlessly with iron piston fists, dented helms, sparks flying, zero swords, zero spears",
+      "filename": "panel_07_locked_harnesses.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Final Run (Jammed Hoist)",
+      "sector": "HOIST-CAGE / DRIVE-TEETH",
+      "script": "On the final run, the hoist jammed. The last warrior hauled up his pneumatic hammer... stepped out of the cage... drove the steel head into the drive teeth so the safety doors could seal shut.",
+      "suggestedPrompt": "Sole surviving Thulan miner stepping out of elevator cage threshold, raising a massive heavy pneumatic fault hammer with both hands, driving the steel head directly into massive revolving hoist spur drive teeth to force safety doors closed, zero swords",
+      "filename": "panel_08_jammed_hoist.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Eleventh Bell (The Hollow Thrum)",
+      "sector": "SHAFT-ABYSS / ELEVENTH-BELL",
+      "script": "The eleventh bell rang from the shaft below, a hollow thrum that echoed the last breath of those still trapped.",
+      "suggestedPrompt": "Looking down into the vast vertical darkness of empty industrial shaft abyss, distant sealed steel safety hatch far below, faint amber glow from grease lanterns, dripping rock walls, solitary heavy sound waves echoing in dark crosshatch ink, zero characters",
+      "filename": "panel_09_eleventh_bell.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Residue & Myth (Council Plaque)",
+      "sector": "COMMEMORATIVE-SEAL / SECTOR-6A",
+      "script": "Years later, the hammer remains embedded in the rusted hoist. The Council labels it a heroic monument; in truth, it is simply an unfinished repair over an industrial slaughter.",
+      "suggestedPrompt": "Years later, polished ornamental bronze Council plaque with crisp engraved lettering mounted directly over bent rusted iron spur gears and the still-embedded shattered pneumatic fault hammer head, green verdigris patina, cold dim overhead work lamp",
+      "filename": "panel_10_council_plaque.jpg"
+    }
+  ]
+}

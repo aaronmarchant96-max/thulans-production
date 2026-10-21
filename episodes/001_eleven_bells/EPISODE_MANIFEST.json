@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "episode_id": "001_eleven_bells",
+  "title": "Thulans: Eleven Bells",
+  "production_track": "narrated_motion_graphic_novel",
+  "measurement_mode": "measured",
+  "evidence_status": "measured",
+  "status": "AUDIO_MASTER_CINEMATIC_3M30_LOCKED",
+  "human_verified": true,
+  "created_at": "2026-09-27T00:26:00-06:00",
+  "updated_at": "2026-09-27T15:45:00-06:00",
+  "authorities": {
+    "audio_master": "/home/aaron/Downloads/THULANS_Eleven_Bells_Teaser_Master_48k24.wav",
+    "timing_authority": "episodes/001_eleven_bells/SHOT_LEDGER.csv",
+    "music_authority": "episodes/001_eleven_bells/assets/user_instrumental_take2_mastered_48k24.wav",
+    "doctrine": "docs/THULAN_VIOLENCE_DOCTRINE.md"
+  },
+  "runtime_seconds": 212.95,
+  "playback_rate": 1.066,
+  "assets": {
+    "dialogue_master": {
+      "path": "episodes/001_eleven_bells/assets/eleven_bells_dialogue_take7_master_48k24.wav",
+      "sha256": "63e5b5439de229fed6289a69e71f92fa59288c1211587e30adb79355649f7d52",
+      "format": "pcm_s24le",
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_db": -1.5,
+      "source_take": "2026-09-27 14-31-22.mp4 (OBS Take 7 - Organic Complete Read)"
+    },
+    "instrumental_stem": {
+      "path": "episodes/001_eleven_bells/assets/user_instrumental_take2_mastered_48k24.wav",
+      "sha256": "83ea07ce6ef3d92e3956c770379c444f93c06671bff8e29ba119d0d26223d03a",
+      "format": "pcm_s24le",
+      "sample_rate": 48000,
+      "channels": 2,
+      "peak_db": -1.5,
+      "mix_gain_db": -5.5,
+      "source_take": "2026-09-27 15-29-33.mp4"
+    },
+    "rendered_composite_wav": {
+      "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_Teaser_Master_48k24.wav",
+      "sha256": "42774e59b9fa52d4dd6d5f12fdb5daf256427633e02c856544650e8cb654ed3f",
+      "format": "pcm_s24le",
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    "rendered_composite_mp3": {
+      "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_Teaser_Master.mp3",
+      "sha256": "86713cfd827781b7ab44a190d8f2aeab0f52eff3f22a1a1ff342db38618ca9a8",
+      "format": "mp3",
+      "bitrate": "320k",
+      "sample_rate": 48000,
+      "channels": 2
+    },
+    "rendered_teaser_video": {
+      "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_Teaser_Video.mp4",
+      "sha256": "d433ef7d98b8e8b7fd270da7540cce9492806c4a184cce9d6c8104f3cda85bc3",
+      "format": "mp4",
+      "resolution": "1920x1080",
+      "audio_codec": "aac",
+      "audio_bitrate": "320k"
+    },
+    "reaper_project": {
+      "path": "episodes/001_eleven_bells/Eleven_Bells_Project.rpp"
+    }
+  },
+  "narrative_markers": [
+    {
+      "time": 0.0,
+      "label": "INTRO - Twelve Shield Warriors at Throat"
+    },
+    {
+      "time": 5.36,
+      "label": "PANEL 2 - 300 Civilians Jammed in Cage"
+    },
+    {
+      "time": 18.32,
+      "label": "PANEL 3 - The Welded: Hydraulic Frames & Riveted Jaws"
+    },
+    {
+      "time": 34.88,
+      "label": "PANEL 4 - Steam Cams That Never Rested"
+    },
+    {
+      "time": 42.0,
+      "label": "BELL 1 - Lift Returns / Alarm Toll"
+    },
+    {
+      "time": 47.1,
+      "label": "BELL 3 - Pressure Main Burst / Boiling Mist"
+    },
+    {
+      "time": 60.25,
+      "label": "BELL 5 - Haul Cable Snaps / 6 Warriors Folded"
+    },
+    {
+      "time": 77.84,
+      "label": "BELL 7 - Dead Men Operating Harnesses"
+    },
+    {
+      "time": 93.2,
+      "label": "FINAL RUN - The Hoist Jams"
+    },
+    {
+      "time": 99.84,
+      "label": "SACRIFICE - Steel Head into Drive Teeth"
+    },
+    {
+      "time": 105.0,
+      "label": "BELL 11 - Hollow Thrum from Shaft Below"
+    },
+    {
+      "time": 112.24,
+      "label": "ECHO - Last Breath of Those Trapped"
+    },
+    {
+      "time": 118.08,
+      "label": "MONUMENT - The Council Bronze Plaque"
+    },
+    {
+      "time": 123.36,
+      "label": "EPILOGUE - A Repair Never Completed"
+    },
+    {
+      "time": 131.28,
+      "label": "OUTRO - Solitary Bells & Final Decay"
+    }
+  ],
+  "runtime_formatted": "03:32.95",
+  "playrate": 1.0,
+  "intro_music_seconds": 10.0,
+  "new_pacing_master_wav": {
+    "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_New_Pacing_Master.wav",
+    "sha256": "7dfb93b8ac41760be77c49d235b1469f2f162e2e17a3a28899e2ae64cea33f99"
+  },
+  "new_pacing_master_mp3": {
+    "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_New_Pacing_Master.mp3",
+    "sha256": "28ee693165d25a781563f99413a00b0afe2c70c7896c50e583609ef1ba69b46a"
+  },
+  "pause_duration_range": "5.5s to 8.0s",
+  "cinematic_master_3m30_wav": {
+    "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_Cinematic_3m30_Master.wav",
+    "sha256": "d874d43154287782a52e3c6bc4e59d7fdc95379743d4df14703718b8d79ce02f"
+  },
+  "cinematic_master_3m30_mp3": {
+    "path": "/home/aaron/Downloads/THULANS_Eleven_Bells_Cinematic_3m30_Master.mp3",
+    "sha256": "2bb78c81ed014f69cac03992c295c1cf14e552593ed878de84f878604ca13c3a"
+  }
+}

@@ -33,3 +33,16 @@ evidence/**/probe.json
 evidence/**/*.png
 assets/art/*.png
 assets/audio/The_Song_of_the_Wahlja_Master.wav
+
+# Episode working media and renders (keep specs and manifests; exclude GB-scale audio/video)
+episodes/*/assets/
+episodes/*/Media/
+episodes/*/Backups/
+episodes/*/tmp_animatic/
+episodes/*/*.mp4
+episodes/*/peaks/
+
+# Local preview outputs and tool drafts
+preview/
+tools/panel-studio/drafts/
+
