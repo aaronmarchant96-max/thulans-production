@@ -43,7 +43,7 @@ The following words, tropes, and rhythmic tics are **strictly prohibited** in al
 
 Characters must never share the same vocabulary pool. Their diction is dictated by their trade, age, and trauma.
 
-### A. Bram (Age 14 | Apprentice / Sump-Boy)
+### A. Bram (Age 13; turns 14 on 30 October | Apprentice / Sump-Boy)
 * **Register:** Hesitant, innocent, literal, observant.
 * **Vocabulary:** Senses, immediate tasks, things his brother told him, childish misunderstandings of a surface he has never seen (*"beasts as big as tubs covered in hair"*).
 * **Cadence:** Short sentences, questions that ask about reality rather than philosophy. He doesn't complain about pain; he just shivers and holds the tub.
@@ -61,7 +61,7 @@ Characters must never share the same vocabulary pool. Their diction is dictated 
 * **Cadence:** Deep vibration through a bronze throat-plate. Words are expensive because every syllable burns auxiliary air. When the suit is stripped, his voice is a seventy-pound old man's wheeze.
 * **Dialogue Rule:** Maximum economy. Never argues. Drops the hammer instead of debating. Speaks the truth once, flat as a surveyor's slate: *"Bring the wrenches."*
 
-### D. Sanna (Age 20 | Nursery Caretaker / Lower Four Hearth)
+### D. Sanna (Age 18 | Nursery Caretaker / Lower Four Hearth)
 * **Register:** Clinical domestic triage, fierce maternal protectiveness, calm defiance.
 * **Vocabulary:** Rations, flannel, carbolic wash, child fever, tea stems, iron scrap.
 * **Cadence:** Unflinching, practical, quiet. No hysterics.

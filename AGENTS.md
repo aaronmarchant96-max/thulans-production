@@ -24,6 +24,8 @@ For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/V
 
 ## 2. Narrative & Lore Authority Protocol
 
+For the current twelve-chapter novella, the [live Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) is authoritative. `novella/THE_THULANS_MANUSCRIPT_COMPLETE.md` and `novella/chapter_01.md` through `chapter_12.md` are synchronized text mirrors. The current `docs/NOVELLA_BLUEPRINT.md` describes the written novella. Broader literary, cinematic, and game documents below retain their own scope; do not import an incompatible scene or timeline into the novella.
+
 For all story, script, character motivation, dialogue, and cinematic beats, consult:
 - `docs/THE_DISMANTLING_OF_VAREK.md`: **Canonical Literary Foundation & Master Living Story.**
 - `docs/VAREK_ACTS_ONE_AND_TWO.md` & `docs/VAREK_ACT_THREE.md`: Screenplay & prose master chapters.
@@ -58,6 +60,33 @@ When the author opens OpenCode to write or edit the novel, the agent is immediat
 - **Current Manuscript State**: 
   - Acts I & II (Chapters 1–6) are complete in `novella/THE_THULANS_MANUSCRIPT_ACTS_I_AND_II.md`.
   - Next on deck: **Act III, Chapter 7 ("The Ascent")** — Varek and Kaelen climbing the 2,000-meter vertical hoist trunk with ruptured hydraulics as the Tier Nine mobilization drums echo through the rock.
+- **The CARDO Method (`docs/CARDO_STORY_METHOD.md`)**:
+  1. **Locate the Hinge First**: Every scene pivots on a structural turning point where a character's assumption breaks and their trajectory irreversibly shifts.
+  2. **Phase 0 Character Driver**: Identify what the character wants, what they fear, and what concrete physical event forces the turn.
+  3. **Show, Do Not Summarize**: Zero abstract emotion tags ("he felt despair"). Deliver the scene entirely through physical labor, cold grease, broken seals, tactile tools, and sharp subtextual dialogue.
+  4. **Never Announce the Twist**: No narrative hand-waving or editorial telegraphing. Consequences land through concrete physical events.
+  5. **Conclusion Discipline**: Never close on a moralizing or summarizing wrap-up. End with a hard, tangible physical action, image, or line of dialogue.
+- **The Voice Contract (`docs/THULAN_NOVELLA_VOICE_CONTRACT.md`)**:
+  - **Zero AI Slop**: Strict ban on *tapestry, delve, palpable, symphony, dance, crescendo, ethereal, eerie*.
+  - **McCarthy/Abercrombie Cadence**: Short, heavy, monosyllabic verbs landing like an eight-pound sledge.
+  - **Character Speech Registers**:
+    - *Bram (13; turns 14 on 30 October)*: Literal, naive, cold shins, dropped hex nuts.
+    - *Kaelen (58)*: Shop-floor curt, missing a fingertip, tallow candle clamped in teeth, cynical loyalty.
+    - *Varek (300+)*: Heavy manganese steel, steam-driven oil hydraulics, acoustic resonance, words burn auxiliary air.
+    - *Sanna (18)*: Domestic triage, boiling leek roots on red coal clinkers, unflinching.
+    - *Theodemir (70)*: Exhausted administrative clerk with slate and chalk, calculating 1-in-7 casualty budgets.
+- **The Violence Doctrine (`docs/THULAN_VIOLENCE_DOCTRINE.md`)**:
+  - *"The violence is fast. Understanding what happened is slow."*
+  - **The Three Beats**: [1. Impact] instantaneous kinetic trauma $\rightarrow$ [2. Recognition] mechanical comprehension $\rightarrow$ [3. Residue] permanent physical evidence and constraints.
+  - Zero torture spectacle, zero action-movie quips, zero physically impossible survival.
+- **GDR Anti-Slop & Prose Discipline (`docs/GDR_SLOP.md`)**:
+  - Strict ban on generic fantasy compounds and self-important adjective inflation (*unyielding, monumental, profound, relentless, seamless*).
+  - RULING 001: If a word exists only to make the setting or proposal sound larger, cut it.
+- **Narrative Architecture**: Twelve chapters across four acts; 22,577 words of chapter and act text in the 21 October 2026 synchronization. The former ~40,000-word target is historical, not a missing-text requirement.
+- **Current Manuscript State**:
+  - All twelve chapters are complete in the live Google Doc and mirrored under `novella/`.
+  - Character and rhythm revisions are incorporated. Do not restore older passages merely to match an earlier count.
+  - Remaining editorial questions: Chapter Six threat dialogue, geological timescale across the six-year epilogue, and selective rhythmic variation. These are review items, not authorization to invent lore or require a quota of new interior passages.
 - **The CARDO Method (`docs/CARDO_STORY_METHOD.md`)**:
   1. **Locate the Hinge First**: Every scene pivots on a structural turning point where a character's assumption breaks and their trajectory irreversibly shifts.
   2. **Phase 0 Character Driver**: Identify what the character wants, what they fear, and what concrete physical event forces the turn.

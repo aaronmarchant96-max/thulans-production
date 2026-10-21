@@ -1,8 +1,17 @@
 # The Thulans Production
 
-> 📖 **The Thulans: The Weight of a Lie (Complete 12-Chapter Novella)**  
-> **Read the Master Manuscript**: [**`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`**](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)  
-> *Author: Aaron Marchant · Acts I–IV Complete · 23,233 Words · 100% Canon-Locked & Quality Audited*
+> 📖 **The Thulans: The Weight of a Lie — revised twelve-chapter novella**  
+> **Authoritative illustrated reading draft:** [Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)  
+> **Repository text mirror:** [Complete manuscript](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)  
+> *Aaron Marchant · Acts I–IV complete · 22,577 words of chapter and act text · Synchronized 21 October 2026*
+
+The live Google Doc governs the current novella. The complete manuscript, partial-act compilations, and twelve chapter files below mirror its prose; the illustrated edition remains in Google Docs. The word count uses whitespace-separated chapter and act text, including headings, and excludes the cover and repository front matter. Recent reductions in Chapters Seven–Ten are intentional editorial cuts.
+
+- [Current novella blueprint](docs/NOVELLA_BLUEPRINT.md)
+- [Project handoff and outstanding work](handoff/PREFIX.md)
+- [Current novella overview](docs/ONEPAGER.md)
+
+A complete draft is not a claim of publication readiness or universal canon verification. Earlier production notes are retained in [the archive](docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md).
 
 This repository contains the complete novella manuscript, canonical assets, and production pipeline for **The Thulans** and the proposed colony-simulation game **Thulans: Deephearth**. These are related projects, not interchangeable narrative continuities.
 
