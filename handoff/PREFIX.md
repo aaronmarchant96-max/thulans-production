@@ -1,6 +1,6 @@
 # Thulans project handoff
 
-Updated 24 October 2026. Scope: political-economy reference reconciliation, rebellion-series direction, proposed six-year chronology model, and literary lore authority.
+Updated 24 October 2026. Scope: approved Chapter One prose synchronization, political-economy reference reconciliation, and rebellion-series planning.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Authoritative artifacts
@@ -14,6 +14,40 @@ The production and synchronization notes below retain their explicitly dated his
 - Political-economy reference: `docs/THULAN_POLITICAL_ECONOMY.md` (current Gantry mechanism; unresolved rules labeled)
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
+
+## Chapter One synchronization — 24 October 2026
+
+The author approved a restrained Chapter One pass after reviewing writing block
+68142 and the recommendation to retain only a handful of sentence edits. The live
+Doc now has the exact lighter second paragraph, “tub” instead of “firkin” in
+Kaelen's instruction, and one joined action at the warm wall. The kindling
+calculation remains in its original position. All other live prose and the
+twelve inline illustrations were preserved and checked.
+
+Latest accepted live revision:
+`AHj4eMQx2Yw9HBwij8xAzH2E8FgjLpR0r-82d2EX5zWFETKvDHc5sXqDR7vC5X1WqVlHmftROC7WXZgZbOaUpfbrJVlz6eyZJLzlgFdwSjE`.
+
+The repository's Chapter One was older than the live source and still contained
+earlier superseded wording. This synchronization therefore reconciles the full
+accepted Chapter One in `novella/chapter_01.md` and the corresponding omnibus
+section, incorporating the previously approved Chapter One corrections as well
+as the latest three edits. The two Chapter One texts match the live source
+paragraph by paragraph. No material from the larger forty-edit trial was imported.
+
+Chapters Two–Twelve in the repository remain their 21 October snapshot. They were
+not synchronized, and the omnibus tail from Chapter Two onward is unchanged.
+The live Doc and editorial log remain authoritative for those later edits.
+
+Measured repository counts: Chapter One 1,028 words; all chapter and act text
+22,424 words. Markdown heading markers, separators, cover and repository front
+matter are excluded. README counts and agent state now describe this mixed
+snapshot accurately. No new live-Doc total, final print layout, engineering
+validation or whole-book synchronization is claimed.
+
+The editorial log records the three live edits as APPLIED / VERIFIED. The separate
+Chapters One–Four reading trial is retained for comparison only; its remaining
+changes and the proposed Varek recovery-arc plan are unapplied. Continue with
+whole-scene reading and demonstrated friction, without a cut quota.
 
 ## Current literary direction — 24 October 2026
 
@@ -87,8 +121,9 @@ monument are completed-story events, not a new future plan. Currency conversions
 manifest criteria and the detailed tier map remain open.
 
 This is a reference-document update, not a prose revision or whole-corpus audit.
-The manuscript remains paused and unchanged. The separately prepared Chapters
-One–Four readability trial remains PROPOSED and has not replaced the original.
+At that reference-update checkpoint the manuscript remained paused and unchanged.
+The later three-edit Chapter One pass is recorded above. The separately prepared
+Chapters One–Four readability trial remains PROPOSED and has not replaced the original.
 
 ## Age reconciliation — 23 October 2026
 

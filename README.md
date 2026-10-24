@@ -1,7 +1,7 @@
 # The Thulans: Production Pipeline & Literary Canon
 
 ![Novella Status](https://img.shields.io/badge/novella-Acts%20I--IV%20Complete-brightgreen)
-![Word Count](https://img.shields.io/badge/word_count-22%2C577%20words-blue)
+![Word Count](https://img.shields.io/badge/word_count-22%2C424%20words-blue)
 ![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
 ![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--031%20Locked-orange)
 ![Audio Master](https://img.shields.io/badge/audio-Take%207%20Cinematic%20Master%20(03%3A33)-blueviolet)
@@ -18,7 +18,7 @@
 
 ## 📖 The Novella: *The Weight of a Lie*
 
-The complete twelve-chapter novella is available as a revised reading draft. The live illustrated Google Doc is authoritative; the repository text files retain the 21 October synchronization snapshot. Later live-Doc revisions, including the Chapter Twelve rebellion seed, are documented in the [handoff](handoff/PREFIX.md) and have not been automatically copied into those mirrors:
+The complete twelve-chapter novella is available as a revised reading draft. The live illustrated Google Doc is authoritative. Chapter One in both repository manuscript files was synchronized with the accepted live text on 24 October, including its three restrained readability edits. Chapters Two–Twelve retain the 21 October snapshot; their later live revisions, including the Chapter Twelve rebellion seed, remain documented in the [handoff](handoff/PREFIX.md):
 
 * 📖 **[Read the Authoritative Illustrated Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)**  
 * 📚 **[Read the Full Omnibus Manuscript (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
@@ -45,7 +45,7 @@ The author-approved continuation follows how working communities at higher level
 
 | Chapter | Title | Scope & Hinge | Words |
 | :--- | :--- | :--- | :---: |
-| **Ch. 01** | [**The Flange & The Pine Sprig**](novella/chapter_01.md) | Bram and Kaelen salvage coupling bolts; Wulfila's hidden brass chit is recovered | 1,181 |
+| **Ch. 01** | [**The Flange & The Pine Sprig**](novella/chapter_01.md) | Bram and Kaelen salvage coupling bolts; Wulfila's hidden brass chit is recovered | 1,028 |
 | **Ch. 02** | [**The Nursery in Lower Four**](novella/chapter_02.md) | Sanna takes responsibility for the pump repair; Odo reduces the household allowance | 1,287 |
 | **Ch. 03** | [**The Memory of the Leap**](novella/chapter_03.md) | Bram retrieves the survey slate from Wulfila's locker; the surrender is remembered | 1,692 |
 | **Ch. 04** | [**The Acoustic Trace**](novella/chapter_04.md) | Varek breaks his post after the seismic rupture; his breach sends water toward Lower Four | 1,949 |
@@ -57,9 +57,9 @@ The author-approved continuation follows how working communities at higher level
 | **Ch. 10** | [**Bring the Wrenches**](novella/chapter_10.md) | The crew removes the rescue pump and opens the frame with Varek's consent | 2,373 |
 | **Ch. 11** | [**Skin Against Skin**](novella/chapter_11.md) | Varek is lifted free, carried through the wash passage, and dies holding Sanna's hand | 1,965 |
 | **Ch. 12** | [**Our Iron Anyway**](novella/chapter_12.md) | Bram preserves the evidence; the state claims Varek's memory; the pump remains in use | 1,986 |
-| **TOTAL** | **Acts I–IV Complete** | **Chapter and act text** | **22,577** |
+| **TOTAL** | **Acts I–IV Complete** | **Chapter and act text** | **22,424** |
 
-These are counts of the 21 October repository snapshot, not a fresh count of the live Google Doc. Chapter counts include chapter headings. The total also includes the four act headings; cover and repository front matter are excluded. Counts use whitespace-separated words.
+These counts describe the current repository text: Chapter One is synchronized as of 24 October; Chapters Two–Twelve retain the 21 October snapshot. They are not a fresh total for the live Google Doc. Chapter counts include chapter headings. The total also includes the four act headings; cover and repository front matter are excluded. Markdown heading markers and separator lines are excluded; words are whitespace-separated.
 
 ---
 
