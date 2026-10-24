@@ -1,6 +1,6 @@
 # Thulans project handoff
 
-Updated 24 October 2026. Scope: author-approved rebellion-series direction, Chapter Twelve seed, and literary lore authority reconciliation.
+Updated 24 October 2026. Scope: rebellion-series direction, proposed six-year chronology model, Chapter Twelve seed, and literary lore authority reconciliation.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Authoritative artifacts
@@ -45,6 +45,26 @@ The proposed Varek recovery-arc dialogue plan remains unapplied. The current edi
 pass is Chapter Five; this separately approved Chapter Twelve seed does not authorize
 a general ending rewrite. No manuscript, cover, chapter plate, engineering model,
 music, game, or REI code was changed in this documentation commit.
+
+## Chronology working model — 24 October 2026
+
+Recorded `docs/REBELLION_CHRONOLOGY_WORKING_MODEL.md` and linked it from the series
+direction. The model preserves the established six-year gap and proposes a costly
+managed retreat, continued ark preparation, and a first ark approaching readiness
+at the dedication. Departure preparations would create the next immediate clock;
+the geological threat explains why escape matters. These are distinct from the
+first novella's feeder-closure and ram deadlines.
+
+Theodemir remaining head of Continuity and transferring maintenance crews from
+occupied districts to final ark preparations are proposed sequel choices, not
+newly locked events. Before drafting, prepare a compact six-year chronology,
+surviving-district dependency map, ark readiness record, and character/evidence
+chronology. Compare explicit manuscript threat statements before adopting the
+model; geological coherence has not yet been verified.
+
+Only this handoff, the series direction, and the new working-model document are
+changed in this documentation update. No manuscript, prose mirror, illustration,
+ruling, engineering model, or REI implementation is changed.
 
 ## Age reconciliation — 23 October 2026
 

@@ -81,6 +81,8 @@ The separate proposed Varek recovery-arc edit plan concerns the first novella's 
 
 ## Chronology and geography decisions still open
 
+The [chronology working model](REBELLION_CHRONOLOGY_WORKING_MODEL.md) records the proposed bridge: a costly managed retreat during the six-year interval, a first ark approaching readiness at the dedication, and departure preparations creating the sequel's immediate pressure. It also proposes Theodemir's continued tenure and a maintenance-crew transfer as a possible conflict. These are development proposals; precise dates, geography, engineering assumptions, and sequel events remain unapproved.
+
 1. The monument and Bram's new invitation occur six years after Varek's death. Decide whether the next novella begins there, develops resistance during the intervening years, or uses another explicitly dated structure.
 2. Do not move the monument, death, or existing family chronology to make an outline easier.
 3. Establish how the magma threat, ark construction, reserve allocations, and remaining habitable infrastructure relate to that interval before introducing a precise new deadline. No fixed launch date or six-year eruption countdown has been approved.
