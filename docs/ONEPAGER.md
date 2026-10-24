@@ -1,9 +1,9 @@
 # THE THULANS — THE WEIGHT OF A LIE
-*A novella by Aaron Marchant. Current reading-draft overview, 21 October 2026.*
+*A novella by Aaron Marchant. Overview updated for the Chapter Twelve rebellion seed and continuation direction, 24 October 2026.*
 
 [Read the illustrated draft](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) · [Repository text mirror](../novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)
 
-Twelve chapters across four acts; approximately 22,600 words.
+Twelve chapters across four acts. The 21 October repository snapshot is approximately 22,600 words; later live-draft changes are not recounted here.
 
 ## The story
 
@@ -25,12 +25,18 @@ The dismantling distinguishes maintenance of useful equipment from care for a pe
 
 Bram circulates the verified evidence and corrects accusations that go beyond it. A junior surveyor leaves the working nursery pump outside the salvage account.
 
-Six years later, the state casts Varek as a monument to obedient surrender. Below, his pump still works through replacement leather, repaired fittings, and changing hands. Sanna tells her son whose iron it was.
+Six years later, the state casts a separate bronze monument to Varek as a symbol of obedient surrender. At its dedication, a foundry worker asks Bram for a copy of the order for his shift. Bram invites him to Lower Four after the bell to read it together. Below, his pump still works through replacement leather, repaired fittings, and changing hands. Sanna tells her son whose iron it was.
 
-The novella ends in that contest over memory and ownership. The broader project’s earlier collapse narrative is not the sequence dramatized in this reading draft.
+The novella ends in that contest over memory and ownership, with the final line unchanged: “No. It was our iron anyway.” The broader project’s earlier collapse narrative is not the sequence dramatized in this reading draft.
+
+## Planned continuation
+
+The author-approved direction follows a rebellion rising through working communities toward the Spire, with each novella exploring a distinct community's choices and dependencies. The state's appropriation of an old Thulan's legacy deepens the existing material grievance. The culture remains alive in ordinary work and care. Varek remains dead; the bronze statue, empty iron frame, and maintained pump are distinct.
+
+Volume count, titles, numbered geography, exact order, sequel chronology, and the final political outcome remain open. [Read the documented series direction](REBELLION_SAGA_DIRECTION.md).
 
 ## Presentation
 
-The illustrated edition pairs an archival monochrome cover with restrained color at the human hand’s contact. Four approved chapter plates use hand-hatched industrial objects. The repository provides editable text mirrors; the live Google Doc remains authoritative.
+The illustrated edition pairs an archival monochrome cover with restrained color at the human hand’s contact. The live Doc was checked with twelve inline images on 24 October, including the cover; Chapter Eleven intentionally omits a chapter plate. The repository text mirrors retain their 21 October snapshot; the live Google Doc remains authoritative.
 
 The engineering, cinematic, game, and broader lore materials in this repository have separate scopes. Their planning history should not be mistaken for additional events in this novella.

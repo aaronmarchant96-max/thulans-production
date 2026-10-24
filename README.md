@@ -18,7 +18,7 @@
 
 ## 📖 The Novella: *The Weight of a Lie*
 
-The complete twelve-chapter novella is available as a revised reading draft. The live illustrated Google Doc is authoritative; the repository files mirror its text:
+The complete twelve-chapter novella is available as a revised reading draft. The live illustrated Google Doc is authoritative; the repository text files retain the 21 October synchronization snapshot. Later live-Doc revisions, including the Chapter Twelve rebellion seed, are documented in the [handoff](handoff/PREFIX.md) and have not been automatically copied into those mirrors:
 
 * 📖 **[Read the Authoritative Illustrated Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)**  
 * 📚 **[Read the Full Omnibus Manuscript (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
@@ -29,6 +29,15 @@ The complete twelve-chapter novella is available as a revised reading draft. The
 In the mountain city of Fairguni, water is rationed by blood. Forty days after nineteen-year-old Wulfila surrenders his life for his family's water allowance, his younger brother Bram finds Wulfila's brass chit hidden in a rail coupling. Guided by Wulfila's instructions, Bram and the drift smith Kaelen retrieve a survey slate from his locker: **the North Cistern was full two days before Wulfila died.**
 
 Varek, an old man inside a three-tonne rescue machine, leaves his state post to protect the workers opening the water feeder. He goes to the official who can recall the approaching ram crews, expecting the evidence to compel a correction. The official already knows. Varek returns to Lower Four, where the workers remove his rescue pump for hand operation and care for the injured man inside the frame.
+
+---
+
+## Planned rebellion novellas
+
+The author-approved continuation follows how working communities at higher levels handle and transform a rebellion originating below, reaching the Spire for the final climax. The state's false monument appropriates Varek's defiance; Bram's invitation to read the preserved order together supplies a small organizational seed. Each novella should stand on its own. Exact volume count, titles, floor map, next-book chronology, and ultimate outcome remain open.
+
+- [Series direction and open decisions](docs/REBELLION_SAGA_DIRECTION.md)
+- [RULING 034: memory, inheritance, and the ascent](RULINGS.md#ruling-034-rebellion)
 
 ---
 
@@ -50,7 +59,7 @@ Varek, an old man inside a three-tonne rescue machine, leaves his state post to 
 | **Ch. 12** | [**Our Iron Anyway**](novella/chapter_12.md) | Bram preserves the evidence; the state claims Varek's memory; the pump remains in use | 1,986 |
 | **TOTAL** | **Acts I–IV Complete** | **Chapter and act text** | **22,577** |
 
-Chapter counts include chapter headings. The total also includes the four act headings; cover and repository front matter are excluded. Counts use whitespace-separated words.
+These are counts of the 21 October repository snapshot, not a fresh count of the live Google Doc. Chapter counts include chapter headings. The total also includes the four act headings; cover and repository front matter are excluded. Counts use whitespace-separated words.
 
 ---
 
@@ -117,7 +126,7 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 │   └── THULAN_VIOLENCE_DOCTRINE.md
 ├── handoff/                     # Agentic resumption context (PREFIX.md)
 ├── HANDOFF.md                   # Comprehensive audio-visual checksums and delivery logs
-└── RULINGS.md                   # Controlling canonical register (RULINGS 001–031)
+└── RULINGS.md                   # Controlling register; RULING 034 covers the continuation
 ```
 
 ---

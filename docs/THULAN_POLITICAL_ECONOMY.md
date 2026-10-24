@@ -42,7 +42,9 @@ On Tiers Two and Three, merchant cartels trade the extraction scrip on paper. Wh
 
 ---
 
-### Tier Strata
+### Tier Strata — Older Numbered Planning Map
+
+**Current literary planning note (24 October 2026):** The social functions below remain useful background, but these numbered bands are not a reconciled map for the written novella or its continuation: Theodemir's office is on Tier Nine in the accepted story. “Lower Four” is not automatically Tier Four. Use the functional communities in [Rebellion Novellas — Series Direction](REBELLION_SAGA_DIRECTION.md) until the author approves a unified geography. Do not renumber existing prose to match this table.
 
 * **Tiers 1–2 (The Upper Spire):** Administrative offices, registry archives, merchant banking houses. Filtered air, electric lamps, subsidized bread made from clean grain. The people living here manage files and ledger entries; they rarely see unworked rock or breathe sulfur damp.
 * **Tiers 3–4 (Foundries and Heavy Works):** Blast furnaces, rolling mills, machine shops. Extreme heat, deafening noise, iron dust. The work is dangerous, but the mechanics and smiths have trade guilds that protect them from the worst abuses.
@@ -85,3 +87,13 @@ He does not respect private debt. When he cracks Bulkhead 44 with his maul to ve
 He represents an older, simpler rule that threatens both sides: that a machine belongs to the hands that use it, and that no man should be asked to die for an equation he isn't allowed to read.
 
 This is why, after his death, the Ministry cannot admit what happened. If the lower drifts learned that an ancient Thulan tore himself apart to give his iron to miners with pipe wrenches, the authority of the quotas would break. By casting him in bronze and turning him into a symbol of obedient self-sacrifice, the Council takes the man who defied them and uses his memory to enforce the very system he rejected.
+
+---
+
+### Literary continuation: labor, culture, and shared life support
+
+[RULING 034](../RULINGS.md#ruling-034-rebellion) approves a rebellion rising through working communities toward the Spire. The state and merchant houses have different interests, and each community has its own protections, dependencies, and reasons to hesitate. Their conflicts must include who maintains essential water, air, drainage, food, and transport while particular production or official cooperation is withheld.
+
+The separate bronze monument appropriates Varek's defiance as obedience; his empty iron frame and the workers' maintained rescue pump remain distinct. The insult connects to real material grievances through accurate copies, shift relationships, and the surviving culture of the Hearths. It does not automatically collapse legitimacy or settle who governs next.
+
+The detailed mechanisms and wider population wording in this older briefing are not all reconciled against current prose. In particular, references to infrastructure serving forty million describe older scale language; they do not revise the present population of 4.2 million in RULING 030. No full economic, mechanical, or demographic reconciliation is claimed by this update.

@@ -226,6 +226,7 @@
 
 ## RULING 013: Primary Story Spine & The Consent Principle
 * **Status:** LOCKED (v3.1 narrative spine)
+* **Literary scope amendment (24 October 2026):** RULING 034 controls the current novella and its ascending rebellion continuation. The earlier living-Varek/public-collapse sequence below is planning history for that literary chronology, not an event to restore into the written book.
 * **Scope:** Story climax, antagonist architecture, moral engine
 * **Governing document:** `docs/THE_THULANS_LORE_BIBLE_v3.md`
 * **Primary Climax:** Varek exposes that the Mountain is physically exhausted and that
@@ -757,6 +758,7 @@ without altering the canonical lyrical/narrative spine unless explicitly re-rule
 ## RULING 031: The Varek-Machine, Institutional Inheritance & The Residual Pattern
 * **Status:** LOCKED (2026-09-11, Aaron)
 * **Scope:** Narrative Canon, Epilogue, Character Fate, Machine Psychology, Thematic Core.
+* **Literary scope amendment (24 October 2026):** RULING 034 retains Varek's absolute death. The separate bronze monument, workshop frame, and nursery pump govern the written epilogue; the extended residual-lattice and decades-later material below is not automatically part of the new literary continuation.
 * **Part 1 — The Hard Boundary: Absolute Human Death:**
   1. **Varek dies as an ordinary human being.** His death during the dismantling in Lower Hearth Four remains absolute and final. When his flesh hand closes around Sanna's hand, it never opens again.
   2. **No Digital Soul Transfer:** There is no uploaded consciousness, digital brain preservation, supernatural haunting, neural phantom, or miraculous later resurrection. The Varek-machine is **not Varek resurrected by AI**.
@@ -848,3 +850,21 @@ Relentless misery is bad storytelling and commercially dead. The novella must ha
 1. **Working-Class Gallows Humor:** Men making morbid bets on failing timbers; mocking Council edicts; practical banter over rigged plumbing.
 2. **Moments of Pure Human Warmth ("Hope + Cost = Meaning"):** Small domestic victories—a bruised sprig of sun-pine pinned to an apron; wiping grease back into a firkin to buy medicine; holding a bare hand in the dark. Men fight because of who waits by the stove.
 3. **Sudden Mechanical Catastrophe:** Don't foreshadow danger perpetually—detonate it. A hydraulic union cracks; a cap-timber blows like a grenade; a cable snaps; teeth bind. Violence is sudden, physical, and governed by industrial load physics.
+
+---
+
+<a id="ruling-034-rebellion"></a>
+
+## RULING 034: The Rebellion Novellas — Memory, Inheritance & the Ascent
+* **Status:** AUTHOR-APPROVED DIRECTION (24 October 2026); detailed sequel architecture remains provisional.
+* **Scope:** The current twelve-chapter literary novella and its planned literary continuation. Does not revise separately scoped engineering, cinematic, music, or game works.
+* **Governing direction:** [Rebellion Novellas — Series Direction](docs/REBELLION_SAGA_DIRECTION.md).
+* **The ascent:** Successive novellas explore how working communities at higher levels handle and transform a rebellion originating below, reaching the Spire for the final climax. Each novella needs its own people, material problem, consequential choice, and local resolution. A numbered floor does not automatically require its own book.
+* **The cultural injury:** The state casts a separate bronze monument to make Varek's defiance into obedient surrender. Workers recognize the appropriation of an old Thulan ethic as well as the material theft. Culture continues through the living Hearths; Varek is not declared the only remaining Thulan or sole bearer of culture.
+* **Three distinct legacies:** The new bronze statue, the recovered/refitted empty iron frame, and the working nursery rescue pump are separate objects. Varek remains dead. Mechanical reuse does not establish consciousness, resurrection, or a second Varek.
+* **Written seed:** The Chapter Twelve dedication occurs six years after his death. A foundry worker asks Bram for a copy of the order for his shift; Bram invites him to Lower Four after the bell to read it together. The exact closing line remains “No. It was our iron anyway.”
+* **Evidence and agency:** Bram's accurate copies, Sanna's practical care, and workers' relationships can carry consequences between books. Truth does not produce instantaneous consensus. No character's sequel leadership, faction, or survival is assigned by this ruling.
+* **The shared vessel:** Water, air, drainage, food, transport, heat, and maintenance sustain people throughout the Mountain. Organized resistance must confront the human consequences of disruption. Indiscriminate life-support sabotage and a sequence of uniformly evil upper floors are not approved plot requirements.
+* **Chronology and geography:** Preserve the existing six-year epilogue. The next novella's start date and the relation between magma, construction, and evacuation remain open. Older numbered strata conflict with the office on Tier Nine; social bands are development scaffolds, not a newly locked map.
+* **Open decisions:** Exact volume count, titles, band order, protagonists, tactics, launch deadline, and final political or civilizational outcome remain unapproved.
+* **Authority reconciliation:** For this literary sequence, the accepted live novella and this ruling supersede older plans in RULING 013 and Lore Bible §§12–14 insofar as those require Varek to survive a public, immediate civil collapse before returning to Lower Four. RULING 031's absolute human death remains binding; its additional residual-machine and decades-later scenarios are not automatically events in this continuation. Other media retain their separate scope. No clean or easy political resolution is promised; no exact macro finale is newly locked here.

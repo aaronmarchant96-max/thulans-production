@@ -1,16 +1,50 @@
 # Thulans project handoff
 
-Updated 23 October 2026. Scope: Bram's age reconciliation against the accepted novella.
-The production and synchronization notes below retain their 21 October snapshot scope.
+Updated 24 October 2026. Scope: author-approved rebellion-series direction, Chapter Twelve seed, and literary lore authority reconciliation.
+The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Authoritative artifacts
 
 - Live illustrated reading draft: https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY
 - Text mirror: `novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`
 - Chapter mirrors: `novella/chapter_01.md` through `chapter_12.md`
-- Written-story outline: `docs/NOVELLA_BLUEPRINT.md` version 2
+- Written-story outline: `docs/NOVELLA_BLUEPRINT.md` version 3
 - Current overview: `docs/ONEPAGER.md`
+- Literary continuation: `docs/REBELLION_SAGA_DIRECTION.md` and RULING 034
+- Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
+
+## Current literary direction — 24 October 2026
+
+The author approved successive rebellion novellas following how working communities at
+higher levels handle and transform resistance from below, reaching the Spire for the
+final climax. Exact count, titles, numbered geography, detailed order, next-book date,
+and final macro outcome remain open. The older numbered strata conflict with the
+written office on Tier Nine; do not turn “Lower Four” into Tier Four or renumber prose.
+
+In the live Chapter Twelve dedication, six years after Varek's death, a foundry worker
+asks Bram for a copy of the order for his shift. Bram invites him to Lower Four after
+the bell to read it together. This exact candidate (67138) was author-approved,
+applied, and verified in the live Doc. The final line, “No. It was our iron anyway,”
+remains unchanged. The statue is a separate bronze casting; the refitted iron frame
+is empty; the working nursery pump is a third object. Varek remains dead.
+
+Live source checked on 24 October:
+`AHj4eMRgG5ONwara6YlP5CmNzMaPAD1rdBRvEUdR2atGWqUFYVFA7ltOeLhL3DtY5whPhPW2Dx_N1FuRj6k5oRthzi9I0VA88vlzum5nals`.
+Twelve chapter headings and twelve inline images were observed; Chapter Eleven
+intentionally has no chapter plate. The repository's 21 October prose mirrors and
+word-count tables were not synchronized by this update. Do not restore them over
+the newer live draft or treat their counts as a current measurement.
+
+RULING 034 and the series-direction document separate the current literary chronology
+from older plans that kept Varek alive during an immediate public collapse. The old
+sequences remain scoped planning history, not automatic sequel events. The final
+rebellion outcome and a fresh eruption/launch timetable have not been selected.
+
+The proposed Varek recovery-arc dialogue plan remains unapplied. The current editorial
+pass is Chapter Five; this separately approved Chapter Twelve seed does not authorize
+a general ending rewrite. No manuscript, cover, chapter plate, engineering model,
+music, game, or REI code was changed in this documentation commit.
 
 ## Age reconciliation — 23 October 2026
 

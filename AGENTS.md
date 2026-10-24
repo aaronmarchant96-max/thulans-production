@@ -24,7 +24,7 @@ For Varek's hand/tool interface, inspect `docs/HAND_PHYSICS_GATE.md` and `docs/V
 
 ## 2. Narrative & Lore Authority Protocol
 
-For the current twelve-chapter novella, the [live Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) is authoritative. `novella/THE_THULANS_MANUSCRIPT_COMPLETE.md` and `novella/chapter_01.md` through `chapter_12.md` are synchronized text mirrors. The current `docs/NOVELLA_BLUEPRINT.md` describes the written novella. Broader literary, cinematic, and game documents below retain their own scope; do not import an incompatible scene or timeline into the novella.
+For the current twelve-chapter novella, the [live Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) is authoritative. `novella/THE_THULANS_MANUSCRIPT_COMPLETE.md` and `novella/chapter_01.md` through `chapter_12.md` retain the 21 October text snapshot; consult `handoff/PREFIX.md` for later live edits. Do not overwrite the live draft with a stale mirror. The current `docs/NOVELLA_BLUEPRINT.md` describes the written novella. For the approved literary continuation, read `docs/REBELLION_SAGA_DIRECTION.md` and RULING 034: the rebellion rises through working communities toward the Spire; book count, detailed geography, sequel dates, and the final outcome remain open. The new bronze monument, reused empty frame, and working nursery pump are distinct. Varek remains dead. Broader literary, cinematic, and game documents below retain their own scope; do not import an incompatible scene or timeline into the novella.
 
 For all story, script, character motivation, dialogue, and cinematic beats, consult:
 - `docs/THE_DISMANTLING_OF_VAREK.md`: **Canonical Literary Foundation & Master Living Story.**
@@ -58,7 +58,7 @@ When the author opens OpenCode to write or edit the novel, the agent is immediat
 - **Active Work**: *The Thulans: The Weight of a Lie (or The Dismantling of Varek)*.
 - **Narrative Architecture**: Twelve chapters across four acts; 22,577 words of chapter and act text in the 21 October 2026 synchronization. The former ~40,000-word target is historical, not a missing-text requirement.
 - **Current Manuscript State**:
-  - All twelve chapters are complete in the live Google Doc and mirrored under `novella/`.
+  - All twelve chapters are complete in the live Google Doc. The `novella/` mirrors retain their 21 October snapshot; later updates, including the separately approved Chapter Twelve rebellion seed, are recorded in `handoff/PREFIX.md`.
   - Character and rhythm revisions are incorporated. Do not restore older passages merely to match an earlier count.
   - Remaining editorial questions: Chapter Six threat dialogue, geological timescale across the six-year epilogue, and selective rhythmic variation. These are review items, not authorization to invent lore or require a quota of new interior passages.
 - **The CARDO Method (`docs/CARDO_STORY_METHOD.md`)**:

@@ -14,6 +14,8 @@ Structure), 029 (The Unified Spine), 030 (Demographic Scale & Iron-True Geology)
 **Reconciliation note (2026-09-15):** This revision folds the later rulings back into the
 governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` controls.
 
+**Current literary scope — 24 October 2026:** The [live novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) governs written events. [RULING 034](../RULINGS.md#ruling-034-rebellion) and [the series direction](REBELLION_SAGA_DIRECTION.md) govern the newly approved ascending rebellion premise. Earlier living-Varek/civil-collapse and residual-machine sequences below are preserved as scoped planning history, not events to import into the accepted novella or automatic sequel canon. Exact sequel chronology, map, count, and macro outcome remain open.
+
 ---
 
 ## 0. Naming & Linguistic Standard (Governing)
@@ -1033,7 +1035,9 @@ self-consumption ladder to make the final sacrifice believable.
 
 ---
 
-## 12. Varek's Grimdark Arc After the Revelation
+## 12. Earlier Broader-Arc Proposal — Historical Literary Chronology
+
+**Scope clarification (RULING 034):** The sequence below originally kept Varek alive after a public collapse. It does not describe the accepted twelve-chapter novella or prescribe the new rebellion sequence. Preserve its concern with consequences; do not restore these events into the manuscript.
 
 Varek's question changes.
 
@@ -1068,7 +1072,9 @@ And stay anyway.
 
 ---
 
-## 13. The Grimdark End State
+## 13. End-State Principles and the Written Novella
+
+**Scope clarification (RULING 034):** The older catastrophic macro-outcome statements below are planning history, not a newly approved finale for the rebellion novellas. The written ending remains the six-year domestic scene and Sanna's answer. Varek dies before the wider rebellion; the people he leaves behind carry its unresolved consequences.
 
 There is no restoration of the old order.
 
@@ -1132,7 +1138,45 @@ The state may fail. Human responsibility does not.
 
 ---
 
-## 14. Primary Story Spine — Locked Direction
+## 14. Written Story Spine and the Ascending Continuation
+
+### A. Current twelve-chapter novella
+
+Wulfila accepts the promised family water exemption → Bram recovers the chit and then
+the sounding slate → the family opens a clean draw-off with Varek's help → the state
+sends enforcement and ram crews → Varek brings proof expecting correction →
+Theodemir confirms it and maintains the order → Varek refuses revenge and returns →
+the workers remove his rescue pump and care for his injured body → Varek dies →
+Bram has the evidence read, copied, and corrected → six years later the state dedicates
+a false bronze monument → a foundry worker asks for a copy for his shift and Bram
+invites a collective reading → the empty frame is separately reused → the maintained
+pump and Sanna's final answer preserve the Hearths' account.
+
+The statue is a new bronze casting; it is not the recovered iron frame. The nursery
+pump is a third object. The state's appropriation of Thulan protective duty, workmanship,
+and fellowship provides a cultural wound alongside stolen water and exclusion from
+escape. Culture survives in the living Hearths; Varek is not declared its last member.
+
+### B. Approved continuation direction; detailed architecture open
+
+The rebellion rises through working communities toward the Spire. Each novella follows
+a community's distinct need, choice, and response; each response changes what travels
+upward. Labor leverage, administrative complicity, truthful records, and shared life
+support provide different forms of conflict. A floor is not a guarantee of a separate
+book or a more evil antagonist.
+
+See [Rebellion Novellas — Series Direction](REBELLION_SAGA_DIRECTION.md) and
+[RULING 034](../RULINGS.md#ruling-034-rebellion).
+Count, titles, detailed order, protagonists, next-book date, numbered geography, and
+ultimate macro outcome remain unsettled. Preserve the first book's six-year epilogue
+and exact final line. Varek remains dead.
+
+### C. Earlier broader-arc sequence — retained planning history
+
+The following older sequence is not the current novella chronology and is not a
+preapproved sequel outline. In particular, it cannot keep Varek alive to experience
+the later rebellion or require evidence publication to collapse the state immediately.
+
 
 ```text
 Varek returns

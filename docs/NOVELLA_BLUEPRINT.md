@@ -1,11 +1,11 @@
 # THE THULANS: CURRENT NOVELLA BLUEPRINT
-*Version 2 — reconciled to the written reading draft on 21 October 2026.*
+*Version 3 — Chapter Twelve rebellion seed and continuation scope updated on 24 October 2026; the underlying full-outline reconciliation remains the 21 October snapshot.*
 
 ## Authority and scope
 
-The [live Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) governs the current twelve-chapter novella. Repository chapter files and complete/partial compilations mirror its text. This blueprint describes that book; older outlines and broader literary, cinematic, or game arcs do not override it.
+The [live Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) governs the current twelve-chapter novella. Repository chapter files and complete/partial compilations are the 21 October text snapshot; later live-Doc edits are not automatically synchronized. See [the handoff](../handoff/PREFIX.md) for current scope. This blueprint describes that book; older outlines and broader literary, cinematic, or game arcs do not override it.
 
-The current chapter and act text contains **22,577 whitespace-separated words**, including headings and excluding cover/front matter. The former ~40,000-word target is historical. The reductions in Chapters Seven–Ten are intentional revisions.
+The 21 October repository snapshot contains **22,577 whitespace-separated words** of chapter and act text, including headings and excluding cover/front matter. This is not a fresh word count of the later live draft. The former ~40,000-word target is historical. The reductions in Chapters Seven–Ten are intentional revisions.
 
 Scarcity is real; the claim that a death produces resources is fraudulent. Varek brings proof expecting correction, receives confirmation, and returns to help the people below. The novella ends with a struggle over care, ownership, and memory; it does not dramatize a mountain-wide collapse caused by publication of the evidence.
 
@@ -75,7 +75,7 @@ Sanna touches the helmet, then the man’s hand. The crew lifts his injured body
 
 **CHAPTER TWELVE: Our Iron Anyway**
 
-The line crew closes the draw-off and charges collapse the haulage throat. Bram has Tomas read and copy the signed evidence; he later corrects false embellishments. Malakor records no recoverable nursery assets while recovering the empty frame separately. Six years later the state claims Varek through a monument and a mechanically refitted shell. The working pump and Sanna’s answer preserve a different account.
+The line crew closes the draw-off and charges collapse the haulage throat. Bram has Tomas read and copy the signed evidence; he later corrects false embellishments. Malakor records no recoverable nursery assets while recovering the empty frame separately. Six years later the state claims Varek through a newly cast bronze monument and a separately refitted empty iron shell. At the dedication, a foundry worker asks Bram for a copy of the order for his shift; Bram invites him to Lower Four after the bell to read it together. The workshop, ticket/rod obstruction, shared bread, working pump, and Sanna’s final answer remain. This approved small act of organization opens toward the planned rebellion.
 
 ## Continuity that controls revision
 
@@ -89,10 +89,16 @@ The line crew closes the draw-off and charges collapse the haulage throat. Bram 
 - Varek’s death is final. The later workshop frame is an empty mechanism, not a revived or surviving consciousness.
 - ORA ET LABORA is on an inner plate behind the chest guard; FORTIS ET LIBER is on the maul collar. Latin survives as archaic stamped language.
 - Bram’s apron belongs to Sanna. The slate was hidden by Wulfila and retrieved in Chapter Three; it was not purchased from a clerk.
-- Preserve the approved cover and the four existing chapter plates. Reading manuscripts contain fiction, not appended production notes.
+- Preserve the approved cover and existing chapter plates. The live Doc was checked with twelve inline images on 24 October; Chapter Eleven intentionally has no chapter plate. This documentation update does not synchronize image assets. Reading manuscripts contain fiction, not appended production notes.
 
 ## Editorial status
 
 The character and rhythm passes are incorporated. Remaining review questions are the register of Chapter Six’s threat dialogue, sufficient orientation to the geological timescale across the six-year jump, and selective variation in repeated short exchanges. These are editorial questions, not established continuity failures.
 
 Check physical causality, distinct character voices, human consequences, and whether the reader can understand the next choice. Do not enforce a fixed count of trade nouns, long sentences, or interior passages.
+
+## Continuation direction — author approved, 24 October 2026
+
+Successive novellas follow how working communities at higher levels respond to and transform a rebellion originating below, reaching the Spire for the final climax. The false monument's appropriation of Varek's cultural meaning connects to material grievances and Bram's collective-reading invitation. Each novella needs a self-contained human conflict; exact count, titles, band order, map, protagonists, timing, and ultimate outcome remain open. See [the series direction](REBELLION_SAGA_DIRECTION.md) and [RULING 034](../RULINGS.md#ruling-034-rebellion).
+
+The first book's ending, Varek's absolute death, and the six-year jump remain intact. The proposed Varek recovery-arc dialogue pass has not been applied by this documentation update. Broader old collapse sequences are not additional events in the written novella.
