@@ -710,11 +710,12 @@ without altering the canonical lyrical/narrative spine unless explicitly re-rule
 ## RULING 029: The Unified Spine — Wulfila, Haila, Bram, and Varek
 * **Status:** LOCKED (2026-09-11)
 * **Scope:** Main Narrative Spine, Character Integration, Dramatic Motivation
+* **Novella age clarification (2026-10-23, Aaron):** Bram is thirteen during the main action on 22 October and turns fourteen on 30 October. The epilogue occurs six years later. The former `Bram (14)` shorthand is superseded for the main action; the accepted novella governs this chronology.
 * **Ruling:**
   1. **The Single Family Core:** The story of Varek and the story of Wulfila are not separate historical events; they are the tragedy of a single family across forty days:
-     - **Wulfila (19):** Older brother of Sanna (18) and Bram (14). Forty days prior, Wulfila volunteered for the Life Tithe at Azg-Haíms because the state declared the district’s water exhausted. He sacrificed his life to earn a family ration voucher and keep young Bram out of the deep copper shifts.
+     - **Wulfila (19):** Older brother of Sanna (18) and Bram (13). Forty days prior, Wulfila volunteered for the Life Tithe at Azg-Haíms because the state declared the district’s water exhausted. He sacrificed his life to earn a family ration voucher and keep young Bram out of the deep copper shifts.
      - **Haila:** Wulfila’s betrothed, who braided the cord and gave him the iron hammer-ring on the tithe platform.
-     - **Bram (14):** Despite Wulfila's sacrifice, the Ministry drafted Bram into Shaft 44 anyway when the emergency copper quota was raised for Dreadnought Four.
+     - **Bram (13):** Despite Wulfila's sacrifice, the Ministry drafted Bram into Shaft 44 anyway when the emergency copper quota was raised for Dreadnought Four.
      - **Sanna (18):** Left to run the Lower Four nursery, caring for infants while trying to keep Bram alive after his leg is crushed in the collapse.
   2. **Varek’s Complicity and Awakening:**
      - Varek was the ceremonial iron guard stationed on the platform at Azg-Haíms when Wulfila jumped. The state used Varek's ancient armor as a holy relic to sanctify the death. Varek stood silent, believing the sacrifice was mathematically necessary for his people.

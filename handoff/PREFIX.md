@@ -1,6 +1,7 @@
 # Thulans project handoff
 
-Updated 21 October 2026. Scope: novella production cleanup and synchronization.
+Updated 23 October 2026. Scope: Bram's age reconciliation against the accepted novella.
+The production and synchronization notes below retain their 21 October snapshot scope.
 
 ## Authoritative artifacts
 
@@ -11,7 +12,16 @@ Updated 21 October 2026. Scope: novella production cleanup and synchronization.
 - Current overview: `docs/ONEPAGER.md`
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
-## Current state
+## Age reconciliation — 23 October 2026
+
+The author confirmed that the accepted story governs conflicting older lore. RULING 029
+and the Lore Bible now identify Bram as thirteen during the main action on 22 October,
+turning fourteen on 30 October; the epilogue is six years later. This corrects reference
+labels and does not change the manuscript, artwork, or broader adaptation events.
+Other older lore discrepancies require their own comparison with the accepted story.
+No prose-mirror or illustration synchronization was performed in this age-only update.
+
+## Current state (21 October synchronization snapshot)
 
 Twelve chapters and four acts are complete. Chapter/act text contains 22,577 words by whitespace count; cover and repository front matter are excluded. Five images remain in the live Doc: the approved cover and Chapters One–Four plates.
 

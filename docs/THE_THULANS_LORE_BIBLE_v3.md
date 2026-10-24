@@ -380,8 +380,12 @@ It reverse-engineered the kind of person who would willingly give it.
 ### F. Wulfila's Kin — Sanna (sister) and Haila (betrothed). The Living Throughlines
 
 RULING 029 fixes the family core: **Wulfila (19)** is the older brother of **Sanna (18)**
-and **Bram (14)**. **Haila** is Wulfila's betrothed — she braided the cord and tied the
+and **Bram (13)**. **Haila** is Wulfila's betrothed — she braided the cord and tied the
 iron hammer-ring to his neck on the tithe platform.
+
+For the current novella, Bram is thirteen during the main action on 22 October and
+turns fourteen on 30 October. The epilogue occurs six years later. Earlier `Bram (14)`
+labels do not establish his age during the main action (RULING 029 age clarification).
 
 - **Haila** carries the rite itself: the betrothal the state converted into a sacrifice.
   She works beside Sanna in the Lower Four nursery, refusing to let the family starve.
@@ -1253,7 +1257,7 @@ to this world. The first great catastrophe of The Thulans remains human:
   antagonist), and Provision/Faith (*Amalasuntha*). The Ministry of Faith is the public
   name of the Provision/Faith apparatus; the Ministry of Order is a non-voting
   enforcement directorate under Continuity, not a fourth chair. (See §11.)
-- **RULING 029 (The Unified Spine):** Wulfila (19), Sanna (18), Bram (14), and Haila
+- **RULING 029 (The Unified Spine):** Wulfila (19), Sanna (18), Bram (13), and Haila
   (betrothed) are one family across forty days. Varek watched Wulfila's rite as the
   state's ceremonial iron, and his descent to Lower Four is personal restitution. (See
   §4.E–F.)
