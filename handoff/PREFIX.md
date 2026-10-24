@@ -1,6 +1,6 @@
 # Thulans project handoff
 
-Updated 24 October 2026. Scope: rebellion-series direction, proposed six-year chronology model, Chapter Twelve seed, and literary lore authority reconciliation.
+Updated 24 October 2026. Scope: political-economy reference reconciliation, rebellion-series direction, proposed six-year chronology model, and literary lore authority.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Authoritative artifacts
@@ -11,6 +11,7 @@ The production and synchronization notes below retain their explicitly dated his
 - Written-story outline: `docs/NOVELLA_BLUEPRINT.md` version 3
 - Current overview: `docs/ONEPAGER.md`
 - Literary continuation: `docs/REBELLION_SAGA_DIRECTION.md` and RULING 034
+- Political-economy reference: `docs/THULAN_POLITICAL_ECONOMY.md` (current Gantry mechanism; unresolved rules labeled)
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
@@ -65,6 +66,29 @@ model; geological coherence has not yet been verified.
 Only this handoff, the series direction, and the new working-model document are
 changed in this documentation update. No manuscript, prose mirror, illustration,
 ruling, engineering model, or REI implementation is changed.
+
+## Political-economy reference reconciliation — 24 October 2026
+
+Updated `docs/THULAN_POLITICAL_ECONOMY.md` against the unchanged live manuscript
+revision recorded above. The copper-speculation example now uses an unnamed copper
+drift rather than asserting that Shaft 44 collapsed. Present infrastructure wording
+uses 4.2 million; RULING 030's historical peak remains approximately 42 million.
+
+Added a descriptive Gantry section preserving the public hearth promise alongside
+administrative attachment to a feeder. Chapter Eight records NIL, no stores
+received, and a transfer of water from other hearths within an unchanged district
+total. No literal funded annuity, present-value gain, legal verdict, exemption
+resale/inheritance rule or independent Church audit power was invented.
+
+Separated state ration administration from merchant charges. Replaced the older
+pump-tearing, ventilation-breach and unsupported ownership claims with the actual
+arch breach and workers' consensual pump removal. Varek's death and six-year
+monument are completed-story events, not a new future plan. Currency conversions,
+manifest criteria and the detailed tier map remain open.
+
+This is a reference-document update, not a prose revision or whole-corpus audit.
+The manuscript remains paused and unchanged. The separately prepared Chapters
+One–Four readability trial remains PROPOSED and has not replaced the original.
 
 ## Age reconciliation — 23 October 2026
 
