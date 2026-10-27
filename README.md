@@ -1,20 +1,32 @@
-# The Thulans: Production Pipeline & Literary Canon
+# The Thulans
+
+*Industrial grimdark fiction, graphic novels, and production tools by Aaron Marchant.*
 
 ![Novella Status](https://img.shields.io/badge/novella-Acts%20I--IV%20Complete-brightgreen)
 ![Word Count](https://img.shields.io/badge/word_count-22%2C424%20words-blue)
 ![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
+![Salvation Pilot](https://img.shields.io/badge/Salvation-16--page%20working%20pilot-c49a62)
 ![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--036-orange)
 ![Audio Master](https://img.shields.io/badge/audio-Take%207%20Cinematic%20Master%20(03%3A33)-blueviolet)
 ![License](https://img.shields.io/badge/license-Proprietary%20%2F%20Aaron%20Marchant-lightgrey)
 
 > **"The state manufactures miracles to make honest people volunteer to die."**  
-> *A hard industrial grimdark fantasy novella, production pipeline, and cinematic asset suite by Aaron Marchant.*
+> Stories of work, shared warmth, and the people inside the machinery of Fairguni.
 
 <p align="center">
   <img src="assets/art/thulans_cover_master.jpg" alt="The Thulans: The Weight of a Lie — Canonical Front Cover by Aaron Marchant" width="360" />
 </p>
 
 ---
+
+## Start here
+
+| Read | Current state |
+| --- | --- |
+| **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Complete twelve-chapter revised reading draft. The live Google Doc is authoritative. |
+| **[Salvation — graphic-novel pilot](docs/SALVATION_PILOT_16_PAGES.md)** | Working revision 3: **16 story pages, 66 panels**, following Ansen and his sister Nessa. |
+| **[The rebellion novellas — series direction](docs/REBELLION_SAGA_DIRECTION.md)** | Approved ascending premise; individual books, geography, dates, and final outcome remain in development. |
+| **[Lore bible](docs/THE_THULANS_LORE_BIBLE_v3.md)** · **[Language and names](docs/THULAN_LANGUAGE_NOTE.md)** | World references, with current rulings and historical planning scopes distinguished. |
 
 ## 📖 The Novella: *The Weight of a Lie*
 
@@ -32,21 +44,32 @@ Varek, an old man inside a three-tonne rescue machine, leaves his state post to 
 
 ---
 
-## Planned rebellion novellas
+## The Thulans: Salvation
 
-The author-approved continuation follows how working communities at higher levels handle and transform a rebellion originating below, reaching the Spire for the final climax. The state's false monument appropriates Varek's defiance; Bram's invitation to read the preserved order together supplies a small organizational seed. Each novella should stand on its own. Exact volume count, titles, floor map, next-book chronology, and ultimate outcome remain open.
+**Three months was the sentence. Five years later, they are still inside.**
 
-- [Series direction and open decisions](docs/REBELLION_SAGA_DIRECTION.md)
-- [RULING 034: memory, inheritance, and the ascent](RULINGS.md#ruling-034-rebellion)
-- [RULING 036: district pressures and changing public allegiance](RULINGS.md#ruling-036-districts)
+Caught stealing bread from the upper Spire, **Ansen** and his sister **Nessa** are confined in steam-powered penal frames. The promised release never comes. When Varek frees Ansen, he goes looking for the person he cannot leave behind.
 
-## The Thulans: Salvation — companion story in development
+*Salvation* follows the life behind a brief encounter in the novella: shared bread, a familiar touch, and the hope of getting someone home. Its emotional horror grows from the siblings' relationship and their struggle against machinery that moves without their consent.
 
-Ansen, freed from a Welded frame by Varek, tries to rescue his sister Nessa. Their three-month bread-theft sentences have become five years of confinement. The project follows the lives behind a brief encounter in the novella: shared warmth, reunion, and a rescue the machinery makes fatal. Characters, penal-system premise, and tragic outcome are approved; final pilot staging, art, and timing remain in development. The existing manuscript has not been revised.
+**Current state:** a **16-page, 66-panel working graphic-novel pilot, revision 3**. The characters, sentencing premise, and tragic outcome are approved. Final art, mechanical blocking, music, and the search route remain in development. The pilot preserves the freed miner's later novella appearances; its additional gallery and handler scenes are explicitly labelled as adaptation staging. The existing manuscript has not been rewritten.
 
-- [Story direction, continuity boundaries, and open decisions](docs/SALVATION_STORY_DIRECTION.md)
-- [Sixteen-page graphic-novel pilot — working revision 3](docs/SALVATION_PILOT_16_PAGES.md)
+- **[Read the pilot](docs/SALVATION_PILOT_16_PAGES.md)**
+- [Story direction and continuity boundaries](docs/SALVATION_STORY_DIRECTION.md)
 - [RULING 035: the Welded, coercion, and the siblings](RULINGS.md#ruling-035-welded)
+
+## The rebellion novellas
+
+The planned continuation follows a rebellion rising through the Mountain toward the Spire. Each community faces its own problem: refugees needing shelter, loyalists protecting what they have, workers who cannot afford to miss a shift, and officials changing their public language as allegiances shift.
+
+Reports of what happened below reach the next district before the rebellion does. The people receiving those reports already have households, obligations, and reasons to fear what comes next. The series explores how their choices change the rebellion and the lives that depend on the same water, air, food, and transport.
+
+The state's monument appropriates Varek's defiance; Bram's invitation to read the preserved order together supplies a small organizational seed. Varek remains dead. Exact volume count, titles, floor numbering, sequel dates, and ultimate outcome remain open.
+
+- [Series direction, district pressures, and historical influences](docs/REBELLION_SAGA_DIRECTION.md)
+- [Proposed chronology — working model, not a locked timeline](docs/REBELLION_CHRONOLOGY_WORKING_MODEL.md)
+- [RULING 034: memory, inheritance, and the ascent](RULINGS.md#ruling-034-rebellion)
+- [RULING 036: changing public allegiance](RULINGS.md#ruling-036-districts)
 
 ---
 
@@ -131,11 +154,15 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 │   └── run_local_ci.py          # Local repository compliance gate
 ├── docs/                        # World building, lore bible, and technical contracts
 │   ├── THE_THULANS_LORE_BIBLE_v3.md
+│   ├── THULAN_LANGUAGE_NOTE.md
+│   ├── SALVATION_PILOT_16_PAGES.md    # Ansen and Nessa — working pilot
+│   ├── SALVATION_STORY_DIRECTION.md
+│   ├── REBELLION_SAGA_DIRECTION.md
 │   ├── THULAN_NOVELLA_VOICE_CONTRACT.md
 │   └── THULAN_VIOLENCE_DOCTRINE.md
 ├── handoff/                     # Agentic resumption context (PREFIX.md)
 ├── HANDOFF.md                   # Comprehensive audio-visual checksums and delivery logs
-└── RULINGS.md                   # Controlling register; RULING 034 covers the continuation
+└── RULINGS.md                   # 034/036: rebellion; 035: Welded and Salvation
 ```
 
 ---
@@ -158,4 +185,4 @@ cd tools/panel-studio && npm test
 
 * **Author & Lead Engineer**: Aaron Marchant ([@PromptHound96](https://twitter.com/PromptHound96) · [github.com/aaronmarchant96-max](https://github.com/aaronmarchant96-max))
 * **Primary Resumption Anchor**: [`handoff/PREFIX.md`](handoff/PREFIX.md)
-* **Status**: Canonical Production Authority · Acts I–IV Complete
+* **Current work**: Complete novella reading draft · *Salvation* pilot revision 3 · rebellion-series development

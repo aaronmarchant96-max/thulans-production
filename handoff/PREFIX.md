@@ -16,6 +16,10 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## Repository front page — 27 October 2026
+
+README now provides direct reading links and separate status descriptions for the complete novella reading draft, *Salvation* pilot revision 3 (16 pages/66 panels), and the planned rebellion novellas. It uses Ansen/Nessa, introduces the siblings without recounting the killing, and includes the district pressures and new document paths. Existing manuscript snapshot dates/counts, primary cover, tooling instructions, and unresolved chronology/geography remain intact. This is a front-page documentation update, not new prose or production completion.
+
 ## Salvation pilot revisions 2–3 — 27 October 2026
 
 `docs/SALVATION_PILOT_16_PAGES.md` is the current working graphic-novel script: 16 story pages and 66 panels, excluding cover/credits. Lower Four occupies one page; successful restraint release and failed loaded-pin release use matched four-panel grids. Page 15 shows the equipment record being written, answering page 1 before page 16 returns to the coat.
