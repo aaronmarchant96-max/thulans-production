@@ -16,6 +16,12 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## Salvation relationship and pacing brief — 27 October 2026
+
+`docs/SALVATION_STORY_DIRECTION.md` now contextualizes the author's latest direction: competitive sibling teasing, reciprocal protection, humour arising from working lives, and the change to private, direct care under pressure. Joel/Ellie supplies a relationship reference; the siblings are not rewritten as a parent-child pair. “Shift over” and “Let me see” remain possible anchors, not locked repeated dialogue. Ansen's pursuit of Nessa should run through the existing later manuscript appearances; Nessa's goal changes to getting him clear while he persists in freeing her.
+
+The brief separates emotional attachment from narrative momentum, calls for continuous action and lived routines before panel division, and records exactly the source-study scope: three user-supplied John Saul opening pages were analysed; the final family connection is the author's recollection, and no Koontz excerpt has been read here. No new secret, childhood event, control geometry, or fixed lyric cue is approved. Pilot revision 3 remains unchanged at 16 pages/66 panels and predates this brief. Future changes to its length or scenes require an explicit script pass.
+
 ## Violence doctrine expansion — 27 October 2026
 
 `docs/THULAN_VIOLENCE_DOCTRINE.md` now records the approved emotional direction: ordinary shared life and real gains before impact, sudden legible injury, slower human recognition, and surviving relationships/tasks. Welded coercion distinguishes the prisoner's intention from commanded motion. Sound may retain its tenderness through the action; panel rhythm can carry the same effect. The doctrine permits warnings and established danger without requiring prolonged fatal anticipation, and no longer claims a universal vocal response or complete energy transfer for every injury. Its Salvation example is explicitly pilot-scoped. No new fate, clinical diagnosis, final engineering layout, or manuscript change is introduced.

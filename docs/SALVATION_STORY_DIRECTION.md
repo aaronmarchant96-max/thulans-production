@@ -1,8 +1,123 @@
 # The Thulans: Salvation — Ansen and Nessa
 
 **Updated:** 27 October 2026
-**Status:** Author-approved characters, penal-system premise, and tragic outcome. The [16-page revision 3 pilot](SALVATION_PILOT_16_PAGES.md) is the current working script; exact ages, runtime, final staging, and mechanical design remain in development.
+**Status:** Author-approved characters, penal-system premise, and tragic outcome. The [16-page revision 3 pilot](SALVATION_PILOT_16_PAGES.md) is the current published working script and predates the relationship/pacing expansion below; no script revision is made by this brief. Exact ages, runtime, final staging, and mechanical design remain in development.
 **Authority:** [RULING 035](../RULINGS.md#ruling-035-welded); companion to the [rebellion direction](REBELLION_SAGA_DIRECTION.md).
+
+## Relationship and reader experience — direction for the next draft
+
+The reader should enjoy Ansen and Nessa's company, learn how they understand each other,
+and begin to imagine their life after escape. Their deaths and injuries are not the
+only meaningful experiences in the story. Ordinary happiness, successful help, and a
+real reunion need room to matter. The central loss is a particular shared life and the
+future that briefly seemed possible again.
+
+### Competitive on the surface, protective underneath
+
+They are siblings with an established history. They tease, keep score, dispute who did
+the difficult part, and try to get the better of each other. Neither is invariably the
+competent protector or the dependent child. Age order remains open. Both can be petty,
+wrong, funny, proud of a skill, and capable of noticing when the other is genuinely hurt.
+
+Their familiarity permits friction without making every disagreement a threat to the
+bond. When circumstances become serious, the same people become quieter, more direct,
+and willing to let the other see fear or pain. Convey the change through attention,
+voice, and action. Do not require a declaration of love or a polished farewell.
+
+The Joel-and-Ellie relationship in The Last of Us is a reference for accumulated memory,
+humour, conflict, trust, and unguarded care. Ansen and Nessa already have a sibling bond;
+do not transplant a parent-child relationship or reproduce that game's dialogue/scenes.
+
+### Humour belongs to their working lives
+
+Poverty does not remove play, irritation, pride, or the ability to laugh at an absurd
+situation. Let jokes arise from work, improvised repairs, unfair demands, shared food,
+and the other person's habits. They should be enjoyable without needing a later tragedy
+to justify them. Avoid treating poverty itself as a joke for an outside audience.
+
+Ansen and Nessa can know who is approaching by a familiar tread, compete over a minor
+job, or disagree about whose mistake nearly got them caught. Such examples are options,
+not newly approved childhood events. Their neighbours and environment have lives and
+routines beyond preparing the protagonists' deaths. Preserve the ban on action-movie
+quips during killing; everyday humour does not require that kind of performance.
+
+### Familiar words acquire weight through use
+
+A recurring phrase should belong to an ordinary shared habit before it carries loss.
+It cannot substitute for memories of the relationship. **“Shift over”** is a working
+suggestion: each complains but makes room for the other. **“Let me see”** is another
+possible recognition cue, moving from concern over a childhood scrape to attention to
+Ansen's broken wrist. Neither phrase is locked as the definitive anchor by this brief.
+
+Use any chosen phrase selectively. It need not recur during the fatal action or become
+a deathbed punchline. A coat placed to make room can echo an earlier habit visually.
+
+### Give the reader a continuous pursuit
+
+The draft must sustain interest as well as establish attachment. Bring Ansen's desire
+to find Nessa into his behaviour after rescue, while preserving his Chapter Ten help and
+Chapter Eleven confirmation. Listening, asking, and watching can run through the time
+he remains with others. No particular informant, clue, false report, or search route is
+approved merely by identifying this need.
+
+Let one discovery change the next decision. The reunion gives him Nessa back; their
+cooperation frees a little movement; the loaded pin resists; her knowledge of the
+handler changes her immediate objective. These developments should alter the reader's
+expectations rather than present a row of self-contained emotional tableaux.
+
+### Pacing and an inhabited place
+
+The author supplied three photographed opening pages of John Saul's Cry for the
+Strangers. Our close reading covers those pages, not a newly verified reading of the
+whole book. Their movement follows a boy waking, measuring a storm, travelling,
+witnessing a ritual killing, escaping, and trying to dismiss the memory the next
+morning. Description follows his attention and immediate action. Short isolated
+sentences receive weight within otherwise flowing movement.
+
+The author also recalls a family connection revealed at the end of the novel. Treat
+that as a recollected example of retrospective significance, not an early revelation
+established by the supplied pages. No hereditary secret or analogous twist is newly
+assigned to Ansen or Nessa. Dean Koontz remains a proposed further reading source;
+no excerpt has yet been retrieved or analysed in this session.
+
+Fairguni should feel inhabited through familiar routes, shift rhythms, neighbours,
+work, sounds, habits, and expected meals. Select the details the viewpoint character
+uses or notices. Allow time and consequence to carry between scenes. Vary compression
+and sustained attention; do not make every gesture stop the story for an explanation
+of its emotional meaning. A continuous-prose pass can establish that experience before
+it is divided into panels. The 16-page pilot remains the published working artifact;
+a different length or page allocation needs an explicit revision, not an inflated
+claim about what its existing pages accomplish.
+
+### The escape turns mutual care into conflicting needs
+
+Nessa participates: she assesses Ansen's injury and support, identifies a fastening,
+chooses when to risk moving, and helps ease the brace. Their first small success gives
+them a reason to persist. When the handler returns and she recognizes the danger, she
+tries to send Ansen away. He continues trying to get her out. Both act to protect the
+other, but their immediate intentions have separated.
+
+The changing voice is important: a correction at the tool can become a quiet demand to
+look at his injury. Illustrative dialogue is not permission to give Nessa unrestricted
+speech through the feeding apparatus; limited words, eyes, thumb movement, and timing
+must carry the exchange. Preserve the distinction between her small voluntary actions
+and the machinery imposing the fatal grip.
+
+The command interrupts an unfinished attempt and disagreement. The death is brief;
+Nessa's attempts to save him continue after the opportunity is gone. Her eventual fate
+remains open. The gentle musical phrase can continue without announcing the killing.
+Reader attachment must come from their lives, not from a rule that every act of care
+must fail or that every affectionate moment must foreshadow a wound.
+
+### What this changes next
+
+The next script pass should give the sibling humour and changed voices particular
+behaviours, make the search an active pursuit, and carry the world through their
+attention and decisions. Review how much procedural material is needed on the page.
+Keep the existing rescue, later manuscript appearances, involuntary grip, equipment
+record payoff, and coat ending unless the author separately revises those decisions.
+This brief does not lock new childhood incidents, extra dialogue, final musical cues,
+mechanical dimensions, or an unseen history for Nessa.
 
 ## People and sentence
 
@@ -56,5 +171,5 @@ Dead Island's 2011 reveal informs retrospective recognition and the hope of a re
 1. Place the search after Ansen's established later manuscript appearances.
 2. Design the commanded gripping variant, reachable fastenings, loaded pins, and control path; distinguish Nessa's small voluntary motions from imposed movement.
 3. Review the explicitly paginated 16-page/66-panel working script. Final chronology, panel approval, runtime if animated, and musical cues remain open.
-4. Develop Nessa's individual wants and participation in the attempted escape; leave her eventual fate open until separately decided.
+4. Apply the relationship/pacing brief to the next script pass: reciprocal sibling rivalry and care, everyday humour, continuous pursuit, and an inhabited setting. Develop Nessa's individual wants and history; leave her eventual fate open until separately decided.
 5. Treat generated title-page art and pilot prose as development material, not a locked character design or amended manuscript. The Ansen/Nessa naming choice is resolved and does not require further confirmation.
