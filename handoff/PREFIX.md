@@ -16,18 +16,18 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
-## Salvation pilot revision 2 — 27 October 2026
+## Salvation pilot revisions 2–3 — 27 October 2026
 
 `docs/SALVATION_PILOT_16_PAGES.md` is the current working graphic-novel script: 16 story pages and 66 panels, excluding cover/credits. Lower Four occupies one page; successful restraint release and failed loaded-pin release use matched four-panel grids. Page 15 shows the equipment record being written, answering page 1 before page 16 returns to the coat.
 
-At the author's request Varek says “It has stopped. I have you.” in this adaptation. The supplied novella export says “It's stopped. I have you.”; no source text has been corrected or synchronized. Nasa's service-gallery location, Frame 9 number, individual handler, control layout, and search route are Salvation-specific pilot staging, not existing novella scenes. Final geometry and route continuity remain open.
+At the author's request Varek says “It has stopped. I have you.” in this adaptation. The supplied novella export says “It's stopped. I have you.”; no source text has been corrected or synchronized. Nessa's service-gallery location, Frame 9 number, individual handler, control layout, and search route are Salvation-specific pilot staging, not existing novella scenes. Final geometry and route continuity remain open.
 
-The author raised the ANSI/NASA name collisions. Ansen/Nessa were proposed as fictional alternatives; absent a choice, Ansi/Nasa remain the approved working names. Do not silently rename them or claim the naming issue is resolved.
+The author approved **Ansen** (AHN-sen) and **Nessa** (NESS-ah). Pilot revision 3 applies these names without changing its 16 pages or 66 panels. Both are T3 fictional Thulan descendants; the language note retains the former names once for editorial traceability. The naming choice is resolved, and RULING 035, the lore register, and supporting documents now use the approved replacements.
 
 ## Approved direction update — 27 October 2026
 
-- RULING 035 and `docs/SALVATION_STORY_DIRECTION.md` record Ansi (AHN-see), his sister Nasa (NAH-sah), and *The Thulans: Salvation*. They receive three months for bread theft and remain Welded for five years; ordinary release never arrives. Frames impose externally directed movement. Feeding apparatus causes Ansi's lip injury; limited speech remains possible.
-- Ansi is the first broken-wrist miner Varek frees in Chapter Six. Both men survive that encounter. His Chapter Ten help and Chapter Eleven confirmation remain binding: the later search for Nasa must follow his established presence. Nasa is not the second freed miner. Her gripping frame kills Ansi against her will; her later fate and the precise staging remain open.
+- RULING 035 and `docs/SALVATION_STORY_DIRECTION.md` record Ansen (AHN-sen), his sister Nessa (NESS-ah), and *The Thulans: Salvation*. They receive three months for bread theft and remain Welded for five years; ordinary release never arrives. Frames impose externally directed movement. Feeding apparatus causes Ansen's lip injury; limited speech remains possible.
+- Ansen is the first broken-wrist miner Varek frees in Chapter Six. Both men survive that encounter. His Chapter Ten help and Chapter Eleven confirmation remain binding: the later search for Nessa must follow his established presence. Nessa is not the second freed miner. Her gripping frame kills Ansen against her will; her later fate and the precise staging remain open.
 - RULING 036 expands the ascending rebellion through refugees, loyalists, neutral workers, material dependencies, anticipatory reports, and official language adapting to expected power. Napoleon's 1815 return and Boston's organizing are influences, not a literal event schedule or verified changing-headlines transcript. Specific incidents are provisional.
 - Theodemir's Tier Nine office, Varek's death, the six-year epilogue, and the distinct monument/frame/pump remain intact. The old inverse numbered tier sketch has not become a new map. No automatic final collapse, bloodless victory, or sequel officeholder is approved.
 - Language notes label the siblings' adapted/invented names and correct Bram's main-action age. The audience primer's unscoped immediate-collapse claim is corrected; Salvation has its own protagonist-name allowance.

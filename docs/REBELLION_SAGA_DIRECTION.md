@@ -147,6 +147,6 @@ Use the Intimacy Rule and CARDO scene hinges. Start with people and their choice
 
 ## Companion story and source scope
 
-[The Thulans: Salvation](SALVATION_STORY_DIRECTION.md) follows Ansi and Nasa, whose individual lives extend beyond a brief encounter in Varek's story. Its approved tragedy demonstrates the personal scale of the world's losses; it is not a newly established trigger or calendar for the wider rebellion. Keep Varek's death, the six-year epilogue, and the distinction between approved direction and unwritten events intact.
+[The Thulans: Salvation](SALVATION_STORY_DIRECTION.md) follows Ansen and Nessa, whose individual lives extend beyond a brief encounter in Varek's story. Its approved tragedy demonstrates the personal scale of the world's losses; it is not a newly established trigger or calendar for the wider rebellion. Keep Varek's death, the six-year epilogue, and the distinction between approved direction and unwritten events intact.
 
 The development conversation included a current manuscript export supplied by the author. It was read as supplied; this update does not claim a new direct live-Doc verification or change repository prose mirrors.

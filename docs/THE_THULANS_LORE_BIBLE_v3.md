@@ -59,8 +59,8 @@ governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` contro
 | *Fairguni* | the Mountain (the setting itself) | attested Gothic *fairguni* "mountain" | T1 |
 | *Wulfila* (of Azg-Haíms) | volunteer | *wulf* + diminutive *-ila* → "little wolf" | T1 |
 | *Haila* (of Azg-Haíms) | Wulfila's betrothed | *hails* "whole, hale" | T2 |
-| *Ansi* | Salvation protagonist; the freed broken-wrist miner | author-selected adaptation of Gothic *ans* "beam / rafter"; not an attested personal name | T2 |
-| *Nasa* | Ansi's sister | fictional Thulan name from Gothic *nasjan* "to save"; not an attested personal name | T3 |
+| *Ansen* | Salvation protagonist; the freed broken-wrist miner | fictional descendant name from Gothic *ans* "beam / rafter" with an invented ending; no attested personal-name claim | T3 |
+| *Nessa* | Ansen's sister | fictional descendant name from Gothic *nasjan* "to save"; sound/spelling development is invented, not an attested personal-name derivation | T3 |
 | *Garuni* | the Council of Three | *garuni* "counsel / plan / plot" | T3 |
 | *Fritigern* | Seat One — Survey/Reserve | *friþus* + *gairns* "craving peace" | T1 |
 | *Theodemir* | Seat Two — Continuity/Infrastructure | *þiuda* + *mērs* "famous among the people" | T1 |
@@ -459,15 +459,15 @@ rules:
 
 ### 5.1. The Welded (*Gathaur-Bano*) — Penal Actuator Frames
 
-**Author-approved clarification — 27 October 2026; [RULING 035](../RULINGS.md#ruling-035-welded).** See [Salvation](SALVATION_STORY_DIRECTION.md) for Ansi and Nasa's story and its manuscript continuity boundary.
+**Author-approved clarification — 27 October 2026; [RULING 035](../RULINGS.md#ruling-035-welded).** See [Salvation](SALVATION_STORY_DIRECTION.md) for Ansen and Nessa's story and its manuscript continuity boundary.
 
 * **Sentence and purpose:** The Spire puts people it deems unfit for society into powered frames instead of prison. Theft, debt, quota offences, and insubordination can supply the justification. Sentenced people are used for compulsory dangerous work and deployed to suppress unrest and breach resistance. The prisoner's consciousness and cooperation are not required for the frame to act.
-* **The concealed permanence:** A stated term creates the expectation of release, but nobody is released through ordinary sentence completion. Ansi and Nasa receive three months for stealing bread from the upper Spire; five years pass without release or an announced extension. Varek physically freeing prisoners is an exception to the confinement, not a functioning appeal process. The exact administrative concealment remains open.
+* **The concealed permanence:** A stated term creates the expectation of release, but nobody is released through ordinary sentence completion. Ansen and Nessa receive three months for stealing bread from the upper Spire; five years pass without release or an announced extension. Varek physically freeing prisoners is an exception to the confinement, not a functioning appeal process. The exact administrative concealment remains open.
 * **Power and control:** Steam supplies the force, with pumps, valves, hydraulic actuators, and mechanical drives transmitting movement. Handlers direct a limited set of imposed actions through external controls; an engaged drive can keep cycling until stopped or disabled. Movement builds pressure, jerks against stops, and vents. No telepathy or unexplained voluntary obedience is required. Exact command hardware and control-line routing remain to be designed.
 * **Human restraint:** The frame carries limbs in cuffs, braces, and harnesses. A person can look, speak with difficulty, and struggle in small ways, but cannot overpower the powered movement or reach the normal controls. Resistance and refusal of consent remain possible; simply deciding not to strike does not disengage the machinery.
 * **Mask and feeding apparatus:** A riveted mask leaves narrow sight-slits. Long-term feeding tubes and tight restraints cause the manuscript's lip notch, pressure sores, and damaged skin. Speech remains possible in short, painful phrases. The former coal-naphtha/adrenaline mouth-drip explanation is superseded for this literary continuity; no stimulant regimen is newly established.
 * **Breaker variant — written:** The Chapter Six rigs drive heavy breaker bars. A back-mounted pump/cam can continue cycling after consciousness is lost. Varek shears the first drive pin, catches the frame, and shuts its steam; he breaks the second rig's drive wheel and chain. Both men are freed. Retain the mechanical sequence and the first miner's broken wrist.
-* **Gripping variant — approved development:** Nasa is confined in an enforcement frame whose powered gauntlet imposes a seizure. A handler's command forces it around Ansi's throat while she tries to resist. Loaded coupling pins, arm travel, hand linkage, force, and accessible shutoff must be made legible in the final design. This is a narrative mechanism to develop, not a tested engineering claim.
+* **Gripping variant — approved development:** Nessa is confined in an enforcement frame whose powered gauntlet imposes a seizure. A handler's command forces it around Ansen's throat while she tries to resist. Loaded coupling pins, arm travel, hand linkage, force, and accessible shutoff must be made legible in the final design. This is a narrative mechanism to develop, not a tested engineering claim.
 * **Sound:** Wheezing breaths, forced words, iron footfalls, valve clicks, and relief venting carry the people beneath the mechanism. Avoid monster roars and theatrical battle cries.
 * **Human consequence:** The occupants are people subjected to violence, not willing monsters. Rescue can succeed, fail, or arrive too late. Do not prescribe killing as mercy for every encounter or erase the rescued prisoners' continuing lives.
 

@@ -42,10 +42,10 @@ The author-approved continuation follows how working communities at higher level
 
 ## The Thulans: Salvation — companion story in development
 
-Ansi, freed from a Welded frame by Varek, tries to rescue his sister Nasa. Their three-month bread-theft sentences have become five years of confinement. The project follows the lives behind a brief encounter in the novella: shared warmth, reunion, and a rescue the machinery makes fatal. Characters, penal-system premise, and tragic outcome are approved; final pilot staging, art, and timing remain in development. The existing manuscript has not been revised.
+Ansen, freed from a Welded frame by Varek, tries to rescue his sister Nessa. Their three-month bread-theft sentences have become five years of confinement. The project follows the lives behind a brief encounter in the novella: shared warmth, reunion, and a rescue the machinery makes fatal. Characters, penal-system premise, and tragic outcome are approved; final pilot staging, art, and timing remain in development. The existing manuscript has not been revised.
 
 - [Story direction, continuity boundaries, and open decisions](docs/SALVATION_STORY_DIRECTION.md)
-- [Sixteen-page graphic-novel pilot — working revision 2](docs/SALVATION_PILOT_16_PAGES.md)
+- [Sixteen-page graphic-novel pilot — working revision 3](docs/SALVATION_PILOT_16_PAGES.md)
 - [RULING 035: the Welded, coercion, and the siblings](RULINGS.md#ruling-035-welded)
 
 ---

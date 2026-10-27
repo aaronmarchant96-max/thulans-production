@@ -36,9 +36,11 @@ root claim and must not be presented as historically attested Gothic.
 
 ### Salvation names — approved 27 October 2026
 
-- **Ansi** (AHN-see) — **T2 adapted name**, from Gothic *ans*, "beam / rafter," the author's mine-timber association. The adapted personal name is not claimed as an attested Gothic name.
-- **Nasa** (NAH-sah) — **T3 fictional Thulan name**, derived from Gothic *nasjan*, "to save." This is an invented descendant name, not an attested Gothic personal name.
+- **Ansen** (AHN-sen) — **T3 fictional Thulan name**, developed from Gothic *ans*, "beam / rafter," with an invented descendant ending. The mine-timber association is retained; this is not a claim about the historical etymology of similarly spelled real names or an attested Gothic personal name.
+- **Nessa** (NESS-ah) — **T3 fictional Thulan name**, developed from Gothic *nasjan*, "to save," through fictional sound and spelling changes. No attested historical derivation of this personal name is claimed.
 - **The Thulans: Salvation** is the English working title. *Ganis* was considered and rejected; it is not her name or an established in-world word.
+
+**Naming decision — 27 October 2026:** Ansen and Nessa replace the earlier working names Ansi and Nasa to avoid their ANSI/NASA associations. This sentence records the former forms for editorial traceability only.
 
 See [Salvation story direction](SALVATION_STORY_DIRECTION.md). These siblings are a separate household, not additions to Wulfila's family core.
 
