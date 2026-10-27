@@ -147,3 +147,9 @@ Literacy, access and authentication also matter: Kaelen distinguishes pipe marks
 Remaining decisions include currency conversions, the legal form and broader transfer rights of exemptions, appeal or audit powers, passenger selection, reconciled geography and a supported evacuation timetable. Resolve only those needed for the next story. This briefing does not authorize new explanatory material in the paused manuscript.
 
 **Reconciliation scope:** This update corrects the named copper-collapse example, present-population wording and Varek action summary, separates state and merchant roles, and summarizes the Gantry mechanisms already in the accepted prose. The older numbered map and other unverified background mechanisms remain explicitly scoped. It does not certify the entire lore corpus as reconciled.
+
+### Penal service and the approaching rebellion — 27 October 2026
+
+[RULING 035](../RULINGS.md#ruling-035-welded) establishes Welded confinement as the Spire's alternative to prison: stated terms are not honoured through ordinary release. Ansi and Nasa's three-month sentences become five years inside powered frames. External direction and compulsory movement make their deployment against unrest possible without the prisoners' consent. Speech is constrained, not absent; effective access to an appeal is denied. The precise administrative means of retaining prisoners past term remains open.
+
+[RULING 036](../RULINGS.md#ruling-036-districts) expands the continuation's district pressures: refugees, loyalists, wage-dependent households, correspondence, selective refusal, and official language adapting to expected power. Food, transport, and life-support dependencies continue to constrain all factions. Historical analogies do not settle Fairguni's tier numbering, jurisdictions, dates, or final outcome.

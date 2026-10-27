@@ -5,11 +5,15 @@
 
 ## The hook
 
-A man sealed inside an iron rescue suit three hundred years ago wakes into a mountain
-city that is running out of everything. Its rulers have learned to fake miracles: hide a
-water or ore find, let the people suffer, then accept a volunteer's life and "reveal" the
-resource as an answer to blood. When the man proves the miracles were staged, the truth
-does not free anyone. It brings the whole world down.
+An old man inside a three-tonne rescue machine breaks his post in a mountain city
+whose rulers withhold water while building escape ships. A young worker has died
+believing his surrender would secure his family's ration. His brother recovers evidence
+that the cistern was full. Varek takes it to the official who can stop the approaching
+ram crews. The official already knows.
+
+**Literary scope — 27 October 2026:** The accepted novella governs these events.
+[Rebellion direction](REBELLION_SAGA_DIRECTION.md) and [Salvation](SALVATION_STORY_DIRECTION.md)
+record approved development; no immediate civilization-wide collapse is established.
 
 ---
 
@@ -24,8 +28,9 @@ does not free anyone. It brings the whole world down.
    ships that fit one person in seven.
 4. **The faith is manufactured.** The "miracles" that restore water and ore were found by
    surveyors *before* the sacrifices that supposedly earned them.
-5. **The hero cannot fix it.** Varek is a rescuer, not a revolutionary. He tells the
-   truth, and the truth destroys the one thing holding the city together: the lie.
+5. **Evidence does not make authority act.** Varek cannot secure the recall. Workers
+   bring him home, put his rescue pump to shared use, and care for the man inside.
+   Copies of the signed order survive him; their later political consequences remain to unfold.
 
 ---
 
@@ -37,7 +42,7 @@ does not free anyone. It brings the whole world down.
   his family's water. He was lied to.
 - **Sanna** — Wulfila's sister. Runs the nursery, keeps the survivors alive. The story ends
   in her hands.
-- **Bram** — Wulfila's fourteen-year-old brother. Drafted into the mines anyway.
+- **Bram** — Wulfila's thirteen-year-old brother (fourteen on 30 October). Drafted into the mines anyway.
 - **Haila** — Wulfila's betrothed. She tied the ring that marked him for the sacrifice.
 - **Theodemir** — the Council's numbers man. Not a monster. Just certain that the
   arithmetic matters more than the truth.

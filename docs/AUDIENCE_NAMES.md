@@ -32,6 +32,10 @@ that, introduce at most one new load-bearing name per scene.
 
 ---
 
+## Salvation-specific audience scope
+
+For the separately scoped [Salvation](SALVATION_STORY_DIRECTION.md) story, **Ansi** and **Nasa** are its load-bearing protagonist names. Introduce Varek through the rescue and other names only as needed. This author-approved exception does not expand the original novella's six-name first-contact allowance or require the whole franchise roster in the short. Linguistic T1–T4 provenance is separate from audience-name priority.
+
 ## Tier B — Texture (allowed in-world; never explained on first contact)
 
 These may appear on screen, in dialogue, and in props, but no scene may hinge on the

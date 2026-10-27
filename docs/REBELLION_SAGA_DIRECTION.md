@@ -1,6 +1,6 @@
 # The Thulans — Rebellion Novellas: Series Direction
 
-**Updated:** 24 October 2026  
+**Updated:** 27 October 2026
 **Authority:** Aaron Marchant's approved continuation direction; [RULING 034](../RULINGS.md#ruling-034-rebellion).  
 **Status:** The ascending series premise is approved. The working book structure below is provisional. No sequel prose, final book count, titles, numbered floor map, rebellion start date, or ultimate political outcome is locked.
 
@@ -59,6 +59,48 @@ These are social and functional bands. They are not numbered tiers or approved t
 
 A band may take more than one novella; multiple physical floors may share a book. Exact order, floor numbering, character roster, titles, volume count, and plot outcomes need separate author decisions.
 
+## District pressures, waiting, and allegiance
+
+**Author-approved expansion — 27 October 2026; [RULING 036](../RULINGS.md#ruling-036-districts):** Each floor or community faces a distinct problem as the rebellion approaches. Its people hear about the previous district before meeting the people coming from it. Rumour, testimony, official notices, and refugees create the anxiety of an approaching siege. Anticipation belongs to families, workers, loyalists, merchants, and officials, not only combatants.
+
+| Community pressure | Human disagreement to develop |
+| --- | --- |
+| Refugees and receiving households | Who can admit another family when beds, food, drainage, and water are already strained? Refugees bring relationships, losses, and conflicting accounts rather than acting as an anonymous crowd. |
+| Loyalists and protected households | Some trust the state; others depend on wages, guild privileges, or a credible promise of evacuation. Their reasons and internal disagreements need individual lives. |
+| People trying to keep working | Agreement with the evidence does not make a missed shift, interrupted care, or lost ration affordable. Neutrality can become difficult without being treated as cowardice. |
+| Foundries and transport junctions | Selective refusal can stop an official shipment while also threatening a nursery delivery or another crew's income. Who authorizes exceptions and bears the cost? |
+| Registries and upper authorities | Clerks can obstruct, cooperate, change their language, or claim earlier sympathy. Cooperation may be necessary even when displaced people remember the same official's prior orders. |
+
+These are pressures to explore, not assigned floor numbers, compulsory incidents, fixed volume boundaries, or a locked march timetable. What happens in one community changes material conditions and expectations in the next. Neither all upper residents nor all lower residents share one allegiance.
+
+### Official language follows expected power
+
+The author's historical reference is Napoleon's return from Elba and March to Paris in March 1815: public allegiance changes as an approaching force appears increasingly likely to prevail. The familiar monster-to-emperor newspaper sequence is an unreliable, commonly embellished historical anecdote, not a verified daily headline transcript to cite as fact.
+
+In Fairguni, decrees, clerk announcements, and merchant broadsheets can move from criminalization, through qualified concessions, to recognition or claims of longstanding support. Different offices need not agree or adapt at the same speed. A proclamation's vocabulary can reveal fear before a gate opens. Cooperation, defection, and appropriation are possible responses, not an inevitable collapse of all state messaging.
+
+Illustrative Thulan wording, not historical quotations or already-written events:
+
+> LOWER-DISTRICT CRIMINALS DISRUPT WATER DISTRIBUTION.
+>
+> RESIDENTS ADVISED TO AVOID THE ONGOING LABOUR DISTURBANCE.
+>
+> DISTRICT REPRESENTATIVES SEEK TERMS WITH THE HEARTH DELEGATION.
+>
+> OUR DISTRICT HAS LONG SUPPORTED THE RESTORATION OF LAWFUL WATER RIGHTS.
+
+Displaced people can retain the earlier notices. A welcoming banner does not erase the order that turned a family away. Accepting a useful defector can create a consequential disagreement inside the rebellion.
+
+### Boston influence in the middle districts
+
+The second author-selected reference is Boston's revolutionary organizing: petitions, correspondence, boycotts, divided commercial interests, contested testimony, occupation, and collective punishment. Adapt those political mechanisms to the Mountain's dependencies; no American event, outcome, or calendar is transplanted wholesale.
+
+Possible incidents include crews refusing a privileged cargo while families wait for supplies, district representatives verifying copies of Bram's evidence, or a punitive crossing closure hurting both supporters and opponents of a protest. These are development examples, not approved scenes. Do not waste scarce drinking water merely to imitate a tea protest.
+
+Bram's evidence discipline remains binding. Rebels can exaggerate an encounter as readily as officials can conceal it. Established truth must not be rewritten to produce convenient unanimity. A frightened district asks what happened below and who will feed its people tomorrow.
+
+Loss of legitimacy does not itself remove armed guards, closed gates, or dependence on state supplies. Theodemir's sequel tenure, a final negotiation, a bloodless victory, and any final collapse remain open.
+
 ## Shared life-support constraint
 
 The Mountain is a sealed, materially finite environment. Water, breathable air, heat, drainage, transport, food, and maintenance link every class to the work of others.
@@ -99,6 +141,12 @@ Real scarcity, consent, human responsibility, and the possibility of costly fail
 
 ## Next development step
 
-Choose the next working community and chronology before producing its outline. Identify its viewpoint character, immediate need, community disagreement, material dependency, irreversible choice, local ending, and consequence passed upward.
+Choose the next working community and chronology before producing its outline. Identify its viewpoint character, immediate need, community disagreement, material dependency, incoming refugees and reports, current official wording, irreversible choice, local ending, and consequence passed upward.
 
 Use the Intimacy Rule and CARDO scene hinges. Start with people and their choices; introduce the machinery when it explains what those choices cost. The next novella and the completed first book should each stand on their own.
+
+## Companion story and source scope
+
+[The Thulans: Salvation](SALVATION_STORY_DIRECTION.md) follows Ansi and Nasa, whose individual lives extend beyond a brief encounter in Varek's story. Its approved tragedy demonstrates the personal scale of the world's losses; it is not a newly established trigger or calendar for the wider rebellion. Keep Varek's death, the six-year epilogue, and the distinction between approved direction and unwritten events intact.
+
+The development conversation included a current manuscript export supplied by the author. It was read as supplied; this update does not claim a new direct live-Doc verification or change repository prose mirrors.

@@ -14,7 +14,7 @@ Structure), 029 (The Unified Spine), 030 (Demographic Scale & Iron-True Geology)
 **Reconciliation note (2026-09-15):** This revision folds the later rulings back into the
 governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` controls.
 
-**Current literary scope — 24 October 2026:** The [live novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) governs written events. [RULING 034](../RULINGS.md#ruling-034-rebellion) and [the series direction](REBELLION_SAGA_DIRECTION.md) govern the newly approved ascending rebellion premise. Earlier living-Varek/civil-collapse and residual-machine sequences below are preserved as scoped planning history, not events to import into the accepted novella or automatic sequel canon. Exact sequel chronology, map, count, and macro outcome remain open.
+**Current literary scope — 27 October 2026:** The [live novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) governs written events. [RULING 034](../RULINGS.md#ruling-034-rebellion) and [the series direction](REBELLION_SAGA_DIRECTION.md) govern the newly approved ascending rebellion premise. Earlier living-Varek/civil-collapse and residual-machine sequences below are preserved as scoped planning history, not events to import into the accepted novella or automatic sequel canon. Exact sequel chronology, map, count, and macro outcome remain open. [RULING 035](../RULINGS.md#ruling-035-welded) governs the Welded/Salvation clarification; [RULING 036](../RULINGS.md#ruling-036-districts) expands the rebellion's district pressures and public narratives. These development decisions do not amend the written manuscript.
 
 ---
 
@@ -59,6 +59,8 @@ governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` contro
 | *Fairguni* | the Mountain (the setting itself) | attested Gothic *fairguni* "mountain" | T1 |
 | *Wulfila* (of Azg-Haíms) | volunteer | *wulf* + diminutive *-ila* → "little wolf" | T1 |
 | *Haila* (of Azg-Haíms) | Wulfila's betrothed | *hails* "whole, hale" | T2 |
+| *Ansi* | Salvation protagonist; the freed broken-wrist miner | author-selected adaptation of Gothic *ans* "beam / rafter"; not an attested personal name | T2 |
+| *Nasa* | Ansi's sister | fictional Thulan name from Gothic *nasjan* "to save"; not an attested personal name | T3 |
 | *Garuni* | the Council of Three | *garuni* "counsel / plan / plot" | T3 |
 | *Fritigern* | Seat One — Survey/Reserve | *friþus* + *gairns* "craving peace" | T1 |
 | *Theodemir* | Seat Two — Continuity/Infrastructure | *þiuda* + *mērs* "famous among the people" | T1 |
@@ -457,17 +459,17 @@ rules:
 
 ### 5.1. The Welded (*Gathaur-Bano*) — Penal Actuator Frames
 
-The tragic antagonist force of the lower drifts and industrial suppressions.
+**Author-approved clarification — 27 October 2026; [RULING 035](../RULINGS.md#ruling-035-welded).** See [Salvation](SALVATION_STORY_DIRECTION.md) for Ansi and Nasa's story and its manuscript continuity boundary.
 
-* **Origin & Purpose:** Where Varek's Tectonic Rig is an ancient, revered heavy rescue frame built to bear collapsing rock and preserve life, **The Welded** are the Archon regime's grotesque industrial perversion of the technology. Condemned quota-breakers, labor mutineers, and debtor miners are welded directly into stripped-down hydraulic breaker rigs to enforce quotas, breach strike barricades, and clear toxic cave-ins.
-* **Mechanical Anatomy:**
-  * **Frame:** Raw iron mine-scaffolding channel and high-pressure steam pistons bolted and pinned directly through heavy leather work aprons and joint sleeves.
-  * **Spit-Mask:** A crude sheet-iron helmet riveted shut around the collar, leaving only narrow sight-slits. An external chemical drip tube meters coal-naphtha and adrenaline stimulants directly into the mouth to keep the wearer upright past cardiovascular failure.
-  * **The Dead-Man Cam:** Back-mounted steam pump and mechanical cam-drive that keeps the arms cycling heavy 70-pound pneumatic breaker bars even if the operator loses consciousness or suffers fatal trauma.
-* **Acoustic & Psychological Profile:**
-  * No monster roars or theatrical battle cries. Attackers advance with wet, wheezing respirator rattle, violent steam relief venting (*clack-hiss*), and unpadded iron bootfalls.
-  * Beneath the machine clatter, the human inside is audible: choked sobbing, ragged hyperventilation, or muffled prayers begging for the cams to seize.
-* **Thematic Function:** They are not alien monsters; they are the physical manifestation of what the Mountain's extractive machine does to mortal human beings. Every confrontation is an act of tragic, horrifying mercy.
+* **Sentence and purpose:** The Spire puts people it deems unfit for society into powered frames instead of prison. Theft, debt, quota offences, and insubordination can supply the justification. Sentenced people are used for compulsory dangerous work and deployed to suppress unrest and breach resistance. The prisoner's consciousness and cooperation are not required for the frame to act.
+* **The concealed permanence:** A stated term creates the expectation of release, but nobody is released through ordinary sentence completion. Ansi and Nasa receive three months for stealing bread from the upper Spire; five years pass without release or an announced extension. Varek physically freeing prisoners is an exception to the confinement, not a functioning appeal process. The exact administrative concealment remains open.
+* **Power and control:** Steam supplies the force, with pumps, valves, hydraulic actuators, and mechanical drives transmitting movement. Handlers direct a limited set of imposed actions through external controls; an engaged drive can keep cycling until stopped or disabled. Movement builds pressure, jerks against stops, and vents. No telepathy or unexplained voluntary obedience is required. Exact command hardware and control-line routing remain to be designed.
+* **Human restraint:** The frame carries limbs in cuffs, braces, and harnesses. A person can look, speak with difficulty, and struggle in small ways, but cannot overpower the powered movement or reach the normal controls. Resistance and refusal of consent remain possible; simply deciding not to strike does not disengage the machinery.
+* **Mask and feeding apparatus:** A riveted mask leaves narrow sight-slits. Long-term feeding tubes and tight restraints cause the manuscript's lip notch, pressure sores, and damaged skin. Speech remains possible in short, painful phrases. The former coal-naphtha/adrenaline mouth-drip explanation is superseded for this literary continuity; no stimulant regimen is newly established.
+* **Breaker variant — written:** The Chapter Six rigs drive heavy breaker bars. A back-mounted pump/cam can continue cycling after consciousness is lost. Varek shears the first drive pin, catches the frame, and shuts its steam; he breaks the second rig's drive wheel and chain. Both men are freed. Retain the mechanical sequence and the first miner's broken wrist.
+* **Gripping variant — approved development:** Nasa is confined in an enforcement frame whose powered gauntlet imposes a seizure. A handler's command forces it around Ansi's throat while she tries to resist. Loaded coupling pins, arm travel, hand linkage, force, and accessible shutoff must be made legible in the final design. This is a narrative mechanism to develop, not a tested engineering claim.
+* **Sound:** Wheezing breaths, forced words, iron footfalls, valve clicks, and relief venting carry the people beneath the mechanism. Avoid monster roars and theatrical battle cries.
+* **Human consequence:** The occupants are people subjected to violence, not willing monsters. Rescue can succeed, fail, or arrive too late. Do not prescribe killing as mercy for every encounter or erase the rescued prisoners' continuing lives.
 
 ---
 

@@ -34,6 +34,14 @@ root claim and must not be presented as historically attested Gothic.
 
 ---
 
+### Salvation names — approved 27 October 2026
+
+- **Ansi** (AHN-see) — **T2 adapted name**, from Gothic *ans*, "beam / rafter," the author's mine-timber association. The adapted personal name is not claimed as an attested Gothic name.
+- **Nasa** (NAH-sah) — **T3 fictional Thulan name**, derived from Gothic *nasjan*, "to save." This is an invented descendant name, not an attested Gothic personal name.
+- **The Thulans: Salvation** is the English working title. *Ganis* was considered and rejected; it is not her name or an established in-world word.
+
+See [Salvation story direction](SALVATION_STORY_DIRECTION.md). These siblings are a separate household, not additions to Wulfila's family core.
+
 ## 3. Address Grammar
 
 - **Ordinary address:** `[Name] of [Hearth/place]` — e.g. *Wulfila of Azg-Haíms*.
@@ -50,7 +58,7 @@ root claim and must not be presented as historically attested Gothic.
   ***broþar*** "brother" (attested).
 - ***swistar*** — "sister" (attested); used in the kinship frame.
 - **The family core (RULING 029):** Wulfila (19); his siblings **Sanna (18)** and
-  **Bram (14)**; **Haila**, Wulfila's betrothed. Sanna — not Haila — is Wulfila's sister.
+  **Bram (13 during the main action; turns 14 on 30 October)**; **Haila**, Wulfila's betrothed. Sanna — not Haila — is Wulfila's sister.
 
 ---
 

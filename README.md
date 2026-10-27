@@ -3,7 +3,7 @@
 ![Novella Status](https://img.shields.io/badge/novella-Acts%20I--IV%20Complete-brightgreen)
 ![Word Count](https://img.shields.io/badge/word_count-22%2C424%20words-blue)
 ![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
-![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--031%20Locked-orange)
+![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--036-orange)
 ![Audio Master](https://img.shields.io/badge/audio-Take%207%20Cinematic%20Master%20(03%3A33)-blueviolet)
 ![License](https://img.shields.io/badge/license-Proprietary%20%2F%20Aaron%20Marchant-lightgrey)
 
@@ -38,6 +38,14 @@ The author-approved continuation follows how working communities at higher level
 
 - [Series direction and open decisions](docs/REBELLION_SAGA_DIRECTION.md)
 - [RULING 034: memory, inheritance, and the ascent](RULINGS.md#ruling-034-rebellion)
+- [RULING 036: district pressures and changing public allegiance](RULINGS.md#ruling-036-districts)
+
+## The Thulans: Salvation — companion story in development
+
+Ansi, freed from a Welded frame by Varek, tries to rescue his sister Nasa. Their three-month bread-theft sentences have become five years of confinement. The project follows the lives behind a brief encounter in the novella: shared warmth, reunion, and a rescue the machinery makes fatal. Characters, penal-system premise, and tragic outcome are approved; final pilot staging, art, and timing remain in development. The existing manuscript has not been revised.
+
+- [Story direction, continuity boundaries, and open decisions](docs/SALVATION_STORY_DIRECTION.md)
+- [RULING 035: the Welded, coercion, and the siblings](RULINGS.md#ruling-035-welded)
 
 ---
 

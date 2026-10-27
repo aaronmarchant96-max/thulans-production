@@ -1,6 +1,6 @@
 # Thulans project handoff
 
-Updated 24 October 2026. Scope: approved Chapter One prose synchronization, political-economy reference reconciliation, and rebellion-series planning.
+Updated 27 October 2026. Scope: Welded/Salvation lore, district rebellion direction, and continuity proofreading. Earlier dated manuscript synchronization and production records retain their own scope.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Authoritative artifacts
@@ -10,10 +10,20 @@ The production and synchronization notes below retain their explicitly dated his
 - Chapter mirrors: `novella/chapter_01.md` through `chapter_12.md`
 - Written-story outline: `docs/NOVELLA_BLUEPRINT.md` version 3
 - Current overview: `docs/ONEPAGER.md`
-- Literary continuation: `docs/REBELLION_SAGA_DIRECTION.md` and RULING 034
+- Literary continuation: `docs/REBELLION_SAGA_DIRECTION.md` and RULINGS 034/036
+- Welded and Salvation: `docs/SALVATION_STORY_DIRECTION.md` and RULING 035
 - Political-economy reference: `docs/THULAN_POLITICAL_ECONOMY.md` (current Gantry mechanism; unresolved rules labeled)
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
+
+## Approved direction update — 27 October 2026
+
+- RULING 035 and `docs/SALVATION_STORY_DIRECTION.md` record Ansi (AHN-see), his sister Nasa (NAH-sah), and *The Thulans: Salvation*. They receive three months for bread theft and remain Welded for five years; ordinary release never arrives. Frames impose externally directed movement. Feeding apparatus causes Ansi's lip injury; limited speech remains possible.
+- Ansi is the first broken-wrist miner Varek frees in Chapter Six. Both men survive that encounter. His Chapter Ten help and Chapter Eleven confirmation remain binding: the later search for Nasa must follow his established presence. Nasa is not the second freed miner. Her gripping frame kills Ansi against her will; her later fate and the precise staging remain open.
+- RULING 036 expands the ascending rebellion through refugees, loyalists, neutral workers, material dependencies, anticipatory reports, and official language adapting to expected power. Napoleon's 1815 return and Boston's organizing are influences, not a literal event schedule or verified changing-headlines transcript. Specific incidents are provisional.
+- Theodemir's Tier Nine office, Varek's death, the six-year epilogue, and the distinct monument/frame/pump remain intact. The old inverse numbered tier sketch has not become a new map. No automatic final collapse, bloodless victory, or sequel officeholder is approved.
+- Language notes label the siblings' adapted/invented names and correct Bram's main-action age. The audience primer's unscoped immediate-collapse claim is corrected; Salvation has its own protagonist-name allowance.
+- The author supplied a manuscript export during this conversation. No fresh direct live-Doc access, prose-mirror synchronization, final pilot approval, character-design lock, or production validation is claimed. Generated cover files have not been added by this lore update.
 
 ## Chapter One synchronization — 24 October 2026
 

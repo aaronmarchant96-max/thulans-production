@@ -86,3 +86,9 @@ Preserve Varek's death, the six-year dedication, and the distinction between the
 The recommended next step is a compact chronology and dependency sketch, followed by a next-novella outline testing the crew-transfer conflict. A precise launch date, eruption timetable, final political settlement, cast list, and final volume count remain open.
 
 This record documents the proposed explanation. It does not claim that geological coherence has been verified, that the managed retreat already appears in the manuscript, or that any prose, artwork, engineering model, or REI implementation has changed.
+
+## Later direction — 27 October 2026
+
+[RULING 036](../RULINGS.md#ruling-036-districts) adds district-specific refugee, loyalty, livelihood, and public-narrative pressures to the approved ascent. It does not approve this document's proposed six-year bridge, Theodemir's continued tenure, launch timing, or an inevitable state collapse. Reports and displaced people can reach a district before the organized rebellion.
+
+[Salvation](SALVATION_STORY_DIRECTION.md) occurs around the first novella's events, with Ansi's search necessarily after his established Chapter Ten/Eleven presence. Its exact placement remains open; its tragedy does not reset the six-year epilogue or establish the rebellion's start date.
