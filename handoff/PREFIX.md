@@ -16,6 +16,16 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## README correction and canonical motion package - 27 October 2026
+
+The author confirmed that Salvation is canon and Eleven Bells is the prototype made before the story was written. RULING 035, the pilot's scope note, the story direction, the violence doctrine, and AGENTS now distinguish canonical companion-story events from unfinished production and mechanical blocking. Existing novella prose is unchanged. The side gallery, handler, and Frame 9 are Salvation additions rather than passages already present in the novella.
+
+The cloud checkout was clean at inspection and matched GitHub main at 8af2d03. The reported 18 modified files belong to another checkout not accessible here; no such files were stashed, discarded, or overwritten. Work proceeds on docs/readme-salvation-motion. The physics tools and the entire Eleven Bells directory remain unchanged.
+
+README now uses plain ASCII, puts reader value and links first, removes badges and a current word-count claim, and labels repository prose as older mirrors. The author-supplied later manuscript export includes a prologue and revisions absent from those mirrors; this is not a new direct live-Doc verification or prose synchronization. Its Chapter Six heading remains The Welded Advance and its text uses both breaker rigs and Welded miner, so no title was silently renamed.
+
+`episodes/salvation/` is the canonical story's new motion-production package: specification, motion/audio brief, source-hashed manifest, 66-row shot ledger, matching storyboard beats, and missing-asset register. It maps the existing 16-page pilot revision 3 without claiming the later relationship brief has been rewritten into it. Source-page IDs run P01_01 through P16_03. All timing fields are unmeasured; art and audio are missing; no finished film is claimed. The old exporter is Eleven Bells-specific and is not validated for Salvation. No prototype timing, soundtrack, plates, or human-verification flags transfer to this package.
+
 ## Salvation relationship and pacing brief — 27 October 2026
 
 `docs/SALVATION_STORY_DIRECTION.md` now contextualizes the author's latest direction: competitive sibling teasing, reciprocal protection, humour arising from working lives, and the change to private, direct care under pressure. Joel/Ellie supplies a relationship reference; the siblings are not rewritten as a parent-child pair. “Shift over” and “Let me see” remain possible anchors, not locked repeated dialogue. Ansen's pursuit of Nessa should run through the existing later manuscript appearances; Nessa's goal changes to getting him clear while he persists in freeing her.

@@ -1,0 +1,619 @@
+{
+  "episode_id": "salvation",
+  "status": "planning",
+  "assets": [
+    {
+      "asset_id": "ART_P01_01",
+      "shot_id": "P01_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P01_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P01_02",
+      "shot_id": "P01_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P01_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P01_03",
+      "shot_id": "P01_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P01_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P02_01",
+      "shot_id": "P02_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P02_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P02_02",
+      "shot_id": "P02_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P02_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P02_03",
+      "shot_id": "P02_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P02_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P02_04",
+      "shot_id": "P02_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P02_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P02_05",
+      "shot_id": "P02_05",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P02_05.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P03_01",
+      "shot_id": "P03_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P03_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P03_02",
+      "shot_id": "P03_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P03_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P03_03",
+      "shot_id": "P03_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P03_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P03_04",
+      "shot_id": "P03_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P03_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P04_01",
+      "shot_id": "P04_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P04_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P04_02",
+      "shot_id": "P04_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P04_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P04_03",
+      "shot_id": "P04_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P04_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P04_04",
+      "shot_id": "P04_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P04_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P04_05",
+      "shot_id": "P04_05",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P04_05.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P05_01",
+      "shot_id": "P05_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P05_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P05_02",
+      "shot_id": "P05_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P05_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P05_03",
+      "shot_id": "P05_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P05_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P05_04",
+      "shot_id": "P05_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P05_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P06_01",
+      "shot_id": "P06_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P06_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P06_02",
+      "shot_id": "P06_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P06_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P06_03",
+      "shot_id": "P06_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P06_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P06_04",
+      "shot_id": "P06_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P06_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P06_05",
+      "shot_id": "P06_05",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P06_05.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P07_01",
+      "shot_id": "P07_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P07_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P07_02",
+      "shot_id": "P07_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P07_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P07_03",
+      "shot_id": "P07_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P07_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P07_04",
+      "shot_id": "P07_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P07_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P08_01",
+      "shot_id": "P08_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P08_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P08_02",
+      "shot_id": "P08_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P08_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P08_03",
+      "shot_id": "P08_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P08_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P08_04",
+      "shot_id": "P08_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P08_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P09_01",
+      "shot_id": "P09_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P09_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P09_02",
+      "shot_id": "P09_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P09_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P09_03",
+      "shot_id": "P09_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P09_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P09_04",
+      "shot_id": "P09_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P09_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P09_05",
+      "shot_id": "P09_05",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P09_05.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P10_01",
+      "shot_id": "P10_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P10_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P10_02",
+      "shot_id": "P10_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P10_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P10_03",
+      "shot_id": "P10_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P10_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P10_04",
+      "shot_id": "P10_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P10_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P11_01",
+      "shot_id": "P11_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P11_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P11_02",
+      "shot_id": "P11_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P11_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P11_03",
+      "shot_id": "P11_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P11_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P11_04",
+      "shot_id": "P11_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P11_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P12_01",
+      "shot_id": "P12_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P12_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P12_02",
+      "shot_id": "P12_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P12_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P12_03",
+      "shot_id": "P12_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P12_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P12_04",
+      "shot_id": "P12_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P12_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P13_01",
+      "shot_id": "P13_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P13_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P13_02",
+      "shot_id": "P13_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P13_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P13_03",
+      "shot_id": "P13_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P13_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P13_04",
+      "shot_id": "P13_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P13_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P14_01",
+      "shot_id": "P14_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P14_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P14_02",
+      "shot_id": "P14_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P14_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P14_03",
+      "shot_id": "P14_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P14_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P15_01",
+      "shot_id": "P15_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P15_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P15_02",
+      "shot_id": "P15_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P15_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P15_03",
+      "shot_id": "P15_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P15_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P15_04",
+      "shot_id": "P15_04",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P15_04.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P15_05",
+      "shot_id": "P15_05",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P15_05.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P16_01",
+      "shot_id": "P16_01",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P16_01.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P16_02",
+      "shot_id": "P16_02",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P16_02.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "ART_P16_03",
+      "shot_id": "P16_03",
+      "kind": "layered_panel_art",
+      "status": "missing",
+      "file": null,
+      "proposed_file": "storyboard/P16_03.png",
+      "approved_design": false
+    },
+    {
+      "asset_id": "AUD_VOICE",
+      "kind": "dialogue_recordings",
+      "status": "missing",
+      "file": null
+    },
+    {
+      "asset_id": "AUD_SONG",
+      "kind": "original_work_song_and_score",
+      "status": "missing",
+      "file": null
+    },
+    {
+      "asset_id": "AUD_FOLEY",
+      "kind": "foley_and_atmosphere",
+      "status": "missing",
+      "file": null
+    }
+  ],
+  "note": "No proposed filename asserts an existing or approved asset. No Eleven Bells media is reused."
+}

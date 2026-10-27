@@ -118,9 +118,9 @@ to reach him human. Do not diagnose his trauma merely to explain away his choice
 The equipment finding **FRAME 9. NO FAULT FOUND.** concerns whether the mechanism
 obeyed its controls. The [16-page pilot](SALVATION_PILOT_16_PAGES.md) answers its opening
 with the completed inspection entry before returning to the coat prepared for her.
-Frame 9, its handler, and the gallery are explicitly labelled pilot staging; this
-example does not insert those scenes into the existing novella or settle final
-mechanical geometry.
+Frame 9, its handler, and the gallery belong to the canonical Salvation companion
+story. They are not already-written novella passages; this example does not insert
+those scenes into the existing manuscript or settle final mechanical geometry.
 
 ---
 

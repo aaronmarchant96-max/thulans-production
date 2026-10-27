@@ -872,8 +872,8 @@ Relentless misery is bad storytelling and commercially dead. The novella must ha
 <a id="ruling-035-welded"></a>
 
 ## RULING 035: The Welded — Sentences, Coercion, Ansen and Nessa
-* **Status:** AUTHOR-APPROVED DIRECTION (27 October 2026); specific staging and engineering remain in development.
-* **Scope:** Current literary Welded lore and the companion graphic-novel/illustrated-short project [The Thulans: Salvation](docs/SALVATION_STORY_DIRECTION.md). Does not claim a manuscript revision or engineering verification.
+* **Status:** AUTHOR-CONFIRMED CANON (27 October 2026): Salvation is a canonical companion story. Specific staging and engineering remain in development.
+* **Scope:** Current literary Welded lore and the canonical companion story [The Thulans: Salvation](docs/SALVATION_STORY_DIRECTION.md). The author identifies Eleven Bells as an earlier pre-story prototype. Its material is preserved separately and does not override Salvation. Canon status does not claim finished production, manuscript synchronization, or engineering verification.
 * **Penal institution:** The Spire confines people it deems unfit for society in powered frames instead of prison. Stated terms promise an end that ordinary sentence completion never delivers; physical rescue remains possible. Conscious prisoners are used for dangerous labour and suppression of unrest.
 * **Control:** Steam-powered drives impose motion through restraints. Handlers direct the frames externally; engaged cams/drives can continue cycling. Prisoners can speak with difficulty and attempt small resistance, but cannot stop powered actions by refusing them. Feeding apparatus and restraints explain the established lip injury and sores. A particular drug regimen is not established.
 * **Siblings:** Ansen (AHN-sen) and Nessa (NESS-ah) receive three months for stealing bread from the upper Spire; five years pass without release or announced extension. The author-approved replacement names are T3 fictional descendants with the provenance recorded in the language note. Exact ages remain to be fixed consistently with Ansen's apparent youth.

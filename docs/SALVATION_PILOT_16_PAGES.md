@@ -3,11 +3,11 @@
 
 **Date:** 27 October 2026
 
-**Status:** Working script responding to the author's page-count, voice, record-payoff, and continuity notes. Exactly 16 story pages, 66 panels; cover and credits are outside this count. Animation runtime is not inferred from page count.
+**Status:** Working script for the author-confirmed canonical Salvation companion story. Eleven Bells is the earlier pre-story prototype. This script responds to the author's page-count, voice, record-payoff, and continuity notes. Exactly 16 story pages, 66 panels; cover and credits are outside this count. Animation runtime is not inferred from page count.
 
 **Names:** The author approved **Ansen** (AHN-sen) and **Nessa** (NESS-ah) on 27 October 2026. Revision 3 applies this naming choice throughout; pagination and story beats are unchanged. Both are fictional T3 Thulan names, not attested historical Gothic personal names.
 
-**Continuity:** Varek's rescue and the freed miner's later presence derive from the author-supplied novella export. The side gallery, Frame 9 designation, individual handler, controls, and attempted escape are **Salvation-specific pilot staging**, not scenes already present in the novella or an alternate history replacing it. The wider siblings/sentencing premise and tragic outcome are approved in [RULING 035](../RULINGS.md#ruling-035-welded). Final integration needs a route and timing check after Ansen's Chapter Ten/Eleven presence. Nessa is not the second miner Varek frees.
+**Continuity:** Varek's rescue and the freed miner's later presence derive from the author-supplied novella export. The side gallery, Frame 9 designation, individual handler, and attempted escape are **canonical Salvation companion-story additions**, not passages already present in the novella. Exact control geometry and route remain staging decisions. This is not an alternate history or a non-canon prototype. The wider siblings/sentencing premise and tragic outcome are approved in [RULING 035](../RULINGS.md#ruling-035-welded). Final integration needs a route and timing check after Ansen's Chapter Ten/Eleven presence. Nessa is not the second miner Varek frees.
 
 **Voice:** The export's rescue line is “It's stopped. I have you.” This adaptation uses the author's requested “It has stopped. I have you.” No contraction is used in Varek's new dialogue; the manuscript itself is unchanged.
 
@@ -244,7 +244,7 @@ No threat insert ends this page. Let the page turn interrupt them.
 ## Production checks before thumbnails are approved
 
 - The page count is fixed for this draft: 16 story pages and 66 panels. Section count is not used as a substitute for pagination.
-- Page 8 preserves the later manuscript appearances before the search. Exact route, elapsed time, and Nessa's location remain pilot staging until reconciled.
+- Page 8 preserves the later manuscript appearances before the search. Salvation is canon; its exact route, elapsed time, and mechanical placement remain to be reconciled. These open staging details do not make the companion story non-canon.
 - Pages 11–12 must be drawn as mirrored layouts: removable restraint, then loaded coupling. Successful progress explains why Ansen persists.
 - Nessa recognizes him, checks his injury and support, guides the fastening, chooses when to move, helps unload the brace, and finally tries to send him away. Her powered grip is involuntary.
 - The handler/control box, line route, gripping envelope, loaded pin, and low valve require a single consistent layout. No exact dimensions are invented here to claim validation.

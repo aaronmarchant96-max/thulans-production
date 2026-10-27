@@ -1,7 +1,7 @@
 # The Thulans: Salvation — Ansen and Nessa
 
 **Updated:** 27 October 2026
-**Status:** Author-approved characters, penal-system premise, and tragic outcome. The [16-page revision 3 pilot](SALVATION_PILOT_16_PAGES.md) is the current published working script and predates the relationship/pacing expansion below; no script revision is made by this brief. Exact ages, runtime, final staging, and mechanical design remain in development.
+**Status:** Author-confirmed canonical companion story, including its characters, penal-system premise, and tragic outcome. Eleven Bells is the earlier pre-story prototype and remains preserved separately. The [16-page revision 3 pilot](SALVATION_PILOT_16_PAGES.md) is the current published working script and predates the relationship/pacing expansion below; no script revision is made by this brief. Exact ages, runtime, final staging, and mechanical design remain in development.
 **Authority:** [RULING 035](../RULINGS.md#ruling-035-welded); companion to the [rebellion direction](REBELLION_SAGA_DIRECTION.md).
 
 ## Relationship and reader experience — direction for the next draft
@@ -135,7 +135,7 @@ Ansen is the first Welded miner in Chapter Six, with the broken wrist. Varek she
 
 The author-supplied current manuscript export also shows the freed young miner offering his good hand to help in Chapter Ten. Chapter Eleven confirms that both men are out of their frames. Preserve those appearances. Ansen's departure to search for Nessa must be placed after that established presence; the early pilot's immediate departure after extraction is not a settled chronology. Nessa is not a replacement identity for the second miner Varek also frees.
 
-The export was supplied in the development conversation; this update does not claim a new independent read of the live Google Doc or synchronize repository prose mirrors. The time and route of Ansen's later search, and its relation to the evacuation and Varek's death, need an explicit continuity pass before the pilot is locked. The side gallery, individual handler, Frame 9 designation, controls, and route are Salvation-specific pilot staging, not already-written novella scenes. They do not replace the approved wider penal-system premise or declare a separate alternate history.
+The export was supplied in the development conversation; this update does not claim a new independent read of the live Google Doc or synchronize repository prose mirrors. The time and route of Ansen's later search, and its relation to the evacuation and Varek's death, need an explicit continuity pass before the pilot is locked. The side gallery, individual handler, Frame 9 designation, and attempted escape belong to the canonical Salvation companion story; they are not passages already written into the novella. Exact control geometry and the search route remain staging to resolve. Salvation is not an alternate history or a non-canon prototype.
 
 ## Approved tragedy
 

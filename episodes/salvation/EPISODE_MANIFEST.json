@@ -1,0 +1,42 @@
+{
+  "episode_id": "salvation",
+  "title": "The Thulans: Salvation",
+  "canon_status": "author_confirmed_canonical_companion_story",
+  "canon_authority": "../../RULINGS.md#ruling-035-welded",
+  "production_status": "planning",
+  "measurement_mode": "unmeasured",
+  "source_script": "../../docs/SALVATION_PILOT_16_PAGES.md",
+  "source_revision": 3,
+  "source_sha256": "81dd0ba83cb2fef8c265dab9451632fa8d04070262eda79cf9f6ef869221e5a2",
+  "direction": "../../docs/SALVATION_STORY_DIRECTION.md",
+  "page_count": 16,
+  "panel_count": 66,
+  "shot_count": 66,
+  "ledger": "SHOT_LEDGER.csv",
+  "storyboard": "storyboard_beats.json",
+  "asset_register": "ASSET_REGISTER.json",
+  "runtime_seconds": null,
+  "fps": 24,
+  "fps_status": "proposed_delivery_setting",
+  "playback_rate": 1.0,
+  "delivery": {
+    "width": 1920,
+    "height": 1080,
+    "status": "proposed",
+    "panel_handling": "preserve composition and meaning; do not blindly crop portrait pages"
+  },
+  "timing_status": "awaiting_read_and_animatic",
+  "art_status": "missing",
+  "audio_status": "missing",
+  "render_status": "not_rendered",
+  "renderer_compatibility": "tools/export_animatic.py is Eleven Bells-specific and is not validated for this package",
+  "prototype_policy": "001_eleven_bells is preserved as a pre-story prototype; its master timings, audio, plates, and approval claims do not transfer",
+  "open_work": [
+    "Apply the newer relationship/pacing brief in an explicit future script revision",
+    "Resolve exact search route after the established Chapter Ten/Eleven presence",
+    "Block handler, control line, grip, loaded pin and reachable valve",
+    "Produce and approve 66 panel assets and original audio",
+    "Measure timing through a read and animatic",
+    "Use an episode-neutral render path before producing a master"
+  ]
+}
