@@ -16,6 +16,10 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## Violence doctrine expansion — 27 October 2026
+
+`docs/THULAN_VIOLENCE_DOCTRINE.md` now records the approved emotional direction: ordinary shared life and real gains before impact, sudden legible injury, slower human recognition, and surviving relationships/tasks. Welded coercion distinguishes the prisoner's intention from commanded motion. Sound may retain its tenderness through the action; panel rhythm can carry the same effect. The doctrine permits warnings and established danger without requiring prolonged fatal anticipation, and no longer claims a universal vocal response or complete energy transfer for every injury. Its Salvation example is explicitly pilot-scoped. No new fate, clinical diagnosis, final engineering layout, or manuscript change is introduced.
+
 ## Repository front page — 27 October 2026
 
 README now provides direct reading links and separate status descriptions for the complete novella reading draft, *Salvation* pilot revision 3 (16 pages/66 panels), and the planned rebellion novellas. It uses Ansen/Nessa, introduces the siblings without recounting the killing, and includes the district pressures and new document paths. Existing manuscript snapshot dates/counts, primary cover, tooling instructions, and unresolved chronology/geography remain intact. This is a front-page documentation update, not new prose or production completion.
