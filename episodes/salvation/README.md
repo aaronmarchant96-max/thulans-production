@@ -10,6 +10,7 @@ Eleven Bells was a prototype made before the story was written. Its existing fol
 
 - [The canonical story direction](../../docs/SALVATION_STORY_DIRECTION.md)
 - [The 16-page pilot, revision 3](../../docs/SALVATION_PILOT_16_PAGES.md)
+- [Plan for pilot revision 4](../../docs/SALVATION_REVISION_PLAN.md)
 - [The episode specification](EPISODE_SPEC.md)
 - [The motion and audio brief](MOTION_AUDIO_BRIEF.md)
 - [The violence doctrine](../../docs/THULAN_VIOLENCE_DOCTRINE.md)

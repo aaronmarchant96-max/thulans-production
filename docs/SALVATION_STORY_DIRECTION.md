@@ -6,6 +6,8 @@
 
 ## Relationship and reader experience — direction for the next draft
 
+The [revision 4 plan](SALVATION_REVISION_PLAN.md) turns this direction into a sequence of prose, pagination, blocking, reader review, and sound/production passes. It does not claim that those passes are complete.
+
 The reader should enjoy Ansen and Nessa's company, learn how they understand each other,
 and begin to imagine their life after escape. Their deaths and injuries are not the
 only meaningful experiences in the story. Ordinary happiness, successful help, and a

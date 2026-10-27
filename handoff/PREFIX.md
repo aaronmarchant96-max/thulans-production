@@ -16,6 +16,10 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## Plan for Salvation revision 4 - 27 October 2026
+
+`docs/SALVATION_REVISION_PLAN.md` records the next work: establish reciprocal sibling personalities and everyday humour; draft continuous prose with an active search; shape a sixteen-page script; check staging and reader engagement; develop original sound alongside rough boards; then synchronize production metadata. The first concrete task is the opening prose scene. The 66-panel count remains revision 3's baseline; any later change must be explicit and mapped. No script, art, audio, timing, source hash, prototype asset, or frozen tool is changed by the plan itself. Continue on the existing review branch; main has not been merged.
+
 ## README correction and canonical motion package - 27 October 2026
 
 The author confirmed that Salvation is canon and Eleven Bells is the prototype made before the story was written. RULING 035, the pilot's scope note, the story direction, the violence doctrine, and AGENTS now distinguish canonical companion-story events from unfinished production and mechanical blocking. Existing novella prose is unchanged. The side gallery, handler, and Frame 9 are Salvation additions rather than passages already present in the novella.
