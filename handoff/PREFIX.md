@@ -200,3 +200,15 @@ Restored the authoritative illustrated Doc link, redirected the removed appendix
 Moved 33 root Python scripts into `tools/legacy/blender/`, `tools/legacy/llm/`, and `tools/blender_setup/`. The V35 preflight JSON moved with the historical Blender scripts. Updated the four generation helpers so their outputs target the relocated builder directory. No tracked external references to the old root script paths were found; documentation and directory navigation now show the new locations. Manuscript files and assets are unchanged.
 
 Relocation checks: all 33 Python scripts compile; the four generator output paths resolve to the moved builders; the other 30 relocated files are byte-identical to their originals. Repository CI was run before and after the move and retained the same missing agent-contract markers plus three physics-test failures and one related contract-test setup error (35 tests). Blender execution was not part of this directory cleanup.
+
+## Panel Studio Gate & FORTIS Pilot Guard (PR-B) — 28 October 2026
+
+Completed PR-B on `feature/panel-studio-fortis-guard` (PR #3 opened, awaiting human review):
+- Introduced `sceneProfile` parameter supporting `varek_defense_line` (Episode 001 canonical baseline) and `fortis_pilot` (FORTIS graphic novel pilot).
+- Fixed self-conflicting positive prompt presets (moved negative constraints exclusively to `negativePreset`), verified `synthesizePrompt -> auditPrompt` round-trips for both profiles with 0 violations and 0 missing anchors.
+- Explicitly rejected unknown `sceneProfile` keys with `Error("Unknown sceneProfile: ...")` and HTTP 400.
+- Implemented `validateProductionBoundary` requiring approved, versioned style references (`styleReference: 'FORTIS_STYLE_V1.0'`), rejecting unapproved/pending references, and establishing that text prompt audits do not prove rendered visual style.
+- Corrected Page 16 fixture: in retrospective, both coupling pins remain seated at the start, spanner still on shelf (script line 236).
+- Propagated `sceneProfile` through server (`GET /api/profiles`, `POST /api/synthesize`, `POST /api/generate`) and UI (`#scene-profile` selector).
+- Added `serverIntegration.test.mjs`; all 29 tests pass across 6 suites (0 failures). Baseline Episode 001 behavior, canon, and novella prose remain untouched.
+
