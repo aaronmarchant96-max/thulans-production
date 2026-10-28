@@ -1,6 +1,6 @@
 # Thulans project handoff
 
-Updated 27 October 2026. Scope: Welded/Salvation lore, district rebellion direction, and continuity proofreading. Earlier dated manuscript synchronization and production records retain their own scope.
+Updated 28 October 2026. Scope: Salvation opening candidate review, Welded/Salvation lore, district rebellion direction, and continuity proofreading. Earlier dated manuscript synchronization and production records retain their own scope.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Authoritative artifacts
@@ -16,9 +16,15 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## Opening revision 4 candidate - 28 October 2026
+
+`docs/SALVATION_OPENING_REVISION_4_CANDIDATE.md` preserves the author's single current opening proposal, titled The Thulans: Fortis and explicitly Candidate for Author Approval. It replaces earlier opening alternatives as a proposal, not as the authoritative script. It retains 17 panels across Pages 1-4 (3/5/4/5), fitting the existing 16-page/66-panel allocation. Both siblings remain behind the boards; the tin-warming hatch supplies no second loaf; Ansen swaps the bread during the patrol freeze; Nessa burns her mouth; Page 3 settles into the cold-hand contact, disputed fourth note, and cuff thread before the arrest. Earlier Ansen hot-bite and repeated bread-contest instructions are superseded for this candidate.
+
+The proposed hatch/shelter arrangement and explicit childhood-coat confiscation await author approval. Tin exchange, patrol placement, and musical lettering need thumbnail blocking. Fortis is the candidate's supplied title, not an approved project-wide rename. Pilot revision 3, all production source hashes/mappings, and canon remain unchanged. The revision plan now points to review of this candidate rather than drafting another competing opening. Continue on the existing review branch; no main merge is authorized by this candidate.
+
 ## Plan for Salvation revision 4 - 27 October 2026
 
-`docs/SALVATION_REVISION_PLAN.md` records the next work: establish reciprocal sibling personalities and everyday humour; draft continuous prose with an active search; shape a sixteen-page script; check staging and reader engagement; develop original sound alongside rough boards; then synchronize production metadata. The first concrete task is the opening prose scene. The 66-panel count remains revision 3's baseline; any later change must be explicit and mapped. No script, art, audio, timing, source hash, prototype asset, or frozen tool is changed by the plan itself. Continue on the existing review branch; main has not been merged.
+`docs/SALVATION_REVISION_PLAN.md` records the next work: establish reciprocal sibling personalities and everyday humour; draft continuous prose with an active search; shape a sixteen-page script; check staging and reader engagement; develop original sound alongside rough boards; then synchronize production metadata. The original first task was an opening prose scene; the 28 October candidate above supersedes that opening instruction. The 66-panel count remains revision 3's baseline; any later change must be explicit and mapped. No authoritative script, art, audio, timing, source hash, prototype asset, or frozen tool is changed by the plan itself. Continue on the existing review branch; main has not been merged.
 
 ## README correction and canonical motion package - 27 October 2026
 

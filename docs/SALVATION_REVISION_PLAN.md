@@ -1,6 +1,8 @@
 # Salvation: plan for pilot revision 4
 
-**Status:** Revision plan, not a rewritten script or a completed production.
+**Status:** Revision plan with a separate opening candidate for author review; no authoritative script replacement or completed production.
+
+**Current opening proposal:** [Opening Revision 4 - Candidate for Author Approval](SALVATION_OPENING_REVISION_4_CANDIDATE.md), supplied under the title The Thulans: Fortis. It preserves 17 panels across Pages 1-4 and the existing 16-page, 66-panel allocation. Earlier opening alternatives and their contradictory notes are retired as proposals. Pilot revision 3 remains the authoritative working script, and the production package still maps revision 3. The candidate title does not rename the Salvation project.
 
 **Starting point:** [Pilot revision 3](SALVATION_PILOT_16_PAGES.md), the [relationship/pacing direction](SALVATION_STORY_DIRECTION.md), and the [Salvation motion package](../episodes/salvation/README.md). Salvation is canon; Eleven Bells remains an untouched earlier prototype.
 
@@ -87,6 +89,8 @@ Continue on the existing review branch. This plan does not merge it into main, s
 
 **Output:** A coherent revision 4 review commit with accurate production metadata. Final art follows the script/thumbnail review, so effort is spent on the version that reads well.
 
-## First task
+## Current next task
 
-Draft the opening as prose: Ansen and Nessa pursuing a small shared objective, bickering through familiar Fairguni, then finding room to eat. Give each a moment of humour and a practical act of care without pausing to explain the bond. Review that opening before rewriting the rest of the pilot.
+Review the single opening candidate before rewriting the rest of the pilot. Its freeze-and-swap scene, Nessa's hot bite, quieter Page 3, and cuff-to-arrest continuity replace the earlier competing opening instructions. The hatch/shelter arrangement and explicit childhood-coat confiscation remain proposed additions pending author approval. Thumbnail blocking must resolve the tin exchange, patrol position, and disputed fourth note within the existing allocation. The earlier instruction to start by drafting another opening in prose is superseded; continuous prose remains an available method for developing the later search and reunion.
+
+Do not overwrite revision 3, remap the production package, or treat the candidate as canon-approved until the author approves the change.
