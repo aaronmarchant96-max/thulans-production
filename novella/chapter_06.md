@@ -63,27 +63,27 @@ The second mastiff veered, snapped at Varek’s lower ram guard, shattered its i
 
 “They’re coming!” Kaelen yelled, wiping muddy spray from his eyes. “Look past the dogs!”
 
-Down the stone throat came the penal frames.
+Down the stone throat came two breaker rigs.
 
-There were two of them.
-
-They were the Welded, debtors fastened into mining rigs. Iron braces held their arms against driven breaker bars. Riveted masks hid their faces. A tube fed stimulants into each mouth, keeping the men awake while the machines worked.
-
-Boilers drove the bars through their repeating stroke.
+Their bars rose and fell on either side of the track, hammering the stone floor. Riveted masks sat low between the shoulder braces. Beneath the nearer frame, a boot dragged heel-first through the ballast.
 
 Clack-hiss. Clack-hiss.
 
-Down, smash, lift, down. The men could not stop or steer them. The bars tore at the walls and struck sparks from the rails.
+The rig caught against a sleeper. Its drive kept turning. Something inside the arm brace pulled tight, and the boot scraped backward.
 
-Through the narrow slits in the lead rig’s mask, Kaelen caught a glimpse of bloodshot human eyes, wide with sheer terror.
+Kaelen heard a voice beneath the steam.
 
-Beneath the roar of the venting steam, a muffled human voice was weeping inside the iron:
+“Can’t stop it.”
 
-“Can’t stop it... please... my wrist is broke... shear the pin...”
+The next stroke dragged the frame clear. Through a slit in the mask, an eye turned toward his lamp.
 
-⁂
+“Please. My wrist is broke.”
 
-Varek advanced to meet the first rig. Kaelen followed at his left shoulder, leaving Bram’s skip and the track-switch behind them.
+The breaker rose again. A hand hung below its cuff, the fingers swollen against one another. As the bar descended, the fingers jerked open.
+
+“Shear the pin.”
+
+Varek advanced to meet it. Kaelen followed at his left shoulder, leaving Bram’s skip and the track-switch behind them.
 
 The rig drove toward him, its heavy breaker rising for another stroke.
 
@@ -187,17 +187,31 @@ Odo stood in the water by the ladder. He took a clean slate from his satchel, ma
 
 He backed up one rung before turning. His boots scraped on the ladder until the dark hid him.
 
-Kaelen knelt in the slurry beside the first Welded miner.
+Kaelen knelt beside the first frame.
 
-Kaelen cut the leather straps beneath the injured miner’s jaw. Then he set his chisel under the riveted collar of the iron mask and knocked the fastenings free, one by one. At last the man could breathe without the metal pressed against his face.
+He cut the leather beneath the miner’s jaw. The strap had sunk into the flesh; he worked the flat of his knife under it before he could draw the edge away from the throat.
 
-The sheet-iron faceplate fell away into the water.
+Then he set his chisel under the mask’s riveted collar.
 
-Under the mask was a boy no older than Wulfila. His lips were blistered around the feeding tube. Tears cut pale lines through the grime.
+At the first tap, the miner flinched.
 
-“It can’t drive you now, lad,” Kaelen said, wiping the boy’s jaw with his thumb. “You’re free of it.”
+“Only the fastening, lad.”
 
-The boy looked at Kaelen’s worn leather apron, then looked up at the three-tonne iron figure standing above them in the dark.
+Kaelen knocked the rivets free one by one. The mask came loose at the brow and held along one cheek. He put down the chisel. With his other hand supporting the miner’s head, he eased the iron away until the skin released.
+
+Underneath was a boy no older than Wulfila.
+
+A raw patch followed the edge of the mask from his cheekbone to his jaw. The feeding tube had worn a notch inside his lower lip. He tried to close his mouth when the cold air reached it, but the tube held it open.
+
+Kaelen looked down at the wrist. Above the cuff, an old sore had healed around the leather. Below it, the hand lay at an angle it should not have held.
+
+He took off his cap and folded it beneath the boy’s arm.
+
+“It can’t drive you now,” he said. “You’re free of it.”
+
+The boy kept watching the breaker bar.
+
+Then his eyes moved from Kaelen’s worn leather apron to the three-tonne iron figure standing above them in the dark.
 
 “Is it... is it the First Hearth?” the boy croaked, his voice raw.
 

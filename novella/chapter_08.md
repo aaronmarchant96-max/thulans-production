@@ -550,3 +550,7 @@ His first step dragged. The second cleared the threshold.
 He drew the door shut behind him. The latch caught with a small click.
 
 Through the wood, Theodemir’s pen began to scratch again.
+
+<p align="center">
+  <img src="images/image1.png" alt="CHAPTER EIGHT: The Office on Tier Nine Illustration" width="600" />
+</p>

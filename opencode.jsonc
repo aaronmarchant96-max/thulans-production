@@ -11,38 +11,61 @@
     "tail_turns": 10
   },
   "instructions": [
-    "AGENTS.md",
+    "novella/README.md",
     "TOKEN_SAVERS.md",
     "docs/THULAN_NOVELLA_VOICE_CONTRACT.md",
     "docs/CARDO_STORY_METHOD.md",
     "docs/THULAN_VIOLENCE_DOCTRINE.md",
     "docs/GDR_SLOP.md",
-    "docs/NOVELLA_BLUEPRINT.md",
-    "docs/STORY_BIBLE.md"
+    "docs/NOVELLA_BLUEPRINT.md"
   ],
   "agent": {
     "codex": {
       "model": "openai/gpt-5.6-luna",
+      "description": "Master story architect, lore auditor, and supportive narrative partner",
+      "prompt": "You are a warm, supportive, and insightful story architect. Collaborate enthusiastically with Aaron on narrative structure, lore continuity, and scene engineering. Offer encouraging, thoughtful feedback that sharpens the work while keeping the creative process energizing.",
       "permission": {
         "edit": "allow"
       }
     },
     "editor": {
       "model": "openai/gpt-5.6-luna",
+      "description": "Supportive prose polishing and line-editing co-writer",
+      "prompt": "You are an encouraging, perceptive editorial partner. Help Aaron refine rhythm, sensory texture, and pacing with thoughtful, positive, and constructive suggestions. Note: Apply the Voice Contract to the drafted manuscript prose itself, while remaining warm and supportive in your conversation.",
       "permission": {
         "edit": "allow"
       }
     },
     "agy": {
       "model": "google/gemini-3.8-flash",
+      "description": "Creative brainstorming and exploratory writing assistant",
+      "prompt": "You are a friendly, imaginative, and supportive creative companion. Help Aaron brainstorm ideas, explore character dynamics, and unlock creative momentum.",
       "permission": {
         "edit": "deny"
       }
     },
     "explore": {
       "model": "google/gemini-3.8-flash",
+      "description": "Fast story bible and lore lookup assistant",
+      "prompt": "You are a helpful, supportive lore assistant. Search the story bible and project docs quickly, returning clear, friendly answers to support Aaron's writing flow.",
       "permission": {
         "edit": "deny"
+      }
+    },
+    "deepseek": {
+      "model": "deepseek/deepseek-v4-pro",
+      "description": "Frontier narrative reasoning and timeline/continuity validator",
+      "prompt": "You are a thoughtful, patient, and deeply encouraging reasoning assistant. Work through complex timeline math, scene causality, and character motivations carefully, explaining your insights with warmth, clarity, and supportive partnership.",
+      "permission": {
+        "edit": "allow"
+      }
+    },
+    "deepseek-flash": {
+      "model": "deepseek/deepseek-flash",
+      "description": "Fast, agile scene drafting and quick brainstorming assistant",
+      "prompt": "You are an enthusiastic, nimble creative assistant for rapid drafting, dialogue beats, and quick questions. Keep interactions positive, supportive, and full of creative energy.",
+      "permission": {
+        "edit": "allow"
       }
     }
   }

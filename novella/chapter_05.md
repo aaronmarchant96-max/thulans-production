@@ -7,63 +7,51 @@ Aaron Marchant
 
 Kaelen did not kneel. He looked at Varek’s feet, as he would at any crane settling on bad ground.
 
-“The larch prop, boy!” Kaelen shouted. “Sanna’s got the waste gate open. Now help her with that timber. We have to take the roof off him.”
+“The larch prop, boy! Sanna’s got the waste gate open. Help her with that timber. We have to take the roof off him.”
 
-Bram scrambled backward through the freezing spray, his bare hands plunging into the ditch slurry to haul the spare larch timber off the dead-end flat-car.
+Bram dragged the spare larch timber from the flat-car. Sanna got her shoulder beneath one end, and together they hauled it through the freezing spray. Bark tore at their sleeves.
 
-Sanna got her shoulder beneath one end of the soaked log. Bram hauled the other. Bark tore at their sleeves as they dragged it toward Varek.
+The roof beam bowed across Varek’s right shoulder. A white splinter peeled from it and fell across his visor. If the beam split, the rock above it would follow.
 
-Above them, Varek Fairgunjis stood braced between the stone floor and the mountain.
+As Kaelen helped them heave the prop upright, Bram saw the needle falling on the gauge beside Varek’s neck. Oil misted from his shoulder.
 
-The roof beam bowed across Varek’s right shoulder-guard. A long white splinter tore free of the larch, showering his visor with wet bark. If the beam split, the rock above it would follow.
+“The right-shoulder seal’s gone!” Kaelen shouted.
 
-The frame shuddered. Through the spray, Bram saw the needle falling on the gauge beside Varek’s neck.
+Varek’s boots shifted in the loose ballast. One caught against a rail, and the beam moved with him.
 
-“He’s bleeding pressure!” Kaelen called as he fought the prop upright. “The right-shoulder seal’s gone!”
+“Seat the prop’s foot,” he said. “Right leg lock broken. I cannot lower the beam much farther.”
 
-Oil misted from the right shoulder. Varek’s boots shifted in the loose ballast; one was braced against a rail. The beam moved with him.
+Kaelen dropped to his good knee. He set an oak plate beneath the prop to keep it from sinking into the mud, then worked its notched top under the beam.
 
-“Seat the foot,” Varek said. “Right leg lock broken. I cannot lower it much farther.”
+“Wedges!”
 
-“I see it!” Kaelen answered.
+Sanna took two iron wedges from the basket and pushed them between the plate and the foot of the prop. Kaelen drove them home with his sledge. Each blow tightened the timber beneath the roof; fresh resin squeezed through its bark.
 
-Kaelen dropped to his good knee. He set the foot of the heavy larch prop on an oak plate so it would not sink into the mud, then worked its notched top beneath the failing roof beam.
+“Easy now. Let the prop take it.”
 
-“Wedges!” Kaelen shouted without looking back.
-
-Sanna was already beside him. She snatched two iron wedges from the basket and jammed them between the oak plate and the foot of the prop.
-
-Kaelen swung the sledge. CLANG.
-
-The wedge drove home. The prop shivered as it began to take the weight.
-
-CLANG. CLANG.
-
-The second wedge seated. Fresh resin squeezed from the bark as the wood tightened under the load.
-
-“Easy now,” Kaelen said. “Let the prop take it.”
-
-Varek eased his shoulder down. The prop creaked beneath the beam.
+Varek lowered his shoulder. The timber creaked as the weight came onto it, and Bram watched the long split in the beam.
 
 The ceiling held.
 
-Varek went back through the breach. With the arch down, he could reach the inspection pipe’s shutoff. He forced it closed. The roar dwindled to the wash of water draining from the chamber.
+Varek went back through the breach and forced the inspection pipe’s shutoff closed. The roar dwindled to the wash of water draining from the chamber.
 
-The flood left oil and black silt across the sleepers. At the entrance, fallen timber held a deep pool on the track. Lower down, the open waste gate carried the dirty water past the nursery branch.
+Oil and black silt covered the sleepers. Fallen timber trapped a deep pool at the entrance, but farther down, the open waste gate carried the dirty water past the nursery branch.
 
-Bram stood shivering in the draining water. Varek returned from the chamber, and for the first time the boy saw the full eight-foot bulk of him.
+When Varek returned, Bram saw the full eight-foot bulk of him. His plates were pitted and scarred, green around the bronze fittings. They looked nothing like the polished statues above. Soot almost hid the old foundry crest on his chest.
 
-The plates were pitted and scarred, green around the bronze fittings. They looked nothing like the polished statues above. An old foundry crest lay almost hidden beneath the soot on his chest guard.
+The shutters behind his visor clicked. His lenses settled on the pine sprig behind Bram’s three brass pins. The needles were soaked black.
 
-The shutters behind the visor clicked. The lenses settled on Bram’s chest.
+The bronze throat-plate scraped forward.
 
-On the boy’s gray sacking apron, pinned behind the three brass safety pins, the bruised sprig of mountain pine was soaked black with ditch water.
+“You stood behind the rope.”
 
-The machine’s bronze throat-plate scraped forward on its dry tracks.
+Beneath the metal rasp, Bram heard the thin voice of an old man.
 
-“You stood behind the rope,” Varek said. Beneath the metal rasp, Bram heard the thin voice of an old man. “Tier Six. Forty days ago.”
+“Tier Six. Forty days ago.”
 
-Bram’s throat locked. He pressed his knuckles against the wet pine needles on his chest. “You were standing behind the Sub-Deacon.”
+Bram pressed his knuckles against the wet pine. His throat tightened.
+
+“You were standing behind the Sub-Deacon.”
 
 “They brought me to stand behind the gate,” Varek said. “So two thousand people would believe I approved.”
 
@@ -77,49 +65,47 @@ She pointed her spanner toward the sealed gate beyond the breach.
 
 “And the water was here all along.”
 
-Varek looked at the breach.
+Gate 44-A stood in the chamber, its bronze wheel locked and wire-sealed. Beside it, the smaller draw-off valve sat above the flood mark. Dirty water had not reached its outlet. Below it, the broken inspection pipe was quiet.
 
-Gate 44-A stood in the chamber, its great bronze wheel locked and wire-sealed. Beside it was the smaller draw-off valve. Its outlet sat above the flood mark, untouched by the dirty water. The split inspection pipe lay below, its flow now stopped.
-
-Varek rested his right talons against the pipe. He listened.
-
-“They did not lock the gate because the cistern failed,” Varek said.
-
-The quartz lenses in his visor pulsed green against the stone.
+Varek rested his right talons against the supply pipe.
 
 “The shipyard pumps run through the night,” he said. “I hear them through the rock. The lower taps go quiet. The pumps do not.”
 
-Bram took the wrapped slate from his tunic and held it out. Kaelen checked its marks against the pipe, then looked back at Varek beside the new roof prop.
+Bram took the wrapped slate from his tunic and held it out. Kaelen checked its marks against the pipe.
 
-“Eight hundred and twenty tonnes of plate,” Kaelen said. “We rolled it curved. I asked what waterworks needed plates that size.”
+“Eight hundred and twenty tonnes of plate,” the smith said. “We rolled it curved. I asked what waterworks needed plates that size.”
 
 He looked toward Lower Four.
 
 “The six hulls on the wall. They’re real.”
 
-Varek’s exhaust reed gave a dry, metallic rattle.
+Bram looked from the slate in Kaelen’s hand to Varek.
 
-“Six hulls,” Varek said. “Six hundred thousand berths.”
+“Why keep it from us? If there was water, why did he have to go?”
+
+“The ships’ boilers need clean water,” Varek said. “The magma is rising beneath the lower workings.”
+
+“An exit,” Kaelen said.
+
+“Six hulls,” Varek said. “Six hundred thousand berths between them.”
 
 “Who told you that?” Kaelen asked.
 
 “They read the loading schedule behind the choir-gate. Before the crowd came in.”
 
-Sanna stopped wringing the flour sack. Her hands froze, the cold water dripping through her knuckles onto the stone.
+Sanna’s hands tightened around the spanner.
 
-“Six hundred thousand?” Her eyes moved to the dark drift behind them, toward the haulage trunks where four levels of tenements coughed in the damp. “Four point two million people live in this mountain.”
+“Six hundred thousand?”
 
-Sanna looked down at her hands. “One in seven.”
+She looked down the dark drift toward Lower Four.
 
-Varek’s exhaust reed clicked. “Yes.”
+“There are four point two million of us.”
 
-Bram stepped through the standing water. He looked from the slate in Kaelen’s hand to Varek’s speaking plate.
+Water dripped from the sacking around her hands.
 
-“Why keep it from us?” Bram asked. “If there was water, why did he have to go?”
+“One in seven.”
 
-“The ships’ boilers need clean water,” Varek said. “The magma is rising beneath the lower workings.”
-
-“An exit,” Kaelen said.
+“Yes,” Varek said.
 
 Kaelen handed the slate back to Bram. Wulfila had held it before him. The water had been there then, too.
 
@@ -190,3 +176,7 @@ The maul’s broad head rose from the water, dripping grease. Oil hissed through
 Varek stepped over a loose packing block into the centre of the track.
 
 “Then bring your cold chisel, smith,” Varek rasped through his bronze plate. “I have not worked with a crew in three hundred years.”
+
+<p align="center">
+  <img src="images/image9.png" alt="CHAPTER FIVE: The Shoring of Drift 14 Illustration" width="600" />
+</p>

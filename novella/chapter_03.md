@@ -17,7 +17,7 @@ The clerks had taken everything from the shelf: Wulfila’s spare boots, his den
 
 Bram pulled Wulfila’s brass chit out from behind his sister’s apron bib. His thumb rubbed the square hole punched through the center, right between the 12 and the W.
 
-“He said his spare boots were here,” Bram whispered. “Only one season on the heels. When I turned fourteen on the thirtieth, I could put sacking in the toes and wear them.”
+“He said his spare boots were here,” Bram whispered. “Only one season on the heels. When I turn fourteen on the thirtieth, I could put sacking in the toes and wear them.”
 
 “Clerks don’t leave leather behind,” Kaelen said, his eyes fixed on the dark crack under the locker-house door where the draft pulled toward the main shaft. “Leather’s worth four copper tokens a pair to the cobbler on Tier Seven. Hurry up, boy. If the watchman comes round the corner with his dog, we’re both going in the cage.”
 
@@ -37,7 +37,7 @@ Across the room, Sanna knelt at the dry tap, scraping the bottom of the water ba
 
 Sanna looked at the dry cup. “Then show Odo.”
 
-“The main gate’s locked. The key stays on Tier Eight. I took the survey slate from the satchel when he dropped it, but I can’t read the clerk-marks. Odo would call it stolen before anyone listened.”
+“The main gate’s locked. The key stays on Tier Eight. I took the survey slate from the surveyor’s dropped satchel, but I can’t read the clerk-marks. Odo would call it stolen before anyone listened.”
 
 “Show Kaelen.”
 
@@ -49,7 +49,7 @@ Sanna looked at him.
 
 Wulfila touched the ration order nailed to the doorpost.
 
-“But the Gantry is witnessed. When the clerk takes my forty-one years, he has to enter eight pints against our hearth. Not a promise from Odo. A mark in their own ledger.”
+“But the Gantry is witnessed. When the clerk takes my remaining years, he has to write eight pints into the book for our hearth. Not a promise from Odo. A mark in their own ledger.”
 
 He put the sprig of mountain pine into Bram’s hand. His fingers were shaking.
 
@@ -65,7 +65,7 @@ On the Gantry next morning, three men in polished helmets blew a long, flat chor
 
 Wulfila stood barefoot on the drop-plate. The bailiff had taken his pit boots at the choir-stall door and credited their leather to the Council. His feet were pale against the oiled iron grating, their knuckles blackened by coal. Beside him, Haila had braided the hemp cord now hanging from his neck. Her hands shook as she pressed an iron hammer-ring into his palm—the betrothal token they had forged from scrap behind the smelter flues.
 
-Behind them, Brothar Varek stood bolted to the choir-gate in his eight-foot iron walking cage. The twin quartz lenses stared over the crowd, blind and still. Kaelen’s grandfather had cast the bronze hip-pins in Foundry Three.
+Behind them, Varek Fairgunjis—the Brothar—stood bolted to the choir-gate in his eight-foot iron walking cage. The twin quartz lenses stared over the crowd, blind and still. Kaelen’s grandfather had cast the bronze hip-pins in Foundry Three.
 
 “Thulan of the Old Hearths,” their father used to call him. A Thulan stayed until the others were clear. Bram looked at the iron hands beside the choir-gate. Neither moved.
 

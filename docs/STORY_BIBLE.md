@@ -1,19 +1,25 @@
 ---
-status: authoritative-story-bible
-track: CINEMATIC-001
+status: RETIRED_AND_SUPERSEDED
+superseded_by: docs/NOVELLA_BLUEPRINT.md
+canonical_novella_hub: novella/README.md
+last_reviewed: 2026-10-24
 authority: Aaron Marchant
-author: AGY (Antigravity)
-auditor: OpenCode
-canon_sources:
-  - animation/thulans-production/docs/THE_DISMANTLING_OF_VAREK.md
-  - animation/thulans-production/docs/VAREK_ACTS_ONE_AND_TWO.md
-  - animation/thulans-production/docs/THE_THULANS_FEATURE_PITCH.md
-  - animation/thulans-production/docs/NAME_CANON.md
-  - animation/thulans-production/docs/GDR_SLOP.md
-  - animation/thulans-production/docs/VISUAL_ATMOSPHERE_GATE.md
+warning: "DO NOT USE FOR NOVELLA CANON OR STORY REASONING. SUPERSEDED BY NOVELLA_BLUEPRINT.MD"
 ---
 
-# THE THULANS: CINEMATIC STORY BIBLE (TRACK `CINEMATIC-001` / RECONCILED)
+# RETIRED: THE THULANS STORY BIBLE (SUPERSEDED)
+
+> [!WARNING]
+> ### 🚨 RETIRED & SUPERSEDED BY `docs/NOVELLA_BLUEPRINT.md`
+> **DO NOT USE THIS DOCUMENT FOR NOVELLA CANON, SCENE TIMELINES, OR CHARACTER MOTIVATION.**
+> 
+> This document (`STORY_BIBLE.md`) contains historical, interactive game-branching hypotheses ("BURY", "EXPOSE", "LEVERAGE" choices, Hearth Steward interactive framing) that contradict the completed twelve-chapter novella canon.
+> 
+> **For the authoritative literary canon, consult:**
+> 1. [`novella/README.md`](../novella/README.md) — The canonical 60-line novella hub & chapter index
+> 2. [`docs/NOVELLA_BLUEPRINT.md`](NOVELLA_BLUEPRINT.md) — The authoritative four-act, twelve-chapter structural blueprint
+> 3. [`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`](../novella/THE_THULANS_MANUSCRIPT_COMPLETE.md) — The complete synchronized text mirror
+> 4. [Illustrated Reading Edition](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY) — Authoritative illustrated reading draft
 
 ---
 

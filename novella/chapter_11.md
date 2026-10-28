@@ -450,3 +450,7 @@ Marta stood beside the bench with the child against her shoulder. Bram was still
 Sanna kept one hand around his.
 
 With her free hand, she drew the blanket over his toes.
+
+<p align="center">
+  <img src="images/image6.png" alt="CHAPTER ELEVEN: Skin Against Skin Illustration" width="600" />
+</p>

@@ -77,6 +77,8 @@ Varek had served the deep mine for three hundred years. Forty days earlier, he h
 
 Inside the dark shell, there was no light and no speech. There was only the slow creep of the mountain against the plates, the banked pilot burner, and the smell of ancient mineral grease.
 
+The harness lay tight across his ribs. He shifted what little he could inside it, waiting for the breathing engine’s next stroke.
+
 Through the rock came three taps, a pause, then three more. A smith testing a cap. Farther off, a haulage crew were singing to keep their pull together. Varek had heard the same work-song before their grandfathers were born. One voice kept coming in late.
 
 He waited for it on the next verse.
@@ -99,15 +101,13 @@ He still saw the boy’s eyes on the Gantry. But first came the bite of the pres
 
 A check valve opened inside his chest. Warm oil entered the stiff joints. He felt the pressure reach each one.
 
-Inside the cramped leather sack at the core of the chassis, an old man’s shriveled lungs drew breath.
-
 Varek gasped.
 
 Air came through the brass strainers beneath his chin, past a felt filter that smelled of coal-dust, and down the tube at his throat. The sharp breath rasped through the buried vault.
 
 Khhh-aaaaah.
 
-His eyelids did not open. An arc-flash in the Shaft Nine fire had blinded him two hundred years earlier; surgeons had sewn them shut with silver wire. Instead, brass shutters clicked aside over the twin quartz lenses in his steel visor.
+His eyelids did not open. An arc-flash in the Shaft Nine fire had blinded him two hundred years earlier. Instead, brass shutters clicked aside over the twin quartz lenses in his steel visor.
 
 The chamber appeared in a faint green light. Across the eastern arch, the instruments traced the strain in bright, trembling lines. Mortar fell between the bricks.
 
@@ -137,13 +137,13 @@ A pipe joint tore open in the chamber. Water struck the brickwork separating it 
 
 Varek broke his post.
 
-Varek followed the passage to the water main. A split inspection pipe was filling the chamber, its shutoff buried beneath fallen stone. The sealed main gate stood beyond it. Against the outer wall he could hear Kaelen’s chisel.
+Varek followed the passage to the water main. A split inspection pipe was filling the chamber. Its shutoff lay beneath fallen stone banked against the bricked-up outer arch. The sealed main gate stood beyond it. Through the brickwork, he could hear Kaelen’s chisel.
 
 “Clear the wall,” Varek called. The water drowned his voice.
 
 He struck the arch beside him three times. Beyond it, the tools stopped. Boots scraped across stone.
 
-The arch was shedding bricks into the passage. Beyond it, the workers were calling to one another. Varek could not reach the shutoff beneath the loose masonry. The stone sill at the outer wall should turn the water into the waste channel. He heard Kaelen calling the others back, then braced his feet and raised the maul.
+The arch was shedding bricks into the passage. Bringing it down outward would let the banked stone spill into the drift, clearing the shutoff. The stone sill beneath the opening should turn the water into the waste channel. He heard Kaelen calling the others back, then braced his feet and raised the maul.
 
 ⁂
 
@@ -192,3 +192,7 @@ The lenses turned past Kaelen’s raised hammer and stopped on the pine sprig at
 A valve beneath his chin clicked. The bronze speaking plate moved, shaping his breath into words.
 
 “Your timber cap is splitting,” Varek Fairgunjis said, his bronze voice vibrating through the water in the ditch. “Move the child back three paces. I will take the roof.”
+
+<p align="center">
+  <img src="images/image8.png" alt="CHAPTER FOUR: The Acoustic Trace Illustration" width="600" />
+</p>

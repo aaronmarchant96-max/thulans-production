@@ -81,10 +81,13 @@ the saved scene for independent digit motion, wrist limits, a physics world and
 a free dynamic tool, and retains Aaron's v10 rejection. It exits nonzero on a
 failed prerequisite. Passing it never authorizes handoff by itself.
 
-The acquisition/load/release simulation and its numerical validator are **not yet
-implemented**. They require the articulated mechanism and declared inputs above.
-Until those exist, physical handoff remains blocked; do not manufacture a PASS
-record or render another supposedly finished hand. Diagnostic evidence is allowed.
+The full acquisition/load/release simulation and an independent oracle for loaded
+contact, slip, drift, and drop metrics are **not yet implemented**. The current
+`tools/validate_hand_physics_results.py` checks only empty-hand diagnostic
+telemetry; its results cannot establish a functioning grip or authorize handoff.
+The legacy `tools/build_varek_physics_gate_v1.py` executes none of its advertised
+assertions and now reports every layer as `UNIMPLEMENTED`, exits nonzero, and
+keeps physical handoff blocked. Diagnostic evidence is allowed.
 
 Technical references: Blender's [collision properties](https://docs.blender.org/manual/en/dev/physics/rigid_body/properties/collisions.html)
 and [rigid-body constraints](https://docs.blender.org/manual/en/5.0/physics/rigid_body/constraints/introduction.html).

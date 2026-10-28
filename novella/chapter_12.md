@@ -271,7 +271,27 @@ The official spoke of the surrender.
 
 Bram rested his hands on the trolley handle. At the base of the statue, one bronze foot was longer than the body they had carried on the blanket.
 
-When the cord came down, he went back for the loose pin he had dropped beside the drain.
+A man in a foundry apron stopped beside the trolley.
+
+“I heard you kept the order. The one he brought down.”
+
+“I have.”
+
+The man looked up at the inscription.
+
+“Could you make us a copy?”
+
+“Who’s us?”
+
+“The men on my shift.”
+
+Behind the cord, the teacher was gathering the children around their class boards.
+
+“Come to Lower Four after your bell,” Bram said. “We’ll read it together.”
+
+The man nodded and went back through the crowd.
+
+When the cord came down, Bram went back for the loose pin he had dropped beside the drain.
 
 ⁂
 

@@ -9,7 +9,59 @@
 
 ---
 
+### PROLOGUE: The Choir-Gate
+
+Tier Six Gantry. The twelfth of September.
+
+They bolted him to the choir-gate before the first shift bell. Four men and a bailiff. Six bolts through the bronze hip-pins, each one tested with a thumb. The pins rang under the wrenches.
+
+“The frame will stand,” the bailiff said. “It has no leave to speak.”
+
+Varek did not answer. Words cost air, and the small engine at his back had none to spare. His boiler was banked to a whisper. Somebody had thought of that. Steam would spoil the hymn.
+
+Two clerks came to the gate while the crowd was still on the ladders. They stood on the far side of the iron, out of the draught, and read figures to each other from a folded sheet. Hulls. Berths. Dates for loading. They spoke the way men speak beside a stove. A frame is not a man. A frame does not listen.
+
+Varek listened. He had nothing else to do with the morning. He kept the figures. He kept everything.
+
+Then two thousand came in and filled the tier below, and he heard them the way he heard rock. Boots. Coughs. A baby. The scrape of hemp under rope-burned hands. The Volcanic Shear breathed sulfur up out of thirty feet of dark. The shutters clicked aside on his lenses. Two pale beams, faintly green, lay across the grating.
+
+Three men in polished helmets raised straight brass trumpets and blew one flat chord.
+
+The boy came onto the drop-plate barefoot. Nineteen. Coal in the creases of his toes. A hemp cord at his neck, braided even and tight by someone who loved him. In his right palm sat a ring of scrap iron no bigger than a thumb joint.
+
+The boy shifted his bare feet against the drop-plate. Each small scrape passed through the gantry and the choir-gate, down the bolts to Varek’s hip-pins. One foot, then the other. Faster now. He counted the movements. It was the only work left to him.
+
+Sub-Deacon Milo unrolled the roll and read. Forty-one winters of barley meal. Forty-one winters of lamp tallow. Forty-one winters of sweet water, returned to the ledger of Fairguni.
+
+“Brothar Varek stands witness,” Milo said.
+
+Two thousand faces turned to the gate. The iron gave them nothing. They took it for leave.
+
+The boy looked back once across the hemp rope. Not at Milo. Past a weeping girl, past the rope, down to a child’s height, where a sprig of dried pine was pinned to a woman’s apron. The child’s mouth was open. His knees were locked.
+
+Then the boy’s right thumb tapped his thigh. Twice.
+
+Varek knew it. Three hundred years in the mine, and he knew every sign the hoist-men used. Two taps. Pin seated. Clear to haul.
+
+There was no tub on the Gantry. There was nothing to haul.
+
+He turned his lenses toward the child. The bolts let him turn a hand’s width.
+
+The clerk pulled the pin on the drop-lever. The iron doors clacked open. Sulfur steam climbed through the gap. Nobody screamed. The small scrapes stopped coming through the bolts.
+
+The clerk made one mark on his slate.
+
+Varek heard the chalk. One stroke.
+
+---
+
 ## ACT I: THE SUMP & THE SUNDAY LIE
+
+<p align="center">
+  <img src="images/image2.png" alt="ACT I: THE SUMP & THE SUNDAY LIE Illustration" width="600" />
+</p>
+
+---
 
 ### CHAPTER ONE: The Flange & The Pine Sprig
 
@@ -107,13 +159,19 @@ Kaelen took his hand from the wall. His grip whitened around the hammer handle.
 
 “Wipe your face, Bram,” the smith said. “We’ll finish this joint, then see what your brother left in the locker.”
 
+<p align="center">
+  <img src="images/image11.png" alt="CHAPTER ONE: The Flange & The Pine Sprig Illustration" width="600" />
+</p>
+
+---
+
 ### CHAPTER TWO: The Nursery in Lower Four
 
 Lower Hearth Four lay fifteen feet below the haulage drift. When water came down from the mine, it reached the nursery first.
 
 The nursery smelled of wet sacking, carbolic wash, and sulfur smoke. Six infants lay in three wooden crates raised above the floor on rotting larch ties. The crates came from the Tier Five powder magazine; their sides still warned: 40% NITRO — KEEP DRY — COCKOS DYNAMITE CO. Under old wool flannel, the babies breathed in thin whistles against the damp rock.
 
-Beside the stove, old Marta stirred lentils and turnip skins in the Kald-Katil, the iron kettle that had simmered on Hearth Four for generations. Seven-year-old Elin rocked the middle crate with her clog. Marta ladled broth into a chipped enamel cup and wiped its rim with clean linen before she offered it.
+Beside the stove, old Marta stirred lentils and turnip skins in the Kald-Katil, the iron kettle that had simmered on Hearth Four for generations. Seven-year-old Elin rocked the middle crate with her clog. Marta ladled broth into a chipped enamel cup, wiped its rim with clean linen, and set it beside the stove.
 
 Above the flue, charcoal still showed where Sanna had scrubbed the whitewash before dawn: SIX HULLS FOR THE SPIRE / SLAG FOR LOWER FOUR.
 
@@ -123,7 +181,7 @@ Between her boots, the nursery pump struggled to keep the water down. A crack ra
 
 “The crack’s widening,” she said. Her voice stayed steady, though her breath came short and white. “The piston’s scraping inside. If that casing gives way before shift bell, the water will cover the duckboards in twenty minutes.”
 
-Across the room, Bailiff Odo stood dry on a stone bench beside the stove. His heavy gaiters were buttoned tight and almost spotless. He held a wooden tally board under one arm and a stub of chalk in the other hand, its fingers wrapped in paper tape against the biting lime.
+Across the room, Bailiff Odo stood dry on a stone bench beside the stove. His heavy gaiters were buttoned tight and almost spotless. He held a wooden tally board under one arm and a stub of chalk in the other hand, his fingers wrapped in paper tape against the biting lime.
 
 “The Fourth Tier foundries have first claim,” Odo said, looking at the ration slate. “The Spire shipyards took two thousand tonnes of plate this month. The foundries lost three molds on the waterworks. Every pound of salvage goes upward.”
 
@@ -137,13 +195,13 @@ With two clean strokes, he drew a line through the numeral 8 chalked on the post
 
 Sanna dropped the wrench into the mud with a hollow splash. She stood up, her skirt heavy with ditch water, her red hands hanging at her sides.
 
-“Wulfila surrendered forty days ago,” she said. “He was nineteen. The Sub-Deacon signed in front of two thousand witnesses. Eight pints for our hearth, for as long as it stands. That was the promise.”
+“Wulfila surrendered forty days ago,” she said. “He was nineteen. The Sub-Deacon signed in front of two thousand witnesses.” She pointed to the crossed-out eight. “Eight pints for our hearth, for as long as it stands. That was the promise.”
 
 Odo tapped the chalk against the side of his nose, then blew a speck of white dust off his tally board.
 
 “Your exemption was assigned to the third-tier feeder,” the bailiff said mildly. “That pipe was taken out of service on the nineteenth of October. When a delivery point closes, the exemptions tied to it lapse until they are reassigned. File a transfer petition at the Second Desk on Tier Eight.”
 
-“The Second Desk is two tiers above us. The petition costs four copper bits.” Sanna looked at the chalk. “We don’t have four bits, Odo.”
+“Only the tap closed,” Sanna said. “Our hearth’s still here.” She looked at the chalk. “The Second Desk is two tiers above us. The petition costs four copper bits. We don’t have four bits, Odo.”
 
 Odo turned the chalk stub in his taped fingers.
 
@@ -157,13 +215,13 @@ Odo glanced at the tub. “Scrap recovery?”
 
 “Four coupling bolts from the rails,” Kaelen said, dropping his tool kit onto the bench with an iron crash that made Odo step back. “Eight pounds. Take the tally and get out of my drift.”
 
-Odo notched his chalk against the ledger. “The foundry expects ten.”
+Odo chalked eight pounds onto his board. “The foundry expects ten.”
 
 “Then the foundry can come down here and chip the two pounds out of my bad hip,” Kaelen growled. He looked down at the spewing pump casing, then up at Odo’s dry gaiters.
 
 “A curved pine stave, wrapped tight with wire, might hold that crack to a trickle for three or four hours,” Kaelen said, his eyes still on Odo.
 
-Odo adjusted the ledger under his arm. “Uninspected repair to municipal equipment. I’ll enter it as a bypass.”
+Odo adjusted the board under his arm. “Uninspected repair to municipal equipment. I’ll enter it as a bypass.”
 
 “Log it in your boots,” Kaelen said.
 
@@ -213,11 +271,19 @@ Kaelen wiped his nose on his greasy sleeve and stood up, leaning against the tim
 
 “That buys four hours,” Kaelen muttered. “Get the crates onto the raised stone bench. Then find out whether the hoist can take them to Tier Five.”
 
-“Then we get them ready,” Sanna said. “Marta, blankets first. Elin, fetch the dry sacking.”
+“Marta, blankets first,” Sanna said. “Elin, fetch the dry sacking.”
+
+Sanna knelt beside the nearest crate. A damp sleeve was trapped beneath one child’s back; she eased it free before lifting the baby against the dry cloth at her collar. The little hand opened against her neck. She held still until Elin brought the sacking.
 
 Kaelen reached out, caught Bram by the shoulder, and pulled him toward the door.
 
 “Leave the tub with your sister, Bram,” the smith said low. “Keep that chit hidden. They’ve opened the locker house for the rail-clearance crew. We can get in before the watchman changes.”
+
+<p align="center">
+  <img src="images/image3.png" alt="CHAPTER TWO: The Nursery in Lower Four Illustration" width="600" />
+</p>
+
+---
 
 ### CHAPTER THREE: The Memory of the Leap
 
@@ -233,7 +299,7 @@ The clerks had taken everything from the shelf: Wulfila’s spare boots, his den
 
 Bram pulled Wulfila’s brass chit out from behind his sister’s apron bib. His thumb rubbed the square hole punched through the center, right between the 12 and the W.
 
-“He said his spare boots were here,” Bram whispered. “Only one season on the heels. When I turned fourteen on the thirtieth, I could put sacking in the toes and wear them.”
+“He said his spare boots were here,” Bram whispered. “Only one season on the heels. When I turn fourteen on the thirtieth, I could put sacking in the toes and wear them.”
 
 “Clerks don’t leave leather behind,” Kaelen said, his eyes fixed on the dark crack under the locker-house door where the draft pulled toward the main shaft. “Leather’s worth four copper tokens a pair to the cobbler on Tier Seven. Hurry up, boy. If the watchman comes round the corner with his dog, we’re both going in the cage.”
 
@@ -253,7 +319,7 @@ Across the room, Sanna knelt at the dry tap, scraping the bottom of the water ba
 
 Sanna looked at the dry cup. “Then show Odo.”
 
-“The main gate’s locked. The key stays on Tier Eight. I took the survey slate from the satchel when he dropped it, but I can’t read the clerk-marks. Odo would call it stolen before anyone listened.”
+“The main gate’s locked. The key stays on Tier Eight. I took the survey slate from the surveyor’s dropped satchel, but I can’t read the clerk-marks. Odo would call it stolen before anyone listened.”
 
 “Show Kaelen.”
 
@@ -265,7 +331,7 @@ Sanna looked at him.
 
 Wulfila touched the ration order nailed to the doorpost.
 
-“But the Gantry is witnessed. When the clerk takes my forty-one years, he has to enter eight pints against our hearth. Not a promise from Odo. A mark in their own ledger.”
+“But the Gantry is witnessed. When the clerk takes my remaining years, he has to write eight pints into the book for our hearth. Not a promise from Odo. A mark in their own ledger.”
 
 He put the sprig of mountain pine into Bram’s hand. His fingers were shaking.
 
@@ -281,7 +347,7 @@ On the Gantry next morning, three men in polished helmets blew a long, flat chor
 
 Wulfila stood barefoot on the drop-plate. The bailiff had taken his pit boots at the choir-stall door and credited their leather to the Council. His feet were pale against the oiled iron grating, their knuckles blackened by coal. Beside him, Haila had braided the hemp cord now hanging from his neck. Her hands shook as she pressed an iron hammer-ring into his palm—the betrothal token they had forged from scrap behind the smelter flues.
 
-Behind them, Brothar Varek stood bolted to the choir-gate in his eight-foot iron walking cage. The twin quartz lenses stared over the crowd, blind and still. Kaelen’s grandfather had cast the bronze hip-pins in Foundry Three.
+Behind them, Varek Fairgunjis—the Brothar—stood bolted to the choir-gate in his eight-foot iron walking cage. The twin quartz lenses stared over the crowd, blind and still. Kaelen’s grandfather had cast the bronze hip-pins in Foundry Three.
 
 “Thulan of the Old Hearths,” their father used to call him. A Thulan stayed until the others were clear. Bram looked at the iron hands beside the choir-gate. Neither moved.
 
@@ -337,7 +403,15 @@ Kaelen pinched the tallow wick out between his callused fingers, plunging the lo
 
 “Coal-chute. Behind the salt barrels.” Kaelen pushed him toward it. “Keep the seal covered. They hanged a man for taking a page from the ration book.”
 
+---
+
 ## ACT II: THE TWO LEDGERS
+
+<p align="center">
+  <img src="images/image7.jpg" alt="ACT II: THE TWO LEDGERS Illustration" width="600" />
+</p>
+
+---
 
 ### CHAPTER FOUR: The Acoustic Trace
 
@@ -413,6 +487,8 @@ Varek had served the deep mine for three hundred years. Forty days earlier, he h
 
 Inside the dark shell, there was no light and no speech. There was only the slow creep of the mountain against the plates, the banked pilot burner, and the smell of ancient mineral grease.
 
+The harness lay tight across his ribs. He shifted what little he could inside it, waiting for the breathing engine’s next stroke.
+
 Through the rock came three taps, a pause, then three more. A smith testing a cap. Farther off, a haulage crew were singing to keep their pull together. Varek had heard the same work-song before their grandfathers were born. One voice kept coming in late.
 
 He waited for it on the next verse.
@@ -435,15 +511,13 @@ He still saw the boy’s eyes on the Gantry. But first came the bite of the pres
 
 A check valve opened inside his chest. Warm oil entered the stiff joints. He felt the pressure reach each one.
 
-Inside the cramped leather sack at the core of the chassis, an old man’s shriveled lungs drew breath.
-
 Varek gasped.
 
 Air came through the brass strainers beneath his chin, past a felt filter that smelled of coal-dust, and down the tube at his throat. The sharp breath rasped through the buried vault.
 
 Khhh-aaaaah.
 
-His eyelids did not open. An arc-flash in the Shaft Nine fire had blinded him two hundred years earlier; surgeons had sewn them shut with silver wire. Instead, brass shutters clicked aside over the twin quartz lenses in his steel visor.
+His eyelids did not open. An arc-flash in the Shaft Nine fire had blinded him two hundred years earlier. Instead, brass shutters clicked aside over the twin quartz lenses in his steel visor.
 
 The chamber appeared in a faint green light. Across the eastern arch, the instruments traced the strain in bright, trembling lines. Mortar fell between the bricks.
 
@@ -473,13 +547,13 @@ A pipe joint tore open in the chamber. Water struck the brickwork separating it 
 
 Varek broke his post.
 
-Varek followed the passage to the water main. A split inspection pipe was filling the chamber, its shutoff buried beneath fallen stone. The sealed main gate stood beyond it. Against the outer wall he could hear Kaelen’s chisel.
+Varek followed the passage to the water main. A split inspection pipe was filling the chamber. Its shutoff lay beneath fallen stone banked against the bricked-up outer arch. The sealed main gate stood beyond it. Through the brickwork, he could hear Kaelen’s chisel.
 
 “Clear the wall,” Varek called. The water drowned his voice.
 
 He struck the arch beside him three times. Beyond it, the tools stopped. Boots scraped across stone.
 
-The arch was shedding bricks into the passage. Beyond it, the workers were calling to one another. Varek could not reach the shutoff beneath the loose masonry. The stone sill at the outer wall should turn the water into the waste channel. He heard Kaelen calling the others back, then braced his feet and raised the maul.
+The arch was shedding bricks into the passage. Bringing it down outward would let the banked stone spill into the drift, clearing the shutoff. The stone sill beneath the opening should turn the water into the waste channel. He heard Kaelen calling the others back, then braced his feet and raised the maul.
 
 ⁂
 
@@ -529,67 +603,61 @@ A valve beneath his chin clicked. The bronze speaking plate moved, shaping his b
 
 “Your timber cap is splitting,” Varek Fairgunjis said, his bronze voice vibrating through the water in the ditch. “Move the child back three paces. I will take the roof.”
 
+<p align="center">
+  <img src="images/image8.png" alt="CHAPTER FOUR: The Acoustic Trace Illustration" width="600" />
+</p>
+
+---
+
 ### CHAPTER FIVE: The Shoring of Drift 14
 
 Kaelen did not kneel. He looked at Varek’s feet, as he would at any crane settling on bad ground.
 
-“The larch prop, boy!” Kaelen shouted. “Sanna’s got the waste gate open. Now help her with that timber. We have to take the roof off him.”
+“The larch prop, boy! Sanna’s got the waste gate open. Help her with that timber. We have to take the roof off him.”
 
-Bram scrambled backward through the freezing spray, his bare hands plunging into the ditch slurry to haul the spare larch timber off the dead-end flat-car.
+Bram dragged the spare larch timber from the flat-car. Sanna got her shoulder beneath one end, and together they hauled it through the freezing spray. Bark tore at their sleeves.
 
-Sanna got her shoulder beneath one end of the soaked log. Bram hauled the other. Bark tore at their sleeves as they dragged it toward Varek.
+The roof beam bowed across Varek’s right shoulder. A white splinter peeled from it and fell across his visor. If the beam split, the rock above it would follow.
 
-Above them, Varek Fairgunjis stood braced between the stone floor and the mountain.
+As Kaelen helped them heave the prop upright, Bram saw the needle falling on the gauge beside Varek’s neck. Oil misted from his shoulder.
 
-The roof beam bowed across Varek’s right shoulder-guard. A long white splinter tore free of the larch, showering his visor with wet bark. If the beam split, the rock above it would follow.
+“The right-shoulder seal’s gone!” Kaelen shouted.
 
-The frame shuddered. Through the spray, Bram saw the needle falling on the gauge beside Varek’s neck.
+Varek’s boots shifted in the loose ballast. One caught against a rail, and the beam moved with him.
 
-“He’s bleeding pressure!” Kaelen called as he fought the prop upright. “The right-shoulder seal’s gone!”
+“Seat the prop’s foot,” he said. “Right leg lock broken. I cannot lower the beam much farther.”
 
-Oil misted from the right shoulder. Varek’s boots shifted in the loose ballast; one was braced against a rail. The beam moved with him.
+Kaelen dropped to his good knee. He set an oak plate beneath the prop to keep it from sinking into the mud, then worked its notched top under the beam.
 
-“Seat the foot,” Varek said. “Right leg lock broken. I cannot lower it much farther.”
+“Wedges!”
 
-“I see it!” Kaelen answered.
+Sanna took two iron wedges from the basket and pushed them between the plate and the foot of the prop. Kaelen drove them home with his sledge. Each blow tightened the timber beneath the roof; fresh resin squeezed through its bark.
 
-Kaelen dropped to his good knee. He set the foot of the heavy larch prop on an oak plate so it would not sink into the mud, then worked its notched top beneath the failing roof beam.
+“Easy now. Let the prop take it.”
 
-“Wedges!” Kaelen shouted without looking back.
-
-Sanna was already beside him. She snatched two iron wedges from the basket and jammed them between the oak plate and the foot of the prop.
-
-Kaelen swung the sledge. CLANG.
-
-The wedge drove home. The prop shivered as it began to take the weight.
-
-CLANG. CLANG.
-
-The second wedge seated. Fresh resin squeezed from the bark as the wood tightened under the load.
-
-“Easy now,” Kaelen said. “Let the prop take it.”
-
-Varek eased his shoulder down. The prop creaked beneath the beam.
+Varek lowered his shoulder. The timber creaked as the weight came onto it, and Bram watched the long split in the beam.
 
 The ceiling held.
 
-Varek went back through the breach. With the arch down, he could reach the inspection pipe’s shutoff. He forced it closed. The roar dwindled to the wash of water draining from the chamber.
+Varek went back through the breach and forced the inspection pipe’s shutoff closed. The roar dwindled to the wash of water draining from the chamber.
 
-The flood left oil and black silt across the sleepers. At the entrance, fallen timber held a deep pool on the track. Lower down, the open waste gate carried the dirty water past the nursery branch.
+Oil and black silt covered the sleepers. Fallen timber trapped a deep pool at the entrance, but farther down, the open waste gate carried the dirty water past the nursery branch.
 
-Bram stood shivering in the draining water. Varek returned from the chamber, and for the first time the boy saw the full eight-foot bulk of him.
+When Varek returned, Bram saw the full eight-foot bulk of him. His plates were pitted and scarred, green around the bronze fittings. They looked nothing like the polished statues above. Soot almost hid the old foundry crest on his chest.
 
-The plates were pitted and scarred, green around the bronze fittings. They looked nothing like the polished statues above. An old foundry crest lay almost hidden beneath the soot on his chest guard.
+The shutters behind his visor clicked. His lenses settled on the pine sprig behind Bram’s three brass pins. The needles were soaked black.
 
-The shutters behind the visor clicked. The lenses settled on Bram’s chest.
+The bronze throat-plate scraped forward.
 
-On the boy’s gray sacking apron, pinned behind the three brass safety pins, the bruised sprig of mountain pine was soaked black with ditch water.
+“You stood behind the rope.”
 
-The machine’s bronze throat-plate scraped forward on its dry tracks.
+Beneath the metal rasp, Bram heard the thin voice of an old man.
 
-“You stood behind the rope,” Varek said. Beneath the metal rasp, Bram heard the thin voice of an old man. “Tier Six. Forty days ago.”
+“Tier Six. Forty days ago.”
 
-Bram’s throat locked. He pressed his knuckles against the wet pine needles on his chest. “You were standing behind the Sub-Deacon.”
+Bram pressed his knuckles against the wet pine. His throat tightened.
+
+“You were standing behind the Sub-Deacon.”
 
 “They brought me to stand behind the gate,” Varek said. “So two thousand people would believe I approved.”
 
@@ -603,49 +671,47 @@ She pointed her spanner toward the sealed gate beyond the breach.
 
 “And the water was here all along.”
 
-Varek looked at the breach.
+Gate 44-A stood in the chamber, its bronze wheel locked and wire-sealed. Beside it, the smaller draw-off valve sat above the flood mark. Dirty water had not reached its outlet. Below it, the broken inspection pipe was quiet.
 
-Gate 44-A stood in the chamber, its great bronze wheel locked and wire-sealed. Beside it was the smaller draw-off valve. Its outlet sat above the flood mark, untouched by the dirty water. The split inspection pipe lay below, its flow now stopped.
-
-Varek rested his right talons against the pipe. He listened.
-
-“They did not lock the gate because the cistern failed,” Varek said.
-
-The quartz lenses in his visor pulsed green against the stone.
+Varek rested his right talons against the supply pipe.
 
 “The shipyard pumps run through the night,” he said. “I hear them through the rock. The lower taps go quiet. The pumps do not.”
 
-Bram took the wrapped slate from his tunic and held it out. Kaelen checked its marks against the pipe, then looked back at Varek beside the new roof prop.
+Bram took the wrapped slate from his tunic and held it out. Kaelen checked its marks against the pipe.
 
-“Eight hundred and twenty tonnes of plate,” Kaelen said. “We rolled it curved. I asked what waterworks needed plates that size.”
+“Eight hundred and twenty tonnes of plate,” the smith said. “We rolled it curved. I asked what waterworks needed plates that size.”
 
 He looked toward Lower Four.
 
 “The six hulls on the wall. They’re real.”
 
-Varek’s exhaust reed gave a dry, metallic rattle.
+Bram looked from the slate in Kaelen’s hand to Varek.
 
-“Six hulls,” Varek said. “Six hundred thousand berths.”
+“Why keep it from us? If there was water, why did he have to go?”
+
+“The ships’ boilers need clean water,” Varek said. “The magma is rising beneath the lower workings.”
+
+“An exit,” Kaelen said.
+
+“Six hulls,” Varek said. “Six hundred thousand berths between them.”
 
 “Who told you that?” Kaelen asked.
 
 “They read the loading schedule behind the choir-gate. Before the crowd came in.”
 
-Sanna stopped wringing the flour sack. Her hands froze, the cold water dripping through her knuckles onto the stone.
+Sanna’s hands tightened around the spanner.
 
-“Six hundred thousand?” Her eyes moved to the dark drift behind them, toward the haulage trunks where four levels of tenements coughed in the damp. “Four point two million people live in this mountain.”
+“Six hundred thousand?”
 
-Sanna looked down at her hands. “One in seven.”
+She looked down the dark drift toward Lower Four.
 
-Varek’s exhaust reed clicked. “Yes.”
+“There are four point two million of us.”
 
-Bram stepped through the standing water. He looked from the slate in Kaelen’s hand to Varek’s speaking plate.
+Water dripped from the sacking around her hands.
 
-“Why keep it from us?” Bram asked. “If there was water, why did he have to go?”
+“One in seven.”
 
-“The ships’ boilers need clean water,” Varek said. “The magma is rising beneath the lower workings.”
-
-“An exit,” Kaelen said.
+“Yes,” Varek said.
 
 Kaelen handed the slate back to Bram. Wulfila had held it before him. The water had been there then, too.
 
@@ -717,6 +783,12 @@ Varek stepped over a loose packing block into the centre of the track.
 
 “Then bring your cold chisel, smith,” Varek rasped through his bronze plate. “I have not worked with a crew in three hundred years.”
 
+<p align="center">
+  <img src="images/image9.png" alt="CHAPTER FIVE: The Shoring of Drift 14 Illustration" width="600" />
+</p>
+
+---
+
 ### CHAPTER SIX: The Welded Advance
 
 The flood still lay deep behind the broken timber at the entrance to Drift 14. Along the wall, above it, clean water ran through Bram’s gutters toward the nursery feeder.
@@ -777,27 +849,27 @@ The second mastiff veered, snapped at Varek’s lower ram guard, shattered its i
 
 “They’re coming!” Kaelen yelled, wiping muddy spray from his eyes. “Look past the dogs!”
 
-Down the stone throat came the penal frames.
+Down the stone throat came two breaker rigs.
 
-There were two of them.
-
-They were the Welded, debtors fastened into mining rigs. Iron braces held their arms against driven breaker bars. Riveted masks hid their faces. A tube fed stimulants into each mouth, keeping the men awake while the machines worked.
-
-Boilers drove the bars through their repeating stroke.
+Their bars rose and fell on either side of the track, hammering the stone floor. Riveted masks sat low between the shoulder braces. Beneath the nearer frame, a boot dragged heel-first through the ballast.
 
 Clack-hiss. Clack-hiss.
 
-Down, smash, lift, down. The men could not stop or steer them. The bars tore at the walls and struck sparks from the rails.
+The rig caught against a sleeper. Its drive kept turning. Something inside the arm brace pulled tight, and the boot scraped backward.
 
-Through the narrow slits in the lead rig’s mask, Kaelen caught a glimpse of bloodshot human eyes, wide with sheer terror.
+Kaelen heard a voice beneath the steam.
 
-Beneath the roar of the venting steam, a muffled human voice was weeping inside the iron:
+“Can’t stop it.”
 
-“Can’t stop it... please... my wrist is broke... shear the pin...”
+The next stroke dragged the frame clear. Through a slit in the mask, an eye turned toward his lamp.
 
-⁂
+“Please. My wrist is broke.”
 
-Varek advanced to meet the first rig. Kaelen followed at his left shoulder, leaving Bram’s skip and the track-switch behind them.
+The breaker rose again. A hand hung below its cuff, the fingers swollen against one another. As the bar descended, the fingers jerked open.
+
+“Shear the pin.”
+
+Varek advanced to meet it. Kaelen followed at his left shoulder, leaving Bram’s skip and the track-switch behind them.
 
 The rig drove toward him, its heavy breaker rising for another stroke.
 
@@ -901,17 +973,31 @@ Odo stood in the water by the ladder. He took a clean slate from his satchel, ma
 
 He backed up one rung before turning. His boots scraped on the ladder until the dark hid him.
 
-Kaelen knelt in the slurry beside the first Welded miner.
+Kaelen knelt beside the first frame.
 
-Kaelen cut the leather straps beneath the injured miner’s jaw. Then he set his chisel under the riveted collar of the iron mask and knocked the fastenings free, one by one. At last the man could breathe without the metal pressed against his face.
+He cut the leather beneath the miner’s jaw. The strap had sunk into the flesh; he worked the flat of his knife under it before he could draw the edge away from the throat.
 
-The sheet-iron faceplate fell away into the water.
+Then he set his chisel under the mask’s riveted collar.
 
-Under the mask was a boy no older than Wulfila. His lips were blistered around the feeding tube. Tears cut pale lines through the grime.
+At the first tap, the miner flinched.
 
-“It can’t drive you now, lad,” Kaelen said, wiping the boy’s jaw with his thumb. “You’re free of it.”
+“Only the fastening, lad.”
 
-The boy looked at Kaelen’s worn leather apron, then looked up at the three-tonne iron figure standing above them in the dark.
+Kaelen knocked the rivets free one by one. The mask came loose at the brow and held along one cheek. He put down the chisel. With his other hand supporting the miner’s head, he eased the iron away until the skin released.
+
+Underneath was a boy no older than Wulfila.
+
+A raw patch followed the edge of the mask from his cheekbone to his jaw. The feeding tube had worn a notch inside his lower lip. He tried to close his mouth when the cold air reached it, but the tube held it open.
+
+Kaelen looked down at the wrist. Above the cuff, an old sore had healed around the leather. Below it, the hand lay at an angle it should not have held.
+
+He took off his cap and folded it beneath the boy’s arm.
+
+“It can’t drive you now,” he said. “You’re free of it.”
+
+The boy kept watching the breaker bar.
+
+Then his eyes moved from Kaelen’s worn leather apron to the three-tonne iron figure standing above them in the dark.
 
 “Is it... is it the First Hearth?” the boy croaked, his voice raw.
 
@@ -947,7 +1033,15 @@ Kaelen looked toward Lower Four.
 
 “Bar the haulage doors,” Varek told him. “Leave the water channels clear.”
 
+---
+
 ## ACT III: THE ARITHMETIC OF THE SPIRE
+
+<p align="center">
+  <img src="images/image4.png" alt="ACT III: THE ARITHMETIC OF THE SPIRE Illustration" width="600" />
+</p>
+
+---
 
 ### CHAPTER SEVEN: The Ascent
 
@@ -965,7 +1059,7 @@ Kaelen put a hand on Bram’s shoulder and led him toward the ditch. Men came up
 
 “Two alive,” Kaelen told him. “Get them somewhere dry.”
 
-The man put his cap back on and called for help. A worker beside him slipped off his own coat and laid it over the nearer miner.
+The man put his cap back on and called for help. A worker beside him slipped off his coat and folded it beneath the nearer miner’s arm. Kaelen drew his cap free and put it back on.
 
 Varek tried to follow.
 
@@ -1023,7 +1117,7 @@ Bram stood at the threshold, looking into the gap beside the cage.
 
 “To the upper stores,” Kaelen said. “Then a level service passage to the Spire. He goes on the deck. Nobody hangs him off a rope.”
 
-The smith climbed inside and stamped on the steel floor. He inspected the crossmembers underneath from the landing pit, working his way along with the lamp held close. Bram passed him the pinch-bar without being asked.
+The smith climbed inside and stamped on the steel floor. From the landing pit, he worked his way beneath the deck, holding the lamp close to each supporting beam. Bram passed him the pinch-bar without being asked.
 
 When Kaelen came back up, his bad knee would not straighten. He stood with both hands on the door jamb until it did.
 
@@ -1117,7 +1211,7 @@ Sanna looked at the crossed calipers. Then she took the bundle and gave it to Ka
 
 ⁂
 
-They laid a ramp over the landing lip. Kaelen shut off the broken gauge branch, topped up the oil, and connected the nursery’s steam hose to the service inlet at Varek’s hip. Water spat from the drain into his pail.
+They laid a ramp over the landing lip. Kaelen shut off the line to the broken gauge and topped up the oil. Then he connected the nursery’s steam hose at Varek’s hip. Water spat from the drain into his pail.
 
 “Don’t move.”
 
@@ -1191,7 +1285,7 @@ He took another.
 
 The cage deck sounded beneath him.
 
-They chained him against the freight stops, clear of the hoses, and Kaelen locked the joints. Varek remained upright when the supply closed. His gauge stayed at zero; with its branch shut off, it could tell them nothing.
+They chained him against the freight stops, clear of the hoses, and Kaelen locked the joints. Varek remained upright when the supply closed. His gauge stayed at zero. Cut off from the pressure, it could tell them nothing.
 
 Once Kaelen had drained the hose, Bram disconnected it and coiled it beside the landing.
 
@@ -1229,7 +1323,7 @@ The boy’s mouth tightened.
 
 ⁂
 
-The landing dogs withdrew with a heavy clack.
+The iron supports beneath the cage withdrew with a heavy clack.
 
 The cage stood still until the brake released. Then the ropes took its weight and the deck rose beneath Varek’s boots. In the neighbouring shaft, a heavier cage of stone descended. Its weight hauled him toward the Spire.
 
@@ -1271,7 +1365,7 @@ The trunk walls changed from rough-cut rock to fitted stone. Light entered throu
 
 The cage slowed.
 
-An upper trip lever lifted under the frame. The brake took hold, and the landing dogs slid home beneath the deck.
+At the upper landing, the brake took hold. The iron supports slid home beneath the deck.
 
 Varek had reached the stores.
 
@@ -1364,6 +1458,12 @@ KEEP THIS.
 He held it against his chest.
 
 With his other hand, he knocked.
+
+<p align="center">
+  <img src="images/image5.png" alt="CHAPTER SEVEN: The Ascent Illustration" width="600" />
+</p>
+
+---
 
 ### CHAPTER EIGHT: The Office on Tier Nine
 
@@ -1913,6 +2013,12 @@ He drew the door shut behind him. The latch caught with a small click.
 
 Through the wood, Theodemir’s pen began to scratch again.
 
+<p align="center">
+  <img src="images/image1.png" alt="CHAPTER EIGHT: The Office on Tier Nine Illustration" width="600" />
+</p>
+
+---
+
 ### CHAPTER NINE: The Hammer Falls
 
 The pen stopped.
@@ -2151,7 +2257,7 @@ Kaelen was standing at the lower gate with a lamp held above his head.
 
 Bram stood beside him. His sleeves had been rolled to the elbows, and the tarred dressing on his thumb was gone.
 
-The cage settled onto the landing dogs.
+The cage settled onto the iron supports.
 
 Kaelen opened the gate. “Four hours gone,” he said. “They’ve closed the Tier Five crossing. We’re sending people through the old wash passage.”
 
@@ -2295,7 +2401,15 @@ Kaelen followed his gaze.
 
 “Beside the pump.”
 
+---
+
 ## ACT IV: THE DISMANTLING
+
+<p align="center">
+  <img src="images/image10.png" alt="ACT IV: THE DISMANTLING Illustration" width="600" />
+</p>
+
+---
 
 ### CHAPTER TEN: Bring the Wrenches
 
@@ -2823,6 +2937,8 @@ Bram held the lamp higher.
 
 Sanna unfolded the clean cloth.
 
+---
+
 ### CHAPTER ELEVEN: Skin Against Skin
 
 The cloth came away dark.
@@ -3271,6 +3387,12 @@ Sanna kept one hand around his.
 
 With her free hand, she drew the blanket over his toes.
 
+<p align="center">
+  <img src="images/image6.png" alt="CHAPTER ELEVEN: Skin Against Skin Illustration" width="600" />
+</p>
+
+---
+
 ### CHAPTER TWELVE: Our Iron Anyway
 
 The third blow came while Bram was helping carry the basin.
@@ -3539,7 +3661,27 @@ The official spoke of the surrender.
 
 Bram rested his hands on the trolley handle. At the base of the statue, one bronze foot was longer than the body they had carried on the blanket.
 
-When the cord came down, he went back for the loose pin he had dropped beside the drain.
+A man in a foundry apron stopped beside the trolley.
+
+“I heard you kept the order. The one he brought down.”
+
+“I have.”
+
+The man looked up at the inscription.
+
+“Could you make us a copy?”
+
+“Who’s us?”
+
+“The men on my shift.”
+
+Behind the cord, the teacher was gathering the children around their class boards.
+
+“Come to Lower Four after your bell,” Bram said. “We’ll read it together.”
+
+The man nodded and went back through the crowd.
+
+When the cord came down, Bram went back for the loose pin he had dropped beside the drain.
 
 ⁂
 
@@ -3634,3 +3776,5 @@ The child looked from the printed globe to the waste channel, where each stroke 
 Sanna took the clean linen scrap from her apron. She wiped the kettle’s rim dry and laid the cloth beside the board.
 
 “No. It was our iron anyway.”
+
+---

@@ -241,7 +241,7 @@ Kaelen was standing at the lower gate with a lamp held above his head.
 
 Bram stood beside him. His sleeves had been rolled to the elbows, and the tarred dressing on his thumb was gone.
 
-The cage settled onto the landing dogs.
+The cage settled onto the iron supports.
 
 Kaelen opened the gate. “Four hours gone,” he said. “They’ve closed the Tier Five crossing. We’re sending people through the old wash passage.”
 

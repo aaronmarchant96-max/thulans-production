@@ -11,7 +11,7 @@ To prevent drift, protect finished assets, and maintain clear separation between
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ TIER 1: LOCKED CANON (Immutable Foundations)                │
-│ RULINGS.md, NAME_CANON.md, STORY_BIBLE.md, VIOLENCE_DOCTRINE│
+│ RULINGS.md, NAME_CANON.md, NOVELLA_BLUEPRINT.md, DOCTRINE   │
 └──────────────────────────────┬──────────────────────────────┘
                                │ Governs & Constrains
                                ▼

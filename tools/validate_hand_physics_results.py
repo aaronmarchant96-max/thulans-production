@@ -52,11 +52,15 @@ def check_finite(val: float, name: str) -> bool:
 
 def main() -> int:
     if not EVIDENCE_JSON.exists() or not READBACK_JSON.exists():
-        print("ORACLE RESULT: FAIL (Required evidence or readback JSON missing)")
+        print("ORACLE RESULT: FAIL_UNIMPLEMENTED (required full-grip evidence is missing)")
         return 1
 
     ev = json.loads(EVIDENCE_JSON.read_text())
     rb = json.loads(READBACK_JSON.read_text())
+    print(
+        "FULL GRIP GATE: FAIL_UNIMPLEMENTED "
+        "(empty-hand diagnostics do not test loaded acquisition, retention, or release)"
+    )
 
     # Dynamically extract exact joint contracts from canonical readback
     exact_joint_contracts = {}
@@ -232,9 +236,12 @@ def main() -> int:
         print(f"ORACLE RESULT: FAIL (A2-YAW digits not neutralized: max digit travel {max_digit_yaw_travel:.2f}° > 1.0°)")
         return 1
 
-    print("\nORACLE RESULT: PASS — EMPTY-HAND SCENARIOS A1, A2-PITCH & A2-YAW FULLY VERIFIED")
-    return 0
+    print("\nDIAGNOSTIC RESULT: PASS — EMPTY-HAND SCENARIOS A1, A2-PITCH & A2-YAW VERIFIED")
+    print(
+        "ORACLE RESULT: FAIL_UNIMPLEMENTED "
+        "(loaded grip, disturbance, and release scenarios are not implemented)"
+    )
+    return 1
 
 if __name__ == '__main__':
     sys.exit(main())
-

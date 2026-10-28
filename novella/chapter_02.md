@@ -9,7 +9,7 @@ Lower Hearth Four lay fifteen feet below the haulage drift. When water came down
 
 The nursery smelled of wet sacking, carbolic wash, and sulfur smoke. Six infants lay in three wooden crates raised above the floor on rotting larch ties. The crates came from the Tier Five powder magazine; their sides still warned: 40% NITRO — KEEP DRY — COCKOS DYNAMITE CO. Under old wool flannel, the babies breathed in thin whistles against the damp rock.
 
-Beside the stove, old Marta stirred lentils and turnip skins in the Kald-Katil, the iron kettle that had simmered on Hearth Four for generations. Seven-year-old Elin rocked the middle crate with her clog. Marta ladled broth into a chipped enamel cup and wiped its rim with clean linen before she offered it.
+Beside the stove, old Marta stirred lentils and turnip skins in the Kald-Katil, the iron kettle that had simmered on Hearth Four for generations. Seven-year-old Elin rocked the middle crate with her clog. Marta ladled broth into a chipped enamel cup, wiped its rim with clean linen, and set it beside the stove.
 
 Above the flue, charcoal still showed where Sanna had scrubbed the whitewash before dawn: SIX HULLS FOR THE SPIRE / SLAG FOR LOWER FOUR.
 
@@ -19,7 +19,7 @@ Between her boots, the nursery pump struggled to keep the water down. A crack ra
 
 “The crack’s widening,” she said. Her voice stayed steady, though her breath came short and white. “The piston’s scraping inside. If that casing gives way before shift bell, the water will cover the duckboards in twenty minutes.”
 
-Across the room, Bailiff Odo stood dry on a stone bench beside the stove. His heavy gaiters were buttoned tight and almost spotless. He held a wooden tally board under one arm and a stub of chalk in the other hand, its fingers wrapped in paper tape against the biting lime.
+Across the room, Bailiff Odo stood dry on a stone bench beside the stove. His heavy gaiters were buttoned tight and almost spotless. He held a wooden tally board under one arm and a stub of chalk in the other hand, his fingers wrapped in paper tape against the biting lime.
 
 “The Fourth Tier foundries have first claim,” Odo said, looking at the ration slate. “The Spire shipyards took two thousand tonnes of plate this month. The foundries lost three molds on the waterworks. Every pound of salvage goes upward.”
 
@@ -33,13 +33,13 @@ With two clean strokes, he drew a line through the numeral 8 chalked on the post
 
 Sanna dropped the wrench into the mud with a hollow splash. She stood up, her skirt heavy with ditch water, her red hands hanging at her sides.
 
-“Wulfila surrendered forty days ago,” she said. “He was nineteen. The Sub-Deacon signed in front of two thousand witnesses. Eight pints for our hearth, for as long as it stands. That was the promise.”
+“Wulfila surrendered forty days ago,” she said. “He was nineteen. The Sub-Deacon signed in front of two thousand witnesses.” She pointed to the crossed-out eight. “Eight pints for our hearth, for as long as it stands. That was the promise.”
 
 Odo tapped the chalk against the side of his nose, then blew a speck of white dust off his tally board.
 
 “Your exemption was assigned to the third-tier feeder,” the bailiff said mildly. “That pipe was taken out of service on the nineteenth of October. When a delivery point closes, the exemptions tied to it lapse until they are reassigned. File a transfer petition at the Second Desk on Tier Eight.”
 
-“The Second Desk is two tiers above us. The petition costs four copper bits.” Sanna looked at the chalk. “We don’t have four bits, Odo.”
+“Only the tap closed,” Sanna said. “Our hearth’s still here.” She looked at the chalk. “The Second Desk is two tiers above us. The petition costs four copper bits. We don’t have four bits, Odo.”
 
 Odo turned the chalk stub in his taped fingers.
 
@@ -53,13 +53,13 @@ Odo glanced at the tub. “Scrap recovery?”
 
 “Four coupling bolts from the rails,” Kaelen said, dropping his tool kit onto the bench with an iron crash that made Odo step back. “Eight pounds. Take the tally and get out of my drift.”
 
-Odo notched his chalk against the ledger. “The foundry expects ten.”
+Odo chalked eight pounds onto his board. “The foundry expects ten.”
 
 “Then the foundry can come down here and chip the two pounds out of my bad hip,” Kaelen growled. He looked down at the spewing pump casing, then up at Odo’s dry gaiters.
 
 “A curved pine stave, wrapped tight with wire, might hold that crack to a trickle for three or four hours,” Kaelen said, his eyes still on Odo.
 
-Odo adjusted the ledger under his arm. “Uninspected repair to municipal equipment. I’ll enter it as a bypass.”
+Odo adjusted the board under his arm. “Uninspected repair to municipal equipment. I’ll enter it as a bypass.”
 
 “Log it in your boots,” Kaelen said.
 
@@ -109,8 +109,14 @@ Kaelen wiped his nose on his greasy sleeve and stood up, leaning against the tim
 
 “That buys four hours,” Kaelen muttered. “Get the crates onto the raised stone bench. Then find out whether the hoist can take them to Tier Five.”
 
-“Then we get them ready,” Sanna said. “Marta, blankets first. Elin, fetch the dry sacking.”
+“Marta, blankets first,” Sanna said. “Elin, fetch the dry sacking.”
+
+Sanna knelt beside the nearest crate. A damp sleeve was trapped beneath one child’s back; she eased it free before lifting the baby against the dry cloth at her collar. The little hand opened against her neck. She held still until Elin brought the sacking.
 
 Kaelen reached out, caught Bram by the shoulder, and pulled him toward the door.
 
 “Leave the tub with your sister, Bram,” the smith said low. “Keep that chit hidden. They’ve opened the locker house for the rail-clearance crew. We can get in before the watchman changes.”
+
+<p align="center">
+  <img src="images/image3.png" alt="CHAPTER TWO: The Nursery in Lower Four Illustration" width="600" />
+</p>

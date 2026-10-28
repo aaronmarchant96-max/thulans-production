@@ -98,3 +98,7 @@ The clang rolled up the haulage shaft. Kaelen’s hammer remained still. Bram li
 Kaelen took his hand from the wall. His grip whitened around the hammer handle.
 
 “Wipe your face, Bram,” the smith said. “We’ll finish this joint, then see what your brother left in the locker.”
+
+<p align="center">
+  <img src="images/image11.png" alt="CHAPTER ONE: The Flange & The Pine Sprig Illustration" width="600" />
+</p>

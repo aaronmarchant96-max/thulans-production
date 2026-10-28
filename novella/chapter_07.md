@@ -19,7 +19,7 @@ Kaelen put a hand on Bram’s shoulder and led him toward the ditch. Men came up
 
 “Two alive,” Kaelen told him. “Get them somewhere dry.”
 
-The man put his cap back on and called for help. A worker beside him slipped off his own coat and laid it over the nearer miner.
+The man put his cap back on and called for help. A worker beside him slipped off his coat and folded it beneath the nearer miner’s arm. Kaelen drew his cap free and put it back on.
 
 Varek tried to follow.
 
@@ -77,7 +77,7 @@ Bram stood at the threshold, looking into the gap beside the cage.
 
 “To the upper stores,” Kaelen said. “Then a level service passage to the Spire. He goes on the deck. Nobody hangs him off a rope.”
 
-The smith climbed inside and stamped on the steel floor. He inspected the crossmembers underneath from the landing pit, working his way along with the lamp held close. Bram passed him the pinch-bar without being asked.
+The smith climbed inside and stamped on the steel floor. From the landing pit, he worked his way beneath the deck, holding the lamp close to each supporting beam. Bram passed him the pinch-bar without being asked.
 
 When Kaelen came back up, his bad knee would not straighten. He stood with both hands on the door jamb until it did.
 
@@ -171,7 +171,7 @@ Sanna looked at the crossed calipers. Then she took the bundle and gave it to Ka
 
 ⁂
 
-They laid a ramp over the landing lip. Kaelen shut off the broken gauge branch, topped up the oil, and connected the nursery’s steam hose to the service inlet at Varek’s hip. Water spat from the drain into his pail.
+They laid a ramp over the landing lip. Kaelen shut off the line to the broken gauge and topped up the oil. Then he connected the nursery’s steam hose at Varek’s hip. Water spat from the drain into his pail.
 
 “Don’t move.”
 
@@ -245,7 +245,7 @@ He took another.
 
 The cage deck sounded beneath him.
 
-They chained him against the freight stops, clear of the hoses, and Kaelen locked the joints. Varek remained upright when the supply closed. His gauge stayed at zero; with its branch shut off, it could tell them nothing.
+They chained him against the freight stops, clear of the hoses, and Kaelen locked the joints. Varek remained upright when the supply closed. His gauge stayed at zero. Cut off from the pressure, it could tell them nothing.
 
 Once Kaelen had drained the hose, Bram disconnected it and coiled it beside the landing.
 
@@ -283,7 +283,7 @@ The boy’s mouth tightened.
 
 ⁂
 
-The landing dogs withdrew with a heavy clack.
+The iron supports beneath the cage withdrew with a heavy clack.
 
 The cage stood still until the brake released. Then the ropes took its weight and the deck rose beneath Varek’s boots. In the neighbouring shaft, a heavier cage of stone descended. Its weight hauled him toward the Spire.
 
@@ -325,7 +325,7 @@ The trunk walls changed from rough-cut rock to fitted stone. Light entered throu
 
 The cage slowed.
 
-An upper trip lever lifted under the frame. The brake took hold, and the landing dogs slid home beneath the deck.
+At the upper landing, the brake took hold. The iron supports slid home beneath the deck.
 
 Varek had reached the stores.
 
@@ -418,3 +418,7 @@ KEEP THIS.
 He held it against his chest.
 
 With his other hand, he knocked.
+
+<p align="center">
+  <img src="images/image5.png" alt="CHAPTER SEVEN: The Ascent Illustration" width="600" />
+</p>
