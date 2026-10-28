@@ -200,3 +200,18 @@ Restored the authoritative illustrated Doc link, redirected the removed appendix
 Moved 33 root Python scripts into `tools/legacy/blender/`, `tools/legacy/llm/`, and `tools/blender_setup/`. The V35 preflight JSON moved with the historical Blender scripts. Updated the four generation helpers so their outputs target the relocated builder directory. No tracked external references to the old root script paths were found; documentation and directory navigation now show the new locations. Manuscript files and assets are unchanged.
 
 Relocation checks: all 33 Python scripts compile; the four generator output paths resolve to the moved builders; the other 30 relocated files are byte-identical to their originals. Repository CI was run before and after the move and retained the same missing agent-contract markers plus three physics-test failures and one related contract-test setup error (35 tests). Blender execution was not part of this directory cleanup.
+
+## Panel Studio Gate & FORTIS Pilot Guard (PR-B) — 28 October 2026
+
+Completed PR-B corrective closure on `feature/panel-studio-fortis-guard` (PR #3 updated, awaiting human review):
+- Introduced `sceneProfile` parameter supporting `varek_defense_line` (Episode 001 canonical baseline) and `fortis_pilot` (FORTIS graphic novel pilot).
+- Fixed self-conflicting positive prompt presets (moved negative constraints exclusively to `negativePreset`), verified `synthesizePrompt -> auditPrompt` round-trips for both profiles with 0 violations and 0 missing anchors.
+- Defined missing-profile context policy: preserves legacy default to `varek_defense_line` in draft routes (`auditPrompt`, `/api/synthesize`), but explicitly requires `sceneProfile` at the production boundary (`validateProductionBoundary` returns error and HTTP 422 if omitted).
+- Truthful route-boundary enforcement: labeled existing `/api/generate` as exploratory/draft-only (`mode: "draft"`, `productionCertified: false`, with explicit non-certification disclaimer), and wired `POST /api/production/validate` to enforce production boundary validation.
+- Disclaimed validation limits: explicit disclaimer establishes that text audits verify prompt token compliance and style-reference metadata string presence only; they do not authenticate file hashes, verify cryptographic signatures, or prove rendered image style.
+- Corrected Page 16 fixture: adult borrowed coat (not oversized by invention), pins seated, spanner present on shelf (script line 236); unscripted lamps and dilute amber spills removed.
+- Propagated `sceneProfile` through server (`GET /api/profiles`, `POST /api/synthesize`, `POST /api/generate`, `POST /api/production/validate`) and UI (`#scene-profile` selector).
+- Full test suite: 36 passing tests across 6 suites (0 failures, 176ms).
+- Residual limitations: Young Ansen, adult Ansen, and youth Nessa reference sheets remain unapproved; generation pathway is draft-only pending author approval of Page 1 visual anchors. Baseline Episode 001 behavior, canon, and novella prose remain untouched.
+
+
