@@ -722,6 +722,11 @@
         <div id="custom-endpoint-row" style="display:none; margin-top:4px;">
           <input type="text" id="custom-endpoint" class="input-field" style="width:100%;" placeholder="http://localhost:8000/v1/images/generations" />
         </div>
+        <label for="scene-profile">Scene treatment</label>
+        <select id="scene-profile" class="input-field">
+          <option value="mastercraft">Industrial equipment</option>
+          <option value="civilian_shelter">Civilian shelter</option>
+        </select>
         <button class="btn btn-gen" id="btn-generate" onclick="generateWithAI()">
           🎨 Generate Thulan Panel (16:9)
         </button>
@@ -739,7 +744,7 @@
       <!-- 2. PROMPT SYNTHESIZER -->
       <div class="card">
         <div class="card-title">
-          <span>Guarded Thulan AI Prompt</span>
+          <span>Scene prompt</span>
           <div class="audit-tag">✓ LORE GUARD ACTIVE</div>
         </div>
         <textarea id="prompt-box" class="prompt-box" rows="3"></textarea>
@@ -1015,13 +1020,9 @@
 
       updateOverlays();
 
-      const res = await fetch('/api/synthesize', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ scene: currentBeat.suggestedPrompt })
-      });
-      const synth = await res.json();
-      document.getElementById('prompt-box').value = synth.positivePrompt;
+      // Keep the editable scene free of equipment presets. The server applies
+      // the chosen treatment once, at generation time.
+      document.getElementById('prompt-box').value = currentBeat.suggestedPrompt;
     }
 
     function updateOverlays() {
@@ -1073,6 +1074,7 @@
             provider,
             apiKey,
             prompt,
+            sceneProfile: document.getElementById('scene-profile').value,
             customEndpoint,
             beatId: currentBeat ? currentBeat.id : 1
           })

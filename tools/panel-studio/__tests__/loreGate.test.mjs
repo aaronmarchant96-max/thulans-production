@@ -39,4 +39,24 @@ describe("Gate 1: Lore Invariant & Anti-Slop Enforcement", () => {
     assert.ok(positivePrompt.includes("Dark Horse comic"), "Aesthetic anchor must be injected");
     assert.ok(negativePrompt.includes("medieval fantasy"), "Negative prompt must block medieval fantasy");
   });
+
+  it("keeps civilian scenes free of injected equipment while retaining the lore guard", () => {
+    const options = { sceneProfile: "civilian_shelter" };
+    const { positivePrompt, negativePrompt } = synthesizePrompt(
+      "Two siblings hide behind boards and exchange bread beside a warm pipe; a fantasy sword", options
+    );
+    assert.equal(auditPrompt(positivePrompt, options).valid, true);
+    assert.ok(positivePrompt.includes("Two siblings hide behind boards"));
+    for (const equipment of ["sloped bronze", "hydraulic", "respirator helmets", "pressure suits", "fantasy sword"]) {
+      assert.ok(!positivePrompt.includes(equipment), `Unexpected equipment: ${equipment}`);
+    }
+    assert.ok(negativePrompt.includes("powered armour"));
+    assert.ok(!auditPrompt("plain corridor", options).valid);
+    assert.ok(!auditPrompt("heavy ink subterranean scene with a sword", options).valid);
+  });
+
+  it("rejects unknown scene profiles instead of silently injecting equipment", () => {
+    assert.throws(() => synthesizePrompt("siblings", { sceneProfile: "civilan" }), /Unknown scene profile/);
+    assert.throws(() => auditPrompt("siblings", { sceneProfile: "toString" }), /Unknown scene profile/);
+  });
 });

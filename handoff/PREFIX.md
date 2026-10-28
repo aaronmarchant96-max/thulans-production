@@ -16,6 +16,14 @@ The production and synchronization notes below retain their explicitly dated his
 - Editorial constitution and decision log: https://docs.google.com/document/d/1v-J0KnzXkittERcHcRgbhEiiG9VRV514yMJ6Pmwim4M
 - Historical production notes: `docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md`
 
+## First opening panel test and civilian engine treatment - 28 October 2026
+
+The author requested engine work and one test panel. `episodes/salvation/review/opening-r4-p02-02/` contains a PNG and review record for candidate Page 2, panel 2. It was generated with the connected Codex image tool, not the local Panel Studio generator. It is provisional review art outside the revision 3 production asset mapping. The hiding scene reads; the actual bread exchange and patrol sightline need further visual work. No character design, opening staging, or canon approval is inferred.
+
+Panel Studio previously appended equipment/helmet/pressure-suit prompts to every scene. Its new optional `civilian_shelter` treatment avoids that injection; default mastercraft treatment stays unchanged. A UI selector and both API paths carry the profile. Editable scene text now stays separate from the once-applied treatment. Missing AGY launch is handled as a request error; AGY is not installed here, and the connected image tool is not integrated into the local server. Provider configuration remains required for successful local generation.
+
+The Panel Studio test command, direct synthesis/default/error assertions, JavaScript syntax, and local HTTP checks passed. HTTP checks verified civilian synthesis, selector markup, invalid-profile rejection, and missing-generator error without crashing the server. No local successful generation, final art approval, source remapping, or timing measurement is claimed. Frozen physics tools, Eleven Bells, the authoritative pilot, and its production metadata remain unchanged.
+
 ## Opening revision 4 candidate - 28 October 2026
 
 `docs/SALVATION_OPENING_REVISION_4_CANDIDATE.md` preserves the author's single current opening proposal, titled The Thulans: Fortis and explicitly Candidate for Author Approval. It replaces earlier opening alternatives as a proposal, not as the authoritative script. It retains 17 panels across Pages 1-4 (3/5/4/5), fitting the existing 16-page/66-panel allocation. Both siblings remain behind the boards; the tin-warming hatch supplies no second loaf; Ansen swaps the bread during the patrol freeze; Nessa burns her mouth; Page 3 settles into the cold-hand contact, disputed fourth note, and cuff thread before the arrest. Earlier Ansen hot-bite and repeated bread-contest instructions are superseded for this candidate.

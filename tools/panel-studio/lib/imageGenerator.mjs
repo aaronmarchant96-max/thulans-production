@@ -23,6 +23,7 @@ export async function generateImage({ provider, apiKey, model, prompt, negativeP
       let stdout = "";
       let stderr = "";
 
+      proc.on("error", err => reject(new Error(`AGY generator could not start: ${err.message}. Install AGY locally or select a configured image provider.`)));
       proc.stdout.on("data", d => stdout += d.toString());
       proc.stderr.on("data", d => stderr += d.toString());
 

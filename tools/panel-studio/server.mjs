@@ -176,7 +176,7 @@ const server = http.createServer((req, res) => {
       try {
         const data = JSON.parse(body);
         const result = synthesizePrompt(data.scene || "", data.options || {});
-        const audit = auditPrompt(result.positivePrompt);
+        const audit = auditPrompt(result.positivePrompt, data.options || {});
         res.writeHead(200, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ ...result, audit }));
       } catch (err) {
@@ -251,7 +251,7 @@ const server = http.createServer((req, res) => {
       try {
         const data = JSON.parse(body);
         if (data.prompt) {
-          const synth = synthesizePrompt(data.prompt);
+          const synth = synthesizePrompt(data.prompt, { sceneProfile: data.sceneProfile });
           data.prompt = synth.positivePrompt;
           data.negativePrompt = synth.negativePrompt;
         }
