@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
-import { synthesizePrompt, auditPrompt, SCENE_PROFILES } from "./lib/loreGuard.mjs";
+import { synthesizePrompt, auditPrompt, validateProductionBoundary, SCENE_PROFILES } from "./lib/loreGuard.mjs";
 import { generateImage } from "./lib/imageGenerator.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -256,7 +256,25 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // Direct AI Generation Endpoint
+  // Production Boundary Validation Endpoint
+  if (url.pathname === "/api/production/validate" && req.method === "POST") {
+    let body = "";
+    req.on("data", chunk => body += chunk);
+    req.on("end", () => {
+      try {
+        const manifestEntry = JSON.parse(body);
+        const validation = validateProductionBoundary(manifestEntry);
+        res.writeHead(validation.valid ? 200 : 422, { "Content-Type": "application/json" });
+        res.end(JSON.stringify(validation));
+      } catch (err) {
+        res.writeHead(400, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // Direct AI Generation Endpoint (Exploratory / Draft Only)
   if (url.pathname === "/api/generate" && req.method === "POST") {
     let body = "";
     req.on("data", chunk => body += chunk);
@@ -279,11 +297,16 @@ const server = http.createServer((req, res) => {
           result.draftUrl = `/drafts/${encodeURIComponent(draftName)}`;
           result.draftName = draftName;
         }
+        // Explicitly label endpoint output as exploratory draft-only
+        result.mode = "draft";
+        result.productionCertified = false;
+        result.disclaimer = "Draft exploratory generation only. Not certified against production boundary or author-approved reference hashes.";
         res.writeHead(200, { "Content-Type": "application/json" });
         res.end(JSON.stringify(result));
       } catch (err) {
         console.error("Generate error:", err);
-        res.writeHead(500, { "Content-Type": "application/json" });
+        const isProfileError = err.message && err.message.startsWith("Unknown sceneProfile");
+        res.writeHead(isProfileError ? 400 : 500, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ error: err.message }));
       }
     });

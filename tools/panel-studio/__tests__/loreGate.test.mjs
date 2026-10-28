@@ -4,6 +4,7 @@ import {
   auditPrompt, 
   synthesizePrompt, 
   validateProductionBoundary, 
+  getSceneProfile,
   FORBIDDEN_TOKENS, 
   SCENE_PROFILES 
 } from "../lib/loreGuard.mjs";
@@ -76,9 +77,10 @@ describe("Gate 1: FORTIS Pilot Multi-Scene Guard", () => {
     assert.equal(audit.missingAnchors.length, 0);
   });
 
-  it("passes dialogue-free silent panel (Page 16 folded coat fixture: both pins remain seated, spanner still on shelf)", () => {
+  it("passes dialogue-free silent panel (Page 16 folded coat fixture: adult borrowed coat, pins seated, spanner present)", () => {
     // Script line: "Both pins remain seated; the spanner is still on the shelf. He takes off the borrowed coat... folds the coat, kneels, and places it where he intends to lower her head."
-    const coatPrompt = "Oversized borrowed wool miner coat folded into a pillow on wet deck grating where he intends to lower her head. Both coupling pins remain seated, spanner still on shelf. Dilute amber lamp spill, silence, charcoal blacks, heavy ink chiaroscuro";
+    // Fixture strictly matches script: adult borrowed coat, pins seated, spanner present; no unscripted lamp or assumed oversized adult coat.
+    const coatPrompt = "Adult borrowed wool coat folded into a pillow on wet iron deck grating where he intends to lower her head. Both coupling pins remain seated, spanner still on shelf. Silence, charcoal blacks, heavy ink chiaroscuro";
     const audit = auditPrompt(coatPrompt, { sceneProfile: "fortis_pilot" });
 
     assert.equal(audit.valid, true, "Folded coat silent still-life fixture must pass with seated pins and spanner on shelf");
@@ -152,6 +154,29 @@ describe("Gate 1: Profile Validation & Production Boundary Contracts", () => {
       () => synthesizePrompt("A scene beat", { sceneProfile: "cyberpunk_matrix" }),
       /Unknown sceneProfile: "cyberpunk_matrix"/
     );
+  });
+
+  it("preserves legacy default to varek_defense_line when profileKey is undefined in draft mode", () => {
+    const profile = getSceneProfile(undefined);
+    assert.equal(profile.name, "varek_defense_line");
+  });
+
+  it("rejects missing sceneProfile explicitly in production context", () => {
+    assert.throws(
+      () => getSceneProfile(undefined, { context: "production" }),
+      /Missing required sceneProfile in production context/
+    );
+  });
+
+  it("validateProductionBoundary rejects manifest entry with missing sceneProfile", () => {
+    const manifestWithoutProfile = {
+      id: "FORTIS-P01-02",
+      styleReference: "FORTIS_STYLE_V1.0",
+      story_beat: "Ansen watches passage through board gap"
+    };
+    const result = validateProductionBoundary(manifestWithoutProfile);
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some(e => e.includes("Missing required sceneProfile in production manifest entry")));
   });
 
   it("validateProductionBoundary requires approved, versioned style reference metadata", () => {

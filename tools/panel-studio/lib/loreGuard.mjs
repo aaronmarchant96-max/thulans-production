@@ -101,12 +101,18 @@ SCENE_PROFILES["episode_001"] = SCENE_PROFILES.varek_defense_line;
 SCENE_PROFILES["salvation_pilot"] = SCENE_PROFILES.fortis_pilot;
 
 /**
- * Resolves a sceneProfile name or throws an explicit error if unknown.
+ * Resolves a sceneProfile name or throws an explicit error if unknown or missing in production.
+ * Defaults to "varek_defense_line" in legacy/draft context.
+ * In production context, explicitly requires a sceneProfile and rejects silent defaults.
  * @param {string|undefined} profileKey 
+ * @param {object} [options] - Optional context options { context, requireProfile }
  * @returns {object} The resolved scene profile object
  */
-export function getSceneProfile(profileKey) {
+export function getSceneProfile(profileKey, options = {}) {
   if (!profileKey) {
+    if (options.context === "production" || options.context === "fortis_production" || options.requireProfile) {
+      throw new Error("Missing required sceneProfile in production context. Submissions must explicitly specify a profile (e.g. 'fortis_pilot' or 'varek_defense_line') and cannot silently default to Episode 001.");
+    }
     return SCENE_PROFILES.varek_defense_line;
   }
   const resolved = SCENE_PROFILES[profileKey];
@@ -127,7 +133,9 @@ export function getSceneProfile(profileKey) {
  */
 export function auditPrompt(promptText, options = {}) {
   const profileKey = typeof options === "string" ? options : (options.sceneProfile || options.profile);
-  const profile = getSceneProfile(profileKey);
+  const context = typeof options === "object" ? options.context : undefined;
+  const requireProfile = typeof options === "object" && (options.requireProfile || options.production);
+  const profile = getSceneProfile(profileKey, { context, requireProfile });
 
   const lower = promptText.toLowerCase();
   const violations = profile.forbiddenTokens.filter(token => {
@@ -157,7 +165,7 @@ export function auditPrompt(promptText, options = {}) {
     styleAudit: {
       metadataVerified: requireStyle ? (missingMetadata.length === 0) : Boolean(styleRef),
       styleReference: styleRef || null,
-      disclaimer: "Text audit verifies prompt token compliance and style reference metadata presence only. It does not prove rendered image style, which requires human visual review."
+      disclaimer: "Text audit verifies prompt token compliance and style reference metadata presence only. It does not authenticate reference file hashes and does not prove rendered image style, which requires human visual review."
     }
   };
 }
@@ -192,6 +200,7 @@ export function synthesizePrompt(sceneDescription, options = {}) {
 /**
  * Validates a panel production contract entry at the production boundary.
  * Requires approved, versioned style-reference metadata without claiming text audit proves rendered style.
+ * Production submissions must explicitly specify a sceneProfile and cannot silently default to Episode 001.
  * @param {object} manifestEntry - Panel manifest entry matching FORTIS visual specification
  * @returns {{ valid: boolean, errors: string[], audit: object, styleAudit: object }}
  */
@@ -207,19 +216,32 @@ export function validateProductionBoundary(manifestEntry) {
     errors.push("Missing approved, versioned style reference metadata (e.g. 'FORTIS_STYLE_V1')");
   }
 
+  const profileKey = manifestEntry.sceneProfile || manifestEntry.profile;
+  if (!profileKey) {
+    errors.push("Missing required sceneProfile in production manifest entry. Production submissions must not silently default to Episode 001.");
+  }
+
   const promptText = manifestEntry.prompt || manifestEntry.positivePrompt || manifestEntry.story_beat || "";
-  const profileKey = manifestEntry.sceneProfile || manifestEntry.profile || "varek_defense_line";
 
-  const audit = auditPrompt(promptText, {
-    sceneProfile: profileKey,
-    requireStyleRef: true,
-    styleReference: styleRef
-  });
+  let audit = null;
+  if (profileKey) {
+    try {
+      audit = auditPrompt(promptText, {
+        sceneProfile: profileKey,
+        requireStyleRef: true,
+        styleReference: styleRef,
+        production: true,
+        context: "production"
+      });
 
-  if (!audit.valid) {
-    if (audit.violations.length > 0) errors.push(`Forbidden tokens: ${audit.violations.join(", ")}`);
-    if (audit.missingAnchors.length > 0) errors.push(`Missing anchors: ${audit.missingAnchors.join(", ")}`);
-    if (audit.missingMetadata.length > 0) errors.push(`Missing metadata: ${audit.missingMetadata.join(", ")}`);
+      if (!audit.valid) {
+        if (audit.violations.length > 0) errors.push(`Forbidden tokens: ${audit.violations.join(", ")}`);
+        if (audit.missingAnchors.length > 0) errors.push(`Missing anchors: ${audit.missingAnchors.join(", ")}`);
+        if (audit.missingMetadata.length > 0) errors.push(`Missing metadata: ${audit.missingMetadata.join(", ")}`);
+      }
+    } catch (err) {
+      errors.push(err.message);
+    }
   }
 
   return {
@@ -229,7 +251,7 @@ export function validateProductionBoundary(manifestEntry) {
     styleAudit: {
       metadataVerified: Boolean(styleRef && styleRef !== "pending_approval" && styleRef !== "unassigned"),
       styleReference: styleRef || null,
-      disclaimer: "Text audit verifies prompt token compliance and style reference metadata presence only. It does not prove rendered image style, which requires human visual review."
+      disclaimer: "Text audit verifies prompt token compliance and style reference metadata presence only. It does not authenticate reference file hashes and does not prove rendered image style, which requires human visual review."
     }
   };
 }

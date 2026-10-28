@@ -90,4 +90,66 @@ describe("Panel Studio Server & UI API Integration", () => {
     const data = await res.json();
     assert.ok(data.error.includes("Unknown sceneProfile: \"cyberpunk_matrix_unsupported\""));
   });
+
+  it("POST /api/synthesize preserves legacy fallback to varek_defense_line when profile is omitted", async () => {
+    const res = await fetch(`${baseUrl}/api/synthesize`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        scene: "Miners holding defensive line at lift collar"
+      })
+    });
+    assert.equal(res.status, 200);
+    const data = await res.json();
+    assert.equal(data.profile, "varek_defense_line");
+    assert.ok(data.positivePrompt.includes("sloped bronze"));
+  });
+
+  it("POST /api/production/validate rejects manifest entries missing sceneProfile with HTTP 422", async () => {
+    const res = await fetch(`${baseUrl}/api/production/validate`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        id: "FORTIS-P01-02",
+        styleReference: "FORTIS_STYLE_V1.0",
+        story_beat: "Ansen watches passage through board gap"
+      })
+    });
+    assert.equal(res.status, 422);
+    const data = await res.json();
+    assert.equal(data.valid, false);
+    assert.ok(data.errors.some(e => e.includes("Missing required sceneProfile")));
+  });
+
+  it("POST /api/production/validate passes compliant FORTIS manifest with HTTP 200 and visual disclaimer", async () => {
+    const res = await fetch(`${baseUrl}/api/production/validate`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        id: "FORTIS-P01-02",
+        sceneProfile: "fortis_pilot",
+        styleReference: "FORTIS_STYLE_V1.0",
+        story_beat: "Ansen watches passage through board gap, Nessa sits behind under warm pipe"
+      })
+    });
+    assert.equal(res.status, 200);
+    const data = await res.json();
+    assert.equal(data.valid, true);
+    assert.equal(data.errors.length, 0);
+    assert.ok(data.styleAudit.disclaimer.includes("human visual review"));
+  });
+
+  it("POST /api/generate rejects unknown sceneProfile with HTTP 400", async () => {
+    const res = await fetch(`${baseUrl}/api/generate`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        prompt: "A scene in space",
+        sceneProfile: "nonexistent_sci_fi_profile"
+      })
+    });
+    assert.equal(res.status, 400);
+    const data = await res.json();
+    assert.ok(data.error.includes("Unknown sceneProfile: \"nonexistent_sci_fi_profile\""));
+  });
 });
