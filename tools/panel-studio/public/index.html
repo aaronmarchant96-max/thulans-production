@@ -740,7 +740,14 @@
       <div class="card">
         <div class="card-title">
           <span>Guarded Thulan AI Prompt</span>
-          <div class="audit-tag">✓ LORE GUARD ACTIVE</div>
+          <div class="audit-tag" id="audit-badge">✓ LORE GUARD ACTIVE</div>
+        </div>
+        <div style="margin-bottom:8px; display:flex; align-items:center; gap:8px;">
+          <span style="font-size:0.72rem; color:var(--bronze); font-weight:700;">SCENE PROFILE:</span>
+          <select id="scene-profile" class="input-field" style="padding:2px 8px; font-size:0.75rem; height:28px;" onchange="onProfileChange()">
+            <option value="varek_defense_line">Episode 001: Eleven Bells (Varek Defense Line)</option>
+            <option value="fortis_pilot">FORTIS Pilot: Ansen & Nessa (European Ink)</option>
+          </select>
         </div>
         <textarea id="prompt-box" class="prompt-box" rows="3"></textarea>
       </div>
@@ -1015,13 +1022,27 @@
 
       updateOverlays();
 
+      const profile = document.getElementById('scene-profile') ? document.getElementById('scene-profile').value : 'varek_defense_line';
       const res = await fetch('/api/synthesize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ scene: currentBeat.suggestedPrompt })
+        body: JSON.stringify({ 
+          scene: currentBeat.suggestedPrompt,
+          sceneProfile: profile 
+        })
       });
       const synth = await res.json();
       document.getElementById('prompt-box').value = synth.positivePrompt;
+      const badge = document.getElementById('audit-badge');
+      if (badge) {
+        badge.textContent = synth.audit?.valid ? `✓ LORE GUARD ACTIVE (${(synth.profile || profile).toUpperCase()})` : `⚠ LORE WARNING (${(synth.profile || profile).toUpperCase()})`;
+      }
+    }
+
+    async function onProfileChange() {
+      if (currentBeat) {
+        await selectBeat(currentBeat.id);
+      }
     }
 
     function updateOverlays() {
@@ -1066,6 +1087,7 @@
       btn.disabled = true;
 
       try {
+        const profile = document.getElementById('scene-profile') ? document.getElementById('scene-profile').value : 'varek_defense_line';
         const res = await fetch('/api/generate', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -1073,6 +1095,7 @@
             provider,
             apiKey,
             prompt,
+            sceneProfile: profile,
             customEndpoint,
             beatId: currentBeat ? currentBeat.id : 1
           })

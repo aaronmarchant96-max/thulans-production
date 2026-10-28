@@ -1,6 +1,12 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
-import { auditPrompt, synthesizePrompt, FORBIDDEN_TOKENS, SCENE_PROFILES } from "../lib/loreGuard.mjs";
+import { 
+  auditPrompt, 
+  synthesizePrompt, 
+  validateProductionBoundary, 
+  FORBIDDEN_TOKENS, 
+  SCENE_PROFILES 
+} from "../lib/loreGuard.mjs";
 
 describe("Gate 1: Lore Invariant & Anti-Slop Enforcement (Episode 001 / Varek Baseline)", () => {
   it("catches forbidden fantasy tokens under adversarial injection", () => {
@@ -36,8 +42,18 @@ describe("Gate 1: Lore Invariant & Anti-Slop Enforcement (Episode 001 / Varek Ba
 
     assert.ok(!positivePrompt.includes("wooden shield"), "Forbidden token must be stripped");
     assert.ok(positivePrompt.includes("sloped bronze"), "Canonical anchor must be injected");
-    assert.ok(positivePrompt.includes("Dark Horse comic"), "Aesthetic anchor must be injected");
+    assert.ok(positivePrompt.includes("heavy ink"), "Aesthetic anchor must be injected");
     assert.ok(negativePrompt.includes("medieval fantasy"), "Negative prompt must block medieval fantasy");
+  });
+
+  it("synthesizePrompt -> auditPrompt round-trip produces valid audit in varek_defense_line", () => {
+    const rawScene = "Miners advancing down the haul drift under heavy steam";
+    const synthesized = synthesizePrompt(rawScene, "varek_defense_line");
+    const roundTripAudit = auditPrompt(synthesized.positivePrompt, "varek_defense_line");
+
+    assert.equal(roundTripAudit.valid, true, "Synthesized prompt must pass its own profile audit without self-conflicting violations");
+    assert.deepEqual(roundTripAudit.violations, []);
+    assert.deepEqual(roundTripAudit.missingAnchors, []);
   });
 });
 
@@ -60,11 +76,12 @@ describe("Gate 1: FORTIS Pilot Multi-Scene Guard", () => {
     assert.equal(audit.missingAnchors.length, 0);
   });
 
-  it("passes dialogue-free silent panel (Page 16 folded coat fixture)", () => {
-    const coatPrompt = "Oversized wool miner coat folded into a pillow on wet deck grating, heavy dropped spanner and removed coupling pin beside it in darkness";
+  it("passes dialogue-free silent panel (Page 16 folded coat fixture: both pins remain seated, spanner still on shelf)", () => {
+    // Script line: "Both pins remain seated; the spanner is still on the shelf. He takes off the borrowed coat... folds the coat, kneels, and places it where he intends to lower her head."
+    const coatPrompt = "Oversized borrowed wool miner coat folded into a pillow on wet deck grating where he intends to lower her head. Both coupling pins remain seated, spanner still on shelf. Dilute amber lamp spill, silence, charcoal blacks, heavy ink chiaroscuro";
     const audit = auditPrompt(coatPrompt, { sceneProfile: "fortis_pilot" });
 
-    assert.equal(audit.valid, true, "Folded coat silent still-life must pass");
+    assert.equal(audit.valid, true, "Folded coat silent still-life fixture must pass with seated pins and spanner on shelf");
     assert.equal(audit.violations.length, 0);
     assert.equal(audit.missingAnchors.length, 0);
   });
@@ -109,5 +126,74 @@ describe("Gate 1: FORTIS Pilot Multi-Scene Guard", () => {
     assert.ok(!positivePrompt.includes("sloped bronze"), "Varek-specific anchor must NOT be injected into FORTIS");
     assert.ok(negativePrompt.includes("glossy CGI"), "Negative prompt must block glossy CGI");
     assert.ok(negativePrompt.includes("medieval fantasy"), "Negative prompt must block medieval fantasy");
+  });
+
+  it("synthesizePrompt -> auditPrompt round-trip produces valid audit in fortis_pilot", () => {
+    const rawBeat = "Beneath the warm return pipe, Ansen watches through the gap";
+    const synthesized = synthesizePrompt(rawBeat, "fortis_pilot");
+    const roundTripAudit = auditPrompt(synthesized.positivePrompt, "fortis_pilot");
+
+    assert.equal(roundTripAudit.valid, true, "Synthesized FORTIS prompt must pass audit cleanly");
+    assert.deepEqual(roundTripAudit.violations, []);
+    assert.deepEqual(roundTripAudit.missingAnchors, []);
+  });
+});
+
+describe("Gate 1: Profile Validation & Production Boundary Contracts", () => {
+  it("rejects unknown scene profiles explicitly in auditPrompt", () => {
+    assert.throws(
+      () => auditPrompt("A scene prompt", "unknown_scifi_profile"),
+      /Unknown sceneProfile: "unknown_scifi_profile"/
+    );
+  });
+
+  it("rejects unknown scene profiles explicitly in synthesizePrompt", () => {
+    assert.throws(
+      () => synthesizePrompt("A scene beat", { sceneProfile: "cyberpunk_matrix" }),
+      /Unknown sceneProfile: "cyberpunk_matrix"/
+    );
+  });
+
+  it("validateProductionBoundary requires approved, versioned style reference metadata", () => {
+    const compliantManifest = {
+      id: "FORTIS-P01-02",
+      sceneProfile: "fortis_pilot",
+      styleReference: "FORTIS_STYLE_V1.0",
+      story_beat: "Ansen watches passage through board gap, Nessa sits behind under warm pipe"
+    };
+    const result = validateProductionBoundary(compliantManifest);
+
+    assert.equal(result.valid, true, "Compliant production manifest must pass");
+    assert.equal(result.errors.length, 0);
+    assert.equal(result.styleAudit.metadataVerified, true);
+    assert.equal(result.styleAudit.styleReference, "FORTIS_STYLE_V1.0");
+    assert.ok(result.styleAudit.disclaimer.includes("does not prove rendered image style"));
+  });
+
+  it("validateProductionBoundary rejects unapproved or pending_approval style reference", () => {
+    const pendingManifest = {
+      id: "FORTIS-P01-02",
+      sceneProfile: "fortis_pilot",
+      styleReference: "pending_approval",
+      story_beat: "Ansen watches passage through board gap"
+    };
+    const result = validateProductionBoundary(pendingManifest);
+
+    assert.equal(result.valid, false, "Pending approval style reference must fail production boundary");
+    assert.ok(result.errors.some(e => e.includes("Missing approved, versioned style reference")));
+    assert.equal(result.styleAudit.metadataVerified, false);
+  });
+
+  it("validateProductionBoundary explicitly disclaims text audit as proof of rendered style", () => {
+    const entry = {
+      id: "FORTIS-P01-03",
+      sceneProfile: "fortis_pilot",
+      styleReference: "FORTIS_STYLE_V1.0",
+      prompt: "Nessa cradles warm loaf of bread inside worn wool wrap"
+    };
+    const result = validateProductionBoundary(entry);
+
+    assert.ok(result.styleAudit.disclaimer.includes("human visual review"));
+    assert.ok(!result.styleAudit.renderedStyleCertified, "Must not claim automated render certification");
   });
 });
