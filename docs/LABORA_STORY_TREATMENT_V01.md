@@ -14,7 +14,7 @@
 
 **Reunion.** Ansen finds Nessa still in Frame 9. They don't deliver speeches about five years or love. She notices his hair; he sees the injured wrist and the frame. Possible **candidate dialogue**, not a lock: "Your hair." / "What about it?" / "It's terrible." The childhood familiarity returns awkwardly. A small new closeness between adults is possible but neither names it. The tube and restraint design still limit how much she can speak. Do not pile the coat, bread and cold-feet callbacks into one scene.
 
-**Their joint success.** A rushed shutdown threatens to close a drop shutter across the only route for Edda and Pell. Edda is injured **in the same gallery established by Nessa's earlier work**; Pell stays to help her. Nessa knows a catch is out of alignment. Ansen wants to release Nessa but sees the workers and listens. In the single readable rescue action **he holds the manual brake, she shifts the alignment just enough, and the catch seats**. Edda and Pell get through, injured and impatient, not delivering gratitude speeches. Nessa's knowledge and Ansen's free reach have accomplished something together. The detailed load path is for engineering, not a heist sequence on the page.
+**Their joint success.** A rushed shutdown threatens to close a drop shutter across the only route for Edda and Pell. Edda is injured **in the same gallery established by Nessa's earlier work**; Pell stays to help her. Nessa knows a catch is out of alignment. Ansen wants to release Nessa but sees the workers and listens. In the single readable rescue action **he works the load-holding brake, Nessa gives a short timing signal from her clear view of the catch, and he eases the shutter until the catch seats**. Edda and Pell get through, injured and impatient, not delivering gratitude speeches. Nessa's knowledge and Ansen's free reach have accomplished something together. The detailed load path is for engineering, not a heist sequence on the page.
 
 **Hesk returns.** The operator's provisional name is **Hesk**, replacing Brun because Brun is too close to the main-novella name Bram. Hesk sees the altered station and Ansen attending to Nessa's restraint. He orders Ansen back. Ansen retreats beyond the arm's **usual** work arc, but Hesk engages a **wide direct-manual sweep** that has been shown earlier. Nessa recognizes the control before Ansen does and tries to warn him. Hesk **deliberately commands a seizure** using a powered industrial gripping arm; the frame is not independently choosing a target. Nessa's shoulder is injured resisting its imposed stroke, but her resistance cannot stop the machine. The powered hand crushes Ansen's throat/jaw, killing him quickly. Hesk is responsible because he intentionally applied dangerous machinery against a person; a theatrical murder speech is unnecessary.
 
@@ -30,6 +30,10 @@
 - Existing novella chronology and Varek's story remain authoritative; no revised manuscript is asserted.
 - Page count, final title, character identities, lighting, sound and all production art remain unapproved.
 - The REI/Image Engine proposal and AGY's open Panel Studio PR #3 are outside this literary update.
+
+## Adopted reader-first blocking — V0.3
+
+The author accepted the **simple signal-guided catch** in [station blocking V0.3](LABORA_STATION_BLOCKING_V03.md). This replaces the unproven shoulder-to-catch action in the active *story treatment*: Nessa's knowledge gives the timing, Ansen's good hand operates a brake that holds the shutter load, and the catch seats. Keep the rescue to these three actions. The **wide manual arm sweep** is an established work mode reused by Hesk, not a newly invented weapon at the death. **No exact dimensions or machine certification are required for storytelling.** Previous V0.2 and the review below remain retained as dated comparisons.
 
 ## 29 October timeline/physics review — candidate fixes, not new author rulings
 
