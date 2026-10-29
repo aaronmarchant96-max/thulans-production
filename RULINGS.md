@@ -898,6 +898,7 @@ Relentless misery is bad storytelling and commercially dead. The novella must ha
 <a id="ruling-037-labora"></a>
 
 ## RULING 037: LABORA — Companion relationship, agency, handler and ending
+* **29 October V0.3 clarification (story blocking, not physics lock):** The author accepted the **signal-guided shutter catch** as the preferred staging: Ansen operates a load-holding brake, Nessa recognizes the catch timing and signals him, and the passage opens. Her restrained shoulder does not physically operate the catch. The arm's wider manual working reach must be shown before Hesk reuses it. See [one-page V0.3 blocking](docs/LABORA_STATION_BLOCKING_V03.md). Exact mechanism, dimensions and visual certification remain open.
 
 * **Status:** **AUTHOR-APPROVED CREATIVE DIRECTION (29 October 2026)**, not a frozen script, title, mechanical design, approved art or new manuscript scene.
 * **Scope and supersession:** For the Ansen/Nessa **companion story only**, the earlier **sibling** relationship in RULING 035 is replaced by **unrelated orphans who grew up together**. They are approximately **13** when sentenced for stealing bread; no childhood romance. After five years apart, their closeness as roughly **18-year-old** adults may develop quietly. These approximate ages still require a continuity pass. The **three-month Welded sentences, five years' captivity, coerced powered motion, lack of consent, Varek's Chapter Six rescue and Ansen's Chapter Ten/Eleven appearances** from RULING 035 remain in force.
