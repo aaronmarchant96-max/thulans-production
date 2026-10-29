@@ -69,10 +69,10 @@ Prior audit reported a `loreGuard` rule requiring unrelated Varek terms (such as
 4. Remove/replace named-artist prompt chips with functional visual-language descriptors, subject to the style contract §4.
 5. Report test evidence and changed files in a separate implementation PR.
 
-## Required next PRs (separate from this draft)
+## Proposed future PR sequence — not authorized by this document
 
 - **PR-A:** Author-approved title/style reconciliation with `RULINGS.md`, story direction, script header, README and `handoff/PREFIX.md` updated together. Do **not** apply until DEC-01/02 approved.
-- **PR-B:** Panel Studio validator and prompt-chip repair, with negative regression tests.
+- **PR-B:** Panel Studio validator and prompt-chip repair, with negative regression tests. **Status note (28 October):** existing implementation PR [#3](https://github.com/aaronmarchant96-max/thulans-production/pull/3) was open/unmerged; do not create a competing PR or treat its claims as verified approval.
 - **PR-C:** Script revision, character/silhouette approvals and thumbnail sign-off.
 - **PR-D:** Page 1 static/motion proof and measured calibration report.
 

@@ -1,6 +1,6 @@
 # Thulans project handoff
 
-Updated 27 October 2026. Scope: Welded/Salvation lore, district rebellion direction, and continuity proofreading. Earlier dated manuscript synchronization and production records retain their own scope.
+Latest status annotation 28 October 2026. This handoff contains dated literary, Welded/Salvation, rebellion and production records; historical sections retain their original scope, and no new manuscript synchronization is implied.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
 ## Current lock reconciliation — 28 October 2026 (documentation only)

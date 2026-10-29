@@ -49,6 +49,12 @@ A reader should see clear geography, accurate bread-piece ownership, the actual 
 - No API keys, production endpoints, manuscripts, `RULINGS.md`, identity reference sheets, model adapters or image assets are changed here. No paid generation is authorized.
 - AGY remains the designated implementation lead; future scoped code tasks require explicit allocation to avoid parallel edits.
 
-## 5. Change-control rule
+## 5. Audit and historical-document navigation
+
+- [Documentation audit and cleanup record — 28 October 2026](THULANS_DOCS_AUDIT_2026-10-28.md) identifies corrected stale status language, removed machine-local links, and still-open CI/canon questions.
+- [`docs/STATE_OF_PRODUCTION.md`](STATE_OF_PRODUCTION.md) is a **15 September historical** production snapshot; its older story/rig claims are not current locks.
+- [`docs/SESSION_HANDOFF.md`](SESSION_HANDOFF.md) is a **10 September historical** worktree note, not the present session's operating instruction. Use [`handoff/PREFIX.md`](../handoff/PREFIX.md) for current resumption context.
+
+## 6. Change-control rule
 
 For any future change, distinguish **LOCKED / AUTHOR-APPROVED DIRECTION**, **WORKING SCRIPT**, **CANDIDATE**, **UNAPPROVED PLAN**, and **HUMAN-APPROVED ART ASSET**. Do not promote one category into another based on a generated image, a model's validation result, a draft name, or a proposal. Author approval is needed before title/canon/script freeze, visual-reference lock, production asset promotion or engineering-plan implementation. Preserve previous comparisons and handoff provenance.

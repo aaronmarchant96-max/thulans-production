@@ -1,8 +1,8 @@
 # Session Handoff — Workspace Confusion & Next-Session State
 
 
-> Written 2026-09-10 to capture ground truth for the next agent session.
-> **Switch to opencode is in progress. Read this file first.**
+> **ARCHIVED SESSION HANDOFF — written 10 September 2026, not an instruction for the current session.**
+> Earlier absolute paths, model versions, tooling status and authority claims below describe that dated workspace. For current authority use [`AGENTS.md`](../AGENTS.md), [`handoff/PREFIX.md`](../handoff/PREFIX.md), and the [locked-status index](THULANS_LOCKED_STATUS_2026-10-28.md). Verify current repository roots rather than reusing the historical local paths.
 
 
 ## CRITICAL: Two separate git repos were conflated

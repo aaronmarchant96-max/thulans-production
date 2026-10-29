@@ -3,7 +3,7 @@
 *Industrial grimdark fiction, graphic novels, and production tools by Aaron Marchant.*
 
 ![Novella Status](https://img.shields.io/badge/novella-Acts%20I--IV%20Complete-brightgreen)
-![Word Count](https://img.shields.io/badge/word_count-22%2C979%20words-blue)
+![Word Count](https://img.shields.io/badge/word_count-22%2C424%20words-blue)
 ![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
 ![Salvation Pilot](https://img.shields.io/badge/Salvation-16--page%20working%20pilot-c49a62)
 ![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--036-orange)
@@ -23,18 +23,18 @@
 
 | Read | Current state |
 | --- | --- |
-| **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Complete prologue and twelve-chapter revised reading draft synchronized with cover and illustrations. |
+| **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Authoritative complete illustrated reading draft; repository text mirrors are dated snapshots. |
 | **[Salvation — graphic-novel pilot](docs/SALVATION_PILOT_16_PAGES.md)** | Working revision 3: **16 story pages, 66 panels**, following Ansen and his sister Nessa. |
 | **[The rebellion novellas — series direction](docs/REBELLION_SAGA_DIRECTION.md)** | Approved ascending premise; individual books, geography, dates, and final outcome remain in development. |
 | **[Lore bible](docs/THE_THULANS_LORE_BIBLE_v3.md)** · **[Language and names](docs/THULAN_LANGUAGE_NOTE.md)** | World references, with current rulings and historical planning scopes distinguished. |
 
 ## 📖 The Novella: *The Weight of a Lie*
 
-The complete novella—comprising the Prologue, all twelve chapters, the canonical cover art, and 11 chapter/act illustrations—is synchronized directly from the authoritative live illustrated Google Doc:
+The **live illustrated Google Doc** is authoritative for the complete prologue and twelve-chapter reading draft. Repository text is a **mixed-date mirror**, not a newly synchronized copy of the entire live Doc: Chapter One was synchronized on 24 October 2026, while Chapters Two–Twelve retain their 21 October snapshot. The novella's existing cover should not be confused with any unapproved *Salvation* / **FORTIS** cover candidates:
 
 * 📖 **[Read the Authoritative Illustrated Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)**  
 * 📚 **[Novella Hub & Chapter Index (`novella/README.md`)](novella/README.md)**  
-* 📑 **[Read the Full Omnibus Manuscript (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
+* 📑 **[Read the Dated Omnibus Text Mirror (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
 * 📄 **[Raw Markdown Clean Reading View](https://raw.githubusercontent.com/aaronmarchant96-max/thulans-production/main/novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
 * 🎨 **[Historical Illustration Brief & Production Notes](docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md)**  
 
@@ -145,7 +145,7 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 ## 📁 Repository Structure
 
 ```
-├── novella/                     # Canonical 12-chapter novella manuscript
+├── novella/                     # Dated 12-chapter repository text mirror; live Doc controls
 │   ├── chapter_01.md .. 12.md   # Individual chapters (Acts I–IV)
 │   ├── THE_THULANS_MANUSCRIPT_COMPLETE.md   # Full omnibus edition
 │   └── THE_THULANS_MANUSCRIPT_ACTS_I_TO_IV.md
