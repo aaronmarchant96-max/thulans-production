@@ -3,6 +3,12 @@
 Updated 27 October 2026. Scope: Welded/Salvation lore, district rebellion direction, and continuity proofreading. Earlier dated manuscript synchronization and production records retain their own scope.
 The production and synchronization notes below retain their explicitly dated historical scope.
 
+## Current lock reconciliation — 28 October 2026 (documentation only)
+
+Read [`docs/THULANS_LOCKED_STATUS_2026-10-28.md`](../docs/THULANS_LOCKED_STATUS_2026-10-28.md) before interpreting working names or plans as approvals. **Ansen and Nessa are approved sibling names; `The Thulans: Salvation` remains the companion-story identity. `FORTIS` is a working cover/title candidate only.** The authoritative working script is revision 3, 16 story pages / 66 panels; the proposed Pages 1–4 drawable pass and Revision 4 have **not** replaced it. No cover or visual identity atlas has been approved.
+
+**REI / Thulan Image Engine / BFL integration is a proposal, not an authorized implementation plan.** PR #3 was open and unmerged when this record was prepared. The status-index update changes docs only; it does **not** change `RULINGS.md`, manuscripts, active pilot script, runtime, models, code, character art or project titles. AGY work is not modified.
+
 ## Authoritative artifacts
 
 - Live illustrated reading draft: https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY

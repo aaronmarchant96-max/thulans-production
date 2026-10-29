@@ -1,6 +1,8 @@
 # FORTIS — Production Reconciliation Addendum (Draft)
 
-**Status:** PROPOSED / NOT CANON / NOT PRODUCTION APPROVAL  
+**Status:** PROPOSED / NOT CANON / NOT PRODUCTION APPROVAL
+
+**Lock clarification (28 October 2026):** See [the current locked-names and approval-status matrix](THULANS_LOCKED_STATUS_2026-10-28.md). `The Thulans: Salvation` and the approved sibling names **Ansen** and **Nessa** are retained; **FORTIS** is a *working* cover/presentation title, not an approved rename. Opening Revision 4 is a candidate and revision 3 remains the repository's working script (16 pages / 66 panels). The REI / Thulan Image Engine integration plans have **not been approved**; this draft does not authorize API/provider/code work or paid generation.  
 **Scope:** Proposed title and workflow for the Ansen/Nessa 16-page graphic-novel pilot currently known in the repository as *The Thulans: Salvation*.  
 **Baseline reviewed:** `afb72829954b07f7bcdbc7859aa4022832d7c0b8` (28 October 2026).  
 **Owner:** Author approval required. **Implementer:** AGY for code, canon and production changes.

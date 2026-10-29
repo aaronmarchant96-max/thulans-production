@@ -45,6 +45,10 @@ Varek, an old man inside a three-tonne rescue machine, leaves his state post to 
 
 ---
 
+## Current locks and working names (28 October 2026)
+
+**Locked character names:** **Ansen** and **Nessa** are siblings. **`The Thulans: Salvation`** remains the established companion-story and repository title. **FORTIS** is a candidate cover/presentation title only, **not** an approved rename. The repository's working script is **revision 3 (16 pages / 66 panels)**; Opening Revision 4, the cover images and REI / Thulan Image Engine integration plan are **unapproved**. See the [explicit status and approval matrix](docs/THULANS_LOCKED_STATUS_2026-10-28.md).
+
 ## The Thulans: Salvation
 
 **Three months was the sentence. Five years later, they are still inside.**
