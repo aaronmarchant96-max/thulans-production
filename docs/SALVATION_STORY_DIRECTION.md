@@ -1,7 +1,7 @@
-# The Thulans — active LABORA / FORTIS companion-story direction
+# The Thulans — active LABORA companion-story direction
 
 **Updated:** 29 October 2026  
-**Project identity:** *The Thulans: Salvation* is the existing repository/script label. **LABORA** is the author's favored **working title**; **FORTIS** is the alternative. No final title or global file rename has been approved.  
+**Project identity:** *The Thulans: Salvation* is the existing repository/script label. **LABORA** is the canonical companion-story title ([RULING 038](../RULINGS.md#ruling-038-titles)); **FORTIS** is reserved for the rebellion continuation.  
 **Status:** Author-approved **narrative direction**, **not** a locked manuscript, revised 16-page script, artwork or proven station mechanics.  
 **Authority:** [RULING 037](../RULINGS.md#ruling-037-labora) replaces RULING 035's older **sibling** premise and its previous companion-only ending. [RULING 035](../RULINGS.md#ruling-035-welded) still governs the Welded institution, sentencing, forced motion, Varek's rescue and novella chronology. The authoritative novella remains unchanged.
 
