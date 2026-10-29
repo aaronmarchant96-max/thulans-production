@@ -1,5 +1,8 @@
 # The Welded — Visual Lineage Lock V0.1
 
+> **SUPERSEDED — VISUAL DESIGN REJECTED (29 OCTOBER 2026).** [RULING 039](../RULINGS.md#ruling-039-welded-visual-reset) and [Welded Visual Canon Reset V0.2](WELDED_VISUAL_CANON_RESET_V02.md) replace the design prescriptions below. The author's rejection of generated Welded and Varek comparison pictures is authoritative: **none is a locked illustration or valid reference sheet**. This file is retained as a dated history of an **overliteral visual-lineage hypothesis**, not a current generation prompt. In particular, the fixed matching chest-plate position, mandatory Varek-matching proportions, and decorative robot suits are not active visual canon.
+
+
 **29 October 2026 · Approved visual-lore direction, not an approved character render or engineering specification**
 
 **Authority:** [RULING 038 — The Welded, Varek's corrupted inheritance](../RULINGS.md#ruling-038-welded-lineage), alongside [RULING 008](../RULINGS.md), [RULING 010](../RULINGS.md), [RULING 035](../RULINGS.md#ruling-035-welded), [RULING 037](../RULINGS.md#ruling-037-labora), [Lore Bible §5.1 and §6](THE_THULANS_LORE_BIBLE_v3.md). The authoritative Chapter Six rescue remains unchanged.
