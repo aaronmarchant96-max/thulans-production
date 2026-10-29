@@ -40,9 +40,12 @@ The favored clue is **one spoken lead**, relying on the remembered intake assign
 
 During station shutdown **Edda is injured beyond a drop shutter** and Pell stays with her. Ansen finds Nessa and first wants to free her. She directs him toward them. He listens; she knows the machinery and he has free reach.
 
-On the page show **one comprehensible mechanism**: Ansen holds the brake; Nessa shifts the alignment through limited voluntary play; the catch engages so the shutter can remain open. Edda and Pell evacuate, in pain and in a hurry. It should feel like work they manage together, not a puzzle exposition or celebratory sacrifice.
+On the page show **one comprehensible mechanism**: Ansen operates the load-holding brake using his good hand; Nessa uses her working knowledge to **signal when the catch can seat**; he eases the shutter into its catch, leaving the passage open. Her injured shoulder does **not** move the shutter hardware. Edda and Pell evacuate, in pain and in a hurry. It should feel like work they manage together, not a puzzle exposition or celebratory sacrifice.
 
 **Do not assert a verified load path.** Station V0.2 must be checked so the brake bears shutter weight independently; Nessa is not secretly supporting the gate with muscle or a locked shoulder.
+
+
+**V0.3 reader-first blocking is author-accepted:** [one-page plan and elevation](LABORA_STATION_BLOCKING_V03.md) is the preferred staging. Only fix contradictions that appear in actual thumbnails; do not turn the story into a machine-design exercise.
 
 ## Operator, coercion and violent end
 
