@@ -60,7 +60,7 @@ governing spine. Where this bible and `RULINGS.md` disagree, `RULINGS.md` contro
 | *Wulfila* (of Azg-Haíms) | volunteer | *wulf* + diminutive *-ila* → "little wolf" | T1 |
 | *Haila* (of Azg-Haíms) | Wulfila's betrothed | *hails* "whole, hale" | T2 |
 | *Ansen* | Salvation protagonist; the freed broken-wrist miner | fictional descendant name from Gothic *ans* "beam / rafter" with an invented ending; no attested personal-name claim | T3 |
-| *Nessa* | Ansen's sister | fictional descendant name from Gothic *nasjan* "to save"; sound/spelling development is invented, not an attested personal-name derivation | T3 |
+| *Nessa* | LABORA companion protagonist; unrelated orphan raised alongside Ansen (RULING 037) | fictional descendant name from Gothic *nasjan* "to save"; sound/spelling development is invented, not an attested personal-name derivation | T3 |
 | *Garuni* | the Council of Three | *garuni* "counsel / plan / plot" | T3 |
 | *Fritigern* | Seat One — Survey/Reserve | *friþus* + *gairns* "craving peace" | T1 |
 | *Theodemir* | Seat Two — Continuity/Infrastructure | *þiuda* + *mērs* "famous among the people" | T1 |
@@ -460,6 +460,8 @@ rules:
 ### 5.1. The Welded (*Gathaur-Bano*) — Penal Actuator Frames
 
 **Author-approved clarification — 27 October 2026; [RULING 035](../RULINGS.md#ruling-035-welded).** See [Salvation](SALVATION_STORY_DIRECTION.md) for Ansen and Nessa's story and its manuscript continuity boundary.
+
+**29 October visual-lineage clarification — [RULING 038](../RULINGS.md#ruling-038-welded-lineage):** The Welded visually descend from the protective industrial frame architecture embodied by Varek. Their bare sight-slits, crude shoulder housings and thoracic rails echo his better-engineered rescue chassis, but substitute exposed, force-transmitting restraint points for his protected pilot hull. A stamped inventory number occupies the ancestral load-plate position (Nessa: **9**). See the [Welded Visual Lineage Lock V0.1](WELDED_VISUAL_LINEAGE_V01.md). The lineage is established; the exact development history and final concept art are not.
 
 * **Sentence and purpose:** The Spire puts people it deems unfit for society into powered frames instead of prison. Theft, debt, quota offences, and insubordination can supply the justification. Sentenced people are used for compulsory dangerous work and deployed to suppress unrest and breach resistance. The prisoner's consciousness and cooperation are not required for the frame to act.
 * **The concealed permanence:** A stated term creates the expectation of release, but nobody is released through ordinary sentence completion. Ansen and Nessa receive three months for stealing bread from the upper Spire; five years pass without release or an announced extension. Varek physically freeing prisoners is an exception to the confinement, not a functioning appeal process. The exact administrative concealment remains open.
