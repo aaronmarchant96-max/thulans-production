@@ -1,5 +1,8 @@
 # Thulans — locked names, story authority and production status
 
+> **29 OCTOBER 2026 SUPERSESSION:** The material below is a **28 October historical snapshot**. Its descriptions of Ansen and Nessa as siblings and FORTIS as the only candidate are no longer active for the new companion treatment. [RULING 037](../RULINGS.md#ruling-037-labora) approves **unrelated orphans raised together**, **LABORA** as favored *working* title (**FORTIS** alternative), **Hesk** instead of Brun, and the silent last image with Nessa in her frame and Ansen's body on the floor. [Active direction](SALVATION_STORY_DIRECTION.md), [new treatment](LABORA_STORY_TREATMENT_V01.md), [station V0.2](LABORA_TRANSFER_STATION_LAYOUT_V02.md). The *Salvation* repository identity, 16-page/66-panel Revision 3 comparison, live novella, unverified mechanics, art and AGY's PR #3 remain unchanged. This addendum does **not** approve a final title, script, engineering or production asset.
+
+
 **Snapshot:** 28 October 2026  
 **Status:** Documentation of existing decisions only. This file is **not** a new canon ruling, approval of a draft, approval of cover art, or authorization to implement the REI/Thulan Image Engine plan.  
 **Source authority:** `RULINGS.md` (particularly RULING 035), the authoritative live novella, `docs/SALVATION_STORY_DIRECTION.md`, and the current working pilot script. In a conflict, those sources govern; this summary does not override them.

@@ -1,5 +1,10 @@
 # Thulans project handoff
 
+## Latest companion-story decisions — 29 October 2026
+
+**Read [RULING 037](../RULINGS.md#ruling-037-labora) before the 28 October historical notes below.** The new LABORA companion direction changes Ansen/Nessa from siblings to **unrelated orphans raised together**, keeps their childhood non-romantic, and uses **LABORA** as the favored working title with FORTIS an alternate. The previously approved penal terms, Varek rescue and the Chapter 10/11 continuity survive. The handler's working name is now **Hesk** rather than Brun, too similar to Bram; **Edda** and **Pell** are provisional co-workers. They jointly open the transfer shutter for trapped workers; Hesk then commands the powered grip that kills Ansen despite Nessa's resistance. **The final image is just Nessa trapped and Ansen dead below her, silent.** See [working treatment](../docs/LABORA_STORY_TREATMENT_V01.md) and [station blocking V0.2](../docs/LABORA_TRANSFER_STATION_LAYOUT_V02.md); exact loads, sweep and timing are **unverified**. The repository's *Salvation* Revision 3 is retained as a 16-page/66-panel historical comparison; no novella prose, code, AGY PR #3, or final art/title changed.
+
+
 Latest status annotation 28 October 2026. This handoff contains dated literary, Welded/Salvation, rebellion and production records; historical sections retain their original scope, and no new manuscript synchronization is implied.
 The production and synchronization notes below retain their explicitly dated historical scope.
 

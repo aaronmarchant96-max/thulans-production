@@ -1,5 +1,8 @@
 # FORTIS — Production Reconciliation Addendum (Draft)
 
+> **29 October historical-scope note:** This is a **28 October sibling/FORTIS/16-page planning draft**, not the active story direction. [RULING 037](../RULINGS.md#ruling-037-labora) now approves Ansen/Nessa as **unrelated orphans raised together**, chooses **LABORA** as preferred *working* title (FORTIS alternate), and changes the ending to the silent image of Nessa in her frame above Ansen's body. [Treatment](LABORA_STORY_TREATMENT_V01.md) and [station V0.2](LABORA_TRANSFER_STATION_LAYOUT_V02.md) supersede old story and scene assumptions. No global rename, production art or REI/AGY implementation approval follows; separate open PR #3 remains out of scope.
+
+
 **Status:** PROPOSED / NOT CANON / NOT PRODUCTION APPROVAL
 
 **Lock clarification (28 October 2026):** See [the current locked-names and approval-status matrix](THULANS_LOCKED_STATUS_2026-10-28.md). `The Thulans: Salvation` and the approved sibling names **Ansen** and **Nessa** are retained; **FORTIS** is a *working* cover/presentation title, not an approved rename. Opening Revision 4 is a candidate and revision 3 remains the repository's working script (16 pages / 66 panels). The REI / Thulan Image Engine integration plans have **not been approved**; this draft does not authorize API/provider/code work or paid generation.  
