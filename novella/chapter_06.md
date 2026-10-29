@@ -101,7 +101,7 @@ The pin broke and rang off the roof. The breaker dropped clear, burying its poin
 
 The rig pitched forward. Varek caught its chest rail with his right talons before the weight could pull the boy onto the broken bar.
 
-Holding the rig upright, Varek reached behind its shoulder housing with his left hand. He closed the steam feed to the back pump and opened the relief vent toward the roof.
+Holding the rig upright, Varek rested his maul against his leg. With his left hand he reached behind the shoulder housing, closed the steam feed to the back pump and opened the relief vent toward the roof.
 
 Steam hissed overhead. The drive slowed and stopped.
 
