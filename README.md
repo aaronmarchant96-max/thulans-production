@@ -24,7 +24,7 @@
 | Read | Current state |
 | --- | --- |
 | **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Authoritative complete illustrated reading draft; repository text mirrors are dated snapshots. |
-| **[LABORA — new companion-story direction](docs/LABORA_STORY_TREATMENT_V01.md)** | Author-approved creative direction for unrelated orphans Ansen and Nessa, a joint rescue and silent ending. **Working title, not a final script.** |
+| **[LABORA — new companion-story direction](docs/LABORA_STORY_TREATMENT_V01.md)** | Author-approved creative direction for unrelated orphans Ansen and Nessa, a joint rescue and silent ending. **Title (RULING 038); not a final script.** |
 | **[Salvation — older 16-page pilot](docs/SALVATION_PILOT_16_PAGES.md)** | Revision 3: **16 story pages / 66 panels**, preserved as a historical comparison; not the latest relationship/ending. |
 | **[The rebellion novellas — series direction](docs/REBELLION_SAGA_DIRECTION.md)** | Approved ascending premise; individual books, geography, dates, and final outcome remain in development. |
 | **[Lore bible](docs/THE_THULANS_LORE_BIBLE_v3.md)** · **[Language and names](docs/THULAN_LANGUAGE_NOTE.md)** | World references, with current rulings and historical planning scopes distinguished. |
@@ -50,7 +50,7 @@ Varek, an old man inside a three-tonne rescue machine, leaves his state post to 
 
 **Three months was the sentence. Five years later, they are still inside.**
 
-The companion project was developed in this repository as *The Thulans: Salvation*. **LABORA** is now the favored **working title** and **FORTIS** remains an alternate; neither is a final published title or authorization to rename files globally.
+The companion project was developed in this repository as *The Thulans: Salvation*. **LABORA** is now the canonical companion-story **title** ([RULING 038](RULINGS.md#ruling-038-titles)); **FORTIS** is reserved for the rebellion continuation; no global file rename is implied.
 
 **Ansen and Nessa are unrelated orphans who grew up together**, not siblings as in the older draft. They steal bread at roughly thirteen and receive three-month sentences inside separately assigned powered penal frames. Varek frees Ansen five years later. After his already-established Chapter Ten/Eleven participation, Ansen finds Nessa working a transfer station. Together they open a passage for trapped workers. When the handler **Hesk** commands her frame to seize Ansen, she cannot stop its powered grip from killing him. The closing image is silent: **Nessa trapped upright above Ansen's body**.
 
