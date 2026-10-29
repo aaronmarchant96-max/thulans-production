@@ -7,6 +7,10 @@
 
 > **Historical note:** Before 29 October the source direction described Ansen and Nessa as siblings and an ending with a flashback to a prepared coat. That remains visible in Git history and in [Revision 3](SALVATION_PILOT_16_PAGES.md), now kept for comparison—not as current direction.
 
+## The Welded visual inheritance — RULING 038
+
+The Welded are **crude, coercive descendants of Varek's rescue-frame architecture**, not unrelated robots or identical small Vareks. Their compact slit-visored heads, shoulder supports and thoracic rails visually rhyme with his chassis; the prisoner number occupies the chest position where Varek carries the Gren-Skildus. Varek's frame **protects and bypasses the pilot**; the Welded's lower-grade architecture **forces motion and restraint loads into an exposed captive** while its iron frame carries its own structural weight. The difference is the moral argument. [Visual Lineage Lock V0.1](WELDED_VISUAL_LINEAGE_V01.md) is a design-family reference, **not a finalized machine sheet**.
+
 ## Active documents and status
 
 - [Working LABORA / FORTIS treatment](LABORA_STORY_TREATMENT_V01.md): concise reconstruction of agreed beats **not** the verbatim ~3,300-word local Claude draft.
