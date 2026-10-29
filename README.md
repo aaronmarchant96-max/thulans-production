@@ -6,7 +6,7 @@
 ![Word Count](https://img.shields.io/badge/word_count-22%2C424%20words-blue)
 ![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
 ![Salvation Pilot](https://img.shields.io/badge/Salvation-16--page%20working%20pilot-c49a62)
-![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--038-orange)
+![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--039-orange)
 ![Audio Master](https://img.shields.io/badge/audio-Take%207%20Cinematic%20Master%20(03%3A33)-blueviolet)
 ![License](https://img.shields.io/badge/license-Proprietary%20%2F%20Aaron%20Marchant-lightgrey)
 
@@ -25,7 +25,7 @@
 | --- | --- |
 | **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Authoritative complete illustrated reading draft; repository text mirrors are dated snapshots. |
 | **[LABORA — new companion-story direction](docs/LABORA_STORY_TREATMENT_V01.md)** | Author-approved creative direction for unrelated orphans Ansen and Nessa, a joint rescue and silent ending. **Working title, not a final script.** |
-| **[The Welded — visual lineage V0.1](docs/WELDED_VISUAL_LINEAGE_V01.md)** | RULING 038: corrupted descendants of Varek's rescue frame; approved design relationship, **not** locked character artwork. |
+| **[The Welded — visual canon reset V0.2](docs/WELDED_VISUAL_CANON_RESET_V02.md)** | RULING 039: generated exosuit concepts rejected; rebuild from manuscript work machinery and coerced restraint. **No character artwork locked.** |
 | **[Salvation — older 16-page pilot](docs/SALVATION_PILOT_16_PAGES.md)** | Revision 3: **16 story pages / 66 panels**, preserved as a historical comparison; not the latest relationship/ending. |
 | **[The rebellion novellas — series direction](docs/REBELLION_SAGA_DIRECTION.md)** | Approved ascending premise; individual books, geography, dates, and final outcome remain in development. |
 | **[Lore bible](docs/THE_THULANS_LORE_BIBLE_v3.md)** · **[Language and names](docs/THULAN_LANGUAGE_NOTE.md)** | World references, with current rulings and historical planning scopes distinguished. |
