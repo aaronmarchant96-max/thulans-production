@@ -34,7 +34,7 @@ that, introduce at most one new load-bearing name per scene.
 
 ## Salvation-specific audience scope
 
-For the separately scoped [Salvation](SALVATION_STORY_DIRECTION.md) story, **Ansen** and **Nessa** are its load-bearing protagonist names. Introduce Varek through the rescue and other names only as needed. This author-approved exception does not expand the original novella's six-name first-contact allowance or require the whole franchise roster in the short. Linguistic T1–T4 provenance is separate from audience-name priority.
+For the separately scoped companion currently developed as **LABORA / FORTIS** ([active direction](SALVATION_STORY_DIRECTION.md), [RULING 037](../RULINGS.md#ruling-037-labora)), **Ansen** and **Nessa**—unrelated orphans raised together—are its load-bearing protagonist names. Introduce Varek through the rescue; **Hesk** (operator), **Edda** (rigger) and **Pell** (younger worker) are provisional companion roles. Their functions should be intelligible before the reader must remember their names. This exception does not expand the original novella's six-name first-contact allowance. Linguistic T1–T4 provenance is separate from audience-name priority.
 
 ## Tier B — Texture (allowed in-world; never explained on first contact)
 
