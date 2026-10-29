@@ -58,7 +58,7 @@ After Hesk has concluded whatever immediate procedure is necessary, the **final 
 2. Draw and check shutter → drum → brake → station frame load path.
 3. Demonstrate feasible Nessa-to-catch trim **within existing restraint motion**.
 4. Establish Hesk's sightline, manual mode switch, ordinary vs. wider sweep and Ansen's response geometry.
-5. Stage Pelle/Edda's travel and the open clearance, feeding tube constraints, and shoulder injury plausibly.
+5. Stage Pell/Edda's travel and the open clearance, feeding tube constraints, and shoulder injury plausibly.
 6. Draft continuous prose and test reader attachment before choosing pages/panels; **no automatic 16-page cap**.
 7. Review the complete merged Claude prose separately once actually available; this direction is not a claim that it has been imported.
 8. Do not modify novella canon, final cover/visual atlas, runtime, model/provider code, or AGY's open PR #3 through this literary documentation decision.
