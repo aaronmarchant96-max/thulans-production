@@ -1,4 +1,6 @@
 # State of the Production
+
+> **HISTORICAL SNAPSHOT — 15 September 2026; not current production authority.** This record preserves its original claims, asset descriptions and proposed critical path for provenance. Assertions below such as “100% locked,” named physical certifications, residual-machine epilogues, and next steps must **not** be used as present-day approval or current manuscript status. For current directions read [`RULINGS.md`](../RULINGS.md), [`AGENTS.md`](../AGENTS.md), [`handoff/PREFIX.md`](../handoff/PREFIX.md), and the [28 October status index](THULANS_LOCKED_STATUS_2026-10-28.md). Do not silently resurrect superseded story branches or treat historical image/physics claims as verified today.
 *The Thulans — Ground Truth, Asset Status & Critical Path*  
 *Path: `docs/STATE_OF_PRODUCTION.md` | Date: 2026-09-15 (Bible reconciled to RULINGS 022–031 — see `THE_THULANS_LORE_BIBLE_v3.md` v3.2)*
 
@@ -15,7 +17,7 @@ On the 3D technical production side, the mechanical Left Hand rig (`varek-v55-me
 
 * **Narrative, Canon & World Architecture (100% Locked & De-Slopped):**
   * **Governing Spine Reconciliation (2026-09-15):** `THE_THULANS_LORE_BIBLE_v3.md` v3.2 now folds RULINGS 027–031 back into the governing spine (absolute death, residual machine, 3,000/300 timeline, Sanna/Haila kin, grounded physics). `RULINGS.md` remains controlling on conflict.
-  * **Master Novella & Prose:** [`THE_DISMANTLING_OF_VAREK.md`](file:///home/aaron/animation/thulans-production/docs/THE_DISMANTLING_OF_VAREK.md) and [`VAREK_ACTS_ONE_AND_TWO.md`](file:///home/aaron/animation/thulans-production/docs/VAREK_ACTS_ONE_AND_TWO.md). Granular, tactile human prose; zero AI boilerplate or melodrama.
+  * **Master Novella & Prose:** [`THE_DISMANTLING_OF_VAREK.md`](THE_DISMANTLING_OF_VAREK.md) and [`VAREK_ACTS_ONE_AND_TWO.md`](VAREK_ACTS_ONE_AND_TWO.md). Granular, tactile human prose; zero AI boilerplate or melodrama.
   * **Unified Spine (RULING 029):** Wulfila (19), Haila, Bram (14), and Sanna (18) are a single family core across a 40-day tragedy. Varek's complicity in Wulfila's sacrifice drives his rescue of Bram and his voluntary dismantling in Lower Four.
   * **Demographic Scale & Historical Decay (RULING 030):**
     * **Peak Population:** ~42 million (historical engineered capacity at zenith 3,000y ago).
@@ -31,10 +33,10 @@ On the 3D technical production side, the mechanical Left Hand rig (`varek-v55-me
   * **Grounded Physics & Iron-True Geology (RULING 024, RULING 030):**
     * *Faírg-Tygil* operates strictly via high-flux pulsed electromagnetism and hydraulic reaction transfer into the chassis and anchored boots. No gravity negation. *"Graviton"* is strictly drift miner slang.
     * Shaft 44 rock is explicitly **banded magnetite-ironstone** (*blôþ-stáin* / hematite skarn) and forged iron shoring pins, not non-magnetic basalt.
-  * **Screenplay Treatment:** [`THE_THULANS_FEATURE_PITCH.md`](file:///home/aaron/animation/thulans-production/docs/THE_THULANS_FEATURE_PITCH.md). 90-minute feature layout with 19-day physical proof and Theodemir's arithmetic locked.
+  * **Screenplay Treatment:** [`THE_THULANS_FEATURE_PITCH.md`](THE_THULANS_FEATURE_PITCH.md). 90-minute feature layout with 19-day physical proof and Theodemir's arithmetic locked.
   * **Core Governance:** 3,000-year deep civilization vs. 300-year Varek caisson lifespan (RULING 027). Council of Three with Archon Theodemir as executive arithmetic authority (RULING 028).
-  * **Tightened Reference Documents:** [`THULAN_POLITICAL_ECONOMY.md`](file:///home/aaron/animation/thulans-production/docs/THULAN_POLITICAL_ECONOMY.md) and [`THULAN_CULINARY_READER.md`](file:///home/aaron/animation/thulans-production/docs/THULAN_CULINARY_READER.md) condensed into production briefs.
-  * **Trailer Audio Grid:** [`shots/TRAILER_AUDIO_MAP_78BPM.md`](file:///home/aaron/animation/thulans-production/shots/TRAILER_AUDIO_MAP_78BPM.md). Locked 78 BPM tempo grid to `Familiar_Stone_Take3_Master.wav`.
+  * **Tightened Reference Documents:** [`THULAN_POLITICAL_ECONOMY.md`](THULAN_POLITICAL_ECONOMY.md) and [`THULAN_CULINARY_READER.md`](THULAN_CULINARY_READER.md) condensed into production briefs.
+  * **Trailer Audio Grid:** [`shots/TRAILER_AUDIO_MAP_78BPM.md`](../shots/TRAILER_AUDIO_MAP_78BPM.md). Locked 78 BPM tempo grid to `Familiar_Stone_Take3_Master.wav`.
 
 * **3D Mechanical & Geometric Assets:**
   * **Right Arm Manipulator (v54 Baseline):** Copper induction ring (open torus), cast-iron docking collar, 3 articulated talons arranged in a 120° chuck, braided forearm conduits (`varek-v54-graviton.blend`, sha256 `fd8e1bec...`).
@@ -48,8 +50,8 @@ On the 3D technical production side, the mechanical Left Hand rig (`varek-v55-me
     * `evidence/varek-v55-mechanical-grip/left_hand_wrist_gimbal.png` (frame 1, Cycles)
     * `evidence/varek-v55-mechanical-grip/v55_full_character_q34.png` (Cycles full body showcase)
   * **Engineering Specifications:**
-    * [`docs/VAREK_HAND_RIG_SPEC_v1.md`](file:///home/aaron/animation/thulans-production/docs/VAREK_HAND_RIG_SPEC_v1.md)
-    * [`docs/VAREK_HAND_PHYSICS_TEST_ENVELOPE.md`](file:///home/aaron/animation/thulans-production/docs/VAREK_HAND_PHYSICS_TEST_ENVELOPE.md)
+    * [`docs/VAREK_HAND_RIG_SPEC_v1.md`](VAREK_HAND_RIG_SPEC_v1.md)
+    * [`docs/VAREK_HAND_PHYSICS_TEST_ENVELOPE.md`](VAREK_HAND_PHYSICS_TEST_ENVELOPE.md)
 
 ---
 
