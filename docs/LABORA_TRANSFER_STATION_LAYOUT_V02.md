@@ -33,6 +33,10 @@ When released/open, the **drop shutter is raised overhead**, leaving an actual c
 
 **C — Seizure.** Hesk returns, detects interference, orders Ansen back. Ansen steps beyond the **normal** working envelope. Hesk deliberately switches to **wide direct-manual** sweep (foreshadow in an earlier work beat), commands the gripper against Ansen, and Nessa's resistance cannot stop it. Final image belongs only to her and his body.
 
+## Follow-up review — conditional findings (29 October 2026)
+
+The [timeline and mechanics review](LABORA_TIMELINE_AND_MECHANICS_REVIEW_V01.md) identifies **two unresolved defects** in V0.2: (1) the direct shoulder-to-catch linkage is not established, and (2) shutter power isolation must not also disable the powered Welded gripper. It recommends a **signal-guided catch** (Nessa sees/signals, Ansen operates brake and catch) and distinct hoist/penal-drive supplies. **Neither recommendation is a formally selected redesign**; this V0.2 record is retained as a comparison. The actual next test should show plan **and elevation**, not only a flat map.
+
 ## Proof gates — do not script as verified physics
 
 1. Demonstrate brake/load capacity and independent retention of falling shutter.
