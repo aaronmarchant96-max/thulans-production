@@ -65,11 +65,11 @@ The second mastiff veered, snapped at Varek’s lower ram guard, shattered its i
 
 Down the stone throat came two breaker rigs.
 
-Their bars rose and fell on either side of the track, hammering the stone floor. Riveted masks sat low between the shoulder braces. Beneath the nearer frame, a boot dragged heel-first through the ballast.
+Each rig carried a single heavy breaker bar beside its forward shoulder. The bars rose and fell against the track bed, driven from boilers riding high on the prisoners’ backs. Riveted masks sat low between thick shoulder housings. Beneath the nearer frame, a boot dragged heel-first through the ballast.
 
 Clack-hiss. Clack-hiss.
 
-The rig caught against a sleeper. Its drive kept turning. Something inside the arm brace pulled tight, and the boot scraped backward.
+The nearer rig caught against a sleeper. Its back-mounted cam kept turning. The breaker arm dragged across the stone, and the man's boot was hauled backward under him.
 
 Kaelen heard a voice beneath the steam.
 
@@ -79,7 +79,7 @@ The next stroke dragged the frame clear. Through a slit in the mask, an eye turn
 
 “Please. My wrist is broke.”
 
-The breaker rose again. A hand hung below its cuff, the fingers swollen against one another. As the bar descended, the fingers jerked open.
+The breaker rose again. On the other side, a bare hand hung below its iron cuff, the fingers swollen against one another. As the bar descended, the fingers jerked open.
 
 “Shear the pin.”
 
@@ -91,17 +91,17 @@ Varek’s left arm came up.
 
 The maul rose past the man’s chest and mask.
 
-Varek aimed for the pin joining the breaker bar to its drive.
+Varek aimed for the exposed pin joining the breaker bar to its driving rod.
 
 He struck as the bar reached the top of its stroke.
 
 CLANG.
 
-The pin broke and rang off the roof. The breaker fell clear, burying its point in the track bed.
+The pin broke and rang off the roof. The breaker dropped clear, burying its point in the track bed. The back-mounted cam kept turning, driving nothing.
 
-Varek caught the rig before it fell, his right talons closing around its chest frame.
+The rig pitched forward. Varek caught its chest rail with his right talons before the weight could pull the boy onto the broken bar.
 
-He rested the maul against his leg. With his left hand he closed the rig’s steam valve and opened its vent toward the roof.
+Holding the rig upright, Varek reached behind its shoulder housing with his left hand. He closed the steam feed to the back pump and opened the relief vent toward the roof.
 
 Steam hissed overhead. The drive slowed and stopped.
 
@@ -109,7 +109,7 @@ The miner sagged inside the harness. His boots dragged through the pooled water;
 
 “It’s stopped,” Varek told the man. “I have you.”
 
-He lowered the frame gently against the wall and took up his maul.
+He lowered the disabled rig gently against the wall, its iron chest still closed around the prisoner, and took up his maul.
 
 ⁂
 
@@ -133,9 +133,9 @@ A fourth round tore through the collar fitting. The brass pressure tube split, s
 
 Varek stepped beside the machine, keeping Kaelen behind his frame. The Fault Maul swung sideways, its broad face leading.
 
-It struck the wheel driving the bars.
+It struck the drive wheel behind the second rig’s breaker arm.
 
-The wheel broke. Its chain fell into the water and the bars stopped. Varek stood beside the track-switch with his maul low.
+The wheel broke. Its chain fell into the water and the powered breaker arm hung still. Varek stood beside the track-switch with his maul low.
 
 The salvage men emerged from the tool passage. At the sight of the stalled rigs, the two carrying the charges turned and fled. Their foreman dropped behind the track-switch, only a few feet from Bram’s skip.
 
@@ -187,25 +187,25 @@ Odo stood in the water by the ladder. He took a clean slate from his satchel, ma
 
 He backed up one rung before turning. His boots scraped on the ladder until the dark hid him.
 
-Kaelen knelt beside the first frame.
+Varek returned to the first frame. The boy still hung inside it, held by iron bars across the chest and leather beneath them. Varek put his talons under the front crossbar while Kaelen knelt beside the cuffs.
 
-He cut the leather beneath the miner’s jaw. The strap had sunk into the flesh; he worked the flat of his knife under it before he could draw the edge away from the throat.
+Varek drew the crossbar outward, slowly at first. The latch pins gave with three short cracks. The iron bowed away from the boy’s ribs; the boy flinched, but the cuffs held him in place.
 
-Then he set his chisel under the mask’s riveted collar.
+“Hold that,” Kaelen said. He slipped his knife beneath the chest straps and cut them where Varek had opened the cage. Then he worked the fastening of the broken-wrist cuff loose.
 
-At the first tap, the miner flinched.
+Varek kept the bent iron clear. Kaelen cut the leather beneath the jaw. The strap had sunk into the skin; the miner flinched as the blade went under it.
 
 “Only the fastening, lad.”
 
-Kaelen knocked the rivets free one by one. The mask came loose at the brow and held along one cheek. He put down the chisel. With his other hand supporting the miner’s head, he eased the iron away until the skin released.
+Kaelen set his chisel under the riveted collar and knocked the fastenings out one by one. The mask came loose at the brow and caught along one cheek. He put down the chisel, supported the boy’s head and eased the iron away.
 
 Underneath was a boy no older than Wulfila.
 
-A raw patch followed the edge of the mask from his cheekbone to his jaw. The feeding tube had worn a notch inside his lower lip. He tried to close his mouth when the cold air reached it, but the tube held it open.
+A raw patch followed the edge of the mask from cheekbone to jaw. Kaelen unclipped the thin feeding line at the side of the mouth, then eased it free. It had worn a notch inside the boy’s lower lip. For the first time the boy could close his mouth.
 
-Kaelen looked down at the wrist. Above the cuff, an old sore had healed around the leather. Below it, the hand lay at an angle it should not have held.
+Kaelen loosened the waist and thigh bindings. Above the wrist cuff, an old sore had healed around the leather. Below it, the hand lay at an angle it should not have held.
 
-He took off his cap and folded it beneath the boy’s arm.
+Varek lifted the boy out of the opened cage and lowered him to the dry edge of the track. Kaelen took off his cap and folded it beneath the broken wrist.
 
 “It can’t drive you now,” he said. “You’re free of it.”
 
@@ -217,7 +217,7 @@ Then his eyes moved from Kaelen’s worn leather apron to the three-tonne iron f
 
 “No,” Kaelen said, his voice tightening as he stood up. “It’s an old miner who doesn’t like thieves.”
 
-Varek turned back to the second Welded miner. The man was still caught in his stalled frame. Varek held the iron steady while Kaelen worked the straps loose.
+Varek went back to the second Welded miner. He held the heavy chest rail open while Kaelen cut through the straps and freed the man inside.
 
 Beyond them, the dead guard’s coat moved in the ditch. Bram bent for the track dog, missed it, and had to try again.
 
