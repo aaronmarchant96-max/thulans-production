@@ -52,6 +52,12 @@ Ansen dies **quickly** from the forced grip. Nessa's shoulder bears a visible co
 
 After Hesk has concluded whatever immediate procedure is necessary, the **final image is only Nessa trapped upright and Ansen dead on the floor beneath her.** No handler, title card, overlay, last speech, flashback, work-cycle restart or promise of rescue. A believable coat in the environment may quietly echo childhood, but don't force it.
 
+## Source and mechanical review — 29 October 2026
+
+A new [continuity and mechanics review V0.1](LABORA_TIMELINE_AND_MECHANICS_REVIEW_V01.md) checked the **authoritative live novella**. Ansen's **physical help occurs in Chapter Ten**; Chapter Eleven only **reports** that the rescued miners are free. The candidate departure may therefore be **after Chapter Ten assistance**, without waiting for Chapter Eleven to conclude. The near-five-hour clock and approaching closure still prohibit a long search. Station location, travel and the route must be demonstrated, not assumed.
+
+**Recommended technical alternative pending author acceptance:** Nessa need not produce shutter-load motion by straining her shoulder. She may instead use her established working signal/sightline to guide Ansen's use of a load-holding brake and pawl. Separate the shutter hoist's power/isolation path from the Welded's still-powered drive. Do not present either fix as a mechanically certified drawing or as a new canon ruling.
+
 ## Production and decision gates
 
 1. Validate source-Chapter 6/10/11 sequence, Ansen's search window and route.

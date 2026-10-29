@@ -31,6 +31,12 @@
 - Page count, final title, character identities, lighting, sound and all production art remain unapproved.
 - The REI/Image Engine proposal and AGY's open Panel Studio PR #3 are outside this literary update.
 
+## 29 October timeline/physics review — candidate fixes, not new author rulings
+
+[Live-manuscript timeline and station-mechanics review V0.1](LABORA_TIMELINE_AND_MECHANICS_REVIEW_V01.md) finds the **Chapter Eleven mention** of the freed miners is a **spoken confirmation**, not another onstage Ansen appearance. Ansen can leave **after his Chapter Ten help**, provided a station is reachable on a short, still-open wash-passage spur; the novella does not yet verify that route. The original six-hour ram estimate is running down by Chapter Ten.
+
+**Critical mechanics finding:** The existing premise that Nessa's restricted shoulder movement shifts the shutter catch is **unproven**. A stronger proposed alternative is for Ansen to work a **load-holding brake** while Nessa watches the catch and signals when he can seat it. That keeps her knowledge essential while removing a contrived physical linkage. Separate the shutter-hoist steam isolation from the still-powered Welded motive line. Hesk's wide sweep, sightlines, grip travel and Nessa's injury are **not** validated. These are review recommendations, not accepted alterations to RULING 037.
+
 ## Gates before panels
 
 1. Place Ansen's departure **after** his Chapter Ten/Eleven appearances and inside the evacuation window.

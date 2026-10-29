@@ -59,6 +59,7 @@ This is **approved creative direction, not a finished script or verified machine
 - **[Read the LABORA treatment / decisions](docs/LABORA_STORY_TREATMENT_V01.md)**
 - [Active story direction](docs/SALVATION_STORY_DIRECTION.md)
 - [Transfer station V0.2 — blocking and physical proof gates](docs/LABORA_TRANSFER_STATION_LAYOUT_V02.md)
+- [Timeline and mechanical plausibility review V0.1 — source-grounded issues and proposed fixes](docs/LABORA_TIMELINE_AND_MECHANICS_REVIEW_V01.md)
 - [RULING 037 — companion direction and supersession](RULINGS.md#ruling-037-labora)
 - [Historical Salvation pilot Revision 3 — 16 pages / 66 panels](docs/SALVATION_PILOT_16_PAGES.md)
 - [28 October status snapshot, with 29 October supersession notice](docs/THULANS_LOCKED_STATUS_2026-10-28.md)
