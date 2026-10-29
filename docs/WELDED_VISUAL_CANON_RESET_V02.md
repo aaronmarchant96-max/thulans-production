@@ -1,12 +1,14 @@
 # The Welded — Visual Canon Reset V0.2
 
-**29 October 2026 · AUTHOR-DIRECTED DESIGN RESET; NO CHARACTER MODEL APPROVED**
+**29 October 2026 · HISTORICAL AUTHOR-DIRECTED RESET; BREAKER EXCEPTION APPROVED IN RULING 040**
 
 **Governing:** [RULING 039](../RULINGS.md#ruling-039-welded-visual-reset) supersedes the prescriptive visual design instructions of [RULING 038](../RULINGS.md#ruling-038-welded-lineage) and the former [Visual Lineage V0.1](WELDED_VISUAL_LINEAGE_V01.md). The authoritative prose, [RULING 035](../RULINGS.md#ruling-035-welded), [RULING 037](../RULINGS.md#ruling-037-labora), [Varek's locks](../RULINGS.md) and the approved graphic-novel style contract are unchanged.
 
+> **CURRENT OVERRIDE — RULING 040 (29 OCTOBER 2026):** The author later **approved one specific hulking mobile breaker reference**, identified by its exact SHA-256 in [Breaker Visual Lock V0.1](WELDED_BREAKER_VISUAL_LOCK_V01.md), and revised Chapter Six to fit. The blanket rejection below describes **the earlier failed images**, not this newly approved breaker model. Nessa's hauling/gripping rig and every other previous concept **remain unapproved**. The image's `9` is a placeholder, not Ansen's serial. This historical reset remains useful for rejecting other generic robot-suit images.
+
 ## Why the previous image direction failed
 
-The generated frames kept becoming **wearable steampunk exosuits / robot soldiers**: centred standing mannequin, shoulder armour, symmetrical metal limbs, giant gloves, ornate mask and protruding mouth hose. Adding cylinders and rivets did not cure the underlying mistake. **Every recent generated Welded character design and the side-by-side Varek comparison are rejected as visual references.** A plausible *design premise* is not acceptance of any rendered object.
+The generated frames kept becoming **wearable steampunk exosuits / robot soldiers**: centred standing mannequin, shoulder armour, symmetrical metal limbs, giant gloves, ornate mask and protruding mouth hose. Adding cylinders and rivets did not cure the underlying mistake. **All prior generated Welded character designs and the side-by-side Varek comparison were rejected; the one specifically approved later under RULING 040 is an explicit exception.** A plausible *design premise* is not acceptance of any rendered object.
 
 **The definitive reading is reversed: draw a piece of compulsory labour machinery, then show the captive person restrained inside its working envelope.** The frame is the thing being operated. The person is not its operator.
 
@@ -70,7 +72,7 @@ The most compelling rhyme is **behavior**: Varek steadies a failing load so some
 - Show its **tool, anchor/track, constrained human position and one visible drive link** with simple unshaded shapes. It should read without labels.
 - Then one 3/4 illustration with **dark comic ink**: structural blacks, selective hatch on materials, minimal detail on the person's face and hands, disciplined wear, readable warm/cold separation.
 - Only after that, test the mask's feeding access, Varek's rescue sequence, and Hesk's externally imposed grip in sequential panels. No engineering calculations beyond what a reader needs to believe.
-- **No generated image, including any image already shown in chat, is approved canon or a design lock.** A new approval requires an explicit author decision based on a visual sheet.
+- **As of this reset, no earlier image was approved. RULING 040 later authorizes precisely one breaker reference by hash; no other image is approved.** A new approval requires an explicit author decision based on a visual sheet.
 
 ## Rejection gate — six questions
 

@@ -45,7 +45,7 @@ In a subterranean mountain city where the state stages miracles to extract volun
 ### Act II: The Rupture & Drift 14
 - [Chapter 04: The Acoustic Trace](chapter_04.md) (1,954 words) — Varek breaks his post after the seismic rupture; his breach sends water toward Lower Four.
 - [Chapter 05: The Shoring of Drift 14](chapter_05.md) (1,354 words) — The crew shores the roof, learns the ark berth totals, and opens the clean feeder.
-- [Chapter 06: The Welded Advance](chapter_06.md) (1,933 words) — Bram cuts the fuse; Varek disables the Welded and kills the guard aiming at Bram.
+- [Chapter 06: The Welded Advance](chapter_06.md) (**revised 29 October 2026; word count to be recalculated**) — Bram cuts the fuse; Varek disables the hulking breakers, opens Ansen's chest cage and helps free both prisoners, and kills the guard aiming at Bram.
 
 ### Act III: The Ascent & The Office
 - [Chapter 07: The Ascent](chapter_07.md) (2,530 words) — The nursery trades steam for Varek's loading pressure; a stone cage lifts him to Tier Nine.
@@ -60,7 +60,7 @@ In a subterranean mountain city where the state stages miracles to extract volun
 ---
 
 ## Authoritative Mirrors
-- **Complete Omnibus Manuscript**: [THE_THULANS_MANUSCRIPT_COMPLETE.md](THE_THULANS_MANUSCRIPT_COMPLETE.md) (22,979 words)
+- **Complete Omnibus Manuscript**: [THE_THULANS_MANUSCRIPT_COMPLETE.md](THE_THULANS_MANUSCRIPT_COMPLETE.md) (historical multi-date mirror; Chapter Six revised 29 October 2026; word count awaiting a complete recount)
 - **Live Illustrated Reading Draft**: [Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)
 - **Narrative Architecture**: [`../docs/NOVELLA_BLUEPRINT.md`](../docs/NOVELLA_BLUEPRINT.md)
 - **Voice Contract**: [`../docs/THULAN_NOVELLA_VOICE_CONTRACT.md`](../docs/THULAN_NOVELLA_VOICE_CONTRACT.md)

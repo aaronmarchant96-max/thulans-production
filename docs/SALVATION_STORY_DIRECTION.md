@@ -7,6 +7,10 @@
 
 > **Historical note:** Before 29 October the source direction described Ansen and Nessa as siblings and an ending with a flashback to a prepared coat. That remains visible in Git history and in [Revision 3](SALVATION_PILOT_16_PAGES.md), now kept for comparison—not as current direction.
 
+## The approved breaker form — RULING 040
+
+**Ansen's mobile breaker now has an author-approved visual lock**: the hulking, hunched, heavily riveted work rig with a single enormous breaker arm, high patched boiler, face-fitted slit mask and visible living prisoner. The exact image SHA and serial-number exception are recorded in [Welded Breaker Visual Lock V0.1](WELDED_BREAKER_VISUAL_LOCK_V01.md). The image's **9** is **not Ansen's assigned number**; Nessa's separate **Frame 9** designation remains intact. **Nessa's station-hauling/gripping form has not been visually approved**. The main novella's Chapter Six rescue was revised in the live reading draft and corresponding repository mirror: Varek physically opens the stopped chest cage and lifts Ansen free, while Kaelen works the internal restraints and feeding/face hardware. The companion's existing rescue, chronology and ending are unchanged.
+
 ## Welded visual development reset — RULING 039
 
 **The prior generated designs are rejected.** They made the Welded look like humanoid steampunk armour, contradicting the established Chapter Six mobile breaker. The governing [Visual Canon Reset V0.2](WELDED_VISUAL_CANON_RESET_V02.md) starts from **the job mechanism and its imprisoned worker**, not a decorated exosuit. The ethical contrast with Varek remains: rescue by choice versus work compelled by the state. **Do not copy Varek's helm or chest plate part for part** or interpret the old comparison render as canon. Exact shared manufacturing genealogy and the final Welded appearance remain open. RULING 039 supersedes RULING 038's prescriptive geometry while retaining relevant thematic intent.
