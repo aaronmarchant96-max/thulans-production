@@ -1,5 +1,9 @@
 # Thulans project handoff
 
+## Bram visual canon approval — 29 October 2026
+
+The author approved the six-year-later Bram character reference sheet and requested it be pushed as canonical **visual identity**. See [`docs/BRAM_VISUAL_CANON_V01.md`](../docs/BRAM_VISUAL_CANON_V01.md) for the exact master PNG SHA-256, author-owned Library and Canva asset pointers, front/profile/three-quarter/hair specifications, and production rules. The actual PNG master is saved outside GitHub in the FORTIS Library and Canva, **not yet stored as a Git binary**. Bram remains about nineteen in the epilogue, with rough-cropped dark hair and close-cut back/sides; this does not canonize a universal Thulan haircut, change the novella's age records, lock Trigg, or supersede LABORA. Existing manuscript, RULINGS, and AGY implementation are unchanged.
+
 ## LABORA live-manuscript timeline / mechanics review — 29 October 2026
 
 The [new review](../docs/LABORA_TIMELINE_AND_MECHANICS_REVIEW_V01.md) confirms that the freed young miner's last onstage help is in **Chapter Ten**, whereas **Chapter Eleven only reports** both miners are free. A short search can begin **after Chapter Ten assistance**, but only if the transfer station is shown near an accessible spur of the active wash passage and within the rapidly closing ram clock. The old shoulder-to-shutter catch linkage is **not supported by a demonstrated load path**; prefer testing a signal-guided brake/catch and keeping the Welded powered independently of shutter isolation. The later wide sweep, grip and injury remain unverified. This review is **not** a title change, final script, physical certification or new ruling; AGY PR #3 remains out of scope.
