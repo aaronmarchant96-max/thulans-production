@@ -15,7 +15,7 @@ import math
 from pathlib import Path
 import sys
 
-ROOT = Path("/home/aaron/animation/thulans-production")
+ROOT = Path(__file__).resolve().parents[1]
 EVIDENCE_JSON = ROOT / "evidence/varek-v55-mechanical-grip/full-hand-diagnostic.json"
 READBACK_JSON = ROOT / "evidence/varek-v55-mechanical-grip/full-hand-readback.json"
 
