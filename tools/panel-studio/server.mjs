@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
-import { synthesizePrompt, auditPrompt } from "./lib/loreGuard.mjs";
+import { synthesizePrompt, auditPrompt, validateProductionBoundary, SCENE_PROFILES } from "./lib/loreGuard.mjs";
 import { generateImage } from "./lib/imageGenerator.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -169,14 +169,27 @@ const server = http.createServer((req, res) => {
     }
   }
 
+  if (url.pathname === "/api/profiles" && req.method === "GET") {
+    const profiles = Object.entries(SCENE_PROFILES).map(([key, p]) => ({
+      key,
+      name: p.name,
+      description: p.description || p.name
+    }));
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(profiles));
+    return;
+  }
+
   if (url.pathname === "/api/synthesize" && req.method === "POST") {
     let body = "";
     req.on("data", chunk => body += chunk);
     req.on("end", () => {
       try {
         const data = JSON.parse(body);
-        const result = synthesizePrompt(data.scene || "", data.options || {});
-        const audit = auditPrompt(result.positivePrompt);
+        const sceneProfile = data.sceneProfile || data.options?.sceneProfile;
+        const opts = sceneProfile ? { sceneProfile } : (data.options || {});
+        const result = synthesizePrompt(data.scene || "", opts);
+        const audit = auditPrompt(result.positivePrompt, opts);
         res.writeHead(200, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ ...result, audit }));
       } catch (err) {
@@ -243,15 +256,35 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // Direct AI Generation Endpoint
+  // Production Boundary Validation Endpoint
+  if (url.pathname === "/api/production/validate" && req.method === "POST") {
+    let body = "";
+    req.on("data", chunk => body += chunk);
+    req.on("end", () => {
+      try {
+        const manifestEntry = JSON.parse(body);
+        const validation = validateProductionBoundary(manifestEntry);
+        res.writeHead(validation.valid ? 200 : 422, { "Content-Type": "application/json" });
+        res.end(JSON.stringify(validation));
+      } catch (err) {
+        res.writeHead(400, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ error: err.message }));
+      }
+    });
+    return;
+  }
+
+  // Direct AI Generation Endpoint (Exploratory / Draft Only)
   if (url.pathname === "/api/generate" && req.method === "POST") {
     let body = "";
     req.on("data", chunk => body += chunk);
     req.on("end", async () => {
       try {
         const data = JSON.parse(body);
+        const sceneProfile = data.sceneProfile || data.options?.sceneProfile;
+        const opts = sceneProfile ? { sceneProfile } : (data.options || {});
         if (data.prompt) {
-          const synth = synthesizePrompt(data.prompt);
+          const synth = synthesizePrompt(data.prompt, opts);
           data.prompt = synth.positivePrompt;
           data.negativePrompt = synth.negativePrompt;
         }
@@ -264,11 +297,16 @@ const server = http.createServer((req, res) => {
           result.draftUrl = `/drafts/${encodeURIComponent(draftName)}`;
           result.draftName = draftName;
         }
+        // Explicitly label endpoint output as exploratory draft-only
+        result.mode = "draft";
+        result.productionCertified = false;
+        result.disclaimer = "Draft exploratory generation only. Not certified against production boundary or author-approved reference hashes.";
         res.writeHead(200, { "Content-Type": "application/json" });
         res.end(JSON.stringify(result));
       } catch (err) {
         console.error("Generate error:", err);
-        res.writeHead(500, { "Content-Type": "application/json" });
+        const isProfileError = err.message && err.message.startsWith("Unknown sceneProfile");
+        res.writeHead(isProfileError ? 400 : 500, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ error: err.message }));
       }
     });
@@ -333,10 +371,14 @@ const server = http.createServer((req, res) => {
   res.end("Not Found");
 });
 
-server.listen(PORT, () => {
-  console.log(`\n==================================================`);
-  console.log(`  THULAN GRAPHIC NOVEL STUDIO ACTIVE`);
-  console.log(`  URL: http://localhost:${PORT}`);
-  console.log(`  Storyboard Target: ${STORYBOARD_DIR}`);
-  console.log(`==================================================\n`);
-});
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  server.listen(PORT, () => {
+    console.log(`\n==================================================`);
+    console.log(`  THULAN GRAPHIC NOVEL STUDIO ACTIVE`);
+    console.log(`  URL: http://localhost:${PORT}`);
+    console.log(`  Storyboard Target: ${STORYBOARD_DIR}`);
+    console.log(`==================================================\n`);
+  });
+}
+
+export { server };
