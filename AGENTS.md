@@ -1,5 +1,118 @@
 # Thulans Production: Agent Operating Charter & Physical Mechanism Handoff Protocol
 
+<!-- AGENT_CONTRACT_V1_BEGIN -->
+```json
+{
+  "schema": "thulans-agent-contract-1.0",
+  "fail_closed": true,
+  "writable_exact": [
+    "AGENTS.md",
+    "RULINGS.md",
+    "README.md"
+  ],
+  "writable_roots": [
+    ".github/workflows/",
+    "blender/",
+    "docs/",
+    "evidence/",
+    "spec/",
+    "tools/"
+  ],
+  "frozen_paths": [
+    "tools/build_varek_physics_gate_v1.py"
+  ],
+  "override_root": "evidence/agent-overrides/",
+  "override_required_fields": [
+    "schema",
+    "override_id",
+    "approved_by",
+    "approved_at",
+    "reason",
+    "paths",
+    "source_revision"
+  ],
+  "allowed_verdicts": [
+    "UNIMPLEMENTED",
+    "BLOCKED",
+    "NOT_RUN",
+    "ERROR",
+    "FAIL",
+    "PASS_SCOPED",
+    "INVALIDATED"
+  ],
+  "scanner_excludes": [
+    "AGENTS.md",
+    "spec/test_agent_compliance.py",
+    "tools/audit_agent_compliance.py"
+  ],
+  "banned_patterns": [
+    {
+      "id": "synthetic_assert_true",
+      "regex": "\\bassert\\s+True\\b",
+      "weight": 3
+    },
+    {
+      "id": "unscoped_pass_verdict",
+      "regex": "(?i)[\\\"']?verdict[\\\"']?\\s*[:=]\\s*[\\\"']?PASS\\b[\\\"']?",
+      "weight": 3
+    },
+    {
+      "id": "boolean_status",
+      "regex": "(?i)[\\\"']?status[\\\"']?\\s*[:=]\\s*true\\b",
+      "weight": 2
+    },
+    {
+      "id": "fabricated_authorization",
+      "regex": "(?i)claim_authorized\\s*[:=]\\s*True\\b",
+      "weight": 4
+    },
+    {
+      "id": "workstation_absolute_path",
+      "regex": "/home/aaron/",
+      "weight": 1
+    },
+    {
+      "id": "unjustified_true_mock",
+      "regex": "(?i)(return_value|side_effect)\\s*=\\s*True\\b",
+      "allow_marker": "AGENT_TEST_DOUBLE_JUSTIFICATION:",
+      "weight": 2
+    }
+  ],
+  "error_gap_patterns": [
+    "\\bTODO\\b",
+    "\\bFIXME\\b",
+    "NotImplementedError",
+    "pragma:\\s*no cover"
+  ],
+  "error_gap_marker_regex": "AGENT_ERROR_GAP\\[[A-Z0-9._-]+\\]",
+  "task_record_root": "evidence/agent-tasks/",
+  "task_record_required_for_roots": [
+    ".github/workflows/",
+    "spec/",
+    "tools/"
+  ],
+  "task_record_required_fields": [
+    "schema",
+    "task_id",
+    "agent_id",
+    "claim",
+    "verdict",
+    "counterevidence_checked",
+    "known_exclusions",
+    "unexecuted_checks",
+    "reproduction_command",
+    "covered_paths",
+    "source_revision"
+  ],
+  "placation_index": {
+    "diff_only_threshold": 3,
+    "blocked_threshold": 6
+  }
+}
+```
+<!-- AGENT_CONTRACT_V1_END -->
+
+
 > **Read first:** `handoff/PREFIX.md` — the frozen resumption prefix (canonical
 > artifacts, gate state, tooling, open rulings). It is the single handoff anchor and
 > must be updated in the same commit as any state change.
