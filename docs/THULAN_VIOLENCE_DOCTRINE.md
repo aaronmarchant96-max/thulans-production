@@ -124,6 +124,10 @@ mechanical geometry.
 
 ---
 
+### LABORA / FORTIS companion scope — 29 October 2026
+
+The *Salvation application* above describes **Revision 3's historical staging**. [RULING 037](../RULINGS.md#ruling-037-labora) now supplies the newer companion direction: the injury is quick, the machinery's imposed action and handler's responsibility remain legible, and the **final image is only Nessa held upright above Ansen's dead body**, without the older coat flashback. The governing doctrine **continues to apply to graphic-novel panels**, alongside the [Graphic-Novel Style Contract §17](GRAPHIC_NOVEL_STYLE_CONTRACT.md#17-violence-injury-and-gore), which permits purposeful gore. There is no exemption and no validated mechanism claimed by this note.
+
 ## 5. Thulan Warrior Identity & The Metric of Honor
 
 The martial ethic of the Thulans is rooted in Varek’s maxim:

@@ -1,0 +1,25 @@
+{
+  "schema": "thulans-agent-task-1.0",
+  "task_id": "CI-CONTRACT-RESTORE-V1",
+  "agent_id": "claude-code",
+  "claim": "The CARDO claim-integrity workflow can compile the AGENTS.md contract, run the hand-physics oracle test without a workstation-specific checkout, and audit a new branch's first push.",
+  "verdict": "PASS_SCOPED",
+  "counterevidence_checked": [
+    "unit suite run with the author workstation checkout temporarily moved away, so the oracle could not read workstation files",
+    "push-audit base fallback exercised with an all-zero before SHA, resolving to the merge base with origin/main",
+    "audit_agent_compliance.py --compile-only against the restored AGENTS.md contract block"
+  ],
+  "known_exclusions": [
+    "Local execution cannot verify GitHub-hosted runner behaviour; the PR's own workflow run is the platform check.",
+    "Other Blender tools under tools/ still hardcode workstation-absolute paths; they are not run by CI and are out of scope here.",
+    "No Blender renders, physics simulations or visual approvals were executed."
+  ],
+  "unexecuted_checks": [],
+  "reproduction_command": "python tools/audit_agent_compliance.py --compile-only && python -m unittest discover -s spec -v && python tools/audit_claim_records.py",
+  "covered_paths": [
+    ".github/workflows/cardo-claims.yml",
+    "AGENTS.md",
+    "tools/validate_hand_physics_results.py"
+  ],
+  "source_revision": "4dadc89"
+}

@@ -27,10 +27,14 @@ jobs:
           --head "${{ github.sha }}"
       - name: Audit agent compliance on push
         if: github.event_name == 'push'
-        run: >-
-          python tools/audit_agent_compliance.py
-          --base "${{ github.event.before }}"
-          --head "${{ github.sha }}"
+        # A new branch's first push reports an all-zero "before" SHA; audit it
+        # against its merge base with main instead.
+        run: |
+          base="${{ github.event.before }}"
+          if [ "$base" = "0000000000000000000000000000000000000000" ]; then
+            base="$(git merge-base origin/main "${{ github.sha }}")"
+          fi
+          python tools/audit_agent_compliance.py --base "$base" --head "${{ github.sha }}"
       - name: Run repository tests
         run: python -m unittest discover -s spec -v
       - name: Audit canonical claim records

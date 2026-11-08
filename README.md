@@ -3,10 +3,10 @@
 *Industrial grimdark fiction, graphic novels, and production tools by Aaron Marchant.*
 
 ![Novella Status](https://img.shields.io/badge/novella-Acts%20I--IV%20Complete-brightgreen)
-![Word Count](https://img.shields.io/badge/word_count-22%2C979%20words-blue)
+![Word Count](https://img.shields.io/badge/word_count-recount%20pending-blue)
 ![Editorial Status](https://img.shields.io/badge/editorial_status-revised%20reading%20draft-blue)
 ![Salvation Pilot](https://img.shields.io/badge/Salvation-16--page%20working%20pilot-c49a62)
-![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--036-orange)
+![Canon Lock](https://img.shields.io/badge/continuity-RULINGS%20001--040-orange)
 ![Audio Master](https://img.shields.io/badge/audio-Take%207%20Cinematic%20Master%20(03%3A33)-blueviolet)
 ![License](https://img.shields.io/badge/license-Proprietary%20%2F%20Aaron%20Marchant-lightgrey)
 
@@ -23,18 +23,20 @@
 
 | Read | Current state |
 | --- | --- |
-| **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Complete prologue and twelve-chapter revised reading draft synchronized with cover and illustrations. |
-| **[Salvation — graphic-novel pilot](docs/SALVATION_PILOT_16_PAGES.md)** | Working revision 3: **16 story pages, 66 panels**, following Ansen and his sister Nessa. |
+| **[The Weight of a Lie — illustrated novella](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)** | Authoritative complete illustrated reading draft; repository text mirrors are dated snapshots. |
+| **[LABORA — new companion-story direction](docs/LABORA_STORY_TREATMENT_V01.md)** | Author-approved creative direction for unrelated orphans Ansen and Nessa, a joint rescue and silent ending. **Working title, not a final script.** |
+| **[Welded breaker — approved visual lock V0.1](docs/WELDED_BREAKER_VISUAL_LOCK_V01.md)** | RULING 040: one hulking mobile breaker design approved by exact reference SHA; Varek's Chapter Six release revised accordingly. **Nessa's station rig remains unlocked.** |
+| **[Salvation — older 16-page pilot](docs/SALVATION_PILOT_16_PAGES.md)** | Revision 3: **16 story pages / 66 panels**, preserved as a historical comparison; not the latest relationship/ending. |
 | **[The rebellion novellas — series direction](docs/REBELLION_SAGA_DIRECTION.md)** | Approved ascending premise; individual books, geography, dates, and final outcome remain in development. |
 | **[Lore bible](docs/THE_THULANS_LORE_BIBLE_v3.md)** · **[Language and names](docs/THULAN_LANGUAGE_NOTE.md)** | World references, with current rulings and historical planning scopes distinguished. |
 
 ## 📖 The Novella: *The Weight of a Lie*
 
-The complete novella—comprising the Prologue, all twelve chapters, the canonical cover art, and 11 chapter/act illustrations—is synchronized directly from the authoritative live illustrated Google Doc:
+The **live illustrated Google Doc** is authoritative for the complete prologue and twelve-chapter reading draft. Repository text is a **mixed-date mirror**, not a newly synchronized copy of the entire live Doc: Chapter One was synchronized on 24 October 2026; **Chapter Six was specifically revised against the live Google Doc on 29 October 2026 for Varek's Welded rescue**; Chapters Two–Five and Seven–Twelve retain their earlier 21 October snapshots. The omnibus incorporates the Chapter Six change but is **not** a full-document re-sync. The novella's existing cover should not be confused with any unapproved *Salvation* / **FORTIS** cover candidates:
 
 * 📖 **[Read the Authoritative Illustrated Google Doc](https://docs.google.com/document/d/1UioMeG59Kw7xE6XvxoLRXy0SbkTXwg-6ktSO5QL2cpY)**  
 * 📚 **[Novella Hub & Chapter Index (`novella/README.md`)](novella/README.md)**  
-* 📑 **[Read the Full Omnibus Manuscript (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
+* 📑 **[Read the Dated Omnibus Text Mirror (`novella/THE_THULANS_MANUSCRIPT_COMPLETE.md`)](novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
 * 📄 **[Raw Markdown Clean Reading View](https://raw.githubusercontent.com/aaronmarchant96-max/thulans-production/main/novella/THE_THULANS_MANUSCRIPT_COMPLETE.md)**  
 * 🎨 **[Historical Illustration Brief & Production Notes](docs/archive/READING_DRAFT_PRODUCTION_NOTES_2026-10-20.md)**  
 
@@ -45,19 +47,25 @@ Varek, an old man inside a three-tonne rescue machine, leaves his state post to 
 
 ---
 
-## The Thulans: Salvation
+## LABORA — companion-story development (29 October 2026)
 
 **Three months was the sentence. Five years later, they are still inside.**
 
-Caught stealing bread from the upper Spire, **Ansen** and his sister **Nessa** are confined in steam-powered penal frames. The promised release never comes. When Varek frees Ansen, he goes looking for the person he cannot leave behind.
+The companion project was developed in this repository as *The Thulans: Salvation*. **LABORA** is now the favored **working title** and **FORTIS** remains an alternate; neither is a final published title or authorization to rename files globally.
 
-*Salvation* follows the life behind a brief encounter in the novella: shared bread, a familiar touch, and the hope of getting someone home. Its emotional horror grows from the siblings' relationship and their struggle against machinery that moves without their consent.
+**Ansen and Nessa are unrelated orphans who grew up together**, not siblings as in the older draft. They steal bread at roughly thirteen and receive three-month sentences inside separately assigned powered penal frames. Varek frees Ansen five years later. After his already-established Chapter Ten/Eleven participation, Ansen finds Nessa working a transfer station. Together they open a passage for trapped workers. When the handler **Hesk** commands her frame to seize Ansen, she cannot stop its powered grip from killing him. The closing image is silent: **Nessa trapped upright above Ansen's body**.
 
-**Current state:** a **16-page, 66-panel working graphic-novel pilot, revision 3**. The characters, sentencing premise, and tragic outcome are approved. Final art, mechanical blocking, music, and the search route remain in development. The pilot preserves the freed miner's later novella appearances; its additional gallery and handler scenes are explicitly labelled as adaptation staging. The existing manuscript has not been rewritten.
+This is **approved creative direction, not a finished script or verified machine design**. **Hesk** (replacing Brun, too close to Bram), **Edda** and **Pell** are provisional companion-story names. Page count, full merged prose, chronology, blocking, artwork and cover remain open. The existing **16-page/66-panel Salvation revision 3** script is retained for comparison, not silently edited to match the new premise.
 
-- **[Read the pilot](docs/SALVATION_PILOT_16_PAGES.md)**
-- [Story direction and continuity boundaries](docs/SALVATION_STORY_DIRECTION.md)
-- [RULING 035: the Welded, coercion, and the siblings](RULINGS.md#ruling-035-welded)
+- **[Read the LABORA treatment / decisions](docs/LABORA_STORY_TREATMENT_V01.md)**
+- [Active story direction](docs/SALVATION_STORY_DIRECTION.md)
+- [Transfer station V0.2 — blocking and physical proof gates](docs/LABORA_TRANSFER_STATION_LAYOUT_V02.md)
+- [Timeline and mechanical plausibility review V0.1 — source-grounded issues and proposed fixes](docs/LABORA_TIMELINE_AND_MECHANICS_REVIEW_V01.md)
+- [Transfer-station V0.3 — simplified reader-first plan and elevation](docs/LABORA_STATION_BLOCKING_V03.md)
+- [RULING 037 — companion direction and supersession](RULINGS.md#ruling-037-labora)
+- [Historical Salvation pilot Revision 3 — 16 pages / 66 panels](docs/SALVATION_PILOT_16_PAGES.md)
+- [28 October status snapshot, with 29 October supersession notice](docs/THULANS_LOCKED_STATUS_2026-10-28.md)
+- [RULING 035 — continuing Welded/novella continuity](RULINGS.md#ruling-035-welded)
 
 ## The rebellion novellas
 
@@ -141,7 +149,7 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 ## 📁 Repository Structure
 
 ```
-├── novella/                     # Canonical 12-chapter novella manuscript
+├── novella/                     # Dated 12-chapter repository text mirror; live Doc controls
 │   ├── chapter_01.md .. 12.md   # Individual chapters (Acts I–IV)
 │   ├── THE_THULANS_MANUSCRIPT_COMPLETE.md   # Full omnibus edition
 │   └── THE_THULANS_MANUSCRIPT_ACTS_I_TO_IV.md
@@ -157,7 +165,9 @@ In addition to the literary work, this repository hosts the tooling, shot manife
 │   ├── THE_THULANS_LORE_BIBLE_v3.md
 │   ├── THULAN_LANGUAGE_NOTE.md
 │   ├── SALVATION_PILOT_16_PAGES.md    # Ansen and Nessa — working pilot
-│   ├── SALVATION_STORY_DIRECTION.md
+│   ├── SALVATION_STORY_DIRECTION.md       # Active 29 Oct direction
+│   ├── LABORA_STORY_TREATMENT_V01.md     # New candidate treatment
+│   ├── LABORA_TRANSFER_STATION_LAYOUT_V02.md # Unvalidated scene blocking
 │   ├── REBELLION_SAGA_DIRECTION.md
 │   ├── THULAN_NOVELLA_VOICE_CONTRACT.md
 │   └── THULAN_VIOLENCE_DOCTRINE.md
@@ -186,4 +196,4 @@ cd tools/panel-studio && npm test
 
 * **Author & Lead Engineer**: Aaron Marchant ([@PromptHound96](https://twitter.com/PromptHound96) · [github.com/aaronmarchant96-max](https://github.com/aaronmarchant96-max))
 * **Primary Resumption Anchor**: [`handoff/PREFIX.md`](handoff/PREFIX.md)
-* **Current work**: Complete novella reading draft · *Salvation* pilot revision 3 · rebellion-series development
+* **Current work**: Complete novella reading draft · LABORA story development (older Salvation Rev 3 retained) · rebellion-series development

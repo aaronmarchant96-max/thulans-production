@@ -1,6 +1,11 @@
 # FORTIS — Production Reconciliation Addendum (Draft)
 
-**Status:** PROPOSED / NOT CANON / NOT PRODUCTION APPROVAL  
+> **29 October historical-scope note:** This is a **28 October sibling/FORTIS/16-page planning draft**, not the active story direction. [RULING 037](../RULINGS.md#ruling-037-labora) now approves Ansen/Nessa as **unrelated orphans raised together**, chooses **LABORA** as preferred *working* title (FORTIS alternate), and changes the ending to the silent image of Nessa in her frame above Ansen's body. [Treatment](LABORA_STORY_TREATMENT_V01.md) and [station V0.2](LABORA_TRANSFER_STATION_LAYOUT_V02.md) supersede old story and scene assumptions. No global rename, production art or REI/AGY implementation approval follows; separate open PR #3 remains out of scope.
+
+
+**Status:** PROPOSED / NOT CANON / NOT PRODUCTION APPROVAL
+
+**Lock clarification (28 October 2026):** See [the current locked-names and approval-status matrix](THULANS_LOCKED_STATUS_2026-10-28.md). `The Thulans: Salvation` and the approved sibling names **Ansen** and **Nessa** are retained; **FORTIS** is a *working* cover/presentation title, not an approved rename. Opening Revision 4 is a candidate and revision 3 remains the repository's working script (16 pages / 66 panels). The REI / Thulan Image Engine integration plans have **not been approved**; this draft does not authorize API/provider/code work or paid generation.  
 **Scope:** Proposed title and workflow for the Ansen/Nessa 16-page graphic-novel pilot currently known in the repository as *The Thulans: Salvation*.  
 **Baseline reviewed:** `afb72829954b07f7bcdbc7859aa4022832d7c0b8` (28 October 2026).  
 **Owner:** Author approval required. **Implementer:** AGY for code, canon and production changes.
@@ -67,10 +72,10 @@ Prior audit reported a `loreGuard` rule requiring unrelated Varek terms (such as
 4. Remove/replace named-artist prompt chips with functional visual-language descriptors, subject to the style contract §4.
 5. Report test evidence and changed files in a separate implementation PR.
 
-## Required next PRs (separate from this draft)
+## Proposed future PR sequence — not authorized by this document
 
 - **PR-A:** Author-approved title/style reconciliation with `RULINGS.md`, story direction, script header, README and `handoff/PREFIX.md` updated together. Do **not** apply until DEC-01/02 approved.
-- **PR-B:** Panel Studio validator and prompt-chip repair, with negative regression tests.
+- **PR-B:** Panel Studio validator and prompt-chip repair, with negative regression tests. **Status note (28 October):** existing implementation PR [#3](https://github.com/aaronmarchant96-max/thulans-production/pull/3) was open/unmerged; do not create a competing PR or treat its claims as verified approval.
 - **PR-C:** Script revision, character/silhouette approvals and thumbnail sign-off.
 - **PR-D:** Page 1 static/motion proof and measured calibration report.
 
